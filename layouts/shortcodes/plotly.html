@@ -1,0 +1,61 @@
+<!-- Chart container -->
+<div id="{{ .Get `id` }}" style="width:600%; max-width: 1200px; height:400px;"></div>
+
+<!-- Plotly -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script>
+  window.addEventListener('load', function() {
+    fetch('{{ .Get "data" | relURL }}')
+      .then(response => response.json())
+      .then(data => {
+        const names = data.map(entry => entry.method);
+        const scores = data.map(entry => entry.score);
+        const date = data.map(entry => entry.date);
+
+        const trace = {
+          x: date,
+          y: scores,
+          mode: "markers",
+          marker: {
+            color: 'blue',
+            size: 20,
+          },
+          opacity: 0.7,
+          text: names,
+          hovertemplate: '%{text}: %{y}<extra></extra>',
+          hoverlabel: {
+            font: {
+              size: 16,  // default is 13
+            }
+          }
+        };
+
+        Plotly.newPlot('{{ .Get "id" }}', [trace], {
+          title: '{{ .Get "title" }}',
+          autosize: false,
+          width: 1200,
+          height: 450
+        });
+
+        // Plotly click event
+        const chartDiv = document.getElementById("{{ .Get `id` }}");
+        chartDiv.on('plotly_click', function(eventData) {
+          const clickedIndex = eventData.points[0].pointIndex;
+          const clickedMethod = names[clickedIndex];
+
+          // Dispatch event with correct chart ID
+          window.dispatchEvent(new CustomEvent('plotly-click', { 
+            detail: { method: clickedMethod, chartId: "{{ .Get `id` }}" } 
+          }));
+
+          // Scroll to the correct table
+          const tableContainer = document.getElementById("{{ .Get `id` }}-table");
+          if (tableContainer) {
+            tableContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      })
+      .catch(error => console.error('Error loading data:', error));
+  });
+</script>

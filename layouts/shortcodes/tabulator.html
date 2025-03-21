@@ -1,0 +1,56 @@
+<!-- Table container -->
+<div id="{{ .Get `id` }}-table" style="width:200%;height:250px;"></div>
+
+<!-- Tabulator.js -->
+<link href="https://unpkg.com/tabulator-tables@5.3.4/dist/css/tabulator_bootstrap4.min.css" rel="stylesheet">
+<script src="https://unpkg.com/tabulator-tables@5.3.4/dist/js/tabulator.min.js"></script>
+
+<script>
+  window.addEventListener('load', function() {
+    fetch('{{ .Get "data" | relURL }}')
+      .then(response => response.json())
+      .then(data => {
+        window.tabulatorTables = window.tabulatorTables || {}; // Store multiple tables
+
+        const table = new Tabulator("#{{ .Get `id` }}-table", {
+          data: data,
+          layout: "fitColumns",
+          selectable: true,
+          columns: [
+            { title: "Method", field: "method", sorter: "string" },
+            { title: "Score", field: "score", sorter: "number" },
+            { title: "Date", field: "date", sorter: "number" }
+          ],
+          height: "auto",
+        });
+
+        window.tabulatorTables["{{ .Get `id` }}"] = table;
+      })
+      .catch(error => console.error("Error loading table data:", error));
+
+    // Variable to control scrolling behavior
+    let hasScrolled = false;
+
+    // Listen for plotly-click event
+    window.addEventListener('plotly-click', function(event) {
+      const { method, chartId } = event.detail;
+      const table = window.tabulatorTables[chartId];
+
+      if (table) {
+        table.deselectRow();
+        const row = table.getRows().find(row => row.getData().method === method);
+        if (row) {
+          row.select();
+          if (!hasScrolled) {
+            row.getElement().scrollIntoView({ behavior: 'smooth', block: 'center' });
+            hasScrolled = true;
+          }
+        }
+      }
+    });
+    // Reset the scroll behavior flag when user scrolls manually
+    window.addEventListener('scroll', function() {
+        hasScrolled = false;
+    });
+  });
+</script>
