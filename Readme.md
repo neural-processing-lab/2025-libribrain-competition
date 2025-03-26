@@ -15,7 +15,7 @@ git clone git@github.com:neural-processing-lab/2025-libribrain-competition.git
 To build it with `Docker`, run
 
 ```bash
-cd libribrain-competition-website
+cd 2025-libribrain-competition
 docker compose -f docker/docker-compose.yml up --build
 ```
 
@@ -28,7 +28,7 @@ To build and preview the site locally, install `hugo` from [https://github.com/g
 Once installed, run
 
 ```bash
-cd libribrain-competition-website
+cd 2025-libribrain-competition
 hugo server --disableFastRender --port 1314
 ```
 
@@ -36,6 +36,6 @@ Now you should be able to view the website at [http://localhost:1314/](http://lo
 
 
 
-### Update
+### Update and Deploy
 
-To update the content of the website, modify the relevant files in the `content` directory. If the above command is running, you can preview the changes live. Once everything looks good, update the `main` branch (ideally via a PR), to deploy the site.
+To update the content of the website, modify the relevant files in the `content` directory. If the above command is running, you can preview the changes live. Once everything looks good, update the `main` branch (ideally via a PR) to deploy the site.
