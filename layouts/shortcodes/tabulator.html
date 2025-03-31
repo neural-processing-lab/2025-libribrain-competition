@@ -7,7 +7,7 @@
 
 <script>
   window.addEventListener('load', function() {
-    fetch('{{ .Get "data" | relURL }}')
+    fetch("{{ .Site.BaseURL }}" + "{{ .Get `data` }}")
       .then(response => response.json())
       .then(data => {
         window.tabulatorTables = window.tabulatorTables || {}; // Store multiple tables
