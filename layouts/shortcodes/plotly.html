@@ -6,7 +6,7 @@
 
 <script>
   window.addEventListener('load', function() {
-    fetch('{{ .Get "data" | relURL }}')
+    fetch("{{ .Site.BaseURL }}" + "{{ .Get `data` }}")
       .then(response => response.json())
       .then(data => {
         const names = data.map(entry => entry.method);
