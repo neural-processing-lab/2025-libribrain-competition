@@ -1,3 +1,7 @@
+---
+layout: "simple"
+---
+
 ## Organisers
 THe LibriBrain Competition is organized by The **P**arker Jones **N**eural **P**rocessing **L**ab (PNPL) at Oxford.
 Our work spans foundational neuroscience, machine learning methods development, and systems applications such as Brain Computer Interfaces (BCIs).
