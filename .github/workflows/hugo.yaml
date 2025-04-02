@@ -72,6 +72,9 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Check EvalAI Connectivity
+        run: curl -v https://eval.ai
+
       - name: Fetch leaderboard from EvalAI
         env:
           CHALLENGE_ID: ${{ secrets.CHALLENGE_ID }}
