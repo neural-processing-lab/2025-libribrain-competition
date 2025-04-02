@@ -12,6 +12,7 @@
       .then(data => {
         window.tabulatorTables = window.tabulatorTables || {}; // Store multiple tables
 
+        // Initialize the Tabulator table
         const table = new Tabulator("#{{ .Get `id` }}-table", {
           data: data,
           layout: "fitColumns",
@@ -48,9 +49,10 @@
         }
       }
     });
+
     // Reset the scroll behavior flag when user scrolls manually
     window.addEventListener('scroll', function() {
-        hasScrolled = false;
+      hasScrolled = false;
     });
   });
 </script>
