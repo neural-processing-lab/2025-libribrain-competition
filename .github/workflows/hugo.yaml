@@ -9,6 +9,10 @@ on:
     branches:
       - main
 
+  pull_request:
+    branches:
+      - main
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -75,7 +79,12 @@ jobs:
           EVALAI_HOST_URL: ${{ secrets.EVALAI_HOST_URL }}
           EVALAI_TOKEN: ${{ secrets.EVALAI_TOKEN }}
           OUTPUT_DIR: ${{ secrets.OUTPUT_DIR }}
-        run: python scripts/leaderboard_manager.py
+        run: |
+            echo "CHALLENGE_ID length: ${#CHALLENGE_ID}"
+            echo "EVALAI_TOKEN length: ${#EVALAI_TOKEN}"
+            echo "EVALAI_HOST_URL length: ${#EVALAI_HOST_URL}"
+            echo "OUTPUT_DIR length: ${#OUTPUT_DIR}"
+            python scripts/leaderboard_manager.py
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
