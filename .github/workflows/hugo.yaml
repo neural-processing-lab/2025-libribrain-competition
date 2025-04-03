@@ -14,9 +14,9 @@ on:
     branches:
       - main
 
-  # Runs every hour
+  # Runs every 3 days
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 */3 * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -98,6 +98,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: github.event_name == 'push' # Only run on push to main
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
