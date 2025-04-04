@@ -1,3 +1,7 @@
+---
+layout: "simple"
+---
+
 ## Challenge Overview
 
 The LibriBrain Competition presented in NeurIPS 2025 invites AI researchers and students to take part in the exciting challenge of decoding language from the brain. The societal impact of a functioning brain computer interface systems will be substantial - first for people with speech related disabilities, and eventually as a new paradigm for interaction with computers. 

@@ -31,10 +31,34 @@
   pageRef="participate"
   weight=25
 
+#[[main]]
+#  name = "Leaderboard"
+#  pageRef="leaderboard"
+#  weight=30
+
 [[main]]
-  name = "Leaderboard"
-  pageRef="leaderboard"
-  weight=30
+  name = "Speech Detection (Standard)"
+  parent = "Leaderboard"
+  pageRef = "speech_detection_standard"
+  weight = 30
+
+[[main]]
+  name = "Speech Detection (Extended)"
+  parent = "Leaderboard"
+  pageRef = "speech_detection_extended"
+  weight = 30
+
+[[main]]
+  name = "Phoneme Classification (Standard)"
+  parent = "Leaderboard"
+  pageRef = "phoneme_classification_standard"
+  weight = 30
+
+[[main]]
+  name = "Phoneme Classification (Extended)"
+  parent = "Leaderboard"
+  pageRef = "phoneme_classification_extended"
+  weight = 30
 
 [[main]]
   name = "Organisers"
