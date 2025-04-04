@@ -12,22 +12,22 @@
 
 
 [[main]]
-  name = "Overview"
+  name = "Home"
   pageRef = "overview"
   weight = 5
 
 [[main]]
-  name = "Tasks"
+  name = "Tracks"
   pageRef="tasks"
   weight=15
 
 [[main]]
-  name = "Starter Kit"
-  pageRef="starter-kit"
+  name = "Prizes"
+  pageRef="participate"
   weight=20
 
 [[main]]
-  name = "Participate"
+  name = "PARTICIPATE"
   pageRef="participate"
   weight=25
 
