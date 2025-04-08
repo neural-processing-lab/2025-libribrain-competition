@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "LibriBrain Competition 2025 (from PNPL 🍍)"
+title = "LibriBrain Competition 2025"
 
 [params]
   displayName = "EN"
