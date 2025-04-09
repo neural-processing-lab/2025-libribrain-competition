@@ -13,23 +13,33 @@
 
 [[main]]
   name = "Home"
-  pageRef = "overview"
+  pageRef = "/"
   weight = 5
 
 [[main]]
   name = "Tracks"
-  pageRef="tasks"
+  pageRef="tracks"
   weight=15
 
 [[main]]
   name = "Prizes"
-  pageRef="participate"
+  pageRef="prizes"
   weight=20
 
 [[main]]
   name = "PARTICIPATE"
   pageRef="participate"
   weight=25
+
+[[main]]
+  name = "Rules"
+  pageRef="rules"
+  weight=30
+
+[[main]]
+  name = "Timeline"
+  pageRef="timeline"
+  weight=35
 
 #[[main]]
 #  name = "Leaderboard"
@@ -63,4 +73,4 @@
 [[main]]
   name = "Organisers"
   pageRef="organisers"
-  weight=35
+  weight=40
