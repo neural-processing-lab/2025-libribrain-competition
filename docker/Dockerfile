@@ -10,9 +10,13 @@ RUN apt update \
  && apt install -y wget \
  && rm -rf /var/lib/apt/lists/*
 
-RUN wget -O hugo.deb --progress=dot:mega \
-    "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" \
- && dpkg -i hugo.deb
+RUN ARCH=$(dpkg --print-architecture) \
+ && wget -O hugo.tar.gz --progress=dot:mega \
+    "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-${ARCH}.tar.gz" \
+ && tar -xzf hugo.tar.gz \
+ && mv hugo /usr/local/bin/hugo \
+ && chmod +x /usr/local/bin/hugo \
+ && rm -rf hugo.tar.gz
 
 # COPY . .
 
