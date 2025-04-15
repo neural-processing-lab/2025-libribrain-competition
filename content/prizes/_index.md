@@ -1,1 +1,5 @@
-# Prizes
+---
+layout: "simple"
+---
+
+## Prizes

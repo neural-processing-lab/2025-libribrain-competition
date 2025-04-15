@@ -1,3 +1,7 @@
+---
+layout: "simple"
+---
+
 ## Participate
 
 ### Getting Started
