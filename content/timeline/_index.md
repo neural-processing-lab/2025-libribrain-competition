@@ -1,1 +1,5 @@
-# Timeline
+---
+layout: "simple"
+---
+
+## Timeline
