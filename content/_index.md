@@ -30,9 +30,9 @@ We believe that the way forward for advancing this impactful technology is throu
 We're excited to see what you'll build!
 
 <div>
-  <a href="https://github.com/pnpl" style="background-color:#776885;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Learn more...</a>
+  <a href="https://neural-processing-lab.github.io/2025-libribrain-competition/tracks/" style="background-color:#776885;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Learn more...</a>
   &nbsp;
-  <a href="#why-participate" style="background-color:#002147;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Participate now!</a>
+  <a href="https://neural-processing-lab.github.io/2025-libribrain-competition/participate/" style="background-color:#002147;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Participate now!</a>
 </div>
 
 <br><br><br>
