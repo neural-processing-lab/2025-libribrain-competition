@@ -1,6 +1,36 @@
+---
+title: "Home"
+---
+<p>
+  <img src="libribrain-wordmark.png" alt="LibriBrain Wordmark" width="400"/>
+</p>
+
+<div role="alert"
+     style="
+       background-color: #FEF9C3;
+       border-left: 4px solid #F59E0B;
+       color: #92400E;
+       padding: 1rem;">
+  <p style="font-weight: 700;">🚧 Work in Progress</p>
+  <p>The competition website is under active development. Expect information to change.</p>
+</div>
+
+
+
 ## LibriBrain Competition 2025
 
-The LibriBrain Competition presented in NeurIPS 2025 invites AI researchers and students to take part in the exciting challenge of decoding language from the brain. The societal impact of a functioning brain computer interface systems will be substantial - first for people with speech related disabilities, and eventually as a new paradigm for interaction with computers. 
+The **LibriBrain Competition** presented at NeurIPS 2025 invites AI researchers and students to take part in the exciting challenge of non-invasively decoding language from the brain. The societal impact of functioning brain computer interface systems will be substantial - first for people with speech related disabilities, and eventually as a new paradigm for interaction with computers.
 
-We believe that the way forward for advancing this impactful technology is through standardization and easy accessibility for the broader research community. Our goal is to spark an "ImageNet moment" for BCI, lowering the barrier of entry for researchers to contribute to this exciting new field.
+We believe that the way forward for advancing this impactful technology is through standardization and easy accessibility for the broader research community. Our goal is to spark an "ImageNet moment" for BCI, lowering the barrier of entry for researchers to contribute to this exciting new field. To this effect, we're excited to announce
+- **Deepest MEG dataset to date**: 25–50× deeper than most existing datasets
+- **Plug-and-play Python package**: `pip install pnpl`
+- **Hands-on tutorials**: Train your first model in under an hour
+- **Community & competition**: Prizes 🎁, leaderboards 🌐, Discord 🗣️
 
+We're excited to see what you'll build!
+
+<div>
+  <a href="https://github.com/pnpl" style="background-color:#776885;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Learn more...</a>
+  &nbsp;
+  <a href="#why-participate" style="background-color:#002147;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Participate now!</a>
+</div>

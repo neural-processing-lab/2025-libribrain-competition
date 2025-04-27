@@ -14,6 +14,8 @@ enableCodeCopy = false
 
 replyByEmail = false
 
+favicon = "favicon.png"
+
 # mainSections = ["section1", "section2"]
 # robots = ""
 
