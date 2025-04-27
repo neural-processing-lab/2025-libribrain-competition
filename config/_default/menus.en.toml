@@ -50,25 +50,25 @@
   name = "Speech Detection (Standard)"
   parent = "Leaderboard"
   pageRef = "speech_detection_standard"
-  weight = 30
+  weight = 45
 
 [[main]]
   name = "Speech Detection (Extended)"
   parent = "Leaderboard"
   pageRef = "speech_detection_extended"
-  weight = 30
+  weight = 45
 
 [[main]]
   name = "Phoneme Classification (Standard)"
   parent = "Leaderboard"
   pageRef = "phoneme_classification_standard"
-  weight = 30
+  weight = 45
 
 [[main]]
   name = "Phoneme Classification (Extended)"
   parent = "Leaderboard"
   pageRef = "phoneme_classification_extended"
-  weight = 30
+  weight = 45
 
 [[main]]
   name = "Organisers"

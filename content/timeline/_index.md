@@ -1,4 +1,7 @@
-# Timeline
+---
+layout: "simple"
+---
+## Timeline
 
 The timeline below is a high-level overview of the competition. It may change as we finalise details.
 

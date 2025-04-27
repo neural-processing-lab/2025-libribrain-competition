@@ -1,3 +1,7 @@
+---
+layout: "simple"
+---
+
 ## Participate
 We're excited for you to get started! Here are some resources to help you along the way:
 

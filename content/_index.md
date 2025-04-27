@@ -34,3 +34,13 @@ We're excited to see what you'll build!
   &nbsp;
   <a href="#why-participate" style="background-color:#002147;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Participate now!</a>
 </div>
+
+<br><br><br>
+
+<div style="display: flex; justify-content: space-between;">
+
+  <img src="images/sherlock2.gif" style="width: 550px; height: 350px: cover; border-radius: 8px; display: block; margin: auto;"/>
+
+  <img src="images/sherlock1.gif" style="width: 550px; height: 350px: cover; border-radius: 8px; display: block; margin: auto;"/>
+
+</div>

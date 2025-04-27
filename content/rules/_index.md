@@ -1,7 +1,8 @@
 ---
-title: "Rules"
+layout: "simple"
 ---
 
+## Rules
 The primary aim of the competition is to foster innovation across all levels of expertise and resources. With that in mind, we have tried to make the rules as inclusive as possible.
 
 ---
