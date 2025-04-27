@@ -1,5 +1,5 @@
 ---
-title: "Home"
+layout: "simple"
 ---
 <p>
   <img src="libribrain-wordmark.png" alt="LibriBrain Wordmark" width="400"/>
