@@ -8,8 +8,12 @@ The **LibriBrain Competition** features two core tasks in decoding language from
 - **Speech Detection**  
   Train a model to distinguish *speech* vs. *silence* based on brain activity measured by MEG during a listening session.
 
+<img src="../images/sherlock3.gif" style="width: 550px; height: 350px: cover; border-radius: 8px; display: block; margin: auto;"/>
+
 - **Phoneme Classification**  
   Build a classifier that maps MEG data to the specific **phonemes** being heard.
+
+<img src="../images/sherlock4.gif" style="width: 550px; height: 350px: cover; border-radius: 8px; display: block; margin: auto;"/>
 
 ## Variants
 
@@ -24,6 +28,4 @@ We offer two variants per track to balance resource constraints with open explor
 
 ---
 
-We believe these tasks will spark new breakthroughs in language decoding from brain activity. Ready to get started?
-
-![Speech Detection Illustration](speechdetection.png)
+We believe these tasks will spark new breakthroughs in language decoding from brain activity. Ready to get started? Check out the [participation guide](../participate)!
