@@ -41,10 +41,10 @@
   pageRef="timeline"
   weight=35
 
-#[[main]]
-#  name = "Leaderboard"
-#  pageRef="leaderboard"
-#  weight=30
+[[main]]
+  name = "Leaderboard"
+  pageRef="leaderboard"
+  weight=45
 
 [[main]]
   name = "Speech Detection (Standard)"
