@@ -1,5 +1,5 @@
 <!-- Table container -->
-<div id="{{ .Get `id` }}-table" style="width:200%;height:250px;"></div>
+<div id="{{ .Get `id` }}-table" style="height:250px; width: auto;"></div>
 
 <!-- Tabulator.js -->
 <link href="https://unpkg.com/tabulator-tables@5.3.4/dist/css/tabulator_bootstrap4.min.css" rel="stylesheet">
@@ -11,6 +11,17 @@
       .then(response => response.json())
       .then(data => {
         window.tabulatorTables = window.tabulatorTables || {}; // Store multiple tables
+
+        const tableContainer = document.getElementById("{{ .Get `id` }}-table");
+
+        // If top parameter is passed, limit the rows to top-k
+        const topK = {{ .Get `top` | default `0` }};
+        if (topK > 0) {
+          data = data.slice(0, topK);
+          // tableContainer.style.width = "80%";
+        } else {
+          // tableContainer.style.width = "110%";
+        }
 
         // Initialize the Tabulator table
         const table = new Tabulator("#{{ .Get `id` }}-table", {
@@ -56,3 +67,7 @@
     });
   });
 </script>
+
+{{ if .Get "top" }}
+  <a href="{{ "leaderboard/" | absURL }}{{ .Get `id` }}/" class="view-full-table-link">Show more</a>
+{{ end }}

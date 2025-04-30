@@ -1,10 +1,13 @@
-+++
-+++
+---
+layout: "simple"
+---
 
 ## Speech Detection Extended
 
-{{< plotly id="leaderboard-chart" data="/leaderboard/leaderboard_2992.json" title="Leaderboard" >}}
+{{< plotly id="leaderboard-chart" data="/leaderboard/leaderboard_6250.json" title="Leaderboard" >}}
+
+</br>
 
 ### Leaderboard
 
-{{< tabulator id="leaderboard-chart" data="/leaderboard/leaderboard_2992.json" >}}
+{{< tabulator id="leaderboard-chart" data="/leaderboard/leaderboard_6250.json" >}}
