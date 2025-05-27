@@ -24,7 +24,8 @@ We offer two tracks per task to balance resource constraints with open explorati
 | **Standard** | LibriBrain only            | Level playing field — innovate on methods    |
 | **Extended** | Any (public or private)    | Embrace scale — “learn anything you want”    |
 
-Regardless of training data, all tracks will be evaluated on a shared competition holdout set to better measure progress.
+
+Regardless of training data, all tracks will be evaluated on a shared competition holdout set to best compare approaches and measure progress.
 
 > You’re welcome to enter any and all tracks. To encourage participation, prize money will be awarded to each team **only once**: if you place in multiple tasks/tracks, then the lower prize you would win rolls down to the next eligible team.
 
