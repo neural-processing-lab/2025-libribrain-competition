@@ -19,10 +19,10 @@ The **LibriBrain Competition** features two core tasks in decoding language from
 
 We offer two tracks per task to balance resource constraints with open exploration:
 
-| Track        | Allowed Training Data      | Focus                                        |
-|--------------|----------------------------|----------------------------------------------|
-| **Standard** | LibriBrain only            | Level playing field — innovate on methods    |
-| **Extended** | Any (public or private)    | Embrace scale — “learn anything you want”    |
+| Track        | Training Data Allowed | Motivation                                              |
+|--------------|-----------------------|---------------------------------------------------------|
+| **Standard** | LibriBrain only       | Level playing field — innovate on methods/efficiency    |
+| **Extended** | Any data              | Embrace scale — see how far teams with resources can go |
 
 
 Regardless of training data, all tracks will be evaluated on a shared competition holdout set in order to best compare approaches and measure progress.
