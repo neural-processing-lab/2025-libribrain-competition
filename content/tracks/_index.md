@@ -2,7 +2,7 @@
 layout: "simple"
 ---
 
-## Tracks
+## Tasks
 The **LibriBrain Competition** features two core tasks in decoding language from MEG recordings of brain activity:
 
 - **Speech Detection**  
@@ -15,16 +15,18 @@ The **LibriBrain Competition** features two core tasks in decoding language from
 
 <img src="../images/sherlock4.gif" style="width: 550px; height: 350px: cover; border-radius: 8px; display: block; margin: auto;"/>
 
-## Variants
+## Tracks
 
-We offer two variants per track to balance resource constraints with open exploration:
+We offer two tracks per task to balance resource constraints with open exploration:
 
-| Variant      | Allowed Data               | Focus                                        |
+| Track        | Allowed Training Data      | Focus                                        |
 |--------------|----------------------------|----------------------------------------------|
 | **Standard** | LibriBrain only            | Level playing field — innovate on methods    |
 | **Extended** | Any (public or private)    | Embrace scale — “learn anything you want”    |
 
-> You’re welcome to enter both tracks. Prize money, however, is awarded to each team **only once**: if you place first in both, the second prize rolls down to the next eligible team.
+Regardless of training data, all tracks will be evaluated on a shared competition holdout set to better measure progress.
+
+> You’re welcome to enter any and all tracks. To encourage participation, prize money will be awarded to each team **only once**: if you place in multiple tasks/tracks, then the lower prize you would win rolls down to the next eligible team.
 
 ---
 
