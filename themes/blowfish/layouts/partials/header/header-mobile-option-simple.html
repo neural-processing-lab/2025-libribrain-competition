@@ -1,3 +1,18 @@
+{{ if eq .Identifier "participate-button" }}
+<li class="mt-1">
+    <a href="{{ .URL }}" {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:"
+        ) }} target="_blank" {{ end }} class="flex items-center justify-center bg-primary-600 hover:bg-primary-500 px-4 py-3 rounded-md font-medium transition-colors dark:bg-primary-800 dark:hover:bg-primary-700 mx-4" style="color: white !important;">
+        {{ if .Pre }}
+        <div {{ if and .Pre .Name}} class="mr-2" style="color: white !important;" {{ end }}>
+            {{ partial "icon.html" .Pre }}
+        </div>
+        {{ end }}
+        <p class="text-base font-medium" style="color: white !important;" title="{{ .Title }}">
+            {{ .Name | markdownify }}
+        </p>
+    </a>
+</li>
+{{ else }}
 <li class="mt-1">
     <a href="{{ .URL }}" {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:"
         ) }} target="_blank" {{ end }} class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
@@ -11,3 +26,4 @@
         </p>
     </a>
 </li>
+{{ end }}

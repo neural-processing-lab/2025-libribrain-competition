@@ -27,9 +27,10 @@
   weight=20
 
 [[main]]
-  name = "PARTICIPATE"
+  name = "Participate"
   pageRef="participate"
-  weight=25
+  identifier = "participate-button"
+  weight=50
 
 [[main]]
   name = "Rules"

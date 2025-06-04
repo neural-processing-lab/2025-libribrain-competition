@@ -1,9 +1,12 @@
 ---
 layout: "simple"
 ---
-<p>
+<!-- <p>
   <img src="libribrain-wordmark.png" alt="LibriBrain Wordmark" width="400"/>
-</p>
+</p> -->
+
+## LibriBrain Competition 2025
+
 
 <div role="alert"
      style="
@@ -17,7 +20,6 @@ layout: "simple"
 
 
 
-## LibriBrain Competition 2025
 
 The **LibriBrain Competition** presented at NeurIPS 2025 invites AI researchers and students to take part in the exciting challenge of non-invasively decoding language from the brain. The societal impact of functioning brain computer interface systems will be substantial - first for people with speech related disabilities, and eventually as a new paradigm for interaction with computers.
 

@@ -5,7 +5,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-colorScheme = "avocado"
+colorScheme = "custom-avocado"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -15,12 +15,13 @@ enableCodeCopy = false
 replyByEmail = false
 
 favicon = "favicon.png"
+logo = "libribrain-wordmark.png"
 
 # mainSections = ["section1", "section2"]
 # robots = ""
 
 disableImageOptimization = false
-disableTextInHeader = false
+disableTextInHeader = true
 # backgroundImageWidth = 1200
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 

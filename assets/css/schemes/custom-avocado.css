@@ -1,0 +1,45 @@
+/* Custom Avocado scheme with purple primary colors */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Stone */
+  --color-neutral-50: 250, 250, 249;
+  --color-neutral-100: 245, 245, 244;
+  --color-neutral-200: 231, 229, 228;
+  --color-neutral-300: 214, 211, 209;
+  --color-neutral-400: 168, 162, 158;
+  --color-neutral-500: 120, 113, 108;
+  --color-neutral-600: 87, 83, 78;
+  --color-neutral-700: 68, 64, 60;
+  --color-neutral-800: 41, 37, 36;
+  --color-neutral-900: 28, 25, 23;
+  /* Purple palette based on 119, 104, 133 */
+  --color-primary-50: 248, 246, 251;
+  --color-primary-100: 241, 237, 247;
+  --color-primary-200: 226, 218, 239;
+  --color-primary-300: 202, 190, 223;
+  --color-primary-400: 178, 161, 207;
+  --color-primary-500: 154, 133, 191;
+  --color-primary-600: 119, 104, 133;
+  --color-primary-700: 95, 83, 106;
+  --color-primary-800: 71, 62, 80;
+  --color-primary-900: 48, 42, 53;
+  /* Emerald (keep secondary as is) */
+  --color-secondary-50: 236, 253, 245;
+  --color-secondary-100: 209, 250, 229;
+  --color-secondary-200: 167, 243, 208;
+  --color-secondary-300: 110, 231, 183;
+  --color-secondary-400: 52, 211, 153;
+  --color-secondary-500: 16, 185, 129;
+  --color-secondary-600: 5, 150, 105;
+  --color-secondary-700: 4, 120, 87;
+  --color-secondary-800: 6, 95, 70;
+  --color-secondary-900: 6, 78, 59;
+} 
+
+/* Custom logo sizing */
+.logo {
+  max-height: 2.5rem !important;
+  max-width: none !important;
+  height: 2.5rem !important;
+  width: auto !important;
+} 

@@ -1,0 +1,53 @@
+/* Custom CSS overrides for Blowfish theme */
+
+/* Override link hover color to purple instead of green */
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):hover {
+  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+}
+
+/* For dark mode */
+.prose-invert :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):hover {
+  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+}
+
+/* Override other link hover elements that use primary-600 */
+.hover\:text-primary-600:hover {
+  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+}
+
+.dark\:hover\:text-primary-400:hover:is(.dark *) {
+  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+}
+
+/* Fix for buttons and styled links - keep them white/readable on hover */
+a[style*="background-color"]:hover,
+a[style*="background"]:hover,
+.prose a[style*="background-color"]:hover,
+.prose a[style*="background"]:hover {
+  color: white !important;
+}
+
+/* Additional button-like element fixes */
+a[style*="padding"]:hover,
+.prose a[style*="padding"]:hover {
+  color: white !important;
+}
+
+/* For Blowfish button shortcodes and theme buttons */
+.bg-primary-600:hover,
+.bg-primary-500:hover,
+.bg-primary-800:hover {
+  color: white !important;
+}
+
+/* Fix inline code color to match purple theme */
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)),
+code {
+  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+}
+
+/* For dark mode code */
+.prose-invert :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)),
+.dark code {
+  color: rgba(178, 161, 207, 1) !important; /* lighter purple for dark mode */
+} 
