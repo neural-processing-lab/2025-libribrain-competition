@@ -25,10 +25,10 @@ You can play around with the data and check the different tasks using our tutori
 
 ### 3. Prepare Submission
 
-You can now start working on your solution, when ready to submit, check out the tutorial here to see how to submit your solution
+You can now start working on your solution, when ready to submit, check out the tutorial here to see how to generate a submission file
 
 
-* **How to submit your solution**  
+* **How to generate a submission file**  
   ([Download](https://neural-processing-lab.github.io/2025-libribrain-competition/links/submission-colab) | [Open in Colab](https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Submission_Tutorial.ipynb))
 
 ---

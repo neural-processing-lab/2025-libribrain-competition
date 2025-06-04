@@ -7,12 +7,12 @@ layout: "simple"
 
 <div role="alert"
      style="
-       background-color: #FEF9C3;
-       border-left: 4px solid #F59E0B;
-       color: #92400E;
+       background-color: #776885;
+       border-left: 4px solid #002147;
+       color:rgb(255, 255, 255);
        padding: 1rem;">
-  <p style="font-weight: 700;">🚧 Work in Progress</p>
-  <p>The competition website is under active development. Expect information to change.</p>
+  <p style="font-weight: 700;">Phase 1 (Speech Detection) is now live!</p>
+  <p>We are now accepting submissions for the Speech Detection task until Juli 31st.</p>
 </div>
 
 
