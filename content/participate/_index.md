@@ -34,7 +34,18 @@ You can now start working on your solution, when ready to submit, check out the 
 ---
 
 ### 4. Submit on EvalAI
-To be updated
+After obtaining your predictions in CSV format from the previous step, submit them by following the steps mentioned below:
+1. Create an account on [EvalAI](https://eval.ai/).
+
+2. Go to the [challenge page](https://eval.ai/web/challenges/challenge-page/2504/overview).
+   <img src="../images/evalai_overview.png" style="width: 1170px; height: 415px: cover; border-radius: 8px; display: block; margin: auto;"/>
+
+3. Click on [participate](https://eval.ai/web/challenges/challenge-page/2504/participate) and create a participant team.
+
+4. Select appropriate phase and upload your predictions by selecting _Upload file_ as submission type.
+   <img src="../images/evalai_submission.png" style="width: 1170px; height: 415px: cover; border-radius: 8px; display: block; margin: auto;"/>
+
+Additionally, we also recommend that participants have a look at the EvalAI documentation on [participating in a challenge](https://evalai.readthedocs.io/en/latest/participate.html).
 
 ---
 
