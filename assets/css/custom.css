@@ -1,13 +1,36 @@
 /* Custom CSS overrides for Blowfish theme */
 
-/* Override link hover color to purple instead of green */
-.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):hover {
-  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+/* Make content links more distinguishable from normal text */
+/* Target only prose content links, excluding buttons and styled components */
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]) {
+  color: rgba(119, 104, 133, 1) !important; /* custom purple for default state */
+  text-decoration: underline !important;
+  text-decoration-color: rgba(119, 104, 133, 0.4) !important; /* subtle underline */
+  text-underline-offset: 2px !important;
+  font-weight: 500;
 }
 
-/* For dark mode */
-.prose-invert :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):hover {
-  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+/* Hover state for content links only */
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]):hover {
+  color: rgba(95, 80, 113, 1) !important; /* darker purple on hover */
+  text-decoration: underline !important;
+  text-decoration-color: rgba(95, 80, 113, 0.7) !important; /* more visible underline on hover */
+  text-underline-offset: 2px !important;
+}
+
+/* For dark mode content links */
+.prose-invert :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]) {
+  color: rgba(178, 161, 207, 1) !important; /* lighter purple for dark mode */
+  text-decoration: underline !important;
+  text-decoration-color: rgba(178, 161, 207, 0.5) !important;
+  text-underline-offset: 2px !important;
+}
+
+.prose-invert :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]):hover {
+  color: rgba(200, 185, 225, 1) !important; /* even lighter on hover in dark mode */
+  text-decoration: underline !important;
+  text-decoration-color: rgba(200, 185, 225, 0.8) !important;
+  text-underline-offset: 2px !important;
 }
 
 /* Override other link hover elements that use primary-600 */
@@ -16,28 +39,31 @@
 }
 
 .dark\:hover\:text-primary-400:hover:is(.dark *) {
-  color: rgba(119, 104, 133, 1) !important; /* custom purple */
+  color: rgba(178, 161, 207, 1) !important; /* custom purple for dark mode */
 }
 
-/* Fix for buttons and styled links - keep them white/readable on hover */
-a[style*="background-color"]:hover,
-a[style*="background"]:hover,
-.prose a[style*="background-color"]:hover,
-.prose a[style*="background"]:hover {
-  color: white !important;
+/* Explicitly preserve button styling */
+a[class*="bg-primary"],
+a[class*="border"],
+a[role="button"],
+button,
+.bg-primary-600,
+.bg-primary-500,
+.bg-primary-800,
+a[style*="background"],
+a[style*="color: white"] {
+  text-decoration: none !important;
 }
 
-/* Additional button-like element fixes */
-a[style*="padding"]:hover,
-.prose a[style*="padding"]:hover {
-  color: white !important;
-}
-
-/* For Blowfish button shortcodes and theme buttons */
+a[class*="bg-primary"]:hover,
+a[class*="border"]:hover,
+a[role="button"]:hover,
 .bg-primary-600:hover,
 .bg-primary-500:hover,
-.bg-primary-800:hover {
-  color: white !important;
+.bg-primary-800:hover,
+a[style*="background"]:hover,
+a[style*="color: white"]:hover {
+  text-decoration: none !important;
 }
 
 /* Fix inline code color to match purple theme */
