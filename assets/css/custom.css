@@ -3,33 +3,33 @@
 /* Make content links more distinguishable from normal text */
 /* Target only prose content links, excluding buttons and styled components */
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]) {
-  color: rgba(119, 104, 133, 1) !important; /* custom purple for default state */
+  color: rgba(130, 50, 180, 1) !important; /* much more vibrant purple that really stands out */
   text-decoration: underline !important;
-  text-decoration-color: rgba(119, 104, 133, 0.4) !important; /* subtle underline */
+  text-decoration-color: rgba(130, 50, 180, 0.5) !important; /* more visible underline */
   text-underline-offset: 2px !important;
   font-weight: 500;
 }
 
 /* Hover state for content links only */
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]):hover {
-  color: rgba(95, 80, 113, 1) !important; /* darker purple on hover */
+  color: rgba(100, 30, 150, 1) !important; /* deeper, more saturated purple on hover */
   text-decoration: underline !important;
-  text-decoration-color: rgba(95, 80, 113, 0.7) !important; /* more visible underline on hover */
+  text-decoration-color: rgba(100, 30, 150, 0.8) !important; /* strong underline on hover */
   text-underline-offset: 2px !important;
 }
 
 /* For dark mode content links */
-.prose-invert :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]) {
-  color: rgba(178, 161, 207, 1) !important; /* lighter purple for dark mode */
+.dark\:prose-invert:is(.dark *) :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]) {
+  color: rgba(34, 197, 255, 1) !important; /* bright cyan-blue for excellent dark mode contrast */
   text-decoration: underline !important;
-  text-decoration-color: rgba(178, 161, 207, 0.5) !important;
+  text-decoration-color: rgba(34, 197, 255, 0.5) !important;
   text-underline-offset: 2px !important;
 }
 
-.prose-invert :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]):hover {
-  color: rgba(200, 185, 225, 1) !important; /* even lighter on hover in dark mode */
+.dark\:prose-invert:is(.dark *) :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]):hover {
+  color: rgba(87, 218, 255, 1) !important; /* lighter cyan-blue on hover for dark mode */
   text-decoration: underline !important;
-  text-decoration-color: rgba(200, 185, 225, 0.8) !important;
+  text-decoration-color: rgba(87, 218, 255, 0.8) !important;
   text-underline-offset: 2px !important;
 }
 
