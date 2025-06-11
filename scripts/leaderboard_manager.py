@@ -128,6 +128,7 @@ class LeaderboardManager:
             output.append(
                 {
                     "method": result["submission__method_name"],
+                    "team": result["submission__participant_team__team_name"],
                     "score": result["result"][0],
                     "date": result["submission__submitted_at"],
                 }
