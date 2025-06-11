@@ -2,6 +2,8 @@ import json
 import os
 import sys
 
+from datetime import datetime
+
 import requests
 
 
@@ -116,7 +118,7 @@ class LeaderboardManager:
 
         Returns
         -------
-        dict
+        list[dict]
             Leaderboard with only required fields
         """
         output = []
@@ -128,6 +130,7 @@ class LeaderboardManager:
             output.append(
                 {
                     "method": result["submission__method_name"],
+                    "team": result["submission__participant_team__team_name"],
                     "score": result["result"][0],
                     "date": result["submission__submitted_at"],
                 }
@@ -137,14 +140,41 @@ class LeaderboardManager:
             return self.sort_dict(output)
         return output
 
-    def write_leaderbaord_json(self, output, phase_split_id):
+    @staticmethod
+    def format_leaderboard(leaderboard):
         """
-        Write filtered leaderboard in json file
+        Format leaderboard fields such as date, score to make them
+        more readable
 
         Parameters
         ----------
-        output : dict
-            Filtered leaderboard to write
+        leaderboard : list[dict]
+            Filtered leaderboard with default formatting
+
+        Returns
+        -------
+        list[dict]
+            Leaderboard with formatted fields
+        """
+        def format(input):
+            if not input["method"]:
+                input["method"] = "N/A"
+            # Round score to 4 digits
+            input["score"] = round(input["score"], 4)
+            # Parse date from ISO 8601 and convert to string
+            input["date"] = datetime.fromisoformat(input["date"]).strftime("%d-%b-%Y %H:%M:%S")
+            return input
+
+        return [format(entry) for entry in leaderboard]
+
+    def write_leaderbaord_json(self, output, phase_split_id):
+        """
+        Write formatted leaderboard in json file
+
+        Parameters
+        ----------
+        output : list[dict]
+            Formatted leaderboard to write
         phase_split_id : str
             EvalAI challenge phase split ID
         """
@@ -164,8 +194,9 @@ class LeaderboardManager:
         """
         for phase_split_id in self.phase_split_ids:
             response = self.fetch_leaderboard(phase_split_id)
-            output = self.filter_leaderboard(response)
-            self.write_leaderbaord_json(output, phase_split_id)
+            filtered_lb = self.filter_leaderboard(response)
+            formatted_lb = self.format_leaderboard(filtered_lb)
+            self.write_leaderbaord_json(formatted_lb, phase_split_id)
 
 
 if __name__ == "__main__":
