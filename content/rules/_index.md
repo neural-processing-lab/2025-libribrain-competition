@@ -32,7 +32,7 @@ We offer **two parallel tracks** to balance resource‐driven and method‐drive
 ### 3. Prizes & Evaluation
 - **Benchmarks to Beat**
     - Speech Detection: F1<sub>macro</sub> ≥ 68%
-    - Phoneme Classification: F1<sub>macro</sub> ≥ 44%
+    - Phoneme Classification: F1<sub>macro</sub> ≥ 60%
 - **Winners**
     - Top 3 confirmed submissions in each track, **provided** they exceed the example benchmarks.
     - In the unlikely event of a tie, the prize pool for that position will be **split equally**.
