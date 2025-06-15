@@ -15,7 +15,7 @@ layout: "simple"
        color:rgb(255, 255, 255);
        padding: 1rem;">
   <p style="font-weight: 700;">Phase 1 (Speech Detection) is now live!</p>
-  <p>We are now accepting submissions for the Speech Detection task until Juli 31st.</p>
+  <p>We are now accepting submissions for the Speech Detection task until July 31st.</p>
 </div>
 
 
