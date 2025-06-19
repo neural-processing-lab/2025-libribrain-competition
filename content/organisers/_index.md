@@ -3,7 +3,9 @@ layout: "simple"
 ---
 
 ## Organisers
-The LibriBrain Competition 2025 is organised by the Parker Jones Neural Processing Lab (PNPL) at Oxford with collaborators from the Oxford Centre for Human Brain Activity (OHBA) and the Wellcome Centre for Integrative Neuroimaging (WIN), Mila - Quebec Artificial Intelligence Institute and Université de Montréal, École Polytechnique Fédérale de Lausanne (EPFL), Google DeepMind and Meta AI.
+The LibriBrain Competition 2025 is organised by the [Parker Jones Neural Processing Lab (PNPL)](https://pnpl.robots.ox.ac.uk/) at Oxford with collaborators from the [Oxford Centre for Human Brain Activity (OHBA)](https://www.win.ox.ac.uk/about/our-locations/OHBA) and the [Wellcome Centre for Integrative Neuroimaging (WIN)](https://www.win.ox.ac.uk/), [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/en) and [Université de Montréal](https://www.umontreal.ca/), [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), [Google DeepMind](https://deepmind.google/) and [Meta AI](https://ai.meta.com/).
+
+The **PNPL** is the newest group within the Oxford Robotics Institute, established through generous funding from the UK Research and Innovation's Medical Research Council (MRC). The lab is interested in brains, computers, language, and robotics – all core areas of natural and artificial intelligence, with a key focus on exploring the limits of deep learning to leverage large scale non-invasive data for **decoding inner speech from the brain**.
 
 
 If you have any questions or need help, please check our [Discord server](https://neural-processing-lab.github.io/2025-libribrain-competition/links/discord) or send us your questions to: [libribrain@robots.ox.ac.uk](mailto:libribrain@robots.ox.ac.uk)

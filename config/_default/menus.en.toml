@@ -17,14 +17,38 @@
   weight = 5
 
 [[main]]
+  name = "Blog & News"
+  pageRef="blog"
+  weight=10
+
+[[main]]
+  name = "Details"
+  identifier = "details"
+  weight=15
+
+[[main]]
   name = "Tracks"
   pageRef="tracks"
+  parent = "details"
   weight=15
 
 [[main]]
   name = "Prizes"
   pageRef="prizes"
+  parent = "details"
   weight=20
+
+[[main]]
+  name = "Rules"
+  pageRef="rules"
+  parent = "details"
+  weight=30
+
+[[main]]
+  name = "Timeline"
+  pageRef="timeline"
+  parent = "details"
+  weight=35
 
 [[main]]
   name = "Participate"
@@ -33,14 +57,9 @@
   weight=50
 
 [[main]]
-  name = "Rules"
-  pageRef="rules"
-  weight=30
-
-[[main]]
-  name = "Timeline"
-  pageRef="timeline"
-  weight=35
+  name = "FAQ"
+  pageRef="faq"
+  weight=40
 
 [[main]]
   name = "Leaderboard"
@@ -57,21 +76,28 @@
   name = "Speech Detection (Extended)"
   parent = "Leaderboard"
   pageRef = "speech_detection_extended"
-  weight = 45
+  weight = 46
 
 [[main]]
   name = "Phoneme Classification (Standard)"
   parent = "Leaderboard"
   pageRef = "phoneme_classification_standard"
-  weight = 45
+  weight = 47
 
 [[main]]
   name = "Phoneme Classification (Extended)"
   parent = "Leaderboard"
   pageRef = "phoneme_classification_extended"
-  weight = 45
+  weight = 48
 
 [[main]]
   name = "Organisers"
   pageRef="organisers"
+  parent = "details"
   weight=40
+
+[[main]]
+  name = "Publications"
+  pageRef="publications"
+  parent = "details"
+  weight=45

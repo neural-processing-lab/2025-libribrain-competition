@@ -1,0 +1,47 @@
+{{ partial "math.html" . }}
+
+<style>
+/* Make blog posts wider for better readability */
+.max-w-prose {
+  max-width: 90ch !important; /* Increase from default ~65ch to 90ch */
+}
+
+.max-w-7xl {
+  max-width: 90rem !important; /* Wider container for large screens */
+}
+
+/* Ensure content area uses more space */
+.prose {
+  max-width: none !important;
+}
+
+/* Make sure math displays properly with wider content */
+.katex-display {
+  text-align: center;
+  margin: 1em 0;
+}
+
+/* Ensure tables and code blocks use available width */
+.prose table,
+.prose pre {
+  max-width: none;
+  width: 100%;
+}
+
+/* Make 3D visualization use full width */
+#meg-sensor-viz {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px !important;
+  }
+  
+  /* Article content wider on desktop */
+  article .prose {
+    max-width: 90ch !important;
+  }
+}
+</style> 

@@ -1,0 +1,28 @@
+{{ $id := .Get "id" | default "citation" }}
+{{ $title := .Get "title" | default "Citation" }}
+
+<div class="bibtex-citation" style="margin-top: 2rem; padding: 1rem; background-color: #f8f9fa; border-left: 4px solid #776885; border-radius: 4px;">
+  <h4 style="margin-top: 0; color: #333;">{{ $title }}</h4>
+  <p style="margin-bottom: 0.5rem; color: #666; font-size: 0.9rem;">
+    Click the button below to copy the BibTeX citation:
+  </p>
+  <div style="position: relative;">
+    <pre id="bibtex-{{ $id }}" style="background-color: #fff; padding: 1rem; border: 1px solid #ddd; border-radius: 4px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 0.85rem; margin: 0.5rem 0;">{{ .Inner | safeHTML }}</pre>
+    <button onclick="copyBibtex('{{ $id }}')" style="position: absolute; top: 0.5rem; right: 0.5rem; padding: 0.25rem 0.5rem; background-color: #776885; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 0.8rem;">Copy</button>
+  </div>
+  <div id="copy-message-{{ $id }}" style="display: none; margin-top: 0.5rem; color: #28a745; font-size: 0.9rem;">✓ BibTeX copied to clipboard!</div>
+</div>
+
+<script>
+function copyBibtex(id) {
+  const element = document.getElementById('bibtex-' + id);
+  const text = element.innerText;
+  navigator.clipboard.writeText(text).then(function() {
+    const message = document.getElementById('copy-message-' + id);
+    message.style.display = 'block';
+    setTimeout(function() {
+      message.style.display = 'none';
+    }, 2000);
+  });
+}
+</script> 

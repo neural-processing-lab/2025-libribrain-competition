@@ -17,7 +17,7 @@ replyByEmail = false
 favicon = "favicon.png"
 logo = "libribrain-wordmark.png"
 
-# mainSections = ["section1", "section2"]
+mainSections = ["blog"]
 # robots = ""
 
 disableImageOptimization = false
@@ -47,16 +47,16 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 [homepage]
   layout = "page" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 5
-  showMoreLink = false
-  showMoreLinkDest = "/posts/"
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/blog/"
   cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
-  showDate = false
+  showDate = true
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
@@ -80,9 +80,9 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showTableOfContents = false
   # showRelatedContent = false
   # relatedContentLimit = 3
-  showTaxonomies = false
+  showTaxonomies = true
   showAuthorsBadges = false
-  showWordCount = false
+  showWordCount = true
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = false
 
