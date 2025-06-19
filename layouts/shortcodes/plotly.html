@@ -32,7 +32,12 @@
         };
 
         Plotly.newPlot('{{ .Get "id" }}', [trace], {
-          title: '{{ .Get "title" }}',
+          title: {
+            text: '{{ .Get "title" }}',
+            font: {
+              size: 24
+            }
+          },
           autosize: false,
           width: 1200,
           height: 450,
