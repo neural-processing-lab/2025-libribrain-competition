@@ -10,6 +10,9 @@
     fetch("{{ .Site.BaseURL }}" + "{{ .Get `data` }}")
       .then(response => response.json())
       .then(data => {
+        // Sort data based on score
+        data.sort((a, b) => b.score - a.score);
+
         window.tabulatorTables = window.tabulatorTables || {}; // Store multiple tables
 
         const tableContainer = document.getElementById("{{ .Get `id` }}-table");
@@ -29,6 +32,7 @@
           layout: "fitColumns",
           selectable: true,
           columns: [
+            { title: "Team", field: "team", sorter: "string" },
             { title: "Method", field: "method", sorter: "string" },
             { title: "Score", field: "score", sorter: "number" },
             { title: "Date", field: "date", sorter: "number" }
