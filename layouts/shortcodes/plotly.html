@@ -13,25 +13,81 @@
         const scores = data.map(entry => entry.score);
         const date = data.map(entry => entry.date);
 
-        const trace = {
+        // Identify SOTA points
+        let sotaPoints = [];
+        let maxScore = -Infinity;
+
+        data.forEach((entry, idx) => {
+          if (entry.score > maxScore) {
+            maxScore = entry.score;
+            sotaPoints.push({
+              date: entry.date,
+              score: entry.score,
+              method: entry.method
+            });
+          }
+        });
+    
+        // All points
+        const allPointsTrace = {
           x: date,
           y: scores,
+          text: names,
           mode: "markers",
           marker: {
-            color: 'blue',
+            color: 'lightgray',
             size: 14,
           },
           opacity: 0.7,
-          text: names,
           hovertemplate: '%{text}: %{y}<extra></extra>',
           hoverlabel: {
             font: {
               size: 16,  // default is 13
             }
-          }
+          },
+          name: 'All models',
+          showlegend: true
         };
 
-        Plotly.newPlot('{{ .Get "id" }}', [trace], {
+        // SOTA points. Label and line are divided to avoid label appearing for legend as well. 
+        const sotaLabelTrace = {
+          x: sotaPoints.map(p => p.date),
+          y: sotaPoints.map(p => p.score + 0.02),
+          text: sotaPoints.map(p => (p === sotaPoints[0] ? '     ' + p.method : p.method)), // Hacky way to add some padding in front
+          mode: "text",
+          textposition: 'top center',
+          textfont: {
+            color: 'black',
+          },
+          opacity: 0.7,
+          hoverinfo: 'skip',
+          showlegend: false
+        };
+
+        const sotaLineTrace = {
+          x: sotaPoints.map(p => p.date),
+          y: sotaPoints.map(p => p.score),
+          mode: "lines+markers",
+          marker: {
+            color: '#776885',
+            size: 14,
+            line: {
+              color: 'black',
+              width: 1
+            }
+          },
+          line: {
+            color: '#776885',
+            width: 2,
+            dash: 'solid'
+          },
+          opacity: 0.7,
+          hoverinfo: 'skip',
+          name: 'Models with highest F1-Macro',
+          showlegend: true
+        };
+
+        Plotly.newPlot('{{ .Get "id" }}', [allPointsTrace, sotaLabelTrace, sotaLineTrace], {
           title: {
             text: '{{ .Get "title" }}',
             font: {
@@ -52,6 +108,15 @@
               }
             },
             zeroline: false,
+          },
+          legend: {
+            orientation: 'h',
+            x: 0.5,
+            y: -0.3,
+            xanchor: 'center',
+            font: {
+              size: 14
+            }
           }
         });
 
