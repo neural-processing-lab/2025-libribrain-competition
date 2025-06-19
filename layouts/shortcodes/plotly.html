@@ -53,11 +53,12 @@
         const sotaLabelTrace = {
           x: sotaPoints.map(p => p.date),
           y: sotaPoints.map(p => p.score + 0.02),
-          text: sotaPoints.map(p => (p === sotaPoints[0] ? '     ' + p.method : p.method)), // Hacky way to add some padding in front
+          text: sotaPoints.map(p => (p === sotaPoints[0] ? '\u2003\u2003\u2003\u2003' + p.method : p.method)), // Hacky way to add some padding in front
           mode: "text",
           textposition: 'top center',
           textfont: {
             color: 'black',
+            size: 13
           },
           opacity: 0.7,
           hoverinfo: 'skip',
@@ -99,6 +100,9 @@
           height: 450,
           xaxis: {
             zeroline: false,
+            tickfont: {
+              size: 13
+            },
           },
           yaxis: {
             title: {
@@ -106,6 +110,9 @@
               font: {
                 size: 16
               }
+            },
+            tickfont: {
+              size: 13
             },
             zeroline: false,
           },
