@@ -13,6 +13,12 @@
         const scores = data.map(entry => entry.score);
         const date = data.map(entry => entry.date);
 
+        // Formatted dates for visulisation
+        const formattedDates = date.map(d => {
+          const dt = new Date(d);
+          return dt.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+        });
+
         // Identify SOTA points
         let sotaPoints = [];
         let maxScore = -Infinity;
@@ -103,6 +109,8 @@
             tickfont: {
               size: 13
             },
+            tickvals: date,
+            ticktext: formattedDates,
           },
           yaxis: {
             title: {
