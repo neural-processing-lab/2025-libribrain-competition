@@ -1,20 +1,16 @@
 {{ if .Params.math }}
 <!-- MathJax CSS and JS -->
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-<script>
-window.MathJax = {
-  tex: {
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    processEscapes: true,
-    processEnvironments: true
+    processEscapes: true
   },
-  options: {
-    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-    ignoreHtmlClass: 'no-math'
-  }
-};
+  skipStartupTypeset: false
+});
+</script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS_HTML">
 </script>
 {{ end }} 
