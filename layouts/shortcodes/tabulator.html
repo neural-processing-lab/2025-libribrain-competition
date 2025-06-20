@@ -34,7 +34,11 @@
           columns: [
             { title: "Team", field: "team", sorter: "string" },
             { title: "Method", field: "method", sorter: "string" },
-            { title: "Score", field: "score", sorter: "number" },
+            { title: "F1-Macro <span style='font-size: 1em; color: greem;'>(&#8593)</span>",
+              field: "score",
+              sorter: "number",
+              headerTooltip: "Higher is better"   
+            },
             { title: "Date", field: "date", sorter: "number" }
           ],
           height: "auto",
