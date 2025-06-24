@@ -27,7 +27,7 @@ To facilitate this vision we present the largest within-subject MEG dataset reco
 @article{landau2025pnpl,
   title={The 2025 PNPL Competition: Speech Detection and Phoneme Classification in the LibriBrain Dataset},
   author={Landau, Gilad and Özdogan, Miran and Elvers, Gereon and Mantegna, Francesco and Somaiya, Pratik and Jayalath, Dulhan and Kurth, Luisa and Kwon, Teyun and Shillingford, Brendan and Farquhar, Greg and Jiang, Minqi and Jerbi, Karim and Abdelhedi, Hamza and Mantilla Ramos, Yorguin and Gulcehre, Caglar and Woolrich, Mark and Voets, Natalie and Parker Jones, Oiwi},
-  journal={arXiv preprint arXiv:2506.10165},
+  journal={NeurIPS, Competition Track},
   year={2025}
 }
 {{< /bibtex >}}
