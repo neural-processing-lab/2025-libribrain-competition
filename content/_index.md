@@ -27,7 +27,7 @@ We believe that the way forward for advancing this impactful technology is throu
 - **Deepest MEG dataset to date**: 25–50× deeper than most existing datasets
 - **Plug-and-play Python package**: `pip install pnpl`
 - **Hands-on tutorials**: Train your first model in under an hour
-- **Community & competition**: Prizes 🎁, leaderboards 🌐, Discord 🗣️
+- **Community & competition**: Prizes 🎁, leaderboards 🌐, [Discord](https://neural-processing-lab.github.io/2025-libribrain-competition/links/discord) 🗣️
 
 We're excited to see what you'll build!
 
