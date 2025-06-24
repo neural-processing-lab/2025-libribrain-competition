@@ -12,4 +12,4 @@ Browse our content by category to find exactly what you're looking for:
 
 ---
 
-*Use the category links above to filter content, or visit our main [blog section](/blog/) to see all posts together.* 
+*Use the category links above to filter content, or visit our main [blog section]({{< ref "blog" >}}) to see all posts together.* 

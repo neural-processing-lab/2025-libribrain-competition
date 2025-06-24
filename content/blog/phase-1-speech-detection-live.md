@@ -30,13 +30,13 @@ Starting today, participants can submit their solutions for the **Speech Detecti
 
 - **Submission Deadline**: July 31st, 2025
 - **Evaluation Metric**: F1 Macro Score - the unweighted mean of F1 scores across both classes: {{< math >}}\text{F1}_{\text{macro}} = \frac{\text{F1}_{\text{speech}} + \text{F1}_{\text{non-speech}}}{2}{{< /math >}}
-- **Leaderboard**: Competition updates available on our [leaderboard page](/leaderboard/)
-- **Starter Kit**: Get up and running in under an hour with our [tutorials](/participate/)
+- **Leaderboard**: Competition updates available on our [leaderboard page]({{< ref "leaderboard" >}})
+- **Starter Kit**: Get up and running in under an hour with our [tutorials]({{< ref "participate" >}})
 
 ## Getting Started
 
 1. **Install the PNPL package**: `pip install pnpl`
-2. **Download the dataset automatically with the PNPL package**: Follow our [participation guide](/participate/)
+2. **Download the dataset automatically with the PNPL package**: Follow our [participation guide]({{< ref "participate" >}})
 3. **Train your first mode using our tutorials**: Use our provided notebooks - or build something on your own
 4. **Submit your results**: Upload via our submission portal on Eval.ai
 
