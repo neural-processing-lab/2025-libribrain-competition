@@ -57,7 +57,7 @@ A: The LibriBrain dataset comes with a user-friendly Python library. Simply run 
 **Q: What are the benchmark scores to beat?**  
 A: To be eligible for prizes, submissions must exceed these benchmarks:
 - **Speech Detection**: F1_macro ≥ 68%
-- **Phoneme Classification**: F1_macro ≥ 44%
+- **Phoneme Classification**: F1_macro ≥ 60%
 Note that these are based on our own internal benchmark models, not baseline/random scores!
 
 ### Prizes & Evaluation
