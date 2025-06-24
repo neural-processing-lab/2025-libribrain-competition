@@ -71,8 +71,7 @@ A: All final rankings are determined on an independent holdout dataset that part
 **Q: What verification is required for winners?**  
 A: 
 - **Standard Track finalists**: Organizers will request training code to confirm no external data was used
-- **Extended Track finalists**: Less verification required, but we may discuss compute usage for efficiency analysis
-Either way, we appreciate you sharing as many details as possible to make for a productive sessions at NeurIPS 2025.
+- **Extended Track finalists**: We expect less verification will be required, except to verify that multiple datasets *were* used and to discuss compute usage for efficiency analysis. Either way, we appreciate you sharing as many details as possible to make for a productive sessions at NeurIPS 2025.
 
 ### Data Usage & Rules
 
