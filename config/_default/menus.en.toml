@@ -18,8 +18,27 @@
 
 [[main]]
   name = "Blog & News"
+  identifier = "blog-news"
   pageRef="blog"
   weight=10
+
+[[main]]
+  name = "All Posts"
+  parent = "blog-news"
+  pageRef="blog"
+  weight=10
+
+[[main]]
+  name = "Blog Posts"
+  parent = "blog-news"
+  pageRef="categories/blog"
+  weight=11
+
+[[main]]
+  name = "Announcements"
+  parent = "blog-news"
+  pageRef="categories/announcements"
+  weight=12
 
 [[main]]
   name = "Details"
