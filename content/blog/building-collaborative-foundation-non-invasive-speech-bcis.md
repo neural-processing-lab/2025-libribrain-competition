@@ -58,7 +58,7 @@ Instead of jumping directly to the hardest problem, we're taking inspiration fro
 
 Speech Detection provides a binary classification for every temporal sample (250 per second), making it our most accessible task—maximum data points with the smallest number of classes, [compared for example to word or even phoneme events](https://www.arxiv.org/abs/2506.02098). This entry-level challenge mirrors the critical speech detection component used in the [first invasive speech BCI](https://www.nejm.org/doi/full/10.1056/NEJMoa2027540) for paralysed individuals.
 
-![image4](/2025-libribrain-competition/images/blog1-picture3.gif)
+![image4](/2025-libribrain-competition/images/sherlock3.gif)
 
 Phoneme Classification offers several advantages over word-level tasks:
 
@@ -66,7 +66,7 @@ Phoneme Classification offers several advantages over word-level tasks:
 * **Better data efficiency**: 1.5M phoneme examples across 39 classes versus 466k words across 16k+ classes  
 * **Strong theoretical foundation**: Phonemes are the building blocks of speech
 
-![image5](/2025-libribrain-competition/images/blog1-picture4.gif)
+![image5](/2025-libribrain-competition/images/sherlock4.gif)
 
 Our baseline results show promising scaling behaviour which mirrors neural scaling laws observed across AI domains (e.g. [Kaplan et al.](https://arxiv.org/abs/2001.08361) and [Antonello et al.](https://proceedings.neurips.cc/paper_files/paper/2023/hash/4533e4a352440a32558c1c227602c323-Abstract-Conference.html)). Both speech detection and phoneme classification performance improve logarithmically with the volume of training data:
 
