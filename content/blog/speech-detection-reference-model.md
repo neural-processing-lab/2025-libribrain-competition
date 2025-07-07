@@ -30,7 +30,7 @@ Based on our *"Start Simple"* approach, we decided to begin with a fundamental s
 
 ## From Sequence-to-Sequence to Simplified Classification
 
-A natural way to frame the Speech Detection task is as a [sequence-to-sequence task](https://arxiv.org/abs/1409.3215): with brain signal as input and a sequence of "Speech/Non-Speech" labels as output. Seq2Seq learning uses an "Encoder-Decoder" architecture, in which the input sequences are encoded into a vector and then decoded back to a new sequence with varying length and dimensions. The Seq2Seq family of architecture was found to be very useful for tasks such as Machine Translation in which the input sequence and the output sequence have differing lengths and dimensionality. While the original Seq2Seq model was based on LSTM architecture it was later replaced with the ubiquitous Transformer block.
+A natural way to frame the Speech Detection task is as a [sequence-to-sequence task](https://arxiv.org/abs/1409.3215): with brain signal as input and a sequence of "Speech/Non-Speech" labels as output. Seq2Seq learning uses an "Encoder-Decoder" architecture, in which the input sequences are encoded into a vector and then decoded back to a new sequence with varying length and dimensions. The Seq2Seq architecture family was found to be very useful for tasks such as Machine Translation in which the input sequence and the output sequence have differing lengths and dimensionality. While the original Seq2Seq model was based on LSTM architecture it was later replaced with the ubiquitous Transformer block.
 
 ![Speech Detection as Seq2Seq task](/2025-libribrain-competition/images/blog2-picture2.png)
 *Figure 2 - Speech Detection as Seq2Seq task*

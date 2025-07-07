@@ -70,7 +70,7 @@ These limits are per task and per track, meaning they apply individually to:
 - Speech Detection (Standard and Extended separately)
 - Phoneme Classification (Standard and Extended separately)
 
-If you run into these limits, please reach out - we may be able to help!
+These limits aren't meant to be a barrier. If you have a good reason for running into these limits, please reach out - we may be able to help!
 
 ### Prizes & Evaluation
 
