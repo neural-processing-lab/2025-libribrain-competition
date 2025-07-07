@@ -60,6 +60,18 @@ A: To be eligible for prizes, submissions must exceed these benchmarks:
 - **Phoneme Classification**: F1_macro ≥ 60%
 Note that these are based on our own internal benchmark models, not baseline/random scores!
 
+**Q: What are the submission limits?**  
+A: To ensure fair and sustainable competition, the following limits apply:
+- **Max submissions/day**: 5
+- **Max total submissions**: 50
+- **Max concurrent submissions**: 3
+
+These limits are per task and per track, meaning they apply individually to:
+- Speech Detection (Standard and Extended separately)
+- Phoneme Classification (Standard and Extended separately)
+
+If you run into these limits, please reach out - we may be able to help!
+
 ### Prizes & Evaluation
 
 **Q: What prizes are available?**  
