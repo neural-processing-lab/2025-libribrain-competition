@@ -5,7 +5,7 @@ draft: false
 description: "Exploring the motivation behind the 2025 PNPL Competition and how we're building towards non-invasive speech brain-computer interfaces through deep MEG datasets and collaborative research."
 tags: ["brain-computer-interfaces", "meg", "speech-decoding", "libribrain", "competition"]
 categories: ["blog"]
-authors: ["LibriBrain Team"]
+authors: ["Gereon Elvers", "Gilad Landau", "Dulhan Jayalath", "Francesco Mantegna", "Oiwi Parker Jones"]
 showDate: true
 showAuthor: true
 showReadingTime: true
@@ -158,7 +158,7 @@ Willett, F. R., Kunz, E. M., Fan, C., Avansino, D. T., Wilson, G. H., Choi, E. Y
   title={Building a Collaborative Foundation for Non-Invasive Speech {BCIs}: The 2025 {PNPL} Competition},
   author={Elvers, Gereon and Landau, Gilad and Jayalath, Dulhan and Mantegna, Francesco and Parker Jones, Oiwi},
   year={2025},
-  url={https://neural-processing-lab.github.io/2025-libribrain-competition/},
+  url={https://neural-processing-lab.github.io/2025-libribrain-competition/blog/building-collaborative-foundation-non-invasive-speech-bcis/},
   note={Blog post}
 }
 {{< /bibtex >}}
