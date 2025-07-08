@@ -41,6 +41,23 @@ A: The competition is open to all! No domain-specific knowledge or specialized h
 **Q: How do I get started?**  
 A: Check out the ['Participate'](https://neural-processing-lab.github.io/2025-libribrain-competition/participate/) page, where we have put together detailed instructions and tutorials for both tasks as well as a submission tutorial.
 
+### Team Composition & Rules
+
+**Q: Can the same team participate in both phases?**  
+A: Yes, the same team can participate in both Phase 1 (Speech Detection) and Phase 2 (Phoneme Classification). However, if the same team wins the same prize tier in both phases (e.g., 1st place in both), they will be bumped down to the next tier for one of the phases to ensure prize distribution across different teams.
+
+**Q: Can I win the same tier for both phases?**  
+A: Only if the majority of your team composition is different between phases. In this case, the teams would be considered distinct and eligible for the same prize tier in both phases.
+
+**Q: Can one person join multiple teams?**  
+A: No, each person can only be part of one team for each phase. You cannot join multiple teams simultaneously. You may switch teams between phases.
+
+**Q: Can I change my team composition during a phase?**  
+A: No, team composition must remain constant throughout each phase. Your team should be the same across both Standard and Extended tracks within the same phase.
+
+**Q: Are there any restrictions on team size?**  
+A: No, there are no minimum or maximum team size limits. You can compete individually or form teams of any size.
+
 ### Technical Questions
 
 **Q: Where do I submit my results?**  
