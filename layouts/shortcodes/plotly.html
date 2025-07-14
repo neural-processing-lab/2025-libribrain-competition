@@ -12,6 +12,7 @@
         const names = data.map(entry => entry.method);
         const scores = data.map(entry => entry.score);
         const date = data.map(entry => entry.date);
+        const teams = data.map(entry => entry.team);
 
         // Formatted dates for visulisation
         const formattedDates = date.map(d => {
@@ -140,10 +141,15 @@
         chartDiv.on('plotly_click', function(eventData) {
           const clickedIndex = eventData.points[0].pointIndex;
           const clickedMethod = names[clickedIndex];
+          const clickedTeam = teams[clickedIndex];
 
           // Dispatch event for Tabulator
           window.dispatchEvent(new CustomEvent('plotly-click', { 
-            detail: { method: clickedMethod, chartId: "{{ .Get `id` }}" } 
+            detail: {
+              method: clickedMethod,
+              team: clickedTeam,
+              chartId: "{{ .Get `id` }}",
+            } 
           }));
 
           // Scroll to the correct table

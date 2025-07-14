@@ -62,12 +62,17 @@
 
     // Listen for plotly-click event
     window.addEventListener('plotly-click', function(event) {
-      const { method, chartId } = event.detail;
+      const { method, team, chartId } = event.detail;
       const table = window.tabulatorTables[chartId];
-
+      
       if (table) {
         table.deselectRow();
-        const row = table.getRows().find(row => row.getData().method === method);
+        // const row = table.getRows().find(row => row.getData().method === method);
+        const row = table.getRows().find(row => {
+          const data = row.getData();
+          return data.method == method && data.team == team;
+        });
+
         if (row) {
           row.select();
           if (!hasScrolled) {
