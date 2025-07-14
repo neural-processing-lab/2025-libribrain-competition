@@ -1,6 +1,9 @@
 <!-- Table container -->
 <div id="{{ .Get `id` }}-table" style="height:250px; width: auto;"></div>
 
+<!-- Load Luxon -->
+<script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+
 <!-- Tabulator.js -->
 <link href="https://unpkg.com/tabulator-tables@5.3.4/dist/css/tabulator_bootstrap4.min.css" rel="stylesheet">
 <script src="https://unpkg.com/tabulator-tables@5.3.4/dist/js/tabulator.min.js"></script>
@@ -39,7 +42,13 @@
               sorter: "number",
               headerTooltip: "Higher is better"   
             },
-            { title: "Date", field: "date", sorter: "number" }
+            { title: "Date", field: "date", formatter:"datetime",
+              formatterParams:
+              { inputFormat: "iso",
+                outputFormat:"dd MMM yyyy",
+                invalidPlaceholder:"(invalid date)"
+              }
+            }
           ],
           height: "auto",
         });

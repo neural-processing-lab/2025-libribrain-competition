@@ -1,5 +1,5 @@
 <!-- Chart container -->
-<div id="{{ .Get `id` }}" style="width:600%; max-width: 1200px; height:400px;"></div>
+<div id="{{ .Get `id` }}" style="width:600%; max-width: 1200px; height:550px;"></div>
 
 <!-- Plotly -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -103,14 +103,14 @@
           },
           autosize: false,
           width: 1200,
-          height: 450,
+          height: 600,
           xaxis: {
+            type: 'date',
             zeroline: false,
             tickfont: {
               size: 13
             },
-            tickvals: date,
-            ticktext: formattedDates,
+            tickformat: '%d %b %Y',
           },
           yaxis: {
             title: {
