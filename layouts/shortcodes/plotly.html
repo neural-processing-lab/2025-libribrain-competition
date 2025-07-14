@@ -1,5 +1,5 @@
 <!-- Chart container -->
-<div id="{{ .Get `id` }}" style="width:600%; max-width: 1200px; height:400px;"></div>
+<div id="{{ .Get `id` }}" style="width:600%; max-width: 1200px; height:550px;"></div>
 
 <!-- Plotly -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -12,6 +12,7 @@
         const names = data.map(entry => entry.method);
         const scores = data.map(entry => entry.score);
         const date = data.map(entry => entry.date);
+        const teams = data.map(entry => entry.team);
 
         // Formatted dates for visulisation
         const formattedDates = date.map(d => {
@@ -103,14 +104,14 @@
           },
           autosize: false,
           width: 1200,
-          height: 450,
+          height: 600,
           xaxis: {
+            type: 'date',
             zeroline: false,
             tickfont: {
               size: 13
             },
-            tickvals: date,
-            ticktext: formattedDates,
+            tickformat: '%d %b %Y',
           },
           yaxis: {
             title: {
@@ -140,10 +141,15 @@
         chartDiv.on('plotly_click', function(eventData) {
           const clickedIndex = eventData.points[0].pointIndex;
           const clickedMethod = names[clickedIndex];
+          const clickedTeam = teams[clickedIndex];
 
           // Dispatch event for Tabulator
           window.dispatchEvent(new CustomEvent('plotly-click', { 
-            detail: { method: clickedMethod, chartId: "{{ .Get `id` }}" } 
+            detail: {
+              method: clickedMethod,
+              team: clickedTeam,
+              chartId: "{{ .Get `id` }}",
+            } 
           }));
 
           // Scroll to the correct table

@@ -162,7 +162,7 @@ class LeaderboardManager:
             # Round score to 4 digits
             input["score"] = round(input["score"], 4)
             # Parse date from ISO 8601 and convert to string
-            input["date"] = datetime.fromisoformat(input["date"]).strftime("%d-%b-%Y %H:%M:%S")
+            #input["date"] = datetime.fromisoformat(input["date"]).strftime("%d-%b-%Y %H:%M:%S")
             return input
 
         return [format(entry) for entry in leaderboard]
