@@ -24,7 +24,7 @@ The tutorial models make specific assumptions—like focusing on only 23 (out of
 
 ## **Why STG Matters (But Isn't Everything)**
 
-The 23 sensors selected in the tutorial aren't random. In the LibriBrain dataset paper (Özdogan et al., 2025), we systematically analysed signal quality across all 306 MEG sensors and found the strongest speech-related activity concentrated in bilateral STG regions. The result of this data-driven approach is the 23 sensors you see in the tutorial (note that each of these code blocks is scrollable left-to-right!):
+The 23 sensors selected in the tutorial aren't random. In the LibriBrain dataset paper (Özdogan et al., 2025), we systematically analysed signal quality across all 306 MEG sensors and found the strongest speech-related activity concentrated in bilateral STG regions. The result of this data-driven approach is the 23 sensors you see in the tutorial (note that each of these code blocks is scrollable left-to-right):
 
 <pre style="background-color: #f8f9fa; padding: 1rem; border-radius: 0.5rem; border: 1px solid #e9ecef; overflow-x: auto;">
 SENSORS_SPEECH_MASK = [18, 20, 22, 23, 45, 120, 138, 140, 142, 143, 145, 146, 147, 149, 175, 176, 177, 179, 180, 198, 271, 272, 275]
@@ -128,7 +128,7 @@ For anyone looking for a deeper dive into the neurobiology of audition and of sp
 
 ## **Interactive 3D Sensor Visualization**
 
-Explore the MEG sensor positions and the different sensor masks discussed in this blog post. Use the controls below to visualize how different brain regions map to MEG sensors. Note: The masks provided are our best initial guess. We highly recommend that you to play around with the data yourself to find out what works for you!
+Explore the MEG sensor positions and the different sensor masks discussed in this blog post. Use the controls below to visualize how different brain regions map to MEG sensors. Note: The masks provided are our best initial guess. We highly recommend that you to play around with the data yourself to find out what works for you.
 
 <div id="sensor-visualization" style="width: 100%; margin: 20px 0;">
   <div id="sensor-controls" style="margin-bottom: 15px;">
