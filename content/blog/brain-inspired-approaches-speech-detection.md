@@ -603,7 +603,8 @@ document.addEventListener('DOMContentLoaded', loadSensorPositions);
 
 ---
 
-## Key References:
+
+## Key References:
 
 Broderick, M. P., et al. (2018). Electrophysiological correlates of semantic dissimilarity reflect the comprehension of natural, narrative speech. Current Biology, 28, 803-809.
 
