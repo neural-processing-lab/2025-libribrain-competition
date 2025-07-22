@@ -112,9 +112,9 @@ If state transitions in the brain are slower, then it could make sense to smooth
 
 Smoothing might also make sense if there is label noise (uncertainty in the event boundaries).
 
-**Modelling conduction delays**: How confident are we about the speech detection labels? 
+**Modelling conduction delays**: How confident are we about the precision of changes between speech detection labels? 
 
-We've gone beyond what is typical for neural datasets in terms of methodological rigour and quality control, which is reflected empirically in studies such as [Jayalath et al. 2025](https://arxiv.org/abs/2505.13446). Still, this might be a good opportunity to explain how speech labels were assigned in the LibriBrain dataset.
+While we've gone beyond what is typical for methodological rigour and quality control in neural datasets, as reflected empirically by the results of comparative studies such as [Jayalath et al. 2025](https://arxiv.org/abs/2505.13446), this might be a good opportunity to explain how speech labels were assigned in the LibriBrain dataset.
 
 The audio played to the subject in the MEG scanner went through a series of rigorous checks to produce the event files. First, we used voice activity detection (VAD) to automatically segment audio into speech and non-speech. This used an amplitude threshold together with a set of carefully tuned heuristics (e.g. a minimal duration for speech events). But it was still not *perfect*. For instance, quiet sounds (such as plosives like /p, t, k/) might be missed at the beginning of utterances. So we took the extraordinary step of manually checking (and correcting) all of the events—to give a sense of scale, this took *hundreds* of hours. 
 
