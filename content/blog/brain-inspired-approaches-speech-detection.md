@@ -601,7 +601,6 @@ document.addEventListener('DOMContentLoaded', loadSensorPositions);
 
 ***Ready to implement these ideas? Check out the LibriBrain [competition tutorials](https://neural-processing-lab.github.io/2025-libribrain-competition/participate/) and join the discussion on [Discord](https://discord.com/invite/Fqr8gJnvSh). The competition runs through September 2025, with both Standard and Extended tracks to accommodate different resource levels.***
 
----
 
 
 ## Key References
