@@ -597,6 +597,42 @@ function updateVisualization() {
 document.addEventListener('DOMContentLoaded', loadSensorPositions);
 </script>
 
+
+Ready to implement these ideas? Check out the LibriBrain [competition tutorials](https://neural-processing-lab.github.io/2025-libribrain-competition/participate/) and join the discussion on [Discord](https://discord.com/invite/Fqr8gJnvSh). The competition runs through September 2025, with both Standard and Extended tracks to accommodate different resource levels.
+
+Key References:
+
+Broderick, M. P., et al. (2018). Electrophysiological correlates of semantic dissimilarity reflect the comprehension of natural, narrative speech. Current Biology, 28, 803-809.
+
+Cheung, C., Hamilton, L. S., Johnson, K., & Chang, E. F. (2016). [The auditory representation of speech sounds in human motor cortex](https://elifesciences.org/articles/12577). Elife,5, e12577.
+Crosse, M. J., et al. (2016). The multivariate temporal response function (mTRF) toolbox. Frontiers in Human Neuroscience, 10, 604.
+Di Liberto, G. M., et al. (2015). Low-frequency cortical entrainment to speech reflects phoneme-level processing. Current Biology, 25, 2457-2465.
+
+Ding, N., & Simon, J. Z. (2014). Cortical entrainment to continuous speech: functional roles and interpretations. Frontiers in human neuroscience, 8, 311.
+
+Giraud, A. L., & Poeppel, D. (2012). Cortical oscillations and speech processing: emerging computational principles and operations. Nature neuroscience, 15(4), 511-517.
+
+Hamilton, L. S., et al. (2018). [A spatial map of onset and sustained responses to speech in the human superior temporal gyrus](https://www.cell.com/current-biology/pdf/S0960-9822(18)30461-5.pdf). Current Biology, 28, 1860-1871.
+
+Jayalath, D., Landau, G., & Parker Jones, O. (2025). [Unlocking non-invasive brain-to-text](https://arxiv.org/abs/2505.13446). ICML Workshop on Generative AI and Biology.
+
+Kurteff, G. L., et al. (2024). [Spatiotemporal mapping of auditory onsets during speech production](https://pmc.ncbi.nlm.nih.gov/articles/PMC11580786/pdf/jneuro-44-e1109242024.pdf). Journal of Neuroscience, 44(47), e1109242024.
+
+Landau, G., Özdogan, M., Elvers, G., Mantegna, F., Somaiya, P., Jayalath, D., Kurth, L., Kwon, T., Shillingford, B., Farquhar, G., Jiang, M., Jerbi, K., Abdelhedi, H., Mantilla Ramos, Y., Gulcehre, C., Woolrich, M., Voets, N., & Parker Jones, O. (2025a). [The 2025 PNPL competition: Speech detection and phoneme classification in the LibriBrain dataset](https://arxiv.org/abs/2506.10165). NeurIPS Competition Track.
+
+Landau, G., Elvers, G., Özdogan, M., & Parker Jones, O. (2025b). The speech detection task and the reference model [Blog post]. Neural Processing Lab. [https://neural-processing-lab.github.io/2025-libribrain-competition/blog/speech-detection-reference-model](https://neural-processing-lab.github.io/2025-libribrain-competition/blog/speech-detection-reference-model)
+
+Luo, H., & Poeppel, D. (2007). Phase patterns of neuronal responses reliably discriminate speech in human auditory cortex. Neuron, 54(6), 1001-1010.
+
+Özdogan, M., Landau, G., Elvers, G., Jayalath, D., Somaiya, P., Mantegna, F., Woolrich, M., & Parker Jones, O. (2025). [LibriBrain: Over 50 hours of within-subject MEG to improve speech decoding methods at scale](https://www.arxiv.org/abs/2506.02098). arXiv preprint.
+
+Parker Jones, O., & Schnupp, J. W. H. (2021). [How does the brain represent speech?](https://doi.org/10.1002/9781119184096.ch3) In J. S. Pardo, L. C. Nygaard, R. E. Remez, & D. B. Pisoni (eds.), The handbook of speech perception (2nd ed., Chapter 3). Wiley. 
+
+Peelle, J. E., & Davis, M. H. (2012). Neural oscillations carry speech rhythm through to comprehension. Frontiers in psychology, 3, 320.
+
+Schnupp, J. W. H., Nelken, I., & King, A. J. (2011). [Auditory neuroscience: Making sense of sound](https://mitpress.mit.edu/9780262518024/auditory-neuroscience/). The MIT Press.
+
+
 ## Citation
 
 {{< bibtex >}}
