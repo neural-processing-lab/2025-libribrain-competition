@@ -116,7 +116,7 @@ Smoothing might also make sense if there is label noise (uncertainty in the even
 
 While we've gone beyond what is typical for methodological rigour and quality control in neural datasets, as reflected empirically by the results of comparative studies such as [Jayalath et al. 2025](https://arxiv.org/abs/2505.13446), this might be a good opportunity to explain how speech labels were assigned in the LibriBrain dataset.
 
-The audio played to the subject in the MEG scanner went through a series of rigorous checks to produce the event files. First, we used voice activity detection (VAD) to automatically segment audio into speech and non-speech. This used an amplitude threshold together with a set of carefully tuned heuristics (e.g. a minimal duration for speech events). But it was still not *perfect*. For instance, quiet sounds (such as plosives like /p, t, k/) might be missed at the beginning of utterances. So we took the extraordinary step of manually checking (and correcting) all of the events—to give a sense of scale, this took *hundreds* of hours. 
+The audio played to the subject in the MEG scanner went through a series of rigorous checks to produce the event files. First, we used voice activity detection (VAD) to automatically segment audio into speech and non-speech. This used an amplitude threshold together with a set of carefully tuned heuristics (e.g. a minimal duration for speech events). But it was still not *perfect*. For instance, quiet sounds (such as plosives like /p, t, k/) might be missed at the beginning of utterances. We therefore took the extraordinary step of manually checking (and correcting) all of the events—to give a sense of scale, this took *hundreds* of hours of manual labour to complete. 
 
 In line with the "minimal preprocessing" philosophy of the LibriBrain dataset, no temporal offsets were added to the speech labels. In other words, the speech and non-speech labels from the audio were taken directly as labels for the brain. Although we know that there are conduction delays between the ear and cortex, these delays are not constant across the whole brain. In other words, there is not a single temporal offset from the ear to all parts of the brain. Furthermore, even for specific brain regions, we might not be certain about the precise delay. Ultimately, any explicit offset or set of offsets that we add to the data might introduce errors. We have therefore chosen to trust users to explicitly account for conduction delays. 
 
@@ -126,9 +126,9 @@ Methods that make models less sensitive to exact timing include target smoothing
 
 For anyone looking for a deeper dive into the neurobiology of audition and of speech comprehension, we heartily recommend Schnupp et al. (2011) and Parker Jones & Schnupp (2021)—the former is the standard Auditory Neuroscience textbook, whereas the latter is a more recent update, emphasising advances in our understanding of speech over other kinds of auditory processing
 
-## **Interactive 3D Sensor Visualization**
+## **Interactive 3D Sensor Visualisation**
 
-Explore the MEG sensor positions and the different sensor masks discussed in this blog post. Use the controls below to visualize how different brain regions map to MEG sensors. Note: The masks provided are our best initial guess. We highly recommend that you to play around with the data yourself to find out what works for you.
+Explore the MEG sensor positions and the different sensor masks discussed in this blog post. Use the controls below to visualise how different brain regions map to MEG sensors. Note: The masks provided are our best initial guess. We highly recommend that you to play around with the data yourself to find out what works for you.
 
 <div id="sensor-visualization" style="width: 100%; margin: 20px 0;">
   <div id="sensor-controls" style="margin-bottom: 15px;">
