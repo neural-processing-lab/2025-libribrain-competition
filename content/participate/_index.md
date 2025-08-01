@@ -18,7 +18,7 @@ You can play around with the data and check the different tasks using our tutori
 
 1. **Speech Detection**  
   ([Download](https://neural-processing-lab.github.io/2025-libribrain-competition/links/speech-colab) | [Open in Colab](https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Speech_Detection.ipynb))
-2. **Phoneme Classification**  
+2. **Phoneme Classification (updated for Phase 2!)**  
   ([Download](https://neural-processing-lab.github.io/2025-libribrain-competition/links/phoneme-colab) | [Open in Colab](https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Phoneme_Classification.ipynb))
 
 ---
@@ -28,7 +28,10 @@ You can play around with the data and check the different tasks using our tutori
 You can now start working on your solution, when ready to submit, check out the tutorial here to see how to generate a submission file
 
 
-* **How to generate a submission file**  
+* **Phase 2: How to generate a Phoneme Classification submission**  
+  ([Download](https://neural-processing-lab.github.io/2025-libribrain-competition/links/phoneme-submission-colab) | [Open in Colab](https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Phoneme_Task_Submission_Tutorial.ipynb))
+
+* **Phase 1 (over!): How to generate a Speech Detection submission**  
   ([Download](https://neural-processing-lab.github.io/2025-libribrain-competition/links/submission-colab) | [Open in Colab](https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Submission_Tutorial.ipynb))
 
 ---

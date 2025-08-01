@@ -14,8 +14,8 @@ layout: "simple"
        border-left: 4px solid #002147;
        color:rgb(255, 255, 255);
        padding: 1rem;">
-  <p style="font-weight: 700;">Phase 1 (Speech Detection) is now live!</p>
-  <p>We are now accepting submissions for the Speech Detection task until July 31st.</p>
+  <p style="font-weight: 700;">Phase 2 (Phoneme Classification) is now live!</p>
+  <p>We are now accepting submissions for the second phase of the competition, Phoneme Classification, until September 30th. The second phase is fully independent from the first, so you can still join, even if you missed the first phase!</p>
 </div>
 
 

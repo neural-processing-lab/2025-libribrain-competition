@@ -32,7 +32,7 @@ We offer **two parallel tracks** to balance resource‐driven and method‐drive
 ### 3. Prizes & Evaluation
 - **Benchmarks to Beat**
     - Speech Detection: F1<sub>macro</sub> ≥ 68%
-    - Phoneme Classification: F1<sub>macro</sub> ≥ 60%
+    - Phoneme Classification: F1<sub>macro</sub> ≥ 6.1%
 - **Winners**
     - Top 3 confirmed submissions in each track, **provided** they exceed the example benchmarks.
     - In the unlikely event of a tie, the prize pool for that position will be **split equally**.
@@ -45,7 +45,7 @@ We offer **two parallel tracks** to balance resource‐driven and method‐drive
 ### 4. Code Sharing & Open Science
 - **While not strictly required, you are strongly encouraged to**
     - Share your solution code publicly (e.g., GitHub).
-    - Contribute to the [PNPL library](https://github.com/pnpl/pnpl) by submitting pull requests (e.g., new dataset dataloaders) with any modifications you found useful.
+    - Contribute to the PNPL library by submitting pull requests (e.g., new dataset dataloaders) with any modifications you found useful. (full release of the library coming soon!)
 
 ---
 
