@@ -35,7 +35,7 @@ We offer **two parallel tracks** to balance resource‐driven and method‐drive
     - Phoneme Classification: F1<sub>macro</sub> ≥ 6.1%
 - **Winners**
     - Top 3 confirmed submissions in the standard track, **provided** they exceed the example benchmarks.
-    - There will be a special recognition for the best verified submission in the extended track, rather than ranked 1st, 2nd, 3rd prizes. *Note: This has been updated given that the extended track was not competative in phase 1 (there were not enough teams competing).* 
+    - There will be a special recognition for the best verified submission in the extended track, rather than ranked 1st, 2nd, 3rd prizes. 
     - In the unlikely event of a tie, the prize pool for that position will be **split equally**.
 - **Verification**
     - Standard Track finalists: organizers will request training code to confirm no external data was used.
