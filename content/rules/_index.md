@@ -34,11 +34,12 @@ We offer **two parallel tracks** to balance resource‐driven and method‐drive
     - Speech Detection: F1<sub>macro</sub> ≥ 68%
     - Phoneme Classification: F1<sub>macro</sub> ≥ 6.1%
 - **Winners**
-    - Top 3 confirmed submissions in each track, **provided** they exceed the example benchmarks.
+    - Top 3 confirmed submissions in the standard track, **provided** they exceed the example benchmarks.
+    - As the extended track does not appear to be competitive (not enough teams), we will make a special prize for the best verified submission in this track.
     - In the unlikely event of a tie, the prize pool for that position will be **split equally**.
 - **Verification**
     - Standard Track finalists: organizers will request training code to confirm no external data was used.
-    - Extended Track finalists: we will reach out to discuss compute usage for a discussion on efficiency; to distinguish the Extended Track from the Standard Track (e.g., so that the same models aren’t submitted to both tracks without significant innovations), we may ask for evidence (e.g., code and baseline model using only the LibriBrain data) which demonstrates that submissions improve significantly from the inclusion of multiple datasets.
+    - Extended Track finalists: we will reach out to discuss compute usage for a discussion on efficiency; to distinguish the Extended Track from the Standard Track (e.g., so that the same models aren’t submitted to both tracks without significant innovations), we may ask for evidence (e.g., code and baseline model using not only the LibriBrain data) which demonstrates that submissions improve significantly from the inclusion of multiple datasets.
 
 ---
 
