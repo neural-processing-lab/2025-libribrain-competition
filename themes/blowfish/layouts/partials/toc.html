@@ -22,17 +22,17 @@
 
 <script>
 
-  var margin = 200;
-  var marginError = 50;
+  var margin = 140;
+  var marginError = 100;
 
   (function () {
     var $window = $(window);
     var $toc = $('#TOCView');
-    var tocHeight = $toc.height();
 
     function onResize() {
+      var tocHeight = $toc.height();
       var windowAndMarginHeight = $window.height() - margin;
-      if(tocHeight >= windowAndMarginHeight) {
+      if (tocHeight >= windowAndMarginHeight) {
         $toc.css("overflow-y", "scroll")
         $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
       } else {
