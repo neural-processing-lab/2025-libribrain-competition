@@ -70,6 +70,12 @@
   weight=35
 
 [[main]]
+  name = "Workshop Papers"
+  pageRef="workshop-paper"
+  parent = "details"
+  weight=15
+
+[[main]]
   name = "Participate"
   pageRef="participate"
   identifier = "participate-button"
