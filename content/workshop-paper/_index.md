@@ -5,9 +5,9 @@ layout: "simple"
 ## Workshop Paper Submission
 
 ---
-As part of the workshop NeurIPS accompanying the competition at NeurIPS 2025, we have put out a Call for Workshop Papers. On this page, we've compiled compiled all information to guide you through the process.
+As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025, we have put out a Call for Workshop Papers. On this page, we've compiled compiled information to guide you through the process.
 
-> Only teams invited to submit will be allowed to submit a paper. We've contacted teams that qualified through their scores. If any other teams want to submit, please reach out on Discord (on the LibriBrain server or @gereonelvers) or at [libribrain@robots.ox.ac.uk](mailto:libribrain@robots.ox.ac.uk).
+> Only teams invited to submit will be allowed to submit a paper. We've contacted teams that qualified through their scores. If any other teams want to submit, please reach out on Discord (on the LibriBrain server or @gereonelvers) or at [libribrain@robots.ox.ac.uk](mailto:libribrain@robots.ox.ac.uk) - we'd be glad to have you.
 
 ### 1. General info
 - Please use the official template and follow the page limits and anonymization rules described in the template.
@@ -19,13 +19,14 @@ As part of the workshop NeurIPS accompanying the competition at NeurIPS 2025, we
 If you have questions, contact us on Discord or via email.
 
 ### 2. Preliminary timeline
+The timeline below is subject to change as as we work out the process.
+
 | Date   | Milestone                                    |
 |--------|----------------------------------------------|
 | 19.10. | Submission Deadline                          |
 | 30.10. | Reviewer deadline                            |
 | 07.11. | Updated Papers deadline                      |
 | 15.11. | Acceptance Notifications                     |
-
 
 
 
