@@ -5,7 +5,7 @@ layout: "simple"
 ## Workshop Paper Submission
 
 ---
-As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025, we have put out a Call for Workshop Papers. On this page, we've compiled compiled information to guide you through the process.
+As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025, we have put out a Call for Workshop Papers. The primary intention behind this is to invite teams to present their approaches and results. On this page, we've compiled compiled information to guide you through the process.
 
 > Only teams invited to submit will be allowed to submit a paper. We've contacted teams that qualified through their scores. If any other teams want to submit, please reach out on Discord (on the LibriBrain server or @gereonelvers) or at [libribrain@robots.ox.ac.uk](mailto:libribrain@robots.ox.ac.uk) - we'd be glad to have you.
 
@@ -19,7 +19,7 @@ As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025,
 If you have questions, contact us on Discord or via email.
 
 ### 2. Preliminary timeline
-The timeline below is subject to change as as we work out the process.
+The timeline below is subject to change.
 
 | Date   | Milestone                                    |
 |--------|----------------------------------------------|
@@ -32,15 +32,15 @@ The timeline below is subject to change as as we work out the process.
 
 ### 3. Template and Overleaf
 
-- Download LaTeX template: [Download (placeholder)](https://libribrain.com/competition-workshop-template.zip)
-- Open in Overleaf: [Overleaf project (placeholder)](https://www.overleaf.com/read/nvvxfndvqzzc#eb252d)
+- Download LaTeX template: [Download](https://libribrain.com/competition-workshop-template.zip)
+- Open in Overleaf: [Overleaf project](https://www.overleaf.com/read/nvvxfndvqzzc#eb252d)
 
 We recommend Overleaf for collaborative editing. You can also compile locally using latexmk/pdflatex.
 
 ---
 
 ### 4. Submission form
-If the embedded form below does not work, please follow [this link](https://tally.so/r/3lpQNo). Make sure that your submitted paper is anonymized.
+If the embedded form below does not work, please follow [this link](https://tally.so/r/3lpQNo). Make sure that your submitted paper is anonymised.
 
 <div style="position: relative; padding-bottom: 110%; height: 0; overflow: hidden;">
   <iframe
