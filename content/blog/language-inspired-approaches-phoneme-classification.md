@@ -42,7 +42,7 @@ markup:
 
 In the 2025 PNPL Competition ([Landau et al. 2025](https://arxiv.org/abs/2506.10165)), phoneme classification is presented as a categorical problem—given neural signals, predict which of the 39 ARPABET phonemes was heard. In [a previous blog](https://neural-processing-lab.github.io/2025-libribrain-competition/blog/brain-inspired-approaches-speech-detection/), we suggested some neuroscience-inspired ideas for the speech detection task. Here, we suggest linguistics-inspired ideas for phoneme classification.
 
-##### **The ARPABET Phoneme Set**
+### **The ARPABET Phoneme Set**
 
 Before exploring the idea of classifying phonetic features, let's establish the complete ARPABET inventory we're working with:
 
@@ -71,11 +71,11 @@ Before exploring the idea of classifying phonetic features, let's establish the 
 
 **Total: 39 phonemes** (10 vowels + 5 diphthongs + 24 consonants)
 
-##### **Why Phonetic Features Matter**
+### **Why Phonetic Features Matter**
 
 Phonetic features offer several compelling advantages over direct phoneme classification, particularly for MEG data where training examples may be limited:
 
-### **1. Data Efficiency Through Shared Structure**
+#### **1. Data Efficiency Through Shared Structure**
 
 Consider these phoneme pairs and their shared features:
 
@@ -85,7 +85,7 @@ Consider these phoneme pairs and their shared features:
 
 Instead of learning 39 independent phoneme categories, the model can learn combinations of ~30 features. This shared structure enables transfer learning—knowledge about [voicing] learned from /p/ vs /b/ pairs transfers to help distinguish /s/ vs /z/, /f/ vs /v/, and other voicing contrasts. In addition, the model is able to learn a more abstract representation of speech, structured around how the phonemes are articulated in the mouth, which could also benefit the classification of other phonemes such as those not in the English language without further training data.
 
-### **2. Handling Low-Frequency Phonemes**
+#### **2. Handling Low-Frequency Phonemes**
 
 Some phonemes occur infrequently in speech corpora. Looking at the actual distribution from the LibriBrain dataset ([Özdogan et al. 2025](https://arxiv.org/abs/2506.02098)), phoneme frequencies vary dramatically:
 
@@ -109,15 +109,15 @@ Direct classification might struggle with limited training data for rare phoneme
 
 The model can then recognise /ŋ/ as the intersection of [nasal] + [velar] + [voiced], even with limited direct /ŋ/ examples.
 
-### **3. Biological Plausibility**
+#### **3. Biological Plausibility**
 
 Neurophysiological evidence suggests the brain may encode speech in terms of articulatory features rather than whole phonemes (e.g. [Mesgarani et al. 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4350233/)). MEG signals might naturally align with feature-based representations, potentially improving classification accuracy.
 
-### **4. Graceful Degradation**
+#### **4. Graceful Degradation**
 
 When predictions are uncertain, feature-based models provide partial information. Instead of a completely wrong phoneme prediction, you might get the correct manner of articulation ([fricative]) even if the place of articulation ([alveolar] vs [postalveolar]) is incorrect.
 
-##### **Universal Phonetic Features: The IPA Foundation**
+### **Universal Phonetic Features: The IPA Foundation**
 
 The International Phonetic Alphabet (IPA) provides a systematic framework for describing speech sounds based on how they are articulated.
 
@@ -125,7 +125,7 @@ The International Phonetic Alphabet (IPA) provides a systematic framework for de
 
 *Figure: The IPA consonant chart shows all known and even possible consonants in human languages produced with air from the lungs (from [Wikipedia](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#/media/File:IPA_chart_2020.svg), accessed 21 September 2025)*
 
-### **Consonant Features**
+#### **Consonant Features**
 
 For the 24 consonants in English, we can define features based on three primary dimensions:
 
@@ -159,7 +159,7 @@ For the 24 consonants in English, we can define features based on three primary 
 - **Voiced**: vocal cords vibrate during production  
 - **Voiceless**: no vocal cord vibration
 
-### **Vowel Features**
+#### **Vowel Features**
 
 For the 10 vowels, the core IPA features include:
 
@@ -173,7 +173,7 @@ This finer-grained system that specifies multiple degrees of height, for example
 
 *Figure: Positions in the IPA vowel chart correspond to tongue position (from [blog](https://www.languagejones.com/blog-1/2016/12/24/why-the-international-phonetic-alphabet-ipa-is-the-best-thing-ever), accessed 21 September 2025)*
 
-### **Diphthong Features**
+#### **Diphthong Features**
 
 For diphthongs, ARPABET uses the following digraphs (AY, AW, EY, OY, OW). Diphthongs can be approximated by a sequence of two other IPA symbols for the English monophthong vowels, each with their own articulatory features:
 
@@ -187,11 +187,11 @@ These differ from English monophthongs like **IH** /ɪ/, which map to single IPA
 
 Incidentally, some analyses of English vowels prefer features like **tenseness** (tense vs lax) to distinguish vowels like /i/, /o/, /u/ from /ɪ/, /ɔ/, /ʊ/. This is not an IPA feature but rather represents a language-specific categorisation that correlates in the IPA with the more precise height and backness distinctions above.
 
-##### **Complete IPA-Based Feature Set for ARPABET**
+### **Complete IPA-Based Feature Set for ARPABET**
 
 Here's a template binary feature matrix for the ARPABET phonemes:
 
-### **Consonants**
+#### **Consonants**
 
 | Phoneme | Bilabial | Labiodental | Dental | Alveolar | Post-alveolar | Palatal | Labial-velar | Velar | Glottal | Plosive | Fricative | Affricate | Nasal | Liquid | Glide | Voiced |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -220,7 +220,7 @@ Here's a template binary feature matrix for the ARPABET phonemes:
 | /w/ | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 | /j/ | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 
-### **Vowels (Monophthongs)**
+#### **Vowels (Monophthongs)**
 
 | Phoneme | Close | Near-close | Close-mid | Mid | Open-mid | Near-open | Open | Front | Near-front | Central | Near-back | Back | Rounded |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -241,11 +241,11 @@ This means that there are no separate entries for diphthongs which solves the pr
 
 Note that affricates like /dʒ/ could also be separated into simpler phonemes (/d/ and /ʒ/), but the same difficulty with assigning features to them does not arise.
 
-##### **Alternative Feature Sets**
+### **Alternative Feature Sets**
 
 While IPA-based features provide a solid foundation based on articulatory features, it is not the only option. For example, sets that mix articulatory features (as in the IPA) with other kinds of features can be seen in prior studies of the brain.
 
-### **Mixed Feature Sets in Neuroscience**
+#### **Mixed Feature Sets in Neuroscience**
 
 The influential work by [Mesgarani et al. (2014)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4350233/) used surgical cortical recordings from human superior temporal gyrus (STG) during natural speech listening to demonstrate that individual brain sites show selectivity to distinct phonetic features rather than whole phonemes. Their study used a mixed feature set combining the following:
 
@@ -261,7 +261,7 @@ With this combination of feature sets, they found that:
 
 One of the limitations, however, with the Mesgarani study was that they used an incomplete set of 14 phonetic features that do not distinguish all English phonemes. To be clear, 14 binary features could be enough to distinguish 39 phonemes, as we explain below. But the choice of specific features used in the study does not end up separating all phonemes. So additional features would be needed to produce a complete classification system - though as we note near the conclusion, there are probably benefits even for the use of partial feature sets.
 
-##### **The Mathematics of Feature Space**
+### **The Mathematics of Feature Space**
 
 How many binary features do we need to uniquely represent n phonemes? The theoretical minimum follows from information theory:
 
@@ -271,7 +271,7 @@ For 39 ARPABET phonemes: ⌈log₂(39)⌉ = ⌈5.29⌉ = 6 binary features
 
 However, this assumes optimal encoding. Linguistically-motivated features typically require more dimensions for interpretability and biological plausibility.
 
-### **Why Binary Features?**
+#### **Why Binary Features?**
 
 By convention, linguists often encode phonetic properties as binary features (present=1, absent=0). Features like [±voiced] or [±nasal] naturally divide phonemes into two groups. From a machine learning perspective, binary features also allow us to perform binary classification, which has numerous benefits including simplifying the hypothesis space for the model, making training more efficient and inference more robust, and avoiding the need to impose arbitrary ordinal relationships between categories.
 
@@ -292,7 +292,7 @@ With the phoneme **IH** /ɪ/, we can attribute the following features:
 
 The rest of the vowel phoneme features can be assigned in a similar way. The full feature attribution can be seen above in the full IPA-based binary feature matrix.
 
-### **Diphthong Challenge**
+#### **Diphthong Challenge**
 
 Diphthongs like /aɪ/ move between two vowel targets, making single feature assignment problematic. We present here several ways to model diphthongs with their pros and cons:
 
@@ -326,15 +326,15 @@ We can use higher-level (more abstract) phonological distinctions. For example, 
 **Pros**: Captures diphthong-specific properties, linguistically motivated  
 **Cons**: Requires domain knowledge, may miss low-level articulatory details
 
-##### **Brute Force Feature Discovery**
+### **Brute Force Feature Discovery**
 
 Since the "correct" feature set for neural representation is unknown, we can systematically search the feature space:
 
-### **Approach 1: Exhaustive Binary Search**
+#### **Approach 1: Exhaustive Binary Search**
 
 For k binary features representing n phonemes, we have a total of 2^(n×k) possible feature assignments. With the constraint that each phoneme must have a unique feature vector (i.e. considering only assignments where each of the n assigned feature vectors are distinct from each other), we can train a classifier to map MEG data to the assigned binary features and measure how accurately it predicts the binary features from the neural input. The set of binary feature vectors with the highest model accuracy would be the best set to use. However, although this approach is tractable for small k, it grows exponentially which may be computationally infeasible for larger k.
 
-### **Approach 2: Evolutionary Search**
+#### **Approach 2: Evolutionary Search**
 
 A similar but less exhaustive approach involves modifying the best-performing feature sets and evaluating model performance on the mutated feature sets. The following steps can be taken for the evolutionary search approach:
 
@@ -344,7 +344,7 @@ A similar but less exhaustive approach involves modifying the best-performing fe
 4. Apply mutation/crossover to generate new candidates  
 5. Repeat until convergence
 
-##### **General Implementation Strategy**
+### **General Implementation Strategy**
 
 Here, we provide some general implementation tips which could help with the development of robust and accurate models for phoneme classification.
 
@@ -358,11 +358,11 @@ Here, we provide some general implementation tips which could help with the deve
 5. **Search Strategically**: Use evolutionary or gradient methods to discover novel feature combinations  
 6. **Validate Interpretability**: Ensure discovered features have linguistic or neurobiological interpretation
 
-##### **Practical Implementation for the Competition**
+### **Practical Implementation for the Competition**
 
 The competition task requires mapping from brain data to probability distributions over all 39 ARPABET phonemes. However, you can implement feature-based classification internally while still meeting this requirement through conversion:
 
-### **Feature-to-Phoneme Conversion Pipeline**
+#### **Feature-to-Phoneme Conversion Pipeline**
 
 1. **Train feature classifiers**: Build separate binary classifiers for each phonetic feature (e.g. [voiced], [fricative], [front])  
 2. **Predict feature probabilities**: For each input, obtain probability estimates for all features  
@@ -371,7 +371,7 @@ The competition task requires mapping from brain data to probability distributio
    - **Learned mapping**: Train a secondary classifier to map from feature space to phoneme space  
    - **Probabilistic matching**: Use Bayesian inference to compute P(phoneme|features)
 
-### **Example Conversion Methods**
+#### **Example Conversion Methods**
 
 **Distance-based approach:**
 
@@ -424,7 +424,7 @@ def bayesian_feature_mapping(feature_probs: np.ndarray,
     return phoneme_probs
 ```
 
-### **Incremental Strategy**
+#### **Incremental Strategy**
 
 Since conversion back to phonemes is always possible, you don't need a complete feature set:
 
@@ -432,7 +432,7 @@ Since conversion back to phonemes is always possible, you don't need a complete 
 2. **Add vowel subsets**: Gradually incorporate vowel features (height, backness, rounding) as you refine the approach  
 3. **Handle diphthongs last**: These are the most complex; initially treat them as single units or use simplified approximations
 
-### **Potential Benefits of Partial Feature Implementation**
+#### **Potential Benefits of Partial Feature Implementation**
 
 - **Reduced complexity**: Focus on phoneme classes where features are most clear-cut (consonants)  
 - **Faster iteration**: Test feature-based approaches without solving all edge cases upfront  

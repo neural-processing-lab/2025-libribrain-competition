@@ -1,5 +1,65 @@
 /* Custom CSS overrides for Blowfish theme */
 
+/* Light/dark theme variables for table scroll affordances */
+:root {
+  --table-scroll-fade: rgba(255, 255, 255, 0.95);
+  --table-scroll-thumb: rgba(130, 50, 180, 0.45);
+  --table-scroll-thumb-hover: rgba(130, 50, 180, 0.65);
+}
+
+.dark {
+  --table-scroll-fade: rgba(17, 24, 39, 0.92);
+  --table-scroll-thumb: rgba(178, 161, 207, 0.55);
+  --table-scroll-thumb-hover: rgba(178, 161, 207, 0.75);
+}
+
+/* Allow wide tables in prose content to scroll horizontally with a subtle cue */
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+  min-width: 100%;
+  margin: 1.5rem 0;
+  padding-bottom: 0.5rem;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: var(--table-scroll-thumb) transparent;
+  box-shadow: inset -18px 0 16px -16px var(--table-scroll-fade);
+}
+
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: "";
+  position: sticky;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2.5rem;
+  pointer-events: none;
+  background: linear-gradient(to left, var(--table-scroll-fade), rgba(255, 255, 255, 0));
+}
+
+.dark\:prose-invert:is(.dark *) :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  background: linear-gradient(to left, var(--table-scroll-fade), rgba(17, 24, 39, 0));
+}
+
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))::-webkit-scrollbar {
+  height: 6px;
+}
+
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))::-webkit-scrollbar-thumb {
+  background-color: var(--table-scroll-thumb);
+  border-radius: 9999px;
+}
+
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))::-webkit-scrollbar-thumb:hover {
+  background-color: var(--table-scroll-thumb-hover);
+}
+
 /* Make content links more distinguishable from normal text */
 /* Target only prose content links, excluding buttons and styled components */
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):not([class*="bg-"]):not([class*="border"]):not([class*="px-"]):not([class*="py-"]):not([class*="rounded"]):not([role="button"]):not([style*="background"]):not([style*="color: white"]) {
