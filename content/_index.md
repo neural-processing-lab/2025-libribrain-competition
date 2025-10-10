@@ -14,8 +14,8 @@ layout: "simple"
        border-left: 4px solid #002147;
        color:rgb(255, 255, 255);
        padding: 1rem;">
-  <p style="font-weight: 700;">Phase 2 (Phoneme Classification) is now live!</p>
-  <p>We are now accepting submissions for the second phase of the competition, Phoneme Classification, until September 30th. The second phase is fully independent from the first, so you can still join, even if you missed the first phase!</p>
+  <p style="font-weight: 700;">Now accepting Workshop Papers!</p>
+  <p>The 2025 LibriBrain Competition has concluded. We thank all teams for participating. If you have built something interesting using the LibriBrain dataset, please consider submitting a [Workshop Paper](https://libribrain.com/workshop-paper) until 09.11.2025 AoE.</p>
 </div>
 
 
