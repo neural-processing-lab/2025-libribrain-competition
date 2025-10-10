@@ -15,7 +15,14 @@ layout: "simple"
        color:rgb(255, 255, 255);
        padding: 1rem;">
   <p style="font-weight: 700;">Now accepting Workshop Papers!</p>
-  <p>The 2025 LibriBrain Competition has concluded. We thank all teams for participating. If you have built something interesting using the LibriBrain dataset, please consider submitting a [Workshop Paper](https://libribrain.com/workshop-paper) until 09.11.2025 AoE.</p>
+  <p>
+    The 2025 LibriBrain Competition has concluded. We thank all teams for participating.
+    If you have built something interesting using the LibriBrain dataset, please consider submitting a
+    <a href="https://libribrain.com/workshop-paper"
+       style="color: inherit; text-decoration: underline;"
+       target="_blank" rel="noopener noreferrer">Workshop Paper</a>
+    until 09.11.2025 AoE.
+  </p>
 </div>
 
 
