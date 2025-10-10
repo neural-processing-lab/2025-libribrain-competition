@@ -9,10 +9,11 @@ As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025,
 
 
 ### 1. General info
-- Please use the official template and follow the page limits and anonymization rules described in the template.
+- Template: Please use the official template and follow the page limits and anonymization rules described in the template.
 - Page limit: 4 pages (excluding references + optional appendix)
 - Submission: Double-blind (do not reveal author identities in the PDF)
 - Deadline: Please submit your paper until 09.11. (AoE)
+- Attendance: We don't formally require in-person attendance for accepted papers, though we do encourage you to come to the session if you are attending NeurIPS.
 - Review: We will hold a lightweight review process, for which we _may_ assign you one paper to review. Details on this will follow.
 
 If you have questions, contact us on Discord or via email.
