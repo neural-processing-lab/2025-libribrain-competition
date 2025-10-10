@@ -5,7 +5,7 @@ layout: "simple"
 ## Workshop Paper Submission
 
 ---
-As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025, we have put out a Call for Workshop Papers. The primary intention behind this is to invite teams to present their approaches and results. On this page, we've compiled compiled information to guide you through the process.
+As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025, we have put out a Call for Workshop Papers. The primary intention behind this is to invite teams to present their approaches and results, though we encourage broad participation. On this page, we've compiled compiled information to guide you through the process.
 
 
 ### 1. General info
