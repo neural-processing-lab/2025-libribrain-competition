@@ -2,56 +2,42 @@
 layout: "simple"
 ---
 
-## Workshop Paper Submission
+## Workshop Papers
 
 ---
-As part of the workshop at NeurIPS accompanying the competition at NeurIPS 2025, we have put out a Call for Workshop Papers. The primary intention behind this is to invite teams to present their approaches and results, though we encourage broad participation. On this page, we've compiled compiled information to guide you through the process.
 
+### Submissions for 2025 are now closed
 
-### 1. General info
-- Template: Please use the official template and follow the page limits and anonymization rules described in the template.
-- Page limit: 4 pages (excluding references + optional appendix)
-- Submission: Double-blind (do not reveal author identities in the PDF)
-- Deadline: Please submit your paper until 09.11. (AoE) using the form below.
-- Attendance: We don't formally require in-person attendance for accepted papers, though we do encourage you to come to the session if you are attending NeurIPS.
-- Review: We will hold a lightweight review process, for which we _may_ assign you one paper to review. Details on this will follow.
+We want to extend a warm thank you to all authors and teams for their excellent submissions! We're excited about the quality and diversity of approaches submitted this year.
 
-If you have questions, contact us on Discord or via email.
+> **For authors:** Please submit a final, de-anonymised version of your paper when you get around to it—ideally within two weeks. We understand that many of you are currently busy with NeurIPS, so there's no rush.
 
-### 2. Preliminary timeline
-The timeline below is subject to change.
+> **Important:** Please note the updated template! We've made some changes, and you should switch to using it for your final version. The good news is that you can simply swap the `.sty` file—no need to restructure your document.
 
-| Date   | Milestone                                    |
-|--------|----------------------------------------------|
-| 09.11. | Submission Deadline                          |
-| 23.11. | Acceptance Notifications                     |
-| 07.12. | Competition Workshop @ NeurIPS San Diego     |
-
-
-
-### 3. Template and Overleaf
-
-- Download LaTeX template: [Download](https://libribrain.com/competition-workshop-template.zip)
+- Download updated LaTeX template: [Download](https://libribrain.com/competition-workshop-template.zip)
 - Open in Overleaf: [Overleaf project](https://www.overleaf.com/read/nvvxfndvqzzc#eb252d)
 
-We recommend Overleaf for collaborative editing. You can also compile locally using latexmk/pdflatex.
-
 ---
 
-### 4. Submission form
-If the embedded form below does not work, please follow [this link](https://tally.so/r/3lpQNo). Please submit either a PDF or, if you wish to include additional technical appendices, a ZIP file. Make sure that your submitted paper is anonymised. Per team, we will consider the final submission before the deadline. This means that if you wish to update your existing submission, you should simply resubmit the form with the updated file.
+### Accepted Papers
 
-<div style="position: relative; padding-bottom: 110%; height: 0; overflow: hidden;">
-  <iframe
-    src="https://tally.so/r/3lpQNo"
-    title="LibriBrain Workshop Paper Submission"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-    allowfullscreen
-    loading="lazy"></iframe>
-  </div>
+Below is the list of all accepted workshop papers from the LibriBrain 2025 competition:
+
+| Team | Paper |
+|------|-------|
+| BrainWatson | [libribrain-brainwatson-2025.pdf](/workshop-papers/BrainWatson/libribrain-brainwatson-2025.pdf) |
+| huskii | [libribrain-huskii-2025.pdf](/workshop-papers/huskii/libribrain-huskii-2025.pdf) |
+| I_love_silksong | [libribrain-ilovesilksong-speech-2025.pdf](/workshop-papers/I_love_silksong/libribrain-ilovesilksong-speech-2025.pdf) (Speech Track) |
+| I_love_silksong | [libribrain-ilovesilksong-phoneme-2025.pdf](/workshop-papers/I_love_silksong/libribrain-ilovesilksong-phoneme-2025.pdf) (Phoneme Track) |
+| neural2speech | [libribrain-neural2speech-2025.pdf](/workshop-papers/neural2speech/libribrain-neural2speech-2025.pdf) |
+| NTHU HMI LAB | [libribrain-nthuhmilab-2025.pdf](/workshop-papers/NTHU%20HMI%20LAB/libribrain-nthuhmilab-2025.pdf) |
+| Null-1 | [libribrain-null1-2025.pdf](/workshop-papers/Null-1/libribrain-null1-2025.pdf) |
+| QuantumFiremen | [libribrain-quantumfiremen-2025.pdf](/workshop-papers/QuantumFiremen/libribrain-quantumfiremen-2025.pdf) |
+| Saidnesh | [libribrain-saidnesh-2025.pdf](/workshop-papers/Saidnesh/libribrain-saidnesh-2025.pdf) |
+| September Labs | [libribrain-septemberlabs-2025.pdf](/workshop-papers/September%20Labs/libribrain-septemberlabs-2025.pdf) |
+| Sherlock Holmes | [libribrain-sherlockholmes-2025.pdf](/workshop-papers/Sherlock%20Holmes/libribrain-sherlockholmes-2025.pdf) |
+| SHINE | [libribrain-shine-2025.pdf](/workshop-papers/SHINE/libribrain-shine-2025.pdf) |
 
 ---
 
 If you have any questions, please contact us on Discord or at [libribrain@robots.ox.ac.uk](mailto:libribrain@robots.ox.ac.uk).
-
-

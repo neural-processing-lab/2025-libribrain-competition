@@ -1,32 +1,30 @@
 ---
 layout: "simple"
 ---
-<!-- <p>
-  <img src="libribrain-wordmark.png" alt="LibriBrain Wordmark" width="400"/>
-</p> -->
 
 ## LibriBrain Competition 2025
 
-
-<div role="alert"
-     style="
-       background-color: #776885;
-       border-left: 4px solid #002147;
-       color:rgb(255, 255, 255);
-       padding: 1rem;">
-  <p style="font-weight: 700;">Now accepting Workshop Papers!</p>
-  <p>
-    The 2025 LibriBrain Competition has concluded. We thank all teams for participating.
-    If you have built something interesting using the LibriBrain dataset, please consider submitting a
-    <a href="https://libribrain.com/workshop-paper"
-       style="color: inherit; text-decoration: underline;"
-       target="_blank" rel="noopener noreferrer">Workshop Paper</a>
-    until 09.11.2025 AoE.
-  </p>
+<div style="
+  background: linear-gradient(135deg, #002147 0%, #776885 100%);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;">
+  <p style="margin: 0 0 0.5rem 0; color: white;"><strong style="color: white;">📍 <a href="https://neurips.cc/virtual/2025/loc/san-diego/competition/127724" target="_blank" style="color: white; text-decoration: underline;">NeurIPS 2025 Session</a>:</strong> Sunday, December 7 | 2:00 PM – 4:45 PM PST — Everyone welcome!</p>
+  <p style="margin: 0; font-size: 0.95em; color: rgba(255,255,255,0.9);">Workshop paper submissions are now closed. Thank you to all who submitted! <a href="/workshop-paper/" style="color: white; text-decoration: underline;">View all accepted papers →</a></p>
 </div>
 
+<div style="
+  background: #f8f9fa;
+  border: 2px solid #776885;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;">
+  <p style="margin: 0 0 0.5rem 0; color: #002147;"><strong>📬 Share Your Feedback & Stay Updated</strong></p>
+  <p style="margin: 0 0 1rem 0; font-size: 0.95em; color: #333;">Help us improve! Share feedback and sign up for future competition news. <a href="https://tally.so/r/5BbB8E" target="_blank" style="color: #776885;">(Open in new tab)</a></p>
+  <iframe data-tally-src="https://tally.so/embed/5BbB8E?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" title="LibriBrain Competition: Feedback & News Sign-up"></iframe>
+</div>
 
-
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 
 The **LibriBrain Competition** presented at NeurIPS 2025 invites AI researchers and students to take part in the exciting challenge of non-invasively decoding language from the brain. The societal impact of functioning brain computer interface systems will be substantial - first for people with speech related disabilities, and eventually as a new paradigm for interaction with computers.
 
@@ -44,12 +42,9 @@ We're excited to see what you'll build!
   <a href="https://neural-processing-lab.github.io/2025-libribrain-competition/participate/" style="background-color:#002147;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Participate now!</a>
 </div>
 
-<br><br><br>
+<br>
 
 <div style="display: flex; justify-content: space-between;">
-
-  <img src="images/sherlock2.gif" style="width: 550px; height: 350px: cover; border-radius: 8px; display: block; margin: auto;"/>
-
-  <img src="images/sherlock1.gif" style="width: 550px; height: 350px: cover; border-radius: 8px; display: block; margin: auto;"/>
-
+  <img src="images/sherlock2.gif" style="width: 550px; height: 350px; object-fit: cover; border-radius: 8px; display: block; margin: auto;"/>
+  <img src="images/sherlock1.gif" style="width: 550px; height: 350px; object-fit: cover; border-radius: 8px; display: block; margin: auto;"/>
 </div>
