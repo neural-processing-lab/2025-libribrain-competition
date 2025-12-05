@@ -9,9 +9,25 @@ layout: "simple"
   border-radius: 8px;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1.5rem;">
-  <p style="margin: 0 0 0.5rem 0; color: white;"><strong style="color: white;">📍 <a href="https://neurips.cc/virtual/2025/loc/san-diego/competition/127724" target="_blank" style="color: white; text-decoration: underline;">NeurIPS 2025 Session</a>:</strong> Sunday, December 7 | 2:00 PM – 4:45 PM PST — Everyone welcome!</p>
-  <p style="margin: 0; font-size: 0.95em; color: rgba(255,255,255,0.9);">Workshop paper submissions are now closed. Thank you to all who submitted! <a href="/workshop-paper/" style="color: white; text-decoration: underline;">View all accepted papers →</a></p>
+  <p style="margin: 0 0 0.5rem 0; color: white;"><strong style="color: white;">📍 <a href="https://neurips.cc/virtual/2025/loc/san-diego/competition/127724" target="_blank" style="color: white; text-decoration: underline;">NeurIPS 2025 Session</a>:</strong> Sunday, December 7 | 2:00 PM – 4:45 PM PST | Upper Level Ballroom 6CF</p>
+  <p style="margin: 0; font-size: 0.95em; color: rgba(255,255,255,0.9);">Everyone welcome! <a href="/workshop-paper/" style="color: white; text-decoration: underline;">View all accepted papers →</a></p>
 </div>
+
+<details style="margin-bottom: 1.5rem;">
+<summary style="cursor: pointer; font-weight: bold; color: #002147; padding: 0.5rem 0;">📅 Session Agenda (click to expand)</summary>
+
+| Time | Event |
+|------|-------|
+| 2:00 PM | **Introduction, Competition Recap & Winner Announcement** — Oiwi Parker Jones |
+| 2:20 PM | **Speech Detection: Team Presentations** — QuantumFiremen, SHINE, Sherlock Holmes |
+| 2:45 PM | **Speech Detection: Panel Discussion** |
+| 3:00 PM | **Multi-Phase Team Presentations** — I_love_silksong, neural2speech |
+| 3:20 PM | **Break** |
+| 3:35 PM | **Phoneme Classification: Team Presentations** — Saidnesh, huskii, NTHU, BrainWatson, September Labs |
+| 4:15 PM | **Phoneme Classification: Panel Discussion** |
+| 4:30 PM | **Outro & Conclusion** — Oiwi Parker Jones |
+
+</details>
 
 <div style="
   background: #f8f9fa;
