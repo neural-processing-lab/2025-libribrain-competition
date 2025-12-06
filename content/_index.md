@@ -10,7 +10,7 @@ layout: "simple"
   padding: 1.25rem 1.5rem;
   margin-bottom: 1.5rem;">
   <p style="margin: 0 0 0.5rem 0; color: white;"><strong style="color: white;">📍 <a href="https://neurips.cc/virtual/2025/loc/san-diego/competition/127724" target="_blank" style="color: white; text-decoration: underline;">NeurIPS 2025 Session</a>:</strong> Sunday, December 7 | 2:00 PM – 4:45 PM PST | Upper Level Ballroom 6CF</p>
-  <p style="margin: 0; font-size: 0.95em; color: rgba(255,255,255,0.9);">Everyone welcome! <a href="/workshop-paper/" style="color: white; text-decoration: underline;">View all accepted papers →</a></p>
+  <p style="margin: 0; font-size: 0.95em; color: rgba(255,255,255,0.9);">Everyone welcome! <a href="workshop-papers/" style="color: white; text-decoration: underline;">View all accepted papers →</a></p>
 </div>
 
 <details style="margin-bottom: 1.5rem;">

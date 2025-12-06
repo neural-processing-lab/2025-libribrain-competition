@@ -71,7 +71,7 @@
 
 [[main]]
   name = "Workshop Papers"
-  pageRef="workshop-paper"
+  pageRef="workshop-papers"
   parent = "details"
   weight=15
 
