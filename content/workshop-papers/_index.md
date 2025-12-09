@@ -26,7 +26,6 @@ Below is the list of all accepted workshop papers from the LibriBrain 2025 compe
 | Team | Paper |
 |------|-------|
 | BrainWatson | [libribrain-brainwatson-2025.pdf](BrainWatson/libribrain-brainwatson-2025.pdf) |
-| huskii | [libribrain-huskii-2025.pdf](huskii/libribrain-huskii-2025.pdf) |
 | I_love_silksong | [libribrain-ilovesilksong-speech-2025.pdf](I_love_silksong/libribrain-ilovesilksong-speech-2025.pdf) (Speech Track) |
 | I_love_silksong | [libribrain-ilovesilksong-phoneme-2025.pdf](I_love_silksong/libribrain-ilovesilksong-phoneme-2025.pdf) (Phoneme Track) |
 | neural2speech | [libribrain-neural2speech-2025.pdf](neural2speech/libribrain-neural2speech-2025.pdf) |
