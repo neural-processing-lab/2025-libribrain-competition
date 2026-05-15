@@ -263,6 +263,57 @@ body {
    EDITION CARDS
    ═══════════════════════════════════════ */
 
+.edition-rail {
+  --rail-x: 0.75rem;
+  --rail-gutter: 2.5rem;
+  position: relative;
+  padding-left: var(--rail-gutter);
+  padding-top: 2.5rem;
+}
+.edition-rail::before {
+  content: '';
+  position: absolute;
+  left: var(--rail-x);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0,
+    rgba(119, 104, 133, 0.06) 1.5rem,
+    rgba(119, 104, 133, 0.28) 3rem,
+    rgba(119, 104, 133, 0.28) calc(100% - 1rem),
+    transparent 100%
+  );
+  pointer-events: none;
+}
+.edition-rail-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.edition-rail-item:last-child {
+  margin-bottom: 0;
+}
+.edition-rail-dot {
+  position: absolute;
+  left: calc(var(--rail-x) - var(--rail-gutter) - 6px);
+  top: 1.75rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 1;
+}
+.edition-rail-dot--upcoming {
+  border: 2px solid #7c3aed;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 5px rgba(124, 58, 237, 0.18);
+}
+.edition-rail-dot--done {
+  background: #776885;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(119, 104, 133, 0.25);
+}
+
 .edition-card {
   display: flex;
   align-items: center;

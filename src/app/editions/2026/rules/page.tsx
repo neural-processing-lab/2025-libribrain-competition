@@ -9,7 +9,7 @@ export default function RulesPage2026() {
       <main style={{ color: '#0a0a0a', background: '#fff' }}>
         <EditionLayout year="2026" title="Rules" subtitle="Competition rules and eligibility">
           <div className="prose-custom">
-            <p>Rules for the 2026 PNPL Competition will largely follow the 2025 edition. Full rules will be published before the competition opens in June 2026.</p>
+            <p>Rules for the 2026 PNPL Competition will largely follow the 2025 edition. Full rules will be published before the competition opens in July 2026.</p>
             <p>Key principles:</p>
             <ul>
               <li><strong>Open to All</strong> &mdash; No domain-specific knowledge or specialised hardware required.</li>

@@ -111,6 +111,17 @@ export default function Edition2026() {
               This multi-subject dataset opens the door to cross-subject generalisation &mdash; a critical challenge for practical brain-computer interfaces. How much data does it take to reach useful performance on a new subject?
             </p>
 
+            <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
+              <img
+                src="/images/libribrain100-chart.png"
+                alt="Scatter plot comparing LibriBrain100 with other MEG datasets on number of subjects and maximum hours per subject. LibriBrain100 sits in the upper-right quadrant — many subjects and many hours per subject — while datasets like MEG-MASC, MOUS, and Le Petit Prince have more subjects but far fewer hours each."
+                style={{ width: '100%', maxWidth: '720px', height: 'auto', borderRadius: '8px' }}
+              />
+              <figcaption style={{ fontSize: '13px', color: '#888', marginTop: '0.6rem', lineHeight: 1.5 }}>
+                LibriBrain100 compared with other public MEG datasets. The original LibriBrain went deep on a single subject; LibriBrain100 keeps that depth while adding breadth across 33 subjects.
+              </figcaption>
+            </figure>
+
             <div style={{
               display: 'flex',
               gap: '1rem',

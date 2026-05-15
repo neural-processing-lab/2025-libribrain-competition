@@ -28,11 +28,11 @@ export default function ParticipatePage() {
             <ol>
               <li>
                 <strong>Speech Detection</strong><br />
-                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Speech_Detection.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
+                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/2025/LibriBrain_Competition_Speech_Detection.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
               </li>
               <li>
                 <strong>Phoneme Classification (updated for Phase 2!)</strong><br />
-                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Phoneme_Classification.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
+                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/2025/LibriBrain_Competition_Phoneme_Classification.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
               </li>
             </ol>
 
@@ -43,11 +43,11 @@ export default function ParticipatePage() {
             <ul>
               <li>
                 <strong>Phase 2: How to generate a Phoneme Classification submission</strong><br />
-                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Phoneme_Task_Submission_Tutorial.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
+                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/2025/LibriBrain_Competition_Phoneme_Task_Submission_Tutorial.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
               </li>
               <li>
                 <strong>Phase 1 (over!): How to generate a Speech Detection submission</strong><br />
-                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Submission_Tutorial.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
+                <a href="https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/2025/LibriBrain_Competition_Submission_Tutorial.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
               </li>
             </ul>
 
@@ -89,7 +89,7 @@ export default function ParticipatePage() {
 
             <p>
               If you have any questions or need help, please check our{' '}
-              <a href="https://discord.gg/libribrain" target="_blank" rel="noopener noreferrer">Discord server</a>{' '}
+              <a href="https://discord.gg/Fqr8gJnvSh" target="_blank" rel="noopener noreferrer">Discord server</a>{' '}
               or send us your questions to:{' '}
               <a href="mailto:libribrain@robots.ox.ac.uk">libribrain@robots.ox.ac.uk</a>
             </p>

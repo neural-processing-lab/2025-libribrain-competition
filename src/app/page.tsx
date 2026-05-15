@@ -160,87 +160,95 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* 2026 Edition Card — CURRENT */}
-            <Link href="/editions/2026/" style={{ textDecoration: 'none', color: 'inherit', display: 'block', marginBottom: '1.5rem' }}>
-              <div className="edition-card" style={{ borderColor: '#7c3aed', borderWidth: '1.5px' }}>
-                <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
-                    <span className="edition-year" style={{ background: 'rgba(124,58,237,0.1)', color: '#7c3aed' }}>2026</span>
-                    <span style={{
-                      fontSize: '11px',
-                      fontWeight: 600,
-                      color: '#7c3aed',
-                      background: 'rgba(124,58,237,0.08)',
-                      padding: '0.25rem 0.65rem',
-                      borderRadius: '6px',
-                      letterSpacing: '0.04em',
-                      textTransform: 'uppercase'
-                    }}>
-                      Coming Soon
-                    </span>
+            <div className="edition-rail">
+              {/* 2026 Edition Card — CURRENT */}
+              <div className="edition-rail-item">
+                <span className="edition-rail-dot edition-rail-dot--upcoming" aria-hidden="true" />
+                <Link href="/editions/2026/" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                  <div className="edition-card" style={{ borderColor: '#7c3aed', borderWidth: '1.5px' }}>
+                    <div style={{ flex: 1 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                        <span className="edition-year" style={{ background: 'rgba(124,58,237,0.1)', color: '#7c3aed' }}>2026</span>
+                        <span style={{
+                          fontSize: '11px',
+                          fontWeight: 600,
+                          color: '#7c3aed',
+                          background: 'rgba(124,58,237,0.08)',
+                          padding: '0.25rem 0.65rem',
+                          borderRadius: '6px',
+                          letterSpacing: '0.04em',
+                          textTransform: 'uppercase'
+                        }}>
+                          Coming Soon
+                        </span>
+                      </div>
+                      <h3 style={{
+                        fontSize: 'clamp(22px, 3.5vw, 30px)',
+                        fontWeight: 600,
+                        margin: '0 0 0.6rem 0',
+                        letterSpacing: '-0.02em'
+                      }}>
+                        Word Classification
+                      </h3>
+                      <p style={{
+                        fontSize: '16px',
+                        color: '#888',
+                        margin: '0 0 1.5rem 0',
+                        lineHeight: 1.6,
+                        maxWidth: '500px'
+                      }}>
+                        Decode words from MEG brain recordings using LibriBrain100 &mdash; over 100 hours from 33 subjects. Opening July 2026.
+                      </p>
+                      <div style={{
+                        display: 'flex',
+                        gap: '1.5rem',
+                        fontSize: '13px',
+                        color: '#aaa',
+                        fontWeight: 500
+                      }}>
+                        <span>Word Classification</span>
+                        <span>LibriBrain100</span>
+                        <span>33 Subjects</span>
+                      </div>
+                    </div>
+                    <div className="edition-card-arrow">&rarr;</div>
                   </div>
-                  <h3 style={{
-                    fontSize: 'clamp(22px, 3.5vw, 30px)',
-                    fontWeight: 600,
-                    margin: '0 0 0.6rem 0',
-                    letterSpacing: '-0.02em'
-                  }}>
-                    Word Classification
-                  </h3>
-                  <p style={{
-                    fontSize: '16px',
-                    color: '#888',
-                    margin: '0 0 1.5rem 0',
-                    lineHeight: 1.6,
-                    maxWidth: '500px'
-                  }}>
-                    Decode words from MEG brain recordings using LibriBrain100 &mdash; over 100 hours from 33 subjects. Opening June 2026.
-                  </p>
-                  <div style={{
-                    display: 'flex',
-                    gap: '1.5rem',
-                    fontSize: '13px',
-                    color: '#aaa',
-                    fontWeight: 500
-                  }}>
-                    <span>Word Classification</span>
-                    <span>LibriBrain100</span>
-                    <span>33 Subjects</span>
-                  </div>
-                </div>
-                <div className="edition-card-arrow">&rarr;</div>
+                </Link>
               </div>
-            </Link>
 
-            {/* 2025 Edition Card — ARCHIVED */}
-            <Link href="/editions/2025/" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-              <div className="edition-card" style={{ opacity: 0.75 }}>
-                <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
-                    <span className="edition-year">2025</span>
-                    <span className="edition-status">Complete</span>
+              {/* 2025 Edition Card — ARCHIVED */}
+              <div className="edition-rail-item">
+                <span className="edition-rail-dot edition-rail-dot--done" aria-hidden="true" />
+                <Link href="/editions/2025/" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                  <div className="edition-card" style={{ opacity: 0.75 }}>
+                    <div style={{ flex: 1 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                        <span className="edition-year">2025</span>
+                        <span className="edition-status">Complete</span>
+                      </div>
+                      <h3 style={{
+                        fontSize: 'clamp(18px, 3vw, 24px)',
+                        fontWeight: 600,
+                        margin: '0 0 0.4rem 0',
+                        letterSpacing: '-0.02em'
+                      }}>
+                        Speech Detection &amp; Phoneme Classification
+                      </h3>
+                      <p style={{
+                        fontSize: '15px',
+                        color: '#999',
+                        margin: '0 0 1rem 0',
+                        lineHeight: 1.6,
+                        maxWidth: '500px'
+                      }}>
+                        NeurIPS 2025 Competition Track. 2 tasks, 4 tracks, $10K prizes, 11 workshop papers.
+                      </p>
+                    </div>
+                    <div className="edition-card-arrow">&rarr;</div>
                   </div>
-                  <h3 style={{
-                    fontSize: 'clamp(18px, 3vw, 24px)',
-                    fontWeight: 600,
-                    margin: '0 0 0.4rem 0',
-                    letterSpacing: '-0.02em'
-                  }}>
-                    Speech Detection &amp; Phoneme Classification
-                  </h3>
-                  <p style={{
-                    fontSize: '15px',
-                    color: '#999',
-                    margin: '0 0 1rem 0',
-                    lineHeight: 1.6,
-                    maxWidth: '500px'
-                  }}>
-                    NeurIPS 2025 Competition Track. 2 tasks, 4 tracks, $10K prizes, 11 workshop papers.
-                  </p>
-                </div>
-                <div className="edition-card-arrow">&rarr;</div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
         </section>
 

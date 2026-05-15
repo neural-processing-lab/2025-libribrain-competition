@@ -17,7 +17,7 @@ export default function LeaderboardPage2026() {
           }}>
             <div style={{ fontSize: '32px', marginBottom: '1rem' }}>📊</div>
             <h3 style={{ fontSize: '22px', fontWeight: 700, margin: '0 0 0.5rem', color: '#0a0a0a' }}>
-              Leaderboard opens June 2026
+              Leaderboard opens July 2026
             </h3>
             <p style={{ color: '#888', margin: 0, maxWidth: '450px', marginLeft: 'auto', marginRight: 'auto', fontSize: '16px' }}>
               The leaderboard will go live when the competition opens. Check back then to track submissions and scores.

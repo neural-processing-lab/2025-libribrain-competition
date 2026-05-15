@@ -39,7 +39,7 @@ SENSORS_SPEECH_MASK = [18, 20, 22, 23, 45, 120, 138, 140, 142, 143, 145, 146, 14
   </div>
 </div>
 
-*Left: All MEG sensors in the LibriBrain dataset, as shown with the interactive viewer (see [Speech Detection Colab Tutorial](https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/LibriBrain_Competition_Speech_Detection.ipynb#scrollTo=5aB6CExQxJsc) or the similar interactive visualisation below). Right: the sensors used in the mask. To create your own mask, the spatial coordinates for each sensor are on the competition website [here](https://neural-processing-lab.github.io//2025-libribrain-competition/sensor_xyz.json).*
+*Left: All MEG sensors in the LibriBrain dataset, as shown with the interactive viewer (see [Speech Detection Colab Tutorial](https://colab.research.google.com/github/neural-processing-lab/2025-libribrain-competition/blob/main/static/colabs/2025/LibriBrain_Competition_Speech_Detection.ipynb#scrollTo=5aB6CExQxJsc) or the similar interactive visualisation below). Right: the sensors used in the mask. To create your own mask, the spatial coordinates for each sensor are on the competition website [here](https://neural-processing-lab.github.io//2025-libribrain-competition/sensor_xyz.json).*
 
 <div style="border: 1px solid #ccc; padding: 1em; border-radius: 5px; background-color: #eeeeee;">
 <strong>Background Note:</strong> 

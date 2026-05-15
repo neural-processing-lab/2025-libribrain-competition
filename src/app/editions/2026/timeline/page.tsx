@@ -3,9 +3,9 @@ import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
 
 const timeline = [
-  { phase: 'Dataset Release', dates: '1 Jul 2026', status: 'upcoming' },
+  { phase: 'Competition Launch', dates: '1 Jul 2026', status: 'upcoming' },
   { phase: 'Competition Phase \u2013 Word Classification', dates: '1 Jul \u2013 30 Sep 2026', status: 'upcoming' },
-  { phase: 'Winners Announced', dates: '10 Oct 2026', status: 'upcoming' },
+  { phase: 'Winners Announced', dates: '1 Nov 2026', status: 'upcoming' },
   { phase: 'Workshop & Final Awards', dates: 'TBA', status: 'upcoming' },
 ];
 

@@ -85,7 +85,7 @@ export default function RulesPage() {
 
             <h3>6. Communication &amp; Support</h3>
             <ul>
-              <li><strong>Primary Platform:</strong> Join our <a href="https://discord.gg/libribrain" target="_blank" rel="noopener noreferrer">Discord server</a> for real-time Q&amp;A, technical support, and community discussion.</li>
+              <li><strong>Primary Platform:</strong> Join our <a href="https://discord.gg/Fqr8gJnvSh" target="_blank" rel="noopener noreferrer">Discord server</a> for real-time Q&amp;A, technical support, and community discussion.</li>
               <li><strong>Updates &amp; Announcements:</strong> Important rule changes, deadline reminders, and clarifications will be posted in the Discord channel.</li>
             </ul>
 
