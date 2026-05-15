@@ -2,6 +2,7 @@ import Navigation from '../../components/Navigation';
 import Footer from '../../components/Footer';
 import EditionLayout from '../../components/EditionLayout';
 import Link from 'next/link';
+import { assetPath } from '../../../lib/assetPath';
 
 export default function Edition2026() {
   return (
@@ -113,7 +114,7 @@ export default function Edition2026() {
 
             <figure style={{ margin: '2rem 0', textAlign: 'center' }}>
               <img
-                src="/images/libribrain100-chart.png"
+                src={assetPath('/images/libribrain100-chart.png')}
                 alt="Scatter plot comparing LibriBrain100 with other MEG datasets on number of subjects and maximum hours per subject. LibriBrain100 sits in the upper-right quadrant — many subjects and many hours per subject — while datasets like MEG-MASC, MOUS, and Le Petit Prince have more subjects but far fewer hours each."
                 style={{ width: '100%', maxWidth: '720px', height: 'auto', borderRadius: '8px' }}
               />

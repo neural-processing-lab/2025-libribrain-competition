@@ -1,6 +1,7 @@
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
+import Link from 'next/link';
 
 export default function RulesPage2026() {
   return (
@@ -17,7 +18,7 @@ export default function RulesPage2026() {
               <li><strong>Open science encouraged</strong> &mdash; Share your code and contribute to the community.</li>
             </ul>
             <hr />
-            <p>For reference, see the <a href="/editions/2025/rules/">2025 rules</a>.</p>
+            <p>For reference, see the <Link href="/editions/2025/rules/">2025 rules</Link>.</p>
           </div>
         </EditionLayout>
         <Footer />

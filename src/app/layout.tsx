@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import "./globals.css";
+import { assetPath } from "../lib/assetPath";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
   title: "PNPL Competition | Neural Speech Decoding",
   description: "The PNPL Competition: Decoding language from the brain using MEG data. Built around the LibriBrain100 dataset. Organised by the Parker Jones Neural Processing Lab at Oxford.",
   icons: {
-    icon: "/favicon.png",
+    icon: assetPath("/favicon.png"),
   },
 };
 

@@ -2,6 +2,7 @@ import Navigation from '../../components/Navigation';
 import Footer from '../../components/Footer';
 import EditionLayout from '../../components/EditionLayout';
 import Link from 'next/link';
+import { assetPath } from '../../../lib/assetPath';
 
 export default function Edition2025() {
   return (
@@ -99,13 +100,13 @@ export default function Edition2025() {
               gap: '1rem',
               margin: '2rem 0'
             }}>
-              <img src="/images/sherlock2.gif" alt="MEG visualization" style={{
+              <img src={assetPath('/images/sherlock2.gif')} alt="MEG visualization" style={{
                 width: '100%',
                 height: '250px',
                 objectFit: 'cover',
                 borderRadius: '8px'
               }} />
-              <img src="/images/sherlock1.gif" alt="MEG visualization" style={{
+              <img src={assetPath('/images/sherlock1.gif')} alt="MEG visualization" style={{
                 width: '100%',
                 height: '250px',
                 objectFit: 'cover',
