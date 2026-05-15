@@ -28,21 +28,13 @@ export default function Edition2026() {
               pointerEvents: 'none'
             }} />
             <div style={{ position: 'relative', zIndex: 1 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '0.8rem' }}>
-                <span style={{
-                  width: '10px',
-                  height: '10px',
-                  background: '#4ade80',
-                  borderRadius: '50%',
-                  display: 'inline-block',
-                  animation: 'pulse 2s ease-in-out infinite'
-                }} />
+              <div style={{ marginBottom: '0.8rem' }}>
                 <span style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-                  Competition opening June 2026
+                  Competition opening July 2026
                 </span>
               </div>
               <p style={{ margin: '0 0 1rem 0', fontSize: '16px', opacity: 0.85, lineHeight: 1.6 }}>
-                Registration and dataset details will be announced soon. In the meantime, check out the task description and timeline below.
+                We&apos;re happy to announce the PNPL Competition is returning this year. Keep in mind this page is still work-in-progress as we finalise all details.
               </p>
               <div style={{ display: 'flex', gap: '0.7rem', flexWrap: 'wrap' }}>
                 <Link href="/editions/2026/tracks/" style={{
@@ -88,19 +80,18 @@ export default function Edition2026() {
               margin: '1.5rem 0 2rem'
             }}>
               {[
-                { title: 'Word Classification', desc: 'Decode the specific word being heard from MEG data — a major step up from phoneme-level decoding.', accent: '#7c3aed' },
-                { title: 'LibriBrain100', desc: 'Expanded dataset: ~80 hours from the original subject plus ~40 minutes from each of 32 new subjects.', accent: '#2563eb' },
-                { title: '33 Subjects', desc: 'Cross-subject generalization — over 100 hours of MEG recordings from 33 individuals listening to Sherlock Holmes.', accent: '#059669' },
-                { title: 'Single Phase', desc: 'One extended competition phase running June through September 2026.', accent: '#d97706' },
+                { title: 'New Task', desc: 'Work Classification — decode the specific word heard from MEG data' },
+                { title: 'New Dataset', desc: 'Introducing the new LibriBrain100 dataset, now with over 100 hours of MEG data' },
+                { title: 'Go broad & deep', desc: 'Maximise within-subject performance or tackle cross-subject generalisation' },
+                { title: 'Four Months', desc: 'The competition will run between July 1st and September 30th, 2026.' },
               ].map(item => (
                 <div key={item.title} style={{
                   padding: '1.5rem',
                   border: '1px solid #eee',
-                  borderRadius: '8px',
-                  borderTop: `3px solid ${item.accent}`,
+                  borderRadius: '10px',
                   background: '#fff'
                 }}>
-                  <h4 style={{ fontSize: '15px', fontWeight: 700, margin: '0 0 0.4rem', color: '#0a0a0a' }}>
+                  <h4 style={{ fontSize: '15px', fontWeight: 700, margin: '0 0 0.4rem', color: '#7c3aed' }}>
                     {item.title}
                   </h4>
                   <p style={{ fontSize: '14px', color: '#666', margin: 0, lineHeight: 1.5 }}>
@@ -117,7 +108,7 @@ export default function Edition2026() {
               LibriBrain100 is a major expansion of the original LibriBrain dataset, bringing the total to <strong>over 100 hours of MEG data</strong>. It combines <strong>~80 hours</strong> from the original LibriBrain subject with <strong>~40 minutes of recordings from each of 32 new subjects</strong>, all listening to naturalistic spoken English from the Sherlock Holmes canon.
             </p>
             <p>
-              This multi-subject dataset opens the door to cross-subject generalization &mdash; a critical challenge for practical brain-computer interfaces. Can models trained on many subjects outperform those trained deeply on one?
+              This multi-subject dataset opens the door to cross-subject generalisation &mdash; a critical challenge for practical brain-computer interfaces. How much data does it take to reach useful performance on a new subject?
             </p>
 
             <div style={{

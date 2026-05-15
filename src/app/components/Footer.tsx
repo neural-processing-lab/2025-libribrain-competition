@@ -40,7 +40,7 @@ export default function Footer() {
               lineHeight: 1.6,
               fontWeight: 300
             }}>
-              Annual neural speech decoding competition organized by the Parker Jones Neural Processing Lab.
+              Annual neural speech decoding competition organised by the Parker Jones Neural Processing Lab.
             </p>
             <p style={{
               fontSize: 'clamp(12px, 2vw, 13px)',

@@ -117,7 +117,7 @@ export default function HomePage() {
               fontWeight: 400,
               margin: 0
             }}>
-              Organized by the{' '}
+              Organised by the{' '}
               <a href="https://pnpl.robots.ox.ac.uk/" target="_blank" rel="noopener noreferrer" style={{ color: '#999', textDecoration: 'none', fontWeight: 500 }}>
                 Parker Jones Neural Processing Lab
               </a>{' '}at Oxford (and our friends)
@@ -169,8 +169,8 @@ export default function HomePage() {
                     <span style={{
                       fontSize: '11px',
                       fontWeight: 600,
-                      color: '#16a34a',
-                      background: 'rgba(22,163,74,0.08)',
+                      color: '#7c3aed',
+                      background: 'rgba(124,58,237,0.08)',
                       padding: '0.25rem 0.65rem',
                       borderRadius: '6px',
                       letterSpacing: '0.04em',
@@ -281,7 +281,7 @@ export default function HomePage() {
                   The societal impact of functioning brain-computer interface systems will be substantial &mdash; first for people with speech-related disabilities, and eventually as a new paradigm for interaction with computers.
                 </p>
                 <p style={{ fontSize: '16px', lineHeight: 1.75, color: '#555', margin: 0 }}>
-                  We believe the way forward is through standardization and easy accessibility. LibriBrain lowers the barrier of entry for the broader research community to contribute to this exciting field.
+                  We believe the way forward is through standardisation and easy accessibility. LibriBrain lowers the barrier of entry for the broader research community to contribute to this exciting field.
                 </p>
               </div>
 
@@ -328,7 +328,7 @@ export default function HomePage() {
         }}>
           <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
             <p style={{ fontSize: '11px', color: '#bbb', letterSpacing: '0.12em', textTransform: 'uppercase', margin: '0 0 1.2rem 0', fontWeight: 600 }}>
-              Organized by
+              Organised by
             </p>
             <p style={{ fontSize: '16px', color: '#666', lineHeight: 1.8, margin: 0 }}>
               <a href="https://pnpl.robots.ox.ac.uk/" target="_blank" rel="noopener noreferrer" style={{ color: '#776885', textDecoration: 'none', fontWeight: 600 }}>

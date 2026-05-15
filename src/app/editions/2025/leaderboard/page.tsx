@@ -94,7 +94,7 @@ export default function LeaderboardPage() {
                   {[
                     { rank: 1, team: 'Sherlock Holmes', score: 'Winner' },
                     { rank: 2, team: 'SHINE', score: '2nd Place' },
-                    { rank: 3, team: 'I_love_silksong', score: 'Honorable Mention' },
+                    { rank: 3, team: 'I_love_silksong', score: 'Honourable Mention' },
                   ].map(row => (
                     <tr key={row.rank} style={{ borderTop: '1px solid #f0f0f0' }}>
                       <td style={{ padding: '0.7rem 1rem', fontWeight: 500 }}>#{row.rank}</td>
@@ -155,7 +155,7 @@ export default function LeaderboardPage() {
                   <tr style={{ borderTop: '1px solid #f0f0f0' }}>
                     <td style={{ padding: '0.7rem 1rem', fontWeight: 500 }}>#1</td>
                     <td style={{ padding: '0.7rem 1rem' }}>I_love_silksong</td>
-                    <td style={{ padding: '0.7rem 1rem', textAlign: 'right', color: '#776885', fontWeight: 600 }}>Honorable Mention</td>
+                    <td style={{ padding: '0.7rem 1rem', textAlign: 'right', color: '#776885', fontWeight: 600 }}>Honourable Mention</td>
                   </tr>
                 </tbody>
               </table>

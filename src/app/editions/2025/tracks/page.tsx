@@ -104,8 +104,9 @@ export default function TracksPage() {
 
             <blockquote style={{
               margin: '1.5rem 0',
-              padding: '1rem 1.5rem',
-              borderLeft: '4px solid #776885',
+              padding: '1.1rem 1.5rem',
+              border: '1px solid rgba(119, 104, 133, 0.22)',
+              borderRadius: '10px',
               background: '#f8f5fb',
               fontStyle: 'italic',
               color: '#555',

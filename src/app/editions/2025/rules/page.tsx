@@ -15,8 +15,8 @@ export default function RulesPage() {
 
             <h3>1. Eligibility &amp; Participation</h3>
             <ul>
-              <li><strong>Open to All</strong> &mdash; No domain-specific knowledge or specialized hardware is required. Everyone is welcome to join.</li>
-              <li><strong>Inclusivity</strong> &mdash; We aim for the broadest participation. If you&apos;re unable to complete a full submission, you will <strong>not</strong> be penalized; partial entries are still encouraged.</li>
+              <li><strong>Open to All</strong> &mdash; No domain-specific knowledge or specialised hardware is required. Everyone is welcome to join.</li>
+              <li><strong>Inclusivity</strong> &mdash; We aim for the broadest participation. If you&apos;re unable to complete a full submission, you will <strong>not</strong> be penalised; partial entries are still encouraged.</li>
             </ul>
 
             <hr />
@@ -61,7 +61,7 @@ export default function RulesPage() {
               <li>
                 <strong>Verification</strong>
                 <ul>
-                  <li>Standard Track finalists: organizers will request training code to confirm no external data was used.</li>
+                  <li>Standard Track finalists: organisers will request training code to confirm no external data was used.</li>
                   <li>Extended Track finalists: we will reach out to discuss compute usage and verify that submissions improve from inclusion of multiple datasets.</li>
                 </ul>
               </li>

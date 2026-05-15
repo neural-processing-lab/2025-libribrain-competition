@@ -19,7 +19,7 @@ const faqSections = [
       },
       {
         q: 'What are the different tracks?',
-        a: 'We offer two tracks per task:\n\n- **Standard Track**: Only LibriBrain training dataset allowed \u2014 designed to level the playing field and emphasize algorithmic innovation\n- **Extended Track**: Any data allowed \u2014 designed to embrace scale and see how far teams with resources can go',
+        a: 'We offer two tracks per task:\n\n- **Standard Track**: Only LibriBrain training dataset allowed \u2014 designed to level the playing field and emphasise algorithmic innovation\n- **Extended Track**: Any data allowed \u2014 designed to embrace scale and see how far teams with resources can go',
       },
       {
         q: 'Can I participate in multiple tracks?',
@@ -45,7 +45,7 @@ const faqSections = [
     items: [
       {
         q: 'Who can participate?',
-        a: 'The competition is open to all! No domain-specific knowledge or specialized hardware is required \u2014 everyone is welcome to join.',
+        a: 'The competition is open to all! No domain-specific knowledge or specialised hardware is required \u2014 everyone is welcome to join.',
       },
       {
         q: 'How do I get started?',

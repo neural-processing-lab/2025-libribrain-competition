@@ -3,8 +3,8 @@ import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
 
 const timeline = [
-  { phase: 'Dataset Release', dates: '1 Jun 2026', status: 'upcoming' },
-  { phase: 'Competition Phase \u2013 Word Classification', dates: '1 Jun \u2013 30 Sep 2026', status: 'upcoming' },
+  { phase: 'Dataset Release', dates: '1 Jul 2026', status: 'upcoming' },
+  { phase: 'Competition Phase \u2013 Word Classification', dates: '1 Jul \u2013 30 Sep 2026', status: 'upcoming' },
   { phase: 'Winners Announced', dates: '10 Oct 2026', status: 'upcoming' },
   { phase: 'Workshop & Final Awards', dates: 'TBA', status: 'upcoming' },
 ];
@@ -17,7 +17,7 @@ export default function TimelinePage2026() {
         <EditionLayout year="2026" title="Timeline" subtitle="Key dates for the 2026 PNPL Competition">
           <div style={{ fontSize: '17px', lineHeight: 1.8, color: '#444' }}>
             <p style={{ marginBottom: '2rem' }}>
-              This year features a <strong>single extended competition phase</strong> running from June through September, giving participants four full months to develop their word classification models.
+              This year features a <strong>single extended competition phase</strong> running from July through September, giving participants three full months to develop their word classification models.
             </p>
 
             <div style={{ margin: '0 0 2rem 0' }}>

@@ -33,7 +33,7 @@ export default function Edition2025() {
               The <strong>2025 PNPL Competition</strong>, presented at NeurIPS 2025, invited AI researchers and students to take part in the challenge of non-invasively decoding language from the brain, built around the original LibriBrain dataset. The societal impact of functioning brain-computer interface systems will be substantial &mdash; first for people with speech-related disabilities, and eventually as a new paradigm for interaction with computers.
             </p>
             <p>
-              We believe that the way forward for advancing this impactful technology is through standardization and easy accessibility for the broader research community. Our goal is to spark an &ldquo;ImageNet moment&rdquo; for BCI, lowering the barrier of entry for researchers to contribute to this exciting new field.
+              We believe that the way forward for advancing this impactful technology is through standardisation and easy accessibility for the broader research community. Our goal is to spark an &ldquo;ImageNet moment&rdquo; for BCI, lowering the barrier of entry for researchers to contribute to this exciting new field.
             </p>
 
             <div style={{

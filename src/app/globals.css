@@ -270,29 +270,13 @@ body {
   border: 1px solid #eee;
   border-radius: 12px;
   background: #fff;
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 0.35s ease, box-shadow 0.35s ease, transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
-.edition-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(to bottom, #776885, #002147);
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 .edition-card:hover {
-  border-color: #ddd;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  border-color: rgba(124, 58, 237, 0.35);
+  box-shadow: 0 12px 40px rgba(76, 29, 149, 0.10);
   transform: translateY(-2px);
-}
-.edition-card:hover::before {
-  opacity: 1;
 }
 
 .edition-year {
@@ -307,8 +291,8 @@ body {
 .edition-status {
   font-size: 11px;
   font-weight: 600;
-  color: #16a34a;
-  background: rgba(22,163,74,0.08);
+  color: #999;
+  background: rgba(0,0,0,0.04);
   padding: 0.25rem 0.65rem;
   border-radius: 6px;
   letter-spacing: 0.04em;
@@ -493,8 +477,9 @@ body {
 
 .prose-custom blockquote {
   margin: 2rem 0;
-  padding: 1rem 1.5rem;
-  border-left: 4px solid var(--accent);
+  padding: 1.1rem 1.5rem;
+  border: 1px solid rgba(124, 58, 237, 0.18);
+  border-radius: 10px;
   background: var(--accent-light);
   font-style: italic;
   color: #555;

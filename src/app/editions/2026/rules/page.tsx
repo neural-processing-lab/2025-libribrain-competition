@@ -12,8 +12,7 @@ export default function RulesPage2026() {
             <p>Rules for the 2026 PNPL Competition will largely follow the 2025 edition. Full rules will be published before the competition opens in June 2026.</p>
             <p>Key principles:</p>
             <ul>
-              <li><strong>Open to All</strong> &mdash; No domain-specific knowledge or specialized hardware required.</li>
-              <li><strong>Two tracks</strong> &mdash; Standard (LibriBrain100 data only) and Extended (any data).</li>
+              <li><strong>Open to All</strong> &mdash; No domain-specific knowledge or specialised hardware required.</li>
               <li><strong>Fair evaluation</strong> &mdash; Final rankings on an independent holdout set.</li>
               <li><strong>Open science encouraged</strong> &mdash; Share your code and contribute to the community.</li>
             </ul>

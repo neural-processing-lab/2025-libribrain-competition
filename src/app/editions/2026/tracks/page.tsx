@@ -15,9 +15,8 @@ export default function TracksPage2026() {
 
             <div className="card" style={{
               padding: '2rem',
-              border: '1px solid #eee',
-              borderRadius: '8px',
-              borderLeft: '4px solid #7c3aed',
+              border: '1px solid rgba(124, 58, 237, 0.22)',
+              borderRadius: '12px',
               background: '#faf8ff',
               margin: '2rem 0'
             }}>
@@ -67,58 +66,23 @@ export default function TracksPage2026() {
                   32 new subjects &times; ~40 minutes each
                 </h4>
                 <p style={{ fontSize: '15px', color: '#666', margin: 0 }}>
-                  MEG data from 32 additional subjects, each contributing ~40 minutes of Sherlock Holmes audiobook listening. Enables research on cross-subject generalization.
+                  MEG data from 32 additional subjects, each contributing ~40 minutes of Sherlock Holmes audiobook listening. Enables research on cross-subject generalisation.
                 </p>
               </div>
             </div>
 
-            <h2 style={{ fontSize: '24px', fontWeight: 700, margin: '2.5rem 0 1rem', color: '#0a0a0a' }}>
-              Tracks
-            </h2>
-            <p>
-              As in 2025, we offer two tracks to balance resource constraints with open exploration:
-            </p>
-
-            <div style={{
-              overflowX: 'auto',
-              margin: '1.5rem 0',
-              border: '1px solid #eee',
-              borderRadius: '8px'
-            }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
-                <thead>
-                  <tr style={{ background: '#f9f9f9' }}>
-                    <th style={{ padding: '0.9rem 1.2rem', textAlign: 'left', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 600, borderBottom: '1px solid #eee' }}>Track</th>
-                    <th style={{ padding: '0.9rem 1.2rem', textAlign: 'left', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 600, borderBottom: '1px solid #eee' }}>Training Data</th>
-                    <th style={{ padding: '0.9rem 1.2rem', textAlign: 'left', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 600, borderBottom: '1px solid #eee' }}>Motivation</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td style={{ padding: '0.9rem 1.2rem', borderBottom: '1px solid #f0f0f0', fontWeight: 600 }}>Standard</td>
-                    <td style={{ padding: '0.9rem 1.2rem', borderBottom: '1px solid #f0f0f0' }}>LibriBrain100 only</td>
-                    <td style={{ padding: '0.9rem 1.2rem', borderBottom: '1px solid #f0f0f0', color: '#666' }}>Level playing field &mdash; innovate on methods</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '0.9rem 1.2rem', fontWeight: 600 }}>Extended</td>
-                    <td style={{ padding: '0.9rem 1.2rem' }}>Any data</td>
-                    <td style={{ padding: '0.9rem 1.2rem', color: '#666' }}>Embrace scale &mdash; push the frontier</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
             <blockquote style={{
               margin: '1.5rem 0',
-              padding: '1rem 1.5rem',
-              borderLeft: '4px solid #7c3aed',
+              padding: '1.1rem 1.5rem',
+              border: '1px solid rgba(124, 58, 237, 0.18)',
+              borderRadius: '10px',
               background: '#faf8ff',
               fontStyle: 'italic',
               color: '#555',
               fontSize: '15px',
               lineHeight: 1.7
             }}>
-              Full task specification, evaluation metrics, and baseline models will be released alongside the dataset on June 1, 2026.
+              Full task specification, evaluation metrics, and baseline models will be released on July 1, 2026.
             </blockquote>
           </div>
         </EditionLayout>

@@ -21,7 +21,10 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   title: "PNPL Competition | Neural Speech Decoding",
-  description: "The PNPL Competition: Decoding language from the brain using MEG data. Built around the LibriBrain100 dataset. Organized by the Parker Jones Neural Processing Lab at Oxford.",
+  description: "The PNPL Competition: Decoding language from the brain using MEG data. Built around the LibriBrain100 dataset. Organised by the Parker Jones Neural Processing Lab at Oxford.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
