@@ -32,13 +32,21 @@ export default function TracksPage() {
                 <p style={{ margin: '0 0 1rem 0', color: '#555' }}>
                   Train a model to distinguish <em>speech</em> vs. <em>silence</em> based on brain activity measured by MEG during a listening session.
                 </p>
-                <img src={assetPath('/images/sherlock3.gif')} alt="Speech detection visualization" style={{
-                  width: '100%',
-                  maxWidth: '500px',
-                  height: '200px',
-                  objectFit: 'cover',
-                  borderRadius: '6px'
-                }} />
+                <video
+                  src={assetPath('/images/Sherlock3.mp4')}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  aria-label="Speech detection visualization"
+                  style={{
+                    width: '100%',
+                    maxWidth: '500px',
+                    height: 'auto',
+                    borderRadius: '6px',
+                    display: 'block'
+                  }}
+                />
               </div>
 
               <div className="card" style={{
@@ -53,13 +61,21 @@ export default function TracksPage() {
                 <p style={{ margin: '0 0 1rem 0', color: '#555' }}>
                   Build a classifier that maps MEG data to the specific <strong>phonemes</strong> being heard.
                 </p>
-                <img src={assetPath('/images/sherlock4.gif')} alt="Phoneme classification visualization" style={{
-                  width: '100%',
-                  maxWidth: '500px',
-                  height: '200px',
-                  objectFit: 'cover',
-                  borderRadius: '6px'
-                }} />
+                <video
+                  src={assetPath('/images/Sherlock4.mp4')}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  aria-label="Phoneme classification visualization"
+                  style={{
+                    width: '100%',
+                    maxWidth: '500px',
+                    height: 'auto',
+                    borderRadius: '6px',
+                    display: 'block'
+                  }}
+                />
               </div>
             </div>
 

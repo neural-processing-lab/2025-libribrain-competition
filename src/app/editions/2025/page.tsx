@@ -100,18 +100,34 @@ export default function Edition2025() {
               gap: '1rem',
               margin: '2rem 0'
             }}>
-              <img src={assetPath('/images/sherlock2.gif')} alt="MEG visualization" style={{
-                width: '100%',
-                height: '250px',
-                objectFit: 'cover',
-                borderRadius: '8px'
-              }} />
-              <img src={assetPath('/images/sherlock1.gif')} alt="MEG visualization" style={{
-                width: '100%',
-                height: '250px',
-                objectFit: 'cover',
-                borderRadius: '8px'
-              }} />
+              <video
+                src={assetPath('/images/Sherlock2.mp4')}
+                autoPlay
+                loop
+                muted
+                playsInline
+                aria-label="MEG visualization"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  borderRadius: '8px',
+                  display: 'block'
+                }}
+              />
+              <video
+                src={assetPath('/images/Sherlock1.mp4')}
+                autoPlay
+                loop
+                muted
+                playsInline
+                aria-label="MEG visualization"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  borderRadius: '8px',
+                  display: 'block'
+                }}
+              />
             </div>
           </div>
         </EditionLayout>
