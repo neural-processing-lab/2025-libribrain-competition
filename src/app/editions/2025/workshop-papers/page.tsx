@@ -1,6 +1,7 @@
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
+import { assetPath } from '../../../../lib/assetPath';
 
 const papers = [
   { team: 'BrainWatson', file: 'BrainWatson/libribrain-brainwatson-2025.pdf', track: null },
@@ -51,7 +52,7 @@ export default function WorkshopPapersPage() {
             {papers.map((paper, i) => (
               <a
                 key={i}
-                href={`/workshop-papers/${paper.file}`}
+                href={assetPath(`/workshop-papers/${paper.file}`)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card"

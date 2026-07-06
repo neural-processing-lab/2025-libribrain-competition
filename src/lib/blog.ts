@@ -17,6 +17,10 @@ export interface BlogPost {
 
 const postsDirectory = path.join(process.cwd(), 'content/blog');
 
+// Empty on the custom domain (libribrain.com); "/2025-libribrain-competition" on the
+// GitHub project-page deployment. Applied to blog asset URLs so images/videos resolve on both.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 export async function getAllPosts(): Promise<BlogPost[]> {
   if (!fs.existsSync(postsDirectory)) return [];
 
@@ -35,9 +39,11 @@ export async function getAllPosts(): Promise<BlogPost[]> {
         .use(html, { sanitize: false })
         .process(content);
 
-      // Fix image paths - remove Hugo base path prefix
+      // Rewrite Hugo's baked-in project-page prefix on asset URLs to the current
+      // deployment's basePath, so blog images/videos resolve on both the custom domain
+      // (BASE_PATH="") and the GitHub project page (BASE_PATH="/2025-libribrain-competition").
       let htmlContent = result.toString();
-      htmlContent = htmlContent.replace(/src="\/2025-libribrain-competition\//g, 'src="/');
+      htmlContent = htmlContent.replace(/(src|href)="\/2025-libribrain-competition\//g, `$1="${BASE_PATH}/`);
       // Strip Hugo shortcodes
       htmlContent = htmlContent.replace(/\{\{[<>][^}]*\}\}/g, '');
 
