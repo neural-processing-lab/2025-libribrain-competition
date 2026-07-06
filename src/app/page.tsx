@@ -179,7 +179,7 @@ export default function HomePage() {
                           letterSpacing: '0.04em',
                           textTransform: 'uppercase'
                         }}>
-                          Coming Soon
+                          Now Open
                         </span>
                       </div>
                       <h3 style={{
@@ -197,7 +197,7 @@ export default function HomePage() {
                         lineHeight: 1.6,
                         maxWidth: '500px'
                       }}>
-                        Decode words from MEG brain recordings using LibriBrain100 &mdash; over 100 hours from 33 subjects. Opening July 2026.
+                        Decode words from MEG brain recordings using LibriBrain100 &mdash; over 100 hours from 33 subjects. Resources live now; submissions open 15 July 2026.
                       </p>
                       <div style={{
                         display: 'flex',

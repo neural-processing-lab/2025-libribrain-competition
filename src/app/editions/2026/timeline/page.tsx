@@ -3,9 +3,11 @@ import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
 
 const timeline = [
-  { phase: 'Competition Launch', dates: '1 Jul 2026', status: 'upcoming' },
-  { phase: 'Competition Phase \u2013 Word Classification', dates: '1 Jul \u2013 30 Sep 2026', status: 'upcoming' },
-  { phase: 'Winners Announced', dates: '1 Nov 2026', status: 'upcoming' },
+  { phase: 'Soft Launch – Resources & Tutorials Open', dates: 'July 2026', status: 'complete' },
+  { phase: 'Submissions Open', dates: '15 Jul 2026', status: 'upcoming' },
+  { phase: 'Competition Phase – Word Classification', dates: '15 Jul – 15 Oct 2026 (AoE)', status: 'upcoming' },
+  { phase: 'Submission Deadline', dates: '15 Oct 2026 (AoE)', status: 'upcoming' },
+  { phase: 'Verification & Winners Announced', dates: 'After the deadline (TBA)', status: 'upcoming' },
   { phase: 'Workshop & Final Awards', dates: 'TBA', status: 'upcoming' },
 ];
 
@@ -17,7 +19,9 @@ export default function TimelinePage2026() {
         <EditionLayout year="2026" title="Timeline" subtitle="Key dates for the 2026 PNPL Competition">
           <div style={{ fontSize: '17px', lineHeight: 1.8, color: '#444' }}>
             <p style={{ marginBottom: '2rem' }}>
-              This year features a <strong>single extended competition phase</strong> running from July through September, giving participants three full months to develop their word classification models.
+              Resources and tutorials are <strong>available now</strong> so you can start experimenting.{' '}
+              <strong>Submissions open on 15 July 2026</strong> and the competition runs for three months,
+              closing on <strong>15 October 2026 (Anywhere on Earth)</strong>.
             </p>
 
             <div style={{ margin: '0 0 2rem 0' }}>
@@ -63,7 +67,9 @@ export default function TimelinePage2026() {
               fontSize: '15px',
               color: '#555'
             }}>
-              Dates are tentative and subject to change. Final dates will be confirmed closer to the competition launch.
+              Post-deadline verification and workshop dates will be confirmed as they are finalised. Deadline
+              reminders and any changes are announced on our{' '}
+              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: '#7c3aed', textDecoration: 'none', fontWeight: 600 }}>Discord</a>.
             </div>
           </div>
         </EditionLayout>

@@ -31,14 +31,14 @@ export default function Edition2026() {
             <div style={{ position: 'relative', zIndex: 1 }}>
               <div style={{ marginBottom: '0.8rem' }}>
                 <span style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-                  Competition opening July 2026
+                  Now open &middot; Submissions 15 Jul 2026
                 </span>
               </div>
               <p style={{ margin: '0 0 1rem 0', fontSize: '16px', opacity: 0.85, lineHeight: 1.6 }}>
-                We&apos;re happy to announce the PNPL Competition is returning this year. Keep in mind this page is still work-in-progress as we finalise all details.
+                The PNPL Competition is back. Our resources and first tutorial are <strong>live now</strong> so you can start experimenting today &mdash; submissions open <strong>15 July</strong> and close <strong>15 October 2026 (AoE)</strong>.
               </p>
               <div style={{ display: 'flex', gap: '0.7rem', flexWrap: 'wrap' }}>
-                <Link href="/editions/2026/tracks/" style={{
+                <Link href="/editions/2026/participate/" style={{
                   fontSize: '13px',
                   color: '#1e1b4b',
                   textDecoration: 'none',
@@ -47,9 +47,9 @@ export default function Edition2026() {
                   borderRadius: '6px',
                   fontWeight: 600
                 }}>
-                  View Task &rarr;
+                  Get Started &rarr;
                 </Link>
-                <Link href="/editions/2026/timeline/" style={{
+                <Link href="/editions/2026/tracks/" style={{
                   fontSize: '13px',
                   color: '#fff',
                   textDecoration: 'none',
@@ -59,7 +59,7 @@ export default function Edition2026() {
                   borderRadius: '6px',
                   fontWeight: 500
                 }}>
-                  Timeline
+                  View Task
                 </Link>
               </div>
             </div>
@@ -81,10 +81,10 @@ export default function Edition2026() {
               margin: '1.5rem 0 2rem'
             }}>
               {[
-                { title: 'New Task', desc: 'Work Classification — decode the specific word heard from MEG data' },
+                { title: 'New Task', desc: 'Word Classification — decode which of 50 words a subject is hearing from MEG data' },
                 { title: 'New Dataset', desc: 'Introducing the new LibriBrain100 dataset, now with over 100 hours of MEG data' },
-                { title: 'Go broad & deep', desc: 'Maximise within-subject performance or tackle cross-subject generalisation' },
-                { title: 'Four Months', desc: 'The competition will run between July 1st and September 30th, 2026.' },
+                { title: 'Two Tracks', desc: 'Go Deep on a single subject or Broad across 32 — enter either or both' },
+                { title: 'Three Months', desc: 'Submissions run 15 July – 15 October 2026 (Anywhere on Earth).' },
               ].map(item => (
                 <div key={item.title} style={{
                   padding: '1.5rem',
@@ -106,7 +106,7 @@ export default function Edition2026() {
               The Dataset: LibriBrain100
             </h2>
             <p>
-              LibriBrain100 is a major expansion of the original LibriBrain dataset, bringing the total to <strong>over 100 hours of MEG data</strong>. It combines <strong>~80 hours</strong> from the original LibriBrain subject with <strong>~40 minutes of recordings from each of 32 new subjects</strong>, all listening to naturalistic spoken English from the Sherlock Holmes canon.
+              LibriBrain100 is a major expansion of the original LibriBrain dataset, bringing the total to <strong>over 100 hours of MEG data</strong>. It pairs the deeply-sampled <strong>subj0</strong> recordings behind the Deep track &mdash; spanning audiobooks, phonetically balanced speech corpora (TIMIT, MOCHA-TIMIT), and narrative podcasts &mdash; with <strong>varying amounts (~10&ndash;40 minutes each) from 32 additional subjects</strong> behind the Broad track.
             </p>
             <p>
               This multi-subject dataset opens the door to cross-subject generalisation &mdash; a critical challenge for practical brain-computer interfaces. How much data does it take to reach useful performance on a new subject?

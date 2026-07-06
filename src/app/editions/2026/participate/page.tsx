@@ -36,8 +36,8 @@ export default function ParticipatePage2026() {
                 letterSpacing: '0.08em',
                 textTransform: 'uppercase',
                 flexShrink: 0
-              }}>Work in Progress</span>
-              <span>This page is being finalised ahead of the competition opening in July 2026.</span>
+              }}>Now Open</span>
+              <span>Tutorials and data are live so you can start now. Submissions open <strong>15 July 2026</strong> and close <strong>15 October 2026 (AoE)</strong>. More tutorial material is on the way.</span>
             </div>
 
             <p>We&apos;re excited for you to get started! Here&apos;s what your path through the 2026 competition looks like:</p>
@@ -50,42 +50,50 @@ export default function ParticipatePage2026() {
               <Link href="/editions/2026/rules/">competition rules</Link>{' '}
               and the{' '}
               <Link href="/editions/2026/tracks/">task description</Link>{' '}
-              to understand the challenge and how submissions will be evaluated.
+              to understand the challenge, the two tracks (Deep and Broad), and how submissions are
+              evaluated (top-10 balanced accuracy over a 50-word vocabulary).
             </p>
 
             <hr />
 
-            <h3>2. Play Around With the Data Using Our Tutorials</h3>
-            <p>Two complementary directions, depending on whether you want to go <strong>deep</strong> on a single subject or <strong>broad</strong> across many:</p>
-            <ol>
+            <h3>2. Play Around With the Data Using Our Tutorial</h3>
+            <p>
+              Start with our beginner notebook. It walks you through the LibriBrain100 dataset, a single MEG
+              example, the fixed 50-word vocabulary, and training and evaluating your first
+              word-classification model &mdash; from zero, on a free Colab GPU:
+            </p>
+            <ul>
               <li>
-                <strong>Word Classification &mdash; Deep (Intro)</strong><br />
-                <a href={`${COLAB_BASE}/PNPL_Competition_Word_Classification_Deep_Intro.ipynb`} target="_blank" rel="noopener noreferrer">Open in Colab</a>
+                <strong>Word Classification &mdash; Intro</strong><br />
+                <a href={`${COLAB_BASE}/LibriBrain_Competition_Word_Classification_Intro.ipynb`} target="_blank" rel="noopener noreferrer">Open in Colab</a>
               </li>
-              <li>
-                <strong>Word Classification &mdash; Deep (Advanced)</strong><br />
-                <a href={`${COLAB_BASE}/PNPL_Competition_Word_Classification_Deep_Advanced.ipynb`} target="_blank" rel="noopener noreferrer">Open in Colab</a>
-              </li>
-              <li>
-                <strong>Word Classification &mdash; Broad</strong><br />
-                <a href={`${COLAB_BASE}/PNPL_Competition_Word_Classification_Broad.ipynb`} target="_blank" rel="noopener noreferrer">Open in Colab</a>
-              </li>
-            </ol>
+            </ul>
+            <p style={{ fontSize: '15px', color: '#777' }}>
+              Additional tutorials &mdash; including deeper Track 1/Track 2 walkthroughs and a submission
+              guide &mdash; will be released over the coming weeks. Follow along on{' '}
+              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord</a>{' '}
+              for announcements.
+            </p>
 
             <hr />
 
             <h3>3. Submit on Kaggle</h3>
-            <p>When you&apos;re ready to submit, follow the submission tutorial to produce a valid submission file:</p>
+            <p>
+              Each track has its own Kaggle competition. Submissions open on <strong>15 July 2026</strong>{' '}
+              &mdash; you may enter either or both:
+            </p>
             <ul>
               <li>
-                <strong>2026 Submission Tutorial</strong><br />
-                <a href={`${COLAB_BASE}/PNPL_Competition_2026_Submission.ipynb`} target="_blank" rel="noopener noreferrer">Open in Colab</a>
+                <a href="https://www.kaggle.com/competitions/pnpl-competition-2026-deep/" target="_blank" rel="noopener noreferrer"><strong>Track 1 &mdash; Deep</strong></a>
+              </li>
+              <li>
+                <a href="https://www.kaggle.com/competitions/pnpl-competition-2026-broad/" target="_blank" rel="noopener noreferrer"><strong>Track 2 &mdash; Broad</strong></a>
               </li>
             </ul>
-            <p>Then submit on Kaggle:</p>
+            <p>To submit:</p>
             <ol>
               <li>Create an account on <a href="https://www.kaggle.com/" target="_blank" rel="noopener noreferrer">Kaggle</a> if you don&apos;t already have one.</li>
-              <li>Go to the <a href="https://www.kaggle.com/competitions/pnpl-competition-2026/" target="_blank" rel="noopener noreferrer">PNPL Competition 2026 page</a> and <strong>accept the competition rules</strong> &mdash; you won&apos;t be able to submit until you do.</li>
+              <li>Open the track page(s) above and <strong>accept the competition rules</strong> &mdash; you won&apos;t be able to submit until you do.</li>
               <li>Upload your submission file via the <em>Submit Predictions</em> button.</li>
             </ol>
 
@@ -100,9 +108,9 @@ export default function ParticipatePage2026() {
             <hr />
 
             <p>
-              If you have any questions or need help, please check our{' '}
-              <a href="https://discord.gg/Fqr8gJnvSh" target="_blank" rel="noopener noreferrer">Discord server</a>{' '}
-              or send us your questions to:{' '}
+              If you have any questions or need help, please join our{' '}
+              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord server</a>{' '}
+              or send your questions to:{' '}
               <a href="mailto:libribrain@robots.ox.ac.uk">libribrain@robots.ox.ac.uk</a>
             </p>
           </div>
