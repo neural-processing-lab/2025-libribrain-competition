@@ -43,3 +43,7 @@ next-env.d.ts
 # IDE
 .idea
 .vscode
+
+# Synthetic leaderboard standings for local preview (npm run leaderboard:demo).
+# The real Kaggle mirror in public/data/leaderboard/ IS committed.
+public/data/leaderboard-demo

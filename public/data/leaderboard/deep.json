@@ -1,0 +1,19 @@
+{
+  "track": "deep",
+  "competition": "pnpl-competition-2026-deep",
+  "label": "Deep",
+  "metric": "BAcc@10",
+  "chance": 0.2,
+  "deadline": "2026-10-16T12:00:00Z",
+  "url": "https://www.kaggle.com/competitions/pnpl-competition-2026-deep/leaderboard",
+  "teams": [],
+  "totals": {
+    "teams": 0,
+    "submissions": 0,
+    "best": null,
+    "median": null,
+    "p25": null,
+    "p75": null
+  },
+  "fetchedAt": "2026-07-14T12:16:46.212Z"
+}

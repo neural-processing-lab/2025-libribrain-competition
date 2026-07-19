@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "leaderboard": "node scripts/fetch-leaderboard.mjs",
+    "leaderboard:demo": "node scripts/seed-demo-leaderboard.mjs"
   },
   "dependencies": {
     "date-fns": "^4.1.0",

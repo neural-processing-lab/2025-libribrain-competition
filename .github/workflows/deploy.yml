@@ -5,6 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
+  # Lets the leaderboard refresh redeploy the site after it commits new
+  # standings. A push made with GITHUB_TOKEN does not retrigger `push`, so the
+  # refresh workflow has to call this one explicitly.
+  workflow_call:
 
 permissions:
   contents: read

@@ -1,0 +1,56 @@
+name: Refresh Kaggle leaderboard
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub delays scheduled runs under load, so treat this
+    # as "roughly quarter-hourly" rather than a guarantee.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leaderboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.fetch.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch leaderboards
+        id: fetch
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: node scripts/fetch-leaderboard.mjs
+
+      - name: Commit standings
+        if: steps.fetch.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/leaderboard
+          git commit -m "chore: refresh Kaggle leaderboard standings"
+          git push
+
+  # Only rebuild the site when the standings actually moved — the fetch script
+  # writes nothing when Kaggle returns what we already have, so a quiet
+  # competition costs one API call per run and no deploys.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
