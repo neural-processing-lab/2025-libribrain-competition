@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-07-19T18:18:19.927Z",
+  "updatedAt": "2026-07-19T18:31:56.499Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -8,9 +8,9 @@
   ],
   "teams": [
     {
-      "teamId": 16475585,
-      "team": "Gereon Elvers",
-      "submissions": 3,
+      "teamId": 16571738,
+      "team": "PNPL-OX",
+      "submissions": 1,
       "scoredSubmissions": 0,
       "kagglePublicBest": 0.44441,
       "best": {
@@ -18,7 +18,7 @@
           "value": 0.44441
         }
       },
-      "lastSubmission": "2026-07-19T18:01:04.013Z",
+      "lastSubmission": "2026-07-19T18:23:10.837Z",
       "rank": 1
     }
   ]
