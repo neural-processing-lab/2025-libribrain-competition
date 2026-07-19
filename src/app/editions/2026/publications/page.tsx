@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
+import { assetPath } from '../../../../lib/assetPath';
 
 interface Publication {
   title: string;
@@ -93,7 +94,7 @@ function PublicationCard({ pub }: { pub: Publication }) {
             ArXiv
           </a>
         )}
-        <a href={pub.pdf} target="_blank" rel="noopener noreferrer" style={{
+        <a href={assetPath(pub.pdf)} target="_blank" rel="noopener noreferrer" style={{
           fontSize: '13px', color: '#776885', textDecoration: 'none', padding: '0.4rem 0.8rem',
           border: '1px solid #776885', borderRadius: '4px', transition: 'all 0.2s ease'
         }}>
