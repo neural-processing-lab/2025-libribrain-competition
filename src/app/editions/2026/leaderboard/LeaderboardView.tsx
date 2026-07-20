@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { LeaderboardData, MetricsLeaderboard, TrackId } from '../../../../lib/leaderboard';
 import MultiMetricTable, { METRIC_INFO, metricLabel } from './MultiMetricTable';
 import MetricBarChart from './MetricBarChart';
@@ -72,13 +72,17 @@ function Pill({ active, color, onClick, children }: { active: boolean; color: st
 export default function LeaderboardView({ data }: { data: LeaderboardData }) {
   const [track, setTrack] = useState<TrackId>('deep');
   const [metric, setMetric] = useState<string>('balacc@10');
+  // Time-derived values differ between the static build and the browser, which
+  // would trip React hydration — compute them only after mount.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   const metrics: MetricsLeaderboard | null = data.metrics[track];
   const accent = TRACK_COLOR[track];
   const hasTeams = (m: MetricsLeaderboard | null) => !!m && m.teams.length > 0;
   const anyData = hasTeams(data.metrics.deep) || hasTeams(data.metrics.broad);
 
-  const daysLeft = Math.max(0, Math.ceil((Date.parse(DEADLINE) - Date.now()) / 86_400_000));
+  const daysLeft = mounted ? Math.max(0, Math.ceil((Date.parse(DEADLINE) - Date.now()) / 86_400_000)) : null;
 
   // Which metrics actually have scores (drives the selector).
   const scoredMetrics = useMemo(
@@ -149,7 +153,7 @@ export default function LeaderboardView({ data }: { data: LeaderboardData }) {
             <Stat value={stats?.best != null ? stats.best.toFixed(3) : '—'} label={`Best ${metricLabel(activeMetric)}`} color={accent} />
             <Stat value={fmtInt(stats?.teams ?? 0)} label="Teams" />
             <Stat value={fmtInt(stats?.submissions ?? 0)} label="Submissions" />
-            <Stat value={String(daysLeft)} label="Days remaining" />
+            <Stat value={daysLeft != null ? String(daysLeft) : '—'} label="Days remaining" />
           </div>
 
           {/* Metric selector */}
@@ -192,7 +196,7 @@ export default function LeaderboardView({ data }: { data: LeaderboardData }) {
                 <strong>public split</strong> — final placements use the private split, revealed after the deadline.
               </p>
               <p style={{ margin: 0, color: INK.muted, fontSize: '13px' }}>
-                Updated {metrics ? new Date(metrics.updatedAt).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' }) : '—'} ·{' '}
+                Updated {mounted && metrics ? new Date(metrics.updatedAt).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' }) : '…'} ·{' '}
                 <a href={COMPETITION_URL[track]} target="_blank" rel="noopener noreferrer" style={{ color: accent }}>
                   {TRACK_LABEL[track]} Track on Kaggle →
                 </a>
