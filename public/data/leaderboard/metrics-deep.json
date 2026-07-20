@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-07-20T09:31:11.373Z",
+  "updatedAt": "2026-07-20T18:17:44.486Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -28,6 +28,26 @@
       "rank": 1
     },
     {
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2756,
+      "best": {
+        "balacc@10": {
+          "value": 0.2756
+        },
+        "balacc@1": {
+          "value": 0.03
+        },
+        "ovmi": {
+          "value": 0.47402165176551747
+        }
+      },
+      "lastSubmission": "2026-07-20T18:15:22.723Z",
+      "rank": 2
+    },
+    {
       "teamId": 16550910,
       "team": "monte-carlo",
       "submissions": 1,
@@ -45,7 +65,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:40:21.113Z",
-      "rank": 2
+      "rank": 3
     }
   ]
 }
