@@ -2,6 +2,7 @@ import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
 import Link from 'next/link';
+import { assetPath } from '../../../../lib/assetPath';
 
 export default function TracksPage2026() {
   return (
@@ -110,6 +111,44 @@ export default function TracksPage2026() {
               </a>
             </div>
 
+            <div style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              alignItems: 'flex-start',
+              justifyContent: 'center',
+              gap: '1.5rem',
+              margin: '0.5rem 0 2.5rem'
+            }}>
+              <figure style={{ margin: 0, textAlign: 'center' }}>
+                <video
+                  src={assetPath('/images/Libribrain100pt2.mp4')}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  aria-label="Deep track visualization"
+                  style={{ height: '300px', width: 'auto', maxWidth: '100%', borderRadius: '8px', display: 'block' }}
+                />
+                <figcaption style={{ fontSize: '13px', color: '#888', marginTop: '0.6rem', lineHeight: 1.5, maxWidth: '420px' }}>
+                  Track 1 &mdash; Deep: decoding words from one deeply-sampled subject.
+                </figcaption>
+              </figure>
+              <figure style={{ margin: 0, textAlign: 'center' }}>
+                <video
+                  src={assetPath('/images/Libribrain100pt4.mp4')}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  aria-label="Broad track visualization"
+                  style={{ height: '300px', width: 'auto', maxWidth: '100%', borderRadius: '8px', display: 'block' }}
+                />
+                <figcaption style={{ fontSize: '13px', color: '#888', marginTop: '0.6rem', lineHeight: 1.5, maxWidth: '420px' }}>
+                  Track 2 &mdash; Broad: generalising across 32 held-out subjects.
+                </figcaption>
+              </figure>
+            </div>
+
             <h3 style={{ fontSize: '19px', fontWeight: 700, margin: '2rem 0 0.75rem', color: '#0a0a0a' }}>
               Track 2 data groups
             </h3>
@@ -157,6 +196,21 @@ export default function TracksPage2026() {
               spoken English. Together they keep the depth of the original LibriBrain while adding breadth
               across 33 subjects in total.
             </p>
+
+            <figure style={{ margin: '1.5rem auto 0.5rem', textAlign: 'center', maxWidth: '680px' }}>
+              <video
+                src={assetPath('/images/Libribrain100pt3.mp4')}
+                autoPlay
+                loop
+                muted
+                playsInline
+                aria-label="LibriBrain100 dataset structure"
+                style={{ width: '100%', maxWidth: '680px', borderRadius: '8px', display: 'block', margin: '0 auto' }}
+              />
+              <figcaption style={{ fontSize: '13px', color: '#888', marginTop: '0.6rem', lineHeight: 1.5 }}>
+                How the LibriBrain100 dataset is structured.
+              </figcaption>
+            </figure>
 
             <div style={{
               display: 'flex',
