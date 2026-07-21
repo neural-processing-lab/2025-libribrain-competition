@@ -128,6 +128,16 @@ function emptyStandings(track: TrackId, label: string): Standings {
   };
 }
 
+/** Display-name overrides for teams (the committed feed keeps the real Kaggle name). */
+const TEAM_ALIASES: Record<string, string> = {
+  'PNPL-OX': 'Baseline',
+};
+
+function applyTeamAliases(m: MetricsLeaderboard | null): MetricsLeaderboard | null {
+  if (!m) return m;
+  return { ...m, teams: m.teams.map((t) => ({ ...t, team: TEAM_ALIASES[t.team] ?? t.team })) };
+}
+
 export function loadLeaderboard(): LeaderboardData {
   return {
     deep: readJson('deep.json', emptyStandings('deep', 'Deep')),
@@ -137,8 +147,8 @@ export function loadLeaderboard(): LeaderboardData {
       trajectories: { deep: {}, broad: {} },
     }),
     metrics: {
-      deep: readJson<MetricsLeaderboard | null>('metrics-deep.json', null),
-      broad: readJson<MetricsLeaderboard | null>('metrics-broad.json', null),
+      deep: applyTeamAliases(readJson<MetricsLeaderboard | null>('metrics-deep.json', null)),
+      broad: applyTeamAliases(readJson<MetricsLeaderboard | null>('metrics-broad.json', null)),
     },
     demo: DEMO,
   };
