@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-07-21T11:17:41.415Z",
+  "updatedAt": "2026-07-21T14:41:51.277Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -9,7 +9,7 @@
   "teams": [
     {
       "teamId": 16580266,
-      "team": "Dulhan Jayalath",
+      "team": "PNPL-MEG-XL-Baseline",
       "submissions": 1,
       "scoredSubmissions": 1,
       "kagglePublicBest": 0.31023,
