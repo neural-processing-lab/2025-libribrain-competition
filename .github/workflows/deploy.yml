@@ -25,6 +25,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Always build the tip of main. Without this, a run triggered by the
+          # scheduled refresh checks out the SHA that triggered it — i.e. BEFORE
+          # the cron's own commit — so freshly-committed standings never ship.
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
