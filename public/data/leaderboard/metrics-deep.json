@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-07-25T10:13:51.719Z",
+  "updatedAt": "2026-07-25T14:16:16.037Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16550910,
       "team": "monte-carlo",
-      "submissions": 3,
-      "scoredSubmissions": 3,
+      "submissions": 5,
+      "scoredSubmissions": 5,
       "kagglePublicBest": 0.28999,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 0.46708917658697524
         }
       },
-      "lastSubmission": "2026-07-25T08:36:01.783Z",
+      "lastSubmission": "2026-07-25T14:13:10.917Z",
       "rank": 3
     },
     {
