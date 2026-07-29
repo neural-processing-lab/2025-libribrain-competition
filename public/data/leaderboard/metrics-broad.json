@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-07-28T15:30:24.440Z",
+  "updatedAt": "2026-07-29T16:49:00.959Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -28,6 +28,26 @@
       "rank": 1
     },
     {
+      "teamId": 16607557,
+      "team": "Brain King",
+      "submissions": 3,
+      "scoredSubmissions": 3,
+      "kagglePublicBest": 0.2566,
+      "best": {
+        "balacc@10": {
+          "value": 0.2566
+        },
+        "balacc@1": {
+          "value": 0.02847715247715248
+        },
+        "ovmi": {
+          "value": 0.25782442707400677
+        }
+      },
+      "lastSubmission": "2026-07-29T16:46:28.583Z",
+      "rank": 2
+    },
+    {
       "teamId": 16571739,
       "team": "PNPL-OX",
       "submissions": 1,
@@ -45,26 +65,6 @@
         }
       },
       "lastSubmission": "2026-07-19T18:24:47.203Z",
-      "rank": 2
-    },
-    {
-      "teamId": 16607557,
-      "team": "Brain King",
-      "submissions": 2,
-      "scoredSubmissions": 2,
-      "kagglePublicBest": 0.23752,
-      "best": {
-        "balacc@10": {
-          "value": 0.23752
-        },
-        "balacc@1": {
-          "value": 0.022829281829281824
-        },
-        "ovmi": {
-          "value": 0.12501089771702686
-        }
-      },
-      "lastSubmission": "2026-07-28T15:25:12.997Z",
       "rank": 3
     },
     {
