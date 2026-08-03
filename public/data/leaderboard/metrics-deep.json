@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-02T17:41:22.685Z",
+  "updatedAt": "2026-08-03T14:07:22.385Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -48,6 +48,26 @@
       "rank": 2
     },
     {
+      "teamId": 16644796,
+      "team": "Alireza Karimi",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.384,
+      "best": {
+        "balacc@10": {
+          "value": 0.384
+        },
+        "balacc@1": {
+          "value": 0.03688888888888889
+        },
+        "ovmi": {
+          "value": 0.7687403599101871
+        }
+      },
+      "lastSubmission": "2026-08-03T13:22:18.413Z",
+      "rank": 3
+    },
+    {
       "teamId": 16607550,
       "team": "Brain King",
       "submissions": 6,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-07-30T06:12:57.987Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16608131,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-08-01T00:49:32.770Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16550910,
@@ -105,7 +125,7 @@
         }
       },
       "lastSubmission": "2026-07-25T14:13:10.917Z",
-      "rank": 5
+      "rank": 6
     },
     {
       "teamId": 16510893,
@@ -125,7 +145,7 @@
         }
       },
       "lastSubmission": "2026-08-02T17:34:44.757Z",
-      "rank": 6
+      "rank": 7
     },
     {
       "teamId": 16636411,
@@ -145,7 +165,7 @@
         }
       },
       "lastSubmission": "2026-08-02T13:55:36.143Z",
-      "rank": 7
+      "rank": 8
     },
     {
       "teamId": 16605715,
@@ -165,7 +185,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 8
+      "rank": 9
     }
   ]
 }
