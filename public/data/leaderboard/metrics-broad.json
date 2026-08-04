@@ -1,12 +1,32 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-04T21:52:12.974Z",
+  "updatedAt": "2026-08-04T22:49:07.946Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
     "ovmi"
   ],
   "teams": [
+    {
+      "teamId": 16661195,
+      "team": "JovanaLab",
+      "submissions": 7,
+      "scoredSubmissions": 7,
+      "kagglePublicBest": 0.37523,
+      "best": {
+        "balacc@10": {
+          "value": 0.37523
+        },
+        "balacc@1": {
+          "value": 0.11388888888888889
+        },
+        "ovmi": {
+          "value": 0.7196238869129543
+        }
+      },
+      "lastSubmission": "2026-08-04T21:54:40.513Z",
+      "rank": 1
+    },
     {
       "teamId": 16593214,
       "team": "MindLink",
@@ -25,26 +45,6 @@
         }
       },
       "lastSubmission": "2026-07-31T12:27:38.583Z",
-      "rank": 1
-    },
-    {
-      "teamId": 16661195,
-      "team": "JovanaLab",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.34636,
-      "best": {
-        "balacc@10": {
-          "value": 0.34636
-        },
-        "balacc@1": {
-          "value": 0.11388888888888889
-        },
-        "ovmi": {
-          "value": 0.7196238869129543
-        }
-      },
-      "lastSubmission": "2026-08-04T21:02:57Z",
       "rank": 2
     },
     {
