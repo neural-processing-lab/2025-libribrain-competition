@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-05T04:33:32.223Z",
+  "updatedAt": "2026-08-05T07:20:50.815Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -150,8 +150,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 17,
-      "scoredSubmissions": 17,
+      "submissions": 18,
+      "scoredSubmissions": 18,
       "kagglePublicBest": 0.2756,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-08-04T09:59:27.803Z",
+      "lastSubmission": "2026-08-05T05:23:10.243Z",
       "rank": 8
     },
     {
