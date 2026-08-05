@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-04T22:49:07.946Z",
+  "updatedAt": "2026-08-05T04:33:33.168Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,12 +10,12 @@
     {
       "teamId": 16661195,
       "team": "JovanaLab",
-      "submissions": 7,
-      "scoredSubmissions": 7,
-      "kagglePublicBest": 0.37523,
+      "submissions": 12,
+      "scoredSubmissions": 12,
+      "kagglePublicBest": 0.39837,
       "best": {
         "balacc@10": {
-          "value": 0.37523
+          "value": 0.39837
         },
         "balacc@1": {
           "value": 0.11388888888888889
@@ -24,7 +24,7 @@
           "value": 0.7196238869129543
         }
       },
-      "lastSubmission": "2026-08-04T21:54:40.513Z",
+      "lastSubmission": "2026-08-05T02:56:32.240Z",
       "rank": 1
     },
     {
@@ -126,6 +126,26 @@
       },
       "lastSubmission": "2026-07-25T03:13:46.373Z",
       "rank": 6
+    },
+    {
+      "teamId": 16580487,
+      "team": "Pratik Pattanaik",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.20141,
+      "best": {
+        "balacc@10": {
+          "value": 0.20141
+        },
+        "balacc@1": {
+          "value": 0.02416315166315166
+        },
+        "ovmi": {
+          "value": 0.10051168261539946
+        }
+      },
+      "lastSubmission": "2026-08-05T04:24:14.117Z",
+      "rank": 7
     }
   ]
 }
