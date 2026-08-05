@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-05T12:11:56.049Z",
+  "updatedAt": "2026-08-05T14:30:02.375Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -28,10 +28,30 @@
       "rank": 1
     },
     {
+      "teamId": 16608131,
+      "team": "kakuteki",
+      "submissions": 26,
+      "scoredSubmissions": 26,
+      "kagglePublicBest": 0.49769,
+      "best": {
+        "balacc@10": {
+          "value": 0.49769
+        },
+        "balacc@1": {
+          "value": 0.06638888888888889
+        },
+        "ovmi": {
+          "value": 0.965136858625226
+        }
+      },
+      "lastSubmission": "2026-08-05T13:43:03.490Z",
+      "rank": 2
+    },
+    {
       "teamId": 16644796,
       "team": "Alireza Karimi",
-      "submissions": 6,
-      "scoredSubmissions": 6,
+      "submissions": 9,
+      "scoredSubmissions": 9,
       "kagglePublicBest": 0.47961,
       "best": {
         "balacc@10": {
@@ -44,8 +64,8 @@
           "value": 0.9077491761146558
         }
       },
-      "lastSubmission": "2026-08-04T20:36:07.593Z",
-      "rank": 2
+      "lastSubmission": "2026-08-05T14:19:13.533Z",
+      "rank": 3
     },
     {
       "teamId": 16571738,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16661201,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-08-05T03:47:43.150Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16607550,
@@ -105,26 +125,6 @@
         }
       },
       "lastSubmission": "2026-07-30T06:12:57.987Z",
-      "rank": 5
-    },
-    {
-      "teamId": 16608131,
-      "team": "kakuteki",
-      "submissions": 25,
-      "scoredSubmissions": 25,
-      "kagglePublicBest": 0.35101,
-      "best": {
-        "balacc@10": {
-          "value": 0.35101
-        },
-        "balacc@1": {
-          "value": 0.042166666666666665
-        },
-        "ovmi": {
-          "value": 0.965136858625226
-        }
-      },
-      "lastSubmission": "2026-08-04T19:11:26.077Z",
       "rank": 6
     },
     {
