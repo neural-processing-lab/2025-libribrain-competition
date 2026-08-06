@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-06T09:48:38.740Z",
+  "updatedAt": "2026-08-06T11:54:10.035Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,41 +10,41 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 12,
-      "scoredSubmissions": 12,
-      "kagglePublicBest": 0.5414,
+      "submissions": 13,
+      "scoredSubmissions": 13,
+      "kagglePublicBest": 0.57197,
       "best": {
         "balacc@10": {
-          "value": 0.5414
+          "value": 0.57197
         },
         "balacc@1": {
-          "value": 0.11952380952380953
+          "value": 0.15941269841269842
         },
         "ovmi": {
-          "value": 0.9394115828380997
+          "value": 0.9749025230061159
         }
       },
-      "lastSubmission": "2026-08-06T04:03:08.237Z",
+      "lastSubmission": "2026-08-06T10:09:07.457Z",
       "rank": 1
     },
     {
       "teamId": 16608131,
       "team": "kakuteki",
-      "submissions": 29,
-      "scoredSubmissions": 29,
-      "kagglePublicBest": 0.49769,
+      "submissions": 31,
+      "scoredSubmissions": 31,
+      "kagglePublicBest": 0.54888,
       "best": {
         "balacc@10": {
-          "value": 0.49769
+          "value": 0.54888
         },
         "balacc@1": {
-          "value": 0.08639898989898988
+          "value": 0.10093939393939394
         },
         "ovmi": {
           "value": 0.965136858625226
         }
       },
-      "lastSubmission": "2026-08-06T09:29:34.327Z",
+      "lastSubmission": "2026-08-06T11:07:28.670Z",
       "rank": 2
     },
     {
@@ -170,8 +170,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 18,
-      "scoredSubmissions": 18,
+      "submissions": 19,
+      "scoredSubmissions": 19,
       "kagglePublicBest": 0.2756,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-08-05T05:23:10.243Z",
+      "lastSubmission": "2026-08-06T09:52:55.940Z",
       "rank": 9
     },
     {
