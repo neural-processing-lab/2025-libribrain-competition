@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-07T19:57:58.571Z",
+  "updatedAt": "2026-08-07T20:33:20.672Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16661201,
       "team": "JovanaLab",
-      "submissions": 5,
-      "scoredSubmissions": 5,
+      "submissions": 6,
+      "scoredSubmissions": 6,
       "kagglePublicBest": 0.44161,
       "best": {
         "balacc@10": {
@@ -121,10 +121,10 @@
           "value": 0.08922222222222223
         },
         "ovmi": {
-          "value": 0.8477225769889614
+          "value": 0.8975386522658159
         }
       },
-      "lastSubmission": "2026-08-05T03:47:43.150Z",
+      "lastSubmission": "2026-08-07T19:58:56.833Z",
       "rank": 6
     },
     {
@@ -190,8 +190,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 7,
-      "scoredSubmissions": 7,
+      "submissions": 8,
+      "scoredSubmissions": 8,
       "kagglePublicBest": 0.28054,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 0.8859546444423885
         }
       },
-      "lastSubmission": "2026-08-07T19:12:55.737Z",
+      "lastSubmission": "2026-08-07T20:23:47.720Z",
       "rank": 10
     },
     {
