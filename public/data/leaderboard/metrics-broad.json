@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-06T11:53:09.078Z",
+  "updatedAt": "2026-08-07T03:35:38.139Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -28,6 +28,26 @@
       "rank": 1
     },
     {
+      "teamId": 16680182,
+      "team": "Arnauya",
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.37866,
+      "best": {
+        "balacc@10": {
+          "value": 0.37866
+        },
+        "balacc@1": {
+          "value": 0.1237936507936508
+        },
+        "ovmi": {
+          "value": 0.7773873504610755
+        }
+      },
+      "lastSubmission": "2026-08-07T03:25:36.873Z",
+      "rank": 2
+    },
+    {
       "teamId": 16593214,
       "team": "MindLink",
       "submissions": 6,
@@ -45,7 +65,7 @@
         }
       },
       "lastSubmission": "2026-08-06T09:57:32.607Z",
-      "rank": 2
+      "rank": 3
     },
     {
       "teamId": 16580266,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-07-21T10:08:18.583Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16607557,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-07-29T23:48:18.600Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16571739,
@@ -105,7 +125,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:24:47.203Z",
-      "rank": 5
+      "rank": 6
     },
     {
       "teamId": 16571080,
@@ -125,7 +145,7 @@
         }
       },
       "lastSubmission": "2026-07-25T03:13:46.373Z",
-      "rank": 6
+      "rank": 7
     },
     {
       "teamId": 16580487,
@@ -145,7 +165,7 @@
         }
       },
       "lastSubmission": "2026-08-05T04:24:14.117Z",
-      "rank": 7
+      "rank": 8
     },
     {
       "teamId": 16644775,
@@ -162,7 +182,7 @@
         }
       },
       "lastSubmission": "2026-08-05T15:38:34.470Z",
-      "rank": 8
+      "rank": 9
     }
   ]
 }
