@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-07T22:51:55.449Z",
+  "updatedAt": "2026-08-07T23:21:02.709Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,22 +10,42 @@
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 9,
-      "scoredSubmissions": 9,
+      "submissions": 11,
+      "scoredSubmissions": 11,
       "kagglePublicBest": 0.66513,
       "best": {
         "balacc@10": {
           "value": 0.66513
         },
         "balacc@1": {
-          "value": 0.16782756132756135
+          "value": 0.1893102453102453
         },
         "ovmi": {
-          "value": 1.1183058475073466
+          "value": 1.123001132684942
         }
       },
-      "lastSubmission": "2026-08-07T14:44:21.603Z",
+      "lastSubmission": "2026-08-07T23:17:03.043Z",
       "rank": 1
+    },
+    {
+      "teamId": 16661201,
+      "team": "JovanaLab",
+      "submissions": 7,
+      "scoredSubmissions": 7,
+      "kagglePublicBest": 0.61229,
+      "best": {
+        "balacc@10": {
+          "value": 0.61229
+        },
+        "balacc@1": {
+          "value": 0.24977128427128428
+        },
+        "ovmi": {
+          "value": 1.0252932145997022
+        }
+      },
+      "lastSubmission": "2026-08-07T22:57:00.550Z",
+      "rank": 2
     },
     {
       "teamId": 16608131,
@@ -45,7 +65,7 @@
         }
       },
       "lastSubmission": "2026-08-07T09:51:02.840Z",
-      "rank": 2
+      "rank": 3
     },
     {
       "teamId": 16553979,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-08-07T04:20:52.837Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16644796,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-08-06T01:31:58.257Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16571738,
@@ -105,26 +125,6 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 5
-    },
-    {
-      "teamId": 16661201,
-      "team": "JovanaLab",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.44161,
-      "best": {
-        "balacc@10": {
-          "value": 0.44161
-        },
-        "balacc@1": {
-          "value": 0.08922222222222223
-        },
-        "ovmi": {
-          "value": 0.8975386522658159
-        }
-      },
-      "lastSubmission": "2026-08-07T19:58:56.833Z",
       "rank": 6
     },
     {
