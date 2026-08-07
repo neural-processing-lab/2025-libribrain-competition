@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-07T06:38:43.353Z",
+  "updatedAt": "2026-08-07T07:55:17.996Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -48,6 +48,26 @@
       "rank": 2
     },
     {
+      "teamId": 16667929,
+      "team": "Umur Yıldız",
+      "submissions": 3,
+      "scoredSubmissions": 3,
+      "kagglePublicBest": 0.48173,
+      "best": {
+        "balacc@10": {
+          "value": 0.48173
+        },
+        "balacc@1": {
+          "value": 0.07546969696969696
+        },
+        "ovmi": {
+          "value": 0.9566318829750649
+        }
+      },
+      "lastSubmission": "2026-08-07T07:44:34.253Z",
+      "rank": 3
+    },
+    {
       "teamId": 16644796,
       "team": "Alireza Karimi",
       "submissions": 16,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-08-06T01:31:58.257Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16571738,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16661201,
@@ -105,7 +125,7 @@
         }
       },
       "lastSubmission": "2026-08-05T03:47:43.150Z",
-      "rank": 5
+      "rank": 6
     },
     {
       "teamId": 16607550,
@@ -125,26 +145,6 @@
         }
       },
       "lastSubmission": "2026-07-30T06:12:57.987Z",
-      "rank": 6
-    },
-    {
-      "teamId": 16667929,
-      "team": "Umur Yıldız",
-      "submissions": 2,
-      "scoredSubmissions": 2,
-      "kagglePublicBest": 0.34012,
-      "best": {
-        "balacc@10": {
-          "value": 0.34012
-        },
-        "balacc@1": {
-          "value": 0.06766666666666667
-        },
-        "ovmi": {
-          "value": 0.6513411991523045
-        }
-      },
-      "lastSubmission": "2026-08-07T05:29:36.803Z",
       "rank": 7
     },
     {
