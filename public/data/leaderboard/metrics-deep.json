@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-07T23:21:02.709Z",
+  "updatedAt": "2026-08-07T23:53:07.301Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,8 +30,8 @@
     {
       "teamId": 16661201,
       "team": "JovanaLab",
-      "submissions": 7,
-      "scoredSubmissions": 7,
+      "submissions": 8,
+      "scoredSubmissions": 8,
       "kagglePublicBest": 0.61229,
       "best": {
         "balacc@10": {
@@ -41,10 +41,10 @@
           "value": 0.24977128427128428
         },
         "ovmi": {
-          "value": 1.0252932145997022
+          "value": 1.0381694471165446
         }
       },
-      "lastSubmission": "2026-08-07T22:57:00.550Z",
+      "lastSubmission": "2026-08-07T23:46:27.593Z",
       "rank": 2
     },
     {
