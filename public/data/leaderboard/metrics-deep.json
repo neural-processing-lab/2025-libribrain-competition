@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-06T13:26:30.082Z",
+  "updatedAt": "2026-08-07T00:34:20.203Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,21 +30,21 @@
     {
       "teamId": 16608131,
       "team": "kakuteki",
-      "submissions": 32,
-      "scoredSubmissions": 32,
+      "submissions": 35,
+      "scoredSubmissions": 35,
       "kagglePublicBest": 0.54888,
       "best": {
         "balacc@10": {
           "value": 0.54888
         },
         "balacc@1": {
-          "value": 0.10093939393939394
+          "value": 0.11372438672438671
         },
         "ovmi": {
           "value": 0.965136858625226
         }
       },
-      "lastSubmission": "2026-08-06T12:43:20.573Z",
+      "lastSubmission": "2026-08-06T20:14:30.150Z",
       "rank": 2
     },
     {
