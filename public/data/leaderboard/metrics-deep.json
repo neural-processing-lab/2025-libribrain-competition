@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-07T20:33:20.672Z",
+  "updatedAt": "2026-08-07T22:51:55.449Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -148,6 +148,26 @@
       "rank": 7
     },
     {
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "submissions": 9,
+      "scoredSubmissions": 9,
+      "kagglePublicBest": 0.32957,
+      "best": {
+        "balacc@10": {
+          "value": 0.32957
+        },
+        "balacc@1": {
+          "value": 0.04193650793650794
+        },
+        "ovmi": {
+          "value": 0.8859546444423885
+        }
+      },
+      "lastSubmission": "2026-08-07T22:47:15.667Z",
+      "rank": 8
+    },
+    {
       "teamId": 16550910,
       "team": "monte-carlo",
       "submissions": 5,
@@ -165,7 +185,7 @@
         }
       },
       "lastSubmission": "2026-07-25T14:13:10.917Z",
-      "rank": 8
+      "rank": 9
     },
     {
       "teamId": 16666931,
@@ -185,26 +205,6 @@
         }
       },
       "lastSubmission": "2026-08-07T16:20:17.620Z",
-      "rank": 9
-    },
-    {
-      "teamId": 16685441,
-      "team": "titus fisher",
-      "submissions": 8,
-      "scoredSubmissions": 8,
-      "kagglePublicBest": 0.28054,
-      "best": {
-        "balacc@10": {
-          "value": 0.28054
-        },
-        "balacc@1": {
-          "value": 0.035666666666666666
-        },
-        "ovmi": {
-          "value": 0.8859546444423885
-        }
-      },
-      "lastSubmission": "2026-08-07T20:23:47.720Z",
       "rank": 10
     },
     {
