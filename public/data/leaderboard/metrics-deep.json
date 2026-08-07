@@ -1,12 +1,32 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-07T10:30:34.846Z",
+  "updatedAt": "2026-08-07T15:33:17.964Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
     "ovmi"
   ],
   "teams": [
+    {
+      "teamId": 16667929,
+      "team": "Umur Yıldız",
+      "submissions": 9,
+      "scoredSubmissions": 9,
+      "kagglePublicBest": 0.66513,
+      "best": {
+        "balacc@10": {
+          "value": 0.66513
+        },
+        "balacc@1": {
+          "value": 0.16782756132756135
+        },
+        "ovmi": {
+          "value": 1.1183058475073466
+        }
+      },
+      "lastSubmission": "2026-08-07T14:44:21.603Z",
+      "rank": 1
+    },
     {
       "teamId": 16608131,
       "team": "kakuteki",
@@ -25,7 +45,7 @@
         }
       },
       "lastSubmission": "2026-08-07T09:51:02.840Z",
-      "rank": 1
+      "rank": 2
     },
     {
       "teamId": 16553979,
@@ -45,26 +65,6 @@
         }
       },
       "lastSubmission": "2026-08-07T04:20:52.837Z",
-      "rank": 2
-    },
-    {
-      "teamId": 16667929,
-      "team": "Umur Yıldız",
-      "submissions": 3,
-      "scoredSubmissions": 3,
-      "kagglePublicBest": 0.48173,
-      "best": {
-        "balacc@10": {
-          "value": 0.48173
-        },
-        "balacc@1": {
-          "value": 0.07546969696969696
-        },
-        "ovmi": {
-          "value": 0.9566318829750649
-        }
-      },
-      "lastSubmission": "2026-08-07T07:44:34.253Z",
       "rank": 3
     },
     {
@@ -168,6 +168,26 @@
       "rank": 8
     },
     {
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.28054,
+      "best": {
+        "balacc@10": {
+          "value": 0.28054
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0.8849463333092922
+        }
+      },
+      "lastSubmission": "2026-08-07T15:26:12.990Z",
+      "rank": 9
+    },
+    {
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "submissions": 19,
@@ -185,7 +205,7 @@
         }
       },
       "lastSubmission": "2026-08-06T09:52:55.940Z",
-      "rank": 9
+      "rank": 10
     },
     {
       "teamId": 16636411,
@@ -205,7 +225,7 @@
         }
       },
       "lastSubmission": "2026-08-04T14:26:44.113Z",
-      "rank": 10
+      "rank": 11
     },
     {
       "teamId": 16605715,
@@ -225,7 +245,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 11
+      "rank": 12
     }
   ]
 }
