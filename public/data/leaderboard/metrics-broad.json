@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-07T06:38:44.338Z",
+  "updatedAt": "2026-08-07T16:30:25.927Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -148,6 +148,26 @@
       "rank": 7
     },
     {
+      "teamId": 16686336,
+      "team": "Xiran Xu kaggle",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.20664,
+      "best": {
+        "balacc@10": {
+          "value": 0.20664
+        },
+        "balacc@1": {
+          "value": 0.020769230769230766
+        },
+        "ovmi": {
+          "value": 0.08718289384650155
+        }
+      },
+      "lastSubmission": "2026-08-07T16:24:16.873Z",
+      "rank": 8
+    },
+    {
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "submissions": 1,
@@ -165,7 +185,7 @@
         }
       },
       "lastSubmission": "2026-08-05T04:24:14.117Z",
-      "rank": 8
+      "rank": 9
     },
     {
       "teamId": 16644775,
@@ -182,7 +202,7 @@
         }
       },
       "lastSubmission": "2026-08-05T15:38:34.470Z",
-      "rank": 9
+      "rank": 10
     }
   ]
 }
