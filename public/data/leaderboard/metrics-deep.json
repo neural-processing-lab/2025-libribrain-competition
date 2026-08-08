@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-08T16:57:37.584Z",
+  "updatedAt": "2026-08-08T21:25:31.871Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16644796,
       "team": "Alireza Karimi",
-      "submissions": 16,
-      "scoredSubmissions": 16,
+      "submissions": 17,
+      "scoredSubmissions": 17,
       "kagglePublicBest": 0.47974,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 0.9574233592868792
         }
       },
-      "lastSubmission": "2026-08-06T01:31:58.257Z",
+      "lastSubmission": "2026-08-08T21:00:58.017Z",
       "rank": 6
     },
     {
