@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-08T10:47:18.097Z",
+  "updatedAt": "2026-08-08T12:19:33.447Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 12,
-      "scoredSubmissions": 12,
+      "submissions": 13,
+      "scoredSubmissions": 13,
       "kagglePublicBest": 0.52663,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.0123570380390592
         }
       },
-      "lastSubmission": "2026-08-08T08:38:34.987Z",
+      "lastSubmission": "2026-08-08T12:10:30.540Z",
       "rank": 5
     },
     {
