@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-08T13:23:18.117Z",
+  "updatedAt": "2026-08-08T14:46:09.120Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 14,
+      "scoredSubmissions": 14,
       "kagglePublicBest": 0.67607,
       "best": {
         "balacc@10": {
@@ -21,10 +21,10 @@
           "value": 0.2232720057720058
         },
         "ovmi": {
-          "value": 1.123001132684942
+          "value": 1.132868773584479
         }
       },
-      "lastSubmission": "2026-08-08T08:56:55.543Z",
+      "lastSubmission": "2026-08-08T14:32:58.320Z",
       "rank": 1
     },
     {
@@ -90,12 +90,12 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 13,
-      "scoredSubmissions": 13,
-      "kagglePublicBest": 0.52663,
+      "submissions": 14,
+      "scoredSubmissions": 14,
+      "kagglePublicBest": 0.54774,
       "best": {
         "balacc@10": {
-          "value": 0.52663
+          "value": 0.54774
         },
         "balacc@1": {
           "value": 0.10177777777777777
@@ -104,7 +104,7 @@
           "value": 1.0123570380390592
         }
       },
-      "lastSubmission": "2026-08-08T12:10:30.540Z",
+      "lastSubmission": "2026-08-08T14:33:26.457Z",
       "rank": 5
     },
     {
