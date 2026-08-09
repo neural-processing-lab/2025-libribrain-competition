@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-09T10:01:09.570Z",
+  "updatedAt": "2026-08-09T11:16:44.381Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,21 +10,21 @@
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 18,
-      "scoredSubmissions": 18,
+      "submissions": 20,
+      "scoredSubmissions": 20,
       "kagglePublicBest": 0.67607,
       "best": {
         "balacc@10": {
           "value": 0.67607
         },
         "balacc@1": {
-          "value": 0.2232720057720058
+          "value": 0.2431825396825397
         },
         "ovmi": {
           "value": 1.143884744327517
         }
       },
-      "lastSubmission": "2026-08-09T04:57:55.910Z",
+      "lastSubmission": "2026-08-09T11:05:31.190Z",
       "rank": 1
     },
     {
