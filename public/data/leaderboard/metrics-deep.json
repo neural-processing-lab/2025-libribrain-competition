@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-10T14:41:26.546Z",
+  "updatedAt": "2026-08-10T17:24:40.744Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16701490,
       "team": "neural2speech",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 4,
+      "scoredSubmissions": 4,
       "kagglePublicBest": 0.64473,
       "best": {
         "balacc@10": {
@@ -61,10 +61,10 @@
           "value": 0.13325468975468976
         },
         "ovmi": {
-          "value": 1.1198982946537546
+          "value": 1.1265201067184265
         }
       },
-      "lastSubmission": "2026-08-10T14:02:53.700Z",
+      "lastSubmission": "2026-08-10T16:49:26.380Z",
       "rank": 3
     },
     {
@@ -150,21 +150,21 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 15,
-      "scoredSubmissions": 15,
-      "kagglePublicBest": 0.54774,
+      "submissions": 18,
+      "scoredSubmissions": 18,
+      "kagglePublicBest": 0.56676,
       "best": {
         "balacc@10": {
-          "value": 0.54774
+          "value": 0.56676
         },
         "balacc@1": {
-          "value": 0.10177777777777777
+          "value": 0.14038095238095238
         },
         "ovmi": {
           "value": 1.0192179625577749
         }
       },
-      "lastSubmission": "2026-08-08T15:45:48.733Z",
+      "lastSubmission": "2026-08-10T16:59:39.997Z",
       "rank": 8
     },
     {
