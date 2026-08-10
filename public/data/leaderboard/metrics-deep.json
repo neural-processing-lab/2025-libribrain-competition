@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-10T05:51:01.407Z",
+  "updatedAt": "2026-08-10T07:01:36.175Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 21,
-      "scoredSubmissions": 21,
+      "submissions": 23,
+      "scoredSubmissions": 23,
       "kagglePublicBest": 0.67607,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.143884744327517
         }
       },
-      "lastSubmission": "2026-08-09T12:35:19.293Z",
+      "lastSubmission": "2026-08-10T06:06:27.263Z",
       "rank": 1
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16607550,
       "team": "Brain King",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 17,
+      "scoredSubmissions": 17,
       "kagglePublicBest": 0.46146,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 0.9136763173508701
         }
       },
-      "lastSubmission": "2026-08-10T05:49:25.043Z",
+      "lastSubmission": "2026-08-10T06:35:47.700Z",
       "rank": 8
     },
     {
