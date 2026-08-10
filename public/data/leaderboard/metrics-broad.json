@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-10T02:57:39.093Z",
+  "updatedAt": "2026-08-10T04:25:28.193Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16607557,
       "team": "Brain King",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 14,
+      "scoredSubmissions": 14,
       "kagglePublicBest": 0.25765,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 0.25782442707400677
         }
       },
-      "lastSubmission": "2026-08-10T01:36:01.710Z",
+      "lastSubmission": "2026-08-10T03:58:56.363Z",
       "rank": 6
     },
     {
