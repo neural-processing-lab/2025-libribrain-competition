@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-10T08:48:27.956Z",
+  "updatedAt": "2026-08-10T12:04:30.099Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16680182,
       "team": "Arnauya",
-      "submissions": 23,
-      "scoredSubmissions": 23,
+      "submissions": 24,
+      "scoredSubmissions": 24,
       "kagglePublicBest": 0.62954,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 0.9120995486796325
         }
       },
-      "lastSubmission": "2026-08-09T19:58:03.547Z",
+      "lastSubmission": "2026-08-10T11:37:39.867Z",
       "rank": 1
     },
     {
