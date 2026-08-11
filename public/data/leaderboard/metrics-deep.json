@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-11T10:29:56.703Z",
+  "updatedAt": "2026-08-11T12:04:25.869Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16608131,
       "team": "kakuteki",
-      "submissions": 40,
-      "scoredSubmissions": 40,
+      "submissions": 42,
+      "scoredSubmissions": 42,
       "kagglePublicBest": 0.64445,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.137350521942575
         }
       },
-      "lastSubmission": "2026-08-10T05:48:31.530Z",
+      "lastSubmission": "2026-08-11T11:43:27.457Z",
       "rank": 5
     },
     {
@@ -228,6 +228,26 @@
       "rank": 11
     },
     {
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "submissions": 21,
+      "scoredSubmissions": 21,
+      "kagglePublicBest": 0.29517,
+      "best": {
+        "balacc@10": {
+          "value": 0.29517
+        },
+        "balacc@1": {
+          "value": 0.0645
+        },
+        "ovmi": {
+          "value": 0.9441229570027905
+        }
+      },
+      "lastSubmission": "2026-08-11T12:01:42.447Z",
+      "rank": 12
+    },
+    {
       "teamId": 16550910,
       "team": "monte-carlo",
       "submissions": 5,
@@ -245,7 +265,7 @@
         }
       },
       "lastSubmission": "2026-07-25T14:13:10.917Z",
-      "rank": 12
+      "rank": 13
     },
     {
       "teamId": 16697258,
@@ -265,26 +285,6 @@
         }
       },
       "lastSubmission": "2026-08-10T04:46:07.557Z",
-      "rank": 13
-    },
-    {
-      "teamId": 16510893,
-      "team": "MindReaders2.0",
-      "submissions": 20,
-      "scoredSubmissions": 20,
-      "kagglePublicBest": 0.2756,
-      "best": {
-        "balacc@10": {
-          "value": 0.2756
-        },
-        "balacc@1": {
-          "value": 0.0645
-        },
-        "ovmi": {
-          "value": 0.9441229570027905
-        }
-      },
-      "lastSubmission": "2026-08-10T17:29:02.860Z",
       "rank": 14
     },
     {
