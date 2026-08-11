@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-11T06:10:51.417Z",
+  "updatedAt": "2026-08-11T07:33:21.678Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 27,
-      "scoredSubmissions": 27,
+      "submissions": 30,
+      "scoredSubmissions": 30,
       "kagglePublicBest": 0.67607,
       "best": {
         "balacc@10": {
@@ -21,10 +21,10 @@
           "value": 0.2431825396825397
         },
         "ovmi": {
-          "value": 1.143884744327517
+          "value": 1.146629763241312
         }
       },
-      "lastSubmission": "2026-08-11T05:50:41.230Z",
+      "lastSubmission": "2026-08-11T07:07:51.553Z",
       "rank": 1
     },
     {
@@ -110,8 +110,8 @@
     {
       "teamId": 16703651,
       "team": "@Arnauya",
-      "submissions": 5,
-      "scoredSubmissions": 5,
+      "submissions": 7,
+      "scoredSubmissions": 7,
       "kagglePublicBest": 0.64026,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 0.9324972148096661
         }
       },
-      "lastSubmission": "2026-08-11T05:35:11.577Z",
+      "lastSubmission": "2026-08-11T07:06:57.480Z",
       "rank": 6
     },
     {
@@ -310,8 +310,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 10,
-      "scoredSubmissions": 10,
+      "submissions": 11,
+      "scoredSubmissions": 11,
       "kagglePublicBest": 0.2505,
       "best": {
         "balacc@10": {
@@ -324,7 +324,7 @@
           "value": 0.5474076289077429
         }
       },
-      "lastSubmission": "2026-08-10T12:28:21.433Z",
+      "lastSubmission": "2026-08-11T06:38:47.713Z",
       "rank": 16
     },
     {
