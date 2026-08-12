@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-12T06:08:12.164Z",
+  "updatedAt": "2026-08-12T07:46:47.047Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,12 +30,12 @@
     {
       "teamId": 16607557,
       "team": "Brain King",
-      "submissions": 32,
-      "scoredSubmissions": 32,
-      "kagglePublicBest": 0.60028,
+      "submissions": 33,
+      "scoredSubmissions": 33,
+      "kagglePublicBest": 0.60341,
       "best": {
         "balacc@10": {
-          "value": 0.60028
+          "value": 0.60341
         },
         "balacc@1": {
           "value": 0.20400865800865803
@@ -44,7 +44,7 @@
           "value": 1.1223045074796398
         }
       },
-      "lastSubmission": "2026-08-12T05:42:12.127Z",
+      "lastSubmission": "2026-08-12T06:45:02.160Z",
       "rank": 2
     },
     {
@@ -90,12 +90,12 @@
     {
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "submissions": 4,
-      "scoredSubmissions": 4,
-      "kagglePublicBest": 0.35586,
+      "submissions": 5,
+      "scoredSubmissions": 5,
+      "kagglePublicBest": 0.36258,
       "best": {
         "balacc@10": {
-          "value": 0.35586
+          "value": 0.36258
         },
         "balacc@1": {
           "value": 0.038169996669996674
@@ -104,8 +104,28 @@
           "value": 0.55691182326655
         }
       },
-      "lastSubmission": "2026-08-12T05:47:08.437Z",
+      "lastSubmission": "2026-08-12T06:34:47.790Z",
       "rank": 5
+    },
+    {
+      "teamId": 16686336,
+      "team": "Xiran Xu kaggle",
+      "submissions": 3,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.33066,
+      "best": {
+        "balacc@10": {
+          "value": 0.33066
+        },
+        "balacc@1": {
+          "value": 0.02721855921855922
+        },
+        "ovmi": {
+          "value": 0.13696464345644038
+        }
+      },
+      "lastSubmission": "2026-08-12T06:23:34.590Z",
+      "rank": 6
     },
     {
       "teamId": 16580266,
@@ -125,26 +145,6 @@
         }
       },
       "lastSubmission": "2026-07-21T10:08:18.583Z",
-      "rank": 6
-    },
-    {
-      "teamId": 16686336,
-      "team": "Xiran Xu kaggle",
-      "submissions": 2,
-      "scoredSubmissions": 2,
-      "kagglePublicBest": 0.25467,
-      "best": {
-        "balacc@10": {
-          "value": 0.25467
-        },
-        "balacc@1": {
-          "value": 0.02721855921855922
-        },
-        "ovmi": {
-          "value": 0.13696464345644038
-        }
-      },
-      "lastSubmission": "2026-08-08T00:11:36.587Z",
       "rank": 7
     },
     {
