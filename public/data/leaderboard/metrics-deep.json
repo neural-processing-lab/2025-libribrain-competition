@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-12T09:53:08.376Z",
+  "updatedAt": "2026-08-12T12:28:40.280Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,8 +130,8 @@
     {
       "teamId": 16607550,
       "team": "Brain King",
-      "submissions": 32,
-      "scoredSubmissions": 32,
+      "submissions": 33,
+      "scoredSubmissions": 33,
       "kagglePublicBest": 0.61033,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.1299034794260636
         }
       },
-      "lastSubmission": "2026-08-12T06:39:31.163Z",
+      "lastSubmission": "2026-08-12T12:19:22.797Z",
       "rank": 7
     },
     {
@@ -290,8 +290,8 @@
     {
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 3,
+      "scoredSubmissions": 3,
       "kagglePublicBest": 0.28748,
       "best": {
         "balacc@10": {
@@ -301,10 +301,10 @@
           "value": 0.04877777777777778
         },
         "ovmi": {
-          "value": 0.7894963088098993
+          "value": 0.810374030899782
         }
       },
-      "lastSubmission": "2026-08-12T02:34:14.673Z",
+      "lastSubmission": "2026-08-12T11:47:41.170Z",
       "rank": 15
     },
     {
