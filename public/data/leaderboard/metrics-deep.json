@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-12T00:40:12.165Z",
+  "updatedAt": "2026-08-12T03:07:57.640Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -290,21 +290,21 @@
     {
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.26234,
+      "submissions": 2,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.28748,
       "best": {
         "balacc@10": {
-          "value": 0.26234
+          "value": 0.28748
         },
         "balacc@1": {
           "value": 0.04877777777777778
         },
         "ovmi": {
-          "value": 0.47073294437752417
+          "value": 0.7894963088098993
         }
       },
-      "lastSubmission": "2026-08-11T01:46:02.243Z",
+      "lastSubmission": "2026-08-12T02:34:14.673Z",
       "rank": 15
     },
     {
