@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-12T15:45:45.863Z",
+  "updatedAt": "2026-08-12T16:42:07.020Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,21 +90,21 @@
     {
       "teamId": 16701490,
       "team": "neural2speech",
-      "submissions": 7,
-      "scoredSubmissions": 7,
+      "submissions": 9,
+      "scoredSubmissions": 9,
       "kagglePublicBest": 0.64473,
       "best": {
         "balacc@10": {
           "value": 0.64473
         },
         "balacc@1": {
-          "value": 0.13325468975468976
+          "value": 0.1337142857142857
         },
         "ovmi": {
           "value": 1.1265201067184265
         }
       },
-      "lastSubmission": "2026-08-11T13:10:01.627Z",
+      "lastSubmission": "2026-08-12T16:03:58.713Z",
       "rank": 5
     },
     {
@@ -130,8 +130,8 @@
     {
       "teamId": 16607550,
       "team": "Brain King",
-      "submissions": 34,
-      "scoredSubmissions": 34,
+      "submissions": 35,
+      "scoredSubmissions": 35,
       "kagglePublicBest": 0.61033,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.1299034794260636
         }
       },
-      "lastSubmission": "2026-08-12T13:22:44.350Z",
+      "lastSubmission": "2026-08-12T16:23:19.317Z",
       "rank": 7
     },
     {
