@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-12T00:40:13.121Z",
+  "updatedAt": "2026-08-12T06:08:12.164Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,12 +30,12 @@
     {
       "teamId": 16607557,
       "team": "Brain King",
-      "submissions": 31,
-      "scoredSubmissions": 31,
-      "kagglePublicBest": 0.59945,
+      "submissions": 32,
+      "scoredSubmissions": 32,
+      "kagglePublicBest": 0.60028,
       "best": {
         "balacc@10": {
-          "value": 0.59945
+          "value": 0.60028
         },
         "balacc@1": {
           "value": 0.20400865800865803
@@ -44,7 +44,7 @@
           "value": 1.1223045074796398
         }
       },
-      "lastSubmission": "2026-08-12T00:00:30.027Z",
+      "lastSubmission": "2026-08-12T05:42:12.127Z",
       "rank": 2
     },
     {
@@ -90,12 +90,12 @@
     {
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "submissions": 2,
-      "scoredSubmissions": 2,
-      "kagglePublicBest": 0.33033,
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.35586,
       "best": {
         "balacc@10": {
-          "value": 0.33033
+          "value": 0.35586
         },
         "balacc@1": {
           "value": 0.038169996669996674
@@ -104,7 +104,7 @@
           "value": 0.55691182326655
         }
       },
-      "lastSubmission": "2026-08-11T18:45:18.183Z",
+      "lastSubmission": "2026-08-12T05:47:08.437Z",
       "rank": 5
     },
     {
