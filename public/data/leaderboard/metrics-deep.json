@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-13T15:45:05.846Z",
+  "updatedAt": "2026-08-13T16:41:01.094Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -28,6 +28,26 @@
       "rank": 1
     },
     {
+      "teamId": 16697258,
+      "team": "Jordan Griffith",
+      "submissions": 7,
+      "scoredSubmissions": 7,
+      "kagglePublicBest": 0.65738,
+      "best": {
+        "balacc@10": {
+          "value": 0.65738
+        },
+        "balacc@1": {
+          "value": 0.1849047619047619
+        },
+        "ovmi": {
+          "value": 1.0578885504078277
+        }
+      },
+      "lastSubmission": "2026-08-13T16:06:40.940Z",
+      "rank": 2
+    },
+    {
       "teamId": 16661201,
       "team": "JovanaLab",
       "submissions": 20,
@@ -45,7 +65,7 @@
         }
       },
       "lastSubmission": "2026-08-09T13:00:28.857Z",
-      "rank": 2
+      "rank": 3
     },
     {
       "teamId": 16644796,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-08-13T14:57:05.887Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16608131,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-08-11T17:49:04.883Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16701490,
@@ -105,7 +125,7 @@
         }
       },
       "lastSubmission": "2026-08-13T11:19:32.830Z",
-      "rank": 5
+      "rank": 6
     },
     {
       "teamId": 16703651,
@@ -125,7 +145,7 @@
         }
       },
       "lastSubmission": "2026-08-11T17:28:22.187Z",
-      "rank": 6
+      "rank": 7
     },
     {
       "teamId": 16607550,
@@ -145,7 +165,7 @@
         }
       },
       "lastSubmission": "2026-08-12T16:23:19.317Z",
-      "rank": 7
+      "rank": 8
     },
     {
       "teamId": 16666931,
@@ -165,7 +185,7 @@
         }
       },
       "lastSubmission": "2026-08-12T06:16:46.960Z",
-      "rank": 8
+      "rank": 9
     },
     {
       "teamId": 16553979,
@@ -185,7 +205,7 @@
         }
       },
       "lastSubmission": "2026-08-11T02:57:09.023Z",
-      "rank": 9
+      "rank": 10
     },
     {
       "teamId": 16685441,
@@ -205,26 +225,6 @@
         }
       },
       "lastSubmission": "2026-08-11T18:18:09.880Z",
-      "rank": 10
-    },
-    {
-      "teamId": 16697258,
-      "team": "Jordan Griffith",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.54056,
-      "best": {
-        "balacc@10": {
-          "value": 0.54056
-        },
-        "balacc@1": {
-          "value": 0.1849047619047619
-        },
-        "ovmi": {
-          "value": 1.0578885504078277
-        }
-      },
-      "lastSubmission": "2026-08-13T01:12:25.713Z",
       "rank": 11
     },
     {
