@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-13T04:28:27.075Z",
+  "updatedAt": "2026-08-13T09:45:03.096Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -248,6 +248,26 @@
       "rank": 12
     },
     {
+      "teamId": 16516410,
+      "team": "Shuntaro Suzuki",
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.354,
+      "best": {
+        "balacc@10": {
+          "value": 0.354
+        },
+        "balacc@1": {
+          "value": 0.04877777777777778
+        },
+        "ovmi": {
+          "value": 0.810374030899782
+        }
+      },
+      "lastSubmission": "2026-08-13T08:51:17.513Z",
+      "rank": 13
+    },
+    {
       "teamId": 16636411,
       "team": "Kim",
       "submissions": 14,
@@ -265,7 +285,7 @@
         }
       },
       "lastSubmission": "2026-08-13T03:50:46.743Z",
-      "rank": 13
+      "rank": 14
     },
     {
       "teamId": 16510893,
@@ -285,7 +305,7 @@
         }
       },
       "lastSubmission": "2026-08-12T09:26:19.247Z",
-      "rank": 14
+      "rank": 15
     },
     {
       "teamId": 16550910,
@@ -305,26 +325,6 @@
         }
       },
       "lastSubmission": "2026-07-25T14:13:10.917Z",
-      "rank": 15
-    },
-    {
-      "teamId": 16516410,
-      "team": "Shuntaro Suzuki",
-      "submissions": 3,
-      "scoredSubmissions": 3,
-      "kagglePublicBest": 0.28748,
-      "best": {
-        "balacc@10": {
-          "value": 0.28748
-        },
-        "balacc@1": {
-          "value": 0.04877777777777778
-        },
-        "ovmi": {
-          "value": 0.810374030899782
-        }
-      },
-      "lastSubmission": "2026-08-12T11:47:41.170Z",
       "rank": 16
     },
     {
