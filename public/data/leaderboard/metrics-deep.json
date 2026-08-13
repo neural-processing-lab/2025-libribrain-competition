@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-13T09:45:03.096Z",
+  "updatedAt": "2026-08-13T11:35:49.735Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,21 +90,21 @@
     {
       "teamId": 16701490,
       "team": "neural2speech",
-      "submissions": 9,
-      "scoredSubmissions": 9,
+      "submissions": 10,
+      "scoredSubmissions": 10,
       "kagglePublicBest": 0.64473,
       "best": {
         "balacc@10": {
           "value": 0.64473
         },
         "balacc@1": {
-          "value": 0.1337142857142857
+          "value": 0.1447243867243867
         },
         "ovmi": {
           "value": 1.1265201067184265
         }
       },
-      "lastSubmission": "2026-08-12T16:03:58.713Z",
+      "lastSubmission": "2026-08-13T11:19:32.830Z",
       "rank": 5
     },
     {
