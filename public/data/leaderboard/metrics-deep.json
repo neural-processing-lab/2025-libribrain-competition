@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-12T21:58:28.492Z",
+  "updatedAt": "2026-08-13T02:42:54.868Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16644796,
       "team": "MagnetoLex",
-      "submissions": 29,
-      "scoredSubmissions": 29,
+      "submissions": 30,
+      "scoredSubmissions": 30,
       "kagglePublicBest": 0.65476,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1178121833056898
         }
       },
-      "lastSubmission": "2026-08-12T21:36:21.160Z",
+      "lastSubmission": "2026-08-13T01:05:45.413Z",
       "rank": 3
     },
     {
@@ -210,12 +210,12 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 5,
-      "scoredSubmissions": 5,
-      "kagglePublicBest": 0.52886,
+      "submissions": 6,
+      "scoredSubmissions": 6,
+      "kagglePublicBest": 0.54056,
       "best": {
         "balacc@10": {
-          "value": 0.52886
+          "value": 0.54056
         },
         "balacc@1": {
           "value": 0.1849047619047619
@@ -224,7 +224,7 @@
           "value": 1.0578885504078277
         }
       },
-      "lastSubmission": "2026-08-12T19:30:13.807Z",
+      "lastSubmission": "2026-08-13T01:12:25.713Z",
       "rank": 11
     },
     {
