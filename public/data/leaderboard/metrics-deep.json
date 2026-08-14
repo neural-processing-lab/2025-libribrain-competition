@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-14T07:01:40.707Z",
+  "updatedAt": "2026-08-14T08:35:01.637Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -188,6 +188,26 @@
       "rank": 9
     },
     {
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "submissions": 25,
+      "scoredSubmissions": 25,
+      "kagglePublicBest": 0.57581,
+      "best": {
+        "balacc@10": {
+          "value": 0.57581
+        },
+        "balacc@1": {
+          "value": 0.14723809523809525
+        },
+        "ovmi": {
+          "value": 1.0546037463405564
+        }
+      },
+      "lastSubmission": "2026-08-14T07:18:31.477Z",
+      "rank": 10
+    },
+    {
       "teamId": 16553979,
       "team": "MindLink",
       "submissions": 30,
@@ -205,26 +225,6 @@
         }
       },
       "lastSubmission": "2026-08-11T02:57:09.023Z",
-      "rank": 10
-    },
-    {
-      "teamId": 16685441,
-      "team": "titus fisher",
-      "submissions": 24,
-      "scoredSubmissions": 24,
-      "kagglePublicBest": 0.56676,
-      "best": {
-        "balacc@10": {
-          "value": 0.56676
-        },
-        "balacc@1": {
-          "value": 0.14723809523809525
-        },
-        "ovmi": {
-          "value": 1.0546037463405564
-        }
-      },
-      "lastSubmission": "2026-08-14T06:50:50.297Z",
       "rank": 11
     },
     {
