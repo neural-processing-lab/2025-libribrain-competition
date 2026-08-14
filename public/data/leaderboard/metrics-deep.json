@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-14T04:26:26.096Z",
+  "updatedAt": "2026-08-14T05:51:19.006Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,8 +130,8 @@
     {
       "teamId": 16703651,
       "team": "@Arnauya",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 14,
+      "scoredSubmissions": 14,
       "kagglePublicBest": 0.64026,
       "best": {
         "balacc@10": {
@@ -144,8 +144,28 @@
           "value": 0.9745335278820628
         }
       },
-      "lastSubmission": "2026-08-11T17:28:22.187Z",
+      "lastSubmission": "2026-08-14T04:44:35.527Z",
       "rank": 7
+    },
+    {
+      "teamId": 16666931,
+      "team": "SHINE",
+      "submissions": 9,
+      "scoredSubmissions": 7,
+      "kagglePublicBest": 0.61525,
+      "best": {
+        "balacc@10": {
+          "value": 0.61525
+        },
+        "balacc@1": {
+          "value": 0.1934300144300144
+        },
+        "ovmi": {
+          "value": 1.0748259201455754
+        }
+      },
+      "lastSubmission": "2026-08-14T05:19:58.757Z",
+      "rank": 8
     },
     {
       "teamId": 16607550,
@@ -165,26 +185,6 @@
         }
       },
       "lastSubmission": "2026-08-12T16:23:19.317Z",
-      "rank": 8
-    },
-    {
-      "teamId": 16666931,
-      "team": "SHINE",
-      "submissions": 8,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.6042,
-      "best": {
-        "balacc@10": {
-          "value": 0.6042
-        },
-        "balacc@1": {
-          "value": 0.1934300144300144
-        },
-        "ovmi": {
-          "value": 1.0703237505020458
-        }
-      },
-      "lastSubmission": "2026-08-12T06:16:46.960Z",
       "rank": 9
     },
     {
