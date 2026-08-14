@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-14T02:40:52.065Z",
+  "updatedAt": "2026-08-14T04:26:26.096Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,8 +30,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 11,
-      "scoredSubmissions": 11,
+      "submissions": 12,
+      "scoredSubmissions": 12,
       "kagglePublicBest": 0.65738,
       "best": {
         "balacc@10": {
@@ -41,10 +41,10 @@
           "value": 0.1849047619047619
         },
         "ovmi": {
-          "value": 1.0578885504078277
+          "value": 1.1472876085737256
         }
       },
-      "lastSubmission": "2026-08-14T02:10:47.170Z",
+      "lastSubmission": "2026-08-14T04:22:34.303Z",
       "rank": 2
     },
     {
@@ -270,8 +270,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 16,
-      "scoredSubmissions": 16,
+      "submissions": 17,
+      "scoredSubmissions": 17,
       "kagglePublicBest": 0.3363,
       "best": {
         "balacc@10": {
@@ -281,10 +281,10 @@
           "value": 0.05455555555555556
         },
         "ovmi": {
-          "value": 0.6213673789415803
+          "value": 0.6770674834657354
         }
       },
-      "lastSubmission": "2026-08-13T17:09:31.017Z",
+      "lastSubmission": "2026-08-14T03:40:15.547Z",
       "rank": 14
     },
     {
