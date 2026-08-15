@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-15T15:53:50.090Z",
+  "updatedAt": "2026-08-15T17:11:42.455Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -330,21 +330,21 @@
     {
       "teamId": 16708216,
       "team": "KarahanYilmazer",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.23347,
+      "submissions": 3,
+      "scoredSubmissions": 3,
+      "kagglePublicBest": 0.25406,
       "best": {
         "balacc@10": {
-          "value": 0.23347
+          "value": 0.25406
         },
         "balacc@1": {
-          "value": 0.015412698412698411
+          "value": 0.034333333333333334
         },
         "ovmi": {
           "value": 0.8585995412966211
         }
       },
-      "lastSubmission": "2026-08-15T15:27:02.667Z",
+      "lastSubmission": "2026-08-15T17:01:46.667Z",
       "rank": 17
     },
     {
