@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-15T17:54:32.331Z",
+  "updatedAt": "2026-08-15T18:09:05.159Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -350,8 +350,8 @@
     {
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
-      "submissions": 3,
-      "scoredSubmissions": 3,
+      "submissions": 4,
+      "scoredSubmissions": 4,
       "kagglePublicBest": 0.2001,
       "best": {
         "balacc@10": {
@@ -364,7 +364,7 @@
           "value": 1.0946638054775149
         }
       },
-      "lastSubmission": "2026-08-15T17:44:58.370Z",
+      "lastSubmission": "2026-08-15T17:55:46.777Z",
       "rank": 18
     },
     {
