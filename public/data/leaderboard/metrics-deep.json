@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-15T13:47:12.652Z",
+  "updatedAt": "2026-08-15T14:35:00.004Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16644796,
       "team": "MagnetoLex",
-      "submissions": 33,
-      "scoredSubmissions": 33,
+      "submissions": 34,
+      "scoredSubmissions": 34,
       "kagglePublicBest": 0.65476,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.1227096713536067
         }
       },
-      "lastSubmission": "2026-08-15T01:49:57.260Z",
+      "lastSubmission": "2026-08-15T14:20:50.957Z",
       "rank": 5
     },
     {
