@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-16T02:05:07.571Z",
+  "updatedAt": "2026-08-16T04:23:48.570Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 19,
-      "scoredSubmissions": 19,
+      "submissions": 20,
+      "scoredSubmissions": 20,
       "kagglePublicBest": 0.66943,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1472876085737256
         }
       },
-      "lastSubmission": "2026-08-15T20:50:21.640Z",
+      "lastSubmission": "2026-08-16T04:16:29.837Z",
       "rank": 3
     },
     {
