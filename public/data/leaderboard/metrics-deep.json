@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-16T07:58:18.372Z",
+  "updatedAt": "2026-08-16T09:13:57.056Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -150,8 +150,8 @@
     {
       "teamId": 16703651,
       "team": "@Arnauya",
-      "submissions": 18,
-      "scoredSubmissions": 18,
+      "submissions": 19,
+      "scoredSubmissions": 19,
       "kagglePublicBest": 0.64276,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 0.9745335278820628
         }
       },
-      "lastSubmission": "2026-08-15T01:21:38.483Z",
+      "lastSubmission": "2026-08-16T09:06:58.917Z",
       "rank": 8
     },
     {
