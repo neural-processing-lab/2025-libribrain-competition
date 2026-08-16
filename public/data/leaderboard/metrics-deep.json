@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-16T18:43:40.646Z",
+  "updatedAt": "2026-08-16T19:50:06.735Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -388,6 +388,26 @@
       "rank": 19
     },
     {
+      "teamId": 16726510,
+      "team": "LizaSheina",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.18799,
+      "best": {
+        "balacc@10": {
+          "value": 0.18799
+        },
+        "balacc@1": {
+          "value": 0.028444444444444442
+        },
+        "ovmi": {
+          "value": 0.3680992555043786
+        }
+      },
+      "lastSubmission": "2026-08-16T19:31:00.720Z",
+      "rank": 20
+    },
+    {
       "teamId": 16678093,
       "team": "Viknesh .V",
       "submissions": 1,
@@ -405,7 +425,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 20
+      "rank": 21
     }
   ]
 }
