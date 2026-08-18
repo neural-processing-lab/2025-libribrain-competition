@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-18T13:26:22.558Z",
+  "updatedAt": "2026-08-18T14:03:24.508Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -348,6 +348,26 @@
       "rank": 17
     },
     {
+      "teamId": 16736164,
+      "team": "morg",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.25884,
+      "best": {
+        "balacc@10": {
+          "value": 0.25884
+        },
+        "balacc@1": {
+          "value": 0.032
+        },
+        "ovmi": {
+          "value": 0.6729656238923541
+        }
+      },
+      "lastSubmission": "2026-08-18T13:37:32.480Z",
+      "rank": 18
+    },
+    {
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
       "submissions": 6,
@@ -365,7 +385,7 @@
         }
       },
       "lastSubmission": "2026-08-17T10:39:46.003Z",
-      "rank": 18
+      "rank": 19
     },
     {
       "teamId": 16605715,
@@ -385,7 +405,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 19
+      "rank": 20
     },
     {
       "teamId": 16726510,
@@ -405,7 +425,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 20
+      "rank": 21
     },
     {
       "teamId": 16678093,
@@ -425,7 +445,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 21
+      "rank": 22
     }
   ]
 }
