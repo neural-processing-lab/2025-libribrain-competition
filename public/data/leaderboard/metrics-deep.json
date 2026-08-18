@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-18T19:02:36.151Z",
+  "updatedAt": "2026-08-18T20:41:21.381Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 24,
-      "scoredSubmissions": 24,
+      "submissions": 26,
+      "scoredSubmissions": 26,
       "kagglePublicBest": 0.66943,
       "best": {
         "balacc@10": {
@@ -64,27 +64,27 @@
           "value": 1.1472876085737256
         }
       },
-      "lastSubmission": "2026-08-18T15:38:35.387Z",
+      "lastSubmission": "2026-08-18T20:29:40.863Z",
       "rank": 3
     },
     {
       "teamId": 16661201,
       "team": "JovanaLab",
-      "submissions": 22,
-      "scoredSubmissions": 22,
+      "submissions": 25,
+      "scoredSubmissions": 25,
       "kagglePublicBest": 0.65583,
       "best": {
         "balacc@10": {
           "value": 0.65583
         },
         "balacc@1": {
-          "value": 0.24977128427128428
+          "value": 0.2729365079365079
         },
         "ovmi": {
           "value": 1.075660807968095
         }
       },
-      "lastSubmission": "2026-08-18T14:42:20.290Z",
+      "lastSubmission": "2026-08-18T20:23:46.023Z",
       "rank": 4
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16703651,
       "team": "@Arnauya",
-      "submissions": 30,
-      "scoredSubmissions": 30,
+      "submissions": 32,
+      "scoredSubmissions": 32,
       "kagglePublicBest": 0.64276,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 0.9745335278820628
         }
       },
-      "lastSubmission": "2026-08-18T06:34:10.120Z",
+      "lastSubmission": "2026-08-18T20:39:14.843Z",
       "rank": 8
     },
     {
