@@ -1,12 +1,32 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-17T23:35:54.674Z",
+  "updatedAt": "2026-08-18T00:33:01.475Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
     "ovmi"
   ],
   "teams": [
+    {
+      "teamId": 16667929,
+      "team": "Umur Yıldız",
+      "submissions": 57,
+      "scoredSubmissions": 57,
+      "kagglePublicBest": 0.7055,
+      "best": {
+        "balacc@10": {
+          "value": 0.7055
+        },
+        "balacc@1": {
+          "value": 0.2431825396825397
+        },
+        "ovmi": {
+          "value": 1.1601069132606763
+        }
+      },
+      "lastSubmission": "2026-08-18T00:11:02.877Z",
+      "rank": 1
+    },
     {
       "teamId": 16553979,
       "team": "MindLink",
@@ -25,26 +45,6 @@
         }
       },
       "lastSubmission": "2026-08-17T04:30:46.060Z",
-      "rank": 1
-    },
-    {
-      "teamId": 16667929,
-      "team": "Umur Yıldız",
-      "submissions": 55,
-      "scoredSubmissions": 55,
-      "kagglePublicBest": 0.69291,
-      "best": {
-        "balacc@10": {
-          "value": 0.69291
-        },
-        "balacc@1": {
-          "value": 0.2431825396825397
-        },
-        "ovmi": {
-          "value": 1.1601069132606763
-        }
-      },
-      "lastSubmission": "2026-08-17T23:22:03.347Z",
       "rank": 2
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16703651,
       "team": "@Arnauya",
-      "submissions": 26,
-      "scoredSubmissions": 26,
+      "submissions": 28,
+      "scoredSubmissions": 28,
       "kagglePublicBest": 0.64276,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 0.9745335278820628
         }
       },
-      "lastSubmission": "2026-08-17T07:29:47.143Z",
+      "lastSubmission": "2026-08-18T00:05:27.083Z",
       "rank": 8
     },
     {
