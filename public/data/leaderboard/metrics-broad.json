@@ -1,12 +1,32 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-19T03:54:51.980Z",
+  "updatedAt": "2026-08-19T04:56:54.027Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
     "ovmi"
   ],
   "teams": [
+    {
+      "teamId": 16661195,
+      "team": "JovanaLab",
+      "submissions": 48,
+      "scoredSubmissions": 48,
+      "kagglePublicBest": 0.6673,
+      "best": {
+        "balacc@10": {
+          "value": 0.6673
+        },
+        "balacc@1": {
+          "value": 0.2549126984126984
+        },
+        "ovmi": {
+          "value": 1.0739173958991186
+        }
+      },
+      "lastSubmission": "2026-08-19T04:51:40.873Z",
+      "rank": 1
+    },
     {
       "teamId": 16680182,
       "team": "Arnauya",
@@ -25,7 +45,7 @@
         }
       },
       "lastSubmission": "2026-08-18T21:15:14.717Z",
-      "rank": 1
+      "rank": 2
     },
     {
       "teamId": 16697275,
@@ -45,7 +65,7 @@
         }
       },
       "lastSubmission": "2026-08-16T04:30:49.080Z",
-      "rank": 2
+      "rank": 3
     },
     {
       "teamId": 16692669,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-08-19T03:21:17.833Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16593214,
@@ -85,26 +105,6 @@
         }
       },
       "lastSubmission": "2026-08-15T14:14:07.833Z",
-      "rank": 4
-    },
-    {
-      "teamId": 16661195,
-      "team": "JovanaLab",
-      "submissions": 40,
-      "scoredSubmissions": 40,
-      "kagglePublicBest": 0.60899,
-      "best": {
-        "balacc@10": {
-          "value": 0.60899
-        },
-        "balacc@1": {
-          "value": 0.24316161616161616
-        },
-        "ovmi": {
-          "value": 1.0739173958991186
-        }
-      },
-      "lastSubmission": "2026-08-18T20:05:01.903Z",
       "rank": 5
     },
     {
