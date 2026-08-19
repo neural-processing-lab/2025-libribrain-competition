@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-18T21:36:25.337Z",
+  "updatedAt": "2026-08-19T03:54:51.980Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -48,6 +48,26 @@
       "rank": 2
     },
     {
+      "teamId": 16692669,
+      "team": "Varshith Madishetty",
+      "submissions": 24,
+      "scoredSubmissions": 24,
+      "kagglePublicBest": 0.62219,
+      "best": {
+        "balacc@10": {
+          "value": 0.62219
+        },
+        "balacc@1": {
+          "value": 0.15448275798275798
+        },
+        "ovmi": {
+          "value": 0.8116418855323911
+        }
+      },
+      "lastSubmission": "2026-08-19T03:21:17.833Z",
+      "rank": 3
+    },
+    {
       "teamId": 16593214,
       "team": "MindLink",
       "submissions": 12,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-08-15T14:14:07.833Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16661195,
@@ -85,26 +105,6 @@
         }
       },
       "lastSubmission": "2026-08-18T20:05:01.903Z",
-      "rank": 4
-    },
-    {
-      "teamId": 16692669,
-      "team": "Varshith Madishetty",
-      "submissions": 16,
-      "scoredSubmissions": 16,
-      "kagglePublicBest": 0.60797,
-      "best": {
-        "balacc@10": {
-          "value": 0.60797
-        },
-        "balacc@1": {
-          "value": 0.15448275798275798
-        },
-        "ovmi": {
-          "value": 0.8116418855323911
-        }
-      },
-      "lastSubmission": "2026-08-18T17:41:27.117Z",
       "rank": 5
     },
     {
