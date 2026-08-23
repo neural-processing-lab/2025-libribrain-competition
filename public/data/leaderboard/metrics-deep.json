@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-22T22:07:55.355Z",
+  "updatedAt": "2026-08-23T00:28:58.378Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -190,8 +190,8 @@
     {
       "teamId": 16736164,
       "team": "SENPAI",
-      "submissions": 41,
-      "scoredSubmissions": 41,
+      "submissions": 50,
+      "scoredSubmissions": 50,
       "kagglePublicBest": 0.62963,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 1.0606085580014626
         }
       },
-      "lastSubmission": "2026-08-22T09:50:07.937Z",
+      "lastSubmission": "2026-08-23T00:07:15.183Z",
       "rank": 10
     },
     {
