@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-23T06:39:23.277Z",
+  "updatedAt": "2026-08-23T07:52:31.811Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -270,21 +270,21 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 52,
-      "scoredSubmissions": 52,
-      "kagglePublicBest": 0.50381,
+      "submissions": 55,
+      "scoredSubmissions": 55,
+      "kagglePublicBest": 0.55146,
       "best": {
         "balacc@10": {
-          "value": 0.50381
+          "value": 0.55146
         },
         "balacc@1": {
-          "value": 0.08744444444444445
+          "value": 0.10788095238095238
         },
         "ovmi": {
           "value": 0.9822257843523542
         }
       },
-      "lastSubmission": "2026-08-22T18:20:08.990Z",
+      "lastSubmission": "2026-08-23T07:50:51.023Z",
       "rank": 14
     },
     {
