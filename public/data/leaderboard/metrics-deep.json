@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-23T00:28:58.378Z",
+  "updatedAt": "2026-08-23T02:08:21.351Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -170,8 +170,8 @@
     {
       "teamId": 16703651,
       "team": "@Arnauya",
-      "submissions": 71,
-      "scoredSubmissions": 71,
+      "submissions": 78,
+      "scoredSubmissions": 78,
       "kagglePublicBest": 0.64276,
       "best": {
         "balacc@10": {
@@ -184,14 +184,14 @@
           "value": 1.142342649737342
         }
       },
-      "lastSubmission": "2026-08-22T21:59:36.110Z",
+      "lastSubmission": "2026-08-23T00:37:27.353Z",
       "rank": 9
     },
     {
       "teamId": 16736164,
       "team": "SENPAI",
-      "submissions": 50,
-      "scoredSubmissions": 50,
+      "submissions": 51,
+      "scoredSubmissions": 51,
       "kagglePublicBest": 0.62963,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 1.0606085580014626
         }
       },
-      "lastSubmission": "2026-08-23T00:07:15.183Z",
+      "lastSubmission": "2026-08-23T00:39:48.680Z",
       "rank": 10
     },
     {
@@ -330,8 +330,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 49,
-      "scoredSubmissions": 49,
+      "submissions": 50,
+      "scoredSubmissions": 50,
       "kagglePublicBest": 0.33222,
       "best": {
         "balacc@10": {
@@ -344,7 +344,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-08-22T11:36:53.683Z",
+      "lastSubmission": "2026-08-23T01:39:06.477Z",
       "rank": 17
     },
     {
