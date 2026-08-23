@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-23T03:58:44.773Z",
+  "updatedAt": "2026-08-23T06:39:23.277Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -88,6 +88,26 @@
       "rank": 4
     },
     {
+      "teamId": 16754648,
+      "team": "CWBZ",
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.65548,
+      "best": {
+        "balacc@10": {
+          "value": 0.65548
+        },
+        "balacc@1": {
+          "value": 0.12661904761904763
+        },
+        "ovmi": {
+          "value": 1.0326380364339
+        }
+      },
+      "lastSubmission": "2026-08-23T06:29:58.737Z",
+      "rank": 5
+    },
+    {
       "teamId": 16644796,
       "team": "MagnetoLex",
       "submissions": 34,
@@ -105,26 +125,6 @@
         }
       },
       "lastSubmission": "2026-08-15T14:20:50.957Z",
-      "rank": 5
-    },
-    {
-      "teamId": 16754648,
-      "team": "CWBZ",
-      "submissions": 3,
-      "scoredSubmissions": 3,
-      "kagglePublicBest": 0.6533,
-      "best": {
-        "balacc@10": {
-          "value": 0.6533
-        },
-        "balacc@1": {
-          "value": 0.12661904761904763
-        },
-        "ovmi": {
-          "value": 1.0326380364339
-        }
-      },
-      "lastSubmission": "2026-08-22T09:22:57.513Z",
       "rank": 6
     },
     {
