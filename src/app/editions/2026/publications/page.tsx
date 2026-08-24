@@ -32,6 +32,22 @@ const publications: Publication[] = [
 }`,
     label: 'Dataset Paper',
   },
+  {
+    title: 'Benchmarking Non-Invasive Speech BCIs: Lessons Learned from the 2025 PNPL Competition',
+    authors: 'Gereon Elvers, Gilad Landau, Francesco Mantegna, Miran \u00d6zdogan, Tasha Kim, Teyun Kwon, SungJun Cho, Benjamin Ballyk, Luisa Kurth, Dulhan Jayalath, Pratik Somaiya, Chetan Gohil, Brendan Shillingford, Greg Farquhar, Minqi Jiang, Caglar Gulcehre, Xabier de Zuazo, Hamza Abdelhedi, Yorguin Mantilla Ramos, Karim Jerbi, Mark Woolrich, Natalie Voets, Oiwi Parker Jones',
+    venue: 'Proceedings of Machine Learning Research (NeurIPS 2025 Competition Track), 2026',
+    abstract: 'We present a retrospective on the 2025 PNPL Competition, an open machine-learning benchmark for decoding speech from non-invasive brain recordings, which ran from June to September 2025 and culminated in a workshop at NeurIPS that December. The competition used the LibriBrain dataset \u2014 over 50 hours of within-subject MEG with standard data splits \u2014 and challenged participants to tackle two tasks: Speech Detection (binary frame-level classification) and Phoneme Classification (39-class ARPAbet prediction). Across 155 registered teams and 6,041 submissions, top F1-macro scores reached 95.6% for Speech Detection and 73.6% for Phoneme Classification, exceeding prior baselines of 68% and 44%, respectively, by wide margins. High-performing submissions converged on a common architectural template \u2014 temporal CNN or TCN backbones with task-specific recurrent or attention-based heads \u2014 whilst task-specific strategies such as temporal smoothing and ensemble voting proved critical for competitive performance. Hidden track evaluations suggest that main-track Speech Detection models generalised poorly to balanced class distributions. This could imply a reliance on class priors rather than robust neural decoding, highlighting a useful lesson: evaluation distributions should reflect intended deployment conditions. We further reflect on design choices, organisational lessons, and plans for future competitions in this series.',
+    pdf: '/publications/2025-pnpl-competition-reflections.pdf',
+    bibtex: `@inproceedings{elvers2026benchmarking,
+  title={Benchmarking Non-Invasive Speech BCIs: Lessons Learned from the 2025 PNPL Competition},
+  author={Elvers, Gereon and Landau, Gilad and Mantegna, Francesco and \\"Ozdogan, Miran and Kim, Tasha and Kwon, Teyun and Cho, SungJun and Ballyk, Benjamin and Kurth, Luisa and Jayalath, Dulhan and Somaiya, Pratik and Gohil, Chetan and Shillingford, Brendan and Farquhar, Greg and Jiang, Minqi and Gulcehre, Caglar and de Zuazo, Xabier and Abdelhedi, Hamza and Mantilla Ramos, Yorguin and Jerbi, Karim and Woolrich, Mark and Voets, Natalie and Parker Jones, Oiwi},
+  booktitle={Proceedings of the NeurIPS 2025 Competition Track},
+  series={Proceedings of Machine Learning Research},
+  publisher={PMLR},
+  year={2026}
+}`,
+    label: 'Competition Retrospective',
+  },
 ];
 
 function PublicationCard({ pub }: { pub: Publication }) {
@@ -139,7 +155,7 @@ export default function PublicationsPage2026() {
       <main style={{ color: '#0a0a0a', background: '#fff' }}>
         <EditionLayout year="2026" title="Publications" subtitle="Research papers">
           <div style={{ fontSize: '17px', lineHeight: 1.8, color: '#444', marginBottom: '2rem' }}>
-            <p>The 2026 PNPL Competition and the LibriBrain100 dataset are documented in the following publications. See also the <Link href="/editions/2025/publications/">2025 publications</Link> for the original LibriBrain dataset and 2025 competition papers.</p>
+            <p>The 2026 PNPL Competition and the LibriBrain100 dataset are documented in the following publications, together with our retrospective on the 2025 edition, whose lessons informed this year’s design. See also the <Link href="/editions/2025/publications/">2025 publications</Link> for the original LibriBrain dataset and 2025 competition papers.</p>
           </div>
           {publications.map((pub) => (
             <PublicationCard key={pub.title} pub={pub} />
