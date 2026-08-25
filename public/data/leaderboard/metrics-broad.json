@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-25T05:43:38.382Z",
+  "updatedAt": "2026-08-25T07:05:02.718Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -208,6 +208,26 @@
       "rank": 10
     },
     {
+      "teamId": 16768788,
+      "team": "MonsieurBadgerCheese",
+      "submissions": 6,
+      "scoredSubmissions": 6,
+      "kagglePublicBest": 0.21195,
+      "best": {
+        "balacc@10": {
+          "value": 0.21195
+        },
+        "balacc@1": {
+          "value": 0.02446625596625596
+        },
+        "ovmi": {
+          "value": 1.0127679338775477
+        }
+      },
+      "lastSubmission": "2026-08-25T06:22:13.430Z",
+      "rank": 11
+    },
+    {
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "submissions": 1,
@@ -225,7 +245,7 @@
         }
       },
       "lastSubmission": "2026-08-05T04:24:14.117Z",
-      "rank": 11
+      "rank": 12
     },
     {
       "teamId": 16726042,
@@ -245,26 +265,6 @@
         }
       },
       "lastSubmission": "2026-08-15T17:28:27.617Z",
-      "rank": 12
-    },
-    {
-      "teamId": 16768788,
-      "team": "MonsieurBadgerCheese",
-      "submissions": 5,
-      "scoredSubmissions": 5,
-      "kagglePublicBest": 0.1857,
-      "best": {
-        "balacc@10": {
-          "value": 0.1857
-        },
-        "balacc@1": {
-          "value": 0.019261220261220267
-        },
-        "ovmi": {
-          "value": 1.0127679338775477
-        }
-      },
-      "lastSubmission": "2026-08-25T05:32:25.327Z",
       "rank": 13
     },
     {
