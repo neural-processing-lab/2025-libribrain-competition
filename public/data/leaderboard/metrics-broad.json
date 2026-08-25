@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-25T10:55:40.208Z",
+  "updatedAt": "2026-08-25T11:49:40.161Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,21 +130,21 @@
     {
       "teamId": 16768788,
       "team": "MonsieurBadgerCheese",
-      "submissions": 9,
-      "scoredSubmissions": 9,
-      "kagglePublicBest": 0.47093,
+      "submissions": 10,
+      "scoredSubmissions": 10,
+      "kagglePublicBest": 0.59734,
       "best": {
         "balacc@10": {
-          "value": 0.47093
+          "value": 0.59734
         },
         "balacc@1": {
-          "value": 0.09357142857142858
+          "value": 0.21896629296629297
         },
         "ovmi": {
-          "value": 1.0127679338775477
+          "value": 1.0744653656141865
         }
       },
-      "lastSubmission": "2026-08-25T10:31:13.973Z",
+      "lastSubmission": "2026-08-25T11:29:02.460Z",
       "rank": 7
     },
     {
