@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-25T07:54:37.328Z",
+  "updatedAt": "2026-08-25T19:20:38.234Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -428,6 +428,26 @@
       "rank": 21
     },
     {
+      "teamId": 16771979,
+      "team": "Artem Blanar",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-08-25T19:08:12.860Z",
+      "rank": 22
+    },
+    {
       "teamId": 16605715,
       "team": "lavender_lover",
       "submissions": 3,
@@ -445,7 +465,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 22
+      "rank": 23
     },
     {
       "teamId": 16726510,
@@ -465,7 +485,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 23
+      "rank": 24
     },
     {
       "teamId": 16678093,
@@ -485,7 +505,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 24
+      "rank": 25
     }
   ]
 }
