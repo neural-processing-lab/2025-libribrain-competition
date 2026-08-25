@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-25T00:40:24.325Z",
+  "updatedAt": "2026-08-25T02:06:14.970Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -228,6 +228,26 @@
       "rank": 11
     },
     {
+      "teamId": 16607550,
+      "team": "Brain King",
+      "submissions": 38,
+      "scoredSubmissions": 38,
+      "kagglePublicBest": 0.63327,
+      "best": {
+        "balacc@10": {
+          "value": 0.63327
+        },
+        "balacc@1": {
+          "value": 0.15219047619047618
+        },
+        "ovmi": {
+          "value": 1.1299034794260636
+        }
+      },
+      "lastSubmission": "2026-08-25T00:40:15.747Z",
+      "rank": 12
+    },
+    {
       "teamId": 16736164,
       "team": "SENPAI",
       "submissions": 61,
@@ -245,7 +265,7 @@
         }
       },
       "lastSubmission": "2026-08-24T00:00:59.787Z",
-      "rank": 12
+      "rank": 13
     },
     {
       "teamId": 16666931,
@@ -265,26 +285,6 @@
         }
       },
       "lastSubmission": "2026-08-14T05:19:58.757Z",
-      "rank": 13
-    },
-    {
-      "teamId": 16607550,
-      "team": "Brain King",
-      "submissions": 37,
-      "scoredSubmissions": 37,
-      "kagglePublicBest": 0.61033,
-      "best": {
-        "balacc@10": {
-          "value": 0.61033
-        },
-        "balacc@1": {
-          "value": 0.15219047619047618
-        },
-        "ovmi": {
-          "value": 1.1299034794260636
-        }
-      },
-      "lastSubmission": "2026-08-25T00:40:03.083Z",
       "rank": 14
     },
     {

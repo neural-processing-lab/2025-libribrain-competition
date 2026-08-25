@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-25T00:40:25.921Z",
+  "updatedAt": "2026-08-25T02:06:16.471Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -68,6 +68,26 @@
       "rank": 3
     },
     {
+      "teamId": 16607557,
+      "team": "Brain King",
+      "submissions": 44,
+      "scoredSubmissions": 44,
+      "kagglePublicBest": 0.63327,
+      "best": {
+        "balacc@10": {
+          "value": 0.63327
+        },
+        "balacc@1": {
+          "value": 0.20400865800865803
+        },
+        "ovmi": {
+          "value": 1.1299034794260636
+        }
+      },
+      "lastSubmission": "2026-08-25T00:41:13.383Z",
+      "rank": 4
+    },
+    {
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "submissions": 9,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-08-16T04:30:49.080Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16593214,
@@ -105,26 +125,6 @@
         }
       },
       "lastSubmission": "2026-08-24T09:13:57.743Z",
-      "rank": 5
-    },
-    {
-      "teamId": 16607557,
-      "team": "Brain King",
-      "submissions": 41,
-      "scoredSubmissions": 41,
-      "kagglePublicBest": 0.61033,
-      "best": {
-        "balacc@10": {
-          "value": 0.61033
-        },
-        "balacc@1": {
-          "value": 0.20400865800865803
-        },
-        "ovmi": {
-          "value": 1.1299034794260636
-        }
-      },
-      "lastSubmission": "2026-08-24T20:37:53.510Z",
       "rank": 6
     },
     {
