@@ -13,6 +13,7 @@ const navItems2025 = [
   { label: 'Leaderboard', href: '/editions/2025/leaderboard/' },
   { label: 'Papers', href: '/editions/2025/workshop-papers/' },
   { label: 'Publications', href: '/editions/2025/publications/' },
+  { label: 'Certificates', href: '/editions/2025/certificates/' },
   { label: 'Organisers', href: '/editions/2025/organisers/' },
   { label: 'FAQ', href: '/editions/2025/faq/' },
 ];
