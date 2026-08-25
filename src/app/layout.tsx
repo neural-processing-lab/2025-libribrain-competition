@@ -41,7 +41,7 @@ export default function RootLayout({
         {/* Umami analytics — self-hosted on Railway, cookieless. data-domains restricts
             tracking to the production hostname, so local dev and forks send nothing. */}
         <Script
-          src="https://analytics-production-d4f3.up.railway.app/script.js"
+          src="https://stats.libribrain.com/script.js"
           data-website-id="4b91d29a-fb6c-4493-a336-3088b1c3708d"
           data-domains="neural-processing-lab.github.io,libribrain.com"
           strategy="afterInteractive"
