@@ -12,6 +12,7 @@ import {
   certificateTitle,
   claimCertificate,
   formatIssueDate,
+  linkedInAddToProfileUrl,
 } from '../../../../lib/certificates';
 
 const PURPLE = '#776885';
@@ -186,23 +187,50 @@ export default function CertificatesPage() {
                 <p style={{ fontSize: '13px', color: '#888', margin: '0 0 1.4rem 0' }}>
                   <code>{result.certificate.id}</code> · issued {formatIssueDate(result.certificate.issueDate)}
                 </p>
-                <a
-                  href={`${CERTIFICATES_API}${result.download}`}
-                  download={result.filename}
-                  style={{
-                    display: 'inline-block',
-                    fontSize: '14px',
-                    fontWeight: 600,
-                    color: '#fff',
-                    background: PURPLE,
-                    textDecoration: 'none',
-                    borderRadius: '6px',
-                    padding: '0.8rem 1.6rem',
-                  }}
-                >
-                  Download PDF
-                </a>
-                <p style={{ fontSize: '12px', color: '#999', margin: '1rem 0 0 0' }}>Link valid for one hour.</p>
+                <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
+                  <a
+                    href={`${CERTIFICATES_API}${result.download}`}
+                    download={result.filename}
+                    style={{
+                      display: 'inline-block',
+                      fontSize: '14px',
+                      fontWeight: 600,
+                      color: '#fff',
+                      background: PURPLE,
+                      textDecoration: 'none',
+                      borderRadius: '6px',
+                      padding: '0.8rem 1.6rem',
+                    }}
+                  >
+                    Download PDF
+                  </a>
+                  <a
+                    href={linkedInAddToProfileUrl(result.certificate)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                      fontSize: '14px',
+                      fontWeight: 600,
+                      color: '#fff',
+                      background: '#0A66C2',
+                      textDecoration: 'none',
+                      borderRadius: '6px',
+                      padding: '0.8rem 1.4rem',
+                    }}
+                  >
+                    <svg aria-hidden width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" />
+                    </svg>
+                    Add to LinkedIn profile
+                  </a>
+                </div>
+                <p style={{ fontSize: '12px', color: '#999', margin: '1rem 0 0 0' }}>
+                  Download link valid for one hour. LinkedIn opens a pre-filled &ldquo;add certification&rdquo; form for you
+                  to review and save.
+                </p>
               </div>
             ) : (
               <div style={{ fontSize: '14px', lineHeight: 1.7, color: '#666', padding: '0.5rem 0' }}>

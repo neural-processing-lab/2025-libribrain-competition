@@ -76,3 +76,32 @@ export function formatIssueDate(iso: string): string {
     timeZone: 'UTC',
   });
 }
+
+// ---------------------------------------------------------------- LinkedIn "Add to profile"
+// LinkedIn's URL-based flow for licences & certifications: opens the "Add
+// license or certification" dialog pre-filled; the user reviews and saves.
+// https://www.linkedin.com/help/linkedin/answer/a520739
+
+/** Canonical verification URL, independent of which hostname serves the site. */
+export const CANONICAL_VERIFY_URL = 'https://libribrain.com/editions/2025/certificates/verify/';
+
+/** Shown as the issuing organisation. If the lab/competition has a LinkedIn
+ *  company page, set LINKEDIN_ORGANIZATION_ID to its numeric ID instead — the
+ *  entry then carries the page's logo. */
+export const LINKEDIN_ORGANIZATION_NAME = 'PNPL Competition · University of Oxford';
+export const LINKEDIN_ORGANIZATION_ID: string | null = null;
+
+export function linkedInAddToProfileUrl(cert: PublicCertificate): string {
+  const [year, month] = cert.issueDate.split('-');
+  const params = new URLSearchParams({
+    startTask: 'CERTIFICATION_NAME',
+    name: `${certificateTitle(cert.kind)} — PNPL Competition ${cert.edition}`,
+    issueYear: year,
+    issueMonth: String(Number(month)),
+    certUrl: `${CANONICAL_VERIFY_URL}?id=${cert.id}`,
+    certId: cert.id,
+  });
+  if (LINKEDIN_ORGANIZATION_ID) params.set('organizationId', LINKEDIN_ORGANIZATION_ID);
+  else params.set('organizationName', LINKEDIN_ORGANIZATION_NAME);
+  return `https://www.linkedin.com/profile/add?${params.toString()}`;
+}
