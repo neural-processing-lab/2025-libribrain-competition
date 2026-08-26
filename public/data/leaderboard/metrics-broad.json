@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-26T04:51:59.826Z",
+  "updatedAt": "2026-08-26T05:20:38.041Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -150,12 +150,12 @@
     {
       "teamId": 16771054,
       "team": "CCN-Bilkent",
-      "submissions": 13,
-      "scoredSubmissions": 13,
-      "kagglePublicBest": 0.49094,
+      "submissions": 15,
+      "scoredSubmissions": 15,
+      "kagglePublicBest": 0.50813,
       "best": {
         "balacc@10": {
-          "value": 0.49094
+          "value": 0.50813
         },
         "balacc@1": {
           "value": 0.10007142857142856
@@ -164,7 +164,7 @@
           "value": 0.9372710197314514
         }
       },
-      "lastSubmission": "2026-08-26T04:51:24.437Z",
+      "lastSubmission": "2026-08-26T04:57:22.447Z",
       "rank": 8
     },
     {
