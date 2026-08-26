@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-26T04:51:46.818Z",
+  "updatedAt": "2026-08-26T07:14:35.209Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,8 +30,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 96,
-      "scoredSubmissions": 96,
+      "submissions": 97,
+      "scoredSubmissions": 97,
       "kagglePublicBest": 0.71117,
       "best": {
         "balacc@10": {
@@ -44,7 +44,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-08-26T04:21:00.407Z",
+      "lastSubmission": "2026-08-26T06:30:55.110Z",
       "rank": 2
     },
     {
