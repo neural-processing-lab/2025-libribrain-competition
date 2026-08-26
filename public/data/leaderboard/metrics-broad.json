@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-25T14:59:05.610Z",
+  "updatedAt": "2026-08-26T04:51:59.826Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -149,22 +149,22 @@
     },
     {
       "teamId": 16771054,
-      "team": "Umur Yıldız",
-      "submissions": 10,
-      "scoredSubmissions": 10,
-      "kagglePublicBest": 0.4625,
+      "team": "CCN-Bilkent",
+      "submissions": 13,
+      "scoredSubmissions": 13,
+      "kagglePublicBest": 0.49094,
       "best": {
         "balacc@10": {
-          "value": 0.4625
+          "value": 0.49094
         },
         "balacc@1": {
           "value": 0.10007142857142856
         },
         "ovmi": {
-          "value": 0.9015384321898452
+          "value": 0.9372710197314514
         }
       },
-      "lastSubmission": "2026-08-25T14:57:01.803Z",
+      "lastSubmission": "2026-08-26T04:51:24.437Z",
       "rank": 8
     },
     {
