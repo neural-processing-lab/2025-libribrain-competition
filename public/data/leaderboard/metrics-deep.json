@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-26T14:10:36.538Z",
+  "updatedAt": "2026-08-26T16:16:31.945Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -368,6 +368,26 @@
       "rank": 18
     },
     {
+      "teamId": 16774953,
+      "team": "Sia",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.3295,
+      "best": {
+        "balacc@10": {
+          "value": 0.3295
+        },
+        "balacc@1": {
+          "value": 0.10144444444444443
+        },
+        "ovmi": {
+          "value": 0.6377977599289658
+        }
+      },
+      "lastSubmission": "2026-08-26T16:09:57.323Z",
+      "rank": 19
+    },
+    {
       "teamId": 16550910,
       "team": "monte-carlo",
       "submissions": 5,
@@ -385,7 +405,7 @@
         }
       },
       "lastSubmission": "2026-07-25T14:13:10.917Z",
-      "rank": 19
+      "rank": 20
     },
     {
       "teamId": 16771979,
@@ -405,7 +425,7 @@
         }
       },
       "lastSubmission": "2026-08-26T12:25:37.640Z",
-      "rank": 20
+      "rank": 21
     },
     {
       "teamId": 16708216,
@@ -425,7 +445,7 @@
         }
       },
       "lastSubmission": "2026-08-22T14:23:13.333Z",
-      "rank": 21
+      "rank": 22
     },
     {
       "teamId": 16726041,
@@ -445,7 +465,7 @@
         }
       },
       "lastSubmission": "2026-08-17T10:39:46.003Z",
-      "rank": 22
+      "rank": 23
     },
     {
       "teamId": 16605715,
@@ -465,7 +485,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 23
+      "rank": 24
     },
     {
       "teamId": 16726510,
@@ -485,7 +505,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 24
+      "rank": 25
     },
     {
       "teamId": 16678093,
@@ -505,7 +525,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 25
+      "rank": 26
     }
   ]
 }
