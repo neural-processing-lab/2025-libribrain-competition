@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-27T14:36:50.075Z",
+  "updatedAt": "2026-08-27T23:57:39.595Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16607557,
       "team": "Brain King",
-      "submissions": 44,
-      "scoredSubmissions": 44,
+      "submissions": 49,
+      "scoredSubmissions": 49,
       "kagglePublicBest": 0.63327,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.1299034794260636
         }
       },
-      "lastSubmission": "2026-08-25T00:41:13.383Z",
+      "lastSubmission": "2026-08-27T20:03:05.007Z",
       "rank": 4
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16771054,
       "team": "CCN-Bilkent",
-      "submissions": 20,
-      "scoredSubmissions": 20,
+      "submissions": 24,
+      "scoredSubmissions": 24,
       "kagglePublicBest": 0.52813,
       "best": {
         "balacc@10": {
@@ -164,27 +164,27 @@
           "value": 0.9372710197314514
         }
       },
-      "lastSubmission": "2026-08-26T19:49:13.863Z",
+      "lastSubmission": "2026-08-27T19:01:27.173Z",
       "rank": 8
     },
     {
       "teamId": 16779203,
       "team": "ottietjesesakfs",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.37069,
+      "submissions": 10,
+      "scoredSubmissions": 10,
+      "kagglePublicBest": 0.43423,
       "best": {
         "balacc@10": {
-          "value": 0.37069
+          "value": 0.43423
         },
         "balacc@1": {
-          "value": 0.06124603174603174
+          "value": 0.10154273504273503
         },
         "ovmi": {
-          "value": 0.41692409300131544
+          "value": 0.622329578936981
         }
       },
-      "lastSubmission": "2026-08-27T14:17:46.513Z",
+      "lastSubmission": "2026-08-27T15:23:05.987Z",
       "rank": 9
     },
     {
@@ -288,6 +288,26 @@
       "rank": 14
     },
     {
+      "teamId": 16781247,
+      "team": "Connor Finnerty",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-08-27T20:52:26.607Z",
+      "rank": 15
+    },
+    {
       "teamId": 16726042,
       "team": "Bhargav Kowshik",
       "submissions": 2,
@@ -305,7 +325,7 @@
         }
       },
       "lastSubmission": "2026-08-15T17:28:27.617Z",
-      "rank": 15
+      "rank": 16
     },
     {
       "teamId": 16644775,
@@ -322,7 +342,7 @@
         }
       },
       "lastSubmission": "2026-08-05T15:38:34.470Z",
-      "rank": 16
+      "rank": 17
     }
   ]
 }
