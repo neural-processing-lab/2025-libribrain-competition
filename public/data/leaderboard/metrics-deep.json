@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-26T22:39:32.483Z",
+  "updatedAt": "2026-08-27T03:31:43.208Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,28 +10,28 @@
     {
       "teamId": 16739385,
       "team": "Varshith Madishetty",
-      "submissions": 11,
-      "scoredSubmissions": 11,
+      "submissions": 15,
+      "scoredSubmissions": 15,
       "kagglePublicBest": 0.71233,
       "best": {
         "balacc@10": {
           "value": 0.71233
         },
         "balacc@1": {
-          "value": 0.26505555555555554
+          "value": 0.27238888888888885
         },
         "ovmi": {
           "value": 1.1054941253133286
         }
       },
-      "lastSubmission": "2026-08-25T00:07:31.287Z",
+      "lastSubmission": "2026-08-27T03:18:51.693Z",
       "rank": 1
     },
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 74,
-      "scoredSubmissions": 74,
+      "submissions": 84,
+      "scoredSubmissions": 84,
       "kagglePublicBest": 0.7123,
       "best": {
         "balacc@10": {
@@ -44,7 +44,7 @@
           "value": 1.1690215128164863
         }
       },
-      "lastSubmission": "2026-08-26T17:06:32.470Z",
+      "lastSubmission": "2026-08-27T00:24:44.853Z",
       "rank": 2
     },
     {
@@ -308,6 +308,26 @@
       "rank": 15
     },
     {
+      "teamId": 16771979,
+      "team": "Artem Blanar",
+      "submissions": 13,
+      "scoredSubmissions": 13,
+      "kagglePublicBest": 0.47892,
+      "best": {
+        "balacc@10": {
+          "value": 0.47892
+        },
+        "balacc@1": {
+          "value": 0.12155555555555557
+        },
+        "ovmi": {
+          "value": 0.8634295438869164
+        }
+      },
+      "lastSubmission": "2026-08-27T00:31:53.003Z",
+      "rank": 16
+    },
+    {
       "teamId": 16571738,
       "team": "PNPL-OX",
       "submissions": 1,
@@ -325,7 +345,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 16
+      "rank": 17
     },
     {
       "teamId": 16774953,
@@ -345,7 +365,7 @@
         }
       },
       "lastSubmission": "2026-08-26T17:17:35.670Z",
-      "rank": 17
+      "rank": 18
     },
     {
       "teamId": 16516410,
@@ -365,7 +385,7 @@
         }
       },
       "lastSubmission": "2026-08-15T00:09:31.063Z",
-      "rank": 18
+      "rank": 19
     },
     {
       "teamId": 16510893,
@@ -385,26 +405,6 @@
         }
       },
       "lastSubmission": "2026-08-26T13:52:33.957Z",
-      "rank": 19
-    },
-    {
-      "teamId": 16771979,
-      "team": "Artem Blanar",
-      "submissions": 12,
-      "scoredSubmissions": 12,
-      "kagglePublicBest": 0.31686,
-      "best": {
-        "balacc@10": {
-          "value": 0.31686
-        },
-        "balacc@1": {
-          "value": 0.042222222222222223
-        },
-        "ovmi": {
-          "value": 0.8634295438869164
-        }
-      },
-      "lastSubmission": "2026-08-26T21:23:38.983Z",
       "rank": 20
     },
     {
