@@ -242,7 +242,7 @@ export default function CertificatesPage() {
                   <li>
                     Only teams with at least one successfully evaluated submission are eligible — if you think
                     something is wrong, ask on our{' '}
-                    <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: PURPLE }}>
+                    <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: PURPLE }}>
                       Discord
                     </a>
                     .

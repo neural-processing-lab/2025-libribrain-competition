@@ -62,7 +62,7 @@ Organised by the Parker Jones Neural Processing Lab at the University of Oxford,
     { label: 'Get started: tutorials & Colab notebooks', url: 'https://libribrain.com/editions/2026/participate/' },
     { label: 'Kaggle: Deep track', url: 'https://www.kaggle.com/competitions/pnpl-competition-2026-deep/' },
     { label: 'Kaggle: Broad track', url: 'https://www.kaggle.com/competitions/pnpl-competition-2026-broad/' },
-    { label: 'Community Discord', url: 'http://libribrain.com/links/discord' },
+    { label: 'Community Discord', url: 'https://libribrain.com/links/discord' },
     { label: 'pnpl Python package (GitHub)', url: 'https://github.com/neural-processing-lab/pnpl' },
   ],
 };

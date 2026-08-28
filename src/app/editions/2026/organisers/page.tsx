@@ -105,7 +105,7 @@ export default function OrganisersPage2026() {
             </p>
             <p style={{ margin: '0 0 2rem 0' }}>
               If you have any questions, please join our{' '}
-              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: '#776885' }}>Discord server</a>{' '}
+              <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: '#776885' }}>Discord server</a>{' '}
               or email us at{' '}
               <a href="mailto:libribrain@robots.ox.ac.uk" style={{ color: '#776885' }}>libribrain@robots.ox.ac.uk</a>.
             </p>

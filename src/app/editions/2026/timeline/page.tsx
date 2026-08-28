@@ -69,7 +69,7 @@ export default function TimelinePage2026() {
             }}>
               Post-deadline verification and workshop dates will be confirmed as they are finalised. Deadline
               reminders and any changes are announced on our{' '}
-              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: '#7c3aed', textDecoration: 'none', fontWeight: 600 }}>Discord</a>.
+              <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: '#7c3aed', textDecoration: 'none', fontWeight: 600 }}>Discord</a>.
             </div>
           </div>
         </EditionLayout>

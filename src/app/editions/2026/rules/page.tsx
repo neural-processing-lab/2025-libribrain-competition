@@ -122,7 +122,7 @@ export default function RulesPage2026() {
             <p>
               We have set up a <strong>Discord server</strong>, which already has an active community of
               researchers working on neural speech decoding. Join here:{' '}
-              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord invite link</a>.
+              <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord invite link</a>.
             </p>
 
           </div>

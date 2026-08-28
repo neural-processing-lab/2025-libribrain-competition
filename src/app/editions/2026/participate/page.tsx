@@ -71,7 +71,7 @@ export default function ParticipatePage2026() {
             <p style={{ fontSize: '15px', color: '#777' }}>
               Additional tutorials &mdash; including deeper Track 1/Track 2 walkthroughs and a submission
               guide &mdash; will be released over the coming weeks. Follow along on{' '}
-              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord</a>{' '}
+              <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord</a>{' '}
               for announcements.
             </p>
 
@@ -109,7 +109,7 @@ export default function ParticipatePage2026() {
 
             <p>
               If you have any questions or need help, please join our{' '}
-              <a href="http://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord server</a>{' '}
+              <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord server</a>{' '}
               or send your questions to:{' '}
               <a href="mailto:libribrain@robots.ox.ac.uk">libribrain@robots.ox.ac.uk</a>
             </p>
