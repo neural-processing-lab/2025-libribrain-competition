@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-29T09:25:37.248Z",
+  "updatedAt": "2026-08-29T14:34:43.867Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -8,24 +8,44 @@
   ],
   "teams": [
     {
-      "teamId": 16692669,
-      "team": "Varshith Madishetty",
-      "submissions": 100,
-      "scoredSubmissions": 100,
-      "kagglePublicBest": 0.69458,
+      "teamId": 16771054,
+      "team": "CCN-Bilkent",
+      "submissions": 28,
+      "scoredSubmissions": 28,
+      "kagglePublicBest": 0.7148,
       "best": {
         "balacc@10": {
-          "value": 0.69458
+          "value": 0.7148
+        },
+        "balacc@1": {
+          "value": 0.16202380952380951
+        },
+        "ovmi": {
+          "value": 1.05266307664441
+        }
+      },
+      "lastSubmission": "2026-08-29T14:15:45.813Z",
+      "rank": 1
+    },
+    {
+      "teamId": 16692669,
+      "team": "Varshith Madishetty",
+      "submissions": 102,
+      "scoredSubmissions": 102,
+      "kagglePublicBest": 0.6963,
+      "best": {
+        "balacc@10": {
+          "value": 0.6963
         },
         "balacc@1": {
           "value": 0.23529172679172677
         },
         "ovmi": {
-          "value": 0.9712045229203761
+          "value": 0.9739118328623808
         }
       },
-      "lastSubmission": "2026-08-29T08:09:38.257Z",
-      "rank": 1
+      "lastSubmission": "2026-08-29T13:11:56.783Z",
+      "rank": 2
     },
     {
       "teamId": 16779203,
@@ -45,7 +65,7 @@
         }
       },
       "lastSubmission": "2026-08-29T00:02:31.957Z",
-      "rank": 2
+      "rank": 3
     },
     {
       "teamId": 16661195,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-08-19T04:51:40.873Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16680182,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-08-22T12:49:04.370Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16607557,
@@ -105,7 +125,7 @@
         }
       },
       "lastSubmission": "2026-08-28T22:48:19.427Z",
-      "rank": 5
+      "rank": 6
     },
     {
       "teamId": 16697275,
@@ -125,7 +145,7 @@
         }
       },
       "lastSubmission": "2026-08-16T04:30:49.080Z",
-      "rank": 6
+      "rank": 7
     },
     {
       "teamId": 16593214,
@@ -145,7 +165,7 @@
         }
       },
       "lastSubmission": "2026-08-24T09:13:57.743Z",
-      "rank": 7
+      "rank": 8
     },
     {
       "teamId": 16768788,
@@ -165,26 +185,6 @@
         }
       },
       "lastSubmission": "2026-08-25T11:29:02.460Z",
-      "rank": 8
-    },
-    {
-      "teamId": 16771054,
-      "team": "CCN-Bilkent",
-      "submissions": 27,
-      "scoredSubmissions": 27,
-      "kagglePublicBest": 0.52813,
-      "best": {
-        "balacc@10": {
-          "value": 0.52813
-        },
-        "balacc@1": {
-          "value": 0.10007142857142856
-        },
-        "ovmi": {
-          "value": 0.9372710197314514
-        }
-      },
-      "lastSubmission": "2026-08-28T06:27:52.033Z",
       "rank": 9
     },
     {

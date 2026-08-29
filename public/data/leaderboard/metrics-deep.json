@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-29T09:25:35.685Z",
+  "updatedAt": "2026-08-29T14:34:41.862Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 69,
-      "scoredSubmissions": 69,
+      "submissions": 70,
+      "scoredSubmissions": 70,
       "kagglePublicBest": 0.67517,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.0236942149751491
         }
       },
-      "lastSubmission": "2026-08-29T09:11:20.527Z",
+      "lastSubmission": "2026-08-29T14:10:01.180Z",
       "rank": 4
     },
     {
@@ -310,8 +310,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 41,
-      "scoredSubmissions": 41,
+      "submissions": 42,
+      "scoredSubmissions": 42,
       "kagglePublicBest": 0.62036,
       "best": {
         "balacc@10": {
@@ -324,7 +324,7 @@
           "value": 1.0566548650368737
         }
       },
-      "lastSubmission": "2026-08-29T08:04:38.123Z",
+      "lastSubmission": "2026-08-29T14:31:12.010Z",
       "rank": 16
     },
     {
@@ -350,8 +350,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 17,
-      "scoredSubmissions": 17,
+      "submissions": 19,
+      "scoredSubmissions": 19,
       "kagglePublicBest": 0.53779,
       "best": {
         "balacc@10": {
@@ -364,7 +364,7 @@
           "value": 1.0055698765402903
         }
       },
-      "lastSubmission": "2026-08-28T20:21:44.023Z",
+      "lastSubmission": "2026-08-29T09:30:58.627Z",
       "rank": 18
     },
     {
@@ -528,6 +528,26 @@
       "rank": 26
     },
     {
+      "teamId": 16790306,
+      "team": "Fon1as",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.25381,
+      "best": {
+        "balacc@10": {
+          "value": 0.25381
+        },
+        "balacc@1": {
+          "value": 0.02488888888888889
+        },
+        "ovmi": {
+          "value": 0.2580729816999841
+        }
+      },
+      "lastSubmission": "2026-08-29T13:02:45.457Z",
+      "rank": 27
+    },
+    {
       "teamId": 16785989,
       "team": "Jatin Arutla",
       "submissions": 1,
@@ -545,7 +565,7 @@
         }
       },
       "lastSubmission": "2026-08-29T00:51:21.627Z",
-      "rank": 27
+      "rank": 28
     },
     {
       "teamId": 16726041,
@@ -565,7 +585,7 @@
         }
       },
       "lastSubmission": "2026-08-17T10:39:46.003Z",
-      "rank": 28
+      "rank": 29
     },
     {
       "teamId": 16605715,
@@ -585,7 +605,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 29
+      "rank": 30
     },
     {
       "teamId": 16726510,
@@ -605,7 +625,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 30
+      "rank": 31
     },
     {
       "teamId": 16678093,
@@ -625,7 +645,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 31
+      "rank": 32
     }
   ]
 }
