@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-08-29T02:51:21.324Z",
+  "updatedAt": "2026-08-29T09:25:37.248Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,21 +10,21 @@
     {
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "submissions": 92,
-      "scoredSubmissions": 92,
-      "kagglePublicBest": 0.6923,
+      "submissions": 100,
+      "scoredSubmissions": 100,
+      "kagglePublicBest": 0.69458,
       "best": {
         "balacc@10": {
-          "value": 0.6923
+          "value": 0.69458
         },
         "balacc@1": {
           "value": 0.23529172679172677
         },
         "ovmi": {
-          "value": 0.9538895134529406
+          "value": 0.9712045229203761
         }
       },
-      "lastSubmission": "2026-08-28T19:13:05.880Z",
+      "lastSubmission": "2026-08-29T08:09:38.257Z",
       "rank": 1
     },
     {
@@ -228,6 +228,26 @@
       "rank": 11
     },
     {
+      "teamId": 16781247,
+      "team": "Connor Finnerty",
+      "submissions": 6,
+      "scoredSubmissions": 6,
+      "kagglePublicBest": 0.29484,
+      "best": {
+        "balacc@10": {
+          "value": 0.29484
+        },
+        "balacc@1": {
+          "value": 0.04176732526732525
+        },
+        "ovmi": {
+          "value": 0.1852147582800382
+        }
+      },
+      "lastSubmission": "2026-08-29T04:39:35.413Z",
+      "rank": 12
+    },
+    {
       "teamId": 16571739,
       "team": "PNPL-OX",
       "submissions": 1,
@@ -245,26 +265,6 @@
         }
       },
       "lastSubmission": "2026-07-19T18:24:47.203Z",
-      "rank": 12
-    },
-    {
-      "teamId": 16781247,
-      "team": "Connor Finnerty",
-      "submissions": 5,
-      "scoredSubmissions": 5,
-      "kagglePublicBest": 0.23913,
-      "best": {
-        "balacc@10": {
-          "value": 0.23913
-        },
-        "balacc@1": {
-          "value": 0.028342490842490842
-        },
-        "ovmi": {
-          "value": 0.06927031929308382
-        }
-      },
-      "lastSubmission": "2026-08-29T00:36:52.180Z",
       "rank": 13
     },
     {
