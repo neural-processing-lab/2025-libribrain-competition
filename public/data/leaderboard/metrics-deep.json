@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-29T17:52:37.035Z",
+  "updatedAt": "2026-08-29T20:02:40.296Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,21 +10,21 @@
     {
       "teamId": 16739385,
       "team": "Varshith Madishetty",
-      "submissions": 32,
-      "scoredSubmissions": 32,
+      "submissions": 33,
+      "scoredSubmissions": 33,
       "kagglePublicBest": 0.719,
       "best": {
         "balacc@10": {
           "value": 0.719
         },
         "balacc@1": {
-          "value": 0.2758737373737374
+          "value": 0.28231818181818186
         },
         "ovmi": {
           "value": 1.1054941253133286
         }
       },
-      "lastSubmission": "2026-08-29T07:53:08.520Z",
+      "lastSubmission": "2026-08-29T19:01:45.937Z",
       "rank": 1
     },
     {
@@ -268,6 +268,26 @@
       "rank": 13
     },
     {
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "submissions": 43,
+      "scoredSubmissions": 43,
+      "kagglePublicBest": 0.64072,
+      "best": {
+        "balacc@10": {
+          "value": 0.64072
+        },
+        "balacc@1": {
+          "value": 0.1667936507936508
+        },
+        "ovmi": {
+          "value": 1.0566548650368737
+        }
+      },
+      "lastSubmission": "2026-08-29T17:55:39.307Z",
+      "rank": 14
+    },
+    {
       "teamId": 16607550,
       "team": "Brain King",
       "submissions": 45,
@@ -285,7 +305,7 @@
         }
       },
       "lastSubmission": "2026-08-28T22:47:06.483Z",
-      "rank": 14
+      "rank": 15
     },
     {
       "teamId": 16736164,
@@ -305,26 +325,6 @@
         }
       },
       "lastSubmission": "2026-08-24T00:00:59.787Z",
-      "rank": 15
-    },
-    {
-      "teamId": 16685441,
-      "team": "titus fisher",
-      "submissions": 42,
-      "scoredSubmissions": 42,
-      "kagglePublicBest": 0.62036,
-      "best": {
-        "balacc@10": {
-          "value": 0.62036
-        },
-        "balacc@1": {
-          "value": 0.1667936507936508
-        },
-        "ovmi": {
-          "value": 1.0566548650368737
-        }
-      },
-      "lastSubmission": "2026-08-29T14:31:12.010Z",
       "rank": 16
     },
     {
