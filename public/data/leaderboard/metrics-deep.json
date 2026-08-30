@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-30T05:46:49.185Z",
+  "updatedAt": "2026-08-30T10:46:02.807Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -408,10 +408,30 @@
       "rank": 20
     },
     {
+      "teamId": 16781245,
+      "team": "Connor Finnerty",
+      "submissions": 17,
+      "scoredSubmissions": 17,
+      "kagglePublicBest": 0.40679,
+      "best": {
+        "balacc@10": {
+          "value": 0.40679
+        },
+        "balacc@1": {
+          "value": 0.08416666666666668
+        },
+        "ovmi": {
+          "value": 0.802792806021845
+        }
+      },
+      "lastSubmission": "2026-08-30T06:03:51.920Z",
+      "rank": 21
+    },
+    {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 3,
+      "scoredSubmissions": 3,
       "kagglePublicBest": 0.39259,
       "best": {
         "balacc@10": {
@@ -424,27 +444,7 @@
           "value": 0.969677356611362
         }
       },
-      "lastSubmission": "2026-08-30T05:46:15.853Z",
-      "rank": 21
-    },
-    {
-      "teamId": 16781245,
-      "team": "Connor Finnerty",
-      "submissions": 16,
-      "scoredSubmissions": 16,
-      "kagglePublicBest": 0.36996,
-      "best": {
-        "balacc@10": {
-          "value": 0.36996
-        },
-        "balacc@1": {
-          "value": 0.07622222222222222
-        },
-        "ovmi": {
-          "value": 0.7879271946285737
-        }
-      },
-      "lastSubmission": "2026-08-29T08:48:59.520Z",
+      "lastSubmission": "2026-08-30T05:46:49.333Z",
       "rank": 22
     },
     {
