@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-29T22:37:43.882Z",
+  "updatedAt": "2026-08-30T00:40:15.717Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -228,6 +228,26 @@
       "rank": 11
     },
     {
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "submissions": 45,
+      "scoredSubmissions": 45,
+      "kagglePublicBest": 0.64563,
+      "best": {
+        "balacc@10": {
+          "value": 0.64563
+        },
+        "balacc@1": {
+          "value": 0.1667936507936508
+        },
+        "ovmi": {
+          "value": 1.0701751251813727
+        }
+      },
+      "lastSubmission": "2026-08-30T00:31:55.893Z",
+      "rank": 12
+    },
+    {
       "teamId": 16701490,
       "team": "neural2speech",
       "submissions": 10,
@@ -245,7 +265,7 @@
         }
       },
       "lastSubmission": "2026-08-13T11:19:32.830Z",
-      "rank": 12
+      "rank": 13
     },
     {
       "teamId": 16703651,
@@ -265,33 +285,13 @@
         }
       },
       "lastSubmission": "2026-08-23T17:59:37.580Z",
-      "rank": 13
-    },
-    {
-      "teamId": 16685441,
-      "team": "titus fisher",
-      "submissions": 43,
-      "scoredSubmissions": 43,
-      "kagglePublicBest": 0.64072,
-      "best": {
-        "balacc@10": {
-          "value": 0.64072
-        },
-        "balacc@1": {
-          "value": 0.1667936507936508
-        },
-        "ovmi": {
-          "value": 1.0566548650368737
-        }
-      },
-      "lastSubmission": "2026-08-29T17:55:39.307Z",
       "rank": 14
     },
     {
       "teamId": 16607550,
       "team": "Brain King",
-      "submissions": 50,
-      "scoredSubmissions": 50,
+      "submissions": 51,
+      "scoredSubmissions": 51,
       "kagglePublicBest": 0.63625,
       "best": {
         "balacc@10": {
@@ -304,7 +304,7 @@
           "value": 1.1299034794260636
         }
       },
-      "lastSubmission": "2026-08-29T22:09:13.523Z",
+      "lastSubmission": "2026-08-29T22:39:15.217Z",
       "rank": 15
     },
     {
