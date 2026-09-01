@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-01T20:58:38.207Z",
+  "updatedAt": "2026-09-01T22:58:58.197Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -250,8 +250,8 @@
     {
       "teamId": 16781466,
       "team": "Munich Logic Lab",
-      "submissions": 19,
-      "scoredSubmissions": 19,
+      "submissions": 21,
+      "scoredSubmissions": 21,
       "kagglePublicBest": 0.646,
       "best": {
         "balacc@10": {
@@ -264,7 +264,7 @@
           "value": 1.0744805355526352
         }
       },
-      "lastSubmission": "2026-09-01T01:12:46.183Z",
+      "lastSubmission": "2026-09-01T22:43:41.777Z",
       "rank": 13
     },
     {

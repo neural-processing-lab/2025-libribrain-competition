@@ -120,8 +120,8 @@
       "teamId": 16781466,
       "team": "Munich Logic Lab",
       "score": 0.646,
-      "submissions": 19,
-      "lastSubmission": "2026-09-01T01:12:46.183Z",
+      "submissions": 21,
+      "lastSubmission": "2026-09-01T22:43:41.777Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1068,
+    "submissions": 1070,
     "best": 0.719,
     "median": 0.62091,
     "p25": 0.29691,
     "p75": 0.65289
   },
-  "fetchedAt": "2026-09-01T20:59:05.151Z"
+  "fetchedAt": "2026-09-01T22:59:25.229Z"
 }
