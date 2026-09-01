@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-01T00:35:00.450Z",
+  "updatedAt": "2026-09-01T05:37:27.271Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -68,10 +68,30 @@
       "rank": 3
     },
     {
+      "teamId": 16779211,
+      "team": "ottietjesesakfs",
+      "submissions": 60,
+      "scoredSubmissions": 60,
+      "kagglePublicBest": 0.71036,
+      "best": {
+        "balacc@10": {
+          "value": 0.71036
+        },
+        "balacc@1": {
+          "value": 0.24977056277056278
+        },
+        "ovmi": {
+          "value": 1.1408487520370514
+        }
+      },
+      "lastSubmission": "2026-09-01T00:49:39.880Z",
+      "rank": 4
+    },
+    {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 67,
-      "scoredSubmissions": 67,
+      "submissions": 69,
+      "scoredSubmissions": 69,
       "kagglePublicBest": 0.69642,
       "best": {
         "balacc@10": {
@@ -84,27 +104,7 @@
           "value": 1.0881360305073957
         }
       },
-      "lastSubmission": "2026-09-01T00:07:26.150Z",
-      "rank": 4
-    },
-    {
-      "teamId": 16779211,
-      "team": "ottietjesesakfs",
-      "submissions": 50,
-      "scoredSubmissions": 50,
-      "kagglePublicBest": 0.67684,
-      "best": {
-        "balacc@10": {
-          "value": 0.67684
-        },
-        "balacc@1": {
-          "value": 0.24977056277056278
-        },
-        "ovmi": {
-          "value": 1.1408487520370514
-        }
-      },
-      "lastSubmission": "2026-08-31T00:15:14.937Z",
+      "lastSubmission": "2026-09-01T02:31:17.147Z",
       "rank": 5
     },
     {
@@ -150,12 +150,12 @@
     {
       "teamId": 16754648,
       "team": "CWBZ",
-      "submissions": 14,
-      "scoredSubmissions": 14,
-      "kagglePublicBest": 0.65782,
+      "submissions": 18,
+      "scoredSubmissions": 18,
+      "kagglePublicBest": 0.6601,
       "best": {
         "balacc@10": {
-          "value": 0.65782
+          "value": 0.6601
         },
         "balacc@1": {
           "value": 0.19624675324675322
@@ -164,7 +164,7 @@
           "value": 1.0326380364339
         }
       },
-      "lastSubmission": "2026-08-31T11:50:00.263Z",
+      "lastSubmission": "2026-09-01T04:49:16.387Z",
       "rank": 8
     },
     {
@@ -250,8 +250,8 @@
     {
       "teamId": 16781466,
       "team": "Munich Logic Lab",
-      "submissions": 18,
-      "scoredSubmissions": 18,
+      "submissions": 19,
+      "scoredSubmissions": 19,
       "kagglePublicBest": 0.646,
       "best": {
         "balacc@10": {
@@ -264,7 +264,7 @@
           "value": 1.0744805355526352
         }
       },
-      "lastSubmission": "2026-08-31T08:03:31.933Z",
+      "lastSubmission": "2026-09-01T01:12:46.183Z",
       "rank": 13
     },
     {
@@ -488,6 +488,26 @@
       "rank": 24
     },
     {
+      "teamId": 16789752,
+      "team": "syouya tobita",
+      "submissions": 2,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.36868,
+      "best": {
+        "balacc@10": {
+          "value": 0.36868
+        },
+        "balacc@1": {
+          "value": 0.037333333333333336
+        },
+        "ovmi": {
+          "value": 0.82083570019755
+        }
+      },
+      "lastSubmission": "2026-09-01T03:44:42.043Z",
+      "rank": 25
+    },
+    {
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "submissions": 5,
@@ -505,7 +525,7 @@
         }
       },
       "lastSubmission": "2026-08-15T00:09:31.063Z",
-      "rank": 25
+      "rank": 26
     },
     {
       "teamId": 16510893,
@@ -525,26 +545,6 @@
         }
       },
       "lastSubmission": "2026-08-31T17:41:59.540Z",
-      "rank": 26
-    },
-    {
-      "teamId": 16789752,
-      "team": "syouya tobita",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.32546,
-      "best": {
-        "balacc@10": {
-          "value": 0.32546
-        },
-        "balacc@1": {
-          "value": 0.037333333333333336
-        },
-        "ovmi": {
-          "value": 0.82083570019755
-        }
-      },
-      "lastSubmission": "2026-08-31T12:17:34.470Z",
       "rank": 27
     },
     {
