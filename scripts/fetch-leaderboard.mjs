@@ -98,6 +98,49 @@ async function fetchLeaderboardCsv(competition) {
   return unzipSingleFile(buf).text;
 }
 
+/**
+ * Fallback when the Kaggle leaderboard API is not reachable (no token): shape
+ * the harvester's per-team feed into the same Standings structure. Scores are
+ * each team's Kaggle public best as re-read by the harvester; member usernames
+ * are not part of that feed, so `members` stays empty.
+ */
+async function deriveTrackFromHarvester({ track, competition, label }) {
+  const feed = await fetchHarvesterMetrics(competition);
+  if (!feed) return null;
+  const teams = feed.teams
+    .filter((x) => Number.isFinite(x.teamId) && Number.isFinite(x.kagglePublicBest))
+    .map((x) => ({
+      rank: x.rank,
+      teamId: x.teamId,
+      team: x.team,
+      score: x.kagglePublicBest,
+      submissions: x.submissions || 0,
+      lastSubmission: x.lastSubmission || null,
+      members: [],
+    }))
+    .sort((a, b) => a.rank - b.rank);
+
+  const scores = teams.map((t) => t.score).sort((a, b) => a - b);
+  return {
+    track,
+    competition,
+    label,
+    metric: METRIC,
+    chance: CHANCE,
+    deadline: DEADLINE,
+    url: `https://www.kaggle.com/competitions/${competition}/leaderboard`,
+    teams,
+    totals: {
+      teams: teams.length,
+      submissions: teams.reduce((a, t) => a + (t.submissions || 0), 0),
+      best: scores.length ? round(scores[scores.length - 1]) : null,
+      median: scores.length ? round(quantile(scores, 0.5)) : null,
+      p25: scores.length ? round(quantile(scores, 0.25)) : null,
+      p75: scores.length ? round(quantile(scores, 0.75)) : null,
+    },
+  };
+}
+
 /** Pulls the harvester's per-team multi-metric leaderboard for a competition. */
 async function fetchHarvesterMetrics(competition) {
   try {
@@ -295,7 +338,10 @@ async function main() {
       try {
         shaped.push(shapeTrack(t, await fetchLeaderboardCsv(t.competition)));
       } catch (err) {
-        console.error(`  Kaggle mirror for ${t.competition} skipped: ${err.message}`);
+        console.error(`  Kaggle mirror for ${t.competition} unavailable (${err.message}); deriving standings from the harvester feed.`);
+        const derived = await deriveTrackFromHarvester(t);
+        if (derived) shaped.push(derived);
+        else console.error(`  ...harvester feed unavailable too; ${t.competition} left untouched this run.`);
       }
     }
   }

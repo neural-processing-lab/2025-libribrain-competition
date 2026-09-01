@@ -138,14 +138,22 @@ function applyTeamAliases(m: MetricsLeaderboard | null): MetricsLeaderboard | nu
   return { ...m, teams: m.teams.map((t) => ({ ...t, team: TEAM_ALIASES[t.team] ?? t.team })) };
 }
 
+function applyTrajectoryAliases(h: History): History {
+  const mapTrack = (t: Record<string, Trajectory>) =>
+    Object.fromEntries(
+      Object.entries(t).map(([id, tr]) => [id, { ...tr, team: TEAM_ALIASES[tr.team] ?? tr.team }]),
+    );
+  return { ...h, trajectories: { deep: mapTrack(h.trajectories.deep ?? {}), broad: mapTrack(h.trajectories.broad ?? {}) } };
+}
+
 export function loadLeaderboard(): LeaderboardData {
   return {
     deep: readJson('deep.json', emptyStandings('deep', 'Deep')),
     broad: readJson('broad.json', emptyStandings('broad', 'Broad')),
-    history: readJson<History>('history.json', {
+    history: applyTrajectoryAliases(readJson<History>('history.json', {
       summary: { deep: [], broad: [] },
       trajectories: { deep: {}, broad: {} },
-    }),
+    })),
     metrics: {
       deep: applyTeamAliases(readJson<MetricsLeaderboard | null>('metrics-deep.json', null)),
       broad: applyTeamAliases(readJson<MetricsLeaderboard | null>('metrics-broad.json', null)),

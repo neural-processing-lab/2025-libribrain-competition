@@ -6,14 +6,168 @@
   "chance": 0.2,
   "deadline": "2026-10-16T12:00:00Z",
   "url": "https://www.kaggle.com/competitions/pnpl-competition-2026-broad/leaderboard",
-  "teams": [],
+  "teams": [
+    {
+      "rank": 1,
+      "teamId": 16692669,
+      "team": "Varshith Madishetty",
+      "score": 0.71696,
+      "submissions": 124,
+      "lastSubmission": "2026-09-01T11:00:10.210Z",
+      "members": []
+    },
+    {
+      "rank": 2,
+      "teamId": 16771054,
+      "team": "test",
+      "score": 0.7148,
+      "submissions": 34,
+      "lastSubmission": "2026-08-30T12:24:40.093Z",
+      "members": []
+    },
+    {
+      "rank": 3,
+      "teamId": 16779203,
+      "team": "ottietjesesakfs",
+      "score": 0.66988,
+      "submissions": 60,
+      "lastSubmission": "2026-09-01T00:50:43.613Z",
+      "members": []
+    },
+    {
+      "rank": 4,
+      "teamId": 16661195,
+      "team": "JovanaLab",
+      "score": 0.6673,
+      "submissions": 48,
+      "lastSubmission": "2026-08-19T04:51:40.873Z",
+      "members": []
+    },
+    {
+      "rank": 5,
+      "teamId": 16680182,
+      "team": "Arnauya",
+      "score": 0.64001,
+      "submissions": 74,
+      "lastSubmission": "2026-08-22T12:49:04.370Z",
+      "members": []
+    },
+    {
+      "rank": 6,
+      "teamId": 16607557,
+      "team": "Brain King",
+      "score": 0.63625,
+      "submissions": 53,
+      "lastSubmission": "2026-08-29T22:33:44.840Z",
+      "members": []
+    },
+    {
+      "rank": 7,
+      "teamId": 16697275,
+      "team": "Jordan Griffith",
+      "score": 0.62371,
+      "submissions": 9,
+      "lastSubmission": "2026-08-16T04:30:49.080Z",
+      "members": []
+    },
+    {
+      "rank": 8,
+      "teamId": 16593214,
+      "team": "MindLink",
+      "score": 0.62151,
+      "submissions": 22,
+      "lastSubmission": "2026-08-24T09:13:57.743Z",
+      "members": []
+    },
+    {
+      "rank": 9,
+      "teamId": 16768788,
+      "team": "MonsieurBadgerCheese",
+      "score": 0.59734,
+      "submissions": 11,
+      "lastSubmission": "2026-08-31T08:13:19.310Z",
+      "members": []
+    },
+    {
+      "rank": 10,
+      "teamId": 16794004,
+      "team": "Sia",
+      "score": 0.54318,
+      "submissions": 2,
+      "lastSubmission": "2026-08-31T08:20:32.163Z",
+      "members": []
+    },
+    {
+      "rank": 11,
+      "teamId": 16781247,
+      "team": "Connor Finnerty",
+      "score": 0.39296,
+      "submissions": 7,
+      "lastSubmission": "2026-08-31T05:24:23.130Z",
+      "members": []
+    },
+    {
+      "rank": 12,
+      "teamId": 16686336,
+      "team": "onlytry",
+      "score": 0.33066,
+      "submissions": 3,
+      "lastSubmission": "2026-08-12T06:23:34.590Z",
+      "members": []
+    },
+    {
+      "rank": 13,
+      "teamId": 16580266,
+      "team": "PNPL-MEG-XL-Baseline",
+      "score": 0.31023,
+      "submissions": 1,
+      "lastSubmission": "2026-07-21T10:08:18.583Z",
+      "members": []
+    },
+    {
+      "rank": 14,
+      "teamId": 16571739,
+      "team": "PNPL-OX",
+      "score": 0.24063,
+      "submissions": 1,
+      "lastSubmission": "2026-07-19T18:24:47.203Z",
+      "members": []
+    },
+    {
+      "rank": 15,
+      "teamId": 16571080,
+      "team": "SajanKr",
+      "score": 0.23089,
+      "submissions": 3,
+      "lastSubmission": "2026-08-09T13:57:04.100Z",
+      "members": []
+    },
+    {
+      "rank": 16,
+      "teamId": 16580487,
+      "team": "Pratik Pattanaik",
+      "score": 0.20141,
+      "submissions": 1,
+      "lastSubmission": "2026-08-05T04:24:14.117Z",
+      "members": []
+    },
+    {
+      "rank": 17,
+      "teamId": 16726042,
+      "team": "Bhargav Kowshik",
+      "score": 0.19361,
+      "submissions": 2,
+      "lastSubmission": "2026-08-15T17:28:27.617Z",
+      "members": []
+    }
+  ],
   "totals": {
-    "teams": 0,
-    "submissions": 0,
-    "best": null,
-    "median": null,
-    "p25": null,
-    "p75": null
+    "teams": 17,
+    "submissions": 455,
+    "best": 0.71696,
+    "median": 0.59734,
+    "p25": 0.31023,
+    "p75": 0.64001
   },
-  "fetchedAt": "2026-07-14T12:16:46.212Z"
+  "fetchedAt": "2026-09-01T11:49:30.968Z"
 }

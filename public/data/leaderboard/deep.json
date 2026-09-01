@@ -6,14 +6,357 @@
   "chance": 0.2,
   "deadline": "2026-10-16T12:00:00Z",
   "url": "https://www.kaggle.com/competitions/pnpl-competition-2026-deep/leaderboard",
-  "teams": [],
+  "teams": [
+    {
+      "rank": 1,
+      "teamId": 16739385,
+      "team": "Varshith Madishetty",
+      "score": 0.719,
+      "submissions": 44,
+      "lastSubmission": "2026-09-01T11:36:43.450Z",
+      "members": []
+    },
+    {
+      "rank": 2,
+      "teamId": 16667929,
+      "team": "Umur Yıldız",
+      "score": 0.7148,
+      "submissions": 110,
+      "lastSubmission": "2026-09-01T09:03:49.560Z",
+      "members": []
+    },
+    {
+      "rank": 3,
+      "teamId": 16553979,
+      "team": "MindLink",
+      "score": 0.71117,
+      "submissions": 98,
+      "lastSubmission": "2026-08-30T14:04:18.357Z",
+      "members": []
+    },
+    {
+      "rank": 4,
+      "teamId": 16779211,
+      "team": "ottietjesesakfs",
+      "score": 0.71036,
+      "submissions": 60,
+      "lastSubmission": "2026-09-01T00:49:39.880Z",
+      "members": []
+    },
+    {
+      "rank": 5,
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "score": 0.7008,
+      "submissions": 71,
+      "lastSubmission": "2026-09-01T08:23:31.177Z",
+      "members": []
+    },
+    {
+      "rank": 6,
+      "teamId": 16636411,
+      "team": "Kim",
+      "score": 0.67517,
+      "submissions": 72,
+      "lastSubmission": "2026-08-31T16:47:08.273Z",
+      "members": []
+    },
+    {
+      "rank": 7,
+      "teamId": 16697258,
+      "team": "Jordan Griffith",
+      "score": 0.66943,
+      "submissions": 28,
+      "lastSubmission": "2026-08-21T21:16:39.713Z",
+      "members": []
+    },
+    {
+      "rank": 8,
+      "teamId": 16754648,
+      "team": "CWBZ",
+      "score": 0.6601,
+      "submissions": 18,
+      "lastSubmission": "2026-09-01T04:49:16.387Z",
+      "members": []
+    },
+    {
+      "rank": 9,
+      "teamId": 16661201,
+      "team": "JovanaLab",
+      "score": 0.65583,
+      "submissions": 26,
+      "lastSubmission": "2026-08-19T04:43:11.087Z",
+      "members": []
+    },
+    {
+      "rank": 10,
+      "teamId": 16644796,
+      "team": "MagnetoLex",
+      "score": 0.65476,
+      "submissions": 39,
+      "lastSubmission": "2026-08-30T22:03:23.127Z",
+      "members": []
+    },
+    {
+      "rank": 11,
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "score": 0.64728,
+      "submissions": 2,
+      "lastSubmission": "2026-08-29T03:54:34.817Z",
+      "members": []
+    },
+    {
+      "rank": 12,
+      "teamId": 16608131,
+      "team": "kakuteki",
+      "score": 0.64627,
+      "submissions": 47,
+      "lastSubmission": "2026-08-11T17:49:04.883Z",
+      "members": []
+    },
+    {
+      "rank": 13,
+      "teamId": 16781466,
+      "team": "Munich Logic Lab",
+      "score": 0.646,
+      "submissions": 19,
+      "lastSubmission": "2026-09-01T01:12:46.183Z",
+      "members": []
+    },
+    {
+      "rank": 14,
+      "teamId": 16701490,
+      "team": "neural2speech",
+      "score": 0.64473,
+      "submissions": 10,
+      "lastSubmission": "2026-08-13T11:19:32.830Z",
+      "members": []
+    },
+    {
+      "rank": 15,
+      "teamId": 16791335,
+      "team": "Michal",
+      "score": 0.64375,
+      "submissions": 3,
+      "lastSubmission": "2026-08-30T20:46:09.063Z",
+      "members": []
+    },
+    {
+      "rank": 16,
+      "teamId": 16703651,
+      "team": "@Arnauya",
+      "score": 0.64276,
+      "submissions": 81,
+      "lastSubmission": "2026-08-23T17:59:37.580Z",
+      "members": []
+    },
+    {
+      "rank": 17,
+      "teamId": 16607550,
+      "team": "Brain King",
+      "score": 0.63625,
+      "submissions": 54,
+      "lastSubmission": "2026-08-31T13:47:45.807Z",
+      "members": []
+    },
+    {
+      "rank": 18,
+      "teamId": 16736164,
+      "team": "SENPAI",
+      "score": 0.62963,
+      "submissions": 61,
+      "lastSubmission": "2026-08-24T00:00:59.787Z",
+      "members": []
+    },
+    {
+      "rank": 19,
+      "teamId": 16666931,
+      "team": "onlytry",
+      "score": 0.61525,
+      "submissions": 9,
+      "lastSubmission": "2026-08-14T05:19:58.757Z",
+      "members": []
+    },
+    {
+      "rank": 20,
+      "teamId": 16771979,
+      "team": "Artem Blanar",
+      "score": 0.58914,
+      "submissions": 26,
+      "lastSubmission": "2026-08-31T22:47:13.547Z",
+      "members": []
+    },
+    {
+      "rank": 21,
+      "teamId": 16790901,
+      "team": "Infera-Neuro",
+      "score": 0.58728,
+      "submissions": 19,
+      "lastSubmission": "2026-09-01T09:24:51.790Z",
+      "members": []
+    },
+    {
+      "rank": 22,
+      "teamId": 16781245,
+      "team": "Connor Finnerty",
+      "score": 0.44691,
+      "submissions": 18,
+      "lastSubmission": "2026-08-31T14:43:04.493Z",
+      "members": []
+    },
+    {
+      "rank": 23,
+      "teamId": 16571738,
+      "team": "PNPL-OX",
+      "score": 0.44441,
+      "submissions": 1,
+      "lastSubmission": "2026-07-19T18:23:10.837Z",
+      "members": []
+    },
+    {
+      "rank": 24,
+      "teamId": 16774953,
+      "team": "Sia",
+      "score": 0.43623,
+      "submissions": 5,
+      "lastSubmission": "2026-08-29T20:44:47.650Z",
+      "members": []
+    },
+    {
+      "rank": 25,
+      "teamId": 16789752,
+      "team": "syouya tobita",
+      "score": 0.36868,
+      "submissions": 2,
+      "lastSubmission": "2026-09-01T03:44:42.043Z",
+      "members": []
+    },
+    {
+      "rank": 26,
+      "teamId": 16516410,
+      "team": "Shuntaro Suzuki",
+      "score": 0.354,
+      "submissions": 5,
+      "lastSubmission": "2026-08-15T00:09:31.063Z",
+      "members": []
+    },
+    {
+      "rank": 27,
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "score": 0.33222,
+      "submissions": 78,
+      "lastSubmission": "2026-08-31T17:41:59.540Z",
+      "members": []
+    },
+    {
+      "rank": 28,
+      "teamId": 16782624,
+      "team": "Jun Jie Li",
+      "score": 0.31765,
+      "submissions": 12,
+      "lastSubmission": "2026-08-30T17:02:55.297Z",
+      "members": []
+    },
+    {
+      "rank": 29,
+      "teamId": 16550910,
+      "team": "monte-carlo",
+      "score": 0.28999,
+      "submissions": 5,
+      "lastSubmission": "2026-07-25T14:13:10.917Z",
+      "members": []
+    },
+    {
+      "rank": 30,
+      "teamId": 16708216,
+      "team": "KarahanYilmazer",
+      "score": 0.26019,
+      "submissions": 9,
+      "lastSubmission": "2026-08-22T14:23:13.333Z",
+      "members": []
+    },
+    {
+      "rank": 31,
+      "teamId": 16790306,
+      "team": "Fon1as",
+      "score": 0.25381,
+      "submissions": 1,
+      "lastSubmission": "2026-08-29T13:02:45.457Z",
+      "members": []
+    },
+    {
+      "rank": 32,
+      "teamId": 16797123,
+      "team": "willguido",
+      "score": 0.24437,
+      "submissions": 2,
+      "lastSubmission": "2026-08-31T15:29:06.097Z",
+      "members": []
+    },
+    {
+      "rank": 33,
+      "teamId": 16785989,
+      "team": "Jatin Arutla",
+      "score": 0.23409,
+      "submissions": 1,
+      "lastSubmission": "2026-08-29T00:51:21.627Z",
+      "members": []
+    },
+    {
+      "rank": 34,
+      "teamId": 16726041,
+      "team": "Bhargav Kowshik",
+      "score": 0.23381,
+      "submissions": 6,
+      "lastSubmission": "2026-08-17T10:39:46.003Z",
+      "members": []
+    },
+    {
+      "rank": 35,
+      "teamId": 16792873,
+      "team": "Nguyen Anh",
+      "score": 0.21637,
+      "submissions": 3,
+      "lastSubmission": "2026-08-31T00:59:48.743Z",
+      "members": []
+    },
+    {
+      "rank": 36,
+      "teamId": 16605715,
+      "team": "lavender_lover",
+      "score": 0.19058,
+      "submissions": 3,
+      "lastSubmission": "2026-07-28T13:51:08.617Z",
+      "members": []
+    },
+    {
+      "rank": 37,
+      "teamId": 16726510,
+      "team": "LizaSheina",
+      "score": 0.18799,
+      "submissions": 1,
+      "lastSubmission": "2026-08-16T19:31:00.720Z",
+      "members": []
+    },
+    {
+      "rank": 38,
+      "teamId": 16678093,
+      "team": "Viknesh .V",
+      "score": 0.16,
+      "submissions": 1,
+      "lastSubmission": "2026-08-07T19:34:18.233Z",
+      "members": []
+    }
+  ],
   "totals": {
-    "teams": 0,
-    "submissions": 0,
-    "best": null,
-    "median": null,
-    "p25": null,
-    "p75": null
+    "teams": 38,
+    "submissions": 1050,
+    "best": 0.719,
+    "median": 0.6022,
+    "p25": 0.29691,
+    "p75": 0.65289
   },
-  "fetchedAt": "2026-07-14T12:16:46.212Z"
+  "fetchedAt": "2026-09-01T11:49:30.968Z"
 }
