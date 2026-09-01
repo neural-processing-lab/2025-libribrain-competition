@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-08-31T21:03:35.376Z",
+  "updatedAt": "2026-09-01T00:35:00.450Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,8 +30,8 @@
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 100,
-      "scoredSubmissions": 100,
+      "submissions": 106,
+      "scoredSubmissions": 106,
       "kagglePublicBest": 0.7148,
       "best": {
         "balacc@10": {
@@ -44,7 +44,7 @@
           "value": 1.1690215128164863
         }
       },
-      "lastSubmission": "2026-08-30T15:58:58.207Z",
+      "lastSubmission": "2026-09-01T00:32:54.797Z",
       "rank": 2
     },
     {
@@ -70,8 +70,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 63,
-      "scoredSubmissions": 63,
+      "submissions": 67,
+      "scoredSubmissions": 67,
       "kagglePublicBest": 0.69642,
       "best": {
         "balacc@10": {
@@ -81,10 +81,10 @@
           "value": 0.2393015873015873
         },
         "ovmi": {
-          "value": 1.0765850036459
+          "value": 1.0881360305073957
         }
       },
-      "lastSubmission": "2026-08-31T08:16:10.277Z",
+      "lastSubmission": "2026-09-01T00:07:26.150Z",
       "rank": 4
     },
     {
@@ -390,8 +390,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 25,
-      "scoredSubmissions": 25,
+      "submissions": 26,
+      "scoredSubmissions": 26,
       "kagglePublicBest": 0.58914,
       "best": {
         "balacc@10": {
@@ -404,7 +404,7 @@
           "value": 1.0055698765402903
         }
       },
-      "lastSubmission": "2026-08-30T19:16:52.510Z",
+      "lastSubmission": "2026-08-31T22:47:13.547Z",
       "rank": 20
     },
     {
