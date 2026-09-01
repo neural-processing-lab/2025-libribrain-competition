@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { LeaderboardData, MetricsLeaderboard, TrackId } from '../../../../lib/leaderboard';
 import MultiMetricTable, { METRIC_INFO, metricLabel } from './MultiMetricTable';
 import MetricBarChart from './MetricBarChart';
+import ScoreTimeline from './ScoreTimeline';
 
 const INK = { primary: '#0a0a0a', secondary: '#555', muted: '#888' };
 const BORDER = 'rgba(124,58,237,0.12)';
@@ -149,6 +150,24 @@ export default function LeaderboardView({ data }: { data: LeaderboardData }) {
         </Card>
       ) : (
         <>
+          {/* Score over time — only once the history feed has something to draw */}
+          {Object.values(data.history.trajectories[track] ?? {}).reduce((n, tr) => n + tr.points.length, 0) >= 2 && (
+          <Card style={{ marginBottom: '20px' }}>
+            <CardTitle
+              title={`${data[track].metric} over time`}
+              note={`Each dot is a team improving its own best public ${data[track].metric} score; the stepped line follows the best score overall. Hover a dot for the team.`}
+            />
+            <ScoreTimeline
+              key={track} // remount on track switch so hover state can't show the other track's team
+              history={data.history}
+              track={track}
+              accent={accent}
+              chance={data[track].chance}
+              metricName={data[track].metric}
+            />
+          </Card>
+          )}
+
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '14px', marginBottom: '28px' }}>
             <Stat value={stats?.best != null ? stats.best.toFixed(3) : '—'} label={`Best ${metricLabel(activeMetric)}`} color={accent} />
             <Stat value={fmtInt(stats?.teams ?? 0)} label="Teams" />
