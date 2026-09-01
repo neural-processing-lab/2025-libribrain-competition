@@ -47,9 +47,9 @@
       "rank": 5,
       "teamId": 16685441,
       "team": "titus fisher",
-      "score": 0.7008,
-      "submissions": 71,
-      "lastSubmission": "2026-09-01T08:23:31.177Z",
+      "score": 0.70647,
+      "submissions": 73,
+      "lastSubmission": "2026-09-01T12:55:10.023Z",
       "members": []
     },
     {
@@ -171,6 +171,15 @@
     },
     {
       "rank": 19,
+      "teamId": 16790901,
+      "team": "Infera-Neuro",
+      "score": 0.62657,
+      "submissions": 23,
+      "lastSubmission": "2026-09-01T13:01:30.200Z",
+      "members": []
+    },
+    {
+      "rank": 20,
       "teamId": 16666931,
       "team": "onlytry",
       "score": 0.61525,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.58914,
@@ -188,21 +197,12 @@
       "members": []
     },
     {
-      "rank": 21,
-      "teamId": 16790901,
-      "team": "Infera-Neuro",
-      "score": 0.58728,
-      "submissions": 19,
-      "lastSubmission": "2026-09-01T09:24:51.790Z",
-      "members": []
-    },
-    {
       "rank": 22,
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "score": 0.44691,
-      "submissions": 18,
-      "lastSubmission": "2026-08-31T14:43:04.493Z",
+      "score": 0.45357,
+      "submissions": 19,
+      "lastSubmission": "2026-09-01T13:43:04.487Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1050,
+    "submissions": 1057,
     "best": 0.719,
-    "median": 0.6022,
+    "median": 0.62091,
     "p25": 0.29691,
     "p75": 0.65289
   },
-  "fetchedAt": "2026-09-01T11:49:30.968Z"
+  "fetchedAt": "2026-09-01T14:59:36.652Z"
 }
