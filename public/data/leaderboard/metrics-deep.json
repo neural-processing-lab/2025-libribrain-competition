@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-01T05:37:27.271Z",
+  "updatedAt": "2026-09-01T10:24:14.704Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,8 +30,8 @@
     {
       "teamId": 16667929,
       "team": "Umur Yıldız",
-      "submissions": 106,
-      "scoredSubmissions": 106,
+      "submissions": 110,
+      "scoredSubmissions": 110,
       "kagglePublicBest": 0.7148,
       "best": {
         "balacc@10": {
@@ -44,7 +44,7 @@
           "value": 1.1690215128164863
         }
       },
-      "lastSubmission": "2026-09-01T00:32:54.797Z",
+      "lastSubmission": "2026-09-01T09:03:49.560Z",
       "rank": 2
     },
     {
@@ -90,21 +90,21 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 69,
-      "scoredSubmissions": 69,
-      "kagglePublicBest": 0.69642,
+      "submissions": 71,
+      "scoredSubmissions": 71,
+      "kagglePublicBest": 0.7008,
       "best": {
         "balacc@10": {
-          "value": 0.69642
+          "value": 0.7008
         },
         "balacc@1": {
           "value": 0.2393015873015873
         },
         "ovmi": {
-          "value": 1.0881360305073957
+          "value": 1.0908986991457128
         }
       },
-      "lastSubmission": "2026-09-01T02:31:17.147Z",
+      "lastSubmission": "2026-09-01T08:23:31.177Z",
       "rank": 5
     },
     {
@@ -410,21 +410,21 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 17,
-      "scoredSubmissions": 17,
-      "kagglePublicBest": 0.57882,
+      "submissions": 19,
+      "scoredSubmissions": 19,
+      "kagglePublicBest": 0.58728,
       "best": {
         "balacc@10": {
-          "value": 0.57882
+          "value": 0.58728
         },
         "balacc@1": {
-          "value": 0.19166666666666668
+          "value": 0.19396825396825398
         },
         "ovmi": {
           "value": 1.049777385563581
         }
       },
-      "lastSubmission": "2026-08-31T12:45:45.613Z",
+      "lastSubmission": "2026-09-01T09:24:51.790Z",
       "rank": 21
     },
     {
