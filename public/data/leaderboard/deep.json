@@ -12,8 +12,8 @@
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.719,
-      "submissions": 44,
-      "lastSubmission": "2026-09-01T11:36:43.450Z",
+      "submissions": 46,
+      "lastSubmission": "2026-09-01T16:36:18.460Z",
       "members": []
     },
     {
@@ -57,8 +57,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.67517,
-      "submissions": 72,
-      "lastSubmission": "2026-08-31T16:47:08.273Z",
+      "submissions": 73,
+      "lastSubmission": "2026-09-01T17:42:27.140Z",
       "members": []
     },
     {
@@ -174,8 +174,8 @@
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.62657,
-      "submissions": 23,
-      "lastSubmission": "2026-09-01T13:01:30.200Z",
+      "submissions": 27,
+      "lastSubmission": "2026-09-01T15:24:34.377Z",
       "members": []
     },
     {
@@ -291,8 +291,8 @@
       "teamId": 16797123,
       "team": "willguido",
       "score": 0.24437,
-      "submissions": 2,
-      "lastSubmission": "2026-08-31T15:29:06.097Z",
+      "submissions": 4,
+      "lastSubmission": "2026-09-01T16:44:02.813Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1057,
+    "submissions": 1066,
     "best": 0.719,
     "median": 0.62091,
     "p25": 0.29691,
     "p75": 0.65289
   },
-  "fetchedAt": "2026-09-01T14:59:36.652Z"
+  "fetchedAt": "2026-09-01T18:09:24.687Z"
 }

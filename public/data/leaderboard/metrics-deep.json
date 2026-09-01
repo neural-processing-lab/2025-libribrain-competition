@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-01T14:58:37.860Z",
+  "updatedAt": "2026-09-01T18:09:12.965Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16739385,
       "team": "Varshith Madishetty",
-      "submissions": 44,
-      "scoredSubmissions": 44,
+      "submissions": 46,
+      "scoredSubmissions": 46,
       "kagglePublicBest": 0.719,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.1267493266180901
         }
       },
-      "lastSubmission": "2026-09-01T11:36:43.450Z",
+      "lastSubmission": "2026-09-01T16:36:18.460Z",
       "rank": 1
     },
     {
@@ -110,8 +110,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 72,
-      "scoredSubmissions": 72,
+      "submissions": 73,
+      "scoredSubmissions": 73,
       "kagglePublicBest": 0.67517,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.0236942149751491
         }
       },
-      "lastSubmission": "2026-08-31T16:47:08.273Z",
+      "lastSubmission": "2026-09-01T17:42:27.140Z",
       "rank": 6
     },
     {
@@ -370,8 +370,8 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 23,
-      "scoredSubmissions": 23,
+      "submissions": 27,
+      "scoredSubmissions": 27,
       "kagglePublicBest": 0.62657,
       "best": {
         "balacc@10": {
@@ -381,10 +381,10 @@
           "value": 0.19396825396825398
         },
         "ovmi": {
-          "value": 1.1121102951381199
+          "value": 1.1146556335222075
         }
       },
-      "lastSubmission": "2026-09-01T13:01:30.200Z",
+      "lastSubmission": "2026-09-01T15:24:34.377Z",
       "rank": 19
     },
     {
@@ -630,21 +630,21 @@
     {
       "teamId": 16797123,
       "team": "willguido",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 4,
+      "scoredSubmissions": 4,
       "kagglePublicBest": 0.24437,
       "best": {
         "balacc@10": {
           "value": 0.24437
         },
         "balacc@1": {
-          "value": 0.02
+          "value": 0.024444444444444442
         },
         "ovmi": {
-          "value": 0
+          "value": 0.12385483395350265
         }
       },
-      "lastSubmission": "2026-08-31T15:29:06.097Z",
+      "lastSubmission": "2026-09-01T16:44:02.813Z",
       "rank": 32
     },
     {
