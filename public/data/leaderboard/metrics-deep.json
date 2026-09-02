@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-01T22:58:58.197Z",
+  "updatedAt": "2026-09-02T00:48:28.639Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 60,
-      "scoredSubmissions": 60,
+      "submissions": 70,
+      "scoredSubmissions": 70,
       "kagglePublicBest": 0.71036,
       "best": {
         "balacc@10": {
@@ -84,27 +84,27 @@
           "value": 1.1408487520370514
         }
       },
-      "lastSubmission": "2026-09-01T00:49:39.880Z",
+      "lastSubmission": "2026-09-02T00:06:20.013Z",
       "rank": 4
     },
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 73,
-      "scoredSubmissions": 73,
+      "submissions": 79,
+      "scoredSubmissions": 79,
       "kagglePublicBest": 0.70647,
       "best": {
         "balacc@10": {
           "value": 0.70647
         },
         "balacc@1": {
-          "value": 0.2393015873015873
+          "value": 0.26796031746031745
         },
         "ovmi": {
-          "value": 1.0908986991457128
+          "value": 1.1174951833859403
         }
       },
-      "lastSubmission": "2026-09-01T12:55:10.023Z",
+      "lastSubmission": "2026-09-02T00:20:47.973Z",
       "rank": 5
     },
     {
@@ -128,6 +128,26 @@
       "rank": 6
     },
     {
+      "teamId": 16781466,
+      "team": "Munich Logic Lab",
+      "submissions": 31,
+      "scoredSubmissions": 31,
+      "kagglePublicBest": 0.67293,
+      "best": {
+        "balacc@10": {
+          "value": 0.67293
+        },
+        "balacc@1": {
+          "value": 0.19973809523809524
+        },
+        "ovmi": {
+          "value": 1.083204796803113
+        }
+      },
+      "lastSubmission": "2026-09-02T00:00:53.287Z",
+      "rank": 7
+    },
+    {
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "submissions": 28,
@@ -145,7 +165,7 @@
         }
       },
       "lastSubmission": "2026-08-21T21:16:39.713Z",
-      "rank": 7
+      "rank": 8
     },
     {
       "teamId": 16754648,
@@ -165,7 +185,7 @@
         }
       },
       "lastSubmission": "2026-09-01T20:10:36.560Z",
-      "rank": 8
+      "rank": 9
     },
     {
       "teamId": 16661201,
@@ -185,7 +205,7 @@
         }
       },
       "lastSubmission": "2026-08-19T04:43:11.087Z",
-      "rank": 9
+      "rank": 10
     },
     {
       "teamId": 16644796,
@@ -205,7 +225,7 @@
         }
       },
       "lastSubmission": "2026-08-30T22:03:23.127Z",
-      "rank": 10
+      "rank": 11
     },
     {
       "teamId": 16784614,
@@ -225,7 +245,7 @@
         }
       },
       "lastSubmission": "2026-08-29T03:54:34.817Z",
-      "rank": 11
+      "rank": 12
     },
     {
       "teamId": 16608131,
@@ -245,26 +265,6 @@
         }
       },
       "lastSubmission": "2026-08-11T17:49:04.883Z",
-      "rank": 12
-    },
-    {
-      "teamId": 16781466,
-      "team": "Munich Logic Lab",
-      "submissions": 21,
-      "scoredSubmissions": 21,
-      "kagglePublicBest": 0.646,
-      "best": {
-        "balacc@10": {
-          "value": 0.646
-        },
-        "balacc@1": {
-          "value": 0.19412698412698412
-        },
-        "ovmi": {
-          "value": 1.0744805355526352
-        }
-      },
-      "lastSubmission": "2026-09-01T22:43:41.777Z",
       "rank": 13
     },
     {
