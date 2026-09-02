@@ -84,8 +84,8 @@
       "teamId": 16754648,
       "team": "CWBZ",
       "score": 0.6601,
-      "submissions": 19,
-      "lastSubmission": "2026-09-01T20:10:36.560Z",
+      "submissions": 20,
+      "lastSubmission": "2026-09-02T09:39:26.613Z",
       "members": []
     },
     {
@@ -201,8 +201,8 @@
       "teamId": 16789752,
       "team": "syouya tobita",
       "score": 0.49587,
-      "submissions": 3,
-      "lastSubmission": "2026-09-02T01:34:38.483Z",
+      "submissions": 4,
+      "lastSubmission": "2026-09-02T10:46:02.127Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1108,
+    "submissions": 1110,
     "best": 0.719,
     "median": 0.62091,
     "p25": 0.29691,
     "p75": 0.65556
   },
-  "fetchedAt": "2026-09-02T09:33:26.329Z"
+  "fetchedAt": "2026-09-02T13:51:29.959Z"
 }
