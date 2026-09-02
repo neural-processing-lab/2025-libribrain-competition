@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-02T05:09:47.664Z",
+  "updatedAt": "2026-09-02T09:33:13.456Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 80,
-      "scoredSubmissions": 80,
+      "submissions": 81,
+      "scoredSubmissions": 81,
       "kagglePublicBest": 0.70647,
       "best": {
         "balacc@10": {
@@ -104,14 +104,14 @@
           "value": 1.1174951833859403
         }
       },
-      "lastSubmission": "2026-09-02T01:10:57.890Z",
+      "lastSubmission": "2026-09-02T05:19:30.313Z",
       "rank": 5
     },
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 74,
-      "scoredSubmissions": 74,
+      "submissions": 75,
+      "scoredSubmissions": 75,
       "kagglePublicBest": 0.67517,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.0236942149751491
         }
       },
-      "lastSubmission": "2026-09-01T18:11:52.623Z",
+      "lastSubmission": "2026-09-02T08:19:38.817Z",
       "rank": 6
     },
     {
@@ -370,21 +370,21 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 27,
-      "scoredSubmissions": 27,
+      "submissions": 31,
+      "scoredSubmissions": 31,
       "kagglePublicBest": 0.62657,
       "best": {
         "balacc@10": {
           "value": 0.62657
         },
         "balacc@1": {
-          "value": 0.19396825396825398
+          "value": 0.21565079365079362
         },
         "ovmi": {
-          "value": 1.1146556335222075
+          "value": 1.1245689627913042
         }
       },
-      "lastSubmission": "2026-09-01T15:24:34.377Z",
+      "lastSubmission": "2026-09-02T09:13:06.960Z",
       "rank": 19
     },
     {
@@ -410,8 +410,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 26,
-      "scoredSubmissions": 26,
+      "submissions": 29,
+      "scoredSubmissions": 29,
       "kagglePublicBest": 0.58914,
       "best": {
         "balacc@10": {
@@ -424,7 +424,7 @@
           "value": 1.0055698765402903
         }
       },
-      "lastSubmission": "2026-08-31T22:47:13.547Z",
+      "lastSubmission": "2026-09-02T06:52:08.297Z",
       "rank": 21
     },
     {
