@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-02T17:27:04.954Z",
+  "updatedAt": "2026-09-02T19:55:45.251Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -170,21 +170,21 @@
     {
       "teamId": 16754648,
       "team": "CWBZ",
-      "submissions": 20,
-      "scoredSubmissions": 20,
+      "submissions": 23,
+      "scoredSubmissions": 23,
       "kagglePublicBest": 0.6601,
       "best": {
         "balacc@10": {
           "value": 0.6601
         },
         "balacc@1": {
-          "value": 0.19624675324675322
+          "value": 0.20893650793650792
         },
         "ovmi": {
-          "value": 1.0326380364339
+          "value": 1.0770067953297717
         }
       },
-      "lastSubmission": "2026-09-02T09:39:26.613Z",
+      "lastSubmission": "2026-09-02T19:26:40.110Z",
       "rank": 9
     },
     {
@@ -230,8 +230,8 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 4,
-      "scoredSubmissions": 4,
+      "submissions": 6,
+      "scoredSubmissions": 6,
       "kagglePublicBest": 0.64728,
       "best": {
         "balacc@10": {
@@ -244,7 +244,7 @@
           "value": 1.1227506224094048
         }
       },
-      "lastSubmission": "2026-09-02T14:58:04.110Z",
+      "lastSubmission": "2026-09-02T17:34:32.303Z",
       "rank": 12
     },
     {
@@ -328,6 +328,26 @@
       "rank": 16
     },
     {
+      "teamId": 16790901,
+      "team": "Infera-Neuro",
+      "submissions": 37,
+      "scoredSubmissions": 37,
+      "kagglePublicBest": 0.6421,
+      "best": {
+        "balacc@10": {
+          "value": 0.6421
+        },
+        "balacc@1": {
+          "value": 0.21565079365079362
+        },
+        "ovmi": {
+          "value": 1.1245689627913042
+        }
+      },
+      "lastSubmission": "2026-09-02T19:25:39.507Z",
+      "rank": 17
+    },
+    {
       "teamId": 16607550,
       "team": "Brain King",
       "submissions": 54,
@@ -345,7 +365,7 @@
         }
       },
       "lastSubmission": "2026-08-31T13:47:45.807Z",
-      "rank": 17
+      "rank": 18
     },
     {
       "teamId": 16736164,
@@ -365,26 +385,6 @@
         }
       },
       "lastSubmission": "2026-08-24T00:00:59.787Z",
-      "rank": 18
-    },
-    {
-      "teamId": 16790901,
-      "team": "Infera-Neuro",
-      "submissions": 36,
-      "scoredSubmissions": 36,
-      "kagglePublicBest": 0.62943,
-      "best": {
-        "balacc@10": {
-          "value": 0.62943
-        },
-        "balacc@1": {
-          "value": 0.21565079365079362
-        },
-        "ovmi": {
-          "value": 1.1245689627913042
-        }
-      },
-      "lastSubmission": "2026-09-02T17:17:22.987Z",
       "rank": 19
     },
     {

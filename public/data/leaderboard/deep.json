@@ -84,8 +84,8 @@
       "teamId": 16754648,
       "team": "CWBZ",
       "score": 0.6601,
-      "submissions": 20,
-      "lastSubmission": "2026-09-02T09:39:26.613Z",
+      "submissions": 23,
+      "lastSubmission": "2026-09-02T19:26:40.110Z",
       "members": []
     },
     {
@@ -111,8 +111,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.64728,
-      "submissions": 4,
-      "lastSubmission": "2026-09-02T14:58:04.110Z",
+      "submissions": 6,
+      "lastSubmission": "2026-09-02T17:34:32.303Z",
       "members": []
     },
     {
@@ -153,6 +153,15 @@
     },
     {
       "rank": 17,
+      "teamId": 16790901,
+      "team": "Infera-Neuro",
+      "score": 0.6421,
+      "submissions": 37,
+      "lastSubmission": "2026-09-02T19:25:39.507Z",
+      "members": []
+    },
+    {
+      "rank": 18,
       "teamId": 16607550,
       "team": "Brain King",
       "score": 0.63625,
@@ -161,21 +170,12 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16736164,
       "team": "SENPAI",
       "score": 0.62963,
       "submissions": 61,
       "lastSubmission": "2026-08-24T00:00:59.787Z",
-      "members": []
-    },
-    {
-      "rank": 19,
-      "teamId": 16790901,
-      "team": "Infera-Neuro",
-      "score": 0.62943,
-      "submissions": 36,
-      "lastSubmission": "2026-09-02T17:17:22.987Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1118,
+    "submissions": 1124,
     "best": 0.719,
-    "median": 0.62234,
+    "median": 0.62244,
     "p25": 0.29691,
     "p75": 0.65556
   },
-  "fetchedAt": "2026-09-02T17:27:14.334Z"
+  "fetchedAt": "2026-09-02T19:56:34.120Z"
 }
