@@ -66,8 +66,8 @@
       "teamId": 16781466,
       "team": "Munich Logic Lab",
       "score": 0.67293,
-      "submissions": 32,
-      "lastSubmission": "2026-09-02T01:55:27.123Z",
+      "submissions": 33,
+      "lastSubmission": "2026-09-02T16:02:11.873Z",
       "members": []
     },
     {
@@ -111,8 +111,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.64728,
-      "submissions": 2,
-      "lastSubmission": "2026-08-29T03:54:34.817Z",
+      "submissions": 4,
+      "lastSubmission": "2026-09-02T14:58:04.110Z",
       "members": []
     },
     {
@@ -173,9 +173,9 @@
       "rank": 19,
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "score": 0.62657,
-      "submissions": 31,
-      "lastSubmission": "2026-09-02T09:13:06.960Z",
+      "score": 0.62943,
+      "submissions": 36,
+      "lastSubmission": "2026-09-02T17:17:22.987Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1110,
+    "submissions": 1118,
     "best": 0.719,
-    "median": 0.62091,
+    "median": 0.62234,
     "p25": 0.29691,
     "p75": 0.65556
   },
-  "fetchedAt": "2026-09-02T13:51:29.959Z"
+  "fetchedAt": "2026-09-02T17:27:14.334Z"
 }

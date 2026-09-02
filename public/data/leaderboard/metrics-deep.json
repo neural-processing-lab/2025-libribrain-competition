@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-02T13:50:53.191Z",
+  "updatedAt": "2026-09-02T17:27:04.954Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,8 +130,8 @@
     {
       "teamId": 16781466,
       "team": "Munich Logic Lab",
-      "submissions": 32,
-      "scoredSubmissions": 32,
+      "submissions": 33,
+      "scoredSubmissions": 33,
       "kagglePublicBest": 0.67293,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.083204796803113
         }
       },
-      "lastSubmission": "2026-09-02T01:55:27.123Z",
+      "lastSubmission": "2026-09-02T16:02:11.873Z",
       "rank": 7
     },
     {
@@ -230,8 +230,8 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 4,
+      "scoredSubmissions": 4,
       "kagglePublicBest": 0.64728,
       "best": {
         "balacc@10": {
@@ -244,7 +244,7 @@
           "value": 1.1227506224094048
         }
       },
-      "lastSubmission": "2026-08-29T03:54:34.817Z",
+      "lastSubmission": "2026-09-02T14:58:04.110Z",
       "rank": 12
     },
     {
@@ -370,12 +370,12 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 31,
-      "scoredSubmissions": 31,
-      "kagglePublicBest": 0.62657,
+      "submissions": 36,
+      "scoredSubmissions": 36,
+      "kagglePublicBest": 0.62943,
       "best": {
         "balacc@10": {
-          "value": 0.62657
+          "value": 0.62943
         },
         "balacc@1": {
           "value": 0.21565079365079362
@@ -384,7 +384,7 @@
           "value": 1.1245689627913042
         }
       },
-      "lastSubmission": "2026-09-02T09:13:06.960Z",
+      "lastSubmission": "2026-09-02T17:17:22.987Z",
       "rank": 19
     },
     {
