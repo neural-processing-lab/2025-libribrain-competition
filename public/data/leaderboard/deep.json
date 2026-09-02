@@ -48,8 +48,8 @@
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.70647,
-      "submissions": 79,
-      "lastSubmission": "2026-09-02T00:20:47.973Z",
+      "submissions": 80,
+      "lastSubmission": "2026-09-02T01:10:57.890Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 16781466,
       "team": "Munich Logic Lab",
       "score": 0.67293,
-      "submissions": 31,
-      "lastSubmission": "2026-09-02T00:00:53.287Z",
+      "submissions": 32,
+      "lastSubmission": "2026-09-02T01:55:27.123Z",
       "members": []
     },
     {
@@ -198,6 +198,15 @@
     },
     {
       "rank": 22,
+      "teamId": 16789752,
+      "team": "syouya tobita",
+      "score": 0.49587,
+      "submissions": 3,
+      "lastSubmission": "2026-09-02T01:34:38.483Z",
+      "members": []
+    },
+    {
+      "rank": 23,
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.45357,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 16571738,
       "team": "PNPL-OX",
       "score": 0.44441,
@@ -215,21 +224,12 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16774953,
       "team": "Sia",
       "score": 0.43623,
       "submissions": 5,
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "members": []
-    },
-    {
-      "rank": 25,
-      "teamId": 16789752,
-      "team": "syouya tobita",
-      "score": 0.36868,
-      "submissions": 2,
-      "lastSubmission": "2026-09-01T03:44:42.043Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1096,
+    "submissions": 1099,
     "best": 0.719,
     "median": 0.62091,
     "p25": 0.29691,
     "p75": 0.65556
   },
-  "fetchedAt": "2026-09-02T00:48:55.395Z"
+  "fetchedAt": "2026-09-02T05:09:50.309Z"
 }

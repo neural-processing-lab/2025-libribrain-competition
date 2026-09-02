@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-02T00:48:28.639Z",
+  "updatedAt": "2026-09-02T05:09:47.664Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 79,
-      "scoredSubmissions": 79,
+      "submissions": 80,
+      "scoredSubmissions": 80,
       "kagglePublicBest": 0.70647,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.1174951833859403
         }
       },
-      "lastSubmission": "2026-09-02T00:20:47.973Z",
+      "lastSubmission": "2026-09-02T01:10:57.890Z",
       "rank": 5
     },
     {
@@ -130,8 +130,8 @@
     {
       "teamId": 16781466,
       "team": "Munich Logic Lab",
-      "submissions": 31,
-      "scoredSubmissions": 31,
+      "submissions": 32,
+      "scoredSubmissions": 32,
       "kagglePublicBest": 0.67293,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.083204796803113
         }
       },
-      "lastSubmission": "2026-09-02T00:00:53.287Z",
+      "lastSubmission": "2026-09-02T01:55:27.123Z",
       "rank": 7
     },
     {
@@ -428,6 +428,26 @@
       "rank": 21
     },
     {
+      "teamId": 16789752,
+      "team": "syouya tobita",
+      "submissions": 3,
+      "scoredSubmissions": 3,
+      "kagglePublicBest": 0.49587,
+      "best": {
+        "balacc@10": {
+          "value": 0.49587
+        },
+        "balacc@1": {
+          "value": 0.06777777777777777
+        },
+        "ovmi": {
+          "value": 1.0743129399494904
+        }
+      },
+      "lastSubmission": "2026-09-02T01:34:38.483Z",
+      "rank": 22
+    },
+    {
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "submissions": 19,
@@ -445,7 +465,7 @@
         }
       },
       "lastSubmission": "2026-09-01T13:43:04.487Z",
-      "rank": 22
+      "rank": 23
     },
     {
       "teamId": 16571738,
@@ -465,7 +485,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 23
+      "rank": 24
     },
     {
       "teamId": 16774953,
@@ -485,26 +505,6 @@
         }
       },
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "rank": 24
-    },
-    {
-      "teamId": 16789752,
-      "team": "syouya tobita",
-      "submissions": 2,
-      "scoredSubmissions": 2,
-      "kagglePublicBest": 0.36868,
-      "best": {
-        "balacc@10": {
-          "value": 0.36868
-        },
-        "balacc@1": {
-          "value": 0.037333333333333336
-        },
-        "ovmi": {
-          "value": 0.82083570019755
-        }
-      },
-      "lastSubmission": "2026-09-01T03:44:42.043Z",
       "rank": 25
     },
     {
