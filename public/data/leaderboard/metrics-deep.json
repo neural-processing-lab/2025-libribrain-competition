@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-03T17:10:03.773Z",
+  "updatedAt": "2026-09-03T19:47:26.945Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 46,
-      "scoredSubmissions": 46,
+      "submissions": 47,
+      "scoredSubmissions": 47,
       "kagglePublicBest": 0.67862,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.150132324272113
         }
       },
-      "lastSubmission": "2026-09-03T16:59:07.780Z",
+      "lastSubmission": "2026-09-03T17:35:12.187Z",
       "rank": 6
     },
     {
@@ -208,6 +208,26 @@
       "rank": 10
     },
     {
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "submissions": 10,
+      "scoredSubmissions": 10,
+      "kagglePublicBest": 0.65634,
+      "best": {
+        "balacc@10": {
+          "value": 0.65634
+        },
+        "balacc@1": {
+          "value": 0.2222712842712843
+        },
+        "ovmi": {
+          "value": 1.1316354160675437
+        }
+      },
+      "lastSubmission": "2026-09-03T19:41:17.720Z",
+      "rank": 11
+    },
+    {
       "teamId": 16661201,
       "team": "JovanaLab",
       "submissions": 26,
@@ -225,7 +245,7 @@
         }
       },
       "lastSubmission": "2026-08-19T04:43:11.087Z",
-      "rank": 11
+      "rank": 12
     },
     {
       "teamId": 16644796,
@@ -245,26 +265,6 @@
         }
       },
       "lastSubmission": "2026-08-30T22:03:23.127Z",
-      "rank": 12
-    },
-    {
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.64728,
-      "best": {
-        "balacc@10": {
-          "value": 0.64728
-        },
-        "balacc@1": {
-          "value": 0.2222712842712843
-        },
-        "ovmi": {
-          "value": 1.1227506224094048
-        }
-      },
-      "lastSubmission": "2026-09-02T17:34:32.303Z",
       "rank": 13
     },
     {
