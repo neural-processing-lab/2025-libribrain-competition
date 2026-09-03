@@ -47,9 +47,9 @@
       "rank": 5,
       "teamId": 16685441,
       "team": "titus fisher",
-      "score": 0.70647,
-      "submissions": 81,
-      "lastSubmission": "2026-09-02T05:19:30.313Z",
+      "score": 0.7078,
+      "submissions": 82,
+      "lastSubmission": "2026-09-02T23:05:35.307Z",
       "members": []
     },
     {
@@ -165,8 +165,8 @@
       "teamId": 16607550,
       "team": "Brain King",
       "score": 0.63625,
-      "submissions": 54,
-      "lastSubmission": "2026-08-31T13:47:45.807Z",
+      "submissions": 55,
+      "lastSubmission": "2026-09-02T22:48:17.513Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1126,
+    "submissions": 1128,
     "best": 0.719,
     "median": 0.62244,
     "p25": 0.29691,
     "p75": 0.65556
   },
-  "fetchedAt": "2026-09-02T22:08:06.740Z"
+  "fetchedAt": "2026-09-03T00:10:26.607Z"
 }
