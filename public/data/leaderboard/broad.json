@@ -144,30 +144,30 @@
     },
     {
       "rank": 16,
+      "teamId": 16726042,
+      "team": "Bhargav Kowshik",
+      "score": 0.21871,
+      "submissions": 12,
+      "lastSubmission": "2026-09-03T17:06:32.153Z",
+      "members": []
+    },
+    {
+      "rank": 17,
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "score": 0.20141,
       "submissions": 1,
       "lastSubmission": "2026-08-05T04:24:14.117Z",
       "members": []
-    },
-    {
-      "rank": 17,
-      "teamId": 16726042,
-      "team": "Bhargav Kowshik",
-      "score": 0.19361,
-      "submissions": 2,
-      "lastSubmission": "2026-08-15T17:28:27.617Z",
-      "members": []
     }
   ],
   "totals": {
     "teams": 17,
-    "submissions": 485,
+    "submissions": 495,
     "best": 0.717,
     "median": 0.59734,
     "p25": 0.31023,
     "p75": 0.64001
   },
-  "fetchedAt": "2026-09-03T04:17:42.065Z"
+  "fetchedAt": "2026-09-03T17:11:05.537Z"
 }

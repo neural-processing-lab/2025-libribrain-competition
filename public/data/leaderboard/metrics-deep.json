@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-03T13:32:05.663Z",
+  "updatedAt": "2026-09-03T17:10:03.773Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -108,6 +108,26 @@
       "rank": 5
     },
     {
+      "teamId": 16790901,
+      "team": "Infera-Neuro",
+      "submissions": 46,
+      "scoredSubmissions": 46,
+      "kagglePublicBest": 0.67862,
+      "best": {
+        "balacc@10": {
+          "value": 0.67862
+        },
+        "balacc@1": {
+          "value": 0.21565079365079362
+        },
+        "ovmi": {
+          "value": 1.150132324272113
+        }
+      },
+      "lastSubmission": "2026-09-03T16:59:07.780Z",
+      "rank": 6
+    },
+    {
       "teamId": 16636411,
       "team": "Kim",
       "submissions": 79,
@@ -125,26 +145,6 @@
         }
       },
       "lastSubmission": "2026-09-03T12:25:05.367Z",
-      "rank": 6
-    },
-    {
-      "teamId": 16790901,
-      "team": "Infera-Neuro",
-      "submissions": 45,
-      "scoredSubmissions": 45,
-      "kagglePublicBest": 0.67362,
-      "best": {
-        "balacc@10": {
-          "value": 0.67362
-        },
-        "balacc@1": {
-          "value": 0.21565079365079362
-        },
-        "ovmi": {
-          "value": 1.150132324272113
-        }
-      },
-      "lastSubmission": "2026-09-03T07:06:44.970Z",
       "rank": 7
     },
     {
@@ -608,6 +608,26 @@
       "rank": 30
     },
     {
+      "teamId": 16726041,
+      "team": "Bhargav Kowshik",
+      "submissions": 16,
+      "scoredSubmissions": 16,
+      "kagglePublicBest": 0.28713,
+      "best": {
+        "balacc@10": {
+          "value": 0.28713
+        },
+        "balacc@1": {
+          "value": 0.029222222222222226
+        },
+        "ovmi": {
+          "value": 1.0946638054775149
+        }
+      },
+      "lastSubmission": "2026-09-03T17:00:11.500Z",
+      "rank": 31
+    },
+    {
       "teamId": 16708216,
       "team": "KarahanYilmazer",
       "submissions": 9,
@@ -625,7 +645,7 @@
         }
       },
       "lastSubmission": "2026-08-22T14:23:13.333Z",
-      "rank": 31
+      "rank": 32
     },
     {
       "teamId": 16790306,
@@ -645,7 +665,7 @@
         }
       },
       "lastSubmission": "2026-08-29T13:02:45.457Z",
-      "rank": 32
+      "rank": 33
     },
     {
       "teamId": 16797123,
@@ -665,26 +685,6 @@
         }
       },
       "lastSubmission": "2026-09-01T16:44:02.813Z",
-      "rank": 33
-    },
-    {
-      "teamId": 16726041,
-      "team": "Bhargav Kowshik",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.23381,
-      "best": {
-        "balacc@10": {
-          "value": 0.23381
-        },
-        "balacc@1": {
-          "value": 0.029222222222222226
-        },
-        "ovmi": {
-          "value": 1.0946638054775149
-        }
-      },
-      "lastSubmission": "2026-08-17T10:39:46.003Z",
       "rank": 34
     },
     {
