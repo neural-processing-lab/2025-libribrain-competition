@@ -39,8 +39,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71036,
-      "submissions": 70,
-      "lastSubmission": "2026-09-02T00:06:20.013Z",
+      "submissions": 80,
+      "lastSubmission": "2026-09-03T00:28:47.827Z",
       "members": []
     },
     {
@@ -84,8 +84,8 @@
       "teamId": 16754648,
       "team": "CWBZ",
       "score": 0.6601,
-      "submissions": 23,
-      "lastSubmission": "2026-09-02T19:26:40.110Z",
+      "submissions": 27,
+      "lastSubmission": "2026-09-03T02:25:57.713Z",
       "members": []
     },
     {
@@ -261,6 +261,15 @@
     },
     {
       "rank": 29,
+      "teamId": 16785989,
+      "team": "Jatin Arutla",
+      "score": 0.30998,
+      "submissions": 2,
+      "lastSubmission": "2026-09-03T02:34:19.533Z",
+      "members": []
+    },
+    {
+      "rank": 30,
       "teamId": 16550910,
       "team": "monte-carlo",
       "score": 0.28999,
@@ -269,7 +278,7 @@
       "members": []
     },
     {
-      "rank": 30,
+      "rank": 31,
       "teamId": 16708216,
       "team": "KarahanYilmazer",
       "score": 0.26019,
@@ -278,7 +287,7 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16790306,
       "team": "Fon1as",
       "score": 0.25381,
@@ -287,21 +296,12 @@
       "members": []
     },
     {
-      "rank": 32,
+      "rank": 33,
       "teamId": 16797123,
       "team": "willguido",
       "score": 0.24437,
       "submissions": 4,
       "lastSubmission": "2026-09-01T16:44:02.813Z",
-      "members": []
-    },
-    {
-      "rank": 33,
-      "teamId": 16785989,
-      "team": "Jatin Arutla",
-      "score": 0.23409,
-      "submissions": 1,
-      "lastSubmission": "2026-08-29T00:51:21.627Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1128,
+    "submissions": 1143,
     "best": 0.719,
     "median": 0.62244,
-    "p25": 0.29691,
+    "p25": 0.3119,
     "p75": 0.65556
   },
-  "fetchedAt": "2026-09-03T00:10:26.607Z"
+  "fetchedAt": "2026-09-03T04:17:42.065Z"
 }
