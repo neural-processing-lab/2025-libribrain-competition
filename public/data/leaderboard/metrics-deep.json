@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-03T09:01:06.504Z",
+  "updatedAt": "2026-09-03T13:32:05.663Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 75,
-      "scoredSubmissions": 75,
+      "submissions": 79,
+      "scoredSubmissions": 79,
       "kagglePublicBest": 0.67517,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.0236942149751491
         }
       },
-      "lastSubmission": "2026-09-02T08:19:38.817Z",
+      "lastSubmission": "2026-09-03T12:25:05.367Z",
       "rank": 6
     },
     {
@@ -570,8 +570,8 @@
     {
       "teamId": 16785989,
       "team": "Jatin Arutla",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 3,
+      "scoredSubmissions": 3,
       "kagglePublicBest": 0.30998,
       "best": {
         "balacc@10": {
@@ -584,7 +584,7 @@
           "value": 0.6437194962230355
         }
       },
-      "lastSubmission": "2026-09-03T02:34:19.533Z",
+      "lastSubmission": "2026-09-03T10:29:17.213Z",
       "rank": 29
     },
     {
