@@ -12,8 +12,8 @@
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.719,
-      "submissions": 53,
-      "lastSubmission": "2026-09-04T06:16:13.503Z",
+      "submissions": 55,
+      "lastSubmission": "2026-09-04T12:02:20.353Z",
       "members": []
     },
     {
@@ -27,6 +27,15 @@
     },
     {
       "rank": 3,
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "score": 0.71232,
+      "submissions": 90,
+      "lastSubmission": "2026-09-04T14:22:59.727Z",
+      "members": []
+    },
+    {
+      "rank": 4,
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.71117,
@@ -35,21 +44,12 @@
       "members": []
     },
     {
-      "rank": 4,
+      "rank": 5,
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71036,
       "submissions": 90,
       "lastSubmission": "2026-09-04T01:00:07.893Z",
-      "members": []
-    },
-    {
-      "rank": 5,
-      "teamId": 16685441,
-      "team": "titus fisher",
-      "score": 0.7078,
-      "submissions": 84,
-      "lastSubmission": "2026-09-04T11:10:12.487Z",
       "members": []
     },
     {
@@ -237,8 +237,8 @@
       "teamId": 16785989,
       "team": "Jatin Arutla",
       "score": 0.42978,
-      "submissions": 6,
-      "lastSubmission": "2026-09-04T09:37:41.147Z",
+      "submissions": 8,
+      "lastSubmission": "2026-09-04T14:26:31.150Z",
       "members": []
     },
     {
@@ -289,10 +289,10 @@
     {
       "rank": 32,
       "teamId": 16708216,
-      "team": "KarahanYilmazer",
+      "team": "AutoDecode",
       "score": 0.26019,
-      "submissions": 9,
-      "lastSubmission": "2026-08-22T14:23:13.333Z",
+      "submissions": 10,
+      "lastSubmission": "2026-09-04T13:18:30.197Z",
       "members": []
     },
     {
@@ -327,12 +327,21 @@
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.2,
-      "submissions": 1,
-      "lastSubmission": "2026-09-04T08:11:27.633Z",
+      "submissions": 2,
+      "lastSubmission": "2026-09-04T11:59:17.690Z",
       "members": []
     },
     {
       "rank": 37,
+      "teamId": 16803215,
+      "team": "peperonata",
+      "score": 0.2,
+      "submissions": 2,
+      "lastSubmission": "2026-09-04T13:36:36.803Z",
+      "members": []
+    },
+    {
+      "rank": 38,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -341,7 +350,7 @@
       "members": []
     },
     {
-      "rank": 38,
+      "rank": 39,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -350,7 +359,7 @@
       "members": []
     },
     {
-      "rank": 39,
+      "rank": 40,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -360,12 +369,12 @@
     }
   ],
   "totals": {
-    "teams": 39,
-    "submissions": 1217,
+    "teams": 40,
+    "submissions": 1231,
     "best": 0.719,
-    "median": 0.61525,
-    "p25": 0.30382,
-    "p75": 0.65822
+    "median": 0.6022,
+    "p25": 0.28928,
+    "p75": 0.65728
   },
-  "fetchedAt": "2026-09-04T11:11:54.122Z"
+  "fetchedAt": "2026-09-04T14:55:52.771Z"
 }
