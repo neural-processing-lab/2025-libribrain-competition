@@ -30,8 +30,8 @@
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.71232,
-      "submissions": 90,
-      "lastSubmission": "2026-09-04T14:22:59.727Z",
+      "submissions": 92,
+      "lastSubmission": "2026-09-04T22:34:25.797Z",
       "members": []
     },
     {
@@ -207,20 +207,20 @@
     },
     {
       "rank": 23,
+      "teamId": 16781245,
+      "team": "Connor Finnerty",
+      "score": 0.51909,
+      "submissions": 21,
+      "lastSubmission": "2026-09-04T22:49:42.183Z",
+      "members": []
+    },
+    {
+      "rank": 24,
       "teamId": 16789752,
       "team": "syouya tobita",
       "score": 0.50361,
       "submissions": 5,
       "lastSubmission": "2026-09-03T08:20:27.290Z",
-      "members": []
-    },
-    {
-      "rank": 24,
-      "teamId": 16781245,
-      "team": "Connor Finnerty",
-      "score": 0.45357,
-      "submissions": 19,
-      "lastSubmission": "2026-09-01T13:43:04.487Z",
       "members": []
     },
     {
@@ -370,11 +370,11 @@
   ],
   "totals": {
     "teams": 40,
-    "submissions": 1236,
+    "submissions": 1240,
     "best": 0.719,
     "median": 0.62244,
     "p25": 0.30243,
     "p75": 0.65728
   },
-  "fetchedAt": "2026-09-04T21:58:03.440Z"
+  "fetchedAt": "2026-09-04T23:38:16.159Z"
 }

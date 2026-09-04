@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-04T21:57:21.122Z",
+  "updatedAt": "2026-09-04T23:37:37.067Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 90,
-      "scoredSubmissions": 90,
+      "submissions": 92,
+      "scoredSubmissions": 92,
       "kagglePublicBest": 0.71232,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1174951833859403
         }
       },
-      "lastSubmission": "2026-09-04T14:22:59.727Z",
+      "lastSubmission": "2026-09-04T22:34:25.797Z",
       "rank": 3
     },
     {
@@ -448,6 +448,26 @@
       "rank": 22
     },
     {
+      "teamId": 16781245,
+      "team": "Connor Finnerty",
+      "submissions": 21,
+      "scoredSubmissions": 21,
+      "kagglePublicBest": 0.51909,
+      "best": {
+        "balacc@10": {
+          "value": 0.51909
+        },
+        "balacc@1": {
+          "value": 0.12272438672438671
+        },
+        "ovmi": {
+          "value": 1.0028306647700542
+        }
+      },
+      "lastSubmission": "2026-09-04T22:49:42.183Z",
+      "rank": 23
+    },
+    {
       "teamId": 16789752,
       "team": "syouya tobita",
       "submissions": 5,
@@ -465,26 +485,6 @@
         }
       },
       "lastSubmission": "2026-09-03T08:20:27.290Z",
-      "rank": 23
-    },
-    {
-      "teamId": 16781245,
-      "team": "Connor Finnerty",
-      "submissions": 19,
-      "scoredSubmissions": 19,
-      "kagglePublicBest": 0.45357,
-      "best": {
-        "balacc@10": {
-          "value": 0.45357
-        },
-        "balacc@1": {
-          "value": 0.08416666666666668
-        },
-        "ovmi": {
-          "value": 0.802792806021845
-        }
-      },
-      "lastSubmission": "2026-09-01T13:43:04.487Z",
       "rank": 24
     },
     {
