@@ -12,8 +12,8 @@
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.719,
-      "submissions": 46,
-      "lastSubmission": "2026-09-01T16:36:18.460Z",
+      "submissions": 51,
+      "lastSubmission": "2026-09-04T05:59:08.197Z",
       "members": []
     },
     {
@@ -57,8 +57,8 @@
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.67862,
-      "submissions": 47,
-      "lastSubmission": "2026-09-03T17:35:12.187Z",
+      "submissions": 52,
+      "lastSubmission": "2026-09-04T04:08:19.700Z",
       "members": []
     },
     {
@@ -234,6 +234,15 @@
     },
     {
       "rank": 26,
+      "teamId": 16785989,
+      "team": "Jatin Arutla",
+      "score": 0.37982,
+      "submissions": 5,
+      "lastSubmission": "2026-09-04T03:07:59.477Z",
+      "members": []
+    },
+    {
+      "rank": 27,
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "score": 0.354,
@@ -242,7 +251,7 @@
       "members": []
     },
     {
-      "rank": 27,
+      "rank": 28,
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.33222,
@@ -251,21 +260,12 @@
       "members": []
     },
     {
-      "rank": 28,
+      "rank": 29,
       "teamId": 16782624,
       "team": "Jun Jie Li",
       "score": 0.31765,
       "submissions": 12,
       "lastSubmission": "2026-08-30T17:02:55.297Z",
-      "members": []
-    },
-    {
-      "rank": 29,
-      "teamId": 16785989,
-      "team": "Jatin Arutla",
-      "score": 0.30998,
-      "submissions": 3,
-      "lastSubmission": "2026-09-03T10:29:17.213Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1189,
+    "submissions": 1201,
     "best": 0.719,
     "median": 0.62244,
-    "p25": 0.3119,
+    "p25": 0.32129,
     "p75": 0.65916
   },
-  "fetchedAt": "2026-09-04T01:21:21.526Z"
+  "fetchedAt": "2026-09-04T06:03:52.918Z"
 }
