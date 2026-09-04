@@ -102,8 +102,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.65634,
-      "submissions": 10,
-      "lastSubmission": "2026-09-03T19:41:17.720Z",
+      "submissions": 12,
+      "lastSubmission": "2026-09-04T18:47:35.377Z",
       "members": []
     },
     {
@@ -270,6 +270,15 @@
     },
     {
       "rank": 30,
+      "teamId": 16803215,
+      "team": "peperonata",
+      "score": 0.30658,
+      "submissions": 3,
+      "lastSubmission": "2026-09-04T18:14:01.830Z",
+      "members": []
+    },
+    {
+      "rank": 31,
       "teamId": 16550910,
       "team": "monte-carlo",
       "score": 0.28999,
@@ -278,7 +287,7 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
       "score": 0.28713,
@@ -287,7 +296,7 @@
       "members": []
     },
     {
-      "rank": 32,
+      "rank": 33,
       "teamId": 16708216,
       "team": "AutoDecode",
       "score": 0.26019,
@@ -296,7 +305,7 @@
       "members": []
     },
     {
-      "rank": 33,
+      "rank": 34,
       "teamId": 16790306,
       "team": "Fon1as",
       "score": 0.25381,
@@ -305,7 +314,7 @@
       "members": []
     },
     {
-      "rank": 34,
+      "rank": 35,
       "teamId": 16797123,
       "team": "willguido",
       "score": 0.24437,
@@ -314,7 +323,7 @@
       "members": []
     },
     {
-      "rank": 35,
+      "rank": 36,
       "teamId": 16792873,
       "team": "Nguyen Anh",
       "score": 0.21637,
@@ -323,21 +332,12 @@
       "members": []
     },
     {
-      "rank": 36,
+      "rank": 37,
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.2,
       "submissions": 2,
       "lastSubmission": "2026-09-04T11:59:17.690Z",
-      "members": []
-    },
-    {
-      "rank": 37,
-      "teamId": 16803215,
-      "team": "peperonata",
-      "score": 0.2,
-      "submissions": 2,
-      "lastSubmission": "2026-09-04T13:36:36.803Z",
       "members": []
     },
     {
@@ -370,11 +370,11 @@
   ],
   "totals": {
     "teams": 40,
-    "submissions": 1231,
+    "submissions": 1234,
     "best": 0.719,
     "median": 0.6022,
-    "p25": 0.28928,
+    "p25": 0.30243,
     "p75": 0.65728
   },
-  "fetchedAt": "2026-09-04T14:55:52.771Z"
+  "fetchedAt": "2026-09-04T19:56:51.342Z"
 }
