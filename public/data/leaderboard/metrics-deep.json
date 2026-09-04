@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-04T19:55:53.604Z",
+  "updatedAt": "2026-09-04T21:57:21.122Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -348,6 +348,26 @@
       "rank": 17
     },
     {
+      "teamId": 16785989,
+      "team": "Jatin Arutla",
+      "submissions": 10,
+      "scoredSubmissions": 10,
+      "kagglePublicBest": 0.63993,
+      "best": {
+        "balacc@10": {
+          "value": 0.63993
+        },
+        "balacc@1": {
+          "value": 0.14788888888888888
+        },
+        "ovmi": {
+          "value": 1.0534028803154716
+        }
+      },
+      "lastSubmission": "2026-09-04T21:48:15.317Z",
+      "rank": 18
+    },
+    {
       "teamId": 16607550,
       "team": "Brain King",
       "submissions": 55,
@@ -365,7 +385,7 @@
         }
       },
       "lastSubmission": "2026-09-02T22:48:17.513Z",
-      "rank": 18
+      "rank": 19
     },
     {
       "teamId": 16736164,
@@ -385,7 +405,7 @@
         }
       },
       "lastSubmission": "2026-08-24T00:00:59.787Z",
-      "rank": 19
+      "rank": 20
     },
     {
       "teamId": 16666931,
@@ -405,7 +425,7 @@
         }
       },
       "lastSubmission": "2026-08-14T05:19:58.757Z",
-      "rank": 20
+      "rank": 21
     },
     {
       "teamId": 16771979,
@@ -425,7 +445,7 @@
         }
       },
       "lastSubmission": "2026-09-02T06:52:08.297Z",
-      "rank": 21
+      "rank": 22
     },
     {
       "teamId": 16789752,
@@ -445,7 +465,7 @@
         }
       },
       "lastSubmission": "2026-09-03T08:20:27.290Z",
-      "rank": 22
+      "rank": 23
     },
     {
       "teamId": 16781245,
@@ -465,7 +485,7 @@
         }
       },
       "lastSubmission": "2026-09-01T13:43:04.487Z",
-      "rank": 23
+      "rank": 24
     },
     {
       "teamId": 16571738,
@@ -485,7 +505,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 24
+      "rank": 25
     },
     {
       "teamId": 16774953,
@@ -505,26 +525,6 @@
         }
       },
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "rank": 25
-    },
-    {
-      "teamId": 16785989,
-      "team": "Jatin Arutla",
-      "submissions": 8,
-      "scoredSubmissions": 8,
-      "kagglePublicBest": 0.42978,
-      "best": {
-        "balacc@10": {
-          "value": 0.42978
-        },
-        "balacc@1": {
-          "value": 0.08011111111111109
-        },
-        "ovmi": {
-          "value": 1.0086208855959453
-        }
-      },
-      "lastSubmission": "2026-09-04T14:26:31.150Z",
       "rank": 26
     },
     {
