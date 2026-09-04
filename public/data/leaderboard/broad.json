@@ -159,15 +159,24 @@
       "submissions": 1,
       "lastSubmission": "2026-08-05T04:24:14.117Z",
       "members": []
+    },
+    {
+      "rank": 18,
+      "teamId": 16606357,
+      "team": "Salsinats",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-09-04T08:11:54.777Z",
+      "members": []
     }
   ],
   "totals": {
-    "teams": 17,
-    "submissions": 505,
+    "teams": 18,
+    "submissions": 506,
     "best": 0.717,
-    "median": 0.59734,
-    "p25": 0.31023,
-    "p75": 0.64001
+    "median": 0.57026,
+    "p25": 0.25803,
+    "p75": 0.63907
   },
-  "fetchedAt": "2026-09-04T01:21:21.526Z"
+  "fetchedAt": "2026-09-04T11:11:54.122Z"
 }

@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-04T06:03:37.209Z",
+  "updatedAt": "2026-09-04T11:11:41.090Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16739385,
       "team": "Varshith Madishetty",
-      "submissions": 51,
-      "scoredSubmissions": 51,
+      "submissions": 53,
+      "scoredSubmissions": 53,
       "kagglePublicBest": 0.719,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.1267493266180901
         }
       },
-      "lastSubmission": "2026-09-04T05:59:08.197Z",
+      "lastSubmission": "2026-09-04T06:16:13.503Z",
       "rank": 1
     },
     {
@@ -50,8 +50,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 98,
-      "scoredSubmissions": 98,
+      "submissions": 108,
+      "scoredSubmissions": 108,
       "kagglePublicBest": 0.71117,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-08-30T14:04:18.357Z",
+      "lastSubmission": "2026-09-04T09:58:19.930Z",
       "rank": 3
     },
     {
@@ -90,8 +90,8 @@
     {
       "teamId": 16685441,
       "team": "titus fisher",
-      "submissions": 82,
-      "scoredSubmissions": 82,
+      "submissions": 84,
+      "scoredSubmissions": 84,
       "kagglePublicBest": 0.7078,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.1174951833859403
         }
       },
-      "lastSubmission": "2026-09-02T23:05:35.307Z",
+      "lastSubmission": "2026-09-04T11:10:12.487Z",
       "rank": 5
     },
     {
@@ -510,21 +510,21 @@
     {
       "teamId": 16785989,
       "team": "Jatin Arutla",
-      "submissions": 5,
-      "scoredSubmissions": 5,
-      "kagglePublicBest": 0.37982,
+      "submissions": 6,
+      "scoredSubmissions": 6,
+      "kagglePublicBest": 0.42978,
       "best": {
         "balacc@10": {
-          "value": 0.37982
+          "value": 0.42978
         },
         "balacc@1": {
-          "value": 0.05866666666666667
+          "value": 0.08011111111111109
         },
         "ovmi": {
-          "value": 0.8494504377716748
+          "value": 0.9533305664631514
         }
       },
-      "lastSubmission": "2026-09-04T03:07:59.477Z",
+      "lastSubmission": "2026-09-04T09:37:41.147Z",
       "rank": 26
     },
     {
@@ -708,6 +708,26 @@
       "rank": 35
     },
     {
+      "teamId": 16606355,
+      "team": "Salsinats",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-09-04T08:11:27.633Z",
+      "rank": 36
+    },
+    {
       "teamId": 16605715,
       "team": "lavender_lover",
       "submissions": 3,
@@ -725,7 +745,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 36
+      "rank": 37
     },
     {
       "teamId": 16726510,
@@ -745,7 +765,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 37
+      "rank": 38
     },
     {
       "teamId": 16678093,
@@ -765,7 +785,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 38
+      "rank": 39
     }
   ]
 }

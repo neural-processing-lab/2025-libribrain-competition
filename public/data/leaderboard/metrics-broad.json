@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-04T01:20:56.133Z",
+  "updatedAt": "2026-09-04T11:11:43.218Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -348,6 +348,26 @@
       "rank": 17
     },
     {
+      "teamId": 16606357,
+      "team": "Salsinats",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-09-04T08:11:54.777Z",
+      "rank": 18
+    },
+    {
       "teamId": 16644775,
       "team": "Alireza Karimi",
       "submissions": 1,
@@ -362,7 +382,7 @@
         }
       },
       "lastSubmission": "2026-08-05T15:38:34.470Z",
-      "rank": 18
+      "rank": 19
     }
   ]
 }

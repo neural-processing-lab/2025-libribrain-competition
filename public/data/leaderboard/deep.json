@@ -12,8 +12,8 @@
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.719,
-      "submissions": 51,
-      "lastSubmission": "2026-09-04T05:59:08.197Z",
+      "submissions": 53,
+      "lastSubmission": "2026-09-04T06:16:13.503Z",
       "members": []
     },
     {
@@ -30,8 +30,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.71117,
-      "submissions": 98,
-      "lastSubmission": "2026-08-30T14:04:18.357Z",
+      "submissions": 108,
+      "lastSubmission": "2026-09-04T09:58:19.930Z",
       "members": []
     },
     {
@@ -48,8 +48,8 @@
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.7078,
-      "submissions": 82,
-      "lastSubmission": "2026-09-02T23:05:35.307Z",
+      "submissions": 84,
+      "lastSubmission": "2026-09-04T11:10:12.487Z",
       "members": []
     },
     {
@@ -236,9 +236,9 @@
       "rank": 26,
       "teamId": 16785989,
       "team": "Jatin Arutla",
-      "score": 0.37982,
-      "submissions": 5,
-      "lastSubmission": "2026-09-04T03:07:59.477Z",
+      "score": 0.42978,
+      "submissions": 6,
+      "lastSubmission": "2026-09-04T09:37:41.147Z",
       "members": []
     },
     {
@@ -324,6 +324,15 @@
     },
     {
       "rank": 36,
+      "teamId": 16606355,
+      "team": "Salsinats",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-09-04T08:11:27.633Z",
+      "members": []
+    },
+    {
+      "rank": 37,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -332,7 +341,7 @@
       "members": []
     },
     {
-      "rank": 37,
+      "rank": 38,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -341,7 +350,7 @@
       "members": []
     },
     {
-      "rank": 38,
+      "rank": 39,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -351,12 +360,12 @@
     }
   ],
   "totals": {
-    "teams": 38,
-    "submissions": 1201,
+    "teams": 39,
+    "submissions": 1217,
     "best": 0.719,
-    "median": 0.62244,
-    "p25": 0.32129,
-    "p75": 0.65916
+    "median": 0.61525,
+    "p25": 0.30382,
+    "p75": 0.65822
   },
-  "fetchedAt": "2026-09-04T06:03:52.918Z"
+  "fetchedAt": "2026-09-04T11:11:54.122Z"
 }
