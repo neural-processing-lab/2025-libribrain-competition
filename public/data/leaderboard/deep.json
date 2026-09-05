@@ -111,8 +111,8 @@
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.65628,
-      "submissions": 26,
-      "lastSubmission": "2026-09-05T10:32:00.300Z",
+      "submissions": 29,
+      "lastSubmission": "2026-09-05T18:11:18.880Z",
       "members": []
     },
     {
@@ -153,6 +153,24 @@
     },
     {
       "rank": 17,
+      "teamId": 16607550,
+      "team": "Brain King",
+      "score": 0.64406,
+      "submissions": 60,
+      "lastSubmission": "2026-09-05T17:39:12.050Z",
+      "members": []
+    },
+    {
+      "rank": 18,
+      "teamId": 16785989,
+      "team": "Jatin Arutla",
+      "score": 0.64387,
+      "submissions": 13,
+      "lastSubmission": "2026-09-05T17:32:41.303Z",
+      "members": []
+    },
+    {
+      "rank": 19,
       "teamId": 16791335,
       "team": "Michal",
       "score": 0.64375,
@@ -161,30 +179,12 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 20,
       "teamId": 16703651,
       "team": "@Arnauya",
       "score": 0.64276,
       "submissions": 81,
       "lastSubmission": "2026-08-23T17:59:37.580Z",
-      "members": []
-    },
-    {
-      "rank": 19,
-      "teamId": 16785989,
-      "team": "Jatin Arutla",
-      "score": 0.63993,
-      "submissions": 12,
-      "lastSubmission": "2026-09-05T06:11:47.363Z",
-      "members": []
-    },
-    {
-      "rank": 20,
-      "teamId": 16607550,
-      "team": "Brain King",
-      "score": 0.63625,
-      "submissions": 55,
-      "lastSubmission": "2026-09-02T22:48:17.513Z",
       "members": []
     },
     {
@@ -370,11 +370,11 @@
   ],
   "totals": {
     "teams": 40,
-    "submissions": 1295,
+    "submissions": 1304,
     "best": 0.719,
-    "median": 0.63294,
+    "median": 0.6362,
     "p25": 0.30768,
     "p75": 0.65728
   },
-  "fetchedAt": "2026-09-05T16:00:53.469Z"
+  "fetchedAt": "2026-09-05T18:13:23.725Z"
 }

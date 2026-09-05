@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-05T16:00:26.788Z",
+  "updatedAt": "2026-09-05T18:12:46.625Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "submissions": 139,
-      "scoredSubmissions": 138,
+      "submissions": 140,
+      "scoredSubmissions": 139,
       "kagglePublicBest": 0.71991,
       "best": {
         "balacc@10": {
@@ -21,10 +21,10 @@
           "value": 0.24655403855403854
         },
         "ovmi": {
-          "value": 1.100950482251172
+          "value": 1.1065303436010845
         }
       },
-      "lastSubmission": "2026-09-05T15:33:39.470Z",
+      "lastSubmission": "2026-09-05T16:47:00.980Z",
       "rank": 1
     },
     {
@@ -88,6 +88,26 @@
       "rank": 4
     },
     {
+      "teamId": 16607557,
+      "team": "Brain King",
+      "submissions": 58,
+      "scoredSubmissions": 58,
+      "kagglePublicBest": 0.64291,
+      "best": {
+        "balacc@10": {
+          "value": 0.64291
+        },
+        "balacc@1": {
+          "value": 0.20400865800865803
+        },
+        "ovmi": {
+          "value": 1.1299034794260636
+        }
+      },
+      "lastSubmission": "2026-09-05T17:46:21.987Z",
+      "rank": 5
+    },
+    {
       "teamId": 16680182,
       "team": "Arnauya",
       "submissions": 74,
@@ -105,26 +125,6 @@
         }
       },
       "lastSubmission": "2026-08-22T12:49:04.370Z",
-      "rank": 5
-    },
-    {
-      "teamId": 16607557,
-      "team": "Brain King",
-      "submissions": 53,
-      "scoredSubmissions": 53,
-      "kagglePublicBest": 0.63625,
-      "best": {
-        "balacc@10": {
-          "value": 0.63625
-        },
-        "balacc@1": {
-          "value": 0.20400865800865803
-        },
-        "ovmi": {
-          "value": 1.1299034794260636
-        }
-      },
-      "lastSubmission": "2026-08-29T22:33:44.840Z",
       "rank": 6
     },
     {
