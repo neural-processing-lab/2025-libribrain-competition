@@ -111,8 +111,8 @@
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.65628,
-      "submissions": 29,
-      "lastSubmission": "2026-09-05T18:11:18.880Z",
+      "submissions": 31,
+      "lastSubmission": "2026-09-05T18:17:03.410Z",
       "members": []
     },
     {
@@ -282,8 +282,8 @@
       "teamId": 16803215,
       "team": "peperonata",
       "score": 0.30658,
-      "submissions": 3,
-      "lastSubmission": "2026-09-04T18:14:01.830Z",
+      "submissions": 4,
+      "lastSubmission": "2026-09-05T18:43:30.770Z",
       "members": []
     },
     {
@@ -370,11 +370,11 @@
   ],
   "totals": {
     "teams": 40,
-    "submissions": 1304,
+    "submissions": 1307,
     "best": 0.719,
     "median": 0.6362,
     "p25": 0.30768,
     "p75": 0.65728
   },
-  "fetchedAt": "2026-09-05T18:13:23.725Z"
+  "fetchedAt": "2026-09-05T20:18:37.180Z"
 }

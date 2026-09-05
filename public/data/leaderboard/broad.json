@@ -63,6 +63,15 @@
     },
     {
       "rank": 7,
+      "teamId": 16781247,
+      "team": "Connor Finnerty",
+      "score": 0.639,
+      "submissions": 16,
+      "lastSubmission": "2026-09-05T18:56:10.237Z",
+      "members": []
+    },
+    {
+      "rank": 8,
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "score": 0.62371,
@@ -71,21 +80,12 @@
       "members": []
     },
     {
-      "rank": 8,
+      "rank": 9,
       "teamId": 16593214,
       "team": "MindLink",
       "score": 0.62151,
       "submissions": 22,
       "lastSubmission": "2026-08-24T09:13:57.743Z",
-      "members": []
-    },
-    {
-      "rank": 9,
-      "teamId": 16781247,
-      "team": "Connor Finnerty",
-      "score": 0.61009,
-      "submissions": 12,
-      "lastSubmission": "2026-09-05T11:10:57.147Z",
       "members": []
     },
     {
@@ -172,11 +172,11 @@
   ],
   "totals": {
     "teams": 18,
-    "submissions": 533,
+    "submissions": 537,
     "best": 0.71991,
-    "median": 0.60372,
+    "median": 0.60942,
     "p25": 0.25803,
     "p75": 0.64219
   },
-  "fetchedAt": "2026-09-05T18:13:23.725Z"
+  "fetchedAt": "2026-09-05T20:18:37.180Z"
 }
