@@ -29,9 +29,9 @@
       "rank": 3,
       "teamId": 16779203,
       "team": "ottietjesesakfs",
-      "score": 0.69043,
-      "submissions": 90,
-      "lastSubmission": "2026-09-04T01:01:09.960Z",
+      "score": 0.6961,
+      "submissions": 100,
+      "lastSubmission": "2026-09-05T01:19:35.980Z",
       "members": []
     },
     {
@@ -101,9 +101,9 @@
       "rank": 11,
       "teamId": 16781247,
       "team": "Connor Finnerty",
-      "score": 0.39526,
-      "submissions": 8,
-      "lastSubmission": "2026-09-01T13:41:25.330Z",
+      "score": 0.40691,
+      "submissions": 9,
+      "lastSubmission": "2026-09-05T00:09:53.313Z",
       "members": []
     },
     {
@@ -172,11 +172,11 @@
   ],
   "totals": {
     "teams": 18,
-    "submissions": 507,
+    "submissions": 518,
     "best": 0.717,
     "median": 0.57026,
     "p25": 0.25803,
     "p75": 0.63907
   },
-  "fetchedAt": "2026-09-04T14:55:52.771Z"
+  "fetchedAt": "2026-09-05T01:22:26.446Z"
 }

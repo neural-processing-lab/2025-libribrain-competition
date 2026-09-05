@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-04T23:37:37.067Z",
+  "updatedAt": "2026-09-05T01:21:14.109Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -28,6 +28,26 @@
       "rank": 1
     },
     {
+      "teamId": 16685441,
+      "team": "titus fisher",
+      "submissions": 97,
+      "scoredSubmissions": 97,
+      "kagglePublicBest": 0.71732,
+      "best": {
+        "balacc@10": {
+          "value": 0.71732
+        },
+        "balacc@1": {
+          "value": 0.26796031746031745
+        },
+        "ovmi": {
+          "value": 1.1174951833859403
+        }
+      },
+      "lastSubmission": "2026-09-05T00:07:35.243Z",
+      "rank": 2
+    },
+    {
       "teamId": 16667929,
       "team": "Umur Yıldız",
       "submissions": 110,
@@ -45,33 +65,13 @@
         }
       },
       "lastSubmission": "2026-09-01T09:03:49.560Z",
-      "rank": 2
-    },
-    {
-      "teamId": 16685441,
-      "team": "titus fisher",
-      "submissions": 92,
-      "scoredSubmissions": 92,
-      "kagglePublicBest": 0.71232,
-      "best": {
-        "balacc@10": {
-          "value": 0.71232
-        },
-        "balacc@1": {
-          "value": 0.26796031746031745
-        },
-        "ovmi": {
-          "value": 1.1174951833859403
-        }
-      },
-      "lastSubmission": "2026-09-04T22:34:25.797Z",
       "rank": 3
     },
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 108,
-      "scoredSubmissions": 108,
+      "submissions": 118,
+      "scoredSubmissions": 118,
       "kagglePublicBest": 0.71117,
       "best": {
         "balacc@10": {
@@ -84,27 +84,27 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-04T09:58:19.930Z",
+      "lastSubmission": "2026-09-05T00:08:35.653Z",
       "rank": 4
     },
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 90,
-      "scoredSubmissions": 90,
+      "submissions": 100,
+      "scoredSubmissions": 100,
       "kagglePublicBest": 0.71036,
       "best": {
         "balacc@10": {
           "value": 0.71036
         },
         "balacc@1": {
-          "value": 0.24977056277056278
+          "value": 0.25866738816738816
         },
         "ovmi": {
           "value": 1.1408487520370514
         }
       },
-      "lastSubmission": "2026-09-04T01:00:07.893Z",
+      "lastSubmission": "2026-09-05T01:18:31.830Z",
       "rank": 5
     },
     {
@@ -450,8 +450,8 @@
     {
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "submissions": 21,
-      "scoredSubmissions": 21,
+      "submissions": 22,
+      "scoredSubmissions": 22,
       "kagglePublicBest": 0.51909,
       "best": {
         "balacc@10": {
@@ -464,7 +464,7 @@
           "value": 1.0028306647700542
         }
       },
-      "lastSubmission": "2026-09-04T22:49:42.183Z",
+      "lastSubmission": "2026-09-05T00:02:22.117Z",
       "rank": 23
     },
     {
