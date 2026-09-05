@@ -102,8 +102,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.65634,
-      "submissions": 12,
-      "lastSubmission": "2026-09-04T18:47:35.377Z",
+      "submissions": 13,
+      "lastSubmission": "2026-09-05T06:28:50.183Z",
       "members": []
     },
     {
@@ -165,8 +165,8 @@
       "teamId": 16785989,
       "team": "Jatin Arutla",
       "score": 0.63993,
-      "submissions": 10,
-      "lastSubmission": "2026-09-04T21:48:15.317Z",
+      "submissions": 12,
+      "lastSubmission": "2026-09-05T06:11:47.363Z",
       "members": []
     },
     {
@@ -189,6 +189,15 @@
     },
     {
       "rank": 21,
+      "teamId": 16781245,
+      "team": "Connor Finnerty",
+      "score": 0.61783,
+      "submissions": 23,
+      "lastSubmission": "2026-09-05T09:22:50.373Z",
+      "members": []
+    },
+    {
+      "rank": 22,
       "teamId": 16666931,
       "team": "onlytry",
       "score": 0.61525,
@@ -197,21 +206,12 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.58914,
       "submissions": 29,
       "lastSubmission": "2026-09-02T06:52:08.297Z",
-      "members": []
-    },
-    {
-      "rank": 23,
-      "teamId": 16781245,
-      "team": "Connor Finnerty",
-      "score": 0.51909,
-      "submissions": 22,
-      "lastSubmission": "2026-09-05T00:02:22.117Z",
       "members": []
     },
     {
@@ -370,11 +370,11 @@
   ],
   "totals": {
     "teams": 40,
-    "submissions": 1268,
+    "submissions": 1272,
     "best": 0.719,
-    "median": 0.62244,
+    "median": 0.62373,
     "p25": 0.30243,
     "p75": 0.65728
   },
-  "fetchedAt": "2026-09-05T05:53:34.892Z"
+  "fetchedAt": "2026-09-05T09:31:01.964Z"
 }
