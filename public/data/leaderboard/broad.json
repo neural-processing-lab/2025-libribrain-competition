@@ -81,6 +81,15 @@
     },
     {
       "rank": 9,
+      "teamId": 16781247,
+      "team": "Connor Finnerty",
+      "score": 0.61009,
+      "submissions": 12,
+      "lastSubmission": "2026-09-05T11:10:57.147Z",
+      "members": []
+    },
+    {
+      "rank": 10,
       "teamId": 16768788,
       "team": "MonsieurBadgerCheese",
       "score": 0.59734,
@@ -89,21 +98,12 @@
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 16794004,
       "team": "Sia",
       "score": 0.54318,
       "submissions": 2,
       "lastSubmission": "2026-08-31T08:20:32.163Z",
-      "members": []
-    },
-    {
-      "rank": 11,
-      "teamId": 16781247,
-      "team": "Connor Finnerty",
-      "score": 0.40691,
-      "submissions": 9,
-      "lastSubmission": "2026-09-05T00:09:53.313Z",
       "members": []
     },
     {
@@ -144,6 +144,15 @@
     },
     {
       "rank": 16,
+      "teamId": 16606357,
+      "team": "Salsinats",
+      "score": 0.21897,
+      "submissions": 2,
+      "lastSubmission": "2026-09-05T12:57:37.367Z",
+      "members": []
+    },
+    {
+      "rank": 17,
       "teamId": 16726042,
       "team": "Bhargav Kowshik",
       "score": 0.21871,
@@ -152,31 +161,22 @@
       "members": []
     },
     {
-      "rank": 17,
+      "rank": 18,
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "score": 0.20141,
       "submissions": 1,
       "lastSubmission": "2026-08-05T04:24:14.117Z",
       "members": []
-    },
-    {
-      "rank": 18,
-      "teamId": 16606357,
-      "team": "Salsinats",
-      "score": 0.2,
-      "submissions": 1,
-      "lastSubmission": "2026-09-04T08:11:54.777Z",
-      "members": []
     }
   ],
   "totals": {
     "teams": 18,
-    "submissions": 518,
+    "submissions": 522,
     "best": 0.717,
-    "median": 0.57026,
+    "median": 0.60372,
     "p25": 0.25803,
     "p75": 0.63907
   },
-  "fetchedAt": "2026-09-05T01:22:26.446Z"
+  "fetchedAt": "2026-09-05T13:01:01.279Z"
 }
