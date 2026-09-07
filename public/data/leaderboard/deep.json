@@ -306,20 +306,20 @@
     },
     {
       "rank": 34,
+      "teamId": 16606355,
+      "team": "Salsinats",
+      "score": 0.28835,
+      "submissions": 9,
+      "lastSubmission": "2026-09-07T19:23:14.653Z",
+      "members": []
+    },
+    {
+      "rank": 35,
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
       "score": 0.28713,
       "submissions": 16,
       "lastSubmission": "2026-09-03T17:00:11.500Z",
-      "members": []
-    },
-    {
-      "rank": 35,
-      "teamId": 16606355,
-      "team": "Salsinats",
-      "score": 0.25956,
-      "submissions": 5,
-      "lastSubmission": "2026-09-06T18:58:37.410Z",
       "members": []
     },
     {
@@ -379,11 +379,11 @@
   ],
   "totals": {
     "teams": 41,
-    "submissions": 1424,
+    "submissions": 1428,
     "best": 0.7265,
     "median": 0.62963,
     "p25": 0.31765,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-07T19:08:46.320Z"
+  "fetchedAt": "2026-09-07T21:59:44.947Z"
 }
