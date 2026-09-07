@@ -39,8 +39,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.71117,
-      "submissions": 129,
-      "lastSubmission": "2026-09-07T02:11:52.797Z",
+      "submissions": 131,
+      "lastSubmission": "2026-09-07T09:03:08.553Z",
       "members": []
     },
     {
@@ -209,9 +209,9 @@
       "rank": 23,
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "score": 0.58914,
-      "submissions": 34,
-      "lastSubmission": "2026-09-06T09:22:19.237Z",
+      "score": 0.58963,
+      "submissions": 38,
+      "lastSubmission": "2026-09-07T07:57:05.710Z",
       "members": []
     },
     {
@@ -379,11 +379,11 @@
   ],
   "totals": {
     "teams": 41,
-    "submissions": 1395,
+    "submissions": 1401,
     "best": 0.7265,
     "median": 0.62963,
     "p25": 0.31765,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-07T04:30:53.471Z"
+  "fetchedAt": "2026-09-07T09:41:08.283Z"
 }

@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-07T04:30:36.389Z",
+  "updatedAt": "2026-09-07T09:40:34.456Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 129,
-      "scoredSubmissions": 129,
+      "submissions": 131,
+      "scoredSubmissions": 131,
       "kagglePublicBest": 0.71117,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-07T02:11:52.797Z",
+      "lastSubmission": "2026-09-07T09:03:08.553Z",
       "rank": 4
     },
     {
@@ -450,12 +450,12 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 34,
-      "scoredSubmissions": 33,
-      "kagglePublicBest": 0.58914,
+      "submissions": 38,
+      "scoredSubmissions": 37,
+      "kagglePublicBest": 0.58963,
       "best": {
         "balacc@10": {
-          "value": 0.58914
+          "value": 0.58963
         },
         "balacc@1": {
           "value": 0.18314357864357866
@@ -464,7 +464,7 @@
           "value": 1.0055698765402903
         }
       },
-      "lastSubmission": "2026-09-06T09:22:19.237Z",
+      "lastSubmission": "2026-09-07T07:57:05.710Z",
       "rank": 23
     },
     {
