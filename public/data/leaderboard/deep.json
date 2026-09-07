@@ -39,8 +39,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.71117,
-      "submissions": 131,
-      "lastSubmission": "2026-09-07T09:03:08.553Z",
+      "submissions": 138,
+      "lastSubmission": "2026-09-07T10:20:24.477Z",
       "members": []
     },
     {
@@ -57,8 +57,8 @@
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.6898,
-      "submissions": 50,
-      "lastSubmission": "2026-09-07T01:31:00.747Z",
+      "submissions": 51,
+      "lastSubmission": "2026-09-07T12:50:52.620Z",
       "members": []
     },
     {
@@ -75,8 +75,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.67517,
-      "submissions": 84,
-      "lastSubmission": "2026-09-06T12:19:25.927Z",
+      "submissions": 87,
+      "lastSubmission": "2026-09-07T13:04:06.010Z",
       "members": []
     },
     {
@@ -156,8 +156,8 @@
       "teamId": 16607550,
       "team": "Brain King",
       "score": 0.64406,
-      "submissions": 60,
-      "lastSubmission": "2026-09-05T17:39:12.050Z",
+      "submissions": 70,
+      "lastSubmission": "2026-09-07T15:05:55.077Z",
       "members": []
     },
     {
@@ -219,8 +219,8 @@
       "teamId": 16809002,
       "team": "duck2bin2",
       "score": 0.55538,
-      "submissions": 3,
-      "lastSubmission": "2026-09-06T18:13:30.540Z",
+      "submissions": 4,
+      "lastSubmission": "2026-09-07T12:53:43.570Z",
       "members": []
     },
     {
@@ -379,11 +379,11 @@
   ],
   "totals": {
     "teams": 41,
-    "submissions": 1401,
+    "submissions": 1423,
     "best": 0.7265,
     "median": 0.62963,
     "p25": 0.31765,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-07T09:41:08.283Z"
+  "fetchedAt": "2026-09-07T15:13:32.581Z"
 }

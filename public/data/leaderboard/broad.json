@@ -45,29 +45,29 @@
     },
     {
       "rank": 5,
-      "teamId": 16607557,
-      "team": "Brain King",
-      "score": 0.64291,
-      "submissions": 58,
-      "lastSubmission": "2026-09-05T17:46:21.987Z",
+      "teamId": 16781247,
+      "team": "Connor Finnerty",
+      "score": 0.65125,
+      "submissions": 23,
+      "lastSubmission": "2026-09-07T11:56:09.223Z",
       "members": []
     },
     {
       "rank": 6,
+      "teamId": 16607557,
+      "team": "Brain King",
+      "score": 0.64291,
+      "submissions": 68,
+      "lastSubmission": "2026-09-07T15:10:02.250Z",
+      "members": []
+    },
+    {
+      "rank": 7,
       "teamId": 16680182,
       "team": "Arnauya",
       "score": 0.64001,
       "submissions": 74,
       "lastSubmission": "2026-08-22T12:49:04.370Z",
-      "members": []
-    },
-    {
-      "rank": 7,
-      "teamId": 16781247,
-      "team": "Connor Finnerty",
-      "score": 0.639,
-      "submissions": 20,
-      "lastSubmission": "2026-09-06T12:49:29.507Z",
       "members": []
     },
     {
@@ -172,11 +172,11 @@
   ],
   "totals": {
     "teams": 18,
-    "submissions": 579,
+    "submissions": 592,
     "best": 0.72429,
     "median": 0.60942,
     "p25": 0.25803,
-    "p75": 0.64219
+    "p75": 0.64916
   },
-  "fetchedAt": "2026-09-07T04:30:53.471Z"
+  "fetchedAt": "2026-09-07T15:13:32.581Z"
 }

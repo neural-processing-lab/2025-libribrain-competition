@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-07T09:40:34.456Z",
+  "updatedAt": "2026-09-07T15:12:41.316Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 131,
-      "scoredSubmissions": 131,
+      "submissions": 138,
+      "scoredSubmissions": 138,
       "kagglePublicBest": 0.71117,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-07T09:03:08.553Z",
+      "lastSubmission": "2026-09-07T10:20:24.477Z",
       "rank": 4
     },
     {
@@ -110,8 +110,8 @@
     {
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "submissions": 50,
-      "scoredSubmissions": 50,
+      "submissions": 51,
+      "scoredSubmissions": 51,
       "kagglePublicBest": 0.6898,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.1444217621471164
         }
       },
-      "lastSubmission": "2026-09-07T01:31:00.747Z",
+      "lastSubmission": "2026-09-07T12:50:52.620Z",
       "rank": 6
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 84,
-      "scoredSubmissions": 84,
+      "submissions": 87,
+      "scoredSubmissions": 87,
       "kagglePublicBest": 0.67517,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 1.0236942149751491
         }
       },
-      "lastSubmission": "2026-09-06T12:19:25.927Z",
+      "lastSubmission": "2026-09-07T13:04:06.010Z",
       "rank": 8
     },
     {
@@ -330,8 +330,8 @@
     {
       "teamId": 16607550,
       "team": "Brain King",
-      "submissions": 60,
-      "scoredSubmissions": 60,
+      "submissions": 70,
+      "scoredSubmissions": 70,
       "kagglePublicBest": 0.64406,
       "best": {
         "balacc@10": {
@@ -344,7 +344,7 @@
           "value": 1.1299034794260636
         }
       },
-      "lastSubmission": "2026-09-05T17:39:12.050Z",
+      "lastSubmission": "2026-09-07T15:05:55.077Z",
       "rank": 17
     },
     {
@@ -470,8 +470,8 @@
     {
       "teamId": 16809002,
       "team": "duck2bin2",
-      "submissions": 3,
-      "scoredSubmissions": 3,
+      "submissions": 4,
+      "scoredSubmissions": 4,
       "kagglePublicBest": 0.55538,
       "best": {
         "balacc@10": {
@@ -484,7 +484,7 @@
           "value": 0.8604094735021944
         }
       },
-      "lastSubmission": "2026-09-06T18:13:30.540Z",
+      "lastSubmission": "2026-09-07T12:53:43.570Z",
       "rank": 24
     },
     {
