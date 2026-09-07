@@ -66,8 +66,8 @@
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.67862,
-      "submissions": 54,
-      "lastSubmission": "2026-09-06T08:34:06.997Z",
+      "submissions": 55,
+      "lastSubmission": "2026-09-07T17:20:34.277Z",
       "members": []
     },
     {
@@ -379,11 +379,11 @@
   ],
   "totals": {
     "teams": 41,
-    "submissions": 1423,
+    "submissions": 1424,
     "best": 0.7265,
     "median": 0.62963,
     "p25": 0.31765,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-07T15:13:32.581Z"
+  "fetchedAt": "2026-09-07T19:08:46.320Z"
 }

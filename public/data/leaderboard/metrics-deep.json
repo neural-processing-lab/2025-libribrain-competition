@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-07T15:12:41.316Z",
+  "updatedAt": "2026-09-07T19:08:00.115Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,8 +130,8 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 54,
-      "scoredSubmissions": 54,
+      "submissions": 55,
+      "scoredSubmissions": 55,
       "kagglePublicBest": 0.67862,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.151199840096097
         }
       },
-      "lastSubmission": "2026-09-06T08:34:06.997Z",
+      "lastSubmission": "2026-09-07T17:20:34.277Z",
       "rank": 7
     },
     {
