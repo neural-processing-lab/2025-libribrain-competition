@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-08T02:57:04.135Z",
+  "updatedAt": "2026-09-08T07:39:31.984Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 138,
-      "scoredSubmissions": 138,
+      "submissions": 139,
+      "scoredSubmissions": 139,
       "kagglePublicBest": 0.71117,
       "best": {
         "balacc@10": {
@@ -84,18 +84,18 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-07T10:20:24.477Z",
+      "lastSubmission": "2026-09-08T04:35:00.310Z",
       "rank": 4
     },
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 120,
-      "scoredSubmissions": 120,
-      "kagglePublicBest": 0.71036,
+      "submissions": 130,
+      "scoredSubmissions": 130,
+      "kagglePublicBest": 0.71117,
       "best": {
         "balacc@10": {
-          "value": 0.71036
+          "value": 0.71117
         },
         "balacc@1": {
           "value": 0.25866738816738816
@@ -104,7 +104,7 @@
           "value": 1.159094023043524
         }
       },
-      "lastSubmission": "2026-09-07T00:34:18.147Z",
+      "lastSubmission": "2026-09-08T02:58:19.660Z",
       "rank": 5
     },
     {
@@ -490,21 +490,21 @@
     {
       "teamId": 16789752,
       "team": "syouya tobita",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.53443,
+      "submissions": 9,
+      "scoredSubmissions": 9,
+      "kagglePublicBest": 0.53821,
       "best": {
         "balacc@10": {
-          "value": 0.53443
+          "value": 0.53821
         },
         "balacc@1": {
           "value": 0.12098484848484847
         },
         "ovmi": {
-          "value": 1.0743129399494904
+          "value": 1.1454193158856614
         }
       },
-      "lastSubmission": "2026-09-05T09:57:54.443Z",
+      "lastSubmission": "2026-09-08T07:35:12.467Z",
       "rank": 25
     },
     {
@@ -768,6 +768,46 @@
       "rank": 38
     },
     {
+      "teamId": 16852752,
+      "team": "liuyishj",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-09-08T06:01:24.157Z",
+      "rank": 39
+    },
+    {
+      "teamId": 16672981,
+      "team": "Shriya Patkar",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.195,
+      "best": {
+        "balacc@10": {
+          "value": 0.195
+        },
+        "balacc@1": {
+          "value": 0.024484848484848484
+        },
+        "ovmi": {
+          "value": 0.1998140627033235
+        }
+      },
+      "lastSubmission": "2026-09-08T04:17:51.547Z",
+      "rank": 40
+    },
+    {
       "teamId": 16605715,
       "team": "lavender_lover",
       "submissions": 3,
@@ -785,7 +825,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 39
+      "rank": 41
     },
     {
       "teamId": 16726510,
@@ -805,7 +845,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 40
+      "rank": 42
     },
     {
       "teamId": 16678093,
@@ -825,7 +865,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 41
+      "rank": 43
     }
   ]
 }

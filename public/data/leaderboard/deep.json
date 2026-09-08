@@ -39,17 +39,17 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.71117,
-      "submissions": 138,
-      "lastSubmission": "2026-09-07T10:20:24.477Z",
+      "submissions": 139,
+      "lastSubmission": "2026-09-08T04:35:00.310Z",
       "members": []
     },
     {
       "rank": 5,
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "score": 0.71036,
-      "submissions": 120,
-      "lastSubmission": "2026-09-07T00:34:18.147Z",
+      "score": 0.71117,
+      "submissions": 130,
+      "lastSubmission": "2026-09-08T02:58:19.660Z",
       "members": []
     },
     {
@@ -227,9 +227,9 @@
       "rank": 25,
       "teamId": 16789752,
       "team": "syouya tobita",
-      "score": 0.53443,
-      "submissions": 6,
-      "lastSubmission": "2026-09-05T09:57:54.443Z",
+      "score": 0.53821,
+      "submissions": 9,
+      "lastSubmission": "2026-09-08T07:35:12.467Z",
       "members": []
     },
     {
@@ -351,6 +351,24 @@
     },
     {
       "rank": 39,
+      "teamId": 16852752,
+      "team": "liuyishj",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-09-08T06:01:24.157Z",
+      "members": []
+    },
+    {
+      "rank": 40,
+      "teamId": 16672981,
+      "team": "Shriya Patkar",
+      "score": 0.195,
+      "submissions": 1,
+      "lastSubmission": "2026-09-08T04:17:51.547Z",
+      "members": []
+    },
+    {
+      "rank": 41,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -359,7 +377,7 @@
       "members": []
     },
     {
-      "rank": 40,
+      "rank": 42,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -368,7 +386,7 @@
       "members": []
     },
     {
-      "rank": 41,
+      "rank": 43,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -378,12 +396,12 @@
     }
   ],
   "totals": {
-    "teams": 41,
-    "submissions": 1432,
+    "teams": 43,
+    "submissions": 1448,
     "best": 0.7265,
-    "median": 0.62963,
-    "p25": 0.31765,
-    "p75": 0.6601
+    "median": 0.61525,
+    "p25": 0.29829,
+    "p75": 0.65822
   },
-  "fetchedAt": "2026-09-08T02:57:35.339Z"
+  "fetchedAt": "2026-09-08T07:40:06.577Z"
 }

@@ -29,9 +29,9 @@
       "rank": 3,
       "teamId": 16779203,
       "team": "ottietjesesakfs",
-      "score": 0.7001,
-      "submissions": 120,
-      "lastSubmission": "2026-09-07T00:35:19.053Z",
+      "score": 0.70676,
+      "submissions": 130,
+      "lastSubmission": "2026-09-08T02:59:21.370Z",
       "members": []
     },
     {
@@ -172,11 +172,11 @@
   ],
   "totals": {
     "teams": 18,
-    "submissions": 597,
+    "submissions": 607,
     "best": 0.72429,
     "median": 0.60942,
     "p25": 0.25803,
     "p75": 0.65646
   },
-  "fetchedAt": "2026-09-08T02:57:35.339Z"
+  "fetchedAt": "2026-09-08T07:40:06.577Z"
 }
