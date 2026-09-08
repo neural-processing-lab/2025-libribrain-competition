@@ -227,9 +227,9 @@
       "rank": 25,
       "teamId": 16789752,
       "team": "syouya tobita",
-      "score": 0.53821,
-      "submissions": 9,
-      "lastSubmission": "2026-09-08T07:35:12.467Z",
+      "score": 0.55153,
+      "submissions": 12,
+      "lastSubmission": "2026-09-08T12:41:04.787Z",
       "members": []
     },
     {
@@ -261,6 +261,15 @@
     },
     {
       "rank": 29,
+      "teamId": 16852752,
+      "team": "liuyishj",
+      "score": 0.33427,
+      "submissions": 9,
+      "lastSubmission": "2026-09-08T13:36:42.313Z",
+      "members": []
+    },
+    {
+      "rank": 30,
       "teamId": 16708216,
       "team": "AutoDecode",
       "score": 0.33378,
@@ -269,7 +278,7 @@
       "members": []
     },
     {
-      "rank": 30,
+      "rank": 31,
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.33222,
@@ -278,21 +287,12 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16782624,
       "team": "Jun Jie Li",
       "score": 0.31765,
       "submissions": 12,
       "lastSubmission": "2026-08-30T17:02:55.297Z",
-      "members": []
-    },
-    {
-      "rank": 32,
-      "teamId": 16852752,
-      "team": "liuyishj",
-      "score": 0.31599,
-      "submissions": 6,
-      "lastSubmission": "2026-09-08T11:52:25.463Z",
       "members": []
     },
     {
@@ -397,11 +397,11 @@
   ],
   "totals": {
     "teams": 43,
-    "submissions": 1462,
+    "submissions": 1468,
     "best": 0.7265,
     "median": 0.61525,
-    "p25": 0.31129,
+    "p25": 0.31212,
     "p75": 0.65822
   },
-  "fetchedAt": "2026-09-08T12:16:46.306Z"
+  "fetchedAt": "2026-09-08T16:44:36.937Z"
 }
