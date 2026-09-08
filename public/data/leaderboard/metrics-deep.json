@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-08T16:44:30.984Z",
+  "updatedAt": "2026-09-08T19:35:34.439Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "submissions": 55,
-      "scoredSubmissions": 55,
+      "submissions": 57,
+      "scoredSubmissions": 57,
       "kagglePublicBest": 0.6898,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.1444217621471164
         }
       },
-      "lastSubmission": "2026-09-08T00:05:50.233Z",
+      "lastSubmission": "2026-09-08T18:28:29.183Z",
       "rank": 6
     },
     {
@@ -450,8 +450,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 38,
-      "scoredSubmissions": 37,
+      "submissions": 39,
+      "scoredSubmissions": 38,
       "kagglePublicBest": 0.58963,
       "best": {
         "balacc@10": {
@@ -464,7 +464,7 @@
           "value": 1.0055698765402903
         }
       },
-      "lastSubmission": "2026-09-07T07:57:05.710Z",
+      "lastSubmission": "2026-09-08T18:24:56.207Z",
       "rank": 23
     },
     {
