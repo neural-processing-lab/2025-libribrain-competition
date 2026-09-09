@@ -1,5 +1,5 @@
 ---
-title: "Measuring Progress by Asking: What Can Though-to-Text Interfaces Communicate?"
+title: "Measuring Progress by Asking: What Can Thought-to-Text Interfaces Communicate?"
 date: 2026-09-05T00:00:00Z
 description: "Progress in thought-to-text with speech decoding BCIs is becoming increasingly difficult to compare. How can we standardise scores and measure progress?"
 authors: ["Dulhan Jayalath", "Oiwi Parker Jones"]
