@@ -18,6 +18,15 @@
     },
     {
       "rank": 2,
+      "teamId": 16553979,
+      "team": "MindLink",
+      "score": 0.72117,
+      "submissions": 157,
+      "lastSubmission": "2026-09-09T17:04:44.567Z",
+      "members": []
+    },
+    {
+      "rank": 3,
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.71732,
@@ -26,21 +35,12 @@
       "members": []
     },
     {
-      "rank": 3,
+      "rank": 4,
       "teamId": 16667929,
       "team": "Umur Yıldız",
       "score": 0.7148,
       "submissions": 110,
       "lastSubmission": "2026-09-01T09:03:49.560Z",
-      "members": []
-    },
-    {
-      "rank": 4,
-      "teamId": 16553979,
-      "team": "MindLink",
-      "score": 0.71117,
-      "submissions": 150,
-      "lastSubmission": "2026-09-09T10:20:29.707Z",
       "members": []
     },
     {
@@ -75,8 +75,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.67517,
-      "submissions": 87,
-      "lastSubmission": "2026-09-07T13:04:06.010Z",
+      "submissions": 88,
+      "lastSubmission": "2026-09-09T14:31:24.757Z",
       "members": []
     },
     {
@@ -210,8 +210,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.58963,
-      "submissions": 40,
-      "lastSubmission": "2026-09-08T20:19:08.203Z",
+      "submissions": 42,
+      "lastSubmission": "2026-09-09T16:43:02.603Z",
       "members": []
     },
     {
@@ -228,8 +228,8 @@
       "teamId": 16789752,
       "team": "syouya tobita",
       "score": 0.55153,
-      "submissions": 12,
-      "lastSubmission": "2026-09-08T12:41:04.787Z",
+      "submissions": 13,
+      "lastSubmission": "2026-09-09T14:28:12.730Z",
       "members": []
     },
     {
@@ -406,11 +406,11 @@
   ],
   "totals": {
     "teams": 44,
-    "submissions": 1485,
+    "submissions": 1496,
     "best": 0.7265,
     "median": 0.60244,
     "p25": 0.30243,
     "p75": 0.65728
   },
-  "fetchedAt": "2026-09-09T13:40:37.996Z"
+  "fetchedAt": "2026-09-09T17:15:49.960Z"
 }
