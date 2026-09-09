@@ -39,8 +39,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.71117,
-      "submissions": 148,
-      "lastSubmission": "2026-09-08T12:07:30.977Z",
+      "submissions": 149,
+      "lastSubmission": "2026-09-09T04:51:40.183Z",
       "members": []
     },
     {
@@ -48,8 +48,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71117,
-      "submissions": 130,
-      "lastSubmission": "2026-09-08T02:58:19.660Z",
+      "submissions": 140,
+      "lastSubmission": "2026-09-09T05:00:39.587Z",
       "members": []
     },
     {
@@ -342,6 +342,15 @@
     },
     {
       "rank": 38,
+      "teamId": 16859154,
+      "team": "lsumin12",
+      "score": 0.24881,
+      "submissions": 1,
+      "lastSubmission": "2026-09-09T08:29:46.843Z",
+      "members": []
+    },
+    {
+      "rank": 39,
       "teamId": 16797123,
       "team": "willguido",
       "score": 0.24437,
@@ -350,7 +359,7 @@
       "members": []
     },
     {
-      "rank": 39,
+      "rank": 40,
       "teamId": 16792873,
       "team": "Nguyen Anh",
       "score": 0.21637,
@@ -359,7 +368,7 @@
       "members": []
     },
     {
-      "rank": 40,
+      "rank": 41,
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "score": 0.195,
@@ -368,7 +377,7 @@
       "members": []
     },
     {
-      "rank": 41,
+      "rank": 42,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -377,7 +386,7 @@
       "members": []
     },
     {
-      "rank": 42,
+      "rank": 43,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -386,7 +395,7 @@
       "members": []
     },
     {
-      "rank": 43,
+      "rank": 44,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -396,12 +405,12 @@
     }
   ],
   "totals": {
-    "teams": 43,
-    "submissions": 1472,
+    "teams": 44,
+    "submissions": 1484,
     "best": 0.7265,
-    "median": 0.61525,
-    "p25": 0.31212,
-    "p75": 0.65822
+    "median": 0.60244,
+    "p25": 0.30243,
+    "p75": 0.65728
   },
-  "fetchedAt": "2026-09-08T22:00:50.982Z"
+  "fetchedAt": "2026-09-09T09:09:23.769Z"
 }
