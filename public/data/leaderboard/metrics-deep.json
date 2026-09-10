@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-10T00:09:34.497Z",
+  "updatedAt": "2026-09-10T04:33:31.332Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -48,6 +48,26 @@
       "rank": 2
     },
     {
+      "teamId": 16636411,
+      "team": "Kim",
+      "submissions": 89,
+      "scoredSubmissions": 89,
+      "kagglePublicBest": 0.71916,
+      "best": {
+        "balacc@10": {
+          "value": 0.71916
+        },
+        "balacc@1": {
+          "value": 0.21871500721500722
+        },
+        "ovmi": {
+          "value": 1.0463531539913342
+        }
+      },
+      "lastSubmission": "2026-09-10T03:47:03.543Z",
+      "rank": 3
+    },
+    {
       "teamId": 16685441,
       "team": "titus fisher",
       "submissions": 101,
@@ -65,7 +85,7 @@
         }
       },
       "lastSubmission": "2026-09-06T01:09:33.117Z",
-      "rank": 3
+      "rank": 4
     },
     {
       "teamId": 16667929,
@@ -85,7 +105,7 @@
         }
       },
       "lastSubmission": "2026-09-01T09:03:49.560Z",
-      "rank": 4
+      "rank": 5
     },
     {
       "teamId": 16779211,
@@ -105,7 +125,7 @@
         }
       },
       "lastSubmission": "2026-09-09T05:00:39.587Z",
-      "rank": 5
+      "rank": 6
     },
     {
       "teamId": 16781245,
@@ -125,7 +145,7 @@
         }
       },
       "lastSubmission": "2026-09-09T22:40:08.413Z",
-      "rank": 6
+      "rank": 7
     },
     {
       "teamId": 16790901,
@@ -145,26 +165,6 @@
         }
       },
       "lastSubmission": "2026-09-07T17:20:34.277Z",
-      "rank": 7
-    },
-    {
-      "teamId": 16636411,
-      "team": "Kim",
-      "submissions": 88,
-      "scoredSubmissions": 88,
-      "kagglePublicBest": 0.67517,
-      "best": {
-        "balacc@10": {
-          "value": 0.67517
-        },
-        "balacc@1": {
-          "value": 0.21871500721500722
-        },
-        "ovmi": {
-          "value": 1.0463531539913342
-        }
-      },
-      "lastSubmission": "2026-09-09T14:31:24.757Z",
       "rank": 8
     },
     {
