@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-10T19:37:12.110Z",
+  "updatedAt": "2026-09-10T21:50:47.488Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -810,8 +810,8 @@
     {
       "teamId": 16792950,
       "team": "Amal Messaoud",
-      "submissions": 1,
-      "scoredSubmissions": 1,
+      "submissions": 2,
+      "scoredSubmissions": 2,
       "kagglePublicBest": 0.2,
       "best": {
         "balacc@10": {
@@ -824,7 +824,7 @@
           "value": 0
         }
       },
-      "lastSubmission": "2026-09-10T18:53:47.290Z",
+      "lastSubmission": "2026-09-10T20:22:06.650Z",
       "rank": 41
     },
     {
