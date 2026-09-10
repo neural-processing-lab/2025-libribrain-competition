@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-09T09:08:59.636Z",
+  "updatedAt": "2026-09-10T00:09:36.287Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -68,6 +68,26 @@
       "rank": 3
     },
     {
+      "teamId": 16781247,
+      "team": "Connor Finnerty",
+      "submissions": 32,
+      "scoredSubmissions": 32,
+      "kagglePublicBest": 0.67055,
+      "best": {
+        "balacc@10": {
+          "value": 0.67055
+        },
+        "balacc@1": {
+          "value": 0.2018189033189033
+        },
+        "ovmi": {
+          "value": 1.104709204974351
+        }
+      },
+      "lastSubmission": "2026-09-09T22:56:17.017Z",
+      "rank": 4
+    },
+    {
       "teamId": 16661195,
       "team": "JovanaLab",
       "submissions": 48,
@@ -85,26 +105,6 @@
         }
       },
       "lastSubmission": "2026-08-19T04:51:40.873Z",
-      "rank": 4
-    },
-    {
-      "teamId": 16781247,
-      "team": "Connor Finnerty",
-      "submissions": 26,
-      "scoredSubmissions": 26,
-      "kagglePublicBest": 0.66098,
-      "best": {
-        "balacc@10": {
-          "value": 0.66098
-        },
-        "balacc@1": {
-          "value": 0.19287963887963888
-        },
-        "ovmi": {
-          "value": 1.104709204974351
-        }
-      },
-      "lastSubmission": "2026-09-08T18:30:03.113Z",
       "rank": 5
     },
     {
