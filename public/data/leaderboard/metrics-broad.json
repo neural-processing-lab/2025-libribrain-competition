@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-10T00:09:36.287Z",
+  "updatedAt": "2026-09-10T09:08:11.932Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16779203,
       "team": "ottietjesesakfs",
-      "submissions": 140,
-      "scoredSubmissions": 140,
+      "submissions": 150,
+      "scoredSubmissions": 150,
       "kagglePublicBest": 0.70676,
       "best": {
         "balacc@10": {
@@ -64,14 +64,14 @@
           "value": 1.124938701315816
         }
       },
-      "lastSubmission": "2026-09-09T05:01:40.997Z",
+      "lastSubmission": "2026-09-10T07:18:58.330Z",
       "rank": 3
     },
     {
       "teamId": 16781247,
       "team": "Connor Finnerty",
-      "submissions": 32,
-      "scoredSubmissions": 32,
+      "submissions": 33,
+      "scoredSubmissions": 33,
       "kagglePublicBest": 0.67055,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.104709204974351
         }
       },
-      "lastSubmission": "2026-09-09T22:56:17.017Z",
+      "lastSubmission": "2026-09-10T05:31:27.040Z",
       "rank": 4
     },
     {

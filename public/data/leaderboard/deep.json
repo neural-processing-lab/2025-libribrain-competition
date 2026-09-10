@@ -45,6 +45,15 @@
     },
     {
       "rank": 5,
+      "teamId": 16779211,
+      "team": "ottietjesesakfs",
+      "score": 0.71617,
+      "submissions": 150,
+      "lastSubmission": "2026-09-10T07:17:57.733Z",
+      "members": []
+    },
+    {
+      "rank": 6,
       "teamId": 16667929,
       "team": "Umur Yıldız",
       "score": 0.7148,
@@ -53,21 +62,12 @@
       "members": []
     },
     {
-      "rank": 6,
-      "teamId": 16779211,
-      "team": "ottietjesesakfs",
-      "score": 0.71117,
-      "submissions": 140,
-      "lastSubmission": "2026-09-09T05:00:39.587Z",
-      "members": []
-    },
-    {
       "rank": 7,
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.69554,
-      "submissions": 62,
-      "lastSubmission": "2026-09-09T22:40:08.413Z",
+      "submissions": 63,
+      "lastSubmission": "2026-09-10T05:29:53.340Z",
       "members": []
     },
     {
@@ -216,20 +216,20 @@
     },
     {
       "rank": 24,
+      "teamId": 16789752,
+      "team": "syouya tobita",
+      "score": 0.56585,
+      "submissions": 15,
+      "lastSubmission": "2026-09-10T06:47:05.527Z",
+      "members": []
+    },
+    {
+      "rank": 25,
       "teamId": 16809002,
       "team": "duck2bin2",
       "score": 0.55538,
       "submissions": 4,
       "lastSubmission": "2026-09-07T12:53:43.570Z",
-      "members": []
-    },
-    {
-      "rank": 25,
-      "teamId": 16789752,
-      "team": "syouya tobita",
-      "score": 0.55153,
-      "submissions": 13,
-      "lastSubmission": "2026-09-09T14:28:12.730Z",
       "members": []
     },
     {
@@ -406,11 +406,11 @@
   ],
   "totals": {
     "teams": 44,
-    "submissions": 1503,
+    "submissions": 1516,
     "best": 0.7265,
     "median": 0.60244,
     "p25": 0.30243,
     "p75": 0.65728
   },
-  "fetchedAt": "2026-09-10T04:34:17.194Z"
+  "fetchedAt": "2026-09-10T09:08:58.446Z"
 }
