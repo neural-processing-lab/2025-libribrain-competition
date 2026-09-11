@@ -18,7 +18,7 @@ A couple of competitors brought to our attention that a mapping can be found bet
 
 This was made possible because absolute timing information was included in the released `word_onset_s` metadata. This timing information allows predictions made for subject 0 (deep track) to be aligned to the corresponding indices for other subjects (broad track). We note that the `shuffle_seed` metadata could also be used to unshuffle the isolated-word samples for any subject, allowing them to correspond similarly.
 
-We want to thank the competitors who noticed this and brought it to our attention. This is exactly the kind of community engagement that helps us improve the benchmark and accelerate progress on non-invasive BCIs together.
+We want to thank the competitors who noticed this and brought it to our attention, in particular Umur Yıldız, who identified the exploit and reported it to us. This is exactly the kind of community engagement that helps us improve the benchmark and accelerate progress on non-invasive BCIs together.
 
 ### What this means for your score
 

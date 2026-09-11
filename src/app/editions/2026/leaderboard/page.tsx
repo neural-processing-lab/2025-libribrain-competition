@@ -30,10 +30,10 @@ export default function LeaderboardPage2026() {
             lineHeight: 1.55,
             color: '#78350f'
           }}>
-            <strong>Leaderboard notice:</strong> a mapping between Deep and Broad track labels via the released
-            metadata may have inflated some public Broad track scores. The public leaderboards are not being reset;
-            final rankings will be based on code-reviewed submissions, and using the mapping is not permitted in the
-            final evaluation.{' '}
+            <strong>Leaderboard notice:</strong> Some Broad track leaderboard scores may be affected by cross-track
+            leakage, but final rankings will be code-checked and unaffected by this issue. Using metadata such as{' '}
+            <code>word_onset_s</code> or <code>shuffle_seed</code> to map predictions between tracks will not be
+            permitted in the final evaluation.{' '}
             <Link href="/blog/competition-leaderboard-announcement/" style={{
               color: '#b45309',
               fontWeight: 600,
