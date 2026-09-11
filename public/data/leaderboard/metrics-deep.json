@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-10T23:27:45.279Z",
+  "updatedAt": "2026-09-11T01:17:16.262Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -68,6 +68,26 @@
       "rank": 3
     },
     {
+      "teamId": 16779211,
+      "team": "ottietjesesakfs",
+      "submissions": 160,
+      "scoredSubmissions": 160,
+      "kagglePublicBest": 0.71799,
+      "best": {
+        "balacc@10": {
+          "value": 0.71799
+        },
+        "balacc@1": {
+          "value": 0.25866738816738816
+        },
+        "ovmi": {
+          "value": 1.159094023043524
+        }
+      },
+      "lastSubmission": "2026-09-11T00:34:08.190Z",
+      "rank": 4
+    },
+    {
       "teamId": 16685441,
       "team": "titus fisher",
       "submissions": 101,
@@ -85,26 +105,6 @@
         }
       },
       "lastSubmission": "2026-09-06T01:09:33.117Z",
-      "rank": 4
-    },
-    {
-      "teamId": 16779211,
-      "team": "ottietjesesakfs",
-      "submissions": 150,
-      "scoredSubmissions": 150,
-      "kagglePublicBest": 0.71617,
-      "best": {
-        "balacc@10": {
-          "value": 0.71617
-        },
-        "balacc@1": {
-          "value": 0.25866738816738816
-        },
-        "ovmi": {
-          "value": 1.159094023043524
-        }
-      },
-      "lastSubmission": "2026-09-10T07:17:57.733Z",
       "rank": 5
     },
     {
@@ -470,8 +470,8 @@
     {
       "teamId": 16789752,
       "team": "syouya tobita",
-      "submissions": 15,
-      "scoredSubmissions": 15,
+      "submissions": 16,
+      "scoredSubmissions": 16,
       "kagglePublicBest": 0.56585,
       "best": {
         "balacc@10": {
@@ -484,7 +484,7 @@
           "value": 1.1454193158856614
         }
       },
-      "lastSubmission": "2026-09-10T06:47:05.527Z",
+      "lastSubmission": "2026-09-11T01:12:37.337Z",
       "rank": 24
     },
     {
