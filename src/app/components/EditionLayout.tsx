@@ -173,35 +173,6 @@ export default function EditionLayout({ children, title, subtitle, year = '2025'
         </div>
       </div>
 
-      {/* Competition integrity notice (2026 edition) */}
-      {isCurrent && (
-        <div style={{
-          background: '#fffbeb',
-          borderBottom: '1px solid #fde68a'
-        }}>
-          <div style={{
-            maxWidth: '1200px',
-            margin: '0 auto',
-            padding: '0.75rem clamp(1rem, 4vw, 2rem)',
-            fontSize: '14px',
-            lineHeight: 1.55,
-            color: '#78350f'
-          }}>
-            <strong>Competition integrity notice:</strong> using the released <code>word_onset_s</code> or{' '}
-            <code>shuffle_seed</code> metadata to map Deep track predictions onto Broad track samples is against
-            the rules and will lead to disqualification.{' '}
-            <Link href="/blog/competition-integrity-announcement/" style={{
-              color: '#b45309',
-              fontWeight: 600,
-              textDecoration: 'none',
-              whiteSpace: 'nowrap'
-            }}>
-              Read the full announcement &rarr;
-            </Link>
-          </div>
-        </div>
-      )}
-
       {/* Content */}
       <section style={{
         padding: 'clamp(2rem, 5vw, 3.5rem) clamp(1rem, 4vw, 2rem)',

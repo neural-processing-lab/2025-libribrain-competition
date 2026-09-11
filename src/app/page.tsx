@@ -90,25 +90,6 @@ export default function HomePage() {
                   Decoding language from the brain. An annual challenge pushing the limits of non-invasive neural speech decoding.
                 </p>
 
-                {/* Competition integrity notice */}
-                <p style={{
-                  fontSize: '14px',
-                  lineHeight: 1.55,
-                  color: '#78350f',
-                  background: '#fffbeb',
-                  border: '1px solid #fde68a',
-                  borderRadius: '8px',
-                  padding: '0.6rem 0.9rem',
-                  margin: '0 0 1.5rem 0',
-                  maxWidth: '520px'
-                }}>
-                  <strong>2026 competitors:</strong> please read our{' '}
-                  <Link href="/blog/competition-integrity-announcement/" style={{ color: '#b45309', fontWeight: 600, textDecoration: 'none' }}>
-                    Competition Integrity Announcement
-                  </Link>{' '}
-                  regarding the Broad track leaderboard.
-                </p>
-
                 {/* CTA buttons */}
                 <div style={{
                   display: 'flex',

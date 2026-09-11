@@ -1,5 +1,5 @@
 ---
-title: "Competition Integrity Announcement"
+title: "Competition Leaderboard Announcement"
 date: 2026-09-11T00:00:00Z
 description: "A mapping between deep track and broad track labels was discoverable through released metadata. Using it is against the rules, and offending submissions will be disqualified."
 authors: ["PNPL Organising Team"]
