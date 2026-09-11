@@ -30,9 +30,10 @@ export default function LeaderboardPage2026() {
             lineHeight: 1.55,
             color: '#78350f'
           }}>
-            <strong>Leaderboard notice:</strong> using the released <code>word_onset_s</code> or{' '}
-            <code>shuffle_seed</code> metadata to map Deep track predictions onto Broad track samples is against
-            the rules and will lead to disqualification.{' '}
+            <strong>Leaderboard notice:</strong> a mapping between Deep and Broad track labels via the released
+            metadata may have inflated some public Broad track scores. The public leaderboards are not being reset;
+            final rankings will be based on code-reviewed submissions, and using the mapping is not permitted in the
+            final evaluation.{' '}
             <Link href="/blog/competition-leaderboard-announcement/" style={{
               color: '#b45309',
               fontWeight: 600,
