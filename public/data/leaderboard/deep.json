@@ -21,8 +21,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.72117,
-      "submissions": 158,
-      "lastSubmission": "2026-09-09T17:17:05.673Z",
+      "submissions": 163,
+      "lastSubmission": "2026-09-11T11:06:12.390Z",
       "members": []
     },
     {
@@ -318,8 +318,8 @@
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.28835,
-      "submissions": 9,
-      "lastSubmission": "2026-09-07T19:23:14.653Z",
+      "submissions": 10,
+      "lastSubmission": "2026-09-11T07:09:01.260Z",
       "members": []
     },
     {
@@ -415,11 +415,11 @@
   ],
   "totals": {
     "teams": 45,
-    "submissions": 1537,
+    "submissions": 1543,
     "best": 0.7265,
     "median": 0.58963,
     "p25": 0.28999,
     "p75": 0.65634
   },
-  "fetchedAt": "2026-09-11T01:17:34.416Z"
+  "fetchedAt": "2026-09-11T11:13:25.376Z"
 }
