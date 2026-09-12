@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-12T12:50:54.476Z",
+  "updatedAt": "2026-09-12T15:53:28.324Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -170,8 +170,8 @@
     {
       "teamId": 16809002,
       "team": "noah",
-      "submissions": 5,
-      "scoredSubmissions": 5,
+      "submissions": 6,
+      "scoredSubmissions": 6,
       "kagglePublicBest": 0.67549,
       "best": {
         "balacc@10": {
@@ -181,10 +181,10 @@
           "value": 0.2286031746031746
         },
         "ovmi": {
-          "value": 1.0543607797137797
+          "value": 1.0727103402671574
         }
       },
-      "lastSubmission": "2026-09-11T23:40:51.393Z",
+      "lastSubmission": "2026-09-12T13:47:23.110Z",
       "rank": 9
     },
     {
@@ -470,21 +470,21 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 44,
-      "scoredSubmissions": 43,
+      "submissions": 45,
+      "scoredSubmissions": 44,
       "kagglePublicBest": 0.58963,
       "best": {
         "balacc@10": {
           "value": 0.58963
         },
         "balacc@1": {
-          "value": 0.18314357864357866
+          "value": 0.20735714285714288
         },
         "ovmi": {
-          "value": 1.0055698765402903
+          "value": 1.0658857758528377
         }
       },
-      "lastSubmission": "2026-09-12T09:12:29.587Z",
+      "lastSubmission": "2026-09-12T15:48:47.403Z",
       "rank": 24
     },
     {
