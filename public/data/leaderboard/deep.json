@@ -252,20 +252,20 @@
     },
     {
       "rank": 28,
+      "teamId": 16606355,
+      "team": "Salsinats",
+      "score": 0.39025,
+      "submissions": 12,
+      "lastSubmission": "2026-09-12T17:41:17.497Z",
+      "members": []
+    },
+    {
+      "rank": 29,
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "score": 0.354,
       "submissions": 5,
       "lastSubmission": "2026-08-15T00:09:31.063Z",
-      "members": []
-    },
-    {
-      "rank": 29,
-      "teamId": 16606355,
-      "team": "Salsinats",
-      "score": 0.34918,
-      "submissions": 11,
-      "lastSubmission": "2026-09-12T07:32:26.147Z",
       "members": []
     },
     {
@@ -378,6 +378,15 @@
     },
     {
       "rank": 42,
+      "teamId": 16881692,
+      "team": "Srinivas Calindi",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-09-12T17:18:46.783Z",
+      "members": []
+    },
+    {
+      "rank": 43,
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "score": 0.195,
@@ -386,7 +395,7 @@
       "members": []
     },
     {
-      "rank": 43,
+      "rank": 44,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -395,7 +404,7 @@
       "members": []
     },
     {
-      "rank": 44,
+      "rank": 45,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -404,7 +413,7 @@
       "members": []
     },
     {
-      "rank": 45,
+      "rank": 46,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -414,12 +423,12 @@
     }
   ],
   "totals": {
-    "teams": 45,
-    "submissions": 1564,
+    "teams": 46,
+    "submissions": 1566,
     "best": 0.7265,
-    "median": 0.61525,
-    "p25": 0.30658,
-    "p75": 0.6601
+    "median": 0.60244,
+    "p25": 0.29414,
+    "p75": 0.65916
   },
-  "fetchedAt": "2026-09-12T15:53:44.786Z"
+  "fetchedAt": "2026-09-12T17:54:55.332Z"
 }
