@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-12T05:04:03.789Z",
+  "updatedAt": "2026-09-12T09:14:15.496Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -470,8 +470,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 43,
-      "scoredSubmissions": 42,
+      "submissions": 44,
+      "scoredSubmissions": 43,
       "kagglePublicBest": 0.58963,
       "best": {
         "balacc@10": {
@@ -484,7 +484,7 @@
           "value": 1.0055698765402903
         }
       },
-      "lastSubmission": "2026-09-11T21:07:25.590Z",
+      "lastSubmission": "2026-09-12T09:12:29.587Z",
       "rank": 24
     },
     {
@@ -568,6 +568,26 @@
       "rank": 28
     },
     {
+      "teamId": 16606355,
+      "team": "Salsinats",
+      "submissions": 11,
+      "scoredSubmissions": 11,
+      "kagglePublicBest": 0.34918,
+      "best": {
+        "balacc@10": {
+          "value": 0.34918
+        },
+        "balacc@1": {
+          "value": 0.04481818181818181
+        },
+        "ovmi": {
+          "value": 0.5788398832143227
+        }
+      },
+      "lastSubmission": "2026-09-12T07:32:26.147Z",
+      "rank": 29
+    },
+    {
       "teamId": 16852752,
       "team": "liuyishj",
       "submissions": 9,
@@ -585,7 +605,7 @@
         }
       },
       "lastSubmission": "2026-09-08T13:36:42.313Z",
-      "rank": 29
+      "rank": 30
     },
     {
       "teamId": 16708216,
@@ -605,7 +625,7 @@
         }
       },
       "lastSubmission": "2026-09-06T09:39:27.780Z",
-      "rank": 30
+      "rank": 31
     },
     {
       "teamId": 16510893,
@@ -625,7 +645,7 @@
         }
       },
       "lastSubmission": "2026-08-31T17:41:59.540Z",
-      "rank": 31
+      "rank": 32
     },
     {
       "teamId": 16782624,
@@ -645,7 +665,7 @@
         }
       },
       "lastSubmission": "2026-08-30T17:02:55.297Z",
-      "rank": 32
+      "rank": 33
     },
     {
       "teamId": 16803215,
@@ -665,7 +685,7 @@
         }
       },
       "lastSubmission": "2026-09-05T18:43:30.770Z",
-      "rank": 33
+      "rank": 34
     },
     {
       "teamId": 16550910,
@@ -685,26 +705,6 @@
         }
       },
       "lastSubmission": "2026-07-25T14:13:10.917Z",
-      "rank": 34
-    },
-    {
-      "teamId": 16606355,
-      "team": "Salsinats",
-      "submissions": 10,
-      "scoredSubmissions": 10,
-      "kagglePublicBest": 0.28835,
-      "best": {
-        "balacc@10": {
-          "value": 0.28835
-        },
-        "balacc@1": {
-          "value": 0.03188888888888888
-        },
-        "ovmi": {
-          "value": 0.5788398832143227
-        }
-      },
-      "lastSubmission": "2026-09-11T07:09:01.260Z",
       "rank": 35
     },
     {
