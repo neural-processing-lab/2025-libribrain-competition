@@ -57,8 +57,8 @@
       "teamId": 16607557,
       "team": "Brain King",
       "score": 0.64291,
-      "submissions": 68,
-      "lastSubmission": "2026-09-07T15:10:02.250Z",
+      "submissions": 72,
+      "lastSubmission": "2026-09-12T21:09:29.940Z",
       "members": []
     },
     {
@@ -172,11 +172,11 @@
   ],
   "totals": {
     "teams": 18,
-    "submissions": 658,
+    "submissions": 662,
     "best": 0.72429,
     "median": 0.60942,
     "p25": 0.31534,
     "p75": 0.6612
   },
-  "fetchedAt": "2026-09-12T19:43:25.287Z"
+  "fetchedAt": "2026-09-12T21:39:48.874Z"
 }
