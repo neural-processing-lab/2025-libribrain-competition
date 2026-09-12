@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-12T09:14:15.496Z",
+  "updatedAt": "2026-09-12T12:50:54.476Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -169,7 +169,7 @@
     },
     {
       "teamId": 16809002,
-      "team": "duck2bin2",
+      "team": "noah",
       "submissions": 5,
       "scoredSubmissions": 5,
       "kagglePublicBest": 0.67549,
@@ -630,8 +630,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 78,
-      "scoredSubmissions": 78,
+      "submissions": 80,
+      "scoredSubmissions": 80,
       "kagglePublicBest": 0.33222,
       "best": {
         "balacc@10": {
@@ -644,7 +644,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-08-31T17:41:59.540Z",
+      "lastSubmission": "2026-09-12T10:05:16.320Z",
       "rank": 32
     },
     {
@@ -810,8 +810,8 @@
     {
       "teamId": 16792950,
       "team": "Amal Messaoud",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 3,
+      "scoredSubmissions": 3,
       "kagglePublicBest": 0.2,
       "best": {
         "balacc@10": {
@@ -824,7 +824,7 @@
           "value": 0
         }
       },
-      "lastSubmission": "2026-09-10T20:22:06.650Z",
+      "lastSubmission": "2026-09-12T10:55:49.207Z",
       "rank": 41
     },
     {
