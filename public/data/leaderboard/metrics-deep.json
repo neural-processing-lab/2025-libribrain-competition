@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-13T01:10:54.747Z",
+  "updatedAt": "2026-09-13T11:43:29.725Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,8 +30,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 163,
-      "scoredSubmissions": 163,
+      "submissions": 164,
+      "scoredSubmissions": 164,
       "kagglePublicBest": 0.72117,
       "best": {
         "balacc@10": {
@@ -44,7 +44,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-11T11:06:12.390Z",
+      "lastSubmission": "2026-09-13T08:22:26.547Z",
       "rank": 2
     },
     {
@@ -788,6 +788,26 @@
       "rank": 39
     },
     {
+      "teamId": 16792950,
+      "team": "Amal Messaoud",
+      "submissions": 5,
+      "scoredSubmissions": 5,
+      "kagglePublicBest": 0.23738,
+      "best": {
+        "balacc@10": {
+          "value": 0.23738
+        },
+        "balacc@1": {
+          "value": 0.025
+        },
+        "ovmi": {
+          "value": 0.3157644711388893
+        }
+      },
+      "lastSubmission": "2026-09-13T11:38:13.153Z",
+      "rank": 40
+    },
+    {
       "teamId": 16792873,
       "team": "Nguyen Anh",
       "submissions": 3,
@@ -805,26 +825,6 @@
         }
       },
       "lastSubmission": "2026-08-31T00:59:48.743Z",
-      "rank": 40
-    },
-    {
-      "teamId": 16792950,
-      "team": "Amal Messaoud",
-      "submissions": 3,
-      "scoredSubmissions": 3,
-      "kagglePublicBest": 0.2,
-      "best": {
-        "balacc@10": {
-          "value": 0.2
-        },
-        "balacc@1": {
-          "value": 0.02
-        },
-        "ovmi": {
-          "value": 0
-        }
-      },
-      "lastSubmission": "2026-09-12T10:55:49.207Z",
       "rank": 41
     },
     {
@@ -848,6 +848,26 @@
       "rank": 42
     },
     {
+      "teamId": 16885297,
+      "team": "ML Learner26",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-09-13T07:35:08.203Z",
+      "rank": 43
+    },
+    {
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "submissions": 1,
@@ -865,7 +885,7 @@
         }
       },
       "lastSubmission": "2026-09-08T04:17:51.547Z",
-      "rank": 43
+      "rank": 44
     },
     {
       "teamId": 16605715,
@@ -885,7 +905,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 44
+      "rank": 45
     },
     {
       "teamId": 16726510,
@@ -905,7 +925,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 45
+      "rank": 46
     },
     {
       "teamId": 16678093,
@@ -925,7 +945,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 46
+      "rank": 47
     }
   ]
 }
