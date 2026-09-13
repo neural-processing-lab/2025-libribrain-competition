@@ -363,8 +363,8 @@
       "teamId": 16792950,
       "team": "Amal Messaoud",
       "score": 0.23738,
-      "submissions": 5,
-      "lastSubmission": "2026-09-13T11:38:13.153Z",
+      "submissions": 9,
+      "lastSubmission": "2026-09-13T14:39:56.390Z",
       "members": []
     },
     {
@@ -433,11 +433,11 @@
   ],
   "totals": {
     "teams": 47,
-    "submissions": 1584,
+    "submissions": 1588,
     "best": 0.7265,
     "median": 0.58963,
     "p25": 0.28856,
     "p75": 0.65822
   },
-  "fetchedAt": "2026-09-13T11:44:18.168Z"
+  "fetchedAt": "2026-09-13T15:03:33.268Z"
 }
