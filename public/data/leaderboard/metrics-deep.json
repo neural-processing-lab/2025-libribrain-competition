@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-14T05:09:54.444Z",
+  "updatedAt": "2026-09-14T10:33:55.411Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 99,
-      "scoredSubmissions": 99,
+      "submissions": 100,
+      "scoredSubmissions": 100,
       "kagglePublicBest": 0.74747,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.146874378265943
         }
       },
-      "lastSubmission": "2026-09-14T03:25:36.490Z",
+      "lastSubmission": "2026-09-14T07:28:25.167Z",
       "rank": 1
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "submissions": 68,
-      "scoredSubmissions": 68,
+      "submissions": 76,
+      "scoredSubmissions": 76,
       "kagglePublicBest": 0.69954,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 1.1444217621471164
         }
       },
-      "lastSubmission": "2026-09-14T01:40:57.393Z",
+      "lastSubmission": "2026-09-14T08:53:55.787Z",
       "rank": 8
     },
     {
@@ -828,6 +828,26 @@
       "rank": 41
     },
     {
+      "teamId": 16700843,
+      "team": "kongxuan47",
+      "submissions": 2,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.20545,
+      "best": {
+        "balacc@10": {
+          "value": 0.20545
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-09-14T09:02:08.113Z",
+      "rank": 42
+    },
+    {
       "teamId": 16881692,
       "team": "Srinivas Calindi",
       "submissions": 2,
@@ -845,7 +865,7 @@
         }
       },
       "lastSubmission": "2026-09-12T18:37:59.947Z",
-      "rank": 42
+      "rank": 43
     },
     {
       "teamId": 16885297,
@@ -865,7 +885,7 @@
         }
       },
       "lastSubmission": "2026-09-13T07:35:08.203Z",
-      "rank": 43
+      "rank": 44
     },
     {
       "teamId": 16672981,
@@ -885,7 +905,7 @@
         }
       },
       "lastSubmission": "2026-09-08T04:17:51.547Z",
-      "rank": 44
+      "rank": 45
     },
     {
       "teamId": 16605715,
@@ -905,7 +925,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 45
+      "rank": 46
     },
     {
       "teamId": 16726510,
@@ -925,7 +945,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 46
+      "rank": 47
     },
     {
       "teamId": 16678093,
@@ -945,7 +965,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 47
+      "rank": 48
     }
   ]
 }
