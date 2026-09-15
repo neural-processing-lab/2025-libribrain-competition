@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-15T06:39:17.379Z",
+  "updatedAt": "2026-09-15T12:04:21.500Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 165,
-      "scoredSubmissions": 165,
+      "submissions": 166,
+      "scoredSubmissions": 166,
       "kagglePublicBest": 0.72117,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-14T04:59:15.200Z",
+      "lastSubmission": "2026-09-15T10:03:05.367Z",
       "rank": 4
     },
     {
@@ -170,8 +170,8 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 55,
-      "scoredSubmissions": 55,
+      "submissions": 57,
+      "scoredSubmissions": 57,
       "kagglePublicBest": 0.67862,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 1.151199840096097
         }
       },
-      "lastSubmission": "2026-09-07T17:20:34.277Z",
+      "lastSubmission": "2026-09-15T11:14:10.750Z",
       "rank": 9
     },
     {
@@ -410,8 +410,8 @@
     {
       "teamId": 16791335,
       "team": "Michal",
-      "submissions": 3,
-      "scoredSubmissions": 3,
+      "submissions": 4,
+      "scoredSubmissions": 4,
       "kagglePublicBest": 0.64375,
       "best": {
         "balacc@10": {
@@ -424,7 +424,7 @@
           "value": 1.015914171000606
         }
       },
-      "lastSubmission": "2026-08-30T20:46:09.063Z",
+      "lastSubmission": "2026-09-15T11:47:01.763Z",
       "rank": 21
     },
     {

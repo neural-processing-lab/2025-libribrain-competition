@@ -72,6 +72,15 @@
     },
     {
       "rank": 8,
+      "teamId": 16896113,
+      "team": "Christian Buda",
+      "score": 0.63699,
+      "submissions": 1,
+      "lastSubmission": "2026-09-15T09:51:04.060Z",
+      "members": []
+    },
+    {
+      "rank": 9,
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "score": 0.62371,
@@ -80,7 +89,7 @@
       "members": []
     },
     {
-      "rank": 9,
+      "rank": 10,
       "teamId": 16593214,
       "team": "MindLink",
       "score": 0.62151,
@@ -89,7 +98,7 @@
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 16768788,
       "team": "MonsieurBadgerCheese",
       "score": 0.59734,
@@ -98,7 +107,7 @@
       "members": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "teamId": 16794004,
       "team": "Sia",
       "score": 0.54318,
@@ -107,7 +116,7 @@
       "members": []
     },
     {
-      "rank": 12,
+      "rank": 13,
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.34728,
@@ -116,7 +125,7 @@
       "members": []
     },
     {
-      "rank": 13,
+      "rank": 14,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -125,7 +134,7 @@
       "members": []
     },
     {
-      "rank": 14,
+      "rank": 15,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
@@ -134,7 +143,7 @@
       "members": []
     },
     {
-      "rank": 15,
+      "rank": 16,
       "teamId": 16571739,
       "team": "PNPL-OX",
       "score": 0.24063,
@@ -143,7 +152,7 @@
       "members": []
     },
     {
-      "rank": 16,
+      "rank": 17,
       "teamId": 16571080,
       "team": "SajanKr",
       "score": 0.23089,
@@ -152,7 +161,7 @@
       "members": []
     },
     {
-      "rank": 17,
+      "rank": 18,
       "teamId": 16726042,
       "team": "Bhargav Kowshik",
       "score": 0.21871,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "score": 0.20141,
@@ -171,12 +180,12 @@
     }
   ],
   "totals": {
-    "teams": 18,
-    "submissions": 700,
+    "teams": 19,
+    "submissions": 701,
     "best": 0.72429,
-    "median": 0.60942,
-    "p25": 0.31534,
-    "p75": 0.6612
+    "median": 0.62151,
+    "p25": 0.32044,
+    "p75": 0.65511
   },
-  "fetchedAt": "2026-09-15T01:37:14.575Z"
+  "fetchedAt": "2026-09-15T12:04:57.099Z"
 }

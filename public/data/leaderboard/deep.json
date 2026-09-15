@@ -39,8 +39,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.72117,
-      "submissions": 165,
-      "lastSubmission": "2026-09-14T04:59:15.200Z",
+      "submissions": 166,
+      "lastSubmission": "2026-09-15T10:03:05.367Z",
       "members": []
     },
     {
@@ -84,8 +84,8 @@
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.67862,
-      "submissions": 55,
-      "lastSubmission": "2026-09-07T17:20:34.277Z",
+      "submissions": 57,
+      "lastSubmission": "2026-09-15T11:14:10.750Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16791335,
       "team": "Michal",
       "score": 0.64375,
-      "submissions": 3,
-      "lastSubmission": "2026-08-30T20:46:09.063Z",
+      "submissions": 4,
+      "lastSubmission": "2026-09-15T11:47:01.763Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1647,
+    "submissions": 1651,
     "best": 0.74747,
     "median": 0.58963,
     "p25": 0.25381,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-15T06:40:00.701Z"
+  "fetchedAt": "2026-09-15T12:04:57.099Z"
 }
