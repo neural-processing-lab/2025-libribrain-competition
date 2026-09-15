@@ -93,8 +93,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.6736,
-      "submissions": 33,
-      "lastSubmission": "2026-09-15T15:44:02.440Z",
+      "submissions": 34,
+      "lastSubmission": "2026-09-15T21:32:40.087Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16791335,
       "team": "Michal",
       "score": 0.64375,
-      "submissions": 5,
-      "lastSubmission": "2026-09-15T12:58:20.943Z",
+      "submissions": 6,
+      "lastSubmission": "2026-09-15T21:02:52.113Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1656,
+    "submissions": 1658,
     "best": 0.74747,
     "median": 0.58963,
     "p25": 0.25381,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-15T16:53:36.535Z"
+  "fetchedAt": "2026-09-15T22:28:54.353Z"
 }
