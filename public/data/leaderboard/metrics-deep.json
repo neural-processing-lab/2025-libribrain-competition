@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-16T18:15:45.504Z",
+  "updatedAt": "2026-09-16T21:28:18.671Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,21 +50,21 @@
     {
       "teamId": 16739385,
       "team": "Varshith Madishetty",
-      "submissions": 77,
-      "scoredSubmissions": 77,
+      "submissions": 82,
+      "scoredSubmissions": 82,
       "kagglePublicBest": 0.7265,
       "best": {
         "balacc@10": {
           "value": 0.7265
         },
         "balacc@1": {
-          "value": 0.28887373737373734
+          "value": 0.29137373737373734
         },
         "ovmi": {
           "value": 1.1422372240869738
         }
       },
-      "lastSubmission": "2026-09-16T17:43:21.880Z",
+      "lastSubmission": "2026-09-16T18:42:34.313Z",
       "rank": 3
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "submissions": 77,
-      "scoredSubmissions": 77,
+      "submissions": 78,
+      "scoredSubmissions": 78,
       "kagglePublicBest": 0.69954,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 1.1444217621471164
         }
       },
-      "lastSubmission": "2026-09-15T16:29:51.980Z",
+      "lastSubmission": "2026-09-16T19:36:35.670Z",
       "rank": 8
     },
     {
@@ -670,8 +670,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 85,
-      "scoredSubmissions": 85,
+      "submissions": 88,
+      "scoredSubmissions": 88,
       "kagglePublicBest": 0.33222,
       "best": {
         "balacc@10": {
@@ -684,7 +684,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-09-16T18:14:50.057Z",
+      "lastSubmission": "2026-09-16T19:12:46.307Z",
       "rank": 34
     },
     {
@@ -848,6 +848,26 @@
       "rank": 42
     },
     {
+      "teamId": 16881692,
+      "team": "Srinivas Calindi",
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.21745,
+      "best": {
+        "balacc@10": {
+          "value": 0.21745
+        },
+        "balacc@1": {
+          "value": 0.03727777777777778
+        },
+        "ovmi": {
+          "value": 0.24973724894155835
+        }
+      },
+      "lastSubmission": "2026-09-16T20:49:39Z",
+      "rank": 43
+    },
+    {
       "teamId": 16792873,
       "team": "Nguyen Anh",
       "submissions": 3,
@@ -865,26 +885,6 @@
         }
       },
       "lastSubmission": "2026-08-31T00:59:48.743Z",
-      "rank": 43
-    },
-    {
-      "teamId": 16881692,
-      "team": "Srinivas Calindi",
-      "submissions": 2,
-      "scoredSubmissions": 2,
-      "kagglePublicBest": 0.2,
-      "best": {
-        "balacc@10": {
-          "value": 0.2
-        },
-        "balacc@1": {
-          "value": 0.02
-        },
-        "ovmi": {
-          "value": 0
-        }
-      },
-      "lastSubmission": "2026-09-12T18:37:59.947Z",
       "rank": 44
     },
     {

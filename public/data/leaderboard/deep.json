@@ -30,8 +30,8 @@
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.7265,
-      "submissions": 77,
-      "lastSubmission": "2026-09-16T17:43:21.880Z",
+      "submissions": 82,
+      "lastSubmission": "2026-09-16T18:42:34.313Z",
       "members": []
     },
     {
@@ -75,8 +75,8 @@
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.69954,
-      "submissions": 77,
-      "lastSubmission": "2026-09-15T16:29:51.980Z",
+      "submissions": 78,
+      "lastSubmission": "2026-09-16T19:36:35.670Z",
       "members": []
     },
     {
@@ -309,8 +309,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.33222,
-      "submissions": 85,
-      "lastSubmission": "2026-09-16T18:14:50.057Z",
+      "submissions": 88,
+      "lastSubmission": "2026-09-16T19:12:46.307Z",
       "members": []
     },
     {
@@ -387,20 +387,20 @@
     },
     {
       "rank": 43,
+      "teamId": 16881692,
+      "team": "Srinivas Calindi",
+      "score": 0.21745,
+      "submissions": 4,
+      "lastSubmission": "2026-09-16T20:49:39Z",
+      "members": []
+    },
+    {
+      "rank": 44,
       "teamId": 16792873,
       "team": "Nguyen Anh",
       "score": 0.21637,
       "submissions": 3,
       "lastSubmission": "2026-08-31T00:59:48.743Z",
-      "members": []
-    },
-    {
-      "rank": 44,
-      "teamId": 16881692,
-      "team": "Srinivas Calindi",
-      "score": 0.2,
-      "submissions": 2,
-      "lastSubmission": "2026-09-12T18:37:59.947Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1686,
+    "submissions": 1697,
     "best": 0.74747,
     "median": 0.58963,
     "p25": 0.28713,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-16T18:16:26.820Z"
+  "fetchedAt": "2026-09-16T21:29:08.461Z"
 }
