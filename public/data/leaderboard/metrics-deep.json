@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-16T14:26:39.257Z",
+  "updatedAt": "2026-09-16T18:15:45.504Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16739385,
       "team": "Varshith Madishetty",
-      "submissions": 72,
-      "scoredSubmissions": 72,
+      "submissions": 77,
+      "scoredSubmissions": 77,
       "kagglePublicBest": 0.7265,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1422372240869738
         }
       },
-      "lastSubmission": "2026-09-06T05:46:40.953Z",
+      "lastSubmission": "2026-09-16T17:43:21.880Z",
       "rank": 3
     },
     {
@@ -270,8 +270,8 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 25,
-      "scoredSubmissions": 25,
+      "submissions": 26,
+      "scoredSubmissions": 26,
       "kagglePublicBest": 0.65634,
       "best": {
         "balacc@10": {
@@ -284,7 +284,7 @@
           "value": 1.148594067477857
         }
       },
-      "lastSubmission": "2026-09-16T12:17:27.027Z",
+      "lastSubmission": "2026-09-16T14:49:45.090Z",
       "rank": 14
     },
     {
@@ -670,8 +670,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 81,
-      "scoredSubmissions": 81,
+      "submissions": 85,
+      "scoredSubmissions": 85,
       "kagglePublicBest": 0.33222,
       "best": {
         "balacc@10": {
@@ -684,7 +684,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-09-16T09:13:58.397Z",
+      "lastSubmission": "2026-09-16T18:14:50.057Z",
       "rank": 34
     },
     {

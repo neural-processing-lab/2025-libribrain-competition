@@ -30,8 +30,8 @@
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.7265,
-      "submissions": 72,
-      "lastSubmission": "2026-09-06T05:46:40.953Z",
+      "submissions": 77,
+      "lastSubmission": "2026-09-16T17:43:21.880Z",
       "members": []
     },
     {
@@ -129,8 +129,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.65634,
-      "submissions": 25,
-      "lastSubmission": "2026-09-16T12:17:27.027Z",
+      "submissions": 26,
+      "lastSubmission": "2026-09-16T14:49:45.090Z",
       "members": []
     },
     {
@@ -309,8 +309,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.33222,
-      "submissions": 81,
-      "lastSubmission": "2026-09-16T09:13:58.397Z",
+      "submissions": 85,
+      "lastSubmission": "2026-09-16T18:14:50.057Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1676,
+    "submissions": 1686,
     "best": 0.74747,
     "median": 0.58963,
     "p25": 0.28713,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-16T14:27:06.432Z"
+  "fetchedAt": "2026-09-16T18:16:26.820Z"
 }
