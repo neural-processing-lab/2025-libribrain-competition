@@ -48,8 +48,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 200,
-      "lastSubmission": "2026-09-15T00:19:31.680Z",
+      "submissions": 210,
+      "lastSubmission": "2026-09-16T00:32:00.297Z",
       "members": []
     },
     {
@@ -81,20 +81,20 @@
     },
     {
       "rank": 9,
+      "teamId": 16697258,
+      "team": "Jordan Griffith",
+      "score": 0.69407,
+      "submissions": 36,
+      "lastSubmission": "2026-09-15T23:56:50.853Z",
+      "members": []
+    },
+    {
+      "rank": 10,
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.67862,
       "submissions": 57,
       "lastSubmission": "2026-09-15T11:14:10.750Z",
-      "members": []
-    },
-    {
-      "rank": 10,
-      "teamId": 16697258,
-      "team": "Jordan Griffith",
-      "score": 0.6736,
-      "submissions": 34,
-      "lastSubmission": "2026-09-15T21:32:40.087Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1658,
+    "submissions": 1670,
     "best": 0.74747,
     "median": 0.58963,
     "p25": 0.25381,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-15T22:28:54.353Z"
+  "fetchedAt": "2026-09-16T00:38:14.951Z"
 }

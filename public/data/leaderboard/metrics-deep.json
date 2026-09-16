@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-15T22:28:32.015Z",
+  "updatedAt": "2026-09-16T00:37:35.333Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 200,
-      "scoredSubmissions": 200,
+      "submissions": 210,
+      "scoredSubmissions": 210,
       "kagglePublicBest": 0.71799,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.159094023043524
         }
       },
-      "lastSubmission": "2026-09-15T00:19:31.680Z",
+      "lastSubmission": "2026-09-16T00:32:00.297Z",
       "rank": 5
     },
     {
@@ -168,6 +168,26 @@
       "rank": 8
     },
     {
+      "teamId": 16697258,
+      "team": "Jordan Griffith",
+      "submissions": 36,
+      "scoredSubmissions": 36,
+      "kagglePublicBest": 0.69407,
+      "best": {
+        "balacc@10": {
+          "value": 0.69407
+        },
+        "balacc@1": {
+          "value": 0.23862265512265513
+        },
+        "ovmi": {
+          "value": 1.162760193884767
+        }
+      },
+      "lastSubmission": "2026-09-15T23:56:50.853Z",
+      "rank": 9
+    },
+    {
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "submissions": 57,
@@ -185,26 +205,6 @@
         }
       },
       "lastSubmission": "2026-09-15T11:14:10.750Z",
-      "rank": 9
-    },
-    {
-      "teamId": 16697258,
-      "team": "Jordan Griffith",
-      "submissions": 34,
-      "scoredSubmissions": 34,
-      "kagglePublicBest": 0.6736,
-      "best": {
-        "balacc@10": {
-          "value": 0.6736
-        },
-        "balacc@1": {
-          "value": 0.23862265512265513
-        },
-        "ovmi": {
-          "value": 1.162760193884767
-        }
-      },
-      "lastSubmission": "2026-09-15T21:32:40.087Z",
       "rank": 10
     },
     {
