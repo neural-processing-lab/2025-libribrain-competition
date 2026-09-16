@@ -166,6 +166,8 @@ citations:
       }
 ---
 
+![MEG-XL animation.](/blog/brain-to-text-decoding-with-meg-xl/meg_xl.gif)
+
 Participants in the 2026 PNPL competition ([Mantegna et al. 2026](https://arxiv.org/abs/2609.03231), [https://libribrain.org/](https://libribrain.org/)) have been competing on two largely different tracks. In the first – the “deep” track – the objective is to decode the words that a single subject listened to from their neural activity. This dedicated individual spent more than 80 hours in a MEG scanner listening to stories, podcasts, and other recordings, providing a large volume of training data. However, our ultimate objective is for models to generalise to paralysed patients, for whom collecting 80 hours of data would be difficult, thus necessitating minimising their scanning time. Therefore, the “broad” track examines how successfully models can generalise to 32 different subjects when provided decreasing amounts of fine-tuning data, down to only a few minutes of training data.
 
 This regime, where training data is limited, is a fundamental challenge for brain-to-text. With enough recordings for a single person, a model can gradually learn better representations of their neural activity and improve accordingly ([Özdogan et al. 2025](https://arxiv.org/abs/2506.02098)). In contention with this, future patients should not require spending tens of hours producing training data before a system is useful to them. Ideally, a model should already learn how to generalise to new subjects from prior examples, and require only a small amount of new data to adapt to a new user. This is the motivation for *pre-training*.
