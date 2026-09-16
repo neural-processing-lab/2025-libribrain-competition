@@ -18,8 +18,9 @@ const navItems2025 = [
   { label: 'FAQ', href: '/editions/2025/faq/' },
 ];
 
+// The 2026 overview is the site root; `/editions/2026/` serves the same page (see Overview.tsx).
 const navItems2026 = [
-  { label: 'Overview', href: '/editions/2026/' },
+  { label: 'Overview', href: '/' },
   { label: 'Task', href: '/editions/2026/tracks/' },
   { label: 'Timeline', href: '/editions/2026/timeline/' },
   { label: 'Rules', href: '/editions/2026/rules/' },
@@ -118,7 +119,7 @@ export default function EditionLayout({ children, title, subtitle, year = '2025'
               fontWeight: 400
             }}>
               This edition has concluded.{' '}
-              <Link href="/editions/2026/" style={{
+              <Link href="/" style={{
                 color: '#7c3aed',
                 textDecoration: 'none',
                 fontWeight: 600
@@ -150,7 +151,8 @@ export default function EditionLayout({ children, title, subtitle, year = '2025'
           padding: '0 clamp(1rem, 4vw, 2rem)'
         }}>
           {navItems.map(item => {
-            const isActive = pathname === item.href || pathname === item.href.replace(/\/$/, '');
+            const current = pathname === '/editions/2026' || pathname === '/editions/2026/' ? '/' : pathname;
+            const isActive = current === item.href || current === item.href.replace(/\/$/, '');
             const accentColor = year === '2026' ? '#7c3aed' : '#776885';
             return (
               <Link key={item.href} href={item.href} style={{

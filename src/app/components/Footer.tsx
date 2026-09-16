@@ -66,7 +66,7 @@ export default function Footer() {
             </h4>
             <div style={{ display: 'grid', gap: '0.7rem' }}>
               {[
-                { label: 'Current Edition (2026)', href: '/editions/2026/' },
+                { label: 'Current Edition (2026)', href: '/' },
                 { label: '2025 Edition', href: '/editions/2025/' },
                 { label: 'Blog & News', href: '/blog/' },
                 { label: 'Workshop Papers', href: '/editions/2025/workshop-papers/' },

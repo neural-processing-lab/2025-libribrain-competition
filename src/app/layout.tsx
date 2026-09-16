@@ -22,6 +22,9 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
+  // Canonical/OG URLs resolve against the custom domain on every deployment (the GitHub
+  // project-page mirrors included), so search engines consolidate on libribrain.com.
+  metadataBase: new URL("https://libribrain.com"),
   title: "PNPL Competition | Neural Speech Decoding",
   description: "The PNPL Competition: Decoding language from the brain using MEG data. Built around the LibriBrain100 dataset. Organised by the Parker Jones Neural Processing Lab at Oxford.",
   icons: {

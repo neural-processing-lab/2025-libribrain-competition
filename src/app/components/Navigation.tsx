@@ -85,7 +85,7 @@ export default function Navigation() {
           alignItems: 'center'
         }}>
           {[
-            { label: '2026', href: '/editions/2026/' },
+            { label: '2026', href: '/' },
             { label: '2025', href: '/editions/2025/' },
             { label: 'Blog', href: '/blog/' },
             { label: 'Papers', href: '/editions/2025/workshop-papers/' },
