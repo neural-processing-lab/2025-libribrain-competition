@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-17T16:54:45.198Z",
+  "updatedAt": "2026-09-17T22:28:48.115Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -149,7 +149,7 @@
     },
     {
       "teamId": 16896113,
-      "team": "Christian Buda",
+      "team": "peperonata",
       "submissions": 1,
       "scoredSubmissions": 1,
       "kagglePublicBest": 0.63699,

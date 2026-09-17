@@ -92,9 +92,9 @@
       "rank": 10,
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "score": 0.67862,
-      "submissions": 59,
-      "lastSubmission": "2026-09-17T17:56:45.380Z",
+      "score": 0.68764,
+      "submissions": 66,
+      "lastSubmission": "2026-09-17T21:41:23.237Z",
       "members": []
     },
     {
@@ -129,8 +129,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.65634,
-      "submissions": 31,
-      "lastSubmission": "2026-09-17T15:58:54.957Z",
+      "submissions": 32,
+      "lastSubmission": "2026-09-17T21:07:08.983Z",
       "members": []
     },
     {
@@ -318,8 +318,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.33222,
-      "submissions": 88,
-      "lastSubmission": "2026-09-16T19:12:46.307Z",
+      "submissions": 89,
+      "lastSubmission": "2026-09-17T20:24:34.237Z",
       "members": []
     },
     {
@@ -460,11 +460,11 @@
   ],
   "totals": {
     "teams": 50,
-    "submissions": 1733,
+    "submissions": 1742,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.28785,
     "p75": 0.65916
   },
-  "fetchedAt": "2026-09-17T19:55:22.254Z"
+  "fetchedAt": "2026-09-17T22:29:14.848Z"
 }

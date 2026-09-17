@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-17T19:54:41.120Z",
+  "updatedAt": "2026-09-17T22:28:46.246Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -190,21 +190,21 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 59,
-      "scoredSubmissions": 59,
-      "kagglePublicBest": 0.67862,
+      "submissions": 66,
+      "scoredSubmissions": 66,
+      "kagglePublicBest": 0.68764,
       "best": {
         "balacc@10": {
-          "value": 0.67862
+          "value": 0.68764
         },
         "balacc@1": {
           "value": 0.21565079365079362
         },
         "ovmi": {
-          "value": 1.151199840096097
+          "value": 1.184768600429743
         }
       },
-      "lastSubmission": "2026-09-17T17:56:45.380Z",
+      "lastSubmission": "2026-09-17T21:41:23.237Z",
       "rank": 10
     },
     {
@@ -270,8 +270,8 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 31,
-      "scoredSubmissions": 31,
+      "submissions": 32,
+      "scoredSubmissions": 32,
       "kagglePublicBest": 0.65634,
       "best": {
         "balacc@10": {
@@ -284,7 +284,7 @@
           "value": 1.148594067477857
         }
       },
-      "lastSubmission": "2026-09-17T15:58:54.957Z",
+      "lastSubmission": "2026-09-17T21:07:08.983Z",
       "rank": 14
     },
     {
@@ -690,8 +690,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 88,
-      "scoredSubmissions": 88,
+      "submissions": 89,
+      "scoredSubmissions": 89,
       "kagglePublicBest": 0.33222,
       "best": {
         "balacc@10": {
@@ -704,7 +704,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-09-16T19:12:46.307Z",
+      "lastSubmission": "2026-09-17T20:24:34.237Z",
       "rank": 35
     },
     {
