@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-16T23:42:32.038Z",
+  "updatedAt": "2026-09-17T01:40:45.037Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -588,6 +588,26 @@
       "rank": 29
     },
     {
+      "teamId": 16708216,
+      "team": "AutoDecode",
+      "submissions": 21,
+      "scoredSubmissions": 21,
+      "kagglePublicBest": 0.42301,
+      "best": {
+        "balacc@10": {
+          "value": 0.42301
+        },
+        "balacc@1": {
+          "value": 0.07745310245310245
+        },
+        "ovmi": {
+          "value": 1.0863084209044067
+        }
+      },
+      "lastSubmission": "2026-09-17T01:09:04.920Z",
+      "rank": 30
+    },
+    {
       "teamId": 16606355,
       "team": "Salsinats",
       "submissions": 12,
@@ -605,7 +625,7 @@
         }
       },
       "lastSubmission": "2026-09-12T17:41:17.497Z",
-      "rank": 30
+      "rank": 31
     },
     {
       "teamId": 16516410,
@@ -625,7 +645,7 @@
         }
       },
       "lastSubmission": "2026-08-15T00:09:31.063Z",
-      "rank": 31
+      "rank": 32
     },
     {
       "teamId": 16852752,
@@ -645,26 +665,6 @@
         }
       },
       "lastSubmission": "2026-09-08T13:36:42.313Z",
-      "rank": 32
-    },
-    {
-      "teamId": 16708216,
-      "team": "AutoDecode",
-      "submissions": 20,
-      "scoredSubmissions": 20,
-      "kagglePublicBest": 0.33378,
-      "best": {
-        "balacc@10": {
-          "value": 0.33378
-        },
-        "balacc@1": {
-          "value": 0.07745310245310245
-        },
-        "ovmi": {
-          "value": 1.0863084209044067
-        }
-      },
-      "lastSubmission": "2026-09-13T20:41:37.483Z",
       "rank": 33
     },
     {

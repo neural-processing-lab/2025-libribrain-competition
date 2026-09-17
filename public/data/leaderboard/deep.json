@@ -270,6 +270,15 @@
     },
     {
       "rank": 30,
+      "teamId": 16708216,
+      "team": "AutoDecode",
+      "score": 0.42301,
+      "submissions": 21,
+      "lastSubmission": "2026-09-17T01:09:04.920Z",
+      "members": []
+    },
+    {
+      "rank": 31,
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.39025,
@@ -278,7 +287,7 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "score": 0.354,
@@ -287,21 +296,12 @@
       "members": []
     },
     {
-      "rank": 32,
+      "rank": 33,
       "teamId": 16852752,
       "team": "liuyishj",
       "score": 0.33427,
       "submissions": 9,
       "lastSubmission": "2026-09-08T13:36:42.313Z",
-      "members": []
-    },
-    {
-      "rank": 33,
-      "teamId": 16708216,
-      "team": "AutoDecode",
-      "score": 0.33378,
-      "submissions": 20,
-      "lastSubmission": "2026-09-13T20:41:37.483Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1698,
+    "submissions": 1699,
     "best": 0.74747,
     "median": 0.58963,
     "p25": 0.28713,
     "p75": 0.6601
   },
-  "fetchedAt": "2026-09-16T23:42:33.018Z"
+  "fetchedAt": "2026-09-17T01:41:42.994Z"
 }
