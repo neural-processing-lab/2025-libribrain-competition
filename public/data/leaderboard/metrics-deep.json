@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-17T16:54:43.038Z",
+  "updatedAt": "2026-09-17T19:54:41.120Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16739385,
       "team": "Varshith Madishetty",
-      "submissions": 90,
-      "scoredSubmissions": 90,
+      "submissions": 91,
+      "scoredSubmissions": 91,
       "kagglePublicBest": 0.7265,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1422372240869738
         }
       },
-      "lastSubmission": "2026-09-17T16:52:27.700Z",
+      "lastSubmission": "2026-09-17T17:23:40.387Z",
       "rank": 3
     },
     {
@@ -190,8 +190,8 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 57,
-      "scoredSubmissions": 57,
+      "submissions": 59,
+      "scoredSubmissions": 59,
       "kagglePublicBest": 0.67862,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 1.151199840096097
         }
       },
-      "lastSubmission": "2026-09-15T11:14:10.750Z",
+      "lastSubmission": "2026-09-17T17:56:45.380Z",
       "rank": 10
     },
     {
