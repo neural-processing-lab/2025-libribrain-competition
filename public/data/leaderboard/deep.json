@@ -12,8 +12,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.74747,
-      "submissions": 106,
-      "lastSubmission": "2026-09-15T12:53:10.567Z",
+      "submissions": 107,
+      "lastSubmission": "2026-09-18T17:19:54.040Z",
       "members": []
     },
     {
@@ -30,8 +30,8 @@
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.7265,
-      "submissions": 96,
-      "lastSubmission": "2026-09-18T04:43:54.503Z",
+      "submissions": 101,
+      "lastSubmission": "2026-09-18T18:40:12.883Z",
       "members": []
     },
     {
@@ -120,8 +120,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.66176,
-      "submissions": 39,
-      "lastSubmission": "2026-09-18T16:00:58.233Z",
+      "submissions": 42,
+      "lastSubmission": "2026-09-18T19:19:06.717Z",
       "members": []
     },
     {
@@ -460,11 +460,11 @@
   ],
   "totals": {
     "teams": 50,
-    "submissions": 1787,
+    "submissions": 1796,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.28785,
     "p75": 0.66135
   },
-  "fetchedAt": "2026-09-18T17:18:48.318Z"
+  "fetchedAt": "2026-09-18T19:46:03.226Z"
 }
