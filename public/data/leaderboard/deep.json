@@ -48,8 +48,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 39,
-      "lastSubmission": "2026-09-18T01:10:11.913Z",
+      "submissions": 41,
+      "lastSubmission": "2026-09-18T16:57:39.343Z",
       "members": []
     },
     {
@@ -117,20 +117,20 @@
     },
     {
       "rank": 13,
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "score": 0.66176,
+      "submissions": 39,
+      "lastSubmission": "2026-09-18T16:00:58.233Z",
+      "members": []
+    },
+    {
+      "rank": 14,
       "teamId": 16754648,
       "team": "CWBZ",
       "score": 0.6601,
       "submissions": 33,
       "lastSubmission": "2026-09-03T08:48:42.743Z",
-      "members": []
-    },
-    {
-      "rank": 14,
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "score": 0.65634,
-      "submissions": 32,
-      "lastSubmission": "2026-09-17T21:07:08.983Z",
       "members": []
     },
     {
@@ -279,20 +279,20 @@
     },
     {
       "rank": 31,
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "score": 0.43275,
+      "submissions": 99,
+      "lastSubmission": "2026-09-18T14:28:51.633Z",
+      "members": []
+    },
+    {
+      "rank": 32,
       "teamId": 16708216,
       "team": "AutoDecode",
       "score": 0.42301,
       "submissions": 22,
       "lastSubmission": "2026-09-17T14:57:29.050Z",
-      "members": []
-    },
-    {
-      "rank": 32,
-      "teamId": 16510893,
-      "team": "MindReaders2.0",
-      "score": 0.41679,
-      "submissions": 98,
-      "lastSubmission": "2026-09-18T12:45:47.927Z",
       "members": []
     },
     {
@@ -460,11 +460,11 @@
   ],
   "totals": {
     "teams": 50,
-    "submissions": 1777,
+    "submissions": 1787,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.28785,
-    "p75": 0.65916
+    "p75": 0.66135
   },
-  "fetchedAt": "2026-09-18T13:48:33.148Z"
+  "fetchedAt": "2026-09-18T17:18:48.318Z"
 }

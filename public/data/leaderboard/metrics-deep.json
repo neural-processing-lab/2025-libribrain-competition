@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-18T13:47:44.859Z",
+  "updatedAt": "2026-09-18T17:17:53.572Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 39,
-      "scoredSubmissions": 39,
+      "submissions": 41,
+      "scoredSubmissions": 41,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.162760193884767
         }
       },
-      "lastSubmission": "2026-09-18T01:10:11.913Z",
+      "lastSubmission": "2026-09-18T16:57:39.343Z",
       "rank": 5
     },
     {
@@ -248,6 +248,26 @@
       "rank": 12
     },
     {
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "submissions": 39,
+      "scoredSubmissions": 39,
+      "kagglePublicBest": 0.66176,
+      "best": {
+        "balacc@10": {
+          "value": 0.66176
+        },
+        "balacc@1": {
+          "value": 0.25896825396825396
+        },
+        "ovmi": {
+          "value": 1.148594067477857
+        }
+      },
+      "lastSubmission": "2026-09-18T16:00:58.233Z",
+      "rank": 13
+    },
+    {
       "teamId": 16754648,
       "team": "CWBZ",
       "submissions": 33,
@@ -265,26 +285,6 @@
         }
       },
       "lastSubmission": "2026-09-03T08:48:42.743Z",
-      "rank": 13
-    },
-    {
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "submissions": 32,
-      "scoredSubmissions": 32,
-      "kagglePublicBest": 0.65634,
-      "best": {
-        "balacc@10": {
-          "value": 0.65634
-        },
-        "balacc@1": {
-          "value": 0.25896825396825396
-        },
-        "ovmi": {
-          "value": 1.148594067477857
-        }
-      },
-      "lastSubmission": "2026-09-17T21:07:08.983Z",
       "rank": 14
     },
     {
@@ -608,6 +608,26 @@
       "rank": 30
     },
     {
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "submissions": 99,
+      "scoredSubmissions": 99,
+      "kagglePublicBest": 0.43275,
+      "best": {
+        "balacc@10": {
+          "value": 0.43275
+        },
+        "balacc@1": {
+          "value": 0.07400000000000001
+        },
+        "ovmi": {
+          "value": 0.9441229570027905
+        }
+      },
+      "lastSubmission": "2026-09-18T14:28:51.633Z",
+      "rank": 31
+    },
+    {
       "teamId": 16708216,
       "team": "AutoDecode",
       "submissions": 22,
@@ -625,26 +645,6 @@
         }
       },
       "lastSubmission": "2026-09-17T14:57:29.050Z",
-      "rank": 31
-    },
-    {
-      "teamId": 16510893,
-      "team": "MindReaders2.0",
-      "submissions": 98,
-      "scoredSubmissions": 98,
-      "kagglePublicBest": 0.41679,
-      "best": {
-        "balacc@10": {
-          "value": 0.41679
-        },
-        "balacc@1": {
-          "value": 0.07400000000000001
-        },
-        "ovmi": {
-          "value": 0.9441229570027905
-        }
-      },
-      "lastSubmission": "2026-09-18T12:45:47.927Z",
       "rank": 32
     },
     {
