@@ -93,8 +93,8 @@
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
-      "submissions": 72,
-      "lastSubmission": "2026-09-18T08:02:44.420Z",
+      "submissions": 73,
+      "lastSubmission": "2026-09-18T09:58:08.237Z",
       "members": []
     },
     {
@@ -288,6 +288,15 @@
     },
     {
       "rank": 32,
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "score": 0.41679,
+      "submissions": 98,
+      "lastSubmission": "2026-09-18T12:45:47.927Z",
+      "members": []
+    },
+    {
+      "rank": 33,
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.39025,
@@ -296,7 +305,7 @@
       "members": []
     },
     {
-      "rank": 33,
+      "rank": 34,
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "score": 0.354,
@@ -305,21 +314,12 @@
       "members": []
     },
     {
-      "rank": 34,
+      "rank": 35,
       "teamId": 16852752,
       "team": "liuyishj",
       "score": 0.33427,
       "submissions": 9,
       "lastSubmission": "2026-09-08T13:36:42.313Z",
-      "members": []
-    },
-    {
-      "rank": 35,
-      "teamId": 16510893,
-      "team": "MindReaders2.0",
-      "score": 0.33222,
-      "submissions": 92,
-      "lastSubmission": "2026-09-18T06:34:31.913Z",
       "members": []
     },
     {
@@ -460,11 +460,11 @@
   ],
   "totals": {
     "teams": 50,
-    "submissions": 1770,
+    "submissions": 1777,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.28785,
     "p75": 0.65916
   },
-  "fetchedAt": "2026-09-18T09:40:58.071Z"
+  "fetchedAt": "2026-09-18T13:48:33.148Z"
 }

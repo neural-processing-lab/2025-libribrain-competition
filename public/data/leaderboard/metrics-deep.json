@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-18T09:40:42.159Z",
+  "updatedAt": "2026-09-18T13:47:44.859Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -190,8 +190,8 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 72,
-      "scoredSubmissions": 72,
+      "submissions": 73,
+      "scoredSubmissions": 73,
       "kagglePublicBest": 0.68764,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 1.184768600429743
         }
       },
-      "lastSubmission": "2026-09-18T08:02:44.420Z",
+      "lastSubmission": "2026-09-18T09:58:08.237Z",
       "rank": 10
     },
     {
@@ -628,6 +628,26 @@
       "rank": 31
     },
     {
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "submissions": 98,
+      "scoredSubmissions": 98,
+      "kagglePublicBest": 0.41679,
+      "best": {
+        "balacc@10": {
+          "value": 0.41679
+        },
+        "balacc@1": {
+          "value": 0.07400000000000001
+        },
+        "ovmi": {
+          "value": 0.9441229570027905
+        }
+      },
+      "lastSubmission": "2026-09-18T12:45:47.927Z",
+      "rank": 32
+    },
+    {
       "teamId": 16606355,
       "team": "Salsinats",
       "submissions": 12,
@@ -645,7 +665,7 @@
         }
       },
       "lastSubmission": "2026-09-12T17:41:17.497Z",
-      "rank": 32
+      "rank": 33
     },
     {
       "teamId": 16516410,
@@ -665,7 +685,7 @@
         }
       },
       "lastSubmission": "2026-08-15T00:09:31.063Z",
-      "rank": 33
+      "rank": 34
     },
     {
       "teamId": 16852752,
@@ -685,26 +705,6 @@
         }
       },
       "lastSubmission": "2026-09-08T13:36:42.313Z",
-      "rank": 34
-    },
-    {
-      "teamId": 16510893,
-      "team": "MindReaders2.0",
-      "submissions": 92,
-      "scoredSubmissions": 92,
-      "kagglePublicBest": 0.33222,
-      "best": {
-        "balacc@10": {
-          "value": 0.33222
-        },
-        "balacc@1": {
-          "value": 0.07400000000000001
-        },
-        "ovmi": {
-          "value": 0.9441229570027905
-        }
-      },
-      "lastSubmission": "2026-09-18T06:34:31.913Z",
       "rank": 35
     },
     {
