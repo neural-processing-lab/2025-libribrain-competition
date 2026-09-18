@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-18T05:09:31.476Z",
+  "updatedAt": "2026-09-18T09:40:42.159Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 210,
-      "scoredSubmissions": 210,
+      "submissions": 220,
+      "scoredSubmissions": 220,
       "kagglePublicBest": 0.71799,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.159094023043524
         }
       },
-      "lastSubmission": "2026-09-16T00:32:00.297Z",
+      "lastSubmission": "2026-09-18T07:22:20.960Z",
       "rank": 6
     },
     {
@@ -190,8 +190,8 @@
     {
       "teamId": 16790901,
       "team": "Infera-Neuro",
-      "submissions": 67,
-      "scoredSubmissions": 67,
+      "submissions": 72,
+      "scoredSubmissions": 72,
       "kagglePublicBest": 0.68764,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 1.184768600429743
         }
       },
-      "lastSubmission": "2026-09-18T03:58:06.103Z",
+      "lastSubmission": "2026-09-18T08:02:44.420Z",
       "rank": 10
     },
     {
@@ -230,8 +230,8 @@
     {
       "teamId": 16803215,
       "team": "peperonata",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 14,
+      "scoredSubmissions": 14,
       "kagglePublicBest": 0.66486,
       "best": {
         "balacc@10": {
@@ -244,7 +244,7 @@
           "value": 1.1567105561571356
         }
       },
-      "lastSubmission": "2026-09-15T06:06:15.700Z",
+      "lastSubmission": "2026-09-18T09:02:21.300Z",
       "rank": 12
     },
     {
@@ -530,8 +530,8 @@
     {
       "teamId": 16789752,
       "team": "syouya tobita",
-      "submissions": 17,
-      "scoredSubmissions": 17,
+      "submissions": 18,
+      "scoredSubmissions": 18,
       "kagglePublicBest": 0.56585,
       "best": {
         "balacc@10": {
@@ -544,7 +544,7 @@
           "value": 1.1454193158856614
         }
       },
-      "lastSubmission": "2026-09-15T14:11:19.947Z",
+      "lastSubmission": "2026-09-18T08:42:52.997Z",
       "rank": 27
     },
     {
@@ -690,8 +690,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 89,
-      "scoredSubmissions": 89,
+      "submissions": 92,
+      "scoredSubmissions": 92,
       "kagglePublicBest": 0.33222,
       "best": {
         "balacc@10": {
@@ -704,7 +704,7 @@
           "value": 0.9441229570027905
         }
       },
-      "lastSubmission": "2026-09-17T20:24:34.237Z",
+      "lastSubmission": "2026-09-18T06:34:31.913Z",
       "rank": 35
     },
     {

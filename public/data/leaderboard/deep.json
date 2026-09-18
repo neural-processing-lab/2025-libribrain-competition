@@ -57,8 +57,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 210,
-      "lastSubmission": "2026-09-16T00:32:00.297Z",
+      "submissions": 220,
+      "lastSubmission": "2026-09-18T07:22:20.960Z",
       "members": []
     },
     {
@@ -93,8 +93,8 @@
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
-      "submissions": 67,
-      "lastSubmission": "2026-09-18T03:58:06.103Z",
+      "submissions": 72,
+      "lastSubmission": "2026-09-18T08:02:44.420Z",
       "members": []
     },
     {
@@ -111,8 +111,8 @@
       "teamId": 16803215,
       "team": "peperonata",
       "score": 0.66486,
-      "submissions": 13,
-      "lastSubmission": "2026-09-15T06:06:15.700Z",
+      "submissions": 14,
+      "lastSubmission": "2026-09-18T09:02:21.300Z",
       "members": []
     },
     {
@@ -246,8 +246,8 @@
       "teamId": 16789752,
       "team": "syouya tobita",
       "score": 0.56585,
-      "submissions": 17,
-      "lastSubmission": "2026-09-15T14:11:19.947Z",
+      "submissions": 18,
+      "lastSubmission": "2026-09-18T08:42:52.997Z",
       "members": []
     },
     {
@@ -318,8 +318,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.33222,
-      "submissions": 89,
-      "lastSubmission": "2026-09-17T20:24:34.237Z",
+      "submissions": 92,
+      "lastSubmission": "2026-09-18T06:34:31.913Z",
       "members": []
     },
     {
@@ -460,11 +460,11 @@
   ],
   "totals": {
     "teams": 50,
-    "submissions": 1750,
+    "submissions": 1770,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.28785,
     "p75": 0.65916
   },
-  "fetchedAt": "2026-09-18T05:09:49.819Z"
+  "fetchedAt": "2026-09-18T09:40:58.071Z"
 }
