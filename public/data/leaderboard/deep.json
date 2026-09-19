@@ -120,8 +120,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.66176,
-      "submissions": 42,
-      "lastSubmission": "2026-09-18T19:19:06.717Z",
+      "submissions": 47,
+      "lastSubmission": "2026-09-19T12:43:25.883Z",
       "members": []
     },
     {
@@ -432,6 +432,15 @@
     },
     {
       "rank": 48,
+      "teamId": 16880458,
+      "team": "Akshat",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-09-19T13:46:28.407Z",
+      "members": []
+    },
+    {
+      "rank": 49,
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "score": 0.195,
@@ -440,7 +449,7 @@
       "members": []
     },
     {
-      "rank": 49,
+      "rank": 50,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -449,7 +458,7 @@
       "members": []
     },
     {
-      "rank": 50,
+      "rank": 51,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -458,7 +467,7 @@
       "members": []
     },
     {
-      "rank": 51,
+      "rank": 52,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -468,12 +477,12 @@
     }
   ],
   "totals": {
-    "teams": 51,
-    "submissions": 1832,
+    "teams": 52,
+    "submissions": 1838,
     "best": 0.74747,
-    "median": 0.58963,
-    "p25": 0.28856,
-    "p75": 0.66093
+    "median": 0.57956,
+    "p25": 0.2788,
+    "p75": 0.66051
   },
-  "fetchedAt": "2026-09-19T11:34:13.861Z"
+  "fetchedAt": "2026-09-19T14:46:11.054Z"
 }

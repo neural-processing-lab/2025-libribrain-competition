@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-19T11:33:49.087Z",
+  "updatedAt": "2026-09-19T14:45:51.091Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -250,8 +250,8 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 42,
-      "scoredSubmissions": 42,
+      "submissions": 47,
+      "scoredSubmissions": 47,
       "kagglePublicBest": 0.66176,
       "best": {
         "balacc@10": {
@@ -264,7 +264,7 @@
           "value": 1.148594067477857
         }
       },
-      "lastSubmission": "2026-09-18T19:19:06.717Z",
+      "lastSubmission": "2026-09-19T12:43:25.883Z",
       "rank": 13
     },
     {
@@ -948,6 +948,26 @@
       "rank": 47
     },
     {
+      "teamId": 16880458,
+      "team": "Akshat",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-09-19T13:46:28.407Z",
+      "rank": 48
+    },
+    {
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "submissions": 1,
@@ -965,7 +985,7 @@
         }
       },
       "lastSubmission": "2026-09-08T04:17:51.547Z",
-      "rank": 48
+      "rank": 49
     },
     {
       "teamId": 16605715,
@@ -985,7 +1005,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 49
+      "rank": 50
     },
     {
       "teamId": 16726510,
@@ -1005,7 +1025,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 50
+      "rank": 51
     },
     {
       "teamId": 16678093,
@@ -1025,7 +1045,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 51
+      "rank": 52
     }
   ]
 }
