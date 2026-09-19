@@ -171,6 +171,15 @@
     },
     {
       "rank": 19,
+      "teamId": 16906911,
+      "team": "Iepure Toni",
+      "score": 0.21405,
+      "submissions": 1,
+      "lastSubmission": "2026-09-19T09:57:27.450Z",
+      "members": []
+    },
+    {
+      "rank": 20,
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "score": 0.20141,
@@ -180,12 +189,12 @@
     }
   ],
   "totals": {
-    "teams": 19,
-    "submissions": 746,
+    "teams": 20,
+    "submissions": 747,
     "best": 0.72429,
-    "median": 0.62151,
-    "p25": 0.32044,
-    "p75": 0.65511
+    "median": 0.60942,
+    "p25": 0.29283,
+    "p75": 0.64901
   },
-  "fetchedAt": "2026-09-19T06:44:56.569Z"
+  "fetchedAt": "2026-09-19T11:34:13.861Z"
 }

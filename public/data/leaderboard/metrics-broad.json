@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-19T06:44:49.119Z",
+  "updatedAt": "2026-09-19T11:33:50.649Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -368,6 +368,26 @@
       "rank": 18
     },
     {
+      "teamId": 16906911,
+      "team": "Iepure Toni",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.21405,
+      "best": {
+        "balacc@10": {
+          "value": 0.21405
+        },
+        "balacc@1": {
+          "value": 0.03509644059644059
+        },
+        "ovmi": {
+          "value": 0.18436616564496353
+        }
+      },
+      "lastSubmission": "2026-09-19T09:57:27.450Z",
+      "rank": 19
+    },
+    {
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "submissions": 1,
@@ -385,7 +405,7 @@
         }
       },
       "lastSubmission": "2026-08-05T04:24:14.117Z",
-      "rank": 19
+      "rank": 20
     },
     {
       "teamId": 16644775,
@@ -402,7 +422,7 @@
         }
       },
       "lastSubmission": "2026-08-05T15:38:34.470Z",
-      "rank": 20
+      "rank": 21
     },
     {
       "teamId": 16881690,
@@ -419,7 +439,7 @@
         }
       },
       "lastSubmission": "2026-09-12T17:08:17.783Z",
-      "rank": 21
+      "rank": 22
     }
   ]
 }
