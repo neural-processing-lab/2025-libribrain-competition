@@ -72,20 +72,20 @@
     },
     {
       "rank": 8,
+      "teamId": 16697275,
+      "team": "Jordan Griffith",
+      "score": 0.63946,
+      "submissions": 11,
+      "lastSubmission": "2026-09-19T22:50:41.530Z",
+      "members": []
+    },
+    {
+      "rank": 9,
       "teamId": 16896113,
       "team": "peperonata",
       "score": 0.63699,
       "submissions": 1,
       "lastSubmission": "2026-09-15T09:51:04.060Z",
-      "members": []
-    },
-    {
-      "rank": 9,
-      "teamId": 16697275,
-      "team": "Jordan Griffith",
-      "score": 0.62371,
-      "submissions": 9,
-      "lastSubmission": "2026-08-16T04:30:49.080Z",
       "members": []
     },
     {
@@ -190,11 +190,11 @@
   ],
   "totals": {
     "teams": 20,
-    "submissions": 747,
+    "submissions": 749,
     "best": 0.72429,
     "median": 0.60942,
     "p25": 0.29283,
     "p75": 0.64901
   },
-  "fetchedAt": "2026-09-19T11:34:13.861Z"
+  "fetchedAt": "2026-09-19T23:33:19.916Z"
 }
