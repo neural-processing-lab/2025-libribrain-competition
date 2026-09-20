@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-20T15:12:17.168Z",
+  "updatedAt": "2026-09-20T18:11:10.780Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 50,
-      "scoredSubmissions": 50,
+      "submissions": 56,
+      "scoredSubmissions": 56,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.162760193884767
         }
       },
-      "lastSubmission": "2026-09-20T00:43:54.823Z",
+      "lastSubmission": "2026-09-20T17:37:45.740Z",
       "rank": 5
     },
     {
@@ -210,12 +210,12 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 51,
-      "scoredSubmissions": 51,
-      "kagglePublicBest": 0.67693,
+      "submissions": 56,
+      "scoredSubmissions": 56,
+      "kagglePublicBest": 0.6796,
       "best": {
         "balacc@10": {
-          "value": 0.67693
+          "value": 0.6796
         },
         "balacc@1": {
           "value": 0.25896825396825396
@@ -224,7 +224,7 @@
           "value": 1.148594067477857
         }
       },
-      "lastSubmission": "2026-09-20T15:03:43.793Z",
+      "lastSubmission": "2026-09-20T15:28:44.210Z",
       "rank": 11
     },
     {
@@ -570,21 +570,21 @@
     {
       "teamId": 16927504,
       "team": "cfw21w2",
-      "submissions": 4,
-      "scoredSubmissions": 4,
+      "submissions": 6,
+      "scoredSubmissions": 6,
       "kagglePublicBest": 0.4624,
       "best": {
         "balacc@10": {
           "value": 0.4624
         },
         "balacc@1": {
-          "value": 0.06935714285714285
+          "value": 0.07506493506493507
         },
         "ovmi": {
-          "value": 0.8315997692682457
+          "value": 0.9183484287222785
         }
       },
-      "lastSubmission": "2026-09-20T12:10:11.850Z",
+      "lastSubmission": "2026-09-20T16:19:56.303Z",
       "rank": 29
     },
     {
@@ -708,6 +708,26 @@
       "rank": 35
     },
     {
+      "teamId": 16928493,
+      "team": "NJUersgogogo",
+      "submissions": 8,
+      "scoredSubmissions": 8,
+      "kagglePublicBest": 0.36855,
+      "best": {
+        "balacc@10": {
+          "value": 0.36855
+        },
+        "balacc@1": {
+          "value": 0.06069047619047619
+        },
+        "ovmi": {
+          "value": 0.8549450625805959
+        }
+      },
+      "lastSubmission": "2026-09-20T15:44:30.303Z",
+      "rank": 36
+    },
+    {
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "submissions": 5,
@@ -725,7 +745,7 @@
         }
       },
       "lastSubmission": "2026-08-15T00:09:31.063Z",
-      "rank": 36
+      "rank": 37
     },
     {
       "teamId": 16852752,
@@ -745,7 +765,7 @@
         }
       },
       "lastSubmission": "2026-09-08T13:36:42.313Z",
-      "rank": 37
+      "rank": 38
     },
     {
       "teamId": 16782624,
@@ -765,7 +785,7 @@
         }
       },
       "lastSubmission": "2026-08-30T17:02:55.297Z",
-      "rank": 38
+      "rank": 39
     },
     {
       "teamId": 16550910,
@@ -785,7 +805,7 @@
         }
       },
       "lastSubmission": "2026-07-25T14:13:10.917Z",
-      "rank": 39
+      "rank": 40
     },
     {
       "teamId": 16726041,
@@ -805,7 +825,7 @@
         }
       },
       "lastSubmission": "2026-09-03T17:00:11.500Z",
-      "rank": 40
+      "rank": 41
     },
     {
       "teamId": 16790306,
@@ -825,26 +845,6 @@
         }
       },
       "lastSubmission": "2026-08-29T13:02:45.457Z",
-      "rank": 41
-    },
-    {
-      "teamId": 16928493,
-      "team": "NJUersgogogo",
-      "submissions": 7,
-      "scoredSubmissions": 7,
-      "kagglePublicBest": 0.25056,
-      "best": {
-        "balacc@10": {
-          "value": 0.25056
-        },
-        "balacc@1": {
-          "value": 0.024444444444444442
-        },
-        "ovmi": {
-          "value": 0.5574465822523249
-        }
-      },
-      "lastSubmission": "2026-09-20T13:08:28.277Z",
       "rank": 42
     },
     {

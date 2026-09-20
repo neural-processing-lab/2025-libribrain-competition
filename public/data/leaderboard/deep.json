@@ -48,8 +48,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 50,
-      "lastSubmission": "2026-09-20T00:43:54.823Z",
+      "submissions": 56,
+      "lastSubmission": "2026-09-20T17:37:45.740Z",
       "members": []
     },
     {
@@ -101,9 +101,9 @@
       "rank": 11,
       "teamId": 16784614,
       "team": "dav0dea",
-      "score": 0.67693,
-      "submissions": 51,
-      "lastSubmission": "2026-09-20T15:03:43.793Z",
+      "score": 0.6796,
+      "submissions": 56,
+      "lastSubmission": "2026-09-20T15:28:44.210Z",
       "members": []
     },
     {
@@ -264,8 +264,8 @@
       "teamId": 16927504,
       "team": "cfw21w2",
       "score": 0.4624,
-      "submissions": 4,
-      "lastSubmission": "2026-09-20T12:10:11.850Z",
+      "submissions": 6,
+      "lastSubmission": "2026-09-20T16:19:56.303Z",
       "members": []
     },
     {
@@ -324,6 +324,15 @@
     },
     {
       "rank": 36,
+      "teamId": 16928493,
+      "team": "NJUersgogogo",
+      "score": 0.36855,
+      "submissions": 8,
+      "lastSubmission": "2026-09-20T15:44:30.303Z",
+      "members": []
+    },
+    {
+      "rank": 37,
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "score": 0.354,
@@ -332,7 +341,7 @@
       "members": []
     },
     {
-      "rank": 37,
+      "rank": 38,
       "teamId": 16852752,
       "team": "liuyishj",
       "score": 0.33427,
@@ -341,7 +350,7 @@
       "members": []
     },
     {
-      "rank": 38,
+      "rank": 39,
       "teamId": 16782624,
       "team": "Jun Jie Li",
       "score": 0.31765,
@@ -350,7 +359,7 @@
       "members": []
     },
     {
-      "rank": 39,
+      "rank": 40,
       "teamId": 16550910,
       "team": "monte-carlo",
       "score": 0.28999,
@@ -359,7 +368,7 @@
       "members": []
     },
     {
-      "rank": 40,
+      "rank": 41,
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
       "score": 0.28713,
@@ -368,21 +377,12 @@
       "members": []
     },
     {
-      "rank": 41,
+      "rank": 42,
       "teamId": 16790306,
       "team": "Fon1as",
       "score": 0.25381,
       "submissions": 1,
       "lastSubmission": "2026-08-29T13:02:45.457Z",
-      "members": []
-    },
-    {
-      "rank": 42,
-      "teamId": 16928493,
-      "team": "NJUersgogogo",
-      "score": 0.25056,
-      "submissions": 7,
-      "lastSubmission": "2026-09-20T13:08:28.277Z",
       "members": []
     },
     {
@@ -496,11 +496,11 @@
   ],
   "totals": {
     "teams": 54,
-    "submissions": 1890,
+    "submissions": 1904,
     "best": 0.74747,
     "median": 0.56766,
-    "p25": 0.26214,
+    "p25": 0.28785,
     "p75": 0.65903
   },
-  "fetchedAt": "2026-09-20T15:12:38.553Z"
+  "fetchedAt": "2026-09-20T18:11:49.005Z"
 }
