@@ -18,20 +18,20 @@
     },
     {
       "rank": 2,
+      "teamId": 16739385,
+      "team": "Varshith Madishetty",
+      "score": 0.73717,
+      "submissions": 112,
+      "lastSubmission": "2026-09-20T01:36:34.673Z",
+      "members": []
+    },
+    {
+      "rank": 3,
       "teamId": 16809002,
       "team": "noah",
       "score": 0.72728,
       "submissions": 8,
       "lastSubmission": "2026-09-13T16:00:31.287Z",
-      "members": []
-    },
-    {
-      "rank": 3,
-      "teamId": 16739385,
-      "team": "Varshith Madishetty",
-      "score": 0.7265,
-      "submissions": 111,
-      "lastSubmission": "2026-09-19T07:44:02.500Z",
       "members": []
     },
     {
@@ -57,8 +57,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 230,
-      "lastSubmission": "2026-09-19T02:12:26.810Z",
+      "submissions": 240,
+      "lastSubmission": "2026-09-20T03:25:16.273Z",
       "members": []
     },
     {
@@ -93,8 +93,8 @@
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
-      "submissions": 74,
-      "lastSubmission": "2026-09-18T20:06:10.797Z",
+      "submissions": 75,
+      "lastSubmission": "2026-09-20T05:32:22.400Z",
       "members": []
     },
     {
@@ -478,11 +478,11 @@
   ],
   "totals": {
     "teams": 52,
-    "submissions": 1850,
+    "submissions": 1862,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.2788,
     "p75": 0.66051
   },
-  "fetchedAt": "2026-09-20T01:35:41.647Z"
+  "fetchedAt": "2026-09-20T06:57:57.304Z"
 }

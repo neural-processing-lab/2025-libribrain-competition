@@ -30,8 +30,8 @@
       "teamId": 16779203,
       "team": "ottietjesesakfs",
       "score": 0.70899,
-      "submissions": 230,
-      "lastSubmission": "2026-09-19T02:13:30.677Z",
+      "submissions": 240,
+      "lastSubmission": "2026-09-20T03:26:15.620Z",
       "members": []
     },
     {
@@ -171,6 +171,15 @@
     },
     {
       "rank": 19,
+      "teamId": 16927415,
+      "team": "cfw21w2",
+      "score": 0.21604,
+      "submissions": 1,
+      "lastSubmission": "2026-09-20T06:19:16.483Z",
+      "members": []
+    },
+    {
+      "rank": 20,
       "teamId": 16906911,
       "team": "Iepure Toni",
       "score": 0.21405,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "score": 0.20141,
@@ -189,12 +198,12 @@
     }
   ],
   "totals": {
-    "teams": 20,
-    "submissions": 749,
+    "teams": 21,
+    "submissions": 760,
     "best": 0.72429,
-    "median": 0.60942,
-    "p25": 0.29283,
-    "p75": 0.64901
+    "median": 0.59734,
+    "p25": 0.24063,
+    "p75": 0.64291
   },
-  "fetchedAt": "2026-09-19T23:33:19.916Z"
+  "fetchedAt": "2026-09-20T06:57:57.304Z"
 }

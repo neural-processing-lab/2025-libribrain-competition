@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-19T23:32:18.002Z",
+  "updatedAt": "2026-09-20T06:57:00.836Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16779203,
       "team": "ottietjesesakfs",
-      "submissions": 230,
-      "scoredSubmissions": 230,
+      "submissions": 240,
+      "scoredSubmissions": 240,
       "kagglePublicBest": 0.70899,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.124938701315816
         }
       },
-      "lastSubmission": "2026-09-19T02:13:30.677Z",
+      "lastSubmission": "2026-09-20T03:26:15.620Z",
       "rank": 3
     },
     {
@@ -368,6 +368,26 @@
       "rank": 18
     },
     {
+      "teamId": 16927415,
+      "team": "cfw21w2",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.21604,
+      "best": {
+        "balacc@10": {
+          "value": 0.21604
+        },
+        "balacc@1": {
+          "value": 0.022905779405779408
+        },
+        "ovmi": {
+          "value": 0.08133746591501129
+        }
+      },
+      "lastSubmission": "2026-09-20T06:19:16.483Z",
+      "rank": 19
+    },
+    {
       "teamId": 16906911,
       "team": "Iepure Toni",
       "submissions": 1,
@@ -385,7 +405,7 @@
         }
       },
       "lastSubmission": "2026-09-19T09:57:27.450Z",
-      "rank": 19
+      "rank": 20
     },
     {
       "teamId": 16580487,
@@ -405,7 +425,7 @@
         }
       },
       "lastSubmission": "2026-08-05T04:24:14.117Z",
-      "rank": 20
+      "rank": 21
     },
     {
       "teamId": 16644775,
@@ -422,7 +442,7 @@
         }
       },
       "lastSubmission": "2026-08-05T15:38:34.470Z",
-      "rank": 21
+      "rank": 22
     },
     {
       "teamId": 16881690,
@@ -439,7 +459,7 @@
         }
       },
       "lastSubmission": "2026-09-12T17:08:17.783Z",
-      "rank": 22
+      "rank": 23
     }
   ]
 }
