@@ -102,8 +102,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.6796,
-      "submissions": 56,
-      "lastSubmission": "2026-09-20T15:28:44.210Z",
+      "submissions": 57,
+      "lastSubmission": "2026-09-20T21:59:25.387Z",
       "members": []
     },
     {
@@ -263,9 +263,9 @@
       "rank": 29,
       "teamId": 16927504,
       "team": "cfw21w2",
-      "score": 0.4624,
-      "submissions": 6,
-      "lastSubmission": "2026-09-20T16:19:56.303Z",
+      "score": 0.55376,
+      "submissions": 7,
+      "lastSubmission": "2026-09-20T22:06:23.340Z",
       "members": []
     },
     {
@@ -496,11 +496,11 @@
   ],
   "totals": {
     "teams": 54,
-    "submissions": 1905,
+    "submissions": 1907,
     "best": 0.74747,
     "median": 0.56766,
     "p25": 0.28785,
     "p75": 0.65903
   },
-  "fetchedAt": "2026-09-20T20:45:47.226Z"
+  "fetchedAt": "2026-09-20T22:45:29.012Z"
 }
