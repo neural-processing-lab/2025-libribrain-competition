@@ -11,9 +11,9 @@
       "rank": 1,
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "score": 0.72429,
-      "submissions": 160,
-      "lastSubmission": "2026-09-18T05:18:10.210Z",
+      "score": 0.72477,
+      "submissions": 168,
+      "lastSubmission": "2026-09-20T11:22:40.537Z",
       "members": []
     },
     {
@@ -120,8 +120,8 @@
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.34728,
-      "submissions": 10,
-      "lastSubmission": "2026-09-12T18:16:50.487Z",
+      "submissions": 12,
+      "lastSubmission": "2026-09-20T10:55:23.123Z",
       "members": []
     },
     {
@@ -144,6 +144,15 @@
     },
     {
       "rank": 16,
+      "teamId": 16927415,
+      "team": "cfw21w2",
+      "score": 0.25532,
+      "submissions": 2,
+      "lastSubmission": "2026-09-20T10:16:19.530Z",
+      "members": []
+    },
+    {
+      "rank": 17,
       "teamId": 16571739,
       "team": "PNPL-OX",
       "score": 0.24063,
@@ -152,7 +161,7 @@
       "members": []
     },
     {
-      "rank": 17,
+      "rank": 18,
       "teamId": 16571080,
       "team": "SajanKr",
       "score": 0.23089,
@@ -161,21 +170,12 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16726042,
       "team": "Bhargav Kowshik",
       "score": 0.21871,
       "submissions": 12,
       "lastSubmission": "2026-09-03T17:06:32.153Z",
-      "members": []
-    },
-    {
-      "rank": 19,
-      "teamId": 16927415,
-      "team": "cfw21w2",
-      "score": 0.21604,
-      "submissions": 1,
-      "lastSubmission": "2026-09-20T06:19:16.483Z",
       "members": []
     },
     {
@@ -199,11 +199,11 @@
   ],
   "totals": {
     "teams": 21,
-    "submissions": 760,
-    "best": 0.72429,
+    "submissions": 771,
+    "best": 0.72477,
     "median": 0.59734,
-    "p25": 0.24063,
+    "p25": 0.25532,
     "p75": 0.64291
   },
-  "fetchedAt": "2026-09-20T06:57:57.304Z"
+  "fetchedAt": "2026-09-20T11:57:30.024Z"
 }
