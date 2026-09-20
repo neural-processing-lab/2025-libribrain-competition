@@ -126,6 +126,15 @@
     },
     {
       "rank": 14,
+      "teamId": 16927415,
+      "team": "cfw21w2",
+      "score": 0.34707,
+      "submissions": 4,
+      "lastSubmission": "2026-09-20T14:38:25.480Z",
+      "members": []
+    },
+    {
+      "rank": 15,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -134,21 +143,12 @@
       "members": []
     },
     {
-      "rank": 15,
+      "rank": 16,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
       "submissions": 1,
       "lastSubmission": "2026-07-21T10:08:18.583Z",
-      "members": []
-    },
-    {
-      "rank": 16,
-      "teamId": 16927415,
-      "team": "cfw21w2",
-      "score": 0.25532,
-      "submissions": 2,
-      "lastSubmission": "2026-09-20T10:16:19.530Z",
       "members": []
     },
     {
@@ -199,11 +199,11 @@
   ],
   "totals": {
     "teams": 21,
-    "submissions": 771,
+    "submissions": 773,
     "best": 0.72477,
     "median": 0.59734,
-    "p25": 0.25532,
+    "p25": 0.31023,
     "p75": 0.64291
   },
-  "fetchedAt": "2026-09-20T11:57:30.024Z"
+  "fetchedAt": "2026-09-20T15:12:38.553Z"
 }
