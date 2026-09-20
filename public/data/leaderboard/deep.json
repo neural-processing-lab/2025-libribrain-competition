@@ -39,8 +39,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.72117,
-      "submissions": 167,
-      "lastSubmission": "2026-09-16T03:25:18.537Z",
+      "submissions": 169,
+      "lastSubmission": "2026-09-20T00:08:24.813Z",
       "members": []
     },
     {
@@ -48,8 +48,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 48,
-      "lastSubmission": "2026-09-19T23:07:19.260Z",
+      "submissions": 50,
+      "lastSubmission": "2026-09-20T00:43:54.823Z",
       "members": []
     },
     {
@@ -210,8 +210,8 @@
       "teamId": 16923242,
       "team": "langstudent",
       "score": 0.63062,
-      "submissions": 9,
-      "lastSubmission": "2026-09-19T08:04:13.653Z",
+      "submissions": 11,
+      "lastSubmission": "2026-09-20T01:02:28.733Z",
       "members": []
     },
     {
@@ -288,20 +288,20 @@
     },
     {
       "rank": 32,
+      "teamId": 16708216,
+      "team": "AutoDecode",
+      "score": 0.43664,
+      "submissions": 23,
+      "lastSubmission": "2026-09-20T00:17:50.843Z",
+      "members": []
+    },
+    {
+      "rank": 33,
       "teamId": 16774953,
       "team": "Sia",
       "score": 0.43623,
       "submissions": 5,
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "members": []
-    },
-    {
-      "rank": 33,
-      "teamId": 16708216,
-      "team": "AutoDecode",
-      "score": 0.42301,
-      "submissions": 22,
-      "lastSubmission": "2026-09-17T14:57:29.050Z",
       "members": []
     },
     {
@@ -478,11 +478,11 @@
   ],
   "totals": {
     "teams": 52,
-    "submissions": 1843,
+    "submissions": 1850,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.2788,
     "p75": 0.66051
   },
-  "fetchedAt": "2026-09-19T23:33:19.916Z"
+  "fetchedAt": "2026-09-20T01:35:41.647Z"
 }

@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-19T23:33:19.522Z",
+  "updatedAt": "2026-09-20T01:35:27.040Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 167,
-      "scoredSubmissions": 167,
+      "submissions": 169,
+      "scoredSubmissions": 169,
       "kagglePublicBest": 0.72117,
       "best": {
         "balacc@10": {
@@ -84,14 +84,14 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-16T03:25:18.537Z",
+      "lastSubmission": "2026-09-20T00:08:24.813Z",
       "rank": 4
     },
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 48,
-      "scoredSubmissions": 48,
+      "submissions": 50,
+      "scoredSubmissions": 50,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.162760193884767
         }
       },
-      "lastSubmission": "2026-09-19T23:07:19.260Z",
+      "lastSubmission": "2026-09-20T00:43:54.823Z",
       "rank": 5
     },
     {
@@ -450,8 +450,8 @@
     {
       "teamId": 16923242,
       "team": "langstudent",
-      "submissions": 9,
-      "scoredSubmissions": 9,
+      "submissions": 11,
+      "scoredSubmissions": 11,
       "kagglePublicBest": 0.63062,
       "best": {
         "balacc@10": {
@@ -464,7 +464,7 @@
           "value": 1.03416967765635
         }
       },
-      "lastSubmission": "2026-09-19T08:04:13.653Z",
+      "lastSubmission": "2026-09-20T01:02:28.733Z",
       "rank": 23
     },
     {
@@ -628,6 +628,26 @@
       "rank": 31
     },
     {
+      "teamId": 16708216,
+      "team": "AutoDecode",
+      "submissions": 23,
+      "scoredSubmissions": 23,
+      "kagglePublicBest": 0.43664,
+      "best": {
+        "balacc@10": {
+          "value": 0.43664
+        },
+        "balacc@1": {
+          "value": 0.09894660894660895
+        },
+        "ovmi": {
+          "value": 1.0863084209044067
+        }
+      },
+      "lastSubmission": "2026-09-20T00:17:50.843Z",
+      "rank": 32
+    },
+    {
       "teamId": 16774953,
       "team": "Sia",
       "submissions": 5,
@@ -645,26 +665,6 @@
         }
       },
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "rank": 32
-    },
-    {
-      "teamId": 16708216,
-      "team": "AutoDecode",
-      "submissions": 22,
-      "scoredSubmissions": 22,
-      "kagglePublicBest": 0.42301,
-      "best": {
-        "balacc@10": {
-          "value": 0.42301
-        },
-        "balacc@1": {
-          "value": 0.07745310245310245
-        },
-        "ovmi": {
-          "value": 1.0863084209044067
-        }
-      },
-      "lastSubmission": "2026-09-17T14:57:29.050Z",
       "rank": 33
     },
     {
