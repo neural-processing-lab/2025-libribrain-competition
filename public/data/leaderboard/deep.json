@@ -48,8 +48,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 56,
-      "lastSubmission": "2026-09-20T17:37:45.740Z",
+      "submissions": 58,
+      "lastSubmission": "2026-09-21T05:01:43.593Z",
       "members": []
     },
     {
@@ -155,9 +155,9 @@
       "rank": 17,
       "teamId": 16927504,
       "team": "cfw21w2",
-      "score": 0.64765,
-      "submissions": 8,
-      "lastSubmission": "2026-09-20T23:19:30.647Z",
+      "score": 0.65403,
+      "submissions": 9,
+      "lastSubmission": "2026-09-21T03:42:16.560Z",
       "members": []
     },
     {
@@ -315,20 +315,20 @@
     },
     {
       "rank": 35,
+      "teamId": 16928493,
+      "team": "NJUersgogogo",
+      "score": 0.4151,
+      "submissions": 9,
+      "lastSubmission": "2026-09-21T04:56:55.113Z",
+      "members": []
+    },
+    {
+      "rank": 36,
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.39025,
       "submissions": 13,
       "lastSubmission": "2026-09-20T10:28:47.623Z",
-      "members": []
-    },
-    {
-      "rank": 36,
-      "teamId": 16928493,
-      "team": "NJUersgogogo",
-      "score": 0.36855,
-      "submissions": 8,
-      "lastSubmission": "2026-09-20T15:44:30.303Z",
       "members": []
     },
     {
@@ -496,11 +496,11 @@
   ],
   "totals": {
     "teams": 54,
-    "submissions": 1909,
+    "submissions": 1913,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.28785,
     "p75": 0.65903
   },
-  "fetchedAt": "2026-09-21T00:35:01.567Z"
+  "fetchedAt": "2026-09-21T05:26:37.661Z"
 }

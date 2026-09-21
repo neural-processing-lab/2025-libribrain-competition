@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-21T00:34:18.753Z",
+  "updatedAt": "2026-09-21T05:26:31.135Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 56,
-      "scoredSubmissions": 56,
+      "submissions": 58,
+      "scoredSubmissions": 58,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.162760193884767
         }
       },
-      "lastSubmission": "2026-09-20T17:37:45.740Z",
+      "lastSubmission": "2026-09-21T05:01:43.593Z",
       "rank": 5
     },
     {
@@ -330,21 +330,21 @@
     {
       "teamId": 16927504,
       "team": "cfw21w2",
-      "submissions": 8,
-      "scoredSubmissions": 8,
-      "kagglePublicBest": 0.64765,
+      "submissions": 9,
+      "scoredSubmissions": 9,
+      "kagglePublicBest": 0.65403,
       "best": {
         "balacc@10": {
-          "value": 0.64765
+          "value": 0.65403
         },
         "balacc@1": {
-          "value": 0.1798116883116883
+          "value": 0.19346176046176047
         },
         "ovmi": {
-          "value": 1.116838993586321
+          "value": 1.117600054324189
         }
       },
-      "lastSubmission": "2026-09-20T23:19:30.647Z",
+      "lastSubmission": "2026-09-21T03:42:16.560Z",
       "rank": 17
     },
     {
@@ -688,6 +688,26 @@
       "rank": 34
     },
     {
+      "teamId": 16928493,
+      "team": "NJUersgogogo",
+      "submissions": 9,
+      "scoredSubmissions": 9,
+      "kagglePublicBest": 0.4151,
+      "best": {
+        "balacc@10": {
+          "value": 0.4151
+        },
+        "balacc@1": {
+          "value": 0.06069047619047619
+        },
+        "ovmi": {
+          "value": 0.8549450625805959
+        }
+      },
+      "lastSubmission": "2026-09-21T04:56:55.113Z",
+      "rank": 35
+    },
+    {
       "teamId": 16606355,
       "team": "Salsinats",
       "submissions": 13,
@@ -705,26 +725,6 @@
         }
       },
       "lastSubmission": "2026-09-20T10:28:47.623Z",
-      "rank": 35
-    },
-    {
-      "teamId": 16928493,
-      "team": "NJUersgogogo",
-      "submissions": 8,
-      "scoredSubmissions": 8,
-      "kagglePublicBest": 0.36855,
-      "best": {
-        "balacc@10": {
-          "value": 0.36855
-        },
-        "balacc@1": {
-          "value": 0.06069047619047619
-        },
-        "ovmi": {
-          "value": 0.8549450625805959
-        }
-      },
-      "lastSubmission": "2026-09-20T15:44:30.303Z",
       "rank": 36
     },
     {

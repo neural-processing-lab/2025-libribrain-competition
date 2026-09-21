@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-20T18:11:13.218Z",
+  "updatedAt": "2026-09-21T05:26:32.619Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,12 +10,12 @@
     {
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "submissions": 168,
-      "scoredSubmissions": 167,
-      "kagglePublicBest": 0.72477,
+      "submissions": 174,
+      "scoredSubmissions": 173,
+      "kagglePublicBest": 0.72915,
       "best": {
         "balacc@10": {
-          "value": 0.72477
+          "value": 0.72915
         },
         "balacc@1": {
           "value": 0.2870618825618826
@@ -24,7 +24,7 @@
           "value": 1.1065303436010845
         }
       },
-      "lastSubmission": "2026-09-20T11:22:40.537Z",
+      "lastSubmission": "2026-09-21T04:08:54.357Z",
       "rank": 1
     },
     {
@@ -228,6 +228,26 @@
       "rank": 11
     },
     {
+      "teamId": 16927415,
+      "team": "cfw21w2",
+      "submissions": 7,
+      "scoredSubmissions": 7,
+      "kagglePublicBest": 0.59586,
+      "best": {
+        "balacc@10": {
+          "value": 0.59586
+        },
+        "balacc@1": {
+          "value": 0.17537599437599435
+        },
+        "ovmi": {
+          "value": 0.8701273762929849
+        }
+      },
+      "lastSubmission": "2026-09-21T05:21:32.253Z",
+      "rank": 12
+    },
+    {
       "teamId": 16794004,
       "team": "Sia",
       "submissions": 2,
@@ -245,26 +265,6 @@
         }
       },
       "lastSubmission": "2026-08-31T08:20:32.163Z",
-      "rank": 12
-    },
-    {
-      "teamId": 16927415,
-      "team": "cfw21w2",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.41522,
-      "best": {
-        "balacc@10": {
-          "value": 0.41522
-        },
-        "balacc@1": {
-          "value": 0.07728419728419728
-        },
-        "ovmi": {
-          "value": 0.6946017671819198
-        }
-      },
-      "lastSubmission": "2026-09-20T17:49:35.027Z",
       "rank": 13
     },
     {
