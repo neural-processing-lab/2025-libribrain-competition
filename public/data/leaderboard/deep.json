@@ -12,8 +12,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.74747,
-      "submissions": 109,
-      "lastSubmission": "2026-09-20T11:46:43.710Z",
+      "submissions": 110,
+      "lastSubmission": "2026-09-21T07:03:53.347Z",
       "members": []
     },
     {
@@ -156,8 +156,8 @@
       "teamId": 16927504,
       "team": "cfw21w2",
       "score": 0.65403,
-      "submissions": 9,
-      "lastSubmission": "2026-09-21T03:42:16.560Z",
+      "submissions": 11,
+      "lastSubmission": "2026-09-21T10:07:03.073Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16785989,
       "team": "Jatin Arutla",
       "score": 0.64387,
-      "submissions": 17,
-      "lastSubmission": "2026-09-20T18:19:47.663Z",
+      "submissions": 21,
+      "lastSubmission": "2026-09-21T05:48:12.340Z",
       "members": []
     },
     {
@@ -279,6 +279,15 @@
     },
     {
       "rank": 31,
+      "teamId": 16928493,
+      "team": "NJUersgogogo",
+      "score": 0.44995,
+      "submissions": 13,
+      "lastSubmission": "2026-09-21T07:58:44.840Z",
+      "members": []
+    },
+    {
+      "rank": 32,
       "teamId": 16571738,
       "team": "PNPL-OX",
       "score": 0.44441,
@@ -287,7 +296,7 @@
       "members": []
     },
     {
-      "rank": 32,
+      "rank": 33,
       "teamId": 16700843,
       "team": "kongxuan47",
       "score": 0.43935,
@@ -296,7 +305,7 @@
       "members": []
     },
     {
-      "rank": 33,
+      "rank": 34,
       "teamId": 16708216,
       "team": "AutoDecode",
       "score": 0.43664,
@@ -305,21 +314,12 @@
       "members": []
     },
     {
-      "rank": 34,
+      "rank": 35,
       "teamId": 16774953,
       "team": "Sia",
       "score": 0.43623,
       "submissions": 5,
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "members": []
-    },
-    {
-      "rank": 35,
-      "teamId": 16928493,
-      "team": "NJUersgogogo",
-      "score": 0.4151,
-      "submissions": 9,
-      "lastSubmission": "2026-09-21T04:56:55.113Z",
       "members": []
     },
     {
@@ -496,11 +496,11 @@
   ],
   "totals": {
     "teams": 54,
-    "submissions": 1913,
+    "submissions": 1924,
     "best": 0.74747,
     "median": 0.57956,
     "p25": 0.28785,
     "p75": 0.65903
   },
-  "fetchedAt": "2026-09-21T05:26:37.661Z"
+  "fetchedAt": "2026-09-21T10:53:42.877Z"
 }

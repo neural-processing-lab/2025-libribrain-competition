@@ -12,8 +12,8 @@
       "teamId": 16692669,
       "team": "Varshith Madishetty",
       "score": 0.72915,
-      "submissions": 174,
-      "lastSubmission": "2026-09-21T04:08:54.357Z",
+      "submissions": 178,
+      "lastSubmission": "2026-09-21T10:01:48.730Z",
       "members": []
     },
     {
@@ -99,20 +99,20 @@
     },
     {
       "rank": 11,
+      "teamId": 16927415,
+      "team": "cfw21w2",
+      "score": 0.60734,
+      "submissions": 16,
+      "lastSubmission": "2026-09-21T10:33:16.680Z",
+      "members": []
+    },
+    {
+      "rank": 12,
       "teamId": 16768788,
       "team": "MonsieurBadgerCheese",
       "score": 0.59734,
       "submissions": 11,
       "lastSubmission": "2026-08-31T08:13:19.310Z",
-      "members": []
-    },
-    {
-      "rank": 12,
-      "teamId": 16927415,
-      "team": "cfw21w2",
-      "score": 0.59586,
-      "submissions": 7,
-      "lastSubmission": "2026-09-21T05:21:32.253Z",
       "members": []
     },
     {
@@ -199,11 +199,11 @@
   ],
   "totals": {
     "teams": 21,
-    "submissions": 782,
+    "submissions": 795,
     "best": 0.72915,
-    "median": 0.59734,
+    "median": 0.60734,
     "p25": 0.31023,
     "p75": 0.64291
   },
-  "fetchedAt": "2026-09-21T05:26:37.661Z"
+  "fetchedAt": "2026-09-21T10:53:42.877Z"
 }
