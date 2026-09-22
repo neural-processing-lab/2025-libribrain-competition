@@ -101,9 +101,9 @@
       "rank": 11,
       "teamId": 16927415,
       "team": "cfw21w2",
-      "score": 0.61015,
-      "submissions": 21,
-      "lastSubmission": "2026-09-22T03:10:26.677Z",
+      "score": 0.61053,
+      "submissions": 23,
+      "lastSubmission": "2026-09-22T11:02:53.023Z",
       "members": []
     },
     {
@@ -128,9 +128,9 @@
       "rank": 14,
       "teamId": 16606357,
       "team": "Salsinats",
-      "score": 0.34728,
-      "submissions": 12,
-      "lastSubmission": "2026-09-20T10:55:23.123Z",
+      "score": 0.34737,
+      "submissions": 13,
+      "lastSubmission": "2026-09-22T07:18:31.137Z",
       "members": []
     },
     {
@@ -199,11 +199,11 @@
   ],
   "totals": {
     "teams": 21,
-    "submissions": 806,
+    "submissions": 809,
     "best": 0.72915,
-    "median": 0.61015,
+    "median": 0.61053,
     "p25": 0.31023,
     "p75": 0.64291
   },
-  "fetchedAt": "2026-09-22T06:54:16.807Z"
+  "fetchedAt": "2026-09-22T12:09:15.810Z"
 }

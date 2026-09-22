@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-22T06:53:40.443Z",
+  "updatedAt": "2026-09-22T12:08:19.307Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,21 +10,21 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 116,
-      "scoredSubmissions": 116,
+      "submissions": 120,
+      "scoredSubmissions": 120,
       "kagglePublicBest": 0.74747,
       "best": {
         "balacc@10": {
           "value": 0.74747
         },
         "balacc@1": {
-          "value": 0.2670793650793651
+          "value": 0.27115873015873015
         },
         "ovmi": {
           "value": 1.146874378265943
         }
       },
-      "lastSubmission": "2026-09-22T06:50:58.693Z",
+      "lastSubmission": "2026-09-22T07:09:42.303Z",
       "rank": 1
     },
     {
@@ -170,8 +170,8 @@
     {
       "teamId": 16785989,
       "team": "Jatin Arutla",
-      "submissions": 27,
-      "scoredSubmissions": 27,
+      "submissions": 29,
+      "scoredSubmissions": 29,
       "kagglePublicBest": 0.70878,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 1.1163069794450415
         }
       },
-      "lastSubmission": "2026-09-22T05:46:22.350Z",
+      "lastSubmission": "2026-09-22T07:59:48.427Z",
       "rank": 9
     },
     {
@@ -610,12 +610,12 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 104,
-      "scoredSubmissions": 104,
-      "kagglePublicBest": 0.45175,
+      "submissions": 110,
+      "scoredSubmissions": 110,
+      "kagglePublicBest": 0.45625,
       "best": {
         "balacc@10": {
-          "value": 0.45175
+          "value": 0.45625
         },
         "balacc@1": {
           "value": 0.09152380952380952
@@ -624,7 +624,7 @@
           "value": 0.9469507294981195
         }
       },
-      "lastSubmission": "2026-09-21T15:28:17.273Z",
+      "lastSubmission": "2026-09-22T10:47:26.347Z",
       "rank": 31
     },
     {
@@ -710,21 +710,21 @@
     {
       "teamId": 16606355,
       "team": "Salsinats",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 14,
+      "scoredSubmissions": 14,
       "kagglePublicBest": 0.39025,
       "best": {
         "balacc@10": {
           "value": 0.39025
         },
         "balacc@1": {
-          "value": 0.05210606060606061
+          "value": 0.06930303030303031
         },
         "ovmi": {
-          "value": 0.5788398832143227
+          "value": 0.6948154089703936
         }
       },
-      "lastSubmission": "2026-09-20T10:28:47.623Z",
+      "lastSubmission": "2026-09-22T07:17:51.133Z",
       "rank": 36
     },
     {

@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-22T06:53:42.075Z",
+  "updatedAt": "2026-09-22T12:08:21.100Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -210,12 +210,12 @@
     {
       "teamId": 16927415,
       "team": "cfw21w2",
-      "submissions": 21,
-      "scoredSubmissions": 21,
-      "kagglePublicBest": 0.61015,
+      "submissions": 23,
+      "scoredSubmissions": 23,
+      "kagglePublicBest": 0.61053,
       "best": {
         "balacc@10": {
-          "value": 0.61015
+          "value": 0.61053
         },
         "balacc@1": {
           "value": 0.17995696895696894
@@ -224,7 +224,7 @@
           "value": 0.9207711093857258
         }
       },
-      "lastSubmission": "2026-09-22T03:10:26.677Z",
+      "lastSubmission": "2026-09-22T11:02:53.023Z",
       "rank": 11
     },
     {
@@ -270,12 +270,12 @@
     {
       "teamId": 16606357,
       "team": "Salsinats",
-      "submissions": 12,
-      "scoredSubmissions": 12,
-      "kagglePublicBest": 0.34728,
+      "submissions": 13,
+      "scoredSubmissions": 13,
+      "kagglePublicBest": 0.34737,
       "best": {
         "balacc@10": {
-          "value": 0.34728
+          "value": 0.34737
         },
         "balacc@1": {
           "value": 0.05484511784511785
@@ -284,7 +284,7 @@
           "value": 0.5148863533249957
         }
       },
-      "lastSubmission": "2026-09-20T10:55:23.123Z",
+      "lastSubmission": "2026-09-22T07:18:31.137Z",
       "rank": 14
     },
     {
