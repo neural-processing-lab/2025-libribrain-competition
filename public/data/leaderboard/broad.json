@@ -12,8 +12,8 @@
       "teamId": 16692669,
       "team": "Varshith Madishetty",
       "score": 0.72915,
-      "submissions": 178,
-      "lastSubmission": "2026-09-21T10:01:48.730Z",
+      "submissions": 184,
+      "lastSubmission": "2026-09-22T05:36:19.023Z",
       "members": []
     },
     {
@@ -101,9 +101,9 @@
       "rank": 11,
       "teamId": 16927415,
       "team": "cfw21w2",
-      "score": 0.60757,
-      "submissions": 20,
-      "lastSubmission": "2026-09-22T01:09:48.127Z",
+      "score": 0.61015,
+      "submissions": 21,
+      "lastSubmission": "2026-09-22T03:10:26.677Z",
       "members": []
     },
     {
@@ -199,11 +199,11 @@
   ],
   "totals": {
     "teams": 21,
-    "submissions": 799,
+    "submissions": 806,
     "best": 0.72915,
-    "median": 0.60757,
+    "median": 0.61015,
     "p25": 0.31023,
     "p75": 0.64291
   },
-  "fetchedAt": "2026-09-22T01:50:25.506Z"
+  "fetchedAt": "2026-09-22T06:54:16.807Z"
 }
