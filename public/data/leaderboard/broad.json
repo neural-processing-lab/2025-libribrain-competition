@@ -39,8 +39,8 @@
       "teamId": 16781247,
       "team": "Connor Finnerty",
       "score": 0.7006,
-      "submissions": 52,
-      "lastSubmission": "2026-09-17T13:06:33.817Z",
+      "submissions": 53,
+      "lastSubmission": "2026-09-22T21:35:23.463Z",
       "members": []
     },
     {
@@ -195,15 +195,24 @@
       "submissions": 1,
       "lastSubmission": "2026-08-05T04:24:14.117Z",
       "members": []
+    },
+    {
+      "rank": 22,
+      "teamId": 16941809,
+      "team": "InformaBook2",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-09-22T21:08:43.293Z",
+      "members": []
     }
   ],
   "totals": {
-    "teams": 21,
-    "submissions": 809,
+    "teams": 22,
+    "submissions": 811,
     "best": 0.72915,
-    "median": 0.61053,
-    "p25": 0.31023,
-    "p75": 0.64291
+    "median": 0.60393,
+    "p25": 0.25803,
+    "p75": 0.64219
   },
-  "fetchedAt": "2026-09-22T12:09:15.810Z"
+  "fetchedAt": "2026-09-22T22:29:55.138Z"
 }

@@ -48,8 +48,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 58,
-      "lastSubmission": "2026-09-21T05:01:43.593Z",
+      "submissions": 60,
+      "lastSubmission": "2026-09-22T21:55:44.830Z",
       "members": []
     },
     {
@@ -93,8 +93,8 @@
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.70621,
-      "submissions": 87,
-      "lastSubmission": "2026-09-17T13:23:59.467Z",
+      "submissions": 88,
+      "lastSubmission": "2026-09-22T20:08:34.737Z",
       "members": []
     },
     {
@@ -165,8 +165,8 @@
       "teamId": 16927504,
       "team": "cfw21w2",
       "score": 0.65403,
-      "submissions": 13,
-      "lastSubmission": "2026-09-22T00:02:09.577Z",
+      "submissions": 14,
+      "lastSubmission": "2026-09-22T22:19:40.063Z",
       "members": []
     },
     {
@@ -282,8 +282,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.45625,
-      "submissions": 113,
-      "lastSubmission": "2026-09-22T17:41:52.780Z",
+      "submissions": 114,
+      "lastSubmission": "2026-09-22T20:39:11.453Z",
       "members": []
     },
     {
@@ -496,11 +496,11 @@
   ],
   "totals": {
     "teams": 54,
-    "submissions": 1981,
+    "submissions": 1986,
     "best": 0.74747,
     "median": 0.59095,
     "p25": 0.28785,
     "p75": 0.66367
   },
-  "fetchedAt": "2026-09-22T19:56:12.593Z"
+  "fetchedAt": "2026-09-22T22:29:55.138Z"
 }

@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-22T12:08:21.100Z",
+  "updatedAt": "2026-09-22T22:29:08.799Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16781247,
       "team": "Connor Finnerty",
-      "submissions": 52,
-      "scoredSubmissions": 52,
+      "submissions": 53,
+      "scoredSubmissions": 53,
       "kagglePublicBest": 0.7006,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.150642748881647
         }
       },
-      "lastSubmission": "2026-09-17T13:06:33.817Z",
+      "lastSubmission": "2026-09-22T21:35:23.463Z",
       "rank": 4
     },
     {
@@ -428,6 +428,26 @@
       "rank": 21
     },
     {
+      "teamId": 16941809,
+      "team": "InformaBook2",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-09-22T21:08:43.293Z",
+      "rank": 22
+    },
+    {
       "teamId": 16644775,
       "team": "Alireza Karimi",
       "submissions": 1,
@@ -442,7 +462,7 @@
         }
       },
       "lastSubmission": "2026-08-05T15:38:34.470Z",
-      "rank": 22
+      "rank": 23
     },
     {
       "teamId": 16881690,
@@ -459,7 +479,7 @@
         }
       },
       "lastSubmission": "2026-09-12T17:08:17.783Z",
-      "rank": 23
+      "rank": 24
     }
   ]
 }
