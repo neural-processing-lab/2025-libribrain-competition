@@ -12,8 +12,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.74747,
-      "submissions": 120,
-      "lastSubmission": "2026-09-22T07:09:42.303Z",
+      "submissions": 122,
+      "lastSubmission": "2026-09-22T15:36:55.173Z",
       "members": []
     },
     {
@@ -201,8 +201,8 @@
       "teamId": 16791335,
       "team": "Michal",
       "score": 0.64375,
-      "submissions": 6,
-      "lastSubmission": "2026-09-15T21:02:52.113Z",
+      "submissions": 8,
+      "lastSubmission": "2026-09-22T13:46:12.990Z",
       "members": []
     },
     {
@@ -282,8 +282,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.45625,
-      "submissions": 110,
-      "lastSubmission": "2026-09-22T10:47:26.347Z",
+      "submissions": 111,
+      "lastSubmission": "2026-09-22T13:40:51.733Z",
       "members": []
     },
     {
@@ -496,11 +496,11 @@
   ],
   "totals": {
     "teams": 54,
-    "submissions": 1969,
+    "submissions": 1974,
     "best": 0.74747,
     "median": 0.59095,
     "p25": 0.28785,
     "p75": 0.66367
   },
-  "fetchedAt": "2026-09-22T12:09:15.810Z"
+  "fetchedAt": "2026-09-22T16:52:58.952Z"
 }
