@@ -102,8 +102,8 @@
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.61053,
-      "submissions": 23,
-      "lastSubmission": "2026-09-22T11:02:53.023Z",
+      "submissions": 25,
+      "lastSubmission": "2026-09-23T03:24:35.077Z",
       "members": []
     },
     {
@@ -208,11 +208,11 @@
   ],
   "totals": {
     "teams": 22,
-    "submissions": 811,
+    "submissions": 813,
     "best": 0.72915,
     "median": 0.60393,
     "p25": 0.25803,
     "p75": 0.64219
   },
-  "fetchedAt": "2026-09-22T22:29:55.138Z"
+  "fetchedAt": "2026-09-23T05:18:43.817Z"
 }
