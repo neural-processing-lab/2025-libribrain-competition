@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-22T22:29:07.354Z",
+  "updatedAt": "2026-09-23T00:49:51.721Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -170,8 +170,8 @@
     {
       "teamId": 16785989,
       "team": "Jatin Arutla",
-      "submissions": 31,
-      "scoredSubmissions": 31,
+      "submissions": 33,
+      "scoredSubmissions": 33,
       "kagglePublicBest": 0.70878,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 1.1230944376608714
         }
       },
-      "lastSubmission": "2026-09-22T17:40:04.973Z",
+      "lastSubmission": "2026-09-23T00:23:04.190Z",
       "rank": 9
     },
     {
@@ -350,8 +350,8 @@
     {
       "teamId": 16927504,
       "team": "cfw21w2",
-      "submissions": 14,
-      "scoredSubmissions": 14,
+      "submissions": 20,
+      "scoredSubmissions": 20,
       "kagglePublicBest": 0.65403,
       "best": {
         "balacc@10": {
@@ -364,7 +364,7 @@
           "value": 1.1395976618268828
         }
       },
-      "lastSubmission": "2026-09-22T22:19:40.063Z",
+      "lastSubmission": "2026-09-23T00:27:53.540Z",
       "rank": 18
     },
     {
@@ -610,8 +610,8 @@
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 114,
-      "scoredSubmissions": 114,
+      "submissions": 122,
+      "scoredSubmissions": 122,
       "kagglePublicBest": 0.45625,
       "best": {
         "balacc@10": {
@@ -624,7 +624,7 @@
           "value": 0.9638321979939993
         }
       },
-      "lastSubmission": "2026-09-22T20:39:11.453Z",
+      "lastSubmission": "2026-09-23T00:47:07.047Z",
       "rank": 31
     },
     {
@@ -968,6 +968,26 @@
       "rank": 48
     },
     {
+      "teamId": 16943902,
+      "team": "Abhijith Pradeep",
+      "submissions": 3,
+      "scoredSubmissions": 3,
+      "kagglePublicBest": 0.20697,
+      "best": {
+        "balacc@10": {
+          "value": 0.20697
+        },
+        "balacc@1": {
+          "value": 0.016363636363636365
+        },
+        "ovmi": {
+          "value": 0.8566570214942061
+        }
+      },
+      "lastSubmission": "2026-09-22T23:44:40.887Z",
+      "rank": 49
+    },
+    {
       "teamId": 16885297,
       "team": "ML Learner26",
       "submissions": 1,
@@ -985,7 +1005,7 @@
         }
       },
       "lastSubmission": "2026-09-13T07:35:08.203Z",
-      "rank": 49
+      "rank": 50
     },
     {
       "teamId": 16880458,
@@ -1005,7 +1025,7 @@
         }
       },
       "lastSubmission": "2026-09-19T13:46:28.407Z",
-      "rank": 50
+      "rank": 51
     },
     {
       "teamId": 16672981,
@@ -1025,7 +1045,7 @@
         }
       },
       "lastSubmission": "2026-09-08T04:17:51.547Z",
-      "rank": 51
+      "rank": 52
     },
     {
       "teamId": 16605715,
@@ -1045,7 +1065,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 52
+      "rank": 53
     },
     {
       "teamId": 16726510,
@@ -1065,7 +1085,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 53
+      "rank": 54
     },
     {
       "teamId": 16678093,
@@ -1085,7 +1105,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 54
+      "rank": 55
     }
   ]
 }
