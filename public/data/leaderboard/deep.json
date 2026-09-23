@@ -243,20 +243,20 @@
     },
     {
       "rank": 27,
+      "teamId": 16771979,
+      "team": "Artem Blanar",
+      "score": 0.59926,
+      "submissions": 49,
+      "lastSubmission": "2026-09-23T09:59:30.973Z",
+      "members": []
+    },
+    {
+      "rank": 28,
       "teamId": 16708216,
       "team": "AutoDecode",
       "score": 0.59227,
       "submissions": 25,
       "lastSubmission": "2026-09-22T18:43:11.560Z",
-      "members": []
-    },
-    {
-      "rank": 28,
-      "teamId": 16771979,
-      "team": "Artem Blanar",
-      "score": 0.58963,
-      "submissions": 45,
-      "lastSubmission": "2026-09-12T15:48:47.403Z",
       "members": []
     },
     {
@@ -324,6 +324,15 @@
     },
     {
       "rank": 36,
+      "teamId": 16859154,
+      "team": "bcs",
+      "score": 0.39036,
+      "submissions": 6,
+      "lastSubmission": "2026-09-23T07:08:16.113Z",
+      "members": []
+    },
+    {
+      "rank": 37,
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.39025,
@@ -332,7 +341,7 @@
       "members": []
     },
     {
-      "rank": 37,
+      "rank": 38,
       "teamId": 16516410,
       "team": "Shuntaro Suzuki",
       "score": 0.354,
@@ -341,7 +350,7 @@
       "members": []
     },
     {
-      "rank": 38,
+      "rank": 39,
       "teamId": 16852752,
       "team": "liuyishj",
       "score": 0.33427,
@@ -350,7 +359,7 @@
       "members": []
     },
     {
-      "rank": 39,
+      "rank": 40,
       "teamId": 16782624,
       "team": "Jun Jie Li",
       "score": 0.31765,
@@ -359,7 +368,7 @@
       "members": []
     },
     {
-      "rank": 40,
+      "rank": 41,
       "teamId": 16550910,
       "team": "monte-carlo",
       "score": 0.28999,
@@ -368,7 +377,7 @@
       "members": []
     },
     {
-      "rank": 41,
+      "rank": 42,
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
       "score": 0.28713,
@@ -377,21 +386,12 @@
       "members": []
     },
     {
-      "rank": 42,
+      "rank": 43,
       "teamId": 16790306,
       "team": "Fon1as",
       "score": 0.25381,
       "submissions": 1,
       "lastSubmission": "2026-08-29T13:02:45.457Z",
-      "members": []
-    },
-    {
-      "rank": 43,
-      "teamId": 16859154,
-      "team": "bcs",
-      "score": 0.24881,
-      "submissions": 2,
-      "lastSubmission": "2026-09-18T01:24:19.547Z",
       "members": []
     },
     {
@@ -505,11 +505,11 @@
   ],
   "totals": {
     "teams": 55,
-    "submissions": 2032,
+    "submissions": 2040,
     "best": 0.74747,
-    "median": 0.58963,
-    "p25": 0.27047,
+    "median": 0.59227,
+    "p25": 0.28856,
     "p75": 0.66861
   },
-  "fetchedAt": "2026-09-23T05:18:43.817Z"
+  "fetchedAt": "2026-09-23T10:08:17.936Z"
 }
