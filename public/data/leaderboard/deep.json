@@ -228,8 +228,8 @@
       "teamId": 16923242,
       "team": "langstudent",
       "score": 0.63277,
-      "submissions": 20,
-      "lastSubmission": "2026-09-23T04:13:21.893Z",
+      "submissions": 22,
+      "lastSubmission": "2026-09-24T14:12:15.263Z",
       "members": []
     },
     {
@@ -378,6 +378,15 @@
     },
     {
       "rank": 42,
+      "teamId": 16943902,
+      "team": "Abhijith Pradeep",
+      "score": 0.30792,
+      "submissions": 4,
+      "lastSubmission": "2026-09-24T14:17:24.083Z",
+      "members": []
+    },
+    {
+      "rank": 43,
       "teamId": 16550910,
       "team": "monte-carlo",
       "score": 0.28999,
@@ -386,7 +395,7 @@
       "members": []
     },
     {
-      "rank": 43,
+      "rank": 44,
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
       "score": 0.28713,
@@ -395,7 +404,7 @@
       "members": []
     },
     {
-      "rank": 44,
+      "rank": 45,
       "teamId": 16790306,
       "team": "Fon1as",
       "score": 0.25381,
@@ -404,7 +413,7 @@
       "members": []
     },
     {
-      "rank": 45,
+      "rank": 46,
       "teamId": 16797123,
       "team": "willguido",
       "score": 0.24437,
@@ -413,7 +422,7 @@
       "members": []
     },
     {
-      "rank": 46,
+      "rank": 47,
       "teamId": 16894177,
       "team": "immortal2",
       "score": 0.2407,
@@ -422,7 +431,7 @@
       "members": []
     },
     {
-      "rank": 47,
+      "rank": 48,
       "teamId": 16792950,
       "team": "Amal Messaoud",
       "score": 0.23738,
@@ -431,7 +440,7 @@
       "members": []
     },
     {
-      "rank": 48,
+      "rank": 49,
       "teamId": 16881692,
       "team": "Srinivas Calindi",
       "score": 0.21745,
@@ -440,21 +449,12 @@
       "members": []
     },
     {
-      "rank": 49,
+      "rank": 50,
       "teamId": 16792873,
       "team": "Nguyen Anh",
       "score": 0.21637,
       "submissions": 3,
       "lastSubmission": "2026-08-31T00:59:48.743Z",
-      "members": []
-    },
-    {
-      "rank": 50,
-      "teamId": 16943902,
-      "team": "Abhijith Pradeep",
-      "score": 0.20697,
-      "submissions": 3,
-      "lastSubmission": "2026-09-22T23:44:40.887Z",
       "members": []
     },
     {
@@ -523,11 +523,11 @@
   ],
   "totals": {
     "teams": 57,
-    "submissions": 2099,
+    "submissions": 2102,
     "best": 0.74747,
     "median": 0.59227,
-    "p25": 0.28713,
+    "p25": 0.28999,
     "p75": 0.67236
   },
-  "fetchedAt": "2026-09-24T09:30:52.221Z"
+  "fetchedAt": "2026-09-24T14:24:45.016Z"
 }
