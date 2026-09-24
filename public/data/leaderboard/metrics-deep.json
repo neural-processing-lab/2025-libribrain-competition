@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-24T00:02:47.613Z",
+  "updatedAt": "2026-09-24T04:39:55.177Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 124,
-      "scoredSubmissions": 124,
+      "submissions": 128,
+      "scoredSubmissions": 128,
       "kagglePublicBest": 0.74747,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.146874378265943
         }
       },
-      "lastSubmission": "2026-09-23T03:33:39.507Z",
+      "lastSubmission": "2026-09-24T04:01:12.963Z",
       "rank": 1
     },
     {
@@ -110,8 +110,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 69,
-      "scoredSubmissions": 69,
+      "submissions": 70,
+      "scoredSubmissions": 70,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.1787301512821498
         }
       },
-      "lastSubmission": "2026-09-23T23:47:46.570Z",
+      "lastSubmission": "2026-09-24T01:41:51.240Z",
       "rank": 6
     },
     {
@@ -230,8 +230,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 53,
-      "scoredSubmissions": 52,
+      "submissions": 55,
+      "scoredSubmissions": 54,
       "kagglePublicBest": 0.68695,
       "best": {
         "balacc@10": {
@@ -244,7 +244,7 @@
           "value": 1.1660660330071728
         }
       },
-      "lastSubmission": "2026-09-23T14:02:19.077Z",
+      "lastSubmission": "2026-09-24T04:08:58.397Z",
       "rank": 12
     },
     {
@@ -670,21 +670,21 @@
     {
       "teamId": 16928493,
       "team": "NJUersgogogo",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 17,
+      "scoredSubmissions": 17,
       "kagglePublicBest": 0.44995,
       "best": {
         "balacc@10": {
           "value": 0.44995
         },
         "balacc@1": {
-          "value": 0.062040404040404035
+          "value": 0.07157936507936508
         },
         "ovmi": {
-          "value": 0.8549450625805959
+          "value": 0.9556981725651388
         }
       },
-      "lastSubmission": "2026-09-21T07:58:44.840Z",
+      "lastSubmission": "2026-09-24T02:58:53.910Z",
       "rank": 34
     },
     {
