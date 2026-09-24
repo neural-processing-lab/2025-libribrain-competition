@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-24T21:39:25.249Z",
+  "updatedAt": "2026-09-24T23:58:20.831Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -88,6 +88,26 @@
       "rank": 4
     },
     {
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "submissions": 89,
+      "scoredSubmissions": 89,
+      "kagglePublicBest": 0.72125,
+      "best": {
+        "balacc@10": {
+          "value": 0.72125
+        },
+        "balacc@1": {
+          "value": 0.2815
+        },
+        "ovmi": {
+          "value": 1.1920964682271324
+        }
+      },
+      "lastSubmission": "2026-09-24T23:43:48.233Z",
+      "rank": 5
+    },
+    {
       "teamId": 16553979,
       "team": "MindLink",
       "submissions": 169,
@@ -105,7 +125,7 @@
         }
       },
       "lastSubmission": "2026-09-20T00:08:24.813Z",
-      "rank": 5
+      "rank": 6
     },
     {
       "teamId": 16697258,
@@ -125,7 +145,7 @@
         }
       },
       "lastSubmission": "2026-09-24T15:21:39.060Z",
-      "rank": 6
+      "rank": 7
     },
     {
       "teamId": 16779211,
@@ -145,7 +165,7 @@
         }
       },
       "lastSubmission": "2026-09-20T03:25:16.273Z",
-      "rank": 7
+      "rank": 8
     },
     {
       "teamId": 16685441,
@@ -165,7 +185,7 @@
         }
       },
       "lastSubmission": "2026-09-11T13:28:29.410Z",
-      "rank": 8
+      "rank": 9
     },
     {
       "teamId": 16667929,
@@ -185,7 +205,7 @@
         }
       },
       "lastSubmission": "2026-09-01T09:03:49.560Z",
-      "rank": 9
+      "rank": 10
     },
     {
       "teamId": 16781245,
@@ -205,26 +225,6 @@
         }
       },
       "lastSubmission": "2026-09-22T20:08:34.737Z",
-      "rank": 10
-    },
-    {
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "submissions": 87,
-      "scoredSubmissions": 87,
-      "kagglePublicBest": 0.7018,
-      "best": {
-        "balacc@10": {
-          "value": 0.7018
-        },
-        "balacc@1": {
-          "value": 0.25896825396825396
-        },
-        "ovmi": {
-          "value": 1.148594067477857
-        }
-      },
-      "lastSubmission": "2026-09-24T20:49:33.573Z",
       "rank": 11
     },
     {
@@ -310,8 +310,8 @@
     {
       "teamId": 16803215,
       "team": "peperonata",
-      "submissions": 15,
-      "scoredSubmissions": 15,
+      "submissions": 17,
+      "scoredSubmissions": 17,
       "kagglePublicBest": 0.66486,
       "best": {
         "balacc@10": {
@@ -324,7 +324,7 @@
           "value": 1.1567105561571356
         }
       },
-      "lastSubmission": "2026-09-23T22:28:11.067Z",
+      "lastSubmission": "2026-09-24T23:55:48.470Z",
       "rank": 16
     },
     {

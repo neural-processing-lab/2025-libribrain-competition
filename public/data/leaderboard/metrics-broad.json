@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-24T21:39:26.874Z",
+  "updatedAt": "2026-09-24T23:58:22.278Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -170,8 +170,8 @@
     {
       "teamId": 16896113,
       "team": "peperonata",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 3,
+      "scoredSubmissions": 3,
       "kagglePublicBest": 0.63699,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 0.9270766040301374
         }
       },
-      "lastSubmission": "2026-09-23T22:31:53.803Z",
+      "lastSubmission": "2026-09-24T21:54:05.123Z",
       "rank": 9
     },
     {

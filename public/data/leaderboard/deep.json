@@ -45,6 +45,15 @@
     },
     {
       "rank": 5,
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "score": 0.72125,
+      "submissions": 89,
+      "lastSubmission": "2026-09-24T23:43:48.233Z",
+      "members": []
+    },
+    {
+      "rank": 6,
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.72117,
@@ -53,7 +62,7 @@
       "members": []
     },
     {
-      "rank": 6,
+      "rank": 7,
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
@@ -62,7 +71,7 @@
       "members": []
     },
     {
-      "rank": 7,
+      "rank": 8,
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
@@ -71,7 +80,7 @@
       "members": []
     },
     {
-      "rank": 8,
+      "rank": 9,
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.71732,
@@ -80,7 +89,7 @@
       "members": []
     },
     {
-      "rank": 9,
+      "rank": 10,
       "teamId": 16667929,
       "team": "Umur Yıldız",
       "score": 0.7148,
@@ -89,21 +98,12 @@
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.70621,
       "submissions": 88,
       "lastSubmission": "2026-09-22T20:08:34.737Z",
-      "members": []
-    },
-    {
-      "rank": 11,
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "score": 0.7018,
-      "submissions": 87,
-      "lastSubmission": "2026-09-24T20:49:33.573Z",
       "members": []
     },
     {
@@ -147,8 +147,8 @@
       "teamId": 16803215,
       "team": "peperonata",
       "score": 0.66486,
-      "submissions": 15,
-      "lastSubmission": "2026-09-23T22:28:11.067Z",
+      "submissions": 17,
+      "lastSubmission": "2026-09-24T23:55:48.470Z",
       "members": []
     },
     {
@@ -532,11 +532,11 @@
   ],
   "totals": {
     "teams": 58,
-    "submissions": 2119,
+    "submissions": 2123,
     "best": 0.74747,
     "median": 0.59013,
     "p25": 0.28785,
     "p75": 0.67048
   },
-  "fetchedAt": "2026-09-24T21:39:53.355Z"
+  "fetchedAt": "2026-09-24T23:59:20.874Z"
 }
