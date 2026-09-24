@@ -183,8 +183,8 @@
       "teamId": 16906911,
       "team": "Iepure Toni",
       "score": 0.21405,
-      "submissions": 1,
-      "lastSubmission": "2026-09-19T09:57:27.450Z",
+      "submissions": 2,
+      "lastSubmission": "2026-09-24T18:41:52.613Z",
       "members": []
     },
     {
@@ -208,11 +208,11 @@
   ],
   "totals": {
     "teams": 22,
-    "submissions": 822,
+    "submissions": 823,
     "best": 0.72915,
     "median": 0.60395,
     "p25": 0.25803,
     "p75": 0.64219
   },
-  "fetchedAt": "2026-09-24T00:02:52.714Z"
+  "fetchedAt": "2026-09-24T21:39:53.355Z"
 }

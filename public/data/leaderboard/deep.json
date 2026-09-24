@@ -99,6 +99,15 @@
     },
     {
       "rank": 11,
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "score": 0.7018,
+      "submissions": 87,
+      "lastSubmission": "2026-09-24T20:49:33.573Z",
+      "members": []
+    },
+    {
+      "rank": 12,
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
@@ -107,21 +116,12 @@
       "members": []
     },
     {
-      "rank": 12,
+      "rank": 13,
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.68695,
       "submissions": 58,
       "lastSubmission": "2026-09-24T09:15:12.847Z",
-      "members": []
-    },
-    {
-      "rank": 13,
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "score": 0.68626,
-      "submissions": 79,
-      "lastSubmission": "2026-09-23T18:05:36.947Z",
       "members": []
     },
     {
@@ -189,6 +189,15 @@
     },
     {
       "rank": 21,
+      "teamId": 16946702,
+      "team": "Nova",
+      "score": 0.64528,
+      "submissions": 5,
+      "lastSubmission": "2026-09-24T21:29:44.017Z",
+      "members": []
+    },
+    {
+      "rank": 22,
       "teamId": 16701490,
       "team": "neural2speech",
       "score": 0.64473,
@@ -197,7 +206,7 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16607550,
       "team": "Brain King",
       "score": 0.64406,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 16791335,
       "team": "Michal",
       "score": 0.64375,
@@ -215,7 +224,7 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16703651,
       "team": "@Arnauya",
       "score": 0.64276,
@@ -224,7 +233,7 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16923242,
       "team": "langstudent",
       "score": 0.63277,
@@ -233,21 +242,12 @@
       "members": []
     },
     {
-      "rank": 26,
+      "rank": 27,
       "teamId": 16736164,
       "team": "SENPAI",
       "score": 0.62963,
       "submissions": 61,
       "lastSubmission": "2026-08-24T00:00:59.787Z",
-      "members": []
-    },
-    {
-      "rank": 27,
-      "teamId": 16946702,
-      "team": "Nova",
-      "score": 0.62738,
-      "submissions": 3,
-      "lastSubmission": "2026-09-24T08:48:18.050Z",
       "members": []
     },
     {
@@ -441,6 +441,15 @@
     },
     {
       "rank": 49,
+      "teamId": 16954606,
+      "team": "Oysta A.H",
+      "score": 0.21975,
+      "submissions": 4,
+      "lastSubmission": "2026-09-24T20:21:43.693Z",
+      "members": []
+    },
+    {
+      "rank": 50,
       "teamId": 16881692,
       "team": "Srinivas Calindi",
       "score": 0.21745,
@@ -449,7 +458,7 @@
       "members": []
     },
     {
-      "rank": 50,
+      "rank": 51,
       "teamId": 16792873,
       "team": "Nguyen Anh",
       "score": 0.21637,
@@ -458,7 +467,7 @@
       "members": []
     },
     {
-      "rank": 51,
+      "rank": 52,
       "teamId": 16885297,
       "team": "ML Learner26",
       "score": 0.2,
@@ -467,7 +476,7 @@
       "members": []
     },
     {
-      "rank": 52,
+      "rank": 53,
       "teamId": 16880458,
       "team": "Akshat",
       "score": 0.2,
@@ -476,7 +485,7 @@
       "members": []
     },
     {
-      "rank": 53,
+      "rank": 54,
       "teamId": 16948753,
       "team": "DongGua",
       "score": 0.2,
@@ -485,7 +494,7 @@
       "members": []
     },
     {
-      "rank": 54,
+      "rank": 55,
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "score": 0.195,
@@ -494,7 +503,7 @@
       "members": []
     },
     {
-      "rank": 55,
+      "rank": 56,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -503,7 +512,7 @@
       "members": []
     },
     {
-      "rank": 56,
+      "rank": 57,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -512,7 +521,7 @@
       "members": []
     },
     {
-      "rank": 57,
+      "rank": 58,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -522,12 +531,12 @@
     }
   ],
   "totals": {
-    "teams": 57,
-    "submissions": 2105,
+    "teams": 58,
+    "submissions": 2119,
     "best": 0.74747,
-    "median": 0.59227,
-    "p25": 0.28999,
-    "p75": 0.67236
+    "median": 0.59013,
+    "p25": 0.28785,
+    "p75": 0.67048
   },
-  "fetchedAt": "2026-09-24T18:28:51.210Z"
+  "fetchedAt": "2026-09-24T21:39:53.355Z"
 }
