@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-24T23:58:20.831Z",
+  "updatedAt": "2026-09-25T03:27:37.701Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,8 +130,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 77,
-      "scoredSubmissions": 77,
+      "submissions": 81,
+      "scoredSubmissions": 81,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.1787301512821498
         }
       },
-      "lastSubmission": "2026-09-24T15:21:39.060Z",
+      "lastSubmission": "2026-09-25T00:54:48.453Z",
       "rank": 7
     },
     {
@@ -210,8 +210,8 @@
     {
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "submissions": 88,
-      "scoredSubmissions": 88,
+      "submissions": 89,
+      "scoredSubmissions": 89,
       "kagglePublicBest": 0.70621,
       "best": {
         "balacc@10": {
@@ -224,7 +224,7 @@
           "value": 1.1639336819259387
         }
       },
-      "lastSubmission": "2026-09-22T20:08:34.737Z",
+      "lastSubmission": "2026-09-25T00:55:58.480Z",
       "rank": 11
     },
     {
@@ -250,8 +250,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 58,
-      "scoredSubmissions": 57,
+      "submissions": 59,
+      "scoredSubmissions": 58,
       "kagglePublicBest": 0.68695,
       "best": {
         "balacc@10": {
@@ -264,8 +264,28 @@
           "value": 1.1660660330071728
         }
       },
-      "lastSubmission": "2026-09-24T09:15:12.847Z",
+      "lastSubmission": "2026-09-25T00:02:27.337Z",
       "rank": 13
+    },
+    {
+      "teamId": 16927504,
+      "team": "cfw21w2",
+      "submissions": 37,
+      "scoredSubmissions": 37,
+      "kagglePublicBest": 0.67753,
+      "best": {
+        "balacc@10": {
+          "value": 0.67753
+        },
+        "balacc@1": {
+          "value": 0.2132243867243867
+        },
+        "ovmi": {
+          "value": 1.1419544502034307
+        }
+      },
+      "lastSubmission": "2026-09-25T00:05:26.950Z",
+      "rank": 14
     },
     {
       "teamId": 16781466,
@@ -285,33 +305,13 @@
         }
       },
       "lastSubmission": "2026-09-02T21:15:36.487Z",
-      "rank": 14
-    },
-    {
-      "teamId": 16927504,
-      "team": "cfw21w2",
-      "submissions": 27,
-      "scoredSubmissions": 27,
-      "kagglePublicBest": 0.67236,
-      "best": {
-        "balacc@10": {
-          "value": 0.67236
-        },
-        "balacc@1": {
-          "value": 0.1964689754689755
-        },
-        "ovmi": {
-          "value": 1.1419544502034307
-        }
-      },
-      "lastSubmission": "2026-09-23T04:04:49.463Z",
       "rank": 15
     },
     {
       "teamId": 16803215,
       "team": "peperonata",
-      "submissions": 17,
-      "scoredSubmissions": 17,
+      "submissions": 20,
+      "scoredSubmissions": 20,
       "kagglePublicBest": 0.66486,
       "best": {
         "balacc@10": {
@@ -324,7 +324,7 @@
           "value": 1.1567105561571356
         }
       },
-      "lastSubmission": "2026-09-24T23:55:48.470Z",
+      "lastSubmission": "2026-09-25T03:01:20.317Z",
       "rank": 16
     },
     {

@@ -39,8 +39,8 @@
       "teamId": 16781247,
       "team": "Connor Finnerty",
       "score": 0.7006,
-      "submissions": 53,
-      "lastSubmission": "2026-09-22T21:35:23.463Z",
+      "submissions": 54,
+      "lastSubmission": "2026-09-25T00:36:20.340Z",
       "members": []
     },
     {
@@ -84,8 +84,8 @@
       "teamId": 16896113,
       "team": "peperonata",
       "score": 0.63699,
-      "submissions": 3,
-      "lastSubmission": "2026-09-24T21:54:05.123Z",
+      "submissions": 6,
+      "lastSubmission": "2026-09-25T03:00:40.593Z",
       "members": []
     },
     {
@@ -102,8 +102,8 @@
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.61056,
-      "submissions": 33,
-      "lastSubmission": "2026-09-23T20:44:07.653Z",
+      "submissions": 35,
+      "lastSubmission": "2026-09-25T00:07:33.963Z",
       "members": []
     },
     {
@@ -208,11 +208,11 @@
   ],
   "totals": {
     "teams": 22,
-    "submissions": 824,
+    "submissions": 830,
     "best": 0.72915,
     "median": 0.60395,
     "p25": 0.25803,
     "p75": 0.64219
   },
-  "fetchedAt": "2026-09-24T23:59:20.874Z"
+  "fetchedAt": "2026-09-25T03:28:31.702Z"
 }

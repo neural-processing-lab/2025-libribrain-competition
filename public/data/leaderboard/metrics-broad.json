@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-24T23:58:22.278Z",
+  "updatedAt": "2026-09-25T03:27:39.177Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16781247,
       "team": "Connor Finnerty",
-      "submissions": 53,
-      "scoredSubmissions": 53,
+      "submissions": 54,
+      "scoredSubmissions": 54,
       "kagglePublicBest": 0.7006,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.150642748881647
         }
       },
-      "lastSubmission": "2026-09-22T21:35:23.463Z",
+      "lastSubmission": "2026-09-25T00:36:20.340Z",
       "rank": 4
     },
     {
@@ -170,8 +170,8 @@
     {
       "teamId": 16896113,
       "team": "peperonata",
-      "submissions": 3,
-      "scoredSubmissions": 3,
+      "submissions": 6,
+      "scoredSubmissions": 6,
       "kagglePublicBest": 0.63699,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 0.9270766040301374
         }
       },
-      "lastSubmission": "2026-09-24T21:54:05.123Z",
+      "lastSubmission": "2026-09-25T03:00:40.593Z",
       "rank": 9
     },
     {
@@ -210,8 +210,8 @@
     {
       "teamId": 16927415,
       "team": "cfw21w2",
-      "submissions": 33,
-      "scoredSubmissions": 33,
+      "submissions": 35,
+      "scoredSubmissions": 35,
       "kagglePublicBest": 0.61056,
       "best": {
         "balacc@10": {
@@ -224,7 +224,7 @@
           "value": 0.9479407304190383
         }
       },
-      "lastSubmission": "2026-09-23T20:44:07.653Z",
+      "lastSubmission": "2026-09-25T00:07:33.963Z",
       "rank": 11
     },
     {
