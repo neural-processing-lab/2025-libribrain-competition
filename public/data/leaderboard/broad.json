@@ -84,8 +84,8 @@
       "teamId": 16896113,
       "team": "peperonata",
       "score": 0.63699,
-      "submissions": 6,
-      "lastSubmission": "2026-09-25T03:00:40.593Z",
+      "submissions": 7,
+      "lastSubmission": "2026-09-25T05:12:41.903Z",
       "members": []
     },
     {
@@ -208,11 +208,11 @@
   ],
   "totals": {
     "teams": 22,
-    "submissions": 830,
+    "submissions": 831,
     "best": 0.72915,
     "median": 0.60395,
     "p25": 0.25803,
     "p75": 0.64219
   },
-  "fetchedAt": "2026-09-25T03:28:31.702Z"
+  "fetchedAt": "2026-09-25T08:59:46.604Z"
 }

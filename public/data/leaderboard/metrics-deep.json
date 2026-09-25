@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-25T03:27:37.701Z",
+  "updatedAt": "2026-09-25T08:59:03.190Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,21 +90,21 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 89,
-      "scoredSubmissions": 89,
+      "submissions": 92,
+      "scoredSubmissions": 92,
       "kagglePublicBest": 0.72125,
       "best": {
         "balacc@10": {
           "value": 0.72125
         },
         "balacc@1": {
-          "value": 0.2815
+          "value": 0.2915
         },
         "ovmi": {
           "value": 1.1920964682271324
         }
       },
-      "lastSubmission": "2026-09-24T23:43:48.233Z",
+      "lastSubmission": "2026-09-25T05:00:04.913Z",
       "rank": 5
     },
     {
@@ -388,6 +388,26 @@
       "rank": 19
     },
     {
+      "teamId": 16946702,
+      "team": "Nova",
+      "submissions": 6,
+      "scoredSubmissions": 6,
+      "kagglePublicBest": 0.65179,
+      "best": {
+        "balacc@10": {
+          "value": 0.65179
+        },
+        "balacc@1": {
+          "value": 0.2290021645021645
+        },
+        "ovmi": {
+          "value": 1.1635526262524791
+        }
+      },
+      "lastSubmission": "2026-09-25T07:29:16.707Z",
+      "rank": 20
+    },
+    {
       "teamId": 16608131,
       "team": "kakuteki",
       "submissions": 47,
@@ -405,26 +425,6 @@
         }
       },
       "lastSubmission": "2026-08-11T17:49:04.883Z",
-      "rank": 20
-    },
-    {
-      "teamId": 16946702,
-      "team": "Nova",
-      "submissions": 5,
-      "scoredSubmissions": 5,
-      "kagglePublicBest": 0.64528,
-      "best": {
-        "balacc@10": {
-          "value": 0.64528
-        },
-        "balacc@1": {
-          "value": 0.2290021645021645
-        },
-        "ovmi": {
-          "value": 1.1635526262524791
-        }
-      },
-      "lastSubmission": "2026-09-24T21:29:44.017Z",
       "rank": 21
     },
     {
@@ -590,8 +590,8 @@
     {
       "teamId": 16770046,
       "team": "Ave_Dominus_Nox",
-      "submissions": 20,
-      "scoredSubmissions": 20,
+      "submissions": 23,
+      "scoredSubmissions": 23,
       "kagglePublicBest": 0.58799,
       "best": {
         "balacc@10": {
@@ -604,7 +604,7 @@
           "value": 1.0726397367558154
         }
       },
-      "lastSubmission": "2026-09-23T02:43:48.660Z",
+      "lastSubmission": "2026-09-25T08:18:16.003Z",
       "rank": 30
     },
     {
