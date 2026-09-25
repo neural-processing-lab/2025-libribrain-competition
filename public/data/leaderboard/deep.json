@@ -66,8 +66,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 81,
-      "lastSubmission": "2026-09-25T00:54:48.453Z",
+      "submissions": 82,
+      "lastSubmission": "2026-09-25T21:16:55.157Z",
       "members": []
     },
     {
@@ -191,9 +191,9 @@
       "rank": 21,
       "teamId": 16946702,
       "team": "Nova",
-      "score": 0.65179,
-      "submissions": 8,
-      "lastSubmission": "2026-09-25T14:47:16.283Z",
+      "score": 0.6534,
+      "submissions": 9,
+      "lastSubmission": "2026-09-25T20:54:04.463Z",
       "members": []
     },
     {
@@ -532,11 +532,11 @@
   ],
   "totals": {
     "teams": 58,
-    "submissions": 2169,
+    "submissions": 2171,
     "best": 0.74747,
     "median": 0.59013,
     "p25": 0.28785,
     "p75": 0.67638
   },
-  "fetchedAt": "2026-09-25T18:45:22.456Z"
+  "fetchedAt": "2026-09-25T21:53:01.964Z"
 }
