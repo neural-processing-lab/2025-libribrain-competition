@@ -48,8 +48,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.72125,
-      "submissions": 92,
-      "lastSubmission": "2026-09-25T05:00:04.913Z",
+      "submissions": 97,
+      "lastSubmission": "2026-09-25T17:32:47.100Z",
       "members": []
     },
     {
@@ -120,8 +120,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.68695,
-      "submissions": 59,
-      "lastSubmission": "2026-09-25T00:02:27.337Z",
+      "submissions": 60,
+      "lastSubmission": "2026-09-25T15:12:55.270Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16946702,
       "team": "Nova",
       "score": 0.65179,
-      "submissions": 7,
-      "lastSubmission": "2026-09-25T10:18:28.633Z",
+      "submissions": 8,
+      "lastSubmission": "2026-09-25T14:47:16.283Z",
       "members": []
     },
     {
@@ -532,11 +532,11 @@
   ],
   "totals": {
     "teams": 58,
-    "submissions": 2162,
+    "submissions": 2169,
     "best": 0.74747,
     "median": 0.59013,
     "p25": 0.28785,
     "p75": 0.67638
   },
-  "fetchedAt": "2026-09-25T14:26:02.325Z"
+  "fetchedAt": "2026-09-25T18:45:22.456Z"
 }
