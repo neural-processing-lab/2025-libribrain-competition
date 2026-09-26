@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-26T17:26:04.380Z",
+  "updatedAt": "2026-09-26T19:59:28.508Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,8 +130,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 89,
-      "scoredSubmissions": 89,
+      "submissions": 91,
+      "scoredSubmissions": 91,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.1787301512821498
         }
       },
-      "lastSubmission": "2026-09-26T00:37:15.847Z",
+      "lastSubmission": "2026-09-26T19:44:34.453Z",
       "rank": 7
     },
     {
@@ -210,8 +210,8 @@
     {
       "teamId": 16781245,
       "team": "Connor Finnerty",
-      "submissions": 90,
-      "scoredSubmissions": 90,
+      "submissions": 91,
+      "scoredSubmissions": 91,
       "kagglePublicBest": 0.70621,
       "best": {
         "balacc@10": {
@@ -224,7 +224,7 @@
           "value": 1.1639336819259387
         }
       },
-      "lastSubmission": "2026-09-26T05:36:26.587Z",
+      "lastSubmission": "2026-09-26T18:54:35.503Z",
       "rank": 11
     },
     {
@@ -750,8 +750,8 @@
     {
       "teamId": 16606355,
       "team": "Salsinats",
-      "submissions": 15,
-      "scoredSubmissions": 15,
+      "submissions": 16,
+      "scoredSubmissions": 16,
       "kagglePublicBest": 0.39025,
       "best": {
         "balacc@10": {
@@ -761,10 +761,10 @@
           "value": 0.06930303030303031
         },
         "ovmi": {
-          "value": 0.6948154089703936
+          "value": 0.8100864648810453
         }
       },
-      "lastSubmission": "2026-09-26T16:59:13.527Z",
+      "lastSubmission": "2026-09-26T18:34:15.147Z",
       "rank": 38
     },
     {
@@ -870,8 +870,8 @@
     {
       "teamId": 16954606,
       "team": "Oysta A.H",
-      "submissions": 9,
-      "scoredSubmissions": 9,
+      "submissions": 10,
+      "scoredSubmissions": 10,
       "kagglePublicBest": 0.28941,
       "best": {
         "balacc@10": {
@@ -884,7 +884,7 @@
           "value": 0.8596955987542657
         }
       },
-      "lastSubmission": "2026-09-26T16:55:41.750Z",
+      "lastSubmission": "2026-09-26T17:41:17.937Z",
       "rank": 44
     },
     {
