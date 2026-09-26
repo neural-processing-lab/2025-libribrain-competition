@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-26T04:54:06.905Z",
+  "updatedAt": "2026-09-26T17:26:05.963Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -290,8 +290,8 @@
     {
       "teamId": 16606357,
       "team": "Salsinats",
-      "submissions": 13,
-      "scoredSubmissions": 13,
+      "submissions": 14,
+      "scoredSubmissions": 14,
       "kagglePublicBest": 0.34737,
       "best": {
         "balacc@10": {
@@ -304,7 +304,7 @@
           "value": 0.5148863533249957
         }
       },
-      "lastSubmission": "2026-09-22T07:18:31.137Z",
+      "lastSubmission": "2026-09-26T16:59:08.747Z",
       "rank": 15
     },
     {
@@ -410,8 +410,8 @@
     {
       "teamId": 16906911,
       "team": "Iepure Toni",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 3,
+      "scoredSubmissions": 3,
       "kagglePublicBest": 0.21405,
       "best": {
         "balacc@10": {
@@ -424,7 +424,7 @@
           "value": 0.18436616564496353
         }
       },
-      "lastSubmission": "2026-09-24T18:41:52.613Z",
+      "lastSubmission": "2026-09-26T14:20:49.983Z",
       "rank": 21
     },
     {
