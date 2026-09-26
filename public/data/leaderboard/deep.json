@@ -48,8 +48,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.72125,
-      "submissions": 97,
-      "lastSubmission": "2026-09-25T17:32:47.100Z",
+      "submissions": 98,
+      "lastSubmission": "2026-09-25T23:47:33.473Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 82,
-      "lastSubmission": "2026-09-25T21:16:55.157Z",
+      "submissions": 87,
+      "lastSubmission": "2026-09-25T23:47:34.753Z",
       "members": []
     },
     {
@@ -138,8 +138,8 @@
       "teamId": 16927504,
       "team": "cfw21w2",
       "score": 0.67753,
-      "submissions": 37,
-      "lastSubmission": "2026-09-25T00:05:26.950Z",
+      "submissions": 38,
+      "lastSubmission": "2026-09-26T00:01:42.420Z",
       "members": []
     },
     {
@@ -396,6 +396,15 @@
     },
     {
       "rank": 44,
+      "teamId": 16954606,
+      "team": "Oysta A.H",
+      "score": 0.28941,
+      "submissions": 6,
+      "lastSubmission": "2026-09-25T22:58:33.023Z",
+      "members": []
+    },
+    {
+      "rank": 45,
       "teamId": 16726041,
       "team": "Bhargav Kowshik",
       "score": 0.28713,
@@ -404,7 +413,7 @@
       "members": []
     },
     {
-      "rank": 45,
+      "rank": 46,
       "teamId": 16790306,
       "team": "Fon1as",
       "score": 0.25381,
@@ -413,7 +422,7 @@
       "members": []
     },
     {
-      "rank": 46,
+      "rank": 47,
       "teamId": 16797123,
       "team": "willguido",
       "score": 0.24437,
@@ -422,7 +431,7 @@
       "members": []
     },
     {
-      "rank": 47,
+      "rank": 48,
       "teamId": 16894177,
       "team": "immortal2",
       "score": 0.2407,
@@ -431,21 +440,12 @@
       "members": []
     },
     {
-      "rank": 48,
+      "rank": 49,
       "teamId": 16792950,
       "team": "Amal Messaoud",
       "score": 0.23738,
       "submissions": 9,
       "lastSubmission": "2026-09-13T14:39:56.390Z",
-      "members": []
-    },
-    {
-      "rank": 49,
-      "teamId": 16954606,
-      "team": "Oysta A.H",
-      "score": 0.21975,
-      "submissions": 5,
-      "lastSubmission": "2026-09-25T11:30:37.117Z",
       "members": []
     },
     {
@@ -532,11 +532,11 @@
   ],
   "totals": {
     "teams": 58,
-    "submissions": 2171,
+    "submissions": 2179,
     "best": 0.74747,
     "median": 0.59013,
-    "p25": 0.28785,
+    "p25": 0.28956,
     "p75": 0.67638
   },
-  "fetchedAt": "2026-09-25T21:53:01.964Z"
+  "fetchedAt": "2026-09-26T00:12:37.962Z"
 }
