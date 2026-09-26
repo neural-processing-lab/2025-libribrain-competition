@@ -30,8 +30,8 @@
       "teamId": 16785989,
       "team": "Jatin Arutla",
       "score": 0.72795,
-      "submissions": 41,
-      "lastSubmission": "2026-09-23T14:49:04.120Z",
+      "submissions": 43,
+      "lastSubmission": "2026-09-26T13:46:22.873Z",
       "members": []
     },
     {
@@ -120,8 +120,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.68695,
-      "submissions": 60,
-      "lastSubmission": "2026-09-25T15:12:55.270Z",
+      "submissions": 61,
+      "lastSubmission": "2026-09-26T10:51:08.277Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16946702,
       "team": "Nova",
       "score": 0.6534,
-      "submissions": 9,
-      "lastSubmission": "2026-09-25T20:54:04.463Z",
+      "submissions": 10,
+      "lastSubmission": "2026-09-26T09:57:26.027Z",
       "members": []
     },
     {
@@ -237,8 +237,8 @@
       "teamId": 16923242,
       "team": "langstudent",
       "score": 0.63277,
-      "submissions": 23,
-      "lastSubmission": "2026-09-25T09:50:33.513Z",
+      "submissions": 24,
+      "lastSubmission": "2026-09-26T11:08:17.593Z",
       "members": []
     },
     {
@@ -532,11 +532,11 @@
   ],
   "totals": {
     "teams": 58,
-    "submissions": 2199,
+    "submissions": 2204,
     "best": 0.74747,
     "median": 0.59013,
     "p25": 0.28956,
     "p75": 0.67638
   },
-  "fetchedAt": "2026-09-26T09:35:08.775Z"
+  "fetchedAt": "2026-09-26T13:52:02.210Z"
 }
