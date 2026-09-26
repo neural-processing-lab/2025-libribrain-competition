@@ -45,6 +45,15 @@
     },
     {
       "rank": 5,
+      "teamId": 16553979,
+      "team": "MindLink",
+      "score": 0.72299,
+      "submissions": 179,
+      "lastSubmission": "2026-09-26T02:53:20.497Z",
+      "members": []
+    },
+    {
+      "rank": 6,
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.72125,
@@ -53,21 +62,12 @@
       "members": []
     },
     {
-      "rank": 6,
-      "teamId": 16553979,
-      "team": "MindLink",
-      "score": 0.72117,
-      "submissions": 169,
-      "lastSubmission": "2026-09-20T00:08:24.813Z",
-      "members": []
-    },
-    {
       "rank": 7,
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 87,
-      "lastSubmission": "2026-09-25T23:47:34.753Z",
+      "submissions": 89,
+      "lastSubmission": "2026-09-26T00:37:15.847Z",
       "members": []
     },
     {
@@ -138,8 +138,8 @@
       "teamId": 16927504,
       "team": "cfw21w2",
       "score": 0.67753,
-      "submissions": 38,
-      "lastSubmission": "2026-09-26T00:01:42.420Z",
+      "submissions": 42,
+      "lastSubmission": "2026-09-26T01:19:55.740Z",
       "members": []
     },
     {
@@ -219,8 +219,8 @@
       "teamId": 16607550,
       "team": "Brain King",
       "score": 0.64406,
-      "submissions": 70,
-      "lastSubmission": "2026-09-07T15:05:55.077Z",
+      "submissions": 71,
+      "lastSubmission": "2026-09-26T02:47:39.353Z",
       "members": []
     },
     {
@@ -399,8 +399,8 @@
       "teamId": 16954606,
       "team": "Oysta A.H",
       "score": 0.28941,
-      "submissions": 6,
-      "lastSubmission": "2026-09-25T22:58:33.023Z",
+      "submissions": 8,
+      "lastSubmission": "2026-09-26T02:53:29.310Z",
       "members": []
     },
     {
@@ -532,11 +532,11 @@
   ],
   "totals": {
     "teams": 58,
-    "submissions": 2179,
+    "submissions": 2198,
     "best": 0.74747,
     "median": 0.59013,
     "p25": 0.28956,
     "p75": 0.67638
   },
-  "fetchedAt": "2026-09-26T00:12:37.962Z"
+  "fetchedAt": "2026-09-26T04:54:16.098Z"
 }
