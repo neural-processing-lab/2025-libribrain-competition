@@ -66,8 +66,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 97,
-      "lastSubmission": "2026-09-27T01:04:19.980Z",
+      "submissions": 101,
+      "lastSubmission": "2026-09-27T16:45:53.717Z",
       "members": []
     },
     {
@@ -290,9 +290,9 @@
       "rank": 32,
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "score": 0.47714,
-      "submissions": 134,
-      "lastSubmission": "2026-09-27T13:19:50.487Z",
+      "score": 0.49047,
+      "submissions": 137,
+      "lastSubmission": "2026-09-27T18:06:19.343Z",
       "members": []
     },
     {
@@ -309,8 +309,8 @@
       "teamId": 16928493,
       "team": "NJUersgogogo",
       "score": 0.44995,
-      "submissions": 17,
-      "lastSubmission": "2026-09-24T02:58:53.910Z",
+      "submissions": 21,
+      "lastSubmission": "2026-09-27T15:49:40.043Z",
       "members": []
     },
     {
@@ -550,11 +550,11 @@
   ],
   "totals": {
     "teams": 60,
-    "submissions": 2250,
+    "submissions": 2261,
     "best": 0.74747,
     "median": 0.57692,
     "p25": 0.28985,
     "p75": 0.67408
   },
-  "fetchedAt": "2026-09-27T15:24:38.853Z"
+  "fetchedAt": "2026-09-27T19:05:34.624Z"
 }

@@ -198,6 +198,15 @@
     },
     {
       "rank": 22,
+      "teamId": 16972643,
+      "team": "Arthur12212003",
+      "score": 0.21177,
+      "submissions": 1,
+      "lastSubmission": "2026-09-27T15:52:32.063Z",
+      "members": []
+    },
+    {
+      "rank": 23,
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "score": 0.20141,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 16941809,
       "team": "InformaBook2",
       "score": 0.2,
@@ -216,12 +225,12 @@
     }
   ],
   "totals": {
-    "teams": 23,
-    "submissions": 847,
+    "teams": 24,
+    "submissions": 848,
     "best": 0.72915,
-    "median": 0.61056,
-    "p25": 0.27543,
-    "p75": 0.65511
+    "median": 0.60395,
+    "p25": 0.2382,
+    "p75": 0.64901
   },
-  "fetchedAt": "2026-09-27T10:53:35.840Z"
+  "fetchedAt": "2026-09-27T19:05:34.624Z"
 }
