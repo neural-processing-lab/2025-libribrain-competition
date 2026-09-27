@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-27T19:05:03.106Z",
+  "updatedAt": "2026-09-27T22:04:47.035Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -570,8 +570,8 @@
     {
       "teamId": 16708216,
       "team": "AutoDecode",
-      "submissions": 26,
-      "scoredSubmissions": 26,
+      "submissions": 27,
+      "scoredSubmissions": 27,
       "kagglePublicBest": 0.60101,
       "best": {
         "balacc@10": {
@@ -584,7 +584,7 @@
           "value": 1.0863084209044067
         }
       },
-      "lastSubmission": "2026-09-26T14:34:28.973Z",
+      "lastSubmission": "2026-09-27T21:22:06.457Z",
       "rank": 29
     },
     {
@@ -910,8 +910,8 @@
     {
       "teamId": 16954606,
       "team": "Oysta A.H",
-      "submissions": 10,
-      "scoredSubmissions": 10,
+      "submissions": 12,
+      "scoredSubmissions": 12,
       "kagglePublicBest": 0.28941,
       "best": {
         "balacc@10": {
@@ -924,7 +924,7 @@
           "value": 0.8596955987542657
         }
       },
-      "lastSubmission": "2026-09-26T17:41:17.937Z",
+      "lastSubmission": "2026-09-27T21:35:18.533Z",
       "rank": 46
     },
     {
