@@ -27,20 +27,20 @@
     },
     {
       "rank": 3,
+      "teamId": 16948218,
+      "team": "Jatin Arutla",
+      "score": 0.71268,
+      "submissions": 2,
+      "lastSubmission": "2026-09-26T23:08:37.160Z",
+      "members": []
+    },
+    {
+      "rank": 4,
       "teamId": 16779203,
       "team": "ottietjesesakfs",
       "score": 0.70899,
       "submissions": 240,
       "lastSubmission": "2026-09-20T03:26:15.620Z",
-      "members": []
-    },
-    {
-      "rank": 4,
-      "teamId": 16948218,
-      "team": "Jatin Arutla",
-      "score": 0.70337,
-      "submissions": 1,
-      "lastSubmission": "2026-09-25T21:02:42.590Z",
       "members": []
     },
     {
@@ -217,11 +217,11 @@
   ],
   "totals": {
     "teams": 23,
-    "submissions": 842,
+    "submissions": 843,
     "best": 0.72915,
     "median": 0.61056,
     "p25": 0.27543,
     "p75": 0.65511
   },
-  "fetchedAt": "2026-09-26T19:59:51.779Z"
+  "fetchedAt": "2026-09-27T00:43:14.031Z"
 }
