@@ -353,9 +353,9 @@
       "rank": 39,
       "teamId": 16606355,
       "team": "Salsinats",
-      "score": 0.39025,
-      "submissions": 16,
-      "lastSubmission": "2026-09-26T18:34:15.147Z",
+      "score": 0.40325,
+      "submissions": 18,
+      "lastSubmission": "2026-09-27T09:22:48.630Z",
       "members": []
     },
     {
@@ -550,11 +550,11 @@
   ],
   "totals": {
     "teams": 60,
-    "submissions": 2235,
+    "submissions": 2237,
     "best": 0.74747,
     "median": 0.57692,
     "p25": 0.28985,
     "p75": 0.67408
   },
-  "fetchedAt": "2026-09-27T05:46:13.691Z"
+  "fetchedAt": "2026-09-27T10:53:35.840Z"
 }
