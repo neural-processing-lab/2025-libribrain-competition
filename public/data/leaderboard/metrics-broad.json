@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-27T00:42:48.428Z",
+  "updatedAt": "2026-09-27T05:45:51.019Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16948218,
       "team": "Jatin Arutla",
-      "submissions": 2,
-      "scoredSubmissions": 2,
+      "submissions": 3,
+      "scoredSubmissions": 3,
       "kagglePublicBest": 0.71268,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.0201243265535105
         }
       },
-      "lastSubmission": "2026-09-26T23:08:37.160Z",
+      "lastSubmission": "2026-09-27T02:18:40.113Z",
       "rank": 3
     },
     {

@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-27T00:42:46.944Z",
+  "updatedAt": "2026-09-27T05:45:49.477Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -90,8 +90,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 179,
-      "scoredSubmissions": 179,
+      "submissions": 189,
+      "scoredSubmissions": 189,
       "kagglePublicBest": 0.72299,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-26T02:53:20.497Z",
+      "lastSubmission": "2026-09-27T05:12:33.830Z",
       "rank": 5
     },
     {
@@ -130,8 +130,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 95,
-      "scoredSubmissions": 95,
+      "submissions": 97,
+      "scoredSubmissions": 97,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.1787301512821498
         }
       },
-      "lastSubmission": "2026-09-27T00:14:37.583Z",
+      "lastSubmission": "2026-09-27T01:04:19.980Z",
       "rank": 7
     },
     {
