@@ -12,8 +12,8 @@
       "teamId": 16692669,
       "team": "Varshith Madishetty",
       "score": 0.72915,
-      "submissions": 184,
-      "lastSubmission": "2026-09-22T05:36:19.023Z",
+      "submissions": 186,
+      "lastSubmission": "2026-09-28T18:10:45.390Z",
       "members": []
     },
     {
@@ -110,9 +110,9 @@
       "rank": 12,
       "teamId": 16927415,
       "team": "cfw21w2",
-      "score": 0.61056,
-      "submissions": 35,
-      "lastSubmission": "2026-09-25T00:07:33.963Z",
+      "score": 0.61618,
+      "submissions": 41,
+      "lastSubmission": "2026-09-28T18:19:45.227Z",
       "members": []
     },
     {
@@ -129,8 +129,8 @@
       "teamId": 16976079,
       "team": "langstudent",
       "score": 0.55362,
-      "submissions": 4,
-      "lastSubmission": "2026-09-28T11:39:45.683Z",
+      "submissions": 5,
+      "lastSubmission": "2026-09-28T15:34:47.530Z",
       "members": []
     },
     {
@@ -147,8 +147,8 @@
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.35416,
-      "submissions": 18,
-      "lastSubmission": "2026-09-27T09:22:44.177Z",
+      "submissions": 19,
+      "lastSubmission": "2026-09-28T18:57:14.247Z",
       "members": []
     },
     {
@@ -174,8 +174,8 @@
       "teamId": 16972643,
       "team": "Arthur12212003",
       "score": 0.24634,
-      "submissions": 6,
-      "lastSubmission": "2026-09-28T11:02:49.890Z",
+      "submissions": 8,
+      "lastSubmission": "2026-09-28T15:02:25.817Z",
       "members": []
     },
     {
@@ -244,11 +244,11 @@
   ],
   "totals": {
     "teams": 26,
-    "submissions": 858,
+    "submissions": 870,
     "best": 0.72915,
     "median": 0.57548,
     "p25": 0.24206,
     "p75": 0.64219
   },
-  "fetchedAt": "2026-09-28T12:05:44.806Z"
+  "fetchedAt": "2026-09-28T19:38:19.758Z"
 }
