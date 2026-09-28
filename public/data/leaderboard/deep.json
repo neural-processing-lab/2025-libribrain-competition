@@ -417,8 +417,8 @@
       "teamId": 16954606,
       "team": "Oysta A.H",
       "score": 0.28941,
-      "submissions": 12,
-      "lastSubmission": "2026-09-27T21:35:18.533Z",
+      "submissions": 13,
+      "lastSubmission": "2026-09-28T00:32:12.037Z",
       "members": []
     },
     {
@@ -550,11 +550,11 @@
   ],
   "totals": {
     "teams": 60,
-    "submissions": 2264,
+    "submissions": 2265,
     "best": 0.74747,
     "median": 0.57692,
     "p25": 0.28985,
     "p75": 0.67408
   },
-  "fetchedAt": "2026-09-27T22:05:18.577Z"
+  "fetchedAt": "2026-09-28T00:39:20.532Z"
 }

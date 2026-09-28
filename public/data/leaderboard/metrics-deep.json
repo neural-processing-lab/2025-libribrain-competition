@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-27T22:04:47.035Z",
+  "updatedAt": "2026-09-28T00:38:22.681Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -910,8 +910,8 @@
     {
       "teamId": 16954606,
       "team": "Oysta A.H",
-      "submissions": 12,
-      "scoredSubmissions": 12,
+      "submissions": 13,
+      "scoredSubmissions": 13,
       "kagglePublicBest": 0.28941,
       "best": {
         "balacc@10": {
@@ -921,10 +921,10 @@
           "value": 0.0395
         },
         "ovmi": {
-          "value": 0.8596955987542657
+          "value": 0.8758988180470969
         }
       },
-      "lastSubmission": "2026-09-27T21:35:18.533Z",
+      "lastSubmission": "2026-09-28T00:32:12.037Z",
       "rank": 46
     },
     {
