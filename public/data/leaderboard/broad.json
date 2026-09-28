@@ -126,6 +126,15 @@
     },
     {
       "rank": 14,
+      "teamId": 16976079,
+      "team": "langstudent",
+      "score": 0.54358,
+      "submissions": 1,
+      "lastSubmission": "2026-09-28T05:45:18.727Z",
+      "members": []
+    },
+    {
+      "rank": 15,
       "teamId": 16794004,
       "team": "Sia",
       "score": 0.54318,
@@ -134,7 +143,7 @@
       "members": []
     },
     {
-      "rank": 15,
+      "rank": 16,
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.35416,
@@ -143,7 +152,7 @@
       "members": []
     },
     {
-      "rank": 16,
+      "rank": 17,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -152,7 +161,7 @@
       "members": []
     },
     {
-      "rank": 17,
+      "rank": 18,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16571739,
       "team": "PNPL-OX",
       "score": 0.24063,
@@ -170,7 +179,7 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 16571080,
       "team": "SajanKr",
       "score": 0.23089,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16972643,
       "team": "Arthur12212003",
       "score": 0.23086,
@@ -188,7 +197,7 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 16943904,
       "team": "Abhijith Pradeep",
       "score": 0.23059,
@@ -197,7 +206,7 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16726042,
       "team": "Bhargav Kowshik",
       "score": 0.21871,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 16906911,
       "team": "Iepure Toni",
       "score": 0.21405,
@@ -215,7 +224,7 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16580487,
       "team": "Pratik Pattanaik",
       "score": 0.20141,
@@ -224,7 +233,7 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16941809,
       "team": "InformaBook2",
       "score": 0.2,
@@ -234,12 +243,12 @@
     }
   ],
   "totals": {
-    "teams": 25,
-    "submissions": 851,
+    "teams": 26,
+    "submissions": 852,
     "best": 0.72915,
-    "median": 0.59734,
-    "p25": 0.23089,
-    "p75": 0.64291
+    "median": 0.57046,
+    "p25": 0.23333,
+    "p75": 0.64219
   },
-  "fetchedAt": "2026-09-28T00:39:20.532Z"
+  "fetchedAt": "2026-09-28T05:49:29.357Z"
 }

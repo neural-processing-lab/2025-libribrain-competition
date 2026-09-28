@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-28T00:38:22.681Z",
+  "updatedAt": "2026-09-28T05:48:41.307Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 134,
-      "scoredSubmissions": 134,
+      "submissions": 136,
+      "scoredSubmissions": 136,
       "kagglePublicBest": 0.74747,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.146874378265943
         }
       },
-      "lastSubmission": "2026-09-27T12:53:15.450Z",
+      "lastSubmission": "2026-09-28T03:37:34.883Z",
       "rank": 1
     },
     {
@@ -90,8 +90,8 @@
     {
       "teamId": 16553979,
       "team": "MindLink",
-      "submissions": 189,
-      "scoredSubmissions": 189,
+      "submissions": 191,
+      "scoredSubmissions": 191,
       "kagglePublicBest": 0.72299,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.1264681036951494
         }
       },
-      "lastSubmission": "2026-09-27T05:12:33.830Z",
+      "lastSubmission": "2026-09-28T05:18:36.373Z",
       "rank": 5
     },
     {
@@ -290,21 +290,21 @@
     {
       "teamId": 16927504,
       "team": "cfw21w2",
-      "submissions": 43,
-      "scoredSubmissions": 43,
+      "submissions": 44,
+      "scoredSubmissions": 44,
       "kagglePublicBest": 0.67753,
       "best": {
         "balacc@10": {
           "value": 0.67753
         },
         "balacc@1": {
-          "value": 0.2132243867243867
+          "value": 0.22057287157287156
         },
         "ovmi": {
           "value": 1.1607184588135042
         }
       },
-      "lastSubmission": "2026-09-26T16:42:23.583Z",
+      "lastSubmission": "2026-09-28T05:30:00.510Z",
       "rank": 15
     },
     {
@@ -608,6 +608,26 @@
       "rank": 30
     },
     {
+      "teamId": 16969296,
+      "team": "Viacheslav Fokin",
+      "submissions": 2,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.58064,
+      "best": {
+        "balacc@10": {
+          "value": 0.58064
+        },
+        "balacc@1": {
+          "value": 0.09766666666666665
+        },
+        "ovmi": {
+          "value": 0.9091901971628086
+        }
+      },
+      "lastSubmission": "2026-09-28T01:20:15.550Z",
+      "rank": 31
+    },
+    {
       "teamId": 16789752,
       "team": "syouya tobita",
       "submissions": 18,
@@ -625,17 +645,17 @@
         }
       },
       "lastSubmission": "2026-09-18T08:42:52.997Z",
-      "rank": 31
+      "rank": 32
     },
     {
       "teamId": 16510893,
       "team": "MindReaders2.0",
-      "submissions": 137,
-      "scoredSubmissions": 137,
-      "kagglePublicBest": 0.49047,
+      "submissions": 139,
+      "scoredSubmissions": 139,
+      "kagglePublicBest": 0.50714,
       "best": {
         "balacc@10": {
-          "value": 0.49047
+          "value": 0.50714
         },
         "balacc@1": {
           "value": 0.09234920634920635
@@ -644,8 +664,8 @@
           "value": 0.9892707160307097
         }
       },
-      "lastSubmission": "2026-09-27T18:06:19.343Z",
-      "rank": 32
+      "lastSubmission": "2026-09-28T04:51:47.977Z",
+      "rank": 33
     },
     {
       "teamId": 16859154,
@@ -665,7 +685,7 @@
         }
       },
       "lastSubmission": "2026-09-23T10:30:58.497Z",
-      "rank": 33
+      "rank": 34
     },
     {
       "teamId": 16928493,
@@ -685,7 +705,7 @@
         }
       },
       "lastSubmission": "2026-09-27T15:49:40.043Z",
-      "rank": 34
+      "rank": 35
     },
     {
       "teamId": 16571738,
@@ -705,7 +725,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 35
+      "rank": 36
     },
     {
       "teamId": 16700843,
@@ -725,7 +745,7 @@
         }
       },
       "lastSubmission": "2026-09-16T10:32:28.507Z",
-      "rank": 36
+      "rank": 37
     },
     {
       "teamId": 16774953,
@@ -745,26 +765,6 @@
         }
       },
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "rank": 37
-    },
-    {
-      "teamId": 16969296,
-      "team": "Viacheslav Fokin",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.4316,
-      "best": {
-        "balacc@10": {
-          "value": 0.4316
-        },
-        "balacc@1": {
-          "value": 0.06133333333333333
-        },
-        "ovmi": {
-          "value": 0.7580786821769895
-        }
-      },
-      "lastSubmission": "2026-09-26T23:57:22.270Z",
       "rank": 38
     },
     {
