@@ -128,9 +128,9 @@
       "rank": 14,
       "teamId": 16976079,
       "team": "langstudent",
-      "score": 0.54358,
-      "submissions": 1,
-      "lastSubmission": "2026-09-28T05:45:18.727Z",
+      "score": 0.55362,
+      "submissions": 4,
+      "lastSubmission": "2026-09-28T11:39:45.683Z",
       "members": []
     },
     {
@@ -171,6 +171,15 @@
     },
     {
       "rank": 19,
+      "teamId": 16972643,
+      "team": "Arthur12212003",
+      "score": 0.24634,
+      "submissions": 6,
+      "lastSubmission": "2026-09-28T11:02:49.890Z",
+      "members": []
+    },
+    {
+      "rank": 20,
       "teamId": 16571739,
       "team": "PNPL-OX",
       "score": 0.24063,
@@ -179,21 +188,12 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16571080,
       "team": "SajanKr",
       "score": 0.23089,
       "submissions": 3,
       "lastSubmission": "2026-08-09T13:57:04.100Z",
-      "members": []
-    },
-    {
-      "rank": 21,
-      "teamId": 16972643,
-      "team": "Arthur12212003",
-      "score": 0.23086,
-      "submissions": 3,
-      "lastSubmission": "2026-09-28T00:07:41.353Z",
       "members": []
     },
     {
@@ -244,11 +244,11 @@
   ],
   "totals": {
     "teams": 26,
-    "submissions": 852,
+    "submissions": 858,
     "best": 0.72915,
-    "median": 0.57046,
-    "p25": 0.23333,
+    "median": 0.57548,
+    "p25": 0.24206,
     "p75": 0.64219
   },
-  "fetchedAt": "2026-09-28T05:49:29.357Z"
+  "fetchedAt": "2026-09-28T12:05:44.806Z"
 }
