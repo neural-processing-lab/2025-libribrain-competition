@@ -30,8 +30,8 @@
       "teamId": 16785989,
       "team": "Jatin Arutla",
       "score": 0.72795,
-      "submissions": 45,
-      "lastSubmission": "2026-09-27T12:59:23.213Z",
+      "submissions": 47,
+      "lastSubmission": "2026-09-28T23:37:55.493Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 101,
-      "lastSubmission": "2026-09-27T16:45:53.717Z",
+      "submissions": 102,
+      "lastSubmission": "2026-09-28T21:32:29.213Z",
       "members": []
     },
     {
@@ -252,6 +252,15 @@
     },
     {
       "rank": 28,
+      "teamId": 16969296,
+      "team": "Viacheslav Fokin",
+      "score": 0.63256,
+      "submissions": 6,
+      "lastSubmission": "2026-09-28T22:45:23.023Z",
+      "members": []
+    },
+    {
+      "rank": 29,
       "teamId": 16736164,
       "team": "SENPAI",
       "score": 0.62963,
@@ -260,7 +269,7 @@
       "members": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "teamId": 16953455,
       "team": "NeuroMTEC",
       "score": 0.62822,
@@ -269,7 +278,7 @@
       "members": []
     },
     {
-      "rank": 30,
+      "rank": 31,
       "teamId": 16666931,
       "team": "onlytry",
       "score": 0.61525,
@@ -278,21 +287,12 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16770046,
       "team": "Ave_Dominus_Nox",
       "score": 0.58799,
       "submissions": 23,
       "lastSubmission": "2026-09-25T08:18:16.003Z",
-      "members": []
-    },
-    {
-      "rank": 32,
-      "teamId": 16969296,
-      "team": "Viacheslav Fokin",
-      "score": 0.58064,
-      "submissions": 2,
-      "lastSubmission": "2026-09-28T01:20:15.550Z",
       "members": []
     },
     {
@@ -309,8 +309,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.50714,
-      "submissions": 139,
-      "lastSubmission": "2026-09-28T04:51:47.977Z",
+      "submissions": 140,
+      "lastSubmission": "2026-09-28T21:02:11.607Z",
       "members": []
     },
     {
@@ -559,11 +559,11 @@
   ],
   "totals": {
     "teams": 61,
-    "submissions": 2312,
+    "submissions": 2320,
     "best": 0.74747,
-    "median": 0.58799,
+    "median": 0.61525,
     "p25": 0.29034,
     "p75": 0.67725
   },
-  "fetchedAt": "2026-09-28T19:38:19.758Z"
+  "fetchedAt": "2026-09-28T23:55:03.511Z"
 }
