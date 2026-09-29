@@ -48,30 +48,39 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.72299,
-      "submissions": 199,
-      "lastSubmission": "2026-09-28T11:32:31.937Z",
+      "submissions": 200,
+      "lastSubmission": "2026-09-29T22:59:26.063Z",
       "members": []
     },
     {
       "rank": 6,
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "score": 0.72125,
-      "submissions": 99,
-      "lastSubmission": "2026-09-29T14:15:33.133Z",
+      "teamId": 16781466,
+      "team": "Munich Logic Lab",
+      "score": 0.72141,
+      "submissions": 45,
+      "lastSubmission": "2026-09-29T20:44:03.357Z",
       "members": []
     },
     {
       "rank": 7,
-      "teamId": 16697258,
-      "team": "Jordan Griffith",
-      "score": 0.71876,
-      "submissions": 106,
-      "lastSubmission": "2026-09-29T20:00:00.790Z",
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "score": 0.72125,
+      "submissions": 100,
+      "lastSubmission": "2026-09-29T22:40:35.493Z",
       "members": []
     },
     {
       "rank": 8,
+      "teamId": 16697258,
+      "team": "Jordan Griffith",
+      "score": 0.71876,
+      "submissions": 112,
+      "lastSubmission": "2026-09-29T23:33:11.427Z",
+      "members": []
+    },
+    {
+      "rank": 9,
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
@@ -80,7 +89,7 @@
       "members": []
     },
     {
-      "rank": 9,
+      "rank": 10,
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.71732,
@@ -89,7 +98,7 @@
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.71724,
@@ -98,7 +107,7 @@
       "members": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "teamId": 16667929,
       "team": "Umur Yıldız",
       "score": 0.7148,
@@ -107,7 +116,7 @@
       "members": []
     },
     {
-      "rank": 12,
+      "rank": 13,
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.70621,
@@ -116,16 +125,16 @@
       "members": []
     },
     {
-      "rank": 13,
+      "rank": 14,
       "teamId": 16983055,
       "team": "BNEL",
       "score": 0.69829,
-      "submissions": 9,
-      "lastSubmission": "2026-09-29T20:01:59.073Z",
+      "submissions": 10,
+      "lastSubmission": "2026-09-29T20:31:00.257Z",
       "members": []
     },
     {
-      "rank": 14,
+      "rank": 15,
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
@@ -134,21 +143,12 @@
       "members": []
     },
     {
-      "rank": 15,
-      "teamId": 16781466,
-      "team": "Munich Logic Lab",
-      "score": 0.68541,
-      "submissions": 44,
-      "lastSubmission": "2026-09-29T20:08:49.747Z",
-      "members": []
-    },
-    {
       "rank": 16,
       "teamId": 16927504,
       "team": "cfw21w2",
       "score": 0.68238,
-      "submissions": 56,
-      "lastSubmission": "2026-09-29T18:53:27.343Z",
+      "submissions": 58,
+      "lastSubmission": "2026-09-29T21:20:09.193Z",
       "members": []
     },
     {
@@ -577,11 +577,11 @@
   ],
   "totals": {
     "teams": 63,
-    "submissions": 2396,
+    "submissions": 2408,
     "best": 0.74747,
     "median": 0.62963,
     "p25": 0.30382,
     "p75": 0.68232
   },
-  "fetchedAt": "2026-09-29T20:13:44.815Z"
+  "fetchedAt": "2026-09-29T23:42:13.409Z"
 }

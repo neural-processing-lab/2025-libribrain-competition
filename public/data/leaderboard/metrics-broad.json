@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-29T20:12:53.611Z",
+  "updatedAt": "2026-09-29T23:41:29.432Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -250,8 +250,8 @@
     {
       "teamId": 16927415,
       "team": "cfw21w2",
-      "submissions": 44,
-      "scoredSubmissions": 44,
+      "submissions": 45,
+      "scoredSubmissions": 45,
       "kagglePublicBest": 0.61618,
       "best": {
         "balacc@10": {
@@ -264,7 +264,7 @@
           "value": 0.9479407304190383
         }
       },
-      "lastSubmission": "2026-09-29T18:55:26.613Z",
+      "lastSubmission": "2026-09-29T20:34:45.177Z",
       "rank": 13
     },
     {
@@ -408,6 +408,26 @@
       "rank": 20
     },
     {
+      "teamId": 16943904,
+      "team": "Abhijith Pradeep",
+      "submissions": 3,
+      "scoredSubmissions": 3,
+      "kagglePublicBest": 0.24214,
+      "best": {
+        "balacc@10": {
+          "value": 0.24214
+        },
+        "balacc@1": {
+          "value": 0.029602638102638097
+        },
+        "ovmi": {
+          "value": 0.1050087013139298
+        }
+      },
+      "lastSubmission": "2026-09-29T22:56:18.080Z",
+      "rank": 21
+    },
+    {
       "teamId": 16571739,
       "team": "PNPL-OX",
       "submissions": 1,
@@ -425,7 +445,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:24:47.203Z",
-      "rank": 21
+      "rank": 22
     },
     {
       "teamId": 16571080,
@@ -445,26 +465,6 @@
         }
       },
       "lastSubmission": "2026-08-09T13:57:04.100Z",
-      "rank": 22
-    },
-    {
-      "teamId": 16943904,
-      "team": "Abhijith Pradeep",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.23059,
-      "best": {
-        "balacc@10": {
-          "value": 0.23059
-        },
-        "balacc@1": {
-          "value": 0.024440799940799937
-        },
-        "ovmi": {
-          "value": 0.0896032539591343
-        }
-      },
-      "lastSubmission": "2026-09-27T23:43:10.890Z",
       "rank": 23
     },
     {

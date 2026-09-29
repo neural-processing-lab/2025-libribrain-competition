@@ -120,8 +120,8 @@
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.61618,
-      "submissions": 44,
-      "lastSubmission": "2026-09-29T18:55:26.613Z",
+      "submissions": 45,
+      "lastSubmission": "2026-09-29T20:34:45.177Z",
       "members": []
     },
     {
@@ -189,6 +189,15 @@
     },
     {
       "rank": 21,
+      "teamId": 16943904,
+      "team": "Abhijith Pradeep",
+      "score": 0.24214,
+      "submissions": 3,
+      "lastSubmission": "2026-09-29T22:56:18.080Z",
+      "members": []
+    },
+    {
+      "rank": 22,
       "teamId": 16571739,
       "team": "PNPL-OX",
       "score": 0.24063,
@@ -197,21 +206,12 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16571080,
       "team": "SajanKr",
       "score": 0.23089,
       "submissions": 3,
       "lastSubmission": "2026-08-09T13:57:04.100Z",
-      "members": []
-    },
-    {
-      "rank": 23,
-      "teamId": 16943904,
-      "team": "Abhijith Pradeep",
-      "score": 0.23059,
-      "submissions": 1,
-      "lastSubmission": "2026-09-27T23:43:10.890Z",
       "members": []
     },
     {
@@ -253,11 +253,11 @@
   ],
   "totals": {
     "teams": 27,
-    "submissions": 894,
+    "submissions": 897,
     "best": 0.72915,
     "median": 0.59734,
-    "p25": 0.24349,
+    "p25": 0.24424,
     "p75": 0.64146
   },
-  "fetchedAt": "2026-09-29T20:13:44.815Z"
+  "fetchedAt": "2026-09-29T23:42:13.409Z"
 }
