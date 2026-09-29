@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-28T23:54:01.859Z",
+  "updatedAt": "2026-09-29T02:53:00.156Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -50,8 +50,8 @@
     {
       "teamId": 16785989,
       "team": "Jatin Arutla",
-      "submissions": 47,
-      "scoredSubmissions": 47,
+      "submissions": 53,
+      "scoredSubmissions": 53,
       "kagglePublicBest": 0.72795,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1369087929459623
         }
       },
-      "lastSubmission": "2026-09-28T23:37:55.493Z",
+      "lastSubmission": "2026-09-28T23:58:29.770Z",
       "rank": 3
     },
     {
@@ -130,8 +130,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 102,
-      "scoredSubmissions": 102,
+      "submissions": 104,
+      "scoredSubmissions": 104,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.1787301512821498
         }
       },
-      "lastSubmission": "2026-09-28T21:32:29.213Z",
+      "lastSubmission": "2026-09-29T01:38:26.537Z",
       "rank": 7
     },
     {
