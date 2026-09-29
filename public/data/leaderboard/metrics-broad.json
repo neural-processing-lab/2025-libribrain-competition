@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-28T23:54:03.247Z",
+  "updatedAt": "2026-09-29T09:08:07.279Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "submissions": 186,
-      "scoredSubmissions": 185,
+      "submissions": 191,
+      "scoredSubmissions": 190,
       "kagglePublicBest": 0.72915,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.1065303436010845
         }
       },
-      "lastSubmission": "2026-09-28T18:10:45.390Z",
+      "lastSubmission": "2026-09-29T03:10:35.467Z",
       "rank": 1
     },
     {

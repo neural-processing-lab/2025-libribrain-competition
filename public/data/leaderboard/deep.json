@@ -12,8 +12,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.74747,
-      "submissions": 138,
-      "lastSubmission": "2026-09-28T07:00:42.463Z",
+      "submissions": 141,
+      "lastSubmission": "2026-09-29T07:24:24.610Z",
       "members": []
     },
     {
@@ -29,9 +29,9 @@
       "rank": 3,
       "teamId": 16785989,
       "team": "Jatin Arutla",
-      "score": 0.72795,
-      "submissions": 53,
-      "lastSubmission": "2026-09-28T23:58:29.770Z",
+      "score": 0.72982,
+      "submissions": 58,
+      "lastSubmission": "2026-09-29T07:35:48.603Z",
       "members": []
     },
     {
@@ -201,8 +201,8 @@
       "teamId": 16946702,
       "team": "Nova",
       "score": 0.6534,
-      "submissions": 10,
-      "lastSubmission": "2026-09-26T09:57:26.027Z",
+      "submissions": 11,
+      "lastSubmission": "2026-09-29T08:10:21.073Z",
       "members": []
     },
     {
@@ -255,8 +255,8 @@
       "teamId": 16969296,
       "team": "Viacheslav Fokin",
       "score": 0.63256,
-      "submissions": 6,
-      "lastSubmission": "2026-09-28T22:45:23.023Z",
+      "submissions": 7,
+      "lastSubmission": "2026-09-29T03:35:00.490Z",
       "members": []
     },
     {
@@ -309,8 +309,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.50714,
-      "submissions": 140,
-      "lastSubmission": "2026-09-28T21:02:11.607Z",
+      "submissions": 145,
+      "lastSubmission": "2026-09-29T03:24:05.913Z",
       "members": []
     },
     {
@@ -559,11 +559,11 @@
   ],
   "totals": {
     "teams": 61,
-    "submissions": 2328,
+    "submissions": 2343,
     "best": 0.74747,
     "median": 0.61525,
     "p25": 0.29034,
     "p75": 0.67725
   },
-  "fetchedAt": "2026-09-29T02:53:01.655Z"
+  "fetchedAt": "2026-09-29T09:09:02.474Z"
 }
