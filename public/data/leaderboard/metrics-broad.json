@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-29T09:08:07.279Z",
+  "updatedAt": "2026-09-29T15:43:46.748Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16779203,
       "team": "ottietjesesakfs",
-      "submissions": 240,
-      "scoredSubmissions": 240,
+      "submissions": 250,
+      "scoredSubmissions": 250,
       "kagglePublicBest": 0.70899,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.124938701315816
         }
       },
-      "lastSubmission": "2026-09-20T03:26:15.620Z",
+      "lastSubmission": "2026-09-29T10:19:50.613Z",
       "rank": 4
     },
     {
