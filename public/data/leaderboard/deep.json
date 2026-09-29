@@ -12,8 +12,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.74747,
-      "submissions": 141,
-      "lastSubmission": "2026-09-29T07:24:24.610Z",
+      "submissions": 144,
+      "lastSubmission": "2026-09-29T18:27:20.087Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.71876,
-      "submissions": 104,
-      "lastSubmission": "2026-09-29T01:38:26.537Z",
+      "submissions": 106,
+      "lastSubmission": "2026-09-29T20:00:00.790Z",
       "members": []
     },
     {
@@ -93,8 +93,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.71724,
-      "submissions": 64,
-      "lastSubmission": "2026-09-29T15:25:10.990Z",
+      "submissions": 66,
+      "lastSubmission": "2026-09-29T16:38:00.263Z",
       "members": []
     },
     {
@@ -120,8 +120,8 @@
       "teamId": 16983055,
       "team": "BNEL",
       "score": 0.69829,
-      "submissions": 3,
-      "lastSubmission": "2026-09-29T12:44:38.167Z",
+      "submissions": 9,
+      "lastSubmission": "2026-09-29T20:01:59.073Z",
       "members": []
     },
     {
@@ -135,6 +135,24 @@
     },
     {
       "rank": 15,
+      "teamId": 16781466,
+      "team": "Munich Logic Lab",
+      "score": 0.68541,
+      "submissions": 44,
+      "lastSubmission": "2026-09-29T20:08:49.747Z",
+      "members": []
+    },
+    {
+      "rank": 16,
+      "teamId": 16927504,
+      "team": "cfw21w2",
+      "score": 0.68238,
+      "submissions": 56,
+      "lastSubmission": "2026-09-29T18:53:27.343Z",
+      "members": []
+    },
+    {
+      "rank": 17,
       "teamId": 16791335,
       "team": "Michal",
       "score": 0.68225,
@@ -143,30 +161,12 @@
       "members": []
     },
     {
-      "rank": 16,
-      "teamId": 16927504,
-      "team": "cfw21w2",
-      "score": 0.68154,
-      "submissions": 53,
-      "lastSubmission": "2026-09-28T15:01:03.550Z",
-      "members": []
-    },
-    {
-      "rank": 17,
+      "rank": 18,
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
       "score": 0.67725,
-      "submissions": 38,
-      "lastSubmission": "2026-09-29T11:37:38.377Z",
-      "members": []
-    },
-    {
-      "rank": 18,
-      "teamId": 16781466,
-      "team": "Munich Logic Lab",
-      "score": 0.67293,
-      "submissions": 35,
-      "lastSubmission": "2026-09-02T21:15:36.487Z",
+      "submissions": 40,
+      "lastSubmission": "2026-09-29T17:39:47.243Z",
       "members": []
     },
     {
@@ -531,6 +531,15 @@
     },
     {
       "rank": 59,
+      "teamId": 16986530,
+      "team": "Athina Kanellatou ",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-09-29T16:58:22.257Z",
+      "members": []
+    },
+    {
+      "rank": 60,
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "score": 0.195,
@@ -539,7 +548,7 @@
       "members": []
     },
     {
-      "rank": 60,
+      "rank": 61,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -548,7 +557,7 @@
       "members": []
     },
     {
-      "rank": 61,
+      "rank": 62,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -557,7 +566,7 @@
       "members": []
     },
     {
-      "rank": 62,
+      "rank": 63,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -567,12 +576,12 @@
     }
   ],
   "totals": {
-    "teams": 62,
-    "submissions": 2368,
+    "teams": 63,
+    "submissions": 2396,
     "best": 0.74747,
-    "median": 0.63054,
-    "p25": 0.32181,
-    "p75": 0.68047
+    "median": 0.62963,
+    "p25": 0.30382,
+    "p75": 0.68232
   },
-  "fetchedAt": "2026-09-29T15:44:39.649Z"
+  "fetchedAt": "2026-09-29T20:13:44.815Z"
 }
