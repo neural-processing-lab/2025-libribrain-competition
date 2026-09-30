@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-30T02:22:28.676Z",
+  "updatedAt": "2026-09-30T08:45:19.543Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,8 +130,8 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 100,
-      "scoredSubmissions": 100,
+      "submissions": 105,
+      "scoredSubmissions": 105,
       "kagglePublicBest": 0.72125,
       "best": {
         "balacc@10": {
@@ -144,7 +144,7 @@
           "value": 1.1920964682271324
         }
       },
-      "lastSubmission": "2026-09-29T22:40:35.493Z",
+      "lastSubmission": "2026-09-30T03:16:40.660Z",
       "rank": 7
     },
     {
@@ -170,8 +170,8 @@
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 251,
-      "scoredSubmissions": 251,
+      "submissions": 255,
+      "scoredSubmissions": 255,
       "kagglePublicBest": 0.71799,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 1.159094023043524
         }
       },
-      "lastSubmission": "2026-09-30T02:07:55.287Z",
+      "lastSubmission": "2026-09-30T03:00:20.443Z",
       "rank": 9
     },
     {
@@ -270,8 +270,8 @@
     {
       "teamId": 16983055,
       "team": "BNEL",
-      "submissions": 12,
-      "scoredSubmissions": 12,
+      "submissions": 15,
+      "scoredSubmissions": 15,
       "kagglePublicBest": 0.69829,
       "best": {
         "balacc@10": {
@@ -284,7 +284,7 @@
           "value": 1.1430599703861255
         }
       },
-      "lastSubmission": "2026-09-30T00:20:40.597Z",
+      "lastSubmission": "2026-09-30T06:18:30.383Z",
       "rank": 14
     },
     {
@@ -450,8 +450,8 @@
     {
       "teamId": 16946702,
       "team": "Nova",
-      "submissions": 12,
-      "scoredSubmissions": 12,
+      "submissions": 13,
+      "scoredSubmissions": 13,
       "kagglePublicBest": 0.65539,
       "best": {
         "balacc@10": {
@@ -464,7 +464,7 @@
           "value": 1.1888468680710202
         }
       },
-      "lastSubmission": "2026-09-29T13:29:50.680Z",
+      "lastSubmission": "2026-09-30T08:21:11.237Z",
       "rank": 23
     },
     {
