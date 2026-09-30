@@ -21,8 +21,8 @@
       "teamId": 16636411,
       "team": "Kim",
       "score": 0.74747,
-      "submissions": 144,
-      "lastSubmission": "2026-09-29T18:27:20.087Z",
+      "submissions": 145,
+      "lastSubmission": "2026-09-30T17:22:39.943Z",
       "members": []
     },
     {
@@ -84,8 +84,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 256,
-      "lastSubmission": "2026-09-30T11:34:40.963Z",
+      "submissions": 257,
+      "lastSubmission": "2026-09-30T19:35:59.947Z",
       "members": []
     },
     {
@@ -577,11 +577,11 @@
   ],
   "totals": {
     "teams": 63,
-    "submissions": 2483,
+    "submissions": 2485,
     "best": 0.75057,
     "median": 0.62963,
     "p25": 0.30382,
     "p75": 0.68232
   },
-  "fetchedAt": "2026-09-30T15:24:55.317Z"
+  "fetchedAt": "2026-09-30T20:08:52.886Z"
 }

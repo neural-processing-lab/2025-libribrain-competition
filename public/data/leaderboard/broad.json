@@ -39,8 +39,8 @@
       "teamId": 16779203,
       "team": "ottietjesesakfs",
       "score": 0.70899,
-      "submissions": 251,
-      "lastSubmission": "2026-09-30T11:34:47.700Z",
+      "submissions": 252,
+      "lastSubmission": "2026-09-30T19:36:05.670Z",
       "members": []
     },
     {
@@ -227,9 +227,9 @@
       "rank": 25,
       "teamId": 16986637,
       "team": "Ethan",
-      "score": 0.22097,
-      "submissions": 1,
-      "lastSubmission": "2026-09-30T01:44:17.120Z",
+      "score": 0.22637,
+      "submissions": 2,
+      "lastSubmission": "2026-09-30T18:45:06.397Z",
       "members": []
     },
     {
@@ -262,11 +262,11 @@
   ],
   "totals": {
     "teams": 28,
-    "submissions": 902,
+    "submissions": 904,
     "best": 0.72915,
     "median": 0.57548,
     "p25": 0.24529,
     "p75": 0.64626
   },
-  "fetchedAt": "2026-09-30T15:24:55.317Z"
+  "fetchedAt": "2026-09-30T20:08:52.886Z"
 }
