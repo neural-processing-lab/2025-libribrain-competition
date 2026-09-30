@@ -39,8 +39,8 @@
       "teamId": 16779203,
       "team": "ottietjesesakfs",
       "score": 0.70899,
-      "submissions": 250,
-      "lastSubmission": "2026-09-29T10:19:50.613Z",
+      "submissions": 251,
+      "lastSubmission": "2026-09-30T11:34:47.700Z",
       "members": []
     },
     {
@@ -153,6 +153,15 @@
     },
     {
       "rank": 17,
+      "teamId": 16906911,
+      "team": "Iepure Toni",
+      "score": 0.41546,
+      "submissions": 5,
+      "lastSubmission": "2026-09-30T12:28:07.960Z",
+      "members": []
+    },
+    {
+      "rank": 18,
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.35416,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -170,7 +179,7 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16972643,
       "team": "Arthur12212003",
       "score": 0.24634,
@@ -188,7 +197,7 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 16943904,
       "team": "Abhijith Pradeep",
       "score": 0.24214,
@@ -197,7 +206,7 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16571739,
       "team": "PNPL-OX",
       "score": 0.24063,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 16571080,
       "team": "SajanKr",
       "score": 0.23089,
@@ -215,7 +224,7 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16986637,
       "team": "Ethan",
       "score": 0.22097,
@@ -224,21 +233,12 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16726042,
       "team": "Bhargav Kowshik",
       "score": 0.21871,
       "submissions": 12,
       "lastSubmission": "2026-09-03T17:06:32.153Z",
-      "members": []
-    },
-    {
-      "rank": 26,
-      "teamId": 16906911,
-      "team": "Iepure Toni",
-      "score": 0.21405,
-      "submissions": 3,
-      "lastSubmission": "2026-09-26T14:20:49.983Z",
       "members": []
     },
     {
@@ -262,11 +262,11 @@
   ],
   "totals": {
     "teams": 28,
-    "submissions": 899,
+    "submissions": 902,
     "best": 0.72915,
     "median": 0.57548,
-    "p25": 0.24176,
+    "p25": 0.24529,
     "p75": 0.64626
   },
-  "fetchedAt": "2026-09-30T02:22:42.248Z"
+  "fetchedAt": "2026-09-30T15:24:55.317Z"
 }

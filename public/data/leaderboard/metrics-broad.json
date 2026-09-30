@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-09-30T02:22:30.208Z",
+  "updatedAt": "2026-09-30T15:24:44.649Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,8 +70,8 @@
     {
       "teamId": 16779203,
       "team": "ottietjesesakfs",
-      "submissions": 250,
-      "scoredSubmissions": 250,
+      "submissions": 251,
+      "scoredSubmissions": 251,
       "kagglePublicBest": 0.70899,
       "best": {
         "balacc@10": {
@@ -84,7 +84,7 @@
           "value": 1.124938701315816
         }
       },
-      "lastSubmission": "2026-09-29T10:19:50.613Z",
+      "lastSubmission": "2026-09-30T11:34:47.700Z",
       "rank": 4
     },
     {
@@ -328,6 +328,26 @@
       "rank": 16
     },
     {
+      "teamId": 16906911,
+      "team": "Iepure Toni",
+      "submissions": 5,
+      "scoredSubmissions": 5,
+      "kagglePublicBest": 0.41546,
+      "best": {
+        "balacc@10": {
+          "value": 0.41546
+        },
+        "balacc@1": {
+          "value": 0.08216200466200466
+        },
+        "ovmi": {
+          "value": 0.5866435507988729
+        }
+      },
+      "lastSubmission": "2026-09-30T12:28:07.960Z",
+      "rank": 17
+    },
+    {
       "teamId": 16606357,
       "team": "Salsinats",
       "submissions": 19,
@@ -345,7 +365,7 @@
         }
       },
       "lastSubmission": "2026-09-28T18:57:14.247Z",
-      "rank": 17
+      "rank": 18
     },
     {
       "teamId": 16686336,
@@ -365,7 +385,7 @@
         }
       },
       "lastSubmission": "2026-08-12T06:23:34.590Z",
-      "rank": 18
+      "rank": 19
     },
     {
       "teamId": 16580266,
@@ -385,7 +405,7 @@
         }
       },
       "lastSubmission": "2026-07-21T10:08:18.583Z",
-      "rank": 19
+      "rank": 20
     },
     {
       "teamId": 16972643,
@@ -405,7 +425,7 @@
         }
       },
       "lastSubmission": "2026-09-28T15:02:25.817Z",
-      "rank": 20
+      "rank": 21
     },
     {
       "teamId": 16943904,
@@ -425,7 +445,7 @@
         }
       },
       "lastSubmission": "2026-09-29T22:56:18.080Z",
-      "rank": 21
+      "rank": 22
     },
     {
       "teamId": 16571739,
@@ -445,7 +465,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:24:47.203Z",
-      "rank": 22
+      "rank": 23
     },
     {
       "teamId": 16571080,
@@ -465,7 +485,7 @@
         }
       },
       "lastSubmission": "2026-08-09T13:57:04.100Z",
-      "rank": 23
+      "rank": 24
     },
     {
       "teamId": 16986637,
@@ -485,7 +505,7 @@
         }
       },
       "lastSubmission": "2026-09-30T01:44:17.120Z",
-      "rank": 24
+      "rank": 25
     },
     {
       "teamId": 16726042,
@@ -505,26 +525,6 @@
         }
       },
       "lastSubmission": "2026-09-03T17:06:32.153Z",
-      "rank": 25
-    },
-    {
-      "teamId": 16906911,
-      "team": "Iepure Toni",
-      "submissions": 3,
-      "scoredSubmissions": 3,
-      "kagglePublicBest": 0.21405,
-      "best": {
-        "balacc@10": {
-          "value": 0.21405
-        },
-        "balacc@1": {
-          "value": 0.03509644059644059
-        },
-        "ovmi": {
-          "value": 0.18436616564496353
-        }
-      },
-      "lastSubmission": "2026-09-26T14:20:49.983Z",
       "rank": 26
     },
     {
