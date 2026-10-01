@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-01T02:25:43.030Z",
+  "updatedAt": "2026-10-01T09:09:24.126Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,8 +10,8 @@
     {
       "teamId": 16781466,
       "team": "Munich Logic Lab",
-      "submissions": 63,
-      "scoredSubmissions": 63,
+      "submissions": 65,
+      "scoredSubmissions": 65,
       "kagglePublicBest": 0.76507,
       "best": {
         "balacc@10": {
@@ -24,7 +24,7 @@
           "value": 1.2085098662089062
         }
       },
-      "lastSubmission": "2026-10-01T00:34:55.910Z",
+      "lastSubmission": "2026-10-01T04:53:04.107Z",
       "rank": 1
     },
     {
@@ -210,8 +210,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 67,
-      "scoredSubmissions": 66,
+      "submissions": 68,
+      "scoredSubmissions": 67,
       "kagglePublicBest": 0.71724,
       "best": {
         "balacc@10": {
@@ -224,7 +224,7 @@
           "value": 1.1660660330071728
         }
       },
-      "lastSubmission": "2026-09-30T15:00:17.077Z",
+      "lastSubmission": "2026-10-01T05:55:09.637Z",
       "rank": 11
     },
     {
@@ -410,8 +410,8 @@
     {
       "teamId": 16946702,
       "team": "Nova",
-      "submissions": 15,
-      "scoredSubmissions": 15,
+      "submissions": 16,
+      "scoredSubmissions": 16,
       "kagglePublicBest": 0.66195,
       "best": {
         "balacc@10": {
@@ -424,7 +424,7 @@
           "value": 1.1888468680710202
         }
       },
-      "lastSubmission": "2026-09-30T14:42:50.140Z",
+      "lastSubmission": "2026-10-01T06:57:01.067Z",
       "rank": 21
     },
     {
@@ -708,6 +708,26 @@
       "rank": 35
     },
     {
+      "teamId": 16954606,
+      "team": "Oysta A.H",
+      "submissions": 17,
+      "scoredSubmissions": 17,
+      "kagglePublicBest": 0.55869,
+      "best": {
+        "balacc@10": {
+          "value": 0.55869
+        },
+        "balacc@1": {
+          "value": 0.10743650793650794
+        },
+        "ovmi": {
+          "value": 1.019269017629996
+        }
+      },
+      "lastSubmission": "2026-10-01T02:51:40.723Z",
+      "rank": 36
+    },
+    {
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "submissions": 145,
@@ -725,26 +745,6 @@
         }
       },
       "lastSubmission": "2026-09-29T03:24:05.913Z",
-      "rank": 36
-    },
-    {
-      "teamId": 16954606,
-      "team": "Oysta A.H",
-      "submissions": 15,
-      "scoredSubmissions": 15,
-      "kagglePublicBest": 0.45753,
-      "best": {
-        "balacc@10": {
-          "value": 0.45753
-        },
-        "balacc@1": {
-          "value": 0.0905894660894661
-        },
-        "ovmi": {
-          "value": 1.0105568506266642
-        }
-      },
-      "lastSubmission": "2026-09-28T16:15:48.497Z",
       "rank": 37
     },
     {

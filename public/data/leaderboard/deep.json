@@ -12,8 +12,8 @@
       "teamId": 16781466,
       "team": "Munich Logic Lab",
       "score": 0.76507,
-      "submissions": 63,
-      "lastSubmission": "2026-10-01T00:34:55.910Z",
+      "submissions": 65,
+      "lastSubmission": "2026-10-01T04:53:04.107Z",
       "members": []
     },
     {
@@ -102,8 +102,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.71724,
-      "submissions": 67,
-      "lastSubmission": "2026-09-30T15:00:17.077Z",
+      "submissions": 68,
+      "lastSubmission": "2026-10-01T05:55:09.637Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16946702,
       "team": "Nova",
       "score": 0.66195,
-      "submissions": 15,
-      "lastSubmission": "2026-09-30T14:42:50.140Z",
+      "submissions": 16,
+      "lastSubmission": "2026-10-01T06:57:01.067Z",
       "members": []
     },
     {
@@ -324,20 +324,20 @@
     },
     {
       "rank": 36,
+      "teamId": 16954606,
+      "team": "Oysta A.H",
+      "score": 0.55869,
+      "submissions": 17,
+      "lastSubmission": "2026-10-01T02:51:40.723Z",
+      "members": []
+    },
+    {
+      "rank": 37,
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.50714,
       "submissions": 145,
       "lastSubmission": "2026-09-29T03:24:05.913Z",
-      "members": []
-    },
-    {
-      "rank": 37,
-      "teamId": 16954606,
-      "team": "Oysta A.H",
-      "score": 0.45753,
-      "submissions": 15,
-      "lastSubmission": "2026-09-28T16:15:48.497Z",
       "members": []
     },
     {
@@ -577,11 +577,11 @@
   ],
   "totals": {
     "teams": 63,
-    "submissions": 2518,
+    "submissions": 2524,
     "best": 0.76507,
     "median": 0.62963,
     "p25": 0.30382,
     "p75": 0.68232
   },
-  "fetchedAt": "2026-10-01T02:26:33.594Z"
+  "fetchedAt": "2026-10-01T09:10:19.667Z"
 }
