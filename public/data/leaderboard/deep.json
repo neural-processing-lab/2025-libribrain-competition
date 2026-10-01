@@ -11,9 +11,9 @@
       "rank": 1,
       "teamId": 16781466,
       "team": "Munich Logic Lab",
-      "score": 0.75057,
-      "submissions": 55,
-      "lastSubmission": "2026-09-30T00:04:14.747Z",
+      "score": 0.76507,
+      "submissions": 63,
+      "lastSubmission": "2026-10-01T00:34:55.910Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.72125,
-      "submissions": 106,
-      "lastSubmission": "2026-09-30T14:06:33.947Z",
+      "submissions": 116,
+      "lastSubmission": "2026-10-01T01:28:19.497Z",
       "members": []
     },
     {
@@ -84,8 +84,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 257,
-      "lastSubmission": "2026-09-30T19:35:59.947Z",
+      "submissions": 266,
+      "lastSubmission": "2026-10-01T00:01:01.037Z",
       "members": []
     },
     {
@@ -164,9 +164,9 @@
       "rank": 18,
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
-      "score": 0.67725,
-      "submissions": 44,
-      "lastSubmission": "2026-09-30T13:06:10.730Z",
+      "score": 0.68088,
+      "submissions": 50,
+      "lastSubmission": "2026-10-01T01:52:04.803Z",
       "members": []
     },
     {
@@ -577,11 +577,11 @@
   ],
   "totals": {
     "teams": 63,
-    "submissions": 2485,
-    "best": 0.75057,
+    "submissions": 2518,
+    "best": 0.76507,
     "median": 0.62963,
     "p25": 0.30382,
     "p75": 0.68232
   },
-  "fetchedAt": "2026-09-30T20:08:52.886Z"
+  "fetchedAt": "2026-10-01T02:26:33.594Z"
 }

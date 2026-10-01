@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-09-30T20:08:07.647Z",
+  "updatedAt": "2026-10-01T02:25:43.030Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,21 +10,21 @@
     {
       "teamId": 16781466,
       "team": "Munich Logic Lab",
-      "submissions": 55,
-      "scoredSubmissions": 55,
-      "kagglePublicBest": 0.75057,
+      "submissions": 63,
+      "scoredSubmissions": 63,
+      "kagglePublicBest": 0.76507,
       "best": {
         "balacc@10": {
-          "value": 0.75057
+          "value": 0.76507
         },
         "balacc@1": {
-          "value": 0.24306493506493507
+          "value": 0.2771919191919192
         },
         "ovmi": {
           "value": 1.2085098662089062
         }
       },
-      "lastSubmission": "2026-09-30T00:04:14.747Z",
+      "lastSubmission": "2026-10-01T00:34:55.910Z",
       "rank": 1
     },
     {
@@ -130,8 +130,8 @@
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 106,
-      "scoredSubmissions": 106,
+      "submissions": 116,
+      "scoredSubmissions": 116,
       "kagglePublicBest": 0.72125,
       "best": {
         "balacc@10": {
@@ -141,10 +141,10 @@
           "value": 0.2915
         },
         "ovmi": {
-          "value": 1.1920964682271324
+          "value": 1.1979027862520404
         }
       },
-      "lastSubmission": "2026-09-30T14:06:33.947Z",
+      "lastSubmission": "2026-10-01T01:28:19.497Z",
       "rank": 7
     },
     {
@@ -170,8 +170,8 @@
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 257,
-      "scoredSubmissions": 257,
+      "submissions": 266,
+      "scoredSubmissions": 266,
       "kagglePublicBest": 0.71799,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 1.159094023043524
         }
       },
-      "lastSubmission": "2026-09-30T19:35:59.947Z",
+      "lastSubmission": "2026-10-01T00:01:01.037Z",
       "rank": 9
     },
     {
@@ -350,12 +350,12 @@
     {
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
-      "submissions": 44,
-      "scoredSubmissions": 44,
-      "kagglePublicBest": 0.67725,
+      "submissions": 50,
+      "scoredSubmissions": 50,
+      "kagglePublicBest": 0.68088,
       "best": {
         "balacc@10": {
-          "value": 0.67725
+          "value": 0.68088
         },
         "balacc@1": {
           "value": 0.19893867243867244
@@ -364,7 +364,7 @@
           "value": 1.147266385198365
         }
       },
-      "lastSubmission": "2026-09-30T13:06:10.730Z",
+      "lastSubmission": "2026-10-01T01:52:04.803Z",
       "rank": 18
     },
     {
