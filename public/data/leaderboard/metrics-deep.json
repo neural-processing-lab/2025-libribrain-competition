@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-01T16:22:19.031Z",
+  "updatedAt": "2026-10-01T21:06:52.766Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -150,8 +150,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 114,
-      "scoredSubmissions": 114,
+      "submissions": 116,
+      "scoredSubmissions": 116,
       "kagglePublicBest": 0.71876,
       "best": {
         "balacc@10": {
@@ -164,14 +164,14 @@
           "value": 1.1787301512821498
         }
       },
-      "lastSubmission": "2026-09-30T00:14:49.797Z",
+      "lastSubmission": "2026-10-01T20:55:33.410Z",
       "rank": 8
     },
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 266,
-      "scoredSubmissions": 266,
+      "submissions": 267,
+      "scoredSubmissions": 267,
       "kagglePublicBest": 0.71799,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 1.159094023043524
         }
       },
-      "lastSubmission": "2026-10-01T00:01:01.037Z",
+      "lastSubmission": "2026-10-01T17:25:12.047Z",
       "rank": 9
     },
     {
@@ -210,21 +210,21 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 68,
-      "scoredSubmissions": 67,
+      "submissions": 69,
+      "scoredSubmissions": 68,
       "kagglePublicBest": 0.71724,
       "best": {
         "balacc@10": {
           "value": 0.71724
         },
         "balacc@1": {
-          "value": 0.23995310245310242
+          "value": 0.24713492063492062
         },
         "ovmi": {
           "value": 1.1660660330071728
         }
       },
-      "lastSubmission": "2026-10-01T05:55:09.637Z",
+      "lastSubmission": "2026-10-01T19:22:20.360Z",
       "rank": 11
     },
     {
@@ -410,8 +410,8 @@
     {
       "teamId": 16946702,
       "team": "Nova",
-      "submissions": 16,
-      "scoredSubmissions": 16,
+      "submissions": 17,
+      "scoredSubmissions": 17,
       "kagglePublicBest": 0.66195,
       "best": {
         "balacc@10": {
@@ -424,7 +424,7 @@
           "value": 1.1888468680710202
         }
       },
-      "lastSubmission": "2026-10-01T06:57:01.067Z",
+      "lastSubmission": "2026-10-01T18:08:25.483Z",
       "rank": 21
     },
     {
