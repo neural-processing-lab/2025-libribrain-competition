@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-02T12:29:33.425Z",
+  "updatedAt": "2026-10-02T18:00:17.285Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -210,21 +210,21 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 71,
-      "scoredSubmissions": 70,
+      "submissions": 73,
+      "scoredSubmissions": 72,
       "kagglePublicBest": 0.71724,
       "best": {
         "balacc@10": {
           "value": 0.71724
         },
         "balacc@1": {
-          "value": 0.24713492063492062
+          "value": 0.25765873015873014
         },
         "ovmi": {
           "value": 1.1660660330071728
         }
       },
-      "lastSubmission": "2026-10-02T08:40:56.807Z",
+      "lastSubmission": "2026-10-02T16:37:48.143Z",
       "rank": 11
     },
     {
@@ -470,21 +470,21 @@
     {
       "teamId": 16644796,
       "team": "MagnetoLex",
-      "submissions": 40,
-      "scoredSubmissions": 40,
+      "submissions": 50,
+      "scoredSubmissions": 50,
       "kagglePublicBest": 0.65476,
       "best": {
         "balacc@10": {
           "value": 0.65476
         },
         "balacc@1": {
-          "value": 0.21733549783549783
+          "value": 0.23332683982683983
         },
         "ovmi": {
           "value": 1.1227096713536067
         }
       },
-      "lastSubmission": "2026-09-12T04:40:19.487Z",
+      "lastSubmission": "2026-10-02T16:41:12.233Z",
       "rank": 24
     },
     {
@@ -570,8 +570,8 @@
     {
       "teamId": 17012370,
       "team": "Dimitar Terziev",
-      "submissions": 12,
-      "scoredSubmissions": 12,
+      "submissions": 13,
+      "scoredSubmissions": 13,
       "kagglePublicBest": 0.63669,
       "best": {
         "balacc@10": {
@@ -584,7 +584,7 @@
           "value": 1.0677493418001236
         }
       },
-      "lastSubmission": "2026-10-02T11:51:45.723Z",
+      "lastSubmission": "2026-10-02T14:14:27.203Z",
       "rank": 29
     },
     {
@@ -710,8 +710,8 @@
     {
       "teamId": 16685400,
       "team": "saharacamel",
-      "submissions": 11,
-      "scoredSubmissions": 11,
+      "submissions": 13,
+      "scoredSubmissions": 13,
       "kagglePublicBest": 0.58023,
       "best": {
         "balacc@10": {
@@ -724,7 +724,7 @@
           "value": 1.0621732307414335
         }
       },
-      "lastSubmission": "2026-10-02T12:15:05.357Z",
+      "lastSubmission": "2026-10-02T15:29:19.500Z",
       "rank": 36
     },
     {

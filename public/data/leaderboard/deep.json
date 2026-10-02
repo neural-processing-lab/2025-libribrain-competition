@@ -102,8 +102,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.71724,
-      "submissions": 71,
-      "lastSubmission": "2026-10-02T08:40:56.807Z",
+      "submissions": 73,
+      "lastSubmission": "2026-10-02T16:37:48.143Z",
       "members": []
     },
     {
@@ -219,8 +219,8 @@
       "teamId": 16644796,
       "team": "MagnetoLex",
       "score": 0.65476,
-      "submissions": 40,
-      "lastSubmission": "2026-09-12T04:40:19.487Z",
+      "submissions": 50,
+      "lastSubmission": "2026-10-02T16:41:12.233Z",
       "members": []
     },
     {
@@ -264,8 +264,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.63669,
-      "submissions": 12,
-      "lastSubmission": "2026-10-02T11:51:45.723Z",
+      "submissions": 13,
+      "lastSubmission": "2026-10-02T14:14:27.203Z",
       "members": []
     },
     {
@@ -327,8 +327,8 @@
       "teamId": 16685400,
       "team": "saharacamel",
       "score": 0.58023,
-      "submissions": 11,
-      "lastSubmission": "2026-10-02T12:15:05.357Z",
+      "submissions": 13,
+      "lastSubmission": "2026-10-02T15:29:19.500Z",
       "members": []
     },
     {
@@ -595,11 +595,11 @@
   ],
   "totals": {
     "teams": 65,
-    "submissions": 2604,
+    "submissions": 2619,
     "best": 0.76507,
     "median": 0.62963,
     "p25": 0.31765,
     "p75": 0.68238
   },
-  "fetchedAt": "2026-10-02T12:30:20.236Z"
+  "fetchedAt": "2026-10-02T18:01:11.471Z"
 }
