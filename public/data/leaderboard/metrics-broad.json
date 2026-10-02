@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-02T18:00:25.426Z",
+  "updatedAt": "2026-10-02T22:08:43.006Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,21 +110,21 @@
     {
       "teamId": 17021305,
       "team": "dav0dea",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.68292,
+      "submissions": 8,
+      "scoredSubmissions": 8,
+      "kagglePublicBest": 0.69768,
       "best": {
         "balacc@10": {
-          "value": 0.68292
+          "value": 0.69768
         },
         "balacc@1": {
-          "value": 0.24264812964812962
+          "value": 0.25379485329485335
         },
         "ovmi": {
-          "value": 0.9649353330645235
+          "value": 0.9923553813234897
         }
       },
-      "lastSubmission": "2026-10-02T17:41:13.470Z",
+      "lastSubmission": "2026-10-02T19:36:59.863Z",
       "rank": 6
     },
     {
@@ -350,41 +350,41 @@
     {
       "teamId": 17021316,
       "team": "Dimitar Terziev",
-      "submissions": 2,
-      "scoredSubmissions": 2,
-      "kagglePublicBest": 0.494,
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.52443,
       "best": {
         "balacc@10": {
-          "value": 0.494
+          "value": 0.52443
         },
         "balacc@1": {
-          "value": 0.12444964294964292
+          "value": 0.1453332038332038
         },
         "ovmi": {
-          "value": 0.5202764907476651
+          "value": 0.6459397305601993
         }
       },
-      "lastSubmission": "2026-10-02T18:00:07.093Z",
+      "lastSubmission": "2026-10-02T19:55:27.437Z",
       "rank": 18
     },
     {
       "teamId": 16906911,
       "team": "Iepure Toni",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.42984,
+      "submissions": 7,
+      "scoredSubmissions": 7,
+      "kagglePublicBest": 0.47465,
       "best": {
         "balacc@10": {
-          "value": 0.42984
+          "value": 0.47465
         },
         "balacc@1": {
-          "value": 0.08773076923076921
+          "value": 0.0990969030969031
         },
         "ovmi": {
-          "value": 0.6247545120822214
+          "value": 0.6710903166672403
         }
       },
-      "lastSubmission": "2026-09-30T23:13:51.763Z",
+      "lastSubmission": "2026-10-02T18:43:42.473Z",
       "rank": 19
     },
     {

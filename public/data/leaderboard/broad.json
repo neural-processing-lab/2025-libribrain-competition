@@ -56,9 +56,9 @@
       "rank": 6,
       "teamId": 17021305,
       "team": "dav0dea",
-      "score": 0.68292,
-      "submissions": 1,
-      "lastSubmission": "2026-10-02T17:41:13.470Z",
+      "score": 0.69768,
+      "submissions": 8,
+      "lastSubmission": "2026-10-02T19:36:59.863Z",
       "members": []
     },
     {
@@ -164,18 +164,18 @@
       "rank": 18,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
-      "score": 0.494,
-      "submissions": 2,
-      "lastSubmission": "2026-10-02T18:00:07.093Z",
+      "score": 0.52443,
+      "submissions": 4,
+      "lastSubmission": "2026-10-02T19:55:27.437Z",
       "members": []
     },
     {
       "rank": 19,
       "teamId": 16906911,
       "team": "Iepure Toni",
-      "score": 0.42984,
-      "submissions": 6,
-      "lastSubmission": "2026-09-30T23:13:51.763Z",
+      "score": 0.47465,
+      "submissions": 7,
+      "lastSubmission": "2026-10-02T18:43:42.473Z",
       "members": []
     },
     {
@@ -280,11 +280,11 @@
   ],
   "totals": {
     "teams": 30,
-    "submissions": 915,
+    "submissions": 925,
     "best": 0.72915,
     "median": 0.57548,
     "p25": 0.26231,
     "p75": 0.65296
   },
-  "fetchedAt": "2026-10-02T18:01:11.471Z"
+  "fetchedAt": "2026-10-02T22:08:54.409Z"
 }
