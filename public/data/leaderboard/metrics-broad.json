@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-03T15:15:58.537Z",
+  "updatedAt": "2026-10-03T18:43:31.024Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,8 +110,8 @@
     {
       "teamId": 16781247,
       "team": "Connor Finnerty",
-      "submissions": 54,
-      "scoredSubmissions": 54,
+      "submissions": 55,
+      "scoredSubmissions": 55,
       "kagglePublicBest": 0.7006,
       "best": {
         "balacc@10": {
@@ -124,7 +124,7 @@
           "value": 1.150642748881647
         }
       },
-      "lastSubmission": "2026-09-25T00:36:20.340Z",
+      "lastSubmission": "2026-10-03T17:45:21.343Z",
       "rank": 6
     },
     {
@@ -328,6 +328,26 @@
       "rank": 16
     },
     {
+      "teamId": 17021316,
+      "team": "Dimitar Terziev",
+      "submissions": 6,
+      "scoredSubmissions": 6,
+      "kagglePublicBest": 0.56611,
+      "best": {
+        "balacc@10": {
+          "value": 0.56611
+        },
+        "balacc@1": {
+          "value": 0.15510613460613462
+        },
+        "ovmi": {
+          "value": 0.6878136465964594
+        }
+      },
+      "lastSubmission": "2026-10-03T18:09:30.867Z",
+      "rank": 17
+    },
+    {
       "teamId": 16976079,
       "team": "langstudent",
       "submissions": 5,
@@ -345,7 +365,7 @@
         }
       },
       "lastSubmission": "2026-09-28T15:34:47.530Z",
-      "rank": 17
+      "rank": 18
     },
     {
       "teamId": 16794004,
@@ -365,26 +385,6 @@
         }
       },
       "lastSubmission": "2026-08-31T08:20:32.163Z",
-      "rank": 18
-    },
-    {
-      "teamId": 17021316,
-      "team": "Dimitar Terziev",
-      "submissions": 4,
-      "scoredSubmissions": 4,
-      "kagglePublicBest": 0.52443,
-      "best": {
-        "balacc@10": {
-          "value": 0.52443
-        },
-        "balacc@1": {
-          "value": 0.1453332038332038
-        },
-        "ovmi": {
-          "value": 0.6459397305601993
-        }
-      },
-      "lastSubmission": "2026-10-02T19:55:27.437Z",
       "rank": 19
     },
     {
