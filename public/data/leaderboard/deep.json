@@ -48,8 +48,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.72876,
-      "submissions": 129,
-      "lastSubmission": "2026-10-02T21:50:40.570Z",
+      "submissions": 135,
+      "lastSubmission": "2026-10-03T00:03:00.850Z",
       "members": []
     },
     {
@@ -137,9 +137,9 @@
       "rank": 15,
       "teamId": 16791335,
       "team": "Michal",
-      "score": 0.69318,
-      "submissions": 42,
-      "lastSubmission": "2026-10-01T11:31:32.547Z",
+      "score": 0.69818,
+      "submissions": 47,
+      "lastSubmission": "2026-10-02T23:34:34.940Z",
       "members": []
     },
     {
@@ -273,8 +273,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.6388,
-      "submissions": 15,
-      "lastSubmission": "2026-10-02T19:16:15.913Z",
+      "submissions": 16,
+      "lastSubmission": "2026-10-03T00:00:33.130Z",
       "members": []
     },
     {
@@ -336,8 +336,8 @@
       "teamId": 16685400,
       "team": "saharacamel",
       "score": 0.58023,
-      "submissions": 13,
-      "lastSubmission": "2026-10-02T15:29:19.500Z",
+      "submissions": 15,
+      "lastSubmission": "2026-10-03T01:08:12.050Z",
       "members": []
     },
     {
@@ -363,8 +363,8 @@
       "teamId": 17022110,
       "team": "linkai peng",
       "score": 0.50884,
-      "submissions": 1,
-      "lastSubmission": "2026-10-02T21:50:22.843Z",
+      "submissions": 2,
+      "lastSubmission": "2026-10-02T22:52:39.970Z",
       "members": []
     },
     {
@@ -613,11 +613,11 @@
   ],
   "totals": {
     "teams": 67,
-    "submissions": 2632,
+    "submissions": 2647,
     "best": 0.76507,
     "median": 0.62963,
     "p25": 0.32596,
     "p75": 0.68163
   },
-  "fetchedAt": "2026-10-02T22:08:54.409Z"
+  "fetchedAt": "2026-10-03T01:08:48.430Z"
 }
