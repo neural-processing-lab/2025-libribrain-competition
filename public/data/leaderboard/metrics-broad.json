@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-03T11:51:10.376Z",
+  "updatedAt": "2026-10-03T15:15:58.537Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -390,21 +390,21 @@
     {
       "teamId": 16906911,
       "team": "Iepure Toni",
-      "submissions": 8,
-      "scoredSubmissions": 8,
+      "submissions": 9,
+      "scoredSubmissions": 9,
       "kagglePublicBest": 0.49299,
       "best": {
         "balacc@10": {
           "value": 0.49299
         },
         "balacc@1": {
-          "value": 0.10403235653235653
+          "value": 0.1071984126984127
         },
         "ovmi": {
           "value": 0.7110821698861449
         }
       },
-      "lastSubmission": "2026-10-03T07:24:48.087Z",
+      "lastSubmission": "2026-10-03T14:13:00.570Z",
       "rank": 20
     },
     {
