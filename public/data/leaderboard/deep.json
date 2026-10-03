@@ -81,6 +81,15 @@
     },
     {
       "rank": 9,
+      "teamId": 17021214,
+      "team": "Jarod Lévy",
+      "score": 0.72092,
+      "submissions": 6,
+      "lastSubmission": "2026-10-03T19:19:00.757Z",
+      "members": []
+    },
+    {
+      "rank": 10,
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
@@ -89,7 +98,7 @@
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.71732,
@@ -98,7 +107,7 @@
       "members": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.71724,
@@ -107,7 +116,7 @@
       "members": []
     },
     {
-      "rank": 12,
+      "rank": 13,
       "teamId": 16667929,
       "team": "Umur Yıldız",
       "score": 0.7148,
@@ -116,21 +125,12 @@
       "members": []
     },
     {
-      "rank": 13,
-      "teamId": 17021214,
-      "team": "Jarod Lévy",
-      "score": 0.70944,
-      "submissions": 5,
-      "lastSubmission": "2026-10-03T14:19:22.400Z",
-      "members": []
-    },
-    {
       "rank": 14,
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.70621,
-      "submissions": 92,
-      "lastSubmission": "2026-10-03T17:43:40.460Z",
+      "submissions": 100,
+      "lastSubmission": "2026-10-03T19:41:57.303Z",
       "members": []
     },
     {
@@ -291,8 +291,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.6388,
-      "submissions": 21,
-      "lastSubmission": "2026-10-03T18:32:02.720Z",
+      "submissions": 23,
+      "lastSubmission": "2026-10-03T19:35:44.233Z",
       "members": []
     },
     {
@@ -631,11 +631,11 @@
   ],
   "totals": {
     "teams": 69,
-    "submissions": 2750,
+    "submissions": 2761,
     "best": 0.76507,
     "median": 0.63256,
     "p25": 0.33427,
     "p75": 0.69488
   },
-  "fetchedAt": "2026-10-03T18:43:47.776Z"
+  "fetchedAt": "2026-10-03T21:45:52.418Z"
 }
