@@ -144,6 +144,15 @@
     },
     {
       "rank": 16,
+      "teamId": 17023300,
+      "team": "snute220905",
+      "score": 0.57298,
+      "submissions": 6,
+      "lastSubmission": "2026-10-03T11:36:11.117Z",
+      "members": []
+    },
+    {
+      "rank": 17,
       "teamId": 16976079,
       "team": "langstudent",
       "score": 0.55362,
@@ -152,7 +161,7 @@
       "members": []
     },
     {
-      "rank": 17,
+      "rank": 18,
       "teamId": 16794004,
       "team": "Sia",
       "score": 0.54318,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.52443,
@@ -170,16 +179,16 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 16906911,
       "team": "Iepure Toni",
-      "score": 0.47465,
-      "submissions": 7,
-      "lastSubmission": "2026-10-02T18:43:42.473Z",
+      "score": 0.49299,
+      "submissions": 8,
+      "lastSubmission": "2026-10-03T07:24:48.087Z",
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.35416,
@@ -188,7 +197,7 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -197,21 +206,12 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
       "submissions": 1,
       "lastSubmission": "2026-07-21T10:08:18.583Z",
-      "members": []
-    },
-    {
-      "rank": 23,
-      "teamId": 17023300,
-      "team": "snute220905",
-      "score": 0.26073,
-      "submissions": 1,
-      "lastSubmission": "2026-10-03T06:02:55.167Z",
       "members": []
     },
     {
@@ -289,11 +289,11 @@
   ],
   "totals": {
     "teams": 31,
-    "submissions": 936,
+    "submissions": 942,
     "best": 0.72915,
-    "median": 0.55362,
-    "p25": 0.25354,
+    "median": 0.57298,
+    "p25": 0.27829,
     "p75": 0.64961
   },
-  "fetchedAt": "2026-10-03T06:26:04.525Z"
+  "fetchedAt": "2026-10-03T11:51:16.848Z"
 }
