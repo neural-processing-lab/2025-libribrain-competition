@@ -57,8 +57,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.72876,
-      "submissions": 136,
-      "lastSubmission": "2026-10-03T01:46:30.073Z",
+      "submissions": 141,
+      "lastSubmission": "2026-10-03T23:24:41.090Z",
       "members": []
     },
     {
@@ -84,8 +84,8 @@
       "teamId": 17021214,
       "team": "Jarod Lévy",
       "score": 0.72092,
-      "submissions": 6,
-      "lastSubmission": "2026-10-03T19:19:00.757Z",
+      "submissions": 7,
+      "lastSubmission": "2026-10-03T22:51:47.587Z",
       "members": []
     },
     {
@@ -129,8 +129,8 @@
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.70621,
-      "submissions": 100,
-      "lastSubmission": "2026-10-03T19:41:57.303Z",
+      "submissions": 105,
+      "lastSubmission": "2026-10-04T00:08:40.783Z",
       "members": []
     },
     {
@@ -192,12 +192,21 @@
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
       "score": 0.68088,
-      "submissions": 57,
-      "lastSubmission": "2026-10-03T18:21:01.590Z",
+      "submissions": 60,
+      "lastSubmission": "2026-10-04T00:03:05.647Z",
       "members": []
     },
     {
       "rank": 22,
+      "teamId": 17022110,
+      "team": "linkai peng",
+      "score": 0.6701,
+      "submissions": 12,
+      "lastSubmission": "2026-10-03T22:40:21.197Z",
+      "members": []
+    },
+    {
+      "rank": 23,
       "teamId": 16803215,
       "team": "peperonata",
       "score": 0.66486,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 16946702,
       "team": "Nova",
       "score": 0.66195,
@@ -215,7 +224,7 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16754648,
       "team": "CWBZ",
       "score": 0.6601,
@@ -224,7 +233,7 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16661201,
       "team": "JovanaLab",
       "score": 0.65583,
@@ -233,21 +242,12 @@
       "members": []
     },
     {
-      "rank": 26,
+      "rank": 27,
       "teamId": 16644796,
       "team": "MagnetoLex",
       "score": 0.65476,
       "submissions": 50,
       "lastSubmission": "2026-10-02T16:41:12.233Z",
-      "members": []
-    },
-    {
-      "rank": 27,
-      "teamId": 17022110,
-      "team": "linkai peng",
-      "score": 0.65261,
-      "submissions": 7,
-      "lastSubmission": "2026-10-03T13:10:00.893Z",
       "members": []
     },
     {
@@ -631,11 +631,11 @@
   ],
   "totals": {
     "teams": 69,
-    "submissions": 2761,
+    "submissions": 2780,
     "best": 0.76507,
     "median": 0.63256,
     "p25": 0.33427,
     "p75": 0.69488
   },
-  "fetchedAt": "2026-10-03T21:45:52.418Z"
+  "fetchedAt": "2026-10-04T00:09:41.606Z"
 }

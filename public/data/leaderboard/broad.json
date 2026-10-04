@@ -171,20 +171,20 @@
     },
     {
       "rank": 19,
+      "teamId": 16906911,
+      "team": "Iepure Toni",
+      "score": 0.55059,
+      "submissions": 10,
+      "lastSubmission": "2026-10-03T22:14:43.230Z",
+      "members": []
+    },
+    {
+      "rank": 20,
       "teamId": 16794004,
       "team": "Sia",
       "score": 0.54318,
       "submissions": 2,
       "lastSubmission": "2026-08-31T08:20:32.163Z",
-      "members": []
-    },
-    {
-      "rank": 20,
-      "teamId": 16906911,
-      "team": "Iepure Toni",
-      "score": 0.49299,
-      "submissions": 9,
-      "lastSubmission": "2026-10-03T14:13:00.570Z",
       "members": []
     },
     {
@@ -289,11 +289,11 @@
   ],
   "totals": {
     "teams": 31,
-    "submissions": 956,
+    "submissions": 957,
     "best": 0.72915,
     "median": 0.57298,
     "p25": 0.27829,
     "p75": 0.64961
   },
-  "fetchedAt": "2026-10-03T21:45:52.418Z"
+  "fetchedAt": "2026-10-04T00:09:41.606Z"
 }
