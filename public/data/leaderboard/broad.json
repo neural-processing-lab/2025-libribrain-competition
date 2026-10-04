@@ -65,9 +65,9 @@
       "rank": 7,
       "teamId": 17029831,
       "team": "Jarod Lévy",
-      "score": 0.67967,
-      "submissions": 4,
-      "lastSubmission": "2026-10-04T10:53:34.207Z",
+      "score": 0.68865,
+      "submissions": 10,
+      "lastSubmission": "2026-10-04T15:10:28.127Z",
       "members": []
     },
     {
@@ -316,11 +316,11 @@
   ],
   "totals": {
     "teams": 34,
-    "submissions": 991,
+    "submissions": 997,
     "best": 0.72915,
     "median": 0.57113,
     "p25": 0.24319,
     "p75": 0.65355
   },
-  "fetchedAt": "2026-10-04T11:18:09.860Z"
+  "fetchedAt": "2026-10-04T15:52:11.183Z"
 }
