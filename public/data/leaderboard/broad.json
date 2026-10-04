@@ -21,8 +21,8 @@
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72021,
-      "submissions": 18,
-      "lastSubmission": "2026-10-03T03:52:01.047Z",
+      "submissions": 27,
+      "lastSubmission": "2026-10-04T03:30:32.200Z",
       "members": []
     },
     {
@@ -48,8 +48,8 @@
       "teamId": 16779203,
       "team": "ottietjesesakfs",
       "score": 0.70899,
-      "submissions": 259,
-      "lastSubmission": "2026-10-02T04:53:52.677Z",
+      "submissions": 261,
+      "lastSubmission": "2026-10-04T03:26:45.613Z",
       "members": []
     },
     {
@@ -81,6 +81,15 @@
     },
     {
       "rank": 9,
+      "teamId": 16981137,
+      "team": "Karahan Yılmazer",
+      "score": 0.64527,
+      "submissions": 14,
+      "lastSubmission": "2026-10-04T00:53:47.340Z",
+      "members": []
+    },
+    {
+      "rank": 10,
       "teamId": 16607557,
       "team": "Brain King",
       "score": 0.64291,
@@ -89,7 +98,7 @@
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 16680182,
       "team": "Arnauya",
       "score": 0.64001,
@@ -98,21 +107,12 @@
       "members": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "score": 0.63946,
       "submissions": 11,
       "lastSubmission": "2026-09-19T22:50:41.530Z",
-      "members": []
-    },
-    {
-      "rank": 12,
-      "teamId": 16981137,
-      "team": "Karahan Yılmazer",
-      "score": 0.63919,
-      "submissions": 6,
-      "lastSubmission": "2026-09-28T22:56:04.183Z",
       "members": []
     },
     {
@@ -289,11 +289,11 @@
   ],
   "totals": {
     "teams": 31,
-    "submissions": 957,
+    "submissions": 976,
     "best": 0.72915,
     "median": 0.57298,
     "p25": 0.27829,
-    "p75": 0.64961
+    "p75": 0.65079
   },
-  "fetchedAt": "2026-10-04T00:09:41.606Z"
+  "fetchedAt": "2026-10-04T05:45:10.818Z"
 }
