@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-04T18:50:02.766Z",
+  "updatedAt": "2026-10-04T22:01:42.121Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -328,6 +328,26 @@
       "rank": 16
     },
     {
+      "teamId": 17021316,
+      "team": "Dimitar Terziev",
+      "submissions": 19,
+      "scoredSubmissions": 19,
+      "kagglePublicBest": 0.57355,
+      "best": {
+        "balacc@10": {
+          "value": 0.57355
+        },
+        "balacc@1": {
+          "value": 0.1621024161024161
+        },
+        "ovmi": {
+          "value": 0.7505179179461091
+        }
+      },
+      "lastSubmission": "2026-10-04T21:03:23.517Z",
+      "rank": 17
+    },
+    {
       "teamId": 17023300,
       "team": "snute220905",
       "submissions": 7,
@@ -345,26 +365,6 @@
         }
       },
       "lastSubmission": "2026-10-03T19:26:12.090Z",
-      "rank": 17
-    },
-    {
-      "teamId": 17021316,
-      "team": "Dimitar Terziev",
-      "submissions": 9,
-      "scoredSubmissions": 9,
-      "kagglePublicBest": 0.56927,
-      "best": {
-        "balacc@10": {
-          "value": 0.56927
-        },
-        "balacc@1": {
-          "value": 0.15878427128427128
-        },
-        "ovmi": {
-          "value": 0.7074926102581265
-        }
-      },
-      "lastSubmission": "2026-10-03T19:30:07.717Z",
       "rank": 18
     },
     {

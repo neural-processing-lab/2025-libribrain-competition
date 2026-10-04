@@ -111,8 +111,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.71724,
-      "submissions": 79,
-      "lastSubmission": "2026-10-04T14:03:43.570Z",
+      "submissions": 80,
+      "lastSubmission": "2026-10-04T19:02:36.303Z",
       "members": []
     },
     {
@@ -201,8 +201,8 @@
       "teamId": 17022110,
       "team": "linkai peng",
       "score": 0.6701,
-      "submissions": 14,
-      "lastSubmission": "2026-10-04T16:18:30.230Z",
+      "submissions": 16,
+      "lastSubmission": "2026-10-04T21:47:27.973Z",
       "members": []
     },
     {
@@ -291,8 +291,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.6388,
-      "submissions": 27,
-      "lastSubmission": "2026-10-04T13:05:41.847Z",
+      "submissions": 33,
+      "lastSubmission": "2026-10-04T21:03:04.660Z",
       "members": []
     },
     {
@@ -300,8 +300,8 @@
       "teamId": 16685400,
       "team": "saharacamel",
       "score": 0.63408,
-      "submissions": 24,
-      "lastSubmission": "2026-10-04T11:21:10.403Z",
+      "submissions": 31,
+      "lastSubmission": "2026-10-04T21:34:44.613Z",
       "members": []
     },
     {
@@ -640,11 +640,11 @@
   ],
   "totals": {
     "teams": 70,
-    "submissions": 2865,
+    "submissions": 2881,
     "best": 0.76507,
     "median": 0.632,
     "p25": 0.32181,
     "p75": 0.69428
   },
-  "fetchedAt": "2026-10-04T18:50:35.029Z"
+  "fetchedAt": "2026-10-04T22:01:44.026Z"
 }

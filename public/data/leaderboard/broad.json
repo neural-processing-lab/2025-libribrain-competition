@@ -153,20 +153,20 @@
     },
     {
       "rank": 17,
+      "teamId": 17021316,
+      "team": "Dimitar Terziev",
+      "score": 0.57355,
+      "submissions": 19,
+      "lastSubmission": "2026-10-04T21:03:23.517Z",
+      "members": []
+    },
+    {
+      "rank": 18,
       "teamId": 17023300,
       "team": "snute220905",
       "score": 0.57298,
       "submissions": 7,
       "lastSubmission": "2026-10-03T19:26:12.090Z",
-      "members": []
-    },
-    {
-      "rank": 18,
-      "teamId": 17021316,
-      "team": "Dimitar Terziev",
-      "score": 0.56927,
-      "submissions": 9,
-      "lastSubmission": "2026-10-03T19:30:07.717Z",
       "members": []
     },
     {
@@ -316,11 +316,11 @@
   ],
   "totals": {
     "teams": 34,
-    "submissions": 998,
+    "submissions": 1008,
     "best": 0.72915,
-    "median": 0.57113,
+    "median": 0.57327,
     "p25": 0.24319,
     "p75": 0.65355
   },
-  "fetchedAt": "2026-10-04T18:50:35.029Z"
+  "fetchedAt": "2026-10-04T22:01:44.026Z"
 }

@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-04T18:50:00.915Z",
+  "updatedAt": "2026-10-04T22:01:40.606Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -230,8 +230,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 79,
-      "scoredSubmissions": 78,
+      "submissions": 80,
+      "scoredSubmissions": 79,
       "kagglePublicBest": 0.71724,
       "best": {
         "balacc@10": {
@@ -244,7 +244,7 @@
           "value": 1.1660660330071728
         }
       },
-      "lastSubmission": "2026-10-04T14:03:43.570Z",
+      "lastSubmission": "2026-10-04T19:02:36.303Z",
       "rank": 12
     },
     {
@@ -430,8 +430,8 @@
     {
       "teamId": 17022110,
       "team": "linkai peng",
-      "submissions": 14,
-      "scoredSubmissions": 14,
+      "submissions": 16,
+      "scoredSubmissions": 16,
       "kagglePublicBest": 0.6701,
       "best": {
         "balacc@10": {
@@ -444,7 +444,7 @@
           "value": 1.1494695251844531
         }
       },
-      "lastSubmission": "2026-10-04T16:18:30.230Z",
+      "lastSubmission": "2026-10-04T21:47:27.973Z",
       "rank": 22
     },
     {
@@ -630,8 +630,8 @@
     {
       "teamId": 17012370,
       "team": "Dimitar Terziev",
-      "submissions": 27,
-      "scoredSubmissions": 27,
+      "submissions": 33,
+      "scoredSubmissions": 33,
       "kagglePublicBest": 0.6388,
       "best": {
         "balacc@10": {
@@ -644,27 +644,27 @@
           "value": 1.0764028125496667
         }
       },
-      "lastSubmission": "2026-10-04T13:05:41.847Z",
+      "lastSubmission": "2026-10-04T21:03:04.660Z",
       "rank": 32
     },
     {
       "teamId": 16685400,
       "team": "saharacamel",
-      "submissions": 24,
-      "scoredSubmissions": 24,
+      "submissions": 31,
+      "scoredSubmissions": 31,
       "kagglePublicBest": 0.63408,
       "best": {
         "balacc@10": {
           "value": 0.63408
         },
         "balacc@1": {
-          "value": 0.19941269841269843
+          "value": 0.21933333333333332
         },
         "ovmi": {
           "value": 1.0751486944234814
         }
       },
-      "lastSubmission": "2026-10-04T11:21:10.403Z",
+      "lastSubmission": "2026-10-04T21:34:44.613Z",
       "rank": 33
     },
     {
