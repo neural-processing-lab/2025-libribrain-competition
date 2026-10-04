@@ -27,20 +27,20 @@
     },
     {
       "rank": 3,
+      "teamId": 16784614,
+      "team": "dav0dea",
+      "score": 0.74437,
+      "submissions": 138,
+      "lastSubmission": "2026-10-04T17:52:53.633Z",
+      "members": []
+    },
+    {
+      "rank": 4,
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.73717,
       "submissions": 122,
       "lastSubmission": "2026-09-28T18:02:28.943Z",
-      "members": []
-    },
-    {
-      "rank": 4,
-      "teamId": 16784614,
-      "team": "dav0dea",
-      "score": 0.73504,
-      "submissions": 134,
-      "lastSubmission": "2026-10-04T03:08:44.530Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
       "score": 0.68088,
-      "submissions": 63,
-      "lastSubmission": "2026-10-04T15:51:50.677Z",
+      "submissions": 67,
+      "lastSubmission": "2026-10-04T15:54:28.593Z",
       "members": []
     },
     {
@@ -201,8 +201,8 @@
       "teamId": 17022110,
       "team": "linkai peng",
       "score": 0.6701,
-      "submissions": 12,
-      "lastSubmission": "2026-10-03T22:40:21.197Z",
+      "submissions": 14,
+      "lastSubmission": "2026-10-04T16:18:30.230Z",
       "members": []
     },
     {
@@ -640,11 +640,11 @@
   ],
   "totals": {
     "teams": 70,
-    "submissions": 2855,
+    "submissions": 2865,
     "best": 0.76507,
     "median": 0.632,
     "p25": 0.32181,
     "p75": 0.69428
   },
-  "fetchedAt": "2026-10-04T15:52:11.183Z"
+  "fetchedAt": "2026-10-04T18:50:35.029Z"
 }
