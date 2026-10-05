@@ -21,8 +21,8 @@
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72139,
-      "submissions": 32,
-      "lastSubmission": "2026-10-05T00:05:42.760Z",
+      "submissions": 33,
+      "lastSubmission": "2026-10-05T05:21:28.190Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 17029831,
       "team": "Jarod Lévy",
       "score": 0.68865,
-      "submissions": 11,
-      "lastSubmission": "2026-10-05T00:02:46.437Z",
+      "submissions": 17,
+      "lastSubmission": "2026-10-05T05:40:43.240Z",
       "members": []
     },
     {
@@ -316,11 +316,11 @@
   ],
   "totals": {
     "teams": 34,
-    "submissions": 1013,
+    "submissions": 1020,
     "best": 0.72915,
     "median": 0.57327,
     "p25": 0.24319,
     "p75": 0.65355
   },
-  "fetchedAt": "2026-10-05T00:51:51.173Z"
+  "fetchedAt": "2026-10-05T06:20:37.313Z"
 }
