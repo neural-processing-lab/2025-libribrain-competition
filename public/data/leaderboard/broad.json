@@ -21,8 +21,8 @@
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72139,
-      "submissions": 33,
-      "lastSubmission": "2026-10-05T05:21:28.190Z",
+      "submissions": 34,
+      "lastSubmission": "2026-10-05T12:15:57.607Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 17029831,
       "team": "Jarod Lévy",
       "score": 0.68865,
-      "submissions": 17,
-      "lastSubmission": "2026-10-05T05:40:43.240Z",
+      "submissions": 19,
+      "lastSubmission": "2026-10-05T10:38:57.013Z",
       "members": []
     },
     {
@@ -81,20 +81,20 @@
     },
     {
       "rank": 9,
+      "teamId": 16981137,
+      "team": "Karahan Yılmazer",
+      "score": 0.66277,
+      "submissions": 15,
+      "lastSubmission": "2026-10-05T10:10:30.217Z",
+      "members": []
+    },
+    {
+      "rank": 10,
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.65631,
       "submissions": 46,
       "lastSubmission": "2026-09-29T23:45:49.047Z",
-      "members": []
-    },
-    {
-      "rank": 10,
-      "teamId": 16981137,
-      "team": "Karahan Yılmazer",
-      "score": 0.64527,
-      "submissions": 14,
-      "lastSubmission": "2026-10-04T00:53:47.340Z",
       "members": []
     },
     {
@@ -316,11 +316,11 @@
   ],
   "totals": {
     "teams": 34,
-    "submissions": 1020,
+    "submissions": 1024,
     "best": 0.72915,
     "median": 0.57327,
     "p25": 0.24319,
-    "p75": 0.65355
+    "p75": 0.66115
   },
-  "fetchedAt": "2026-10-05T06:20:37.313Z"
+  "fetchedAt": "2026-10-05T15:00:55.945Z"
 }
