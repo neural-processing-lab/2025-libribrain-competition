@@ -174,8 +174,8 @@
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.58789,
-      "submissions": 32,
-      "lastSubmission": "2026-10-06T04:39:16.433Z",
+      "submissions": 35,
+      "lastSubmission": "2026-10-06T23:13:38.553Z",
       "members": []
     },
     {
@@ -352,11 +352,11 @@
   ],
   "totals": {
     "teams": 38,
-    "submissions": 1087,
+    "submissions": 1090,
     "best": 0.72915,
     "median": 0.58044,
     "p25": 0.24319,
     "p75": 0.66621
   },
-  "fetchedAt": "2026-10-06T20:27:56.570Z"
+  "fetchedAt": "2026-10-06T23:56:17.987Z"
 }
