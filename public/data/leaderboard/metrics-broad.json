@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-06T23:55:27.212Z",
+  "updatedAt": "2026-10-07T10:24:44.864Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -70,21 +70,21 @@
     {
       "teamId": 17029831,
       "team": "Brain & AI",
-      "submissions": 30,
-      "scoredSubmissions": 30,
-      "kagglePublicBest": 0.71586,
+      "submissions": 33,
+      "scoredSubmissions": 33,
+      "kagglePublicBest": 0.71877,
       "best": {
         "balacc@10": {
-          "value": 0.71586
+          "value": 0.71877
         },
         "balacc@1": {
-          "value": 0.28265218115218116
+          "value": 0.2833234913234913
         },
         "ovmi": {
-          "value": 0.9843593856497634
+          "value": 1.0037867506281195
         }
       },
-      "lastSubmission": "2026-10-06T18:10:05.463Z",
+      "lastSubmission": "2026-10-07T08:38:27.207Z",
       "rank": 4
     },
     {
@@ -170,8 +170,8 @@
     {
       "teamId": 16927415,
       "team": "cfw21w2",
-      "submissions": 50,
-      "scoredSubmissions": 50,
+      "submissions": 51,
+      "scoredSubmissions": 51,
       "kagglePublicBest": 0.67261,
       "best": {
         "balacc@10": {
@@ -184,7 +184,7 @@
           "value": 0.9822074476998305
         }
       },
-      "lastSubmission": "2026-10-06T19:35:37.670Z",
+      "lastSubmission": "2026-10-07T08:42:12.867Z",
       "rank": 9
     },
     {
@@ -310,21 +310,21 @@
     {
       "teamId": 17042550,
       "team": "MohamedII",
-      "submissions": 4,
-      "scoredSubmissions": 4,
-      "kagglePublicBest": 0.60812,
+      "submissions": 6,
+      "scoredSubmissions": 6,
+      "kagglePublicBest": 0.6129,
       "best": {
         "balacc@10": {
-          "value": 0.60812
+          "value": 0.6129
         },
         "balacc@1": {
-          "value": 0.19402615902615902
+          "value": 0.20391366041366044
         },
         "ovmi": {
-          "value": 0.8977256908592696
+          "value": 0.9381199679586716
         }
       },
-      "lastSubmission": "2026-10-06T12:19:55.587Z",
+      "lastSubmission": "2026-10-07T09:45:46.507Z",
       "rank": 16
     },
     {
@@ -370,8 +370,8 @@
     {
       "teamId": 17021316,
       "team": "Dimitar Terziev",
-      "submissions": 35,
-      "scoredSubmissions": 35,
+      "submissions": 36,
+      "scoredSubmissions": 36,
       "kagglePublicBest": 0.58789,
       "best": {
         "balacc@10": {
@@ -384,7 +384,7 @@
           "value": 0.8194151364251123
         }
       },
-      "lastSubmission": "2026-10-06T23:13:38.553Z",
+      "lastSubmission": "2026-10-07T03:42:53.993Z",
       "rank": 19
     },
     {
