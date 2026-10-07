@@ -39,8 +39,8 @@
       "teamId": 17029831,
       "team": "Brain & AI",
       "score": 0.7218,
-      "submissions": 39,
-      "lastSubmission": "2026-10-07T16:25:01.817Z",
+      "submissions": 40,
+      "lastSubmission": "2026-10-07T18:05:36.690Z",
       "members": []
     },
     {
@@ -153,6 +153,15 @@
     },
     {
       "rank": 17,
+      "teamId": 17027053,
+      "team": "Hojun Yang",
+      "score": 0.60481,
+      "submissions": 12,
+      "lastSubmission": "2026-10-07T20:02:03.800Z",
+      "members": []
+    },
+    {
+      "rank": 18,
       "teamId": 16768788,
       "team": "MonsieurBadgerCheese",
       "score": 0.59734,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.58997,
@@ -170,7 +179,7 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 17022301,
       "team": "linkP",
       "score": 0.58883,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 17023300,
       "team": "snute220905",
       "score": 0.57298,
@@ -188,7 +197,7 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 16976079,
       "team": "langstudent",
       "score": 0.55362,
@@ -197,7 +206,7 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16906911,
       "team": "Iepure Toni",
       "score": 0.55059,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 16794004,
       "team": "Sia",
       "score": 0.54318,
@@ -215,7 +224,7 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 17039023,
       "team": "OmarDotEmam",
       "score": 0.536,
@@ -224,7 +233,7 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.35416,
@@ -233,7 +242,7 @@
       "members": []
     },
     {
-      "rank": 26,
+      "rank": 27,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -242,7 +251,7 @@
       "members": []
     },
     {
-      "rank": 27,
+      "rank": 28,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
@@ -251,7 +260,7 @@
       "members": []
     },
     {
-      "rank": 28,
+      "rank": 29,
       "teamId": 16972643,
       "team": "Arthur12212003",
       "score": 0.24634,
@@ -260,7 +269,7 @@
       "members": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "teamId": 16943904,
       "team": "Abhijith Pradeep",
       "score": 0.24214,
@@ -269,7 +278,7 @@
       "members": []
     },
     {
-      "rank": 30,
+      "rank": 31,
       "teamId": 16885405,
       "team": "InverseEncoder",
       "score": 0.24159,
@@ -278,7 +287,7 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16571739,
       "team": "PNPL-OX",
       "score": 0.24063,
@@ -287,7 +296,7 @@
       "members": []
     },
     {
-      "rank": 32,
+      "rank": 33,
       "teamId": 17029893,
       "team": "Akbar Permana",
       "score": 0.23285,
@@ -296,7 +305,7 @@
       "members": []
     },
     {
-      "rank": 33,
+      "rank": 34,
       "teamId": 16571080,
       "team": "SajanKr",
       "score": 0.23089,
@@ -305,7 +314,7 @@
       "members": []
     },
     {
-      "rank": 34,
+      "rank": 35,
       "teamId": 16941809,
       "team": "InformaBook2",
       "score": 0.22793,
@@ -314,7 +323,7 @@
       "members": []
     },
     {
-      "rank": 35,
+      "rank": 36,
       "teamId": 16986637,
       "team": "Ethan",
       "score": 0.22637,
@@ -323,21 +332,12 @@
       "members": []
     },
     {
-      "rank": 36,
+      "rank": 37,
       "teamId": 16726042,
       "team": "Bhargav Kowshik",
       "score": 0.21871,
       "submissions": 12,
       "lastSubmission": "2026-09-03T17:06:32.153Z",
-      "members": []
-    },
-    {
-      "rank": 37,
-      "teamId": 17027053,
-      "team": "Hojun Yang",
-      "score": 0.21317,
-      "submissions": 2,
-      "lastSubmission": "2026-10-04T10:55:09.687Z",
       "members": []
     },
     {
@@ -361,11 +361,11 @@
   ],
   "totals": {
     "teams": 39,
-    "submissions": 1106,
+    "submissions": 1117,
     "best": 0.72915,
-    "median": 0.57298,
-    "p25": 0.24186,
+    "median": 0.58883,
+    "p25": 0.24424,
     "p75": 0.66512
   },
-  "fetchedAt": "2026-10-07T17:28:11.791Z"
+  "fetchedAt": "2026-10-07T22:09:36.482Z"
 }
