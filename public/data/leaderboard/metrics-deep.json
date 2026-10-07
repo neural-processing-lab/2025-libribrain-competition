@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-06T23:55:25.691Z",
+  "updatedAt": "2026-10-07T03:14:42.545Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -190,8 +190,8 @@
     {
       "teamId": 16697258,
       "team": "Jordan Griffith",
-      "submissions": 157,
-      "scoredSubmissions": 157,
+      "submissions": 158,
+      "scoredSubmissions": 158,
       "kagglePublicBest": 0.72876,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 1.1959904068500922
         }
       },
-      "lastSubmission": "2026-10-06T22:01:03.727Z",
+      "lastSubmission": "2026-10-07T02:51:48.023Z",
       "rank": 10
     },
     {
@@ -230,8 +230,8 @@
     {
       "teamId": 16779211,
       "team": "ottietjesesakfs",
-      "submissions": 292,
-      "scoredSubmissions": 292,
+      "submissions": 302,
+      "scoredSubmissions": 302,
       "kagglePublicBest": 0.71799,
       "best": {
         "balacc@10": {
@@ -244,7 +244,7 @@
           "value": 1.159094023043524
         }
       },
-      "lastSubmission": "2026-10-06T06:15:53.547Z",
+      "lastSubmission": "2026-10-07T02:21:02.540Z",
       "rank": 12
     },
     {
@@ -368,6 +368,26 @@
       "rank": 18
     },
     {
+      "teamId": 16927504,
+      "team": "cfw21w2",
+      "submissions": 71,
+      "scoredSubmissions": 71,
+      "kagglePublicBest": 0.69838,
+      "best": {
+        "balacc@10": {
+          "value": 0.69838
+        },
+        "balacc@1": {
+          "value": 0.24328860028860028
+        },
+        "ovmi": {
+          "value": 1.1607184588135042
+        }
+      },
+      "lastSubmission": "2026-10-07T01:26:26.660Z",
+      "rank": 19
+    },
+    {
       "teamId": 17022110,
       "team": "linkP",
       "submissions": 38,
@@ -385,7 +405,7 @@
         }
       },
       "lastSubmission": "2026-10-06T23:40:03.123Z",
-      "rank": 19
+      "rank": 20
     },
     {
       "teamId": 16953455,
@@ -405,7 +425,7 @@
         }
       },
       "lastSubmission": "2026-10-05T08:11:01.460Z",
-      "rank": 20
+      "rank": 21
     },
     {
       "teamId": 16790901,
@@ -425,26 +445,6 @@
         }
       },
       "lastSubmission": "2026-09-20T05:32:22.400Z",
-      "rank": 21
-    },
-    {
-      "teamId": 16927504,
-      "team": "cfw21w2",
-      "submissions": 69,
-      "scoredSubmissions": 69,
-      "kagglePublicBest": 0.68238,
-      "best": {
-        "balacc@10": {
-          "value": 0.68238
-        },
-        "balacc@1": {
-          "value": 0.24328860028860028
-        },
-        "ovmi": {
-          "value": 1.1607184588135042
-        }
-      },
-      "lastSubmission": "2026-10-06T15:15:44.987Z",
       "rank": 22
     },
     {
@@ -630,8 +630,8 @@
     {
       "teamId": 16969296,
       "team": "Viacheslav Fokin",
-      "submissions": 16,
-      "scoredSubmissions": 16,
+      "submissions": 17,
+      "scoredSubmissions": 17,
       "kagglePublicBest": 0.65283,
       "best": {
         "balacc@10": {
@@ -644,7 +644,7 @@
           "value": 1.1206290864635626
         }
       },
-      "lastSubmission": "2026-10-06T03:05:02.407Z",
+      "lastSubmission": "2026-10-07T02:11:34.527Z",
       "rank": 32
     },
     {

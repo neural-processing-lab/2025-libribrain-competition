@@ -93,8 +93,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.72876,
-      "submissions": 157,
-      "lastSubmission": "2026-10-06T22:01:03.727Z",
+      "submissions": 158,
+      "lastSubmission": "2026-10-07T02:51:48.023Z",
       "members": []
     },
     {
@@ -111,8 +111,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 292,
-      "lastSubmission": "2026-10-06T06:15:53.547Z",
+      "submissions": 302,
+      "lastSubmission": "2026-10-07T02:21:02.540Z",
       "members": []
     },
     {
@@ -171,6 +171,15 @@
     },
     {
       "rank": 19,
+      "teamId": 16927504,
+      "team": "cfw21w2",
+      "score": 0.69838,
+      "submissions": 71,
+      "lastSubmission": "2026-10-07T01:26:26.660Z",
+      "members": []
+    },
+    {
+      "rank": 20,
       "teamId": 17022110,
       "team": "linkP",
       "score": 0.69661,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16953455,
       "team": "NeuroMTEC",
       "score": 0.69649,
@@ -188,21 +197,12 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
       "submissions": 75,
       "lastSubmission": "2026-09-20T05:32:22.400Z",
-      "members": []
-    },
-    {
-      "rank": 22,
-      "teamId": 16927504,
-      "team": "cfw21w2",
-      "score": 0.68238,
-      "submissions": 69,
-      "lastSubmission": "2026-10-06T15:15:44.987Z",
       "members": []
     },
     {
@@ -291,8 +291,8 @@
       "teamId": 16969296,
       "team": "Viacheslav Fokin",
       "score": 0.65283,
-      "submissions": 16,
-      "lastSubmission": "2026-10-06T03:05:02.407Z",
+      "submissions": 17,
+      "lastSubmission": "2026-10-07T02:11:34.527Z",
       "members": []
     },
     {
@@ -694,11 +694,11 @@
   ],
   "totals": {
     "teams": 76,
-    "submissions": 3140,
+    "submissions": 3154,
     "best": 0.76507,
     "median": 0.63777,
     "p25": 0.31073,
-    "p75": 0.69652
+    "p75": 0.69705
   },
-  "fetchedAt": "2026-10-06T23:56:17.987Z"
+  "fetchedAt": "2026-10-07T03:15:34.523Z"
 }
