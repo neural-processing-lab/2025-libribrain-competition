@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-07T10:24:43.276Z",
+  "updatedAt": "2026-10-07T17:27:12.572Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,8 +30,8 @@
     {
       "teamId": 16636411,
       "team": "Kim",
-      "submissions": 151,
-      "scoredSubmissions": 151,
+      "submissions": 153,
+      "scoredSubmissions": 153,
       "kagglePublicBest": 0.74747,
       "best": {
         "balacc@10": {
@@ -44,14 +44,34 @@
           "value": 1.146874378265943
         }
       },
-      "lastSubmission": "2026-10-06T03:01:36.200Z",
+      "lastSubmission": "2026-10-07T14:00:19.043Z",
       "rank": 2
+    },
+    {
+      "teamId": 17021214,
+      "team": "Brain & AI",
+      "submissions": 46,
+      "scoredSubmissions": 46,
+      "kagglePublicBest": 0.74609,
+      "best": {
+        "balacc@10": {
+          "value": 0.74609
+        },
+        "balacc@1": {
+          "value": 0.33894660894660894
+        },
+        "ovmi": {
+          "value": 1.2109367817301406
+        }
+      },
+      "lastSubmission": "2026-10-07T16:25:51.960Z",
+      "rank": 3
     },
     {
       "teamId": 16784614,
       "team": "dav0dea",
-      "submissions": 148,
-      "scoredSubmissions": 148,
+      "submissions": 149,
+      "scoredSubmissions": 149,
       "kagglePublicBest": 0.74437,
       "best": {
         "balacc@10": {
@@ -64,27 +84,7 @@
           "value": 1.2233301093917854
         }
       },
-      "lastSubmission": "2026-10-06T23:12:20.403Z",
-      "rank": 3
-    },
-    {
-      "teamId": 17021214,
-      "team": "Brain & AI",
-      "submissions": 38,
-      "scoredSubmissions": 38,
-      "kagglePublicBest": 0.73991,
-      "best": {
-        "balacc@10": {
-          "value": 0.73991
-        },
-        "balacc@1": {
-          "value": 0.33894660894660894
-        },
-        "ovmi": {
-          "value": 1.2079363103398038
-        }
-      },
-      "lastSubmission": "2026-10-07T08:03:46.267Z",
+      "lastSubmission": "2026-10-07T14:38:07.420Z",
       "rank": 4
     },
     {
@@ -150,8 +150,8 @@
     {
       "teamId": 16771979,
       "team": "Artem Blanar",
-      "submissions": 85,
-      "scoredSubmissions": 84,
+      "submissions": 86,
+      "scoredSubmissions": 85,
       "kagglePublicBest": 0.73026,
       "best": {
         "balacc@10": {
@@ -164,7 +164,7 @@
           "value": 1.1660660330071728
         }
       },
-      "lastSubmission": "2026-10-06T13:49:35.080Z",
+      "lastSubmission": "2026-10-07T12:04:56.847Z",
       "rank": 8
     },
     {
@@ -370,8 +370,8 @@
     {
       "teamId": 16927504,
       "team": "cfw21w2",
-      "submissions": 72,
-      "scoredSubmissions": 72,
+      "submissions": 73,
+      "scoredSubmissions": 73,
       "kagglePublicBest": 0.69838,
       "best": {
         "balacc@10": {
@@ -384,14 +384,14 @@
           "value": 1.1607184588135042
         }
       },
-      "lastSubmission": "2026-10-07T04:13:11.040Z",
+      "lastSubmission": "2026-10-07T15:06:21.567Z",
       "rank": 19
     },
     {
       "teamId": 17022110,
       "team": "linkP",
-      "submissions": 38,
-      "scoredSubmissions": 38,
+      "submissions": 40,
+      "scoredSubmissions": 40,
       "kagglePublicBest": 0.69661,
       "best": {
         "balacc@10": {
@@ -404,7 +404,7 @@
           "value": 1.1494695251844531
         }
       },
-      "lastSubmission": "2026-10-06T23:40:03.123Z",
+      "lastSubmission": "2026-10-07T11:13:04.890Z",
       "rank": 20
     },
     {
@@ -468,6 +468,26 @@
       "rank": 23
     },
     {
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "submissions": 169,
+      "scoredSubmissions": 169,
+      "kagglePublicBest": 0.66591,
+      "best": {
+        "balacc@10": {
+          "value": 0.66591
+        },
+        "balacc@1": {
+          "value": 0.1900007215007215
+        },
+        "ovmi": {
+          "value": 1.1672570033012024
+        }
+      },
+      "lastSubmission": "2026-10-07T13:21:48.060Z",
+      "rank": 24
+    },
+    {
       "teamId": 16803215,
       "team": "peperonata",
       "submissions": 21,
@@ -485,13 +505,13 @@
         }
       },
       "lastSubmission": "2026-10-06T14:08:03.820Z",
-      "rank": 24
+      "rank": 25
     },
     {
       "teamId": 16685400,
       "team": "saharacamel",
-      "submissions": 51,
-      "scoredSubmissions": 51,
+      "submissions": 61,
+      "scoredSubmissions": 61,
       "kagglePublicBest": 0.66387,
       "best": {
         "balacc@10": {
@@ -504,28 +524,28 @@
           "value": 1.1180849004111741
         }
       },
-      "lastSubmission": "2026-10-06T13:41:16.503Z",
-      "rank": 25
+      "lastSubmission": "2026-10-07T12:33:53.983Z",
+      "rank": 26
     },
     {
       "teamId": 17012370,
       "team": "Dimitar Terziev",
-      "submissions": 54,
-      "scoredSubmissions": 54,
+      "submissions": 58,
+      "scoredSubmissions": 58,
       "kagglePublicBest": 0.66383,
       "best": {
         "balacc@10": {
           "value": 0.66383
         },
         "balacc@1": {
-          "value": 0.24384992784992787
+          "value": 0.2498261183261183
         },
         "ovmi": {
           "value": 1.0764028125496667
         }
       },
-      "lastSubmission": "2026-10-07T03:42:45.737Z",
-      "rank": 26
+      "lastSubmission": "2026-10-07T16:09:42.527Z",
+      "rank": 27
     },
     {
       "teamId": 16946702,
@@ -545,7 +565,7 @@
         }
       },
       "lastSubmission": "2026-10-01T18:08:25.483Z",
-      "rank": 27
+      "rank": 28
     },
     {
       "teamId": 16754648,
@@ -565,26 +585,6 @@
         }
       },
       "lastSubmission": "2026-09-03T08:48:42.743Z",
-      "rank": 28
-    },
-    {
-      "teamId": 16510893,
-      "team": "MindReaders2.0",
-      "submissions": 163,
-      "scoredSubmissions": 163,
-      "kagglePublicBest": 0.65925,
-      "best": {
-        "balacc@10": {
-          "value": 0.65925
-        },
-        "balacc@1": {
-          "value": 0.1900007215007215
-        },
-        "ovmi": {
-          "value": 1.1672570033012024
-        }
-      },
-      "lastSubmission": "2026-10-07T08:01:40.980Z",
       "rank": 29
     },
     {
@@ -630,28 +630,28 @@
     {
       "teamId": 17026468,
       "team": "Yahya Abdulselam",
-      "submissions": 15,
-      "scoredSubmissions": 15,
+      "submissions": 25,
+      "scoredSubmissions": 25,
       "kagglePublicBest": 0.65444,
       "best": {
         "balacc@10": {
           "value": 0.65444
         },
         "balacc@1": {
-          "value": 0.19982828282828283
+          "value": 0.23398556998557
         },
         "ovmi": {
-          "value": 1.049937922838398
+          "value": 1.0811770865712778
         }
       },
-      "lastSubmission": "2026-10-06T20:36:25.240Z",
+      "lastSubmission": "2026-10-07T13:16:23.523Z",
       "rank": 32
     },
     {
       "teamId": 16969296,
       "team": "Viacheslav Fokin",
-      "submissions": 17,
-      "scoredSubmissions": 17,
+      "submissions": 18,
+      "scoredSubmissions": 18,
       "kagglePublicBest": 0.65283,
       "best": {
         "balacc@10": {
@@ -664,7 +664,7 @@
           "value": 1.1206290864635626
         }
       },
-      "lastSubmission": "2026-10-07T02:11:34.527Z",
+      "lastSubmission": "2026-10-07T12:33:20.517Z",
       "rank": 33
     },
     {
@@ -848,6 +848,26 @@
       "rank": 42
     },
     {
+      "teamId": 16499485,
+      "team": "Michael Ibrahim",
+      "submissions": 5,
+      "scoredSubmissions": 5,
+      "kagglePublicBest": 0.61916,
+      "best": {
+        "balacc@10": {
+          "value": 0.61916
+        },
+        "balacc@1": {
+          "value": 0.22773088023088023
+        },
+        "ovmi": {
+          "value": 0.9887671798687824
+        }
+      },
+      "lastSubmission": "2026-10-07T14:36:25.470Z",
+      "rank": 43
+    },
+    {
       "teamId": 16666931,
       "team": "onlytry",
       "submissions": 9,
@@ -865,7 +885,27 @@
         }
       },
       "lastSubmission": "2026-08-14T05:19:58.757Z",
-      "rank": 43
+      "rank": 44
+    },
+    {
+      "teamId": 17027046,
+      "team": "Hojun Yang",
+      "submissions": 2,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.60639,
+      "best": {
+        "balacc@10": {
+          "value": 0.60639
+        },
+        "balacc@1": {
+          "value": 0.18104761904761904
+        },
+        "ovmi": {
+          "value": 0.9259136922419802
+        }
+      },
+      "lastSubmission": "2026-10-07T15:59:33.493Z",
+      "rank": 45
     },
     {
       "teamId": 16770046,
@@ -885,7 +925,7 @@
         }
       },
       "lastSubmission": "2026-09-25T08:18:16.003Z",
-      "rank": 44
+      "rank": 46
     },
     {
       "teamId": 17039022,
@@ -905,7 +945,7 @@
         }
       },
       "lastSubmission": "2026-10-06T05:10:23.893Z",
-      "rank": 45
+      "rank": 47
     },
     {
       "teamId": 16789752,
@@ -925,7 +965,7 @@
         }
       },
       "lastSubmission": "2026-09-18T08:42:52.997Z",
-      "rank": 46
+      "rank": 48
     },
     {
       "teamId": 16954606,
@@ -945,7 +985,7 @@
         }
       },
       "lastSubmission": "2026-10-01T02:51:40.723Z",
-      "rank": 47
+      "rank": 49
     },
     {
       "teamId": 16859154,
@@ -965,27 +1005,7 @@
         }
       },
       "lastSubmission": "2026-10-05T13:49:18.387Z",
-      "rank": 48
-    },
-    {
-      "teamId": 16499485,
-      "team": "Michael Ibrahim",
-      "submissions": 4,
-      "scoredSubmissions": 4,
-      "kagglePublicBest": 0.53521,
-      "best": {
-        "balacc@10": {
-          "value": 0.53521
-        },
-        "balacc@1": {
-          "value": 0.13672294372294372
-        },
-        "ovmi": {
-          "value": 0.9681514664771897
-        }
-      },
-      "lastSubmission": "2026-10-07T08:43:01.277Z",
-      "rank": 49
+      "rank": 50
     },
     {
       "teamId": 16928493,
@@ -1005,7 +1025,7 @@
         }
       },
       "lastSubmission": "2026-10-05T03:47:18.073Z",
-      "rank": 50
+      "rank": 51
     },
     {
       "teamId": 16571738,
@@ -1025,7 +1045,7 @@
         }
       },
       "lastSubmission": "2026-07-19T18:23:10.837Z",
-      "rank": 51
+      "rank": 52
     },
     {
       "teamId": 16700843,
@@ -1045,7 +1065,7 @@
         }
       },
       "lastSubmission": "2026-09-16T10:32:28.507Z",
-      "rank": 52
+      "rank": 53
     },
     {
       "teamId": 16774953,
@@ -1065,7 +1085,7 @@
         }
       },
       "lastSubmission": "2026-08-29T20:44:47.650Z",
-      "rank": 53
+      "rank": 54
     },
     {
       "teamId": 16606355,
@@ -1085,26 +1105,6 @@
         }
       },
       "lastSubmission": "2026-09-28T18:57:18.360Z",
-      "rank": 54
-    },
-    {
-      "teamId": 17027046,
-      "team": "Hojun Yang",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.375,
-      "best": {
-        "balacc@10": {
-          "value": 0.375
-        },
-        "balacc@1": {
-          "value": 0.013666666666666667
-        },
-        "ovmi": {
-          "value": 0.5620335479958659
-        }
-      },
-      "lastSubmission": "2026-10-07T07:27:09.577Z",
       "rank": 55
     },
     {
@@ -1282,6 +1282,26 @@
       "rank": 64
     },
     {
+      "teamId": 16885403,
+      "team": "InverseEncoder",
+      "submissions": 2,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.25323,
+      "best": {
+        "balacc@10": {
+          "value": 0.25323
+        },
+        "balacc@1": {
+          "value": 0.022166666666666668
+        },
+        "ovmi": {
+          "value": 0.6282673103195636
+        }
+      },
+      "lastSubmission": "2026-10-07T15:04:36.227Z",
+      "rank": 65
+    },
+    {
       "teamId": 16797123,
       "team": "willguido",
       "submissions": 4,
@@ -1299,7 +1319,7 @@
         }
       },
       "lastSubmission": "2026-09-01T16:44:02.813Z",
-      "rank": 65
+      "rank": 66
     },
     {
       "teamId": 17029896,
@@ -1319,7 +1339,7 @@
         }
       },
       "lastSubmission": "2026-10-04T09:30:50.683Z",
-      "rank": 66
+      "rank": 67
     },
     {
       "teamId": 16894177,
@@ -1339,7 +1359,7 @@
         }
       },
       "lastSubmission": "2026-09-15T03:30:28.047Z",
-      "rank": 67
+      "rank": 68
     },
     {
       "teamId": 16792950,
@@ -1359,7 +1379,27 @@
         }
       },
       "lastSubmission": "2026-09-13T14:39:56.390Z",
-      "rank": 68
+      "rank": 69
+    },
+    {
+      "teamId": 17050281,
+      "team": "ashley Iannetti",
+      "submissions": 4,
+      "scoredSubmissions": 4,
+      "kagglePublicBest": 0.22662,
+      "best": {
+        "balacc@10": {
+          "value": 0.22662
+        },
+        "balacc@1": {
+          "value": 0.013999999999999999
+        },
+        "ovmi": {
+          "value": 0.9983169277031572
+        }
+      },
+      "lastSubmission": "2026-10-07T16:01:05.737Z",
+      "rank": 70
     },
     {
       "teamId": 16881692,
@@ -1379,7 +1419,7 @@
         }
       },
       "lastSubmission": "2026-09-16T20:49:39Z",
-      "rank": 69
+      "rank": 71
     },
     {
       "teamId": 16792873,
@@ -1399,7 +1439,7 @@
         }
       },
       "lastSubmission": "2026-08-31T00:59:48.743Z",
-      "rank": 70
+      "rank": 72
     },
     {
       "teamId": 16885297,
@@ -1419,7 +1459,7 @@
         }
       },
       "lastSubmission": "2026-09-13T07:35:08.203Z",
-      "rank": 71
+      "rank": 73
     },
     {
       "teamId": 16880458,
@@ -1439,7 +1479,7 @@
         }
       },
       "lastSubmission": "2026-09-19T13:46:28.407Z",
-      "rank": 72
+      "rank": 74
     },
     {
       "teamId": 16948753,
@@ -1459,7 +1499,7 @@
         }
       },
       "lastSubmission": "2026-09-23T16:35:50.200Z",
-      "rank": 73
+      "rank": 75
     },
     {
       "teamId": 16986530,
@@ -1479,7 +1519,7 @@
         }
       },
       "lastSubmission": "2026-09-29T16:58:22.257Z",
-      "rank": 74
+      "rank": 76
     },
     {
       "teamId": 16672981,
@@ -1499,7 +1539,7 @@
         }
       },
       "lastSubmission": "2026-09-08T04:17:51.547Z",
-      "rank": 75
+      "rank": 77
     },
     {
       "teamId": 16605715,
@@ -1519,7 +1559,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 76
+      "rank": 78
     },
     {
       "teamId": 16726510,
@@ -1539,7 +1579,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 77
+      "rank": 79
     },
     {
       "teamId": 16678093,
@@ -1559,7 +1599,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 78
+      "rank": 80
     }
   ]
 }
