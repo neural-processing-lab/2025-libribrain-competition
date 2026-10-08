@@ -110,9 +110,9 @@
       "rank": 12,
       "teamId": 17022301,
       "team": "linkP",
-      "score": 0.66057,
-      "submissions": 10,
-      "lastSubmission": "2026-10-08T12:03:31.153Z",
+      "score": 0.66113,
+      "submissions": 11,
+      "lastSubmission": "2026-10-08T15:32:36.710Z",
       "members": []
     },
     {
@@ -173,9 +173,9 @@
       "rank": 19,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
-      "score": 0.60132,
-      "submissions": 43,
-      "lastSubmission": "2026-10-08T15:05:25.847Z",
+      "score": 0.60359,
+      "submissions": 45,
+      "lastSubmission": "2026-10-08T20:09:09.490Z",
       "members": []
     },
     {
@@ -270,6 +270,15 @@
     },
     {
       "rank": 30,
+      "teamId": 16885405,
+      "team": "InverseEncoder",
+      "score": 0.29706,
+      "submissions": 11,
+      "lastSubmission": "2026-10-08T19:30:28.330Z",
+      "members": []
+    },
+    {
+      "rank": 31,
       "teamId": 16941809,
       "team": "InformaBook2",
       "score": 0.25463,
@@ -278,7 +287,7 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16972643,
       "team": "Arthur12212003",
       "score": 0.24634,
@@ -287,21 +296,12 @@
       "members": []
     },
     {
-      "rank": 32,
+      "rank": 33,
       "teamId": 16943904,
       "team": "Abhijith Pradeep",
       "score": 0.24214,
       "submissions": 3,
       "lastSubmission": "2026-09-29T22:56:18.080Z",
-      "members": []
-    },
-    {
-      "rank": 33,
-      "teamId": 16885405,
-      "team": "InverseEncoder",
-      "score": 0.24159,
-      "submissions": 1,
-      "lastSubmission": "2026-10-07T11:06:12.747Z",
       "members": []
     },
     {
@@ -336,8 +336,8 @@
       "teamId": 17060835,
       "team": "Rohit Ravi",
       "score": 0.22658,
-      "submissions": 3,
-      "lastSubmission": "2026-10-08T11:56:51.510Z",
+      "submissions": 4,
+      "lastSubmission": "2026-10-08T16:51:35.377Z",
       "members": []
     },
     {
@@ -379,11 +379,11 @@
   ],
   "totals": {
     "teams": 41,
-    "submissions": 1174,
+    "submissions": 1188,
     "best": 0.72915,
     "median": 0.57298,
-    "p25": 0.24634,
+    "p25": 0.25463,
     "p75": 0.66294
   },
-  "fetchedAt": "2026-10-08T15:32:23.382Z"
+  "fetchedAt": "2026-10-08T20:47:54.923Z"
 }
