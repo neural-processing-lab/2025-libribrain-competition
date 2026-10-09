@@ -111,8 +111,8 @@
       "teamId": 17022301,
       "team": "linkP",
       "score": 0.66113,
-      "submissions": 11,
-      "lastSubmission": "2026-10-08T15:32:36.710Z",
+      "submissions": 17,
+      "lastSubmission": "2026-10-09T05:18:32.743Z",
       "members": []
     },
     {
@@ -147,8 +147,8 @@
       "teamId": 17027053,
       "team": "Hojun Yang",
       "score": 0.62593,
-      "submissions": 31,
-      "lastSubmission": "2026-10-09T00:14:17.043Z",
+      "submissions": 32,
+      "lastSubmission": "2026-10-09T04:26:26.917Z",
       "members": []
     },
     {
@@ -173,9 +173,9 @@
       "rank": 19,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
-      "score": 0.60359,
-      "submissions": 45,
-      "lastSubmission": "2026-10-08T20:09:09.490Z",
+      "score": 0.60415,
+      "submissions": 46,
+      "lastSubmission": "2026-10-09T01:39:14.107Z",
       "members": []
     },
     {
@@ -245,9 +245,9 @@
       "rank": 27,
       "teamId": 16857946,
       "team": "Irving Ernesto",
-      "score": 0.33161,
-      "submissions": 2,
-      "lastSubmission": "2026-10-08T22:07:47.500Z",
+      "score": 0.35039,
+      "submissions": 3,
+      "lastSubmission": "2026-10-09T03:43:43.147Z",
       "members": []
     },
     {
@@ -379,11 +379,11 @@
   ],
   "totals": {
     "teams": 41,
-    "submissions": 1198,
+    "submissions": 1207,
     "best": 0.72915,
     "median": 0.57298,
     "p25": 0.25463,
     "p75": 0.66294
   },
-  "fetchedAt": "2026-10-09T00:43:26.614Z"
+  "fetchedAt": "2026-10-09T06:43:05.980Z"
 }

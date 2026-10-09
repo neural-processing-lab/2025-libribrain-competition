@@ -56,9 +56,9 @@
       "rank": 6,
       "teamId": 17056936,
       "team": "orionleeke",
-      "score": 0.73231,
-      "submissions": 10,
-      "lastSubmission": "2026-10-08T07:33:15.207Z",
+      "score": 0.73298,
+      "submissions": 20,
+      "lastSubmission": "2026-10-09T03:34:02.750Z",
       "members": []
     },
     {
@@ -210,8 +210,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.68883,
-      "submissions": 72,
-      "lastSubmission": "2026-10-09T00:00:08.283Z",
+      "submissions": 73,
+      "lastSubmission": "2026-10-09T02:14:09.883Z",
       "members": []
     },
     {
@@ -228,8 +228,8 @@
       "teamId": 17027046,
       "team": "Hojun Yang",
       "score": 0.68115,
-      "submissions": 26,
-      "lastSubmission": "2026-10-09T00:03:54.973Z",
+      "submissions": 29,
+      "lastSubmission": "2026-10-09T05:44:04.080Z",
       "members": []
     },
     {
@@ -246,8 +246,8 @@
       "teamId": 17035910,
       "team": "yu_kuo14",
       "score": 0.67925,
-      "submissions": 30,
-      "lastSubmission": "2026-10-09T00:40:41.357Z",
+      "submissions": 31,
+      "lastSubmission": "2026-10-09T04:31:13.867Z",
       "members": []
     },
     {
@@ -757,11 +757,11 @@
   ],
   "totals": {
     "teams": 83,
-    "submissions": 3435,
+    "submissions": 3450,
     "best": 0.76507,
     "median": 0.63277,
     "p25": 0.32596,
     "p75": 0.69655
   },
-  "fetchedAt": "2026-10-09T00:43:26.614Z"
+  "fetchedAt": "2026-10-09T06:43:05.980Z"
 }

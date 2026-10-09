@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-09T00:42:59.979Z",
+  "updatedAt": "2026-10-09T06:42:17.363Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -110,12 +110,12 @@
     {
       "teamId": 17056936,
       "team": "orionleeke",
-      "submissions": 10,
-      "scoredSubmissions": 10,
-      "kagglePublicBest": 0.73231,
+      "submissions": 20,
+      "scoredSubmissions": 20,
+      "kagglePublicBest": 0.73298,
       "best": {
         "balacc@10": {
-          "value": 0.73231
+          "value": 0.73298
         },
         "balacc@1": {
           "value": 0.23613564213564214
@@ -124,7 +124,7 @@
           "value": 1.1085065438398916
         }
       },
-      "lastSubmission": "2026-10-08T07:33:15.207Z",
+      "lastSubmission": "2026-10-09T03:34:02.750Z",
       "rank": 6
     },
     {
@@ -450,8 +450,8 @@
     {
       "teamId": 17012370,
       "team": "Dimitar Terziev",
-      "submissions": 72,
-      "scoredSubmissions": 72,
+      "submissions": 73,
+      "scoredSubmissions": 73,
       "kagglePublicBest": 0.68883,
       "best": {
         "balacc@10": {
@@ -464,7 +464,7 @@
           "value": 1.0764028125496667
         }
       },
-      "lastSubmission": "2026-10-09T00:00:08.283Z",
+      "lastSubmission": "2026-10-09T02:14:09.883Z",
       "rank": 23
     },
     {
@@ -490,8 +490,8 @@
     {
       "teamId": 17027046,
       "team": "Hojun Yang",
-      "submissions": 26,
-      "scoredSubmissions": 26,
+      "submissions": 29,
+      "scoredSubmissions": 29,
       "kagglePublicBest": 0.68115,
       "best": {
         "balacc@10": {
@@ -504,7 +504,7 @@
           "value": 1.12231537774791
         }
       },
-      "lastSubmission": "2026-10-09T00:03:54.973Z",
+      "lastSubmission": "2026-10-09T05:44:04.080Z",
       "rank": 25
     },
     {
@@ -530,8 +530,8 @@
     {
       "teamId": 17035910,
       "team": "yu_kuo14",
-      "submissions": 30,
-      "scoredSubmissions": 30,
+      "submissions": 31,
+      "scoredSubmissions": 31,
       "kagglePublicBest": 0.67925,
       "best": {
         "balacc@10": {
@@ -544,7 +544,7 @@
           "value": 1.131556620396515
         }
       },
-      "lastSubmission": "2026-10-09T00:40:41.357Z",
+      "lastSubmission": "2026-10-09T04:31:13.867Z",
       "rank": 27
     },
     {
