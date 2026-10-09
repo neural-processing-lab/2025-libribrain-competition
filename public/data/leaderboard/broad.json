@@ -144,20 +144,20 @@
     },
     {
       "rank": 16,
+      "teamId": 17027053,
+      "team": "Hojun Yang",
+      "score": 0.62593,
+      "submissions": 31,
+      "lastSubmission": "2026-10-09T00:14:17.043Z",
+      "members": []
+    },
+    {
+      "rank": 17,
       "teamId": 16593214,
       "team": "MindLink",
       "score": 0.62151,
       "submissions": 22,
       "lastSubmission": "2026-08-24T09:13:57.743Z",
-      "members": []
-    },
-    {
-      "rank": 17,
-      "teamId": 17027053,
-      "team": "Hojun Yang",
-      "score": 0.61463,
-      "submissions": 22,
-      "lastSubmission": "2026-10-08T00:57:07.503Z",
       "members": []
     },
     {
@@ -243,6 +243,15 @@
     },
     {
       "rank": 27,
+      "teamId": 16857946,
+      "team": "Irving Ernesto",
+      "score": 0.33161,
+      "submissions": 2,
+      "lastSubmission": "2026-10-08T22:07:47.500Z",
+      "members": []
+    },
+    {
+      "rank": 28,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -251,21 +260,12 @@
       "members": []
     },
     {
-      "rank": 28,
+      "rank": 29,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
       "submissions": 1,
       "lastSubmission": "2026-07-21T10:08:18.583Z",
-      "members": []
-    },
-    {
-      "rank": 29,
-      "teamId": 16857946,
-      "team": "Irving Ernesto",
-      "score": 0.30301,
-      "submissions": 1,
-      "lastSubmission": "2026-10-08T07:58:36.590Z",
       "members": []
     },
     {
@@ -379,11 +379,11 @@
   ],
   "totals": {
     "teams": 41,
-    "submissions": 1188,
+    "submissions": 1198,
     "best": 0.72915,
     "median": 0.57298,
     "p25": 0.25463,
     "p75": 0.66294
   },
-  "fetchedAt": "2026-10-08T20:47:54.923Z"
+  "fetchedAt": "2026-10-09T00:43:26.614Z"
 }

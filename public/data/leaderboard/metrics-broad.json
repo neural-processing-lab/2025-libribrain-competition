@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-08T20:46:59.673Z",
+  "updatedAt": "2026-10-09T00:43:01.493Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -308,6 +308,26 @@
       "rank": 15
     },
     {
+      "teamId": 17027053,
+      "team": "Hojun Yang",
+      "submissions": 31,
+      "scoredSubmissions": 31,
+      "kagglePublicBest": 0.62593,
+      "best": {
+        "balacc@10": {
+          "value": 0.62593
+        },
+        "balacc@1": {
+          "value": 0.207012247012247
+        },
+        "ovmi": {
+          "value": 1.0586737989385382
+        }
+      },
+      "lastSubmission": "2026-10-09T00:14:17.043Z",
+      "rank": 16
+    },
+    {
       "teamId": 16593214,
       "team": "MindLink",
       "submissions": 22,
@@ -325,26 +345,6 @@
         }
       },
       "lastSubmission": "2026-08-24T09:13:57.743Z",
-      "rank": 16
-    },
-    {
-      "teamId": 17027053,
-      "team": "Hojun Yang",
-      "submissions": 22,
-      "scoredSubmissions": 22,
-      "kagglePublicBest": 0.61463,
-      "best": {
-        "balacc@10": {
-          "value": 0.61463
-        },
-        "balacc@1": {
-          "value": 0.1912202057202057
-        },
-        "ovmi": {
-          "value": 0.832210334469452
-        }
-      },
-      "lastSubmission": "2026-10-08T00:57:07.503Z",
       "rank": 17
     },
     {
@@ -528,6 +528,26 @@
       "rank": 26
     },
     {
+      "teamId": 16857946,
+      "team": "Irving Ernesto",
+      "submissions": 2,
+      "scoredSubmissions": 2,
+      "kagglePublicBest": 0.33161,
+      "best": {
+        "balacc@10": {
+          "value": 0.33161
+        },
+        "balacc@1": {
+          "value": 0.043714045214045205
+        },
+        "ovmi": {
+          "value": 0.2954742347578325
+        }
+      },
+      "lastSubmission": "2026-10-08T22:07:47.500Z",
+      "rank": 27
+    },
+    {
       "teamId": 16686336,
       "team": "onlytry",
       "submissions": 3,
@@ -545,7 +565,7 @@
         }
       },
       "lastSubmission": "2026-08-12T06:23:34.590Z",
-      "rank": 27
+      "rank": 28
     },
     {
       "teamId": 16580266,
@@ -565,26 +585,6 @@
         }
       },
       "lastSubmission": "2026-07-21T10:08:18.583Z",
-      "rank": 28
-    },
-    {
-      "teamId": 16857946,
-      "team": "Irving Ernesto",
-      "submissions": 1,
-      "scoredSubmissions": 1,
-      "kagglePublicBest": 0.30301,
-      "best": {
-        "balacc@10": {
-          "value": 0.30301
-        },
-        "balacc@1": {
-          "value": 0.035714655714655714
-        },
-        "ovmi": {
-          "value": 0.23722742134842636
-        }
-      },
-      "lastSubmission": "2026-10-08T07:58:36.590Z",
       "rank": 29
     },
     {

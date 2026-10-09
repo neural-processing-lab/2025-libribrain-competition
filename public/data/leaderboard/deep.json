@@ -102,8 +102,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.72876,
-      "submissions": 170,
-      "lastSubmission": "2026-10-08T18:28:51.053Z",
+      "submissions": 172,
+      "lastSubmission": "2026-10-08T21:18:09.917Z",
       "members": []
     },
     {
@@ -120,8 +120,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 312,
-      "lastSubmission": "2026-10-08T08:16:35.580Z",
+      "submissions": 319,
+      "lastSubmission": "2026-10-09T00:14:20.623Z",
       "members": []
     },
     {
@@ -210,8 +210,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.68883,
-      "submissions": 70,
-      "lastSubmission": "2026-10-08T20:17:47.840Z",
+      "submissions": 72,
+      "lastSubmission": "2026-10-09T00:00:08.283Z",
       "members": []
     },
     {
@@ -225,6 +225,15 @@
     },
     {
       "rank": 25,
+      "teamId": 17027046,
+      "team": "Hojun Yang",
+      "score": 0.68115,
+      "submissions": 26,
+      "lastSubmission": "2026-10-09T00:03:54.973Z",
+      "members": []
+    },
+    {
+      "rank": 26,
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
       "score": 0.68088,
@@ -233,25 +242,25 @@
       "members": []
     },
     {
-      "rank": 26,
-      "teamId": 17027046,
-      "team": "Hojun Yang",
-      "score": 0.67931,
-      "submissions": 20,
-      "lastSubmission": "2026-10-08T04:51:57.320Z",
-      "members": []
-    },
-    {
       "rank": 27,
-      "teamId": 16510893,
-      "team": "MindReaders2.0",
-      "score": 0.67625,
-      "submissions": 180,
-      "lastSubmission": "2026-10-08T20:40:27.973Z",
+      "teamId": 17035910,
+      "team": "yu_kuo14",
+      "score": 0.67925,
+      "submissions": 30,
+      "lastSubmission": "2026-10-09T00:40:41.357Z",
       "members": []
     },
     {
       "rank": 28,
+      "teamId": 16510893,
+      "team": "MindReaders2.0",
+      "score": 0.67625,
+      "submissions": 182,
+      "lastSubmission": "2026-10-09T00:01:46.497Z",
+      "members": []
+    },
+    {
+      "rank": 29,
       "teamId": 16685400,
       "team": "saharacamel",
       "score": 0.67003,
@@ -260,7 +269,7 @@
       "members": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "teamId": 16803215,
       "team": "peperonata",
       "score": 0.66486,
@@ -269,7 +278,7 @@
       "members": []
     },
     {
-      "rank": 30,
+      "rank": 31,
       "teamId": 16946702,
       "team": "Nova",
       "score": 0.66195,
@@ -278,21 +287,12 @@
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16754648,
       "team": "CWBZ",
       "score": 0.6601,
       "submissions": 33,
       "lastSubmission": "2026-09-03T08:48:42.743Z",
-      "members": []
-    },
-    {
-      "rank": 32,
-      "teamId": 17035910,
-      "team": "yu_kuo14",
-      "score": 0.65645,
-      "submissions": 22,
-      "lastSubmission": "2026-10-08T02:59:54.433Z",
       "members": []
     },
     {
@@ -318,8 +318,8 @@
       "teamId": 17026468,
       "team": "Yahya Abdulselam",
       "score": 0.65444,
-      "submissions": 25,
-      "lastSubmission": "2026-10-07T13:16:23.523Z",
+      "submissions": 27,
+      "lastSubmission": "2026-10-08T21:07:06.007Z",
       "members": []
     },
     {
@@ -390,8 +390,8 @@
       "teamId": 16885403,
       "team": "InverseEncoder",
       "score": 0.63209,
-      "submissions": 10,
-      "lastSubmission": "2026-10-08T09:30:11.430Z",
+      "submissions": 14,
+      "lastSubmission": "2026-10-08T23:25:07.780Z",
       "members": []
     },
     {
@@ -714,8 +714,8 @@
       "teamId": 17052752,
       "team": "Praise James",
       "score": 0.2,
-      "submissions": 1,
-      "lastSubmission": "2026-10-08T17:42:03.180Z",
+      "submissions": 2,
+      "lastSubmission": "2026-10-08T22:55:46.387Z",
       "members": []
     },
     {
@@ -757,11 +757,11 @@
   ],
   "totals": {
     "teams": 83,
-    "submissions": 3401,
+    "submissions": 3435,
     "best": 0.76507,
     "median": 0.63277,
     "p25": 0.32596,
     "p75": 0.69655
   },
-  "fetchedAt": "2026-10-08T20:47:54.923Z"
+  "fetchedAt": "2026-10-09T00:43:26.614Z"
 }
