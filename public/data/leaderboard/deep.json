@@ -102,8 +102,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.72876,
-      "submissions": 172,
-      "lastSubmission": "2026-10-08T21:18:09.917Z",
+      "submissions": 178,
+      "lastSubmission": "2026-10-09T23:04:07.677Z",
       "members": []
     },
     {
@@ -210,8 +210,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.68883,
-      "submissions": 79,
-      "lastSubmission": "2026-10-09T18:41:21.927Z",
+      "submissions": 81,
+      "lastSubmission": "2026-10-09T20:40:54.410Z",
       "members": []
     },
     {
@@ -264,8 +264,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.67625,
-      "submissions": 184,
-      "lastSubmission": "2026-10-09T18:18:17.173Z",
+      "submissions": 188,
+      "lastSubmission": "2026-10-09T19:55:14.363Z",
       "members": []
     },
     {
@@ -300,8 +300,8 @@
       "teamId": 16754648,
       "team": "CWBZ",
       "score": 0.6601,
-      "submissions": 33,
-      "lastSubmission": "2026-09-03T08:48:42.743Z",
+      "submissions": 34,
+      "lastSubmission": "2026-10-09T21:58:16.853Z",
       "members": []
     },
     {
@@ -327,8 +327,8 @@
       "teamId": 17026468,
       "team": "Yahya Abdulselam",
       "score": 0.65444,
-      "submissions": 27,
-      "lastSubmission": "2026-10-08T21:07:06.007Z",
+      "submissions": 35,
+      "lastSubmission": "2026-10-09T22:26:30.173Z",
       "members": []
     },
     {
@@ -381,8 +381,8 @@
       "teamId": 16885403,
       "team": "InverseEncoder",
       "score": 0.63913,
-      "submissions": 22,
-      "lastSubmission": "2026-10-09T18:54:19.227Z",
+      "submissions": 24,
+      "lastSubmission": "2026-10-09T19:50:17.560Z",
       "members": []
     },
     {
@@ -757,11 +757,11 @@
   ],
   "totals": {
     "teams": 83,
-    "submissions": 3532,
+    "submissions": 3555,
     "best": 0.76507,
     "median": 0.63913,
     "p25": 0.34413,
     "p75": 0.69655
   },
-  "fetchedAt": "2026-10-09T19:05:54.983Z"
+  "fetchedAt": "2026-10-09T23:12:33.265Z"
 }
