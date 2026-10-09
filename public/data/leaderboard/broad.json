@@ -38,9 +38,9 @@
       "rank": 4,
       "teamId": 17029831,
       "team": "Brain & AI",
-      "score": 0.72195,
-      "submissions": 50,
-      "lastSubmission": "2026-10-08T12:20:06.713Z",
+      "score": 0.72254,
+      "submissions": 54,
+      "lastSubmission": "2026-10-09T12:19:25.603Z",
       "members": []
     },
     {
@@ -66,8 +66,8 @@
       "teamId": 16779203,
       "team": "ottietjesesakfs",
       "score": 0.70899,
-      "submissions": 268,
-      "lastSubmission": "2026-10-04T11:16:53.077Z",
+      "submissions": 269,
+      "lastSubmission": "2026-10-09T08:03:08.897Z",
       "members": []
     },
     {
@@ -90,6 +90,15 @@
     },
     {
       "rank": 10,
+      "teamId": 17022301,
+      "team": "linkP",
+      "score": 0.66777,
+      "submissions": 21,
+      "lastSubmission": "2026-10-09T07:09:13.327Z",
+      "members": []
+    },
+    {
+      "rank": 11,
       "teamId": 16661195,
       "team": "JovanaLab",
       "score": 0.6673,
@@ -98,21 +107,12 @@
       "members": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "teamId": 16981137,
       "team": "Karahan Yılmazer",
       "score": 0.66294,
       "submissions": 16,
       "lastSubmission": "2026-10-06T02:05:06.627Z",
-      "members": []
-    },
-    {
-      "rank": 12,
-      "teamId": 17022301,
-      "team": "linkP",
-      "score": 0.66113,
-      "submissions": 17,
-      "lastSubmission": "2026-10-09T05:18:32.743Z",
       "members": []
     },
     {
@@ -375,15 +375,24 @@
       "submissions": 3,
       "lastSubmission": "2026-10-06T19:26:04.813Z",
       "members": []
+    },
+    {
+      "rank": 42,
+      "teamId": 17067199,
+      "team": "lfy111",
+      "score": 0.16188,
+      "submissions": 2,
+      "lastSubmission": "2026-10-09T10:46:00.290Z",
+      "members": []
     }
   ],
   "totals": {
-    "teams": 41,
-    "submissions": 1207,
+    "teams": 42,
+    "submissions": 1218,
     "best": 0.72915,
-    "median": 0.57298,
-    "p25": 0.25463,
-    "p75": 0.66294
+    "median": 0.5633,
+    "p25": 0.24841,
+    "p75": 0.66621
   },
-  "fetchedAt": "2026-10-09T06:43:05.980Z"
+  "fetchedAt": "2026-10-09T13:46:17.731Z"
 }
