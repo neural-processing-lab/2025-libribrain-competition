@@ -30,8 +30,8 @@
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72367,
-      "submissions": 53,
-      "lastSubmission": "2026-10-08T13:37:16.263Z",
+      "submissions": 55,
+      "lastSubmission": "2026-10-09T15:36:06.980Z",
       "members": []
     },
     {
@@ -39,8 +39,8 @@
       "teamId": 17029831,
       "team": "Brain & AI",
       "score": 0.72254,
-      "submissions": 54,
-      "lastSubmission": "2026-10-09T12:19:25.603Z",
+      "submissions": 60,
+      "lastSubmission": "2026-10-09T18:31:01.827Z",
       "members": []
     },
     {
@@ -174,8 +174,8 @@
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.60415,
-      "submissions": 46,
-      "lastSubmission": "2026-10-09T01:39:14.107Z",
+      "submissions": 47,
+      "lastSubmission": "2026-10-09T17:19:55.283Z",
       "members": []
     },
     {
@@ -234,6 +234,15 @@
     },
     {
       "rank": 26,
+      "teamId": 16885405,
+      "team": "InverseEncoder",
+      "score": 0.36784,
+      "submissions": 16,
+      "lastSubmission": "2026-10-09T18:05:40.003Z",
+      "members": []
+    },
+    {
+      "rank": 27,
       "teamId": 16606357,
       "team": "Salsinats",
       "score": 0.35416,
@@ -242,7 +251,7 @@
       "members": []
     },
     {
-      "rank": 27,
+      "rank": 28,
       "teamId": 16857946,
       "team": "Irving Ernesto",
       "score": 0.35039,
@@ -251,7 +260,7 @@
       "members": []
     },
     {
-      "rank": 28,
+      "rank": 29,
       "teamId": 16686336,
       "team": "onlytry",
       "score": 0.33066,
@@ -260,7 +269,7 @@
       "members": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "teamId": 16580266,
       "team": "PNPL-MEG-XL-Baseline",
       "score": 0.31023,
@@ -269,21 +278,12 @@
       "members": []
     },
     {
-      "rank": 30,
-      "teamId": 16885405,
-      "team": "InverseEncoder",
-      "score": 0.29706,
-      "submissions": 11,
-      "lastSubmission": "2026-10-08T19:30:28.330Z",
-      "members": []
-    },
-    {
       "rank": 31,
       "teamId": 16941809,
       "team": "InformaBook2",
       "score": 0.25463,
-      "submissions": 17,
-      "lastSubmission": "2026-10-08T13:27:57.193Z",
+      "submissions": 19,
+      "lastSubmission": "2026-10-09T14:31:00.270Z",
       "members": []
     },
     {
@@ -388,11 +388,11 @@
   ],
   "totals": {
     "teams": 42,
-    "submissions": 1218,
+    "submissions": 1234,
     "best": 0.72915,
     "median": 0.5633,
     "p25": 0.24841,
     "p75": 0.66621
   },
-  "fetchedAt": "2026-10-09T13:46:17.731Z"
+  "fetchedAt": "2026-10-09T19:05:54.983Z"
 }
