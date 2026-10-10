@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-10T14:41:46.253Z",
+  "updatedAt": "2026-10-10T18:50:19.005Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -190,8 +190,8 @@
     {
       "teamId": 16927415,
       "team": "cfw21w2",
-      "submissions": 54,
-      "scoredSubmissions": 54,
+      "submissions": 57,
+      "scoredSubmissions": 57,
       "kagglePublicBest": 0.67261,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 0.9822074476998305
         }
       },
-      "lastSubmission": "2026-10-10T13:43:44.943Z",
+      "lastSubmission": "2026-10-10T17:25:37.293Z",
       "rank": 10
     },
     {
@@ -370,8 +370,8 @@
     {
       "teamId": 17042550,
       "team": "MohamedII",
-      "submissions": 6,
-      "scoredSubmissions": 6,
+      "submissions": 7,
+      "scoredSubmissions": 7,
       "kagglePublicBest": 0.6129,
       "best": {
         "balacc@10": {
@@ -384,7 +384,7 @@
           "value": 0.9381199679586716
         }
       },
-      "lastSubmission": "2026-10-07T09:45:46.507Z",
+      "lastSubmission": "2026-10-10T18:32:06.053Z",
       "rank": 19
     },
     {
@@ -510,28 +510,28 @@
     {
       "teamId": 17060835,
       "team": "Rohit Ravi",
-      "submissions": 5,
-      "scoredSubmissions": 5,
-      "kagglePublicBest": 0.41076,
+      "submissions": 7,
+      "scoredSubmissions": 7,
+      "kagglePublicBest": 0.42837,
       "best": {
         "balacc@10": {
-          "value": 0.41076
+          "value": 0.42837
         },
         "balacc@1": {
-          "value": 0.05587024087024087
+          "value": 0.05934524734524735
         },
         "ovmi": {
-          "value": 0.6911309249266147
+          "value": 0.7194564818101639
         }
       },
-      "lastSubmission": "2026-10-10T14:20:10.027Z",
+      "lastSubmission": "2026-10-10T18:09:20.777Z",
       "rank": 26
     },
     {
       "teamId": 16885405,
       "team": "InverseEncoder",
-      "submissions": 21,
-      "scoredSubmissions": 21,
+      "submissions": 24,
+      "scoredSubmissions": 24,
       "kagglePublicBest": 0.38422,
       "best": {
         "balacc@10": {
@@ -541,10 +541,10 @@
           "value": 0.05816342916342917
         },
         "ovmi": {
-          "value": 0.6595803475818013
+          "value": 0.6699305381504234
         }
       },
-      "lastSubmission": "2026-10-09T21:25:42.157Z",
+      "lastSubmission": "2026-10-10T17:44:07.840Z",
       "rank": 27
     },
     {
