@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-10T18:50:19.005Z",
+  "updatedAt": "2026-10-10T22:03:08.193Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -190,8 +190,8 @@
     {
       "teamId": 16927415,
       "team": "cfw21w2",
-      "submissions": 57,
-      "scoredSubmissions": 57,
+      "submissions": 58,
+      "scoredSubmissions": 58,
       "kagglePublicBest": 0.67261,
       "best": {
         "balacc@10": {
@@ -204,7 +204,7 @@
           "value": 0.9822074476998305
         }
       },
-      "lastSubmission": "2026-10-10T17:25:37.293Z",
+      "lastSubmission": "2026-10-10T19:43:05.023Z",
       "rank": 10
     },
     {
@@ -508,6 +508,26 @@
       "rank": 25
     },
     {
+      "teamId": 16885405,
+      "team": "InverseEncoder",
+      "submissions": 31,
+      "scoredSubmissions": 31,
+      "kagglePublicBest": 0.45415,
+      "best": {
+        "balacc@10": {
+          "value": 0.45415
+        },
+        "balacc@1": {
+          "value": 0.09294731194731193
+        },
+        "ovmi": {
+          "value": 0.6699305381504234
+        }
+      },
+      "lastSubmission": "2026-10-10T19:19:19.503Z",
+      "rank": 26
+    },
+    {
       "teamId": 17060835,
       "team": "Rohit Ravi",
       "submissions": 7,
@@ -525,26 +545,6 @@
         }
       },
       "lastSubmission": "2026-10-10T18:09:20.777Z",
-      "rank": 26
-    },
-    {
-      "teamId": 16885405,
-      "team": "InverseEncoder",
-      "submissions": 24,
-      "scoredSubmissions": 24,
-      "kagglePublicBest": 0.38422,
-      "best": {
-        "balacc@10": {
-          "value": 0.38422
-        },
-        "balacc@1": {
-          "value": 0.05816342916342917
-        },
-        "ovmi": {
-          "value": 0.6699305381504234
-        }
-      },
-      "lastSubmission": "2026-10-10T17:44:07.840Z",
       "rank": 27
     },
     {

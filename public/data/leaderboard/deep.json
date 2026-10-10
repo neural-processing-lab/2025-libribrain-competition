@@ -57,8 +57,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.7361,
-      "submissions": 97,
-      "lastSubmission": "2026-10-10T13:59:52.793Z",
+      "submissions": 98,
+      "lastSubmission": "2026-10-10T21:14:56.033Z",
       "members": []
     },
     {
@@ -102,8 +102,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.72876,
-      "submissions": 180,
-      "lastSubmission": "2026-10-10T04:44:25.977Z",
+      "submissions": 182,
+      "lastSubmission": "2026-10-10T21:33:40.003Z",
       "members": []
     },
     {
@@ -174,8 +174,8 @@
       "teamId": 16983055,
       "team": "BNEL",
       "score": 0.70278,
-      "submissions": 51,
-      "lastSubmission": "2026-10-07T09:10:32.820Z",
+      "submissions": 52,
+      "lastSubmission": "2026-10-10T21:44:14.453Z",
       "members": []
     },
     {
@@ -216,6 +216,15 @@
     },
     {
       "rank": 24,
+      "teamId": 16885403,
+      "team": "InverseEncoder",
+      "score": 0.69627,
+      "submissions": 34,
+      "lastSubmission": "2026-10-10T20:59:43.967Z",
+      "members": []
+    },
+    {
+      "rank": 25,
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.68883,
@@ -224,7 +233,7 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
@@ -233,16 +242,16 @@
       "members": []
     },
     {
-      "rank": 26,
+      "rank": 27,
       "teamId": 17027046,
       "team": "Hojun Yang",
       "score": 0.68445,
-      "submissions": 39,
-      "lastSubmission": "2026-10-10T00:13:14.123Z",
+      "submissions": 40,
+      "lastSubmission": "2026-10-10T21:08:09.233Z",
       "members": []
     },
     {
-      "rank": 27,
+      "rank": 28,
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
       "score": 0.68088,
@@ -251,7 +260,7 @@
       "members": []
     },
     {
-      "rank": 28,
+      "rank": 29,
       "teamId": 17035910,
       "team": "yu_kuo14",
       "score": 0.67925,
@@ -260,21 +269,12 @@
       "members": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.67625,
-      "submissions": 192,
-      "lastSubmission": "2026-10-10T18:18:54.207Z",
-      "members": []
-    },
-    {
-      "rank": 30,
-      "teamId": 16885403,
-      "team": "InverseEncoder",
-      "score": 0.67278,
-      "submissions": 29,
-      "lastSubmission": "2026-10-10T17:43:45.737Z",
+      "submissions": 194,
+      "lastSubmission": "2026-10-10T18:56:33.350Z",
       "members": []
     },
     {
@@ -766,11 +766,11 @@
   ],
   "totals": {
     "teams": 84,
-    "submissions": 3669,
+    "submissions": 3681,
     "best": 0.77474,
     "median": 0.64277,
     "p25": 0.35808,
     "p75": 0.69778
   },
-  "fetchedAt": "2026-10-10T18:50:25.960Z"
+  "fetchedAt": "2026-10-10T22:03:33.934Z"
 }

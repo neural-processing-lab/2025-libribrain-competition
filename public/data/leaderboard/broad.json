@@ -93,8 +93,8 @@
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.67261,
-      "submissions": 57,
-      "lastSubmission": "2026-10-10T17:25:37.293Z",
+      "submissions": 58,
+      "lastSubmission": "2026-10-10T19:43:05.023Z",
       "members": []
     },
     {
@@ -234,20 +234,20 @@
     },
     {
       "rank": 26,
+      "teamId": 16885405,
+      "team": "InverseEncoder",
+      "score": 0.45415,
+      "submissions": 31,
+      "lastSubmission": "2026-10-10T19:19:19.503Z",
+      "members": []
+    },
+    {
+      "rank": 27,
       "teamId": 17060835,
       "team": "Rohit Ravi",
       "score": 0.42837,
       "submissions": 7,
       "lastSubmission": "2026-10-10T18:09:20.777Z",
-      "members": []
-    },
-    {
-      "rank": 27,
-      "teamId": 16885405,
-      "team": "InverseEncoder",
-      "score": 0.38422,
-      "submissions": 24,
-      "lastSubmission": "2026-10-10T17:44:07.840Z",
       "members": []
     },
     {
@@ -397,11 +397,11 @@
   ],
   "totals": {
     "teams": 43,
-    "submissions": 1313,
+    "submissions": 1321,
     "best": 0.73235,
     "median": 0.55362,
     "p25": 0.30878,
     "p75": 0.66512
   },
-  "fetchedAt": "2026-10-10T18:50:25.960Z"
+  "fetchedAt": "2026-10-10T22:03:33.934Z"
 }
