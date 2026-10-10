@@ -192,8 +192,8 @@
       "teamId": 17022110,
       "team": "linkP",
       "score": 0.69661,
-      "submissions": 46,
-      "lastSubmission": "2026-10-09T07:15:53.387Z",
+      "submissions": 47,
+      "lastSubmission": "2026-10-10T00:07:11.590Z",
       "members": []
     },
     {
@@ -210,8 +210,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.68883,
-      "submissions": 81,
-      "lastSubmission": "2026-10-09T20:40:54.410Z",
+      "submissions": 89,
+      "lastSubmission": "2026-10-10T01:09:07.323Z",
       "members": []
     },
     {
@@ -236,9 +236,9 @@
       "rank": 26,
       "teamId": 17027046,
       "team": "Hojun Yang",
-      "score": 0.68115,
-      "submissions": 30,
-      "lastSubmission": "2026-10-09T14:20:02.193Z",
+      "score": 0.68445,
+      "submissions": 39,
+      "lastSubmission": "2026-10-10T00:13:14.123Z",
       "members": []
     },
     {
@@ -255,8 +255,8 @@
       "teamId": 17035910,
       "team": "yu_kuo14",
       "score": 0.67925,
-      "submissions": 32,
-      "lastSubmission": "2026-10-09T12:26:59.183Z",
+      "submissions": 35,
+      "lastSubmission": "2026-10-10T00:03:16.977Z",
       "members": []
     },
     {
@@ -273,8 +273,8 @@
       "teamId": 16969296,
       "team": "Viacheslav Fokin",
       "score": 0.6716,
-      "submissions": 21,
-      "lastSubmission": "2026-10-09T15:27:56.857Z",
+      "submissions": 22,
+      "lastSubmission": "2026-10-09T23:57:22.613Z",
       "members": []
     },
     {
@@ -513,6 +513,15 @@
     },
     {
       "rank": 57,
+      "teamId": 17050281,
+      "team": "ashley Iannetti",
+      "score": 0.43958,
+      "submissions": 36,
+      "lastSubmission": "2026-10-10T01:29:58.997Z",
+      "members": []
+    },
+    {
+      "rank": 58,
       "teamId": 16700843,
       "team": "kongxuan47",
       "score": 0.43935,
@@ -521,7 +530,7 @@
       "members": []
     },
     {
-      "rank": 58,
+      "rank": 59,
       "teamId": 16774953,
       "team": "Sia",
       "score": 0.43623,
@@ -530,7 +539,7 @@
       "members": []
     },
     {
-      "rank": 59,
+      "rank": 60,
       "teamId": 16606355,
       "team": "Salsinats",
       "score": 0.40325,
@@ -539,21 +548,12 @@
       "members": []
     },
     {
-      "rank": 60,
+      "rank": 61,
       "teamId": 16943902,
       "team": "Abhijith Pradeep",
       "score": 0.36723,
       "submissions": 5,
       "lastSubmission": "2026-09-26T23:45:01.877Z",
-      "members": []
-    },
-    {
-      "rank": 61,
-      "teamId": 17050281,
-      "team": "ashley Iannetti",
-      "score": 0.36406,
-      "submissions": 26,
-      "lastSubmission": "2026-10-09T15:26:27.577Z",
       "members": []
     },
     {
@@ -757,11 +757,11 @@
   ],
   "totals": {
     "teams": 83,
-    "submissions": 3555,
+    "submissions": 3587,
     "best": 0.76507,
     "median": 0.63913,
     "p25": 0.34413,
     "p75": 0.69655
   },
-  "fetchedAt": "2026-10-09T23:12:33.265Z"
+  "fetchedAt": "2026-10-10T02:18:25.387Z"
 }

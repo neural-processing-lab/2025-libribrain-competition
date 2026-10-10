@@ -81,20 +81,20 @@
     },
     {
       "rank": 9,
+      "teamId": 17022301,
+      "team": "linkP",
+      "score": 0.67443,
+      "submissions": 31,
+      "lastSubmission": "2026-10-10T00:31:42.530Z",
+      "members": []
+    },
+    {
+      "rank": 10,
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.67261,
       "submissions": 51,
       "lastSubmission": "2026-10-07T08:42:12.867Z",
-      "members": []
-    },
-    {
-      "rank": 10,
-      "teamId": 17022301,
-      "team": "linkP",
-      "score": 0.66777,
-      "submissions": 21,
-      "lastSubmission": "2026-10-09T07:09:13.327Z",
       "members": []
     },
     {
@@ -146,9 +146,9 @@
       "rank": 16,
       "teamId": 17027053,
       "team": "Hojun Yang",
-      "score": 0.62593,
-      "submissions": 32,
-      "lastSubmission": "2026-10-09T04:26:26.917Z",
+      "score": 0.62946,
+      "submissions": 42,
+      "lastSubmission": "2026-10-10T00:06:57.073Z",
       "members": []
     },
     {
@@ -174,8 +174,8 @@
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.60415,
-      "submissions": 54,
-      "lastSubmission": "2026-10-09T22:46:18.167Z",
+      "submissions": 56,
+      "lastSubmission": "2026-10-10T02:16:07.183Z",
       "members": []
     },
     {
@@ -388,11 +388,11 @@
   ],
   "totals": {
     "teams": 42,
-    "submissions": 1247,
+    "submissions": 1269,
     "best": 0.72915,
     "median": 0.5633,
     "p25": 0.26853,
     "p75": 0.66621
   },
-  "fetchedAt": "2026-10-09T23:12:33.265Z"
+  "fetchedAt": "2026-10-10T02:18:25.387Z"
 }
