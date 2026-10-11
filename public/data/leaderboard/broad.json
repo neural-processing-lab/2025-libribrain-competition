@@ -83,9 +83,9 @@
       "rank": 9,
       "teamId": 17022301,
       "team": "linkP",
-      "score": 0.67443,
-      "submissions": 31,
-      "lastSubmission": "2026-10-10T00:31:42.530Z",
+      "score": 0.68157,
+      "submissions": 41,
+      "lastSubmission": "2026-10-11T00:04:51.177Z",
       "members": []
     },
     {
@@ -155,9 +155,9 @@
       "rank": 17,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
-      "score": 0.62262,
-      "submissions": 64,
-      "lastSubmission": "2026-10-10T12:06:18.923Z",
+      "score": 0.62587,
+      "submissions": 66,
+      "lastSubmission": "2026-10-11T00:12:21.333Z",
       "members": []
     },
     {
@@ -397,11 +397,11 @@
   ],
   "totals": {
     "teams": 43,
-    "submissions": 1321,
+    "submissions": 1333,
     "best": 0.73235,
     "median": 0.55362,
     "p25": 0.30878,
     "p75": 0.66512
   },
-  "fetchedAt": "2026-10-10T22:03:33.934Z"
+  "fetchedAt": "2026-10-11T00:57:29.354Z"
 }
