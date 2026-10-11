@@ -27,20 +27,20 @@
     },
     {
       "rank": 3,
+      "teamId": 17029831,
+      "team": "Brain & AI",
+      "score": 0.7239,
+      "submissions": 80,
+      "lastSubmission": "2026-10-11T12:48:27.853Z",
+      "members": []
+    },
+    {
+      "rank": 4,
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72367,
       "submissions": 55,
       "lastSubmission": "2026-10-09T15:36:06.980Z",
-      "members": []
-    },
-    {
-      "rank": 4,
-      "teamId": 17029831,
-      "team": "Brain & AI",
-      "score": 0.72282,
-      "submissions": 70,
-      "lastSubmission": "2026-10-10T13:16:25.600Z",
       "members": []
     },
     {
@@ -117,6 +117,15 @@
     },
     {
       "rank": 13,
+      "teamId": 17027053,
+      "team": "Hojun Yang",
+      "score": 0.6616,
+      "submissions": 52,
+      "lastSubmission": "2026-10-11T12:56:58.730Z",
+      "members": []
+    },
+    {
+      "rank": 14,
       "teamId": 16607557,
       "team": "Brain King",
       "score": 0.64291,
@@ -125,7 +134,7 @@
       "members": []
     },
     {
-      "rank": 14,
+      "rank": 15,
       "teamId": 16680182,
       "team": "Arnauya",
       "score": 0.64001,
@@ -134,21 +143,12 @@
       "members": []
     },
     {
-      "rank": 15,
+      "rank": 16,
       "teamId": 16896113,
       "team": "peperonata",
       "score": 0.63699,
-      "submissions": 7,
-      "lastSubmission": "2026-09-25T05:12:41.903Z",
-      "members": []
-    },
-    {
-      "rank": 16,
-      "teamId": 17027053,
-      "team": "Hojun Yang",
-      "score": 0.62946,
-      "submissions": 42,
-      "lastSubmission": "2026-10-10T00:06:57.073Z",
+      "submissions": 10,
+      "lastSubmission": "2026-10-11T10:38:30.967Z",
       "members": []
     },
     {
@@ -156,8 +156,8 @@
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.62587,
-      "submissions": 69,
-      "lastSubmission": "2026-10-11T04:11:22.973Z",
+      "submissions": 71,
+      "lastSubmission": "2026-10-11T12:52:45.353Z",
       "members": []
     },
     {
@@ -387,21 +387,30 @@
     },
     {
       "rank": 43,
+      "teamId": 17043406,
+      "team": "Yan Hanwei",
+      "score": 0.18087,
+      "submissions": 1,
+      "lastSubmission": "2026-10-11T12:52:01.990Z",
+      "members": []
+    },
+    {
+      "rank": 44,
       "teamId": 17067199,
       "team": "lfy111",
       "score": 0.18054,
-      "submissions": 3,
-      "lastSubmission": "2026-10-11T05:36:14.643Z",
+      "submissions": 4,
+      "lastSubmission": "2026-10-11T07:21:21.377Z",
       "members": []
     }
   ],
   "totals": {
-    "teams": 43,
-    "submissions": 1349,
+    "teams": 44,
+    "submissions": 1376,
     "best": 0.73235,
-    "median": 0.55362,
-    "p25": 0.30878,
-    "p75": 0.66512
+    "median": 0.55211,
+    "p25": 0.29416,
+    "p75": 0.66403
   },
-  "fetchedAt": "2026-10-11T06:42:25.991Z"
+  "fetchedAt": "2026-10-11T13:31:00.875Z"
 }
