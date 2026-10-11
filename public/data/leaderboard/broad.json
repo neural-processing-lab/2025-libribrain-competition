@@ -12,8 +12,8 @@
       "teamId": 16692669,
       "team": "Varshith Madishetty",
       "score": 0.73235,
-      "submissions": 201,
-      "lastSubmission": "2026-10-10T03:55:21.363Z",
+      "submissions": 209,
+      "lastSubmission": "2026-10-11T04:34:53.130Z",
       "members": []
     },
     {
@@ -21,8 +21,8 @@
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "score": 0.72576,
-      "submissions": 12,
-      "lastSubmission": "2026-10-06T02:15:30.127Z",
+      "submissions": 16,
+      "lastSubmission": "2026-10-11T06:22:04.233Z",
       "members": []
     },
     {
@@ -156,8 +156,8 @@
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.62587,
-      "submissions": 66,
-      "lastSubmission": "2026-10-11T00:12:21.333Z",
+      "submissions": 69,
+      "lastSubmission": "2026-10-11T04:11:22.973Z",
       "members": []
     },
     {
@@ -389,19 +389,19 @@
       "rank": 43,
       "teamId": 17067199,
       "team": "lfy111",
-      "score": 0.16188,
-      "submissions": 2,
-      "lastSubmission": "2026-10-09T10:46:00.290Z",
+      "score": 0.18054,
+      "submissions": 3,
+      "lastSubmission": "2026-10-11T05:36:14.643Z",
       "members": []
     }
   ],
   "totals": {
     "teams": 43,
-    "submissions": 1333,
+    "submissions": 1349,
     "best": 0.73235,
     "median": 0.55362,
     "p25": 0.30878,
     "p75": 0.66512
   },
-  "fetchedAt": "2026-10-11T00:57:29.354Z"
+  "fetchedAt": "2026-10-11T06:42:25.991Z"
 }
