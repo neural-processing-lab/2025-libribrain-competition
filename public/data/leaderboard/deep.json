@@ -102,8 +102,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.72876,
-      "submissions": 188,
-      "lastSubmission": "2026-10-11T14:32:53.520Z",
+      "submissions": 189,
+      "lastSubmission": "2026-10-11T21:40:05.693Z",
       "members": []
     },
     {
@@ -165,8 +165,8 @@
       "teamId": 16953455,
       "team": "NeuroMTEC",
       "score": 0.71375,
-      "submissions": 27,
-      "lastSubmission": "2026-10-11T18:24:59.183Z",
+      "submissions": 28,
+      "lastSubmission": "2026-10-11T18:34:02.187Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16983055,
       "team": "BNEL",
       "score": 0.70278,
-      "submissions": 55,
-      "lastSubmission": "2026-10-11T14:58:40.557Z",
+      "submissions": 57,
+      "lastSubmission": "2026-10-11T21:51:13.530Z",
       "members": []
     },
     {
@@ -228,8 +228,8 @@
       "teamId": 16885403,
       "team": "InverseEncoder",
       "score": 0.69627,
-      "submissions": 34,
-      "lastSubmission": "2026-10-10T20:59:43.967Z",
+      "submissions": 38,
+      "lastSubmission": "2026-10-11T21:19:45.280Z",
       "members": []
     },
     {
@@ -237,8 +237,8 @@
       "teamId": 17035910,
       "team": "yu_kuo14",
       "score": 0.6943,
-      "submissions": 42,
-      "lastSubmission": "2026-10-11T16:06:23.197Z",
+      "submissions": 44,
+      "lastSubmission": "2026-10-11T19:41:01.533Z",
       "members": []
     },
     {
@@ -309,8 +309,8 @@
       "teamId": 16499485,
       "team": "Michael Ibrahim",
       "score": 0.66246,
-      "submissions": 20,
-      "lastSubmission": "2026-10-11T16:03:59.093Z",
+      "submissions": 23,
+      "lastSubmission": "2026-10-11T21:05:58.673Z",
       "members": []
     },
     {
@@ -390,8 +390,8 @@
       "teamId": 17035541,
       "team": "Picu",
       "score": 0.64277,
-      "submissions": 2,
-      "lastSubmission": "2026-10-05T08:22:16.343Z",
+      "submissions": 7,
+      "lastSubmission": "2026-10-11T21:43:30.727Z",
       "members": []
     },
     {
@@ -775,11 +775,11 @@
   ],
   "totals": {
     "teams": 85,
-    "submissions": 3846,
+    "submissions": 3864,
     "best": 0.77474,
     "median": 0.64277,
     "p25": 0.36723,
     "p75": 0.7003
   },
-  "fetchedAt": "2026-10-11T18:26:20.273Z"
+  "fetchedAt": "2026-10-11T22:10:00.203Z"
 }
