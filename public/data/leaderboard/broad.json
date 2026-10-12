@@ -21,8 +21,8 @@
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "score": 0.72576,
-      "submissions": 20,
-      "lastSubmission": "2026-10-11T21:39:06.177Z",
+      "submissions": 23,
+      "lastSubmission": "2026-10-12T00:06:07.933Z",
       "members": []
     },
     {
@@ -39,8 +39,8 @@
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72367,
-      "submissions": 55,
-      "lastSubmission": "2026-10-09T15:36:06.980Z",
+      "submissions": 58,
+      "lastSubmission": "2026-10-11T23:39:11.503Z",
       "members": []
     },
     {
@@ -93,8 +93,8 @@
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.67261,
-      "submissions": 58,
-      "lastSubmission": "2026-10-10T19:43:05.023Z",
+      "submissions": 59,
+      "lastSubmission": "2026-10-12T00:10:40.483Z",
       "members": []
     },
     {
@@ -108,20 +108,20 @@
     },
     {
       "rank": 12,
+      "teamId": 17027053,
+      "team": "Hojun Yang",
+      "score": 0.66452,
+      "submissions": 62,
+      "lastSubmission": "2026-10-12T00:10:27.297Z",
+      "members": []
+    },
+    {
+      "rank": 13,
       "teamId": 16981137,
       "team": "Karahan Yılmazer",
       "score": 0.66294,
       "submissions": 16,
       "lastSubmission": "2026-10-06T02:05:06.627Z",
-      "members": []
-    },
-    {
-      "rank": 13,
-      "teamId": 17027053,
-      "team": "Hojun Yang",
-      "score": 0.6616,
-      "submissions": 52,
-      "lastSubmission": "2026-10-11T12:56:58.730Z",
       "members": []
     },
     {
@@ -245,9 +245,9 @@
       "rank": 27,
       "teamId": 16885405,
       "team": "InverseEncoder",
-      "score": 0.46005,
-      "submissions": 37,
-      "lastSubmission": "2026-10-11T20:54:50.780Z",
+      "score": 0.46541,
+      "submissions": 41,
+      "lastSubmission": "2026-10-11T22:38:43Z",
       "members": []
     },
     {
@@ -415,11 +415,11 @@
   ],
   "totals": {
     "teams": 45,
-    "submissions": 1392,
+    "submissions": 1413,
     "best": 0.73235,
     "median": 0.55362,
     "p25": 0.31023,
-    "p75": 0.66294
+    "p75": 0.66452
   },
-  "fetchedAt": "2026-10-11T22:10:00.203Z"
+  "fetchedAt": "2026-10-12T01:17:13.461Z"
 }
