@@ -12,8 +12,8 @@
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "score": 0.73543,
-      "submissions": 33,
-      "lastSubmission": "2026-10-13T17:00:55.643Z",
+      "submissions": 35,
+      "lastSubmission": "2026-10-13T22:15:43.823Z",
       "members": []
     },
     {
@@ -92,9 +92,9 @@
       "rank": 10,
       "teamId": 17060835,
       "team": "Rohit Ravi",
-      "score": 0.69134,
-      "submissions": 14,
-      "lastSubmission": "2026-10-13T14:30:00.340Z",
+      "score": 0.69213,
+      "submissions": 15,
+      "lastSubmission": "2026-10-13T21:57:12.247Z",
       "members": []
     },
     {
@@ -263,9 +263,9 @@
       "rank": 29,
       "teamId": 16885405,
       "team": "InverseEncoder",
-      "score": 0.48712,
-      "submissions": 54,
-      "lastSubmission": "2026-10-13T13:04:09.983Z",
+      "score": 0.50137,
+      "submissions": 58,
+      "lastSubmission": "2026-10-13T22:22:48.590Z",
       "members": []
     },
     {
@@ -327,8 +327,8 @@
       "teamId": 16941809,
       "team": "InformaBook2",
       "score": 0.25463,
-      "submissions": 19,
-      "lastSubmission": "2026-10-09T14:31:00.270Z",
+      "submissions": 20,
+      "lastSubmission": "2026-10-13T22:29:36.873Z",
       "members": []
     },
     {
@@ -442,11 +442,11 @@
   ],
   "totals": {
     "teams": 48,
-    "submissions": 1555,
+    "submissions": 1563,
     "best": 0.73543,
     "median": 0.5633,
     "p25": 0.25256,
     "p75": 0.66863
   },
-  "fetchedAt": "2026-10-13T18:13:06.903Z"
+  "fetchedAt": "2026-10-13T22:42:17.436Z"
 }

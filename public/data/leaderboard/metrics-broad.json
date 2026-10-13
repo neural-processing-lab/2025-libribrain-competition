@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-13T18:12:34.632Z",
+  "updatedAt": "2026-10-13T22:41:40.070Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -10,21 +10,21 @@
     {
       "teamId": 16697275,
       "team": "Jordan Griffith",
-      "submissions": 33,
-      "scoredSubmissions": 32,
+      "submissions": 35,
+      "scoredSubmissions": 34,
       "kagglePublicBest": 0.73543,
       "best": {
         "balacc@10": {
           "value": 0.73543
         },
         "balacc@1": {
-          "value": 0.29353463203463204
+          "value": 0.29380386280386284
         },
         "ovmi": {
           "value": 1.1741595944107044
         }
       },
-      "lastSubmission": "2026-10-13T17:00:55.643Z",
+      "lastSubmission": "2026-10-13T22:15:43.823Z",
       "rank": 1
     },
     {
@@ -190,12 +190,12 @@
     {
       "teamId": 17060835,
       "team": "Rohit Ravi",
-      "submissions": 14,
-      "scoredSubmissions": 14,
-      "kagglePublicBest": 0.69134,
+      "submissions": 15,
+      "scoredSubmissions": 15,
+      "kagglePublicBest": 0.69213,
       "best": {
         "balacc@10": {
-          "value": 0.69134
+          "value": 0.69213
         },
         "balacc@1": {
           "value": 0.23885044585044585
@@ -204,7 +204,7 @@
           "value": 0.9603259500294823
         }
       },
-      "lastSubmission": "2026-10-13T14:30:00.340Z",
+      "lastSubmission": "2026-10-13T21:57:12.247Z",
       "rank": 10
     },
     {
@@ -570,21 +570,21 @@
     {
       "teamId": 16885405,
       "team": "InverseEncoder",
-      "submissions": 54,
-      "scoredSubmissions": 54,
-      "kagglePublicBest": 0.48712,
+      "submissions": 58,
+      "scoredSubmissions": 58,
+      "kagglePublicBest": 0.50137,
       "best": {
         "balacc@10": {
-          "value": 0.48712
+          "value": 0.50137
         },
         "balacc@1": {
           "value": 0.1000997150997151
         },
         "ovmi": {
-          "value": 0.6984481303334961
+          "value": 0.7058465112022292
         }
       },
-      "lastSubmission": "2026-10-13T13:04:09.983Z",
+      "lastSubmission": "2026-10-13T22:22:48.590Z",
       "rank": 29
     },
     {
@@ -710,8 +710,8 @@
     {
       "teamId": 16941809,
       "team": "InformaBook2",
-      "submissions": 19,
-      "scoredSubmissions": 19,
+      "submissions": 20,
+      "scoredSubmissions": 20,
       "kagglePublicBest": 0.25463,
       "best": {
         "balacc@10": {
@@ -724,7 +724,7 @@
           "value": 0.14481682712405966
         }
       },
-      "lastSubmission": "2026-10-09T14:31:00.270Z",
+      "lastSubmission": "2026-10-13T22:29:36.873Z",
       "rank": 36
     },
     {
