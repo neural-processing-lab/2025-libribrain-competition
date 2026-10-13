@@ -9,20 +9,20 @@
   "teams": [
     {
       "rank": 1,
+      "teamId": 16697275,
+      "team": "Jordan Griffith",
+      "score": 0.73543,
+      "submissions": 32,
+      "lastSubmission": "2026-10-12T23:56:13.010Z",
+      "members": []
+    },
+    {
+      "rank": 2,
       "teamId": 16692669,
       "team": "Varshith Madishetty",
       "score": 0.73235,
       "submissions": 209,
       "lastSubmission": "2026-10-11T04:34:53.130Z",
-      "members": []
-    },
-    {
-      "rank": 2,
-      "teamId": 16697275,
-      "team": "Jordan Griffith",
-      "score": 0.72576,
-      "submissions": 27,
-      "lastSubmission": "2026-10-12T23:03:07.707Z",
       "members": []
     },
     {
@@ -72,6 +72,15 @@
     },
     {
       "rank": 8,
+      "teamId": 17022301,
+      "team": "linkP",
+      "score": 0.70284,
+      "submissions": 61,
+      "lastSubmission": "2026-10-13T02:33:27.553Z",
+      "members": []
+    },
+    {
+      "rank": 9,
       "teamId": 16781247,
       "team": "Connor Finnerty",
       "score": 0.7006,
@@ -80,16 +89,16 @@
       "members": []
     },
     {
-      "rank": 9,
-      "teamId": 17022301,
-      "team": "linkP",
-      "score": 0.69564,
-      "submissions": 51,
-      "lastSubmission": "2026-10-12T19:45:26.877Z",
+      "rank": 10,
+      "teamId": 17027053,
+      "team": "Hojun Yang",
+      "score": 0.67502,
+      "submissions": 65,
+      "lastSubmission": "2026-10-13T00:08:00.243Z",
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.67261,
@@ -98,21 +107,12 @@
       "members": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "teamId": 16661195,
       "team": "JovanaLab",
       "score": 0.6673,
       "submissions": 48,
       "lastSubmission": "2026-08-19T04:51:40.873Z",
-      "members": []
-    },
-    {
-      "rank": 12,
-      "teamId": 17027053,
-      "team": "Hojun Yang",
-      "score": 0.66452,
-      "submissions": 62,
-      "lastSubmission": "2026-10-12T00:10:27.297Z",
       "members": []
     },
     {
@@ -129,8 +129,8 @@
       "teamId": 17060835,
       "team": "Rohit Ravi",
       "score": 0.65549,
-      "submissions": 11,
-      "lastSubmission": "2026-10-12T21:50:13.673Z",
+      "submissions": 12,
+      "lastSubmission": "2026-10-12T23:31:59.330Z",
       "members": []
     },
     {
@@ -162,6 +162,15 @@
     },
     {
       "rank": 18,
+      "teamId": 17075191,
+      "team": "Noah Ocepo",
+      "score": 0.63833,
+      "submissions": 23,
+      "lastSubmission": "2026-10-13T00:06:44.530Z",
+      "members": []
+    },
+    {
+      "rank": 19,
       "teamId": 16896113,
       "team": "peperonata",
       "score": 0.63699,
@@ -170,16 +179,16 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.62587,
-      "submissions": 84,
-      "lastSubmission": "2026-10-12T21:37:40.257Z",
+      "submissions": 86,
+      "lastSubmission": "2026-10-13T02:30:29.547Z",
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16593214,
       "team": "MindLink",
       "score": 0.62151,
@@ -188,7 +197,7 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 17042550,
       "team": "MohamedII",
       "score": 0.6129,
@@ -197,7 +206,7 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16768788,
       "team": "MonsieurBadgerCheese",
       "score": 0.59734,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 17023300,
       "team": "snute220905",
       "score": 0.57298,
@@ -215,7 +224,7 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16976079,
       "team": "langstudent",
       "score": 0.55362,
@@ -224,21 +233,12 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16906911,
       "team": "Iepure Toni",
       "score": 0.55059,
       "submissions": 11,
       "lastSubmission": "2026-10-05T23:06:20.357Z",
-      "members": []
-    },
-    {
-      "rank": 26,
-      "teamId": 17075191,
-      "team": "Noah Ocepo",
-      "score": 0.54829,
-      "submissions": 13,
-      "lastSubmission": "2026-10-12T12:29:30.517Z",
       "members": []
     },
     {
@@ -272,9 +272,9 @@
       "rank": 30,
       "teamId": 16928258,
       "team": "FOyEE2005",
-      "score": 0.3695,
-      "submissions": 7,
-      "lastSubmission": "2026-10-12T07:14:57.243Z",
+      "score": 0.37205,
+      "submissions": 10,
+      "lastSubmission": "2026-10-13T02:02:49.947Z",
       "members": []
     },
     {
@@ -433,11 +433,11 @@
   ],
   "totals": {
     "teams": 47,
-    "submissions": 1477,
-    "best": 0.73235,
-    "median": 0.55362,
+    "submissions": 1511,
+    "best": 0.73543,
+    "median": 0.57298,
     "p25": 0.25049,
-    "p75": 0.66373
+    "p75": 0.66512
   },
-  "fetchedAt": "2026-10-12T23:29:14.898Z"
+  "fetchedAt": "2026-10-13T03:43:43.987Z"
 }
