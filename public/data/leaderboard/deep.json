@@ -57,8 +57,8 @@
       "teamId": 17022110,
       "team": "linkP",
       "score": 0.73864,
-      "submissions": 78,
-      "lastSubmission": "2026-10-14T00:07:29.030Z",
+      "submissions": 85,
+      "lastSubmission": "2026-10-14T04:53:04.610Z",
       "members": []
     },
     {
@@ -75,8 +75,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.73631,
-      "submissions": 282,
-      "lastSubmission": "2026-10-13T07:40:16.777Z",
+      "submissions": 284,
+      "lastSubmission": "2026-10-14T02:37:09.383Z",
       "members": []
     },
     {
@@ -138,8 +138,8 @@
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
-      "submissions": 331,
-      "lastSubmission": "2026-10-12T01:27:39.553Z",
+      "submissions": 337,
+      "lastSubmission": "2026-10-14T03:22:18.613Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 17035910,
       "team": "yu_kuo14",
       "score": 0.70986,
-      "submissions": 65,
-      "lastSubmission": "2026-10-13T17:04:35.733Z",
+      "submissions": 70,
+      "lastSubmission": "2026-10-14T04:14:18.050Z",
       "members": []
     },
     {
@@ -243,6 +243,15 @@
     },
     {
       "rank": 27,
+      "teamId": 16644796,
+      "team": "MagnetoLex",
+      "score": 0.69891,
+      "submissions": 67,
+      "lastSubmission": "2026-10-14T02:26:50.760Z",
+      "members": []
+    },
+    {
+      "rank": 28,
       "teamId": 16927504,
       "team": "cfw21w2",
       "score": 0.69838,
@@ -251,7 +260,7 @@
       "members": []
     },
     {
-      "rank": 28,
+      "rank": 29,
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.69133,
@@ -260,7 +269,7 @@
       "members": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "teamId": 16790901,
       "team": "Infera-Neuro",
       "score": 0.68764,
@@ -269,16 +278,16 @@
       "members": []
     },
     {
-      "rank": 30,
+      "rank": 31,
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.6821,
-      "submissions": 224,
-      "lastSubmission": "2026-10-13T19:53:32.567Z",
+      "submissions": 226,
+      "lastSubmission": "2026-10-14T05:55:40.067Z",
       "members": []
     },
     {
-      "rank": 31,
+      "rank": 32,
       "teamId": 16708216,
       "team": "Karahan Yılmazer",
       "score": 0.68088,
@@ -287,21 +296,12 @@
       "members": []
     },
     {
-      "rank": 32,
-      "teamId": 16644796,
-      "team": "MagnetoLex",
-      "score": 0.67554,
-      "submissions": 61,
-      "lastSubmission": "2026-10-13T04:38:37.563Z",
-      "members": []
-    },
-    {
       "rank": 33,
       "teamId": 16969296,
       "team": "Viacheslav Fokin",
       "score": 0.67506,
-      "submissions": 28,
-      "lastSubmission": "2026-10-13T04:08:49.890Z",
+      "submissions": 29,
+      "lastSubmission": "2026-10-14T04:23:11.483Z",
       "members": []
     },
     {
@@ -336,8 +336,8 @@
       "teamId": 16499485,
       "team": "Michael Ibrahim",
       "score": 0.66246,
-      "submissions": 27,
-      "lastSubmission": "2026-10-13T05:20:21.853Z",
+      "submissions": 33,
+      "lastSubmission": "2026-10-14T06:02:49.107Z",
       "members": []
     },
     {
@@ -390,8 +390,8 @@
       "teamId": 16976131,
       "team": "FengYuXiang 123",
       "score": 0.65278,
-      "submissions": 39,
-      "lastSubmission": "2026-10-12T16:26:12.490Z",
+      "submissions": 40,
+      "lastSubmission": "2026-10-14T02:29:40.073Z",
       "members": []
     },
     {
@@ -534,8 +534,8 @@
       "teamId": 16859154,
       "team": "bcs",
       "score": 0.54177,
-      "submissions": 13,
-      "lastSubmission": "2026-10-12T18:50:37.280Z",
+      "submissions": 15,
+      "lastSubmission": "2026-10-14T02:50:33.707Z",
       "members": []
     },
     {
@@ -802,11 +802,11 @@
   ],
   "totals": {
     "teams": 88,
-    "submissions": 4266,
+    "submissions": 4304,
     "best": 0.81292,
     "median": 0.6455,
     "p25": 0.35899,
     "p75": 0.70678
   },
-  "fetchedAt": "2026-10-14T01:23:23.153Z"
+  "fetchedAt": "2026-10-14T06:16:53.818Z"
 }
