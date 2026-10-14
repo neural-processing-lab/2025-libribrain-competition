@@ -99,6 +99,15 @@
     },
     {
       "rank": 11,
+      "teamId": 16885405,
+      "team": "InverseEncoder",
+      "score": 0.68895,
+      "submissions": 68,
+      "lastSubmission": "2026-10-14T22:37:49.597Z",
+      "members": []
+    },
+    {
+      "rank": 12,
       "teamId": 17099880,
       "team": "Artem Blanar",
       "score": 0.68013,
@@ -107,7 +116,7 @@
       "members": []
     },
     {
-      "rank": 12,
+      "rank": 13,
       "teamId": 17027053,
       "team": "Hojun Yang",
       "score": 0.67858,
@@ -116,7 +125,7 @@
       "members": []
     },
     {
-      "rank": 13,
+      "rank": 14,
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.67261,
@@ -125,39 +134,30 @@
       "members": []
     },
     {
-      "rank": 14,
-      "teamId": 17075191,
-      "team": "Noah Ocepo",
-      "score": 0.67064,
-      "submissions": 27,
-      "lastSubmission": "2026-10-14T06:51:19.090Z",
+      "rank": 15,
+      "teamId": 16981137,
+      "team": "Karahan Yılmazer",
+      "score": 0.67128,
+      "submissions": 26,
+      "lastSubmission": "2026-10-14T21:17:06.497Z",
       "members": []
     },
     {
-      "rank": 15,
+      "rank": 16,
+      "teamId": 17075191,
+      "team": "Noah Ocepo",
+      "score": 0.67064,
+      "submissions": 33,
+      "lastSubmission": "2026-10-14T23:11:09.027Z",
+      "members": []
+    },
+    {
+      "rank": 17,
       "teamId": 16661195,
       "team": "JovanaLab",
       "score": 0.6673,
       "submissions": 48,
       "lastSubmission": "2026-08-19T04:51:40.873Z",
-      "members": []
-    },
-    {
-      "rank": 16,
-      "teamId": 16981137,
-      "team": "Karahan Yılmazer",
-      "score": 0.66294,
-      "submissions": 17,
-      "lastSubmission": "2026-10-14T15:50:45.707Z",
-      "members": []
-    },
-    {
-      "rank": 17,
-      "teamId": 16885405,
-      "team": "InverseEncoder",
-      "score": 0.65702,
-      "submissions": 64,
-      "lastSubmission": "2026-10-14T19:57:18.830Z",
       "members": []
     },
     {
@@ -192,8 +192,8 @@
       "teamId": 16896113,
       "team": "peperonata",
       "score": 0.63699,
-      "submissions": 10,
-      "lastSubmission": "2026-10-11T10:38:30.967Z",
+      "submissions": 11,
+      "lastSubmission": "2026-10-14T21:11:30.070Z",
       "members": []
     },
     {
@@ -201,8 +201,8 @@
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.63097,
-      "submissions": 101,
-      "lastSubmission": "2026-10-14T18:20:35.190Z",
+      "submissions": 104,
+      "lastSubmission": "2026-10-14T21:57:46.313Z",
       "members": []
     },
     {
@@ -336,8 +336,8 @@
       "teamId": 16941809,
       "team": "InformaBook2",
       "score": 0.25463,
-      "submissions": 21,
-      "lastSubmission": "2026-10-14T07:29:47.053Z",
+      "submissions": 23,
+      "lastSubmission": "2026-10-14T22:30:14.087Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1660,
+    "submissions": 1685,
     "best": 0.73543,
     "median": 0.59734,
     "p25": 0.25463,
-    "p75": 0.67261
+    "p75": 0.67858
   },
-  "fetchedAt": "2026-10-14T20:39:30.856Z"
+  "fetchedAt": "2026-10-14T23:25:17.597Z"
 }
