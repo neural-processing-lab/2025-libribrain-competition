@@ -74,9 +74,9 @@
       "rank": 8,
       "teamId": 17022301,
       "team": "linkP",
-      "score": 0.70284,
-      "submissions": 61,
-      "lastSubmission": "2026-10-13T02:33:27.553Z",
+      "score": 0.70833,
+      "submissions": 66,
+      "lastSubmission": "2026-10-14T00:06:19.140Z",
       "members": []
     },
     {
@@ -102,8 +102,8 @@
       "teamId": 17027053,
       "team": "Hojun Yang",
       "score": 0.67807,
-      "submissions": 72,
-      "lastSubmission": "2026-10-13T12:27:51.237Z",
+      "submissions": 75,
+      "lastSubmission": "2026-10-14T00:06:43.267Z",
       "members": []
     },
     {
@@ -442,11 +442,11 @@
   ],
   "totals": {
     "teams": 48,
-    "submissions": 1563,
+    "submissions": 1571,
     "best": 0.73543,
     "median": 0.5633,
     "p25": 0.25256,
     "p75": 0.66863
   },
-  "fetchedAt": "2026-10-13T22:42:17.436Z"
+  "fetchedAt": "2026-10-14T01:23:23.153Z"
 }

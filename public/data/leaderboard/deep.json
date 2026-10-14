@@ -57,8 +57,8 @@
       "teamId": 17022110,
       "team": "linkP",
       "score": 0.73864,
-      "submissions": 77,
-      "lastSubmission": "2026-10-13T18:45:49.053Z",
+      "submissions": 78,
+      "lastSubmission": "2026-10-14T00:07:29.030Z",
       "members": []
     },
     {
@@ -93,8 +93,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.73543,
-      "submissions": 210,
-      "lastSubmission": "2026-10-13T22:08:23.700Z",
+      "submissions": 213,
+      "lastSubmission": "2026-10-13T22:52:43.420Z",
       "members": []
     },
     {
@@ -228,8 +228,8 @@
       "teamId": 16885403,
       "team": "InverseEncoder",
       "score": 0.70194,
-      "submissions": 54,
-      "lastSubmission": "2026-10-12T22:35:14.917Z",
+      "submissions": 64,
+      "lastSubmission": "2026-10-13T23:07:53.430Z",
       "members": []
     },
     {
@@ -255,8 +255,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.69133,
-      "submissions": 120,
-      "lastSubmission": "2026-10-13T15:31:24.163Z",
+      "submissions": 122,
+      "lastSubmission": "2026-10-14T00:10:59.403Z",
       "members": []
     },
     {
@@ -363,8 +363,8 @@
       "teamId": 17050281,
       "team": "ashley Iannetti",
       "score": 0.65737,
-      "submissions": 66,
-      "lastSubmission": "2026-10-13T12:34:21.890Z",
+      "submissions": 67,
+      "lastSubmission": "2026-10-14T00:12:03.397Z",
       "members": []
     },
     {
@@ -669,8 +669,8 @@
       "teamId": 16797123,
       "team": "willguido",
       "score": 0.24437,
-      "submissions": 10,
-      "lastSubmission": "2026-10-13T22:27:44.240Z",
+      "submissions": 11,
+      "lastSubmission": "2026-10-13T22:46:44.067Z",
       "members": []
     },
     {
@@ -802,11 +802,11 @@
   ],
   "totals": {
     "teams": 88,
-    "submissions": 4248,
+    "submissions": 4266,
     "best": 0.81292,
     "median": 0.6455,
     "p25": 0.35899,
     "p75": 0.70678
   },
-  "fetchedAt": "2026-10-13T22:42:17.436Z"
+  "fetchedAt": "2026-10-14T01:23:23.153Z"
 }
