@@ -39,8 +39,8 @@
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72367,
-      "submissions": 58,
-      "lastSubmission": "2026-10-11T23:39:11.503Z",
+      "submissions": 66,
+      "lastSubmission": "2026-10-14T18:13:01.543Z",
       "members": []
     },
     {
@@ -56,9 +56,9 @@
       "rank": 6,
       "teamId": 16948218,
       "team": "Jatin Arutla",
-      "score": 0.71268,
-      "submissions": 3,
-      "lastSubmission": "2026-09-27T02:18:40.113Z",
+      "score": 0.71475,
+      "submissions": 7,
+      "lastSubmission": "2026-10-14T19:44:15.527Z",
       "members": []
     },
     {
@@ -102,8 +102,8 @@
       "teamId": 17099880,
       "team": "Artem Blanar",
       "score": 0.68013,
-      "submissions": 3,
-      "lastSubmission": "2026-10-14T13:50:33.130Z",
+      "submissions": 5,
+      "lastSubmission": "2026-10-14T19:25:46.330Z",
       "members": []
     },
     {
@@ -153,6 +153,15 @@
     },
     {
       "rank": 17,
+      "teamId": 16885405,
+      "team": "InverseEncoder",
+      "score": 0.65702,
+      "submissions": 64,
+      "lastSubmission": "2026-10-14T19:57:18.830Z",
+      "members": []
+    },
+    {
+      "rank": 18,
       "teamId": 16866088,
       "team": "NeuroMTEC",
       "score": 0.64336,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16607557,
       "team": "Brain King",
       "score": 0.64291,
@@ -170,7 +179,7 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 16680182,
       "team": "Arnauya",
       "score": 0.64001,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16896113,
       "team": "peperonata",
       "score": 0.63699,
@@ -188,16 +197,16 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 17021316,
       "team": "Dimitar Terziev",
       "score": 0.63097,
-      "submissions": 96,
-      "lastSubmission": "2026-10-14T12:45:06.717Z",
+      "submissions": 101,
+      "lastSubmission": "2026-10-14T18:20:35.190Z",
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "teamId": 16593214,
       "team": "MindLink",
       "score": 0.62151,
@@ -206,7 +215,7 @@
       "members": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "teamId": 17042550,
       "team": "MohamedII",
       "score": 0.6129,
@@ -215,7 +224,7 @@
       "members": []
     },
     {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16768788,
       "team": "MonsieurBadgerCheese",
       "score": 0.59734,
@@ -224,7 +233,7 @@
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 17023300,
       "team": "snute220905",
       "score": 0.57298,
@@ -233,7 +242,7 @@
       "members": []
     },
     {
-      "rank": 26,
+      "rank": 27,
       "teamId": 16976079,
       "team": "langstudent",
       "score": 0.55362,
@@ -242,7 +251,7 @@
       "members": []
     },
     {
-      "rank": 27,
+      "rank": 28,
       "teamId": 16906911,
       "team": "Iepure Toni",
       "score": 0.55059,
@@ -251,7 +260,7 @@
       "members": []
     },
     {
-      "rank": 28,
+      "rank": 29,
       "teamId": 16794004,
       "team": "Sia",
       "score": 0.54318,
@@ -260,21 +269,12 @@
       "members": []
     },
     {
-      "rank": 29,
+      "rank": 30,
       "teamId": 17039023,
       "team": "OmarDotEmam",
       "score": 0.536,
       "submissions": 8,
       "lastSubmission": "2026-10-06T05:10:41.390Z",
-      "members": []
-    },
-    {
-      "rank": 30,
-      "teamId": 16885405,
-      "team": "InverseEncoder",
-      "score": 0.50137,
-      "submissions": 58,
-      "lastSubmission": "2026-10-13T22:22:48.590Z",
       "members": []
     },
     {
@@ -451,11 +451,11 @@
   ],
   "totals": {
     "teams": 49,
-    "submissions": 1635,
+    "submissions": 1660,
     "best": 0.73543,
-    "median": 0.57298,
+    "median": 0.59734,
     "p25": 0.25463,
     "p75": 0.67261
   },
-  "fetchedAt": "2026-10-14T17:05:13.343Z"
+  "fetchedAt": "2026-10-14T20:39:30.856Z"
 }
