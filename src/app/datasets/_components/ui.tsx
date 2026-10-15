@@ -116,6 +116,19 @@ export function Seg<T extends string>({ value, options, onChange, ariaLabel }: {
 /** Sticky in-page navigation that highlights the section in view. */
 export function PageToc({ items }: { items: { id: string; label: string }[] }) {
   const [active, setActive] = useState(items[0]?.id);
+  const [top, setTop] = useState(56);
+  // stick flush under the site's fixed nav, whose height animates when it shrinks on scroll
+  useEffect(() => {
+    const nav = document.querySelector('nav');
+    if (!nav) return;
+    const update = () => setTop(Math.floor(nav.getBoundingClientRect().bottom));
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(nav);
+    nav.addEventListener('transitionend', update);
+    window.addEventListener('scroll', update, { passive: true });
+    return () => { ro.disconnect(); nav.removeEventListener('transitionend', update); window.removeEventListener('scroll', update); };
+  }, []);
   useEffect(() => {
     const els = items.map(i => document.getElementById(i.id)).filter(Boolean) as HTMLElement[];
     const io = new IntersectionObserver(entries => {
@@ -126,7 +139,7 @@ export function PageToc({ items }: { items: { id: string; label: string }[] }) {
     return () => io.disconnect();
   }, [items]);
   return (
-    <nav className="ds-toc" aria-label="On this page">
+    <nav className="ds-toc" aria-label="On this page" style={{ top }}>
       <div className="ds-wrap ds-toc-inner">
         {items.map(it => (
           <a key={it.id} href={`#${it.id}`} className={active === it.id ? 'is-active' : ''}>
