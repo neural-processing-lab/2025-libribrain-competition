@@ -108,7 +108,7 @@ export default function LibriBrain100Page() {
         <div className="ds-wrap">
           <SectionHead num="01" kicker="Listen" title={<>One story, <em>many brains</em></>}>
             <p className="ds-p">
-              Chapters 11 and 12 of <i>A Study in Scarlet</i> are the only audiobook sessions every LibriBrain100 participant heard. Here is the same 20 seconds, John Ferrier riding into
+              Chapters 11 and 12 of <i>A Study in Scarlet</i> are the only audiobook sessions every LibriBrain100 participant heard. Here is the same 20 seconds, John Ferrier heading into
               Salt Lake City, through the sensors of sub-0 and the broad-cohort subjects whose recordings are already public. Each brain is different, yet the rhythm of the speech is
               visible in all of them.
             </p>
