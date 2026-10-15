@@ -68,6 +68,7 @@ export default function Footer() {
               {[
                 { label: 'Current Edition (2026)', href: '/' },
                 { label: '2025 Edition', href: '/editions/2025/' },
+                { label: 'LibriBrain Datasets', href: '/datasets/' },
                 { label: 'Blog & News', href: '/blog/' },
                 { label: 'Workshop Papers', href: '/editions/2025/workshop-papers/' },
               ].map(link => (
