@@ -13,12 +13,12 @@ interface DS {
 
 // Breadth/depth figures from Table 1 of Özdogan et al. (2025) and Table 3 of Mantegna et al. (2026).
 const DATA: DS[] = [
-  { key: 'mous', lab: 'br', name: 'MOUS (listening)', cite: 'Schoffelen et al. 2019', modality: 'MEG', lang: 'Dutch', subj: 96, hps: 0.8, total: 81, stimulus: 'Spoken sentences', era: 0 },
+  { key: 'mous', lab: 'b', name: 'MOUS (listening)', cite: 'Schoffelen et al. 2019', modality: 'MEG', lang: 'Dutch', subj: 96, hps: 0.8, total: 81, stimulus: 'Spoken sentences', era: 0 },
   { key: 'masc', lab: 'b', name: 'MEG-MASC', cite: 'Gwilliams et al. 2023', modality: 'MEG', lang: 'English', subj: 27, hps: 1.0, total: 49, stimulus: 'MASC stories (synthetic voice)', era: 0 },
   { key: 'armeni', lab: 'r', name: 'Armeni et al.', cite: 'Armeni et al. 2022', modality: 'MEG', lang: 'English', subj: 3, hps: 10, total: 30, stimulus: 'LibriVox, Sherlock Book 3', era: 0 },
-  { key: 'lpp', lab: 'tl', name: 'Le Petit Prince', cite: "d'Ascoli et al. 2025", modality: 'MEG', lang: 'French', subj: 58, hps: 1.6, total: 93, stimulus: 'Le Petit Prince', era: 0 },
+  { key: 'lpp', lab: 'tr', name: 'Le Petit Prince', cite: "d'Ascoli et al. 2025", modality: 'MEG', lang: 'French', subj: 58, hps: 1.6, total: 93, stimulus: 'Le Petit Prince', era: 0 },
   { key: 'brennan', lab: 'r', name: 'Brennan et al.', cite: 'Brennan 2023', modality: 'EEG', lang: 'English', subj: 49, hps: 0.2, total: 10.1, stimulus: 'Alice in Wonderland', era: 0 },
-  { key: 'accou', lab: 'tr', name: 'Accou et al.', cite: 'Accou et al. 2023', modality: 'EEG', lang: '', subj: 85, hps: 1.8, total: 150, stimulus: '', era: 0 },
+  { key: 'accou', lab: 'r', name: 'Accou et al.', cite: 'Accou et al. 2023', modality: 'EEG', lang: '', subj: 85, hps: 1.8, total: 150, stimulus: '', era: 0 },
   { key: 'nieuwland', lab: 'b', name: 'Nieuwland et al.', cite: 'Nieuwland et al. 2018', modality: 'EEG', lang: 'English', subj: 334, hps: 0.5, total: 171, stimulus: 'Hemingway short story', era: 0 },
   { key: 'broderick', lab: 'l', name: 'Broderick et al.', cite: 'Broderick et al. 2019', modality: 'EEG', lang: 'English', subj: 19, hps: 1.1, total: 20, stimulus: 'Subset of Nieuwland et al.', era: 0 },
   { key: 'lb', lab: 'r', name: 'LibriBrain', cite: 'Özdogan et al. 2025', modality: 'MEG', lang: 'English', subj: 1, hps: 52.3, total: 52.3, stimulus: 'LibriVox, Sherlock Books 1–7', era: 1 },

@@ -121,10 +121,7 @@ export function GroupedBars({ groups, yMax = 0.8, chance, height = 300, yLabel =
           );
         })}
         {chance !== undefined && (
-          <g>
-            <line x1={L} x2={W - R} y1={Y(chance)} y2={Y(chance)} stroke={dark ? '#fff' : '#0b0a1a'} strokeOpacity={0.5} strokeDasharray="4 4" />
-            <text x={W - R} y={Y(chance) - 5} textAnchor="end" fontSize="10.5" fontFamily="var(--ds-mono)" fill={dark ? '#c9c5d8' : '#77738a'}>chance = {chance}</text>
-          </g>
+          <line x1={L} x2={W - R} y1={Y(chance)} y2={Y(chance)} stroke={dark ? '#fff' : '#0b0a1a'} strokeOpacity={0.5} strokeDasharray="4 4" />
         )}
       </svg>
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center', marginTop: '0.2rem' }}>
@@ -133,6 +130,11 @@ export function GroupedBars({ groups, yMax = 0.8, chance, height = 300, yLabel =
             <span style={{ width: 12, height: 12, borderRadius: 3, background: b.hatch ? `repeating-linear-gradient(45deg, #77738a 0 2px, transparent 2px 5px)` : '#77738a', border: '1px solid #77738a' }} />{b.name}
           </span>
         ))}
+        {chance !== undefined && (
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12.5, color: dark ? '#b4afc6' : 'var(--ds-muted)' }}>
+            <span style={{ width: 16, borderTop: `1.5px dashed ${dark ? '#c9c5d8' : '#77738a'}` }} />chance = {chance}
+          </span>
+        )}
       </div>
     </div>
   );
