@@ -268,8 +268,8 @@ export default function MegPlayer({ dir, title }: { dir: string; title?: string 
             <Topomap
               xy={clip.layout.xy}
               values={topoValues}
-              lo={mode === 'mag' ? -2.6 : 0.6}
-              hi={mode === 'mag' ? 2.6 : 3.2}
+              lo={mode === 'mag' ? -2.4 : 0.45}
+              hi={mode === 'mag' ? 2.4 : 2.5}
               lut={mode === 'mag' ? LUT_DIVERGING_DARK : LUT_POWER_DARK}
               size={220}
               highlight={sites}

@@ -108,8 +108,8 @@ export default function LibriBrain100Page() {
           </SectionHead>
           <Reveal><MultiPlayer dir={DIR} /></Reveal>
           <p className="ds-note">
-            Real data from the public LibriBrain2 release (sub-1…12; the remaining broad subjects are partly embargoed until after the 2026 competition). Signals are filtered to 0.5–20 Hz,
-            z-scored per sensor and aligned to the audio using each subject&apos;s own event file.
+            Real data: sub-0 plus broad-cohort listeners from the public LibriBrain2 release. Serialised data for sub-1…12 are fully public; the rest are partly embargoed until after
+            the 2026 competition. Signals are filtered to 0.5–20 Hz, z-scored per sensor, and aligned to the audio using each subject&apos;s own event file.
           </p>
         </div>
       </section>

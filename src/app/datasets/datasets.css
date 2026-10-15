@@ -165,6 +165,7 @@
 .ds-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: clamp(1rem, 2.5vw, 1.6rem); }
 .ds-cols-2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
 @media (max-width: 860px) { .ds-cols-2 { grid-template-columns: 1fr; } }
+.ds-cols > *, .ds-cols-2 > *, .ds-hero-grid > * { min-width: 0; }
 
 .ds-card {
   background: #fff;
