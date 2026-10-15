@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-15T01:34:11.727Z",
+  "updatedAt": "2026-10-15T06:23:48.629Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -130,12 +130,12 @@
     {
       "teamId": 17022301,
       "team": "linkP",
-      "submissions": 78,
-      "scoredSubmissions": 78,
-      "kagglePublicBest": 0.71139,
+      "submissions": 81,
+      "scoredSubmissions": 81,
+      "kagglePublicBest": 0.71404,
       "best": {
         "balacc@10": {
-          "value": 0.71139
+          "value": 0.71404
         },
         "balacc@1": {
           "value": 0.2476234321234321
@@ -144,7 +144,7 @@
           "value": 1.0256198274950268
         }
       },
-      "lastSubmission": "2026-10-15T00:44:41.417Z",
+      "lastSubmission": "2026-10-15T03:50:51.207Z",
       "rank": 7
     },
     {
@@ -310,8 +310,8 @@
     {
       "teamId": 17075191,
       "team": "Noah Ocepo",
-      "submissions": 33,
-      "scoredSubmissions": 33,
+      "submissions": 36,
+      "scoredSubmissions": 36,
       "kagglePublicBest": 0.67064,
       "best": {
         "balacc@10": {
@@ -324,7 +324,7 @@
           "value": 1.0754258554402878
         }
       },
-      "lastSubmission": "2026-10-14T23:11:09.027Z",
+      "lastSubmission": "2026-10-15T05:13:14.287Z",
       "rank": 16
     },
     {
@@ -350,21 +350,21 @@
     {
       "teamId": 16781467,
       "team": "Munich Logic Lab",
-      "submissions": 6,
-      "scoredSubmissions": 6,
-      "kagglePublicBest": 0.65557,
+      "submissions": 8,
+      "scoredSubmissions": 8,
+      "kagglePublicBest": 0.65862,
       "best": {
         "balacc@10": {
-          "value": 0.65557
+          "value": 0.65862
         },
         "balacc@1": {
-          "value": 0.20640335590335585
+          "value": 0.2193031783031783
         },
         "ovmi": {
           "value": 0.8745495170229205
         }
       },
-      "lastSubmission": "2026-10-15T01:26:43.477Z",
+      "lastSubmission": "2026-10-15T01:39:44.533Z",
       "rank": 18
     },
     {
@@ -470,8 +470,8 @@
     {
       "teamId": 16593214,
       "team": "MindLink",
-      "submissions": 25,
-      "scoredSubmissions": 25,
+      "submissions": 26,
+      "scoredSubmissions": 26,
       "kagglePublicBest": 0.62151,
       "best": {
         "balacc@10": {
@@ -484,7 +484,7 @@
           "value": 0.8736732301022462
         }
       },
-      "lastSubmission": "2026-10-15T00:52:45.913Z",
+      "lastSubmission": "2026-10-15T02:36:23.637Z",
       "rank": 24
     },
     {

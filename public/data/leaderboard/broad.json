@@ -65,9 +65,9 @@
       "rank": 7,
       "teamId": 17022301,
       "team": "linkP",
-      "score": 0.71139,
-      "submissions": 78,
-      "lastSubmission": "2026-10-15T00:44:41.417Z",
+      "score": 0.71404,
+      "submissions": 81,
+      "lastSubmission": "2026-10-15T03:50:51.207Z",
       "members": []
     },
     {
@@ -147,8 +147,8 @@
       "teamId": 17075191,
       "team": "Noah Ocepo",
       "score": 0.67064,
-      "submissions": 33,
-      "lastSubmission": "2026-10-14T23:11:09.027Z",
+      "submissions": 36,
+      "lastSubmission": "2026-10-15T05:13:14.287Z",
       "members": []
     },
     {
@@ -164,9 +164,9 @@
       "rank": 18,
       "teamId": 16781467,
       "team": "Munich Logic Lab",
-      "score": 0.65557,
-      "submissions": 6,
-      "lastSubmission": "2026-10-15T01:26:43.477Z",
+      "score": 0.65862,
+      "submissions": 8,
+      "lastSubmission": "2026-10-15T01:39:44.533Z",
       "members": []
     },
     {
@@ -219,8 +219,8 @@
       "teamId": 16593214,
       "team": "MindLink",
       "score": 0.62151,
-      "submissions": 25,
-      "lastSubmission": "2026-10-15T00:52:45.913Z",
+      "submissions": 26,
+      "lastSubmission": "2026-10-15T02:36:23.637Z",
       "members": []
     },
     {
@@ -460,11 +460,11 @@
   ],
   "totals": {
     "teams": 50,
-    "submissions": 1718,
+    "submissions": 1727,
     "best": 0.73543,
     "median": 0.60512,
     "p25": 0.27192,
     "p75": 0.67825
   },
-  "fetchedAt": "2026-10-15T01:35:05.100Z"
+  "fetchedAt": "2026-10-15T06:24:46.289Z"
 }
