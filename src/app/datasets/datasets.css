@@ -230,7 +230,9 @@
   position: absolute; top: 0.6rem; right: 0.6rem; border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.06);
   color: #c9c5d8; font: 500 11px var(--ds-mono); padding: 0.3rem 0.6rem; border-radius: 6px; cursor: pointer;
 }
+.ds-card .ds-copy { background: var(--ds-ink); color: #fff; border-color: var(--ds-ink); }
 .ds-copy:hover { background: rgba(255,255,255,0.12); color: #fff; }
+.ds-card .ds-copy:hover { background: var(--ds-violet-d); border-color: var(--ds-violet-d); }
 
 /* tables */
 .ds-table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }

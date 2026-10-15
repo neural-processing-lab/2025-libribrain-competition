@@ -9,7 +9,7 @@ import Bookshelf from '../_components/Bookshelf';
 import { BubblePack, SessionTreemap, CORPUS_COLOR } from '../_components/Composition';
 import { CorpusNumbers, CorpusPhonemes, LoaderPlayground, VocabBuilder } from '../_components/LB100Widgets';
 import { GroupedBars } from '../_components/charts';
-import { CodeBlock, Figure, Icon, PageToc, Reveal, SectionHead, Seg, Stat } from '../_components/ui';
+import { CodeBlock, CopyButton, Figure, Icon, PageToc, Reveal, SectionHead, Seg, Stat } from '../_components/ui';
 import { EcosystemTimeline, Downloads } from '../_components/Ecosystem';
 
 const DIR = '/datasets/libribrain100';
@@ -45,6 +45,13 @@ const BIBTEX = `@article{mantegna2026libribrain100,
   journal = {arXiv preprint arXiv:2608.25204},
   year    = {2026},
 }`;
+
+const AGENT_PROMPT = `Set up a word-classification baseline on LibriBrain100 with the pnpl library (pip install pnpl).
+
+1. Load training data with pnpl.datasets.LibriBrain100(data_path="./data/LibriBrain100", task=pnpl.tasks.WordClassification(tmin=0.0, tmax=0.5), partition="train", subjects="deep", corpus="sherlock"), and the same with partition="validation" and partition="test". Keep downloads scoped to these selectors.
+2. Keep only samples whose word is in this 50-word vocabulary: is the a to it i not was we be he that have this they of there and are in but will so all my for she were any really at out our am it's had him an very has do can time think good always new people as on
+3. Train a compact 1D-CNN over the (306 sensors × 125 samples) windows in PyTorch, select checkpoints on validation, and report top-10 balanced accuracy on test (per-class top-10 accuracy averaged over the 50 words; chance = 0.2).
+4. Print a short summary of data sizes, training curves and the final metric.`;
 
 const EFF = [
   { pct: '100%', min: '≈40 min', w: 0.492, wo: 0.334 },
@@ -497,6 +504,12 @@ export default function LibriBrain100Page() {
               </p>
             </Reveal>
             <Reveal delay={100}>
+              <h3 className="ds-h3">Or ask your coding agent</h3>
+              <div className="ds-card" style={{ position: 'relative', background: 'var(--ds-paper)', marginBottom: '1.6rem' }}>
+                <p className="ds-p-sm" style={{ margin: 0, paddingRight: '7rem', whiteSpace: 'pre-line', fontSize: 13.5 }}>{AGENT_PROMPT.split('\n')[0]}</p>
+                <p className="ds-note" style={{ marginTop: '0.5rem' }}>Copies a complete four-step prompt: data loading, the 50-word vocabulary, a baseline, and the competition metric.</p>
+                <CopyButton text={AGENT_PROMPT} label="Copy prompt" />
+              </div>
               <h3 className="ds-h3">Cite LibriBrain100</h3>
               <CodeBlock code={BIBTEX} lang="bibtex" />
               <p className="ds-note">Building on LibriBrain? Please cite <Link href="/datasets/libribrain/#start" className="ds-link-arrow" style={{ fontSize: 12.5 }}>the original paper</Link> too.</p>
