@@ -30,8 +30,8 @@
       "teamId": 16771979,
       "team": "Artem Blanar",
       "score": 0.7541,
-      "submissions": 132,
-      "lastSubmission": "2026-10-15T15:38:23.587Z",
+      "submissions": 134,
+      "lastSubmission": "2026-10-15T16:26:32.553Z",
       "members": []
     },
     {
@@ -48,8 +48,8 @@
       "teamId": 16784614,
       "team": "dav0dea",
       "score": 0.74927,
-      "submissions": 179,
-      "lastSubmission": "2026-10-14T17:48:04.183Z",
+      "submissions": 180,
+      "lastSubmission": "2026-10-15T19:28:19.357Z",
       "members": []
     },
     {
@@ -84,8 +84,8 @@
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.73631,
-      "submissions": 294,
-      "lastSubmission": "2026-10-15T11:44:14.910Z",
+      "submissions": 302,
+      "lastSubmission": "2026-10-15T18:44:03.700Z",
       "members": []
     },
     {
@@ -102,8 +102,8 @@
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.73543,
-      "submissions": 226,
-      "lastSubmission": "2026-10-15T15:20:10.483Z",
+      "submissions": 228,
+      "lastSubmission": "2026-10-15T18:45:05.983Z",
       "members": []
     },
     {
@@ -210,8 +210,8 @@
       "teamId": 16885403,
       "team": "InverseEncoder",
       "score": 0.70909,
-      "submissions": 77,
-      "lastSubmission": "2026-10-15T15:25:36.107Z",
+      "submissions": 80,
+      "lastSubmission": "2026-10-15T16:51:10.827Z",
       "members": []
     },
     {
@@ -318,8 +318,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.6821,
-      "submissions": 237,
-      "lastSubmission": "2026-10-15T15:39:32.170Z",
+      "submissions": 242,
+      "lastSubmission": "2026-10-15T19:01:20.547Z",
       "members": []
     },
     {
@@ -453,8 +453,8 @@
       "teamId": 17067118,
       "team": "Nobel Suhendra",
       "score": 0.64315,
-      "submissions": 3,
-      "lastSubmission": "2026-10-15T15:37:09.057Z",
+      "submissions": 5,
+      "lastSubmission": "2026-10-15T19:03:02.067Z",
       "members": []
     },
     {
@@ -498,8 +498,8 @@
       "teamId": 17061802,
       "team": "MensaCard",
       "score": 0.61692,
-      "submissions": 3,
-      "lastSubmission": "2026-10-13T21:16:34.770Z",
+      "submissions": 4,
+      "lastSubmission": "2026-10-15T19:17:54.433Z",
       "members": []
     },
     {
@@ -578,9 +578,9 @@
       "rank": 64,
       "teamId": 16700843,
       "team": "kongxuan47",
-      "score": 0.46382,
-      "submissions": 4,
-      "lastSubmission": "2026-10-15T15:41:09.960Z",
+      "score": 0.48382,
+      "submissions": 5,
+      "lastSubmission": "2026-10-15T16:34:00.797Z",
       "members": []
     },
     {
@@ -847,11 +847,11 @@
   ],
   "totals": {
     "teams": 93,
-    "submissions": 4600,
+    "submissions": 4625,
     "best": 0.81292,
     "median": 0.64627,
     "p25": 0.33427,
     "p75": 0.70849
   },
-  "fetchedAt": "2026-10-15T15:49:25.813Z"
+  "fetchedAt": "2026-10-15T19:30:07.130Z"
 }

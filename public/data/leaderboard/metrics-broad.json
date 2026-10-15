@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-broad",
-  "updatedAt": "2026-10-15T15:49:19.272Z",
+  "updatedAt": "2026-10-15T19:29:18.486Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -30,28 +30,28 @@
     {
       "teamId": 16593214,
       "team": "MindLink",
-      "submissions": 32,
-      "scoredSubmissions": 32,
-      "kagglePublicBest": 0.73298,
+      "submissions": 33,
+      "scoredSubmissions": 33,
+      "kagglePublicBest": 0.73445,
       "best": {
         "balacc@10": {
-          "value": 0.73298
+          "value": 0.73445
         },
         "balacc@1": {
           "value": 0.23363564213564214
         },
         "ovmi": {
-          "value": 1.0886863769657706
+          "value": 1.0914573381165684
         }
       },
-      "lastSubmission": "2026-10-15T13:43:32.783Z",
+      "lastSubmission": "2026-10-15T16:58:20.790Z",
       "rank": 2
     },
     {
       "teamId": 16692669,
       "team": "Varshith Madishetty",
-      "submissions": 218,
-      "scoredSubmissions": 217,
+      "submissions": 228,
+      "scoredSubmissions": 227,
       "kagglePublicBest": 0.73235,
       "best": {
         "balacc@10": {
@@ -64,7 +64,7 @@
           "value": 1.1065303436010845
         }
       },
-      "lastSubmission": "2026-10-14T14:28:42.957Z",
+      "lastSubmission": "2026-10-15T17:24:51.917Z",
       "rank": 3
     },
     {
@@ -90,8 +90,8 @@
     {
       "teamId": 17021305,
       "team": "dav0dea",
-      "submissions": 66,
-      "scoredSubmissions": 66,
+      "submissions": 67,
+      "scoredSubmissions": 67,
       "kagglePublicBest": 0.72367,
       "best": {
         "balacc@10": {
@@ -104,7 +104,7 @@
           "value": 1.1690200929635908
         }
       },
-      "lastSubmission": "2026-10-14T18:13:01.543Z",
+      "lastSubmission": "2026-10-15T19:27:52.613Z",
       "rank": 5
     },
     {
@@ -250,8 +250,8 @@
     {
       "teamId": 16885405,
       "team": "InverseEncoder",
-      "submissions": 73,
-      "scoredSubmissions": 73,
+      "submissions": 74,
+      "scoredSubmissions": 74,
       "kagglePublicBest": 0.69957,
       "best": {
         "balacc@10": {
@@ -264,7 +264,7 @@
           "value": 0.9578058390734253
         }
       },
-      "lastSubmission": "2026-10-15T11:06:13.413Z",
+      "lastSubmission": "2026-10-15T16:20:26.800Z",
       "rank": 13
     },
     {
