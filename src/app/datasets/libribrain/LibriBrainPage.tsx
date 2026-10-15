@@ -357,8 +357,7 @@ export default function LibriBrainPage() {
             ].map((c, k) => (
               <div key={c.t}>
                 <div className="ds-card" style={{ height: '100%' }}>
-                  <div style={{ fontFamily: 'var(--ds-serif)', fontSize: 40, color: 'var(--ds-violet-l)', lineHeight: 1 }}>{c.n}</div>
-                  <h3 className="ds-h3" style={{ marginTop: '0.4rem' }}>{c.t}</h3>
+                  <h3 className="ds-h3">{c.t}</h3>
                   <p className="ds-p-sm">{c.d}</p>
                   <table className="ds-table" style={{ fontSize: 13 }}>
                     <thead><tr><th>Metric</th><th className="num">Model</th><th className="num">Chance</th></tr></thead>
