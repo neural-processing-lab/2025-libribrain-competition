@@ -3,7 +3,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { ARPABET, fetchJSON, fmt } from '../_lib/meg';
 import { CORPUS_COLOR } from './Composition';
-import { CodeBlock, useInView } from './ui';
+import { CodeBlock } from './ui';
 
 interface CorpusStats { words: number; vocab: number; top: [string, number][]; phon: Record<string, number>; target: Record<string, number> }
 interface Stats { corpora: Record<string, CorpusStats>; vocab50: string[] }
@@ -25,7 +25,6 @@ function useStats() {
 export function CorpusPhonemes() {
   const s = useStats();
   const [hover, setHover] = useState<string | null>(null);
-  const [ref, inView] = useInView<HTMLDivElement>();
   const data = useMemo(() => {
     if (!s) return null;
     const norm: Record<string, Record<string, number>> = {};
@@ -37,14 +36,14 @@ export function CorpusPhonemes() {
     const order = Object.keys(norm.TIMIT).sort((a, b) => norm.TIMIT[b] - norm.TIMIT[a]);
     return { norm, order };
   }, [s]);
-  if (!data) return <div ref={ref} style={{ minHeight: 300 }} />;
+  if (!data) return <div style={{ minHeight: 300 }} />;
   const W = 1000, H = 280, L = 40, B = 34, T = 10;
   const lo = Math.log10(0.0005), hi = Math.log10(0.15);
   const Y = (v: number) => T + (1 - (Math.log10(Math.max(v, 0.0005)) - lo) / (hi - lo)) * (H - T - B);
   const step = (W - L) / data.order.length;
   const bw = step / 5;
   return (
-    <div ref={ref} style={{ position: 'relative' }}>
+    <div style={{ position: 'relative' }}>
       <svg viewBox={`0 0 ${W} ${H}`} className="ds-chart" style={{ width: '100%', height: 'auto' }} role="img" aria-label="Phoneme frequencies per corpus">
         {[0.001, 0.01, 0.1].map(t => <g key={t}><line className="grid" x1={L} x2={W} y1={Y(t)} y2={Y(t)} /><text className="ax" x={L - 6} y={Y(t) + 4} textAnchor="end">{t * 100}%</text></g>)}
         {data.order.map((p, i) => {
@@ -55,7 +54,7 @@ export function CorpusPhonemes() {
               <rect x={L + i * step} y={T} width={step} height={H - T - B} fill={on ? 'rgba(124,58,237,0.07)' : 'transparent'} />
               {CORPORA.map((c, k) => {
                 const v = data.norm[c.key][p] ?? 0;
-                return <rect key={c.key} x={x0 + k * bw} y={inView ? Y(v) : H - B} width={bw - 0.6} height={inView ? H - B - Y(v) : 0} fill={c.color} style={{ transition: `all 0.8s ${i * 15}ms cubic-bezier(.3,.7,.2,1)` }} />;
+                return <rect key={c.key} x={x0 + k * bw} y={Y(v)} width={bw - 0.6} height={H - B - Y(v)} fill={c.color} />;
               })}
               <text x={L + i * step + step / 2} y={H - B + 14} textAnchor="middle" fontSize="10.5" fontFamily="var(--ds-mono)" fill={['g', 'y', 'sh', 'oy', 'zh'].includes(p) ? '#0b0a1a' : '#77738a'} fontWeight={['g', 'y', 'sh', 'oy', 'zh'].includes(p) ? 700 : 400}>{p}</text>
             </g>

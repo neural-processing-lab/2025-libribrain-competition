@@ -16,6 +16,8 @@ export interface ClipMeta {
   silences: [number, number][];
   layout: Layout;
   session: string;
+  /** narration loudness envelope at `fs`, 0..~1 */
+  env?: number[];
 }
 
 export interface Clip extends ClipMeta {

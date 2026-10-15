@@ -7,7 +7,7 @@ const r2 = (v: number) => Math.round(v * 100) / 100;
 
 export interface Series { name: string; color: string; points: [number, number][]; dashed?: boolean }
 
-/** Line chart with optional log-x, hover readout, and draw-on animation. */
+/** Line chart with optional log-x and hover readout. */
 export function LineChart({
   series, logX = false, xLabel, yLabel, yMin, yMax, xTicks, yTicks, chance, chanceLabel = 'chance', height = 280, yFmt = (v: number) => v.toFixed(2), xFmt = (v: number) => String(v), dark = false,
 }: {
@@ -29,8 +29,8 @@ export function LineChart({
           <g key={t}><line className="grid" x1={L} x2={W - R} y1={Y(t)} y2={Y(t)} /><text className="ax" x={L - 8} y={Y(t) + 4} textAnchor="end">{yFmt(t)}</text></g>
         ))}
         {xTicks.map(t => <text key={t} className="ax" x={X(t)} y={H - B + 18} textAnchor="middle">{xFmt(t)}</text>)}
-        <text className="ax-title" x={(L + W - R) / 2} y={H - 4} textAnchor="middle">{xLabel.toUpperCase()}</text>
-        <text className="ax-title" x={14} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 14 ${(T + H - B) / 2})`}>{yLabel.toUpperCase()}</text>
+        <text className="ax-title" x={(L + W - R) / 2} y={H - 4} textAnchor="middle">{xLabel}</text>
+        <text className="ax-title" x={14} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 14 ${(T + H - B) / 2})`}>{yLabel}</text>
         {chance !== undefined && (
           <g>
             <line x1={L} x2={W - R} y1={Y(chance)} y2={Y(chance)} stroke={dark ? '#8a85a0' : '#a9a5b8'} strokeDasharray="4 4" />
@@ -45,7 +45,6 @@ export function LineChart({
                 pathLength={1} style={s.dashed ? undefined : { strokeDasharray: 1, strokeDashoffset: inView ? 0 : 1, transition: `stroke-dashoffset 1.6s ${si * 0.25}s cubic-bezier(.3,.7,.2,1)` }} />
               {s.points.map((p, k) => (
                 <circle key={k} cx={X(p[0])} cy={Y(p[1])} r={hover?.s === si && hover.p === k ? 6 : 4} fill={dark ? '#0b0a1a' : '#fff'} stroke={s.color} strokeWidth={2.2}
-                  style={{ opacity: inView ? 1 : 0, transition: `opacity 0.4s ${0.4 + k * 0.12 + si * 0.25}s` }}
                   onPointerEnter={() => setHover({ s: si, p: k })} onPointerLeave={() => setHover(null)} />
               ))}
             </g>
@@ -76,7 +75,6 @@ export interface BarGroup { label: string; bars: { name: string; value: number; 
 
 /** Grouped vertical bars with value labels, chance line and optional significance brackets. */
 export function GroupedBars({ groups, yMax = 0.8, chance, height = 300, yLabel = 'Top-10 balanced accuracy', dark = false, digits = 3 }: { groups: BarGroup[]; yMax?: number; chance?: number; height?: number; yLabel?: string; dark?: boolean; digits?: number }) {
-  const [ref, inView] = useInView<HTMLDivElement>();
   const [hover, setHover] = useState<string | null>(null);
   const W = 560, H = height, L = 48, R = 8, T = 18, B = 40;
   const nBars = groups.reduce((a, g) => a + g.bars.length, 0);
@@ -88,7 +86,7 @@ export function GroupedBars({ groups, yMax = 0.8, chance, height = 300, yLabel =
   let cx = L + (W - L - R - used) / 2;
   const txt = dark ? '#e9e5f7' : '#0b0a1a';
   return (
-    <div ref={ref}>
+    <div>
       <svg viewBox={`0 0 ${W} ${H}`} className="ds-chart" style={{ width: '100%', height: 'auto' }} role="img" aria-label={yLabel}>
         <defs>
           <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
@@ -96,7 +94,7 @@ export function GroupedBars({ groups, yMax = 0.8, chance, height = 300, yLabel =
           </pattern>
         </defs>
         {ticks.map(t => <g key={t}><line className="grid" x1={L} x2={W - R} y1={Y(t)} y2={Y(t)} /><text className="ax" x={L - 8} y={Y(t) + 4} textAnchor="end">{t.toFixed(1)}</text></g>)}
-        <text className="ax-title" x={13} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 13 ${(T + H - B) / 2})`}>{yLabel.toUpperCase()}</text>
+        <text className="ax-title" x={13} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 13 ${(T + H - B) / 2})`}>{yLabel}</text>
         {groups.map((g, gi) => {
           const x0 = cx;
           const els = g.bars.map((b, bi) => {
@@ -105,10 +103,10 @@ export function GroupedBars({ groups, yMax = 0.8, chance, height = 300, yLabel =
             const h = (H - B) - Y(b.value);
             return (
               <g key={key} onPointerEnter={() => setHover(key)} onPointerLeave={() => setHover(null)}>
-                <rect x={x + 2} y={inView ? Y(b.value) : H - B} width={bw - 4} height={inView ? h : 0} rx={3} fill={b.color}
-                  opacity={hover && hover !== key ? 0.55 : 1} style={{ transition: `all 0.9s ${0.1 * (gi * 3 + bi)}s cubic-bezier(.3,.7,.2,1), opacity 0.2s` }} />
-                {b.hatch && <rect x={x + 2} y={inView ? Y(b.value) : H - B} width={bw - 4} height={inView ? h : 0} rx={3} fill="url(#hatch)" style={{ transition: `all 0.9s ${0.1 * (gi * 3 + bi)}s cubic-bezier(.3,.7,.2,1)` }} />}
-                <text x={x + bw / 2} y={Y(b.value) - 6} textAnchor="middle" fontSize="11.5" fontWeight={600} fill={txt} style={{ opacity: inView ? 1 : 0, transition: 'opacity 0.5s 0.9s' }}>{b.value.toFixed(digits)}</text>
+                <rect x={x + 2} y={Y(b.value)} width={bw - 4} height={h} rx={3} fill={b.color}
+                  opacity={hover && hover !== key ? 0.55 : 1} />
+                {b.hatch && <rect x={x + 2} y={Y(b.value)} width={bw - 4} height={h} rx={3} fill="url(#hatch)" />}
+                <text x={x + bw / 2} y={Y(b.value) - 6} textAnchor="middle" fontSize="11.5" fontWeight={600} fill={txt}>{b.value.toFixed(digits)}</text>
               </g>
             );
           });

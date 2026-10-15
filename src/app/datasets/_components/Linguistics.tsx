@@ -2,7 +2,6 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import { ARPABET, fetchJSON, phonClass, PHON_COLORS_LIGHT, fmt } from '../_lib/meg';
-import { useInView } from './ui';
 
 interface Stats {
   libribrain: { words: number; vocab: number; top: [string, number][]; zipf: [number, number][]; phon: Record<string, number> };
@@ -28,7 +27,6 @@ const CONS: [string, number, number][] = [
 export function PhonemeInventory() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [hover, setHover] = useState<string | null>(null);
-  const [ref, inView] = useInView<HTMLDivElement>();
   useEffect(() => { fetchJSON<Stats>('/datasets/stats.json').then(setStats); }, []);
   const phon = stats?.libribrain.phon ?? {};
   const total = Object.entries(phon).filter(([p]) => ARPABET[p]).reduce((a, [, v]) => a + v, 0) || 1;
@@ -62,16 +60,16 @@ export function PhonemeInventory() {
     return (
       <div key={key} onPointerEnter={() => setHover(p)} onPointerLeave={() => setHover(null)}
         style={{
-          position: 'absolute', left: cx, top: cy, width: s, height: s, transform: `translate(-50%,-50%) scale(${inView ? (on ? 1.15 : 1) : 0.2})`,
+          position: 'absolute', left: cx, top: cy, width: s, height: s, transform: `translate(-50%,-50%) scale(${on ? 1.12 : 1})`,
           borderRadius: '50%', background: on ? col : `${col}22`, border: `1.5px solid ${col}`, color: on ? '#fff' : col,
           display: 'grid', placeItems: 'center', fontFamily: 'var(--ds-mono)', fontWeight: 700, fontSize: Math.max(10, s * 0.32), cursor: 'default',
-          transition: 'transform 0.5s cubic-bezier(.3,1.4,.4,1), background 0.15s', opacity: inView ? 1 : 0, zIndex: on ? 2 : 1,
+          transition: 'transform 0.15s, background 0.15s', zIndex: on ? 2 : 1,
         }}>{p}</div>
     );
   };
 
   return (
-    <div ref={ref} style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1.1fr) minmax(0, 1.5fr) minmax(180px, 0.7fr)', gap: '1.5rem', alignItems: 'start' }} className="ds-phon-grid">
+    <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1.1fr) minmax(0, 1.5fr) minmax(180px, 0.7fr)', gap: '1.5rem', alignItems: 'start' }} className="ds-phon-grid">
       <div>
         <div className="ds-label" style={{ marginBottom: 8 }}>Vowels <span style={{ textTransform: 'none', letterSpacing: 0 }}>· front ← → back</span></div>
         <div style={{ position: 'relative', aspectRatio: '1.15 / 1' }}>
@@ -143,8 +141,8 @@ export function ZipfExplorer() {
           <text x={X(cut) + 5} y={T + 12} fontSize="11" fill="#7c3aed" fontFamily="var(--ds-mono)">top {cut}</text>
           {[1, 10, 100, 1000, 10000].map(r => <g key={r}><line className="grid" x1={X(r)} x2={X(r)} y1={T} y2={H - B} /><text className="ax" x={X(r)} y={H - B + 16} textAnchor="middle">{r.toLocaleString('en-GB')}</text></g>)}
           {[1, 10, 100, 1000, 10000].map(c => <g key={c}><line className="grid" x1={L} x2={W - R} y1={Y(c)} y2={Y(c)} /><text className="ax" x={L - 6} y={Y(c) + 4} textAnchor="end">{c >= 1000 ? `${c / 1000}k` : c}</text></g>)}
-          <text className="ax-title" x={(L + W - R) / 2} y={H - 4} textAnchor="middle">WORD RANK</text>
-          <text className="ax-title" x={13} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 13 ${(T + H - B) / 2})`}>OCCURRENCES</text>
+          <text className="ax-title" x={(L + W - R) / 2} y={H - 4} textAnchor="middle">Word rank</text>
+          <text className="ax-title" x={13} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 13 ${(T + H - B) / 2})`}>Occurrences</text>
           <path d={d} fill="none" stroke="#0b0a1a" strokeWidth={2} />
           {hw && hover !== null && (
             <g>

@@ -21,53 +21,21 @@ export function useInView<T extends Element>(opts: { once?: boolean; margin?: st
   return [ref, inView] as const;
 }
 
-export function Reveal({ children, delay = 0, className = '', style }: { children: React.ReactNode; delay?: number; className?: string; style?: React.CSSProperties }) {
-  const [ref, inView] = useInView<HTMLDivElement>();
-  return (
-    <div ref={ref} className={`ds-reveal ${inView ? 'is-in' : ''} ${className}`} style={{ transitionDelay: `${delay}ms`, ...style }}>
-      {children}
-    </div>
-  );
-}
-
-export function CountUp({ to, digits = 0, duration = 1600, suffix = '' }: { to: number; digits?: number; duration?: number; suffix?: string }) {
-  const [ref, inView] = useInView<HTMLSpanElement>();
-  const [v, setV] = useState(0);
-  useEffect(() => {
-    if (!inView) return;
-    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) { setV(to); return; }
-    let raf = 0;
-    const t0 = performance.now();
-    const tick = (t: number) => {
-      const p = Math.min(1, (t - t0) / duration);
-      setV(to * (1 - Math.pow(1 - p, 3)));
-      if (p < 1) raf = requestAnimationFrame(tick);
-    };
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
-  }, [inView, to, duration]);
-  return <span ref={ref}>{v.toLocaleString('en-GB', { minimumFractionDigits: digits, maximumFractionDigits: digits })}{suffix}</span>;
-}
-
-export function Stat({ value, digits, suffix, unit, label }: { value: number; digits?: number; suffix?: string; unit?: string; label: React.ReactNode }) {
+export function Stat({ value, digits = 0, suffix = '', unit, label }: { value: number; digits?: number; suffix?: string; unit?: string; label: React.ReactNode }) {
   return (
     <div className="ds-stat">
-      <div className="ds-stat-v"><CountUp to={value} digits={digits} suffix={suffix} />{unit && <small>{unit}</small>}</div>
+      <div className="ds-stat-v">{value.toLocaleString('en-GB', { minimumFractionDigits: digits, maximumFractionDigits: digits })}{suffix}{unit && <small>{unit}</small>}</div>
       <div className="ds-stat-l">{label}</div>
     </div>
   );
 }
 
-export function SectionHead({ num, kicker, title, children }: { num?: string; kicker: string; title: React.ReactNode; children?: React.ReactNode }) {
+export function SectionHead({ title, children }: { title: React.ReactNode; children?: React.ReactNode }) {
   return (
-    <Reveal className="ds-sec-head">
-      <div style={{ display: 'flex', gap: '0.9rem', alignItems: 'center' }}>
-        {num && <span className="ds-num">{num}</span>}
-        <span className="ds-kicker">{kicker}</span>
-      </div>
+    <div className="ds-sec-head">
       <h2 className="ds-h2">{title}</h2>
       {children}
-    </Reveal>
+    </div>
   );
 }
 
@@ -160,9 +128,9 @@ export function PageToc({ items }: { items: { id: string; label: string }[] }) {
   return (
     <nav className="ds-toc" aria-label="On this page">
       <div className="ds-wrap ds-toc-inner">
-        {items.map((it, i) => (
+        {items.map(it => (
           <a key={it.id} href={`#${it.id}`} className={active === it.id ? 'is-active' : ''}>
-            <span>{String(i + 1).padStart(2, '0')}</span>{it.label}
+            {it.label}
           </a>
         ))}
       </div>

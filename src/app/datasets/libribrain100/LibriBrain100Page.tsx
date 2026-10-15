@@ -9,7 +9,7 @@ import Bookshelf from '../_components/Bookshelf';
 import { BubblePack, SessionTreemap, CORPUS_COLOR } from '../_components/Composition';
 import { CorpusNumbers, CorpusPhonemes, LoaderPlayground, VocabBuilder } from '../_components/LB100Widgets';
 import { GroupedBars } from '../_components/charts';
-import { CodeBlock, CopyButton, Figure, Icon, PageToc, Reveal, SectionHead, Seg, Stat } from '../_components/ui';
+import { CodeBlock, CopyButton, Figure, Icon, PageToc, SectionHead, Seg, Stat } from '../_components/ui';
 import { EcosystemTimeline, Downloads } from '../_components/Ecosystem';
 
 const DIR = '/datasets/libribrain100';
@@ -42,8 +42,9 @@ const MOTH: [string, string, string][] = [
 const BIBTEX = `@article{mantegna2026libribrain100,
   title   = {{LibriBrain100}: One Hundred Hours of Broad and Deep {MEG} Data for Neural Speech Decoding at Scale},
   author  = {Mantegna, Francesco and Jayalath, Dulhan and Elvers, Gereon and Kim, Tasha and Ballyk, Benjamin and Fung, Alex and Cho, SungJun and Kwon, Teyun and Kurth, Luisa and \\"Ozdogan, Miran and Landau, Gilad and Somaiya, Pratik and Voets, Natalie and Woolrich, Mark and Parker Jones, Oiwi},
-  journal = {arXiv preprint arXiv:2608.25204},
+  journal = {Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track},
   year    = {2026},
+  url     = {https://arxiv.org/abs/2608.25204},
 }`;
 
 const AGENT_PROMPT = `Set up a word-classification baseline on LibriBrain100 with the pnpl library (pip install pnpl).
@@ -67,17 +68,13 @@ export default function LibriBrain100Page() {
     <>
       {/* ── HERO ───────────────────────────────────────── */}
       <section className="ds-hero">
-        <div className="hero-blob" style={{ width: 520, height: 520, background: '#bfdbfe', top: -160, right: '10%', opacity: 0.5, animation: 'blobFloat1 14s ease-in-out infinite' }} />
-        <div className="hero-blob" style={{ width: 420, height: 420, background: '#e9d5ff', bottom: -120, left: '-6%', opacity: 0.5, animation: 'blobFloat2 16s ease-in-out infinite' }} />
-        <div className="hero-blob" style={{ width: 280, height: 280, background: '#bbf7d0', top: '35%', left: '45%', opacity: 0.35, animation: 'blobFloat3 12s ease-in-out infinite' }} />
         <div className="ds-wrap">
           <div className="ds-hero-grid">
-            <Reveal>
-              <span className="ds-kicker">Dataset · 2026 · Successor to LibriBrain</span>
-              <h1 className="ds-title">Libri<em>Brain</em><span style={{ color: 'var(--ds-violet)' }}>100</span></h1>
+            <div>
+              <h1 className="ds-title">LibriBrain100</h1>
               <p className="ds-lede">
                 <strong>One hundred hours of broad and deep MEG.</strong> Eighty hours from a single listener across the complete Sherlock Holmes canon, phonetically balanced
-                sentences and real-life stories, plus forty minutes each from 32 new people. Built to ask how far one brain can take us, and how quickly that knowledge transfers to the next.
+                sentences and real-life stories, plus forty minutes each from 32 new people. Built to ask how far one brain can take us, and how quickly that knowledge transfers to the next. Accepted at NeurIPS 2026 (Evaluations and Datasets track).
               </p>
               <div className="ds-btns">
                 <a className="ds-btn ds-btn-primary" href="https://huggingface.co/datasets/pnpl/LibriBrain2" target="_blank" rel="noopener noreferrer">{Icon.hf}LibriBrain2 on HF</a>
@@ -85,11 +82,11 @@ export default function LibriBrain100Page() {
                 <a className="ds-btn" href="https://github.com/neural-processing-lab/pnpl" target="_blank" rel="noopener noreferrer">{Icon.code}pnpl library</a>
                 <Link className="ds-btn" href="/">{Icon.trophy}2026 Competition</Link>
               </div>
-            </Reveal>
-            <Reveal delay={150}>
+            </div>
+            <div>
               <BubblePack />
               <p className="ds-note" style={{ textAlign: 'center', marginTop: 0 }}>Circle area ∝ hours of MEG. Hover a circle.</p>
-            </Reveal>
+            </div>
           </div>
           <div className="ds-stats">
             <Stat value={104.2} digits={1} unit="h" label="of MEG, standard splits included" />
@@ -106,14 +103,14 @@ export default function LibriBrain100Page() {
       {/* ── 01 LISTEN ─────────────────────────────────── */}
       <section id="listen" className="ds-section ds-section-dark" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="01" kicker="Listen" title={<>One story, <em>many brains</em></>}>
+          <SectionHead title="One chapter, heard by different people">
             <p className="ds-p">
               Chapters 11 and 12 of <i>A Study in Scarlet</i> are the only audiobook sessions every LibriBrain100 participant heard. Here is the same 20 seconds, John Ferrier heading into
               Salt Lake City, through the sensors of sub-0 and the broad-cohort subjects whose recordings are already public. Each brain is different, yet the rhythm of the speech is
               visible in all of them.
             </p>
           </SectionHead>
-          <Reveal><MultiPlayer dir={DIR} /></Reveal>
+          <div><MultiPlayer dir={DIR} /></div>
           <p className="ds-note">
             Real data: sub-0 plus broad-cohort listeners from the public LibriBrain2 release. Serialised data for sub-1…12 are fully public; the rest are partly embargoed until after
             the 2026 competition. Signals are filtered to 0.5–20 Hz, z-scored per sensor, and aligned to the audio using each subject&apos;s own event file.
@@ -125,7 +122,7 @@ export default function LibriBrain100Page() {
       <section id="design" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
           <div className="ds-cols-2">
-            <SectionHead num="02" kicker="Broad & deep" title={<>Depth first, <em>then breadth</em></>}>
+            <SectionHead title="Broad and deep">
               <p className="ds-p">
                 Hours per subject drive decoding performance more than total hours across subjects, so LibriBrain100 keeps going deeper: sub-0 grows from 52 to <b>80 hours</b>,
                 about 8× the next non-LibriBrain dataset and 80× most others.
@@ -135,10 +132,10 @@ export default function LibriBrain100Page() {
                 spans 0.6–80 h per subject and is the only dataset in the landscape that is broad and deep at once.
               </p>
             </SectionHead>
-            <Reveal delay={100}>
+            <div>
               <Landscape initialStep={2} maxStep={2} />
               <p className="ds-note">Toggle through time. Values from Table 1 of each paper. LibriBrain100&apos;s dotted line spans its deep subject and its broad cohort.</p>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -146,15 +143,15 @@ export default function LibriBrain100Page() {
       {/* ── 03 COMPOSITION ────────────────────────────── */}
       <section id="composition" className="ds-section ds-section-tint" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="03" kicker="Composition" title={<>Every session, <em>to scale</em></>}>
+          <SectionHead title="Every session, to scale">
             <p className="ds-p">
               Every rectangle is one recording session, sized by its duration. Most of the data is sub-0 listening to Sherlock Holmes, joined by 14 TIMIT sessions, 4 MOCHA-TIMIT
               sessions, 30 Moth stories, and two chapters for each of the 32 broad subjects.
             </p>
           </SectionHead>
-          <Reveal><SessionTreemap /></Reveal>
+          <div><SessionTreemap /></div>
           <div className="ds-cols-2" style={{ marginTop: 'clamp(2.5rem, 5vw, 3.5rem)' }}>
-            <Reveal>
+            <div>
               <h3 className="ds-h3">Standard splits</h3>
               <div className="ds-table-wrap">
                 <table className="ds-table">
@@ -175,8 +172,8 @@ export default function LibriBrain100Page() {
                 </table>
               </div>
               <p className="ds-note">Hours, Table 2 of the paper. The broad subjects have no training split by design: fine-tune on chapter 11, evaluate on chapter 12.</p>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <h3 className="ds-h3">How the splits avoid leakage</h3>
               <ul className="ds-p-sm" style={{ paddingLeft: '1.1rem', margin: 0 }}>
                 <li><b>Sherlock:</b> book 1, chapter 11 is validation and chapter 12 is test, exactly as in LibriBrain.</li>
@@ -184,7 +181,7 @@ export default function LibriBrain100Page() {
                 <li><b>MOCHA-TIMIT:</b> no standard split existed. Sets A and D train; B and C are split into unique, non-overlapping validation and test sentences.</li>
                 <li><b>The Moth:</b> following Tang et al. (2023), <i>From Boyhood to Fatherhood</i> is validation and <i>Where There&apos;s Smoke</i> is test.</li>
               </ul>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -192,14 +189,14 @@ export default function LibriBrain100Page() {
       {/* ── 04 CORPORA ────────────────────────────────── */}
       <section id="corpora" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="04" kicker="Corpora" title={<>From <em>sound</em> to <em>meaning</em></>}>
+          <SectionHead title="Four corpora">
             <p className="ds-p">
               LibriBrain was one narrator reading one genre. LibriBrain100 deliberately spans the acoustic–semantic axis, so that you can ask whether a decoder is reading out
               sound, meaning, or both.
             </p>
           </SectionHead>
 
-          <Reveal>
+          <div>
             <div style={{ position: 'relative', margin: '0 0 2.5rem', padding: '2.6rem 0 0' }}>
               <div style={{ height: 6, borderRadius: 3, background: `linear-gradient(90deg, ${CORPUS_COLOR.timit}, ${CORPUS_COLOR.mocha}, ${CORPUS_COLOR.sherlock}, ${CORPUS_COLOR.moth})` }} />
               <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 8 }} className="ds-label">
@@ -212,7 +209,7 @@ export default function LibriBrain100Page() {
                 </div>
               ))}
             </div>
-          </Reveal>
+          </div>
 
           <div className="ds-cols" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))' }}>
             {[
@@ -221,8 +218,8 @@ export default function LibriBrain100Page() {
               { t: 'MOCHA-TIMIT', h: '1.1 h', c: CORPUS_COLOR.mocha, d: 'TIMIT-like phonetic coverage in Southern British English, from one male and one female speaker. Rich in connected-speech effects such as assimilation, weak forms and vowel reduction.', f: ['2 speakers × 460 utterances', 'British English', 'used in surgical BCI work'] },
               { t: 'The Moth', h: '6.0 h', c: CORPUS_COLOR.moth, d: 'Thirty spontaneous, autobiographical stories, picked from the set used for fMRI semantic decoding by maximising the spread of sentence embeddings. Disfluencies, laughter and applause included.', f: ['30 storytellers', '~12 min each', 'max. semantic dispersion'] },
             ].map((c, k) => (
-              <Reveal key={c.t} delay={k * 80}>
-                <div className="ds-card" style={{ height: '100%', borderTop: `3px solid ${c.c}` }}>
+              <div key={c.t}>
+                <div className="ds-card" style={{ height: '100%' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                     <h3 className="ds-h3" style={{ margin: 0 }}>{c.t}</h3>
                     <span style={{ fontFamily: 'var(--ds-serif)', fontSize: 26, color: c.c }}>{c.h}</span>
@@ -230,18 +227,18 @@ export default function LibriBrain100Page() {
                   <p className="ds-p-sm" style={{ margin: '0.6rem 0 0.8rem' }}>{c.d}</p>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5 }}>{c.f.map(f => <span key={f} className="ds-pill" style={{ background: `${c.c}16`, color: c.c }}>{f}</span>)}</div>
                 </div>
-              </Reveal>
+              </div>
             ))}
           </div>
 
-          <Reveal style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
+          <div style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
             <h3 className="ds-h3">The completed canon</h3>
             <p className="ds-p-sm" style={{ maxWidth: 720 }}>Books 8 and 9 are new in LibriBrain100. Click any spine for its case file.</p>
             <Bookshelf upTo={9} highlightNew />
-          </Reveal>
+          </div>
 
           <div className="ds-cols-2" style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
-            <Reveal>
+            <div>
               <h3 className="ds-h3">Phonetic balance</h3>
               <p className="ds-p-sm">
                 TIMIT was built to over-represent rare sounds. Its rank–frequency slope is flatter (−0.73) than the podcasts&apos; (−0.78) or the audiobooks&apos; (−0.83), and phonemes
@@ -249,8 +246,8 @@ export default function LibriBrain100Page() {
               </p>
               <CorpusNumbers />
               <p className="ds-note">Word and phoneme counts computed for this page from sub-0&apos;s event files. Slopes from the paper (Fig. 10).</p>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <div className="ds-label" style={{ marginBottom: 8 }}>The 30 Moth stories</div>
               <div style={{ maxHeight: 420, overflowY: 'auto', border: '1px solid var(--ds-line)', borderRadius: 12, background: '#fff' }}>
                 {MOTH.map(([t, a, d], i) => (
@@ -261,13 +258,13 @@ export default function LibriBrain100Page() {
                   </div>
                 ))}
               </div>
-            </Reveal>
+            </div>
           </div>
-          <Reveal style={{ marginTop: '2rem' }}><CorpusPhonemes /></Reveal>
+          <div style={{ marginTop: '2rem' }}><CorpusPhonemes /></div>
 
           <div className="ds-cols-2" style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
-            <Reveal><Figure src="/datasets/figures/lb100-speakers.webp" alt="t-SNE of speaker embeddings coloured by corpus" caption={<><b>Voices.</b> ECAPA-TDNN speaker embeddings (t-SNE). TIMIT&apos;s 630 speakers cover the space of voices, split mainly by sex, far more widely than the audiobook narrators.</>} /></Reveal>
-            <Reveal delay={100}><Figure src="/datasets/figures/lb100-keywords.webp" alt="t-SNE of keyword embeddings for three corpora" caption={<><b>Meanings.</b> Word2Vec keyword embeddings: the audiobooks cluster tightly, TIMIT spreads wider, and the podcasts span the most semantic ground.</>} /></Reveal>
+            <div><Figure src="/datasets/figures/lb100-speakers.webp" alt="t-SNE of speaker embeddings coloured by corpus" caption={<><b>Voices.</b> ECAPA-TDNN speaker embeddings (t-SNE). TIMIT&apos;s 630 speakers cover the space of voices, split mainly by sex, far more widely than the audiobook narrators.</>} /></div>
+            <div><Figure src="/datasets/figures/lb100-keywords.webp" alt="t-SNE of keyword embeddings for three corpora" caption={<><b>Meanings.</b> Word2Vec keyword embeddings: the audiobooks cluster tightly, TIMIT spreads wider, and the podcasts span the most semantic ground.</>} /></div>
           </div>
         </div>
       </section>
@@ -275,13 +272,13 @@ export default function LibriBrain100Page() {
       {/* ── 05 LISTENERS ──────────────────────────────── */}
       <section id="listeners" className="ds-section ds-section-tint" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="05" kicker="Listeners" title={<>Thirty-three <em>different heads</em></>}>
+          <SectionHead title="33 listeners">
             <p className="ds-p">
               33 healthy volunteers aged 19–50 (median 28): 10 women and 23 men. 16 are native English speakers and 17 use English daily as a second language. Everyone was recorded
               on the same MEGIN TRIUX™ neo at OHBA under ethics approval R90053/RE003. Brains differ in anatomy, head position, attention and signal-to-noise, and that variability is the point.
             </p>
           </SectionHead>
-          <Reveal>
+          <div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', marginBottom: '2.5rem' }}>
               {[
                 { l: 'Sex', a: ['women', 10, '#a855f7'], b: ['men', 23, '#c4b5fd'] },
@@ -307,41 +304,41 @@ export default function LibriBrain100Page() {
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13, color: 'var(--ds-muted)' }}><span>19</span><span><b style={{ color: 'var(--ds-ink)' }}>median 28</b> · IQR 8</span><span>50</span></div>
               </div>
             </div>
-          </Reveal>
-          <Reveal><SubjectEvoked dir={DIR} /></Reveal>
-          <Reveal style={{ marginTop: '2.5rem' }}>
+          </div>
+          <div><SubjectEvoked dir={DIR} /></div>
+          <div style={{ marginTop: '2.5rem' }}>
             <Figure src="/datasets/figures/lb100-between-meg.webp" alt="Group-level speech vs non-speech differences: RMS topography, ITC and PSD" caption={<><b>From the paper:</b> averaged over all 33 listeners, speech still yields stronger bilateral temporal responses, more delta–theta phase-locking and more low-frequency power than silence. The shared signal decoders can exploit.</>} />
-          </Reveal>
+          </div>
         </div>
       </section>
 
       {/* ── 06 BENCHMARK ──────────────────────────────── */}
       <section id="benchmark" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="06" kicker="Benchmark" title={<>Fifty words that <em>matter</em></>}>
+          <SectionHead title="The word-classification benchmark">
             <p className="ds-p">
               LibriBrain100&apos;s benchmark is <b>word classification</b>. Given a window of MEG time-locked to a word, predict which of 50 words was heard. It sits between phonemes and full
               brain-to-text and can draw on both sound and meaning. The 50 words are mostly function words, pronouns and auxiliaries, plus a few content words. That is enough for
               useful assistive utterances. Try it.
             </p>
           </SectionHead>
-          <Reveal><VocabBuilder /></Reveal>
+          <div><VocabBuilder /></div>
           <div className="ds-cols-2" style={{ marginTop: 'clamp(2.5rem, 5vw, 3.5rem)' }}>
-            <Reveal>
+            <div>
               <h3 className="ds-h3">The metric: top-10 balanced accuracy</h3>
               <p className="ds-p-sm">
                 The model ranks all 50 words. A prediction counts if the true word is among its ten best guesses, so chance is 10/50 = <b>20%</b>. Accuracy is computed per word and
                 averaged, so rare words like &ldquo;always&rdquo; count as much as &ldquo;the&rdquo; and a model cannot win by just guessing frequent words.
               </p>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <h3 className="ds-h3">The baseline: MEG-XL</h3>
               <p className="ds-p-sm">
                 Baselines fine-tune <a href="https://huggingface.co/pnpl/MEG-XL" target="_blank" rel="noopener noreferrer" className="ds-link-arrow" style={{ fontSize: 'inherit' }}>MEG-XL</a>,
                 a brain foundation model pre-trained on ~300 h from 800 subjects (MOUS, Cam-CAN, SMN4Lang) with a context 5–300× longer than earlier models. It is the strongest published
                 approach to cross-subject word decoding.
               </p>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -349,13 +346,12 @@ export default function LibriBrain100Page() {
       {/* ── 07 RESULTS ────────────────────────────────── */}
       <section id="results" className="ds-section ds-section-dark" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="07" kicker="Results" title={<>What depth <em>buys you</em></>}>
+          <SectionHead title="Baseline results">
             <p className="ds-p">Three experiments: many subjects helping one, one subject helping many, and how little data a new person needs.</p>
           </SectionHead>
           <div className="ds-cols-2">
-            <Reveal>
-              <div className="ds-label">Task 1 · many-to-one</div>
-              <h3 className="ds-h3" style={{ marginTop: 6 }}>Does broad data help the deep subject?</h3>
+            <div>
+              <h3 className="ds-h3">Does broad data help the deep subject?</h3>
               <p className="ds-p-sm" style={{ color: '#a29db8' }}>
                 Mostly, yes. Adding the 32 broad subjects improves sub-0 on TIMIT, MOCHA-TIMIT and the podcasts. On Sherlock, which dominates training, a Sherlock-only model does best.
               </p>
@@ -365,10 +361,9 @@ export default function LibriBrain100Page() {
                 { label: 'MOCHA', bars: [{ name: 'sub-0 + sub-1…32', value: 0.501, color: CORPUS_COLOR.mocha }, { name: 'sub-0 only', value: 0.436, color: CORPUS_COLOR.mocha, hatch: true }] },
                 { label: 'Podcast', bars: [{ name: 'sub-0 + sub-1…32', value: 0.464, color: CORPUS_COLOR.moth }, { name: 'sub-0 only', value: 0.399, color: CORPUS_COLOR.moth, hatch: true }] },
               ]} />
-            </Reveal>
-            <Reveal delay={100}>
-              <div className="ds-label">Task 2 · one-to-many</div>
-              <h3 className="ds-h3" style={{ marginTop: 6 }}>Does the deep subject help everyone else?</h3>
+            </div>
+            <div>
+              <h3 className="ds-h3">Does the deep subject help everyone else?</h3>
               <p className="ds-p-sm" style={{ color: '#a29db8' }}>
                 By about <b style={{ color: '#fff' }}>15 points</b>. Training alongside sub-0&apos;s 80 hours lifts accuracy on 32 new people with roughly 120× less data each. The gain holds for
                 every single subject, not just on average.
@@ -386,13 +381,12 @@ export default function LibriBrain100Page() {
                 ))}
               </div>
               <Figure style={{ marginTop: '1.2rem' }} src="/datasets/figures/lb100-cross-subject.webp" alt="Per-subject bars showing improvement for all 32 subjects when trained with subject 0" caption={<span style={{ color: '#8a85a0' }}>Per-subject results (paper Fig. 4): the improvement is consistent across all 32 subjects. Chance = 0.2, p &lt; .001.</span>} />
-            </Reveal>
+            </div>
           </div>
 
           <div className="ds-cols-2" style={{ marginTop: 'clamp(3rem, 6vw, 4.5rem)' }}>
-            <Reveal>
-              <div className="ds-label">Task 3 · efficiency</div>
-              <h3 className="ds-h3" style={{ marginTop: 6 }}>How little data does a new person need?</h3>
+            <div>
+              <h3 className="ds-h3">How little data does a new person need?</h3>
               <p className="ds-p-sm" style={{ color: '#a29db8' }}>
                 Cut each new subject&apos;s fine-tuning data to half, then a quarter. Accuracy barely moves. Most of the performance comes from transfer, which puts ~10 minutes of recording in
                 clinically interesting territory.
@@ -410,10 +404,9 @@ export default function LibriBrain100Page() {
                 ))}
               </div>
               <p className="ds-note">12 / 10 / 10 subjects at 100 / 50 / 25% of their fine-tuning data (paper Fig. 5). No difference between budgets is significant.</p>
-            </Reveal>
-            <Reveal delay={100}>
-              <div className="ds-label">Supplementary</div>
-              <h3 className="ds-h3" style={{ marginTop: 6 }}>Different regimes, different winners</h3>
+            </div>
+            <div>
+              <h3 className="ds-h3">Different regimes, different winners</h3>
               <Seg value={cmp} onChange={setCmp} ariaLabel="Comparison" options={[{ v: 'model', label: 'Supervised vs pre-trained' }, { v: 'ovmi', label: 'vs. a surgical BCI' }]} />
               {cmp === 'model' ? (
                 <>
@@ -438,7 +431,7 @@ export default function LibriBrain100Page() {
                   ]} />
                 </>
               )}
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -446,7 +439,7 @@ export default function LibriBrain100Page() {
       {/* ── 08 ECOSYSTEM ──────────────────────────────── */}
       <section id="ecosystem" className="ds-section ds-section-tint" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="08" kicker="Ecosystem" title={<>Shared infrastructure, <em>compounding</em></>}>
+          <SectionHead title="The 2026 competition and beyond">
             <p className="ds-p">
               Like ImageNet, a benchmark&apos;s value compounds as more methods are measured against it. LibriBrain100 shipped with the 2026 PNPL Competition: word classification in a
               <b> Deep</b> track (sub-0) and a <b>Broad</b> track (the 32 new subjects, with fine-tuning data shrinking towards clinical scale), scored by top-10 balanced accuracy on
@@ -454,10 +447,10 @@ export default function LibriBrain100Page() {
             </p>
           </SectionHead>
           <div className="ds-cols-2">
-            <Reveal>
+            <div>
               <div className="ds-panel" style={{ padding: '1.6rem' }}>
                 <div className="ds-glow" style={{ width: 260, height: 260, background: '#7c3aed', right: -80, top: -80, opacity: 0.35 }} />
-                <div className="ds-label" style={{ position: 'relative' }}>The 2026 PNPL Competition</div>
+                <h3 className="ds-h3" style={{ position: 'relative', color: '#fff' }}>The 2026 PNPL Competition</h3>
                 <div style={{ position: 'relative', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', margin: '1.2rem 0' }}>
                   {[['Deep', 'One deeply sampled subject. How far can accuracy go?', '/editions/2026/tracks/'], ['Broad', '32 subjects with little data each. How fast can you adapt?', '/editions/2026/tracks/']].map(([t, d, h]) => (
                     <Link key={t} href={h} className="ds-card ds-card-dark" style={{ textDecoration: 'none' }}>
@@ -473,8 +466,8 @@ export default function LibriBrain100Page() {
                 </div>
               </div>
               <Downloads />
-            </Reveal>
-            <Reveal delay={100}><EcosystemTimeline highlight="libribrain100" /></Reveal>
+            </div>
+            <div><EcosystemTimeline highlight="libribrain100" /></div>
           </div>
         </div>
       </section>
@@ -482,16 +475,16 @@ export default function LibriBrain100Page() {
       {/* ── 09 GET STARTED ────────────────────────────── */}
       <section id="start" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="09" kicker="Get started" title={<>Download only <em>what you need</em></>}>
+          <SectionHead title="Getting started">
             <p className="ds-p">
               At ~104 hours, the full dataset is hundreds of gigabytes even when serialised. The <code>LibriBrain100</code> loader takes <code>subjects=</code>, <code>corpus=</code> and
               <code> partition=</code> selectors, fetches each record from whichever Hugging Face repository holds it, and rejects impossible combinations before downloading anything.
               Build a query:
             </p>
           </SectionHead>
-          <Reveal><LoaderPlayground /></Reveal>
+          <div><LoaderPlayground /></div>
           <div className="ds-cols-2" style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
-            <Reveal>
+            <div>
               <h3 className="ds-h3">Two formats</h3>
               <p className="ds-p-sm">
                 <b>Serialised:</b> minimally preprocessed (head motion, SSS, notch, 0.1–125 Hz, 250 Hz) float32 HDF5 plus event TSVs, ready for ML. <b>Raw BIDS:</b> one BIDS dataset per
@@ -502,8 +495,8 @@ export default function LibriBrain100Page() {
                 Note: until the 2026 competition concludes, parts of the broad Sherlock data (sub-13…32) and the Sherlock 1 BIDS files are embargoed to prevent leakage. They will be
                 released afterwards.
               </p>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <h3 className="ds-h3">Or ask your coding agent</h3>
               <div className="ds-card" style={{ position: 'relative', background: 'var(--ds-paper)', marginBottom: '1.6rem' }}>
                 <p className="ds-p-sm" style={{ margin: 0, paddingRight: '7rem', whiteSpace: 'pre-line', fontSize: 13.5 }}>{AGENT_PROMPT.split('\n')[0]}</p>
@@ -513,7 +506,7 @@ export default function LibriBrain100Page() {
               <h3 className="ds-h3">Cite LibriBrain100</h3>
               <CodeBlock code={BIBTEX} lang="bibtex" />
               <p className="ds-note">Building on LibriBrain? Please cite <Link href="/datasets/libribrain/#start" className="ds-link-arrow" style={{ fontSize: 12.5 }}>the original paper</Link> too.</p>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>

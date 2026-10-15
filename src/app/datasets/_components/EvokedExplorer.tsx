@@ -120,8 +120,8 @@ export default function EvokedExplorer({ dir }: { dir: string }) {
                 <text className="ax" x={xAt(tk)} y={H - B + 16} textAnchor="middle">{tk}</text>
               </g>
             ))}
-            <text className="ax-title" x={(L + W - R) / 2} y={H - 2} textAnchor="middle">{tab === 'word' ? 'TIME FROM WORD ONSET (MS)' : 'LAG OF BRAIN RELATIVE TO AUDIO (MS)'}</text>
-            <text className="ax-title" x={12} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 12 ${(T + H - B) / 2})`}>{tab === 'word' ? 'MEAN |∇B|' : 'MEAN |r|'}</text>
+            <text className="ax-title" x={(L + W - R) / 2} y={H - 2} textAnchor="middle">{tab === 'word' ? 'Time from word onset (ms)' : 'Lag of brain relative to audio (ms)'}</text>
+            <text className="ax-title" x={12} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 12 ${(T + H - B) / 2})`}>{tab === 'word' ? 'Mean |∇B|' : 'Mean |r|'}</text>
             <line x1={xAt(0)} x2={xAt(0)} y1={T} y2={H - B} stroke="rgba(255,255,255,0.35)" strokeDasharray="3 3" />
             {series.a && <path d={path(series.a)} fill="none" stroke="#f472b6" strokeOpacity={0.45} strokeWidth={1.2} />}
             {series.b && <path d={path(series.b)} fill="none" stroke="#67e8f9" strokeOpacity={0.45} strokeWidth={1.2} />}

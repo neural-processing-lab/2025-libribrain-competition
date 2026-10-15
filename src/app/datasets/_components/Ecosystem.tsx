@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { CountUp } from './ui';
 
 type Tag = 'dataset' | 'competition' | 'paper' | 'blog';
 interface Item { date: string; title: string; href: string; note: string; tag: Tag; major?: boolean; about: ('libribrain' | 'libribrain100')[] }
@@ -16,7 +15,7 @@ export const TIMELINE: Item[] = [
   { date: 'Dec 2025', title: 'Competition workshop at NeurIPS 2025', href: '/editions/2025/workshop-papers/', note: '155 teams and 6,041 submissions. Winners and workshop papers presented at NeurIPS.', tag: 'competition', about: ['libribrain'] },
   { date: 'Feb 2026', title: 'MEG-XL: data-efficient brain-to-text', href: 'https://arxiv.org/abs/2602.02494', note: 'Long-context pre-training, fine-tuned on LibriBrain. The backbone of the LibriBrain100 baselines. ICML 2026.', tag: 'paper', about: ['libribrain', 'libribrain100'] },
   { date: 'Jul 2026', title: 'The 2026 PNPL Competition', href: '/', note: 'Word classification on LibriBrain100, with a Deep track (sub-0) and a Broad track (32 new subjects).', tag: 'competition', major: true, about: ['libribrain100'] },
-  { date: 'Aug 2026', title: 'LibriBrain100 released', href: 'https://arxiv.org/abs/2608.25204', note: '104 h across 33 subjects: the complete canon plus TIMIT, MOCHA-TIMIT and The Moth.', tag: 'dataset', major: true, about: ['libribrain', 'libribrain100'] },
+  { date: 'Aug 2026', title: 'LibriBrain100 released', href: 'https://arxiv.org/abs/2608.25204', note: '104 h across 33 subjects: the complete canon plus TIMIT, MOCHA-TIMIT and The Moth. NeurIPS 2026 Evaluations & Datasets.', tag: 'dataset', major: true, about: ['libribrain', 'libribrain100'] },
   { date: 'Sep 2026', title: 'What can thought-to-text interfaces communicate?', href: '/blog/what-can-speech-brain-computer-interfaces-communicate/', note: 'OVMI, a common information-theoretic yardstick for speech BCIs.', tag: 'blog', about: ['libribrain100'] },
   { date: 'Sep 2026', title: 'Brain-to-text with minutes of data using MEG-XL', href: '/blog/brain-to-text-decoding-with-meg-xl/', note: 'Why the broad track is winnable: adapting to new subjects from very little data.', tag: 'blog', about: ['libribrain100'] },
   { date: '2026', title: 'Benchmarking non-invasive speech BCIs: lessons learned', href: '/editions/2026/publications/', note: 'The 2025 competition retrospective: what worked, what leaked, what we changed.', tag: 'paper', about: ['libribrain', 'libribrain100'] },
@@ -35,7 +34,7 @@ export function EcosystemTimeline({ highlight }: { highlight?: 'libribrain' | 'l
           <div key={it.title} className={`ds-tl-item ${it.major ? 'major' : ''}`}>
             <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'center' }}>
               <span className="ds-tl-date">{it.date}</span>
-              <span style={{ fontFamily: 'var(--ds-mono)', fontSize: 10, textTransform: 'uppercase', letterSpacing: '0.06em', color: TAG_COLOR[it.tag] }}>{it.tag}</span>
+              <span style={{ fontSize: 12.5, color: TAG_COLOR[it.tag] }}>{it.tag}</span>
             </div>
             <div className="ds-tl-title">
               {ext ? <a href={it.href} target="_blank" rel="noopener noreferrer">{body}</a> : <Link href={it.href}>{body}</Link>}
@@ -66,7 +65,7 @@ export function Downloads({ compact = false }: { compact?: boolean }) {
               <div style={{ height: '100%', width: `${(r.v / 50) * 100}%`, background: 'linear-gradient(90deg, #a78bfa, #7c3aed)', borderRadius: 3 }} />
             </div>
           </div>
-          <div style={{ fontFamily: 'var(--ds-serif)', fontSize: 38, color: 'var(--ds-ink)', lineHeight: 1 }}><CountUp to={r.v} suffix="K+" /></div>
+          <div style={{ fontFamily: 'var(--ds-serif)', fontSize: 38, color: 'var(--ds-ink)', lineHeight: 1 }}>{r.v}K+</div>
         </a>
       ))}
     </div>

@@ -2,12 +2,9 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import SensorHelmet from './_components/SensorHelmet';
-import { CodeBlock, Icon, Reveal, SectionHead, Stat } from './_components/ui';
+import Ridgeline from './_components/Ridgeline';
+import { CodeBlock, Icon, SectionHead, Stat } from './_components/ui';
 import { Downloads, EcosystemTimeline } from './_components/Ecosystem';
-
-const ACCENT = [196, 181, 253];
-const HOT = [251, 113, 133];
 
 // Hours from Table 1 of Mantegna et al. (2026); LibriBrain2 = LibriBrain100 − LibriBrain.
 const PARTS = [
@@ -48,13 +45,9 @@ export default function DatasetsHub() {
   return (
     <>
       <section className="ds-hero">
-        <div className="hero-blob" style={{ width: 520, height: 520, background: '#c4b5fd', top: -180, right: '5%', opacity: 0.35, animation: 'blobFloat1 14s ease-in-out infinite' }} />
-        <div className="hero-blob" style={{ width: 420, height: 420, background: '#bfdbfe', bottom: -120, left: '-4%', opacity: 0.45, animation: 'blobFloat2 16s ease-in-out infinite' }} />
         <div className="ds-wrap">
-          <div className="ds-hero-grid">
-            <Reveal>
-              <span className="ds-kicker">Open data · Parker Jones Neural Processing Lab, Oxford</span>
-              <h1 className="ds-title">The Libri<em>Brain</em> family</h1>
+          <div className="ds-narrow">
+              <h1 className="ds-title">The LibriBrain datasets</h1>
               <p className="ds-lede">
                 Open MEG datasets for decoding speech from the brain, built around <strong>one listener recorded for more than 80 hours</strong> and a growing cohort of new ones.
                 Every recording comes with time-aligned words and phonemes, standard splits and a one-line Python loader.
@@ -64,17 +57,10 @@ export default function DatasetsHub() {
                 <Link className="ds-btn ds-btn-primary" href="/datasets/libribrain100/" style={{ background: 'var(--ds-violet)', borderColor: 'var(--ds-violet)' }}>LibriBrain100 {Icon.arrow}</Link>
                 <a className="ds-btn" href="https://github.com/neural-processing-lab/pnpl" target="_blank" rel="noopener noreferrer">{Icon.code}pnpl library</a>
               </div>
-            </Reveal>
-            <Reveal delay={150}>
-              <div className="ds-panel" style={{ padding: '0.4rem 0 1rem' }}>
-                <div className="ds-glow" style={{ width: 300, height: 300, background: '#6d28d9', top: '20%', left: '25%', opacity: 0.35 }} />
-                <SensorHelmet dir="/datasets/libribrain" height={360} accent={ACCENT} hot={HOT} />
-                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 1.2rem', gap: '1rem', flexWrap: 'wrap', position: 'relative' }}>
-                  <span className="ds-label">sub-0 · listening to A Study in Scarlet</span>
-                  <span className="ds-label" style={{ color: '#fb7185' }}>drag to rotate</span>
-                </div>
-              </div>
-            </Reveal>
+          </div>
+          <div className="ds-hero-viz">
+            <Ridgeline dir="/datasets/libribrain" height={420} />
+            <p className="ds-note" style={{ marginTop: '0.6rem' }}>Real data from LibriBrain: 40 magnetometers, ordered front to back across the head, while sub-0 listens to <i>A Study in Scarlet</i>. The violet line is the loudness of the narration.</p>
           </div>
           <div className="ds-stats">
             <Stat value={104.2} digits={1} unit="h" label="of MEG in LibriBrain100" />
@@ -89,19 +75,19 @@ export default function DatasetsHub() {
       {/* the family */}
       <section className="ds-section">
         <div className="ds-wrap">
-          <SectionHead kicker="Two releases, one dataset" title={<>LibriBrain ∪ LibriBrain2 = <em>LibriBrain100</em></>}>
+          <SectionHead title="LibriBrain ∪ LibriBrain2 = LibriBrain100">
             <p className="ds-p">
               LibriBrain (2025) went deep on a single listener. LibriBrain2 (2026) completes the Sherlock Holmes canon, adds phonetic and semantic corpora, and brings in 32 new people.
               <b> LibriBrain100</b> is not a third repository: it is the union of the two, just as the University of Oxford is not a building alongside its colleges but the collection of them all.
             </p>
           </SectionHead>
-          <Reveal>
+          <div>
             <div style={{ display: 'flex', borderRadius: 14, overflow: 'hidden', height: 18, marginBottom: '1.2rem' }} aria-hidden>
               {PARTS.map(p => <div key={p.k} style={{ flex: p.h, background: p.color }} />)}
             </div>
             <div className="ds-cols">
               {PARTS.map(p => (
-                <div key={p.k} className="ds-card" style={{ borderTop: `3px solid ${p.color}` }}>
+                <div key={p.k} className="ds-card" >
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '1rem' }}>
                     <h3 style={{ fontFamily: 'var(--ds-serif)', fontWeight: 400, fontSize: 32, margin: 0, color: 'var(--ds-ink)' }}>{p.k}</h3>
                     <span style={{ fontFamily: 'var(--ds-serif)', fontSize: 32, color: p.color }}>≈{p.h} h</span>
@@ -114,7 +100,7 @@ export default function DatasetsHub() {
               ))}
               <div className="ds-card" style={{ background: 'var(--ds-ink)', color: '#c9c5d8', borderColor: 'var(--ds-ink)' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '1rem' }}>
-                  <h3 style={{ fontFamily: 'var(--ds-serif)', fontWeight: 400, fontSize: 32, margin: 0, color: '#fff' }}>LibriBrain<i style={{ color: '#c4b5fd' }}>100</i></h3>
+                  <h3 style={{ fontFamily: 'var(--ds-serif)', fontWeight: 400, fontSize: 32, margin: 0, color: '#fff' }}>LibriBrain100</h3>
                   <span style={{ fontFamily: 'var(--ds-serif)', fontSize: 32, color: '#c4b5fd' }}>104.2 h</span>
                 </div>
                 <div style={{ fontFamily: 'var(--ds-mono)', fontSize: 12.5, color: '#8a85a0' }}>from pnpl.datasets import LibriBrain100</div>
@@ -123,16 +109,16 @@ export default function DatasetsHub() {
                 </p>
               </div>
             </div>
-          </Reveal>
+          </div>
 
           {/* comparison */}
-          <Reveal style={{ marginTop: 'clamp(3rem, 6vw, 4.5rem)' }}>
+          <div style={{ marginTop: 'clamp(3rem, 6vw, 4.5rem)' }}>
             <div className="ds-table-wrap">
               <table className="ds-table">
                 <thead><tr><th></th><th>LibriBrain</th><th>LibriBrain100</th></tr></thead>
                 <tbody>
                   {[
-                    ['Released', 'June 2025 · NeurIPS 2025 D&B', 'August 2026'],
+                    ['Released', 'June 2025 · NeurIPS 2025 Datasets & Benchmarks', 'August 2026 · NeurIPS 2026 Evaluations & Datasets'],
                     ['Total MEG', '52.3 h', '104.2 h'],
                     ['Participants', '1 (sub-0)', '33: sub-0 (80.5 h) + sub-1…32 (~44 min each)'],
                     ['Stimuli', 'Sherlock Holmes, books 1–7 (LibriVox)', 'All 9 Sherlock books, TIMIT, MOCHA-TIMIT, 30 Moth stories'],
@@ -147,15 +133,15 @@ export default function DatasetsHub() {
                 </tbody>
               </table>
             </div>
-          </Reveal>
+          </div>
         </div>
       </section>
 
       {/* which one */}
       <section className="ds-section ds-section-tint">
         <div className="ds-wrap">
-          <SectionHead kicker="Which data should I use?" title={<>I want to <em>…</em></>} />
-          <Reveal>
+          <SectionHead title="Which data should I use?" />
+          <div>
             <div className="ds-cols-2">
               <div style={{ display: 'grid', gap: '0.5rem' }}>
                 {USES.map((u, i) => (
@@ -175,21 +161,21 @@ export default function DatasetsHub() {
                 <p className="ds-note">The full selector syntax is on the <Link href="/datasets/libribrain100/#start" className="ds-link-arrow" style={{ fontSize: 12.5 }}>LibriBrain100 page</Link>.</p>
               </div>
             </div>
-          </Reveal>
+          </div>
         </div>
       </section>
 
       {/* ecosystem */}
       <section className="ds-section">
         <div className="ds-wrap">
-          <SectionHead kicker="Ecosystem" title={<>Data, tools, competitions, <em>community</em></>}>
+          <SectionHead title="Ecosystem">
             <p className="ds-p">
               The datasets are one part of a larger loop. The <code>pnpl</code> library makes them easy to load, open competitions turn them into shared benchmarks, and the
               results come back as papers, models and blog posts that set the next round&apos;s baselines.
             </p>
           </SectionHead>
           <div className="ds-cols-2">
-            <Reveal>
+            <div>
               <div style={{ display: 'grid', gap: '0.9rem' }}>
                 {[
                   { t: 'pnpl', d: 'The Python library: download, preprocess and load as PyTorch datasets.', href: 'https://github.com/neural-processing-lab/pnpl', ext: true },
@@ -213,8 +199,8 @@ export default function DatasetsHub() {
                 })}
               </div>
               <Downloads />
-            </Reveal>
-            <Reveal delay={100}><EcosystemTimeline /></Reveal>
+            </div>
+            <div><EcosystemTimeline /></div>
           </div>
         </div>
       </section>

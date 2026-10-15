@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useInView } from './ui';
 
 interface DS {
   key: string; name: string; cite: string; modality: 'MEG' | 'EEG'; lang: string; subj: number; hps: number; total: number; stimulus: string;
@@ -36,7 +35,6 @@ const STEPS = ['Before LibriBrain', '+ LibriBrain (2025)', '+ LibriBrain100 (202
 export default function Landscape({ initialStep = 2, maxStep = 2 }: { initialStep?: number; maxStep?: number }) {
   const [step, setStep] = useState(initialStep);
   const [hover, setHover] = useState<string | null>(null);
-  const [ref, inView] = useInView<HTMLDivElement>();
   const W = 640, H = 400, L = 56, R = 24, T = 20, B = 46;
   const X = (s: number) => r2(L + (Math.log10(s) / Math.log10(500)) * (W - L - R));
   const Y = (h: number) => r2(T + (1 - (Math.log10(h) + 1) / 3) * (H - T - B)); // 0.1 .. 100
@@ -44,7 +42,7 @@ export default function Landscape({ initialStep = 2, maxStep = 2 }: { initialSte
   const shown = DATA.filter(d => d.era <= step);
   const hv = DATA.find(d => d.key === hover);
   return (
-    <div ref={ref}>
+    <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
         <div className="ds-seg" role="group" aria-label="Timeline">
           {STEPS.slice(0, maxStep + 1).map((s, i) => <button key={s} aria-pressed={step === i} onClick={() => setStep(i)}>{s}</button>)}
@@ -62,17 +60,16 @@ export default function Landscape({ initialStep = 2, maxStep = 2 }: { initialSte
           </defs>
           {[0.1, 1, 10, 100].map(h => <g key={h}><line className="grid" x1={L} x2={W - R} y1={Y(h)} y2={Y(h)} /><text className="ax" x={L - 8} y={Y(h) + 4} textAnchor="end">{h}</text></g>)}
           {[1, 3, 10, 30, 100, 300].map(s => <g key={s}><line className="grid" x1={X(s)} x2={X(s)} y1={T} y2={H - B} /><text className="ax" x={X(s)} y={H - B + 18} textAnchor="middle">{s}</text></g>)}
-          <text className="ax-title" x={(L + W - R) / 2} y={H - 6} textAnchor="middle">BREADTH · NUMBER OF SUBJECTS</text>
-          <text className="ax-title" x={14} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 14 ${(T + H - B) / 2})`}>DEPTH · HOURS PER SUBJECT</text>
+          <text className="ax-title" x={(L + W - R) / 2} y={H - 6} textAnchor="middle">Subjects (breadth)</text>
+          <text className="ax-title" x={14} y={(T + H - B) / 2} textAnchor="middle" transform={`rotate(-90 14 ${(T + H - B) / 2})`}>Hours per subject (depth)</text>
           <text x={W - R - 4} y={T + 14} textAnchor="end" fontSize="11" fill="#a9a5b8" fontFamily="var(--ds-mono)">broad &amp; deep →</text>
           {shown.map(d => {
             const isLB = d.era > 0;
             const cx = X(d.subj), cy = Y(d.hps), r = rad(d.total);
             const dim = hover && hover !== d.key ? 0.35 : 1;
             return (
-              <g key={d.key} onPointerEnter={() => setHover(d.key)} onPointerLeave={() => setHover(null)} style={{ cursor: 'pointer', opacity: inView ? dim : 0, transition: 'opacity 0.6s ease' }}>
-                {isLB && <circle cx={cx} cy={cy} r={r * 2.4} fill="url(#lbglow)" />}
-                {d.range && (
+              <g key={d.key} onPointerEnter={() => setHover(d.key)} onPointerLeave={() => setHover(null)} style={{ cursor: 'pointer', opacity: dim, transition: 'opacity 0.2s' }}>
+                                {d.range && (
                   <g>
                     <line x1={cx} x2={cx} y1={Y(d.range[0])} y2={Y(d.range[1])} stroke="#7c3aed" strokeWidth={3} strokeLinecap="round" strokeDasharray="2 5" />
                     <circle cx={cx} cy={Y(0.74)} r={7} fill="#a855f7" stroke="#fff" strokeWidth={2} />
@@ -82,8 +79,7 @@ export default function Landscape({ initialStep = 2, maxStep = 2 }: { initialSte
                 <circle cx={cx} cy={cy} r={r}
                   fill={d.modality === 'MEG' ? (isLB ? '#7c3aed' : '#c4b5fd') : '#fff'}
                   fillOpacity={isLB ? 0.92 : d.modality === 'MEG' ? 0.75 : 0.6}
-                  stroke={isLB ? '#5b21b6' : d.modality === 'MEG' ? '#8b5cf6' : '#a9a5b8'} strokeWidth={1.5}
-                  style={{ transformOrigin: `${cx}px ${cy}px`, animation: isLB ? 'dsPulse 3.2s ease-in-out infinite' : undefined }} />
+                  stroke={isLB ? '#5b21b6' : d.modality === 'MEG' ? '#8b5cf6' : '#a9a5b8'} strokeWidth={1.5} />
                 {(() => {
                   const p = d.lab ?? 'r';
                   const dx = p.includes('l') ? -r - 5 : p.includes('r') ? r + 6 : 0;

@@ -66,7 +66,13 @@ for e in ev:
             phons.append([e["seg"].split("_")[0], round(e["t"] - A, 3), round(e["dur"], 3)])
 sil = [[round(e["t"] - A, 3), round(e["dur"], 3)] for e in ev if e["kind"] == "silence" and A <= e["t"] < B]
 
-json.dump(dict(fs=50, n=int(i1 - i0), nsens=len(mag), start=A, words=words, phonemes=phons, silences=sil,
+# loudness envelope of the narration at 50 Hz (for the hero ridgeline)
+env = np.abs(signal.hilbert(clip))
+env = signal.sosfiltfilt(signal.butter(4, 8, fs=sr, output="sos"), env)
+env = signal.resample_poly(env, 50, sr)[: int(i1 - i0)]
+env = np.clip(env / np.percentile(env, 99), 0, 1.2)
+
+json.dump(dict(fs=50, n=int(i1 - i0), nsens=len(mag), start=A, env=np.round(env, 3).tolist(), words=words, phonemes=phons, silences=sil,
                layout=layout, session="sub-0 · ses-1 · A Study in Scarlet, Chapter 1"),
           open(f"{OUT}/clip.json", "w"), separators=(",", ":"))
 

@@ -50,12 +50,12 @@ export function BubblePack({ height = 430 }: { height?: number }) {
       <svg viewBox={`0 0 700 ${height}`} style={{ width: '100%', height: 'auto', display: 'block', overflow: 'visible' }} role="img" aria-label="Bubble chart: sub-0's 80 hours split into corpora, beside 32 small circles for the broad subjects">
         {mounted && (
           <g>
-            <circle cx={230} cy={215} r={layout.outerR} fill="rgba(74,123,208,0.06)" stroke="#4a7bd0" strokeWidth={2} strokeDasharray="1 0" style={{ animation: 'dsFloat 9s ease-in-out infinite' }} />
+            <circle cx={230} cy={215} r={layout.outerR} fill="rgba(74,123,208,0.06)" stroke="#4a7bd0" strokeWidth={2} />
             <text x={230} y={215 - layout.outerR - 12} textAnchor="middle" fontFamily="var(--ds-serif)" fontSize={26} fill="#0b0a1a">sub-0 · 80.5 h</text>
             {layout.deep.map((b, i) => (
               <g key={b.id} onPointerEnter={() => setHover(b)} onPointerLeave={() => setHover(null)} style={{ cursor: 'default' }}>
                 <circle cx={b.x} cy={b.y} r={b.r} fill={b.color} stroke="#fff" strokeWidth={1.5}
-                  style={{ transformOrigin: `${b.x}px ${b.y}px`, animation: `dsPop 0.7s ${i * 60}ms both cubic-bezier(.3,1.4,.4,1)`, opacity: hover && hover.id !== b.id ? 0.6 : 1 }} />
+                  style={{ opacity: hover && hover.id !== b.id ? 0.6 : 1 }} />
                 {b.r > 22 && <text x={b.x} y={b.y + 4} textAnchor="middle" fontSize={b.r > 34 ? 12.5 : 10.5} fontWeight={600} fill="#fff" style={{ pointerEvents: 'none' }}>{b.label}</text>}
               </g>
             ))}
@@ -64,7 +64,7 @@ export function BubblePack({ height = 430 }: { height?: number }) {
             {layout.broad.map((b, i) => (
               <circle key={b.id} cx={b.x} cy={b.y} r={b.r} fill={b.color} fillOpacity={0.85} stroke="#fff" strokeWidth={1.2}
                 onPointerEnter={() => setHover(b)} onPointerLeave={() => setHover(null)}
-                style={{ transformOrigin: `${b.x}px ${b.y}px`, animation: `dsPop 0.6s ${700 + i * 25}ms both cubic-bezier(.3,1.4,.4,1)`, opacity: hover && hover.id !== b.id ? 0.55 : 1 }} />
+                style={{ opacity: hover && hover.id !== b.id ? 0.55 : 1 }} />
             ))}
           </g>
         )}
@@ -75,7 +75,6 @@ export function BubblePack({ height = 430 }: { height?: number }) {
           <span className="m">{hover.h >= 1 ? `${hover.h.toFixed(1)} h` : `≈${Math.round(hover.h * 60)} min`} · {hover.id.startsWith('s') ? 'Sherlock Book 1, ch. 11–12' : 'sub-0'}</span>
         </div>
       )}
-      <style>{`@keyframes dsPop { from { transform: scale(0); opacity: 0 } to { transform: scale(1); opacity: 1 } }`}</style>
     </div>
   );
 }

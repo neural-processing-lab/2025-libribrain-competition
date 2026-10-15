@@ -25,7 +25,7 @@ export default function SubjectEvoked({ dir }: { dir: string }) {
       <div>
         <svg viewBox={`0 0 ${W} ${H}`} className="ds-chart" style={{ width: '100%', height: 'auto' }} role="img" aria-label="Normalised word-onset responses for each subject">
           {[-200, 0, 200, 400, 600, 800].map(ms => { const k = (ms + 200) / 10; return <g key={ms}><line className="grid" x1={X(k)} x2={X(k)} y1={T} y2={H - B} /><text className="ax" x={X(k)} y={H - B + 16} textAnchor="middle">{ms}</text></g>; })}
-          <text className="ax-title" x={(L + W - R) / 2} y={H - 2} textAnchor="middle">TIME FROM WORD ONSET (MS)</text>
+          <text className="ax-title" x={(L + W - R) / 2} y={H - 2} textAnchor="middle">Time from word onset (ms)</text>
           <line x1={X(20)} x2={X(20)} y1={T} y2={H - B} stroke="#0b0a1a" strokeOpacity={0.4} strokeDasharray="3 3" />
           {norm.map((r, k) => (
             <path key={k} d={path(r)} fill="none" stroke={SUBJ_COLORS[k % SUBJ_COLORS.length]} strokeWidth={hover === k ? 2.6 : 1.3} strokeOpacity={hover === null || hover === k ? 0.9 : 0.15}

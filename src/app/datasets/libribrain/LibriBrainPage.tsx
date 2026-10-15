@@ -3,14 +3,14 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import MegPlayer from '../_components/MegPlayer';
-import SensorHelmet from '../_components/SensorHelmet';
+import Ridgeline from '../_components/Ridgeline';
 import EvokedExplorer from '../_components/EvokedExplorer';
 import Landscape from '../_components/Landscape';
 import Bookshelf from '../_components/Bookshelf';
 import { PipelineStepper, SplitStrip } from '../_components/Recording';
 import { PhonemeInventory, ZipfExplorer } from '../_components/Linguistics';
 import { LineChart } from '../_components/charts';
-import { CodeBlock, Figure, Icon, PageToc, Reveal, SectionHead, Seg, Stat } from '../_components/ui';
+import { CodeBlock, Figure, Icon, PageToc, SectionHead, Seg, Stat } from '../_components/ui';
 import { EcosystemTimeline, Downloads } from '../_components/Ecosystem';
 
 const DIR = '/datasets/libribrain';
@@ -26,9 +26,6 @@ const TOC = [
   { id: 'ecosystem', label: 'Ecosystem' },
   { id: 'start', label: 'Get started' },
 ];
-
-const HERO_ACCENT = [196, 181, 253];
-const HERO_HOT = [251, 113, 133];
 
 const QUICKSTART = `# pip install pnpl
 from pnpl.datasets import LibriBrainSpeech, LibriBrainPhoneme
@@ -94,16 +91,12 @@ export default function LibriBrainPage() {
     <>
       {/* ── HERO ───────────────────────────────────────── */}
       <section className="ds-hero">
-        <div className="hero-blob" style={{ width: 520, height: 520, background: '#c4b5fd', top: -160, right: '8%', opacity: 0.35, animation: 'blobFloat1 14s ease-in-out infinite' }} />
-        <div className="hero-blob" style={{ width: 420, height: 420, background: '#fecdd3', bottom: -120, left: '-6%', opacity: 0.4, animation: 'blobFloat2 16s ease-in-out infinite' }} />
         <div className="ds-wrap">
-          <div className="ds-hero-grid">
-            <Reveal>
-              <span className="ds-kicker">Dataset · NeurIPS 2025 Datasets &amp; Benchmarks</span>
-              <h1 className="ds-title">Libri<em>Brain</em></h1>
+          <div className="ds-narrow">
+              <h1 className="ds-title">LibriBrain</h1>
               <p className="ds-lede">
                 <strong>Over 50 hours of one person&apos;s brain</strong>, recorded with magnetoencephalography (MEG) while listening to almost the whole Sherlock Holmes canon.
-                At release it was the deepest within-subject non-invasive speech dataset ever made public: 5× larger than the next and 50× larger than most.
+                At release it was the deepest within-subject non-invasive speech dataset ever made public: 5× larger than the next and 50× larger than most. Published at NeurIPS 2025 (Datasets and Benchmarks track).
               </p>
               <div className="ds-btns">
                 <a className="ds-btn ds-btn-primary" href="https://huggingface.co/datasets/pnpl/LibriBrain" target="_blank" rel="noopener noreferrer">{Icon.hf}Hugging Face</a>
@@ -111,17 +104,10 @@ export default function LibriBrainPage() {
                 <a className="ds-btn" href="https://github.com/neural-processing-lab/pnpl" target="_blank" rel="noopener noreferrer">{Icon.code}pnpl library</a>
                 <Link className="ds-btn" href="/editions/2025/">{Icon.trophy}2025 Competition</Link>
               </div>
-            </Reveal>
-            <Reveal delay={150}>
-              <div className="ds-panel" style={{ padding: '0.4rem 0 1rem' }}>
-                <div className="ds-glow" style={{ width: 300, height: 300, background: '#6d28d9', top: '20%', left: '25%', opacity: 0.35 }} />
-                <SensorHelmet dir={DIR} height={400} accent={HERO_ACCENT} hot={HERO_HOT} />
-                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 1.2rem', gap: '1rem', flexWrap: 'wrap', position: 'relative' }}>
-                  <span className="ds-label">102 sensor sites · 306 SQUIDs</span>
-                  <span className="ds-label" style={{ color: '#fb7185' }}>● glow = real gradiometer power</span>
-                </div>
-              </div>
-            </Reveal>
+          </div>
+          <div className="ds-hero-viz">
+            <Ridgeline dir="/datasets/libribrain" height={420} />
+            <p className="ds-note" style={{ marginTop: '0.6rem' }}>Real data: 40 of the 102 magnetometers, ordered front to back across the head, as sub-0 hears the opening of <i>A Study in Scarlet</i>. The violet line at the front is the loudness of the narration.</p>
           </div>
           <div className="ds-stats">
             <Stat value={52.3} digits={1} unit="h" label="of MEG from a single participant" />
@@ -138,15 +124,15 @@ export default function LibriBrainPage() {
       {/* ── 01 LISTEN ─────────────────────────────────── */}
       <section id="listen" className="ds-section ds-section-dark" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="01" kicker="Listen" title={<>Watch the brain <em>listen</em></>}>
+          <SectionHead title="A minute of the recording">
             <p className="ds-p">
               Press play. This is real LibriBrain data: the first minute of Chapter 1 of <i>A Study in Scarlet</i>, as heard by our participant inside the scanner.
               You hear the audiobook. Above it, the transcript and its forced-aligned phonemes light up. Below it, eight of the 306 MEG channels and a live top-down
               map of the magnetic field over the head run in sync.
             </p>
           </SectionHead>
-          <Reveal><MegPlayer dir={DIR} title="“In the year 1878 I took my degree of Doctor of Medicine…”" /></Reveal>
-          <Reveal>
+          <div><MegPlayer dir={DIR} title="“In the year 1878 I took my degree of Doctor of Medicine…”" /></div>
+          <div>
             <div className="ds-cols" style={{ marginTop: '2rem' }}>
               <div>
                 <h3 className="ds-h3" style={{ color: '#fff' }}>What you are seeing</h3>
@@ -171,7 +157,7 @@ export default function LibriBrainPage() {
                 </p>
               </div>
             </div>
-          </Reveal>
+          </div>
         </div>
       </section>
 
@@ -179,7 +165,7 @@ export default function LibriBrainPage() {
       <section id="depth" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
           <div className="ds-cols-2">
-            <SectionHead num="02" kicker="Why depth" title={<>One brain, <em>fifty hours</em></>}>
+            <SectionHead title="Why one person, for fifty hours">
               <p className="ds-p">
                 Surgically implanted speech BCIs now decode attempted speech from paralysed patients with word error rates below 5%. They get there with dozens of hours of data
                 <i> per person</i>. Non-invasive datasets, by contrast, have mostly been <b>broad but shallow</b>: many participants, one or two hours each.
@@ -189,10 +175,10 @@ export default function LibriBrainPage() {
                 depth: one healthy, native English-speaking volunteer recorded across 95 sessions, more than 5× the previous deepest MEG speech dataset.
               </p>
             </SectionHead>
-            <Reveal delay={100}>
+            <div>
               <Landscape initialStep={1} maxStep={1} />
               <p className="ds-note">Hover a bubble for details. Values are from Table 1 of the LibriBrain paper; LibriBrain100 extends this picture (see the <Link href="/datasets/libribrain100/" className="ds-link-arrow" style={{ fontSize: 12.5 }}>LibriBrain100 page</Link>).</p>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -200,17 +186,17 @@ export default function LibriBrainPage() {
       {/* ── 03 CANON ──────────────────────────────────── */}
       <section id="canon" className="ds-section ds-section-tint" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="03" kicker="The canon" title={<>Seven books, <em>one narrator</em></>}>
+          <SectionHead title="Seven books, one narrator">
             <p className="ds-p">
               Inspired by LibriSpeech, every stimulus comes from <a href="https://librivox.org/" target="_blank" rel="noopener noreferrer">LibriVox</a>, so both audio and text are in the public domain.
               Our participant heard the first seven Sherlock Holmes books in publication order, one chapter per run, all read by David Clarke in a General British accent.
               As with a single-speaker ASR corpus, holding the voice fixed minimises acoustic variance so models can focus on the brain.
             </p>
           </SectionHead>
-          <Reveal><Bookshelf upTo={7} /></Reveal>
+          <div><Bookshelf upTo={7} /></div>
 
           <div className="ds-cols-2" style={{ marginTop: 'clamp(3rem, 6vw, 4.5rem)' }}>
-            <Reveal>
+            <div>
               <h3 className="ds-h3">Splits designed against leakage</h3>
               <p className="ds-p-sm">
                 MNIST, CIFAR and ImageNet made progress measurable through shared splits. In neuroimaging, test data drawn from the same session as training data can leak through slow
@@ -218,8 +204,8 @@ export default function LibriBrainPage() {
                 Chapter 12 is test, and Chapters 13–14 were held back for the 2025 competition.
               </p>
               <SplitStrip variant="libribrain" />
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <div className="ds-table-wrap">
                 <table className="ds-table">
                   <thead><tr><th>Split</th><th className="num">Words</th><th className="num">Unique</th><th className="num">Phonemes</th><th className="num">Sessions</th><th className="num">Hours</th></tr></thead>
@@ -232,7 +218,7 @@ export default function LibriBrainPage() {
                 </table>
               </div>
               <p className="ds-note">Table 3 of the paper. The two competition-holdout sessions (≈41 min) are excluded.</p>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -240,14 +226,14 @@ export default function LibriBrainPage() {
       {/* ── 04 RECORDING ──────────────────────────────── */}
       <section id="recording" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="04" kicker="Recording" title={<>From magnetic whispers <em>to tensors</em></>}>
+          <SectionHead title="Recording and preprocessing">
             <p className="ds-p">
               MEG measures the tiny magnetic fields produced by synchronised currents in cortex, using superconducting sensors (SQUIDs) bathed in liquid helium. It has millisecond
               timing like EEG, but the skull barely distorts magnetic fields, so the spatial picture is sharper. Everything was recorded at the Oxford Centre for Human Brain Activity (OHBA).
             </p>
           </SectionHead>
           <div className="ds-cols-2">
-            <Reveal>
+            <div>
               <div style={{ display: 'grid', gap: '0.9rem' }}>
                 {[
                   ['Scanner', 'MEGIN TRIUX™ neo, 102 magnetometers + 204 orthogonal planar gradiometers, in a magnetically shielded room.'],
@@ -262,10 +248,10 @@ export default function LibriBrainPage() {
                   </div>
                 ))}
               </div>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <PipelineStepper />
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -273,7 +259,7 @@ export default function LibriBrainPage() {
       {/* ── 05 ANNOTATIONS ────────────────────────────── */}
       <section id="annotations" className="ds-section ds-section-tint" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="05" kicker="Annotations" title={<>200 hours of <em>painstaking</em> labelling</>}>
+          <SectionHead title="Word and phoneme annotations">
             <p className="ds-p">
               Labels make a dataset. Each chapter was first cut into utterances by voice-activity detection in Praat (59 dB threshold, at least 600 ms), then corrected by hand:
               recovering clipped plosives, reconciling text with what the narrator actually said, and normalising numbers (is “1066” <i>ten sixty-six</i> or <i>one thousand and sixty-six</i>?).
@@ -281,7 +267,7 @@ export default function LibriBrainPage() {
             </p>
           </SectionHead>
           <div className="ds-cols-2">
-            <Reveal>
+            <div>
               <div className="ds-label" style={{ marginBottom: 8 }}>sub-0_ses-1_task-Sherlock1_run-1_events.tsv</div>
               <div className="ds-table-wrap">
                 <table className="ds-table" style={{ fontFamily: 'var(--ds-mono)', fontSize: 12.5 }}>
@@ -297,8 +283,8 @@ export default function LibriBrainPage() {
                 </table>
               </div>
               <p className="ds-note">The first rows of the very first session. Real event files also carry sentence and word indices and timings relative to the chapter.</p>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <h3 className="ds-h3">Reading an event file</h3>
               <p className="ds-p-sm">
                 Every session ships with a TSV of time-stamped <b>silences</b>, <b>words</b> and <b>phonemes</b> in 39-symbol ARPAbet. Phoneme suffixes follow Kaldi&apos;s convention for
@@ -310,16 +296,16 @@ export default function LibriBrainPage() {
                 imposing one offset, the onsets are kept at the true audio times, so you can model the latency or let your network learn it.
               </p>
               <Figure src="/datasets/figures/lb-teaser.webp" alt="Overview figure of the LibriBrain dataset: scanner illustration, aligned annotation of a sentence with MEG time series, word frequency distribution, vowel chart and consonant chart." caption={<><b>Figure 1 of the paper.</b> The annotation of “A Study in Scarlet by Sir Arthur Conan Doyle”, aligned to audio and MEG.</>} style={{ marginTop: '1.2rem' }} />
-            </Reveal>
+            </div>
           </div>
 
-          <Reveal style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
+          <div style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
             <h3 className="ds-h3">The sounds of Sherlock</h3>
             <p className="ds-p-sm" style={{ maxWidth: 720 }}>All 39 phonemes in the canon, each sized by how often our participant heard it. We computed these counts for this page from the released event files for books 1–7.</p>
             <PhonemeInventory />
-          </Reveal>
+          </div>
 
-          <Reveal style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
+          <div style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
             <div className="ds-cols-2">
               <div>
                 <h3 className="ds-h3">A long-tailed vocabulary</h3>
@@ -332,32 +318,32 @@ export default function LibriBrainPage() {
               </div>
               <ZipfExplorer />
             </div>
-          </Reveal>
+          </div>
         </div>
       </section>
 
       {/* ── 06 SIGNAL ─────────────────────────────────── */}
       <section id="signal" className="ds-section ds-section-dark" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="06" kicker="Inside the signal" title={<>Thousands of words, <em>averaged</em></>}>
+          <SectionHead title="The average response to a word">
             <p className="ds-p">
               One word is invisible in the noise, but thousands are not. Here we averaged the MEG time-locked to every word onset in one chapter, and cross-correlated the
               sensors with the loudness envelope of the narration. Both are classic auditory neuroscience, computed for this page from a single 18-minute session of LibriBrain.
             </p>
           </SectionHead>
-          <Reveal><EvokedExplorer dir={DIR} /></Reveal>
-          <Reveal>
+          <div><EvokedExplorer dir={DIR} /></div>
+          <div>
             <div style={{ marginTop: '2.5rem' }}>
               <Figure src="/datasets/figures/lb-signal.webp" alt="Speech versus non-speech: RMS topography, inter-trial phase coherence, and power spectra." caption={<><b>From the LibriBrain paper:</b> speech vs. silence. (A) stronger evoked amplitude over bilateral temporal sensors, (B) more phase-locking at 1–7 Hz, (C) more delta–theta power during speech.</>} />
             </div>
-          </Reveal>
+          </div>
         </div>
       </section>
 
       {/* ── 07 BENCHMARKS ─────────────────────────────── */}
       <section id="benchmarks" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="07" kicker="Benchmarks" title={<>A curriculum of <em>decoding tasks</em></>}>
+          <SectionHead title="Three decoding tasks">
             <p className="ds-p">
               Full brain-to-text from non-invasive recordings is still mostly out of reach. LibriBrain therefore defines a ladder of tasks, each a building block of a speech BCI,
               with standard splits, baselines and permutation tests. All baselines beat chance with <i>p</i> &lt; 0.01.
@@ -369,7 +355,7 @@ export default function LibriBrainPage() {
               { n: 'II', t: 'Phoneme classification', d: 'Which of 39 ARPAbet phonemes was just heard? A pillar of invasive speech decoders.', m: [['Micro-F1', '0.117', '0.044'], ['Macro AUROC', '0.653', '0.500'], ['Bal. acc.', '0.040', '0.026']] },
               { n: 'III', t: 'Word classification', d: 'Which of the 250 most frequent words was heard? Following d’Ascoli et al. and Jayalath et al.', m: [['Top-10 bal. acc.', '0.362', '0.040'], ['vs. Armeni', '0.326', ''], ['Coverage', '67.9%', '']] },
             ].map((c, k) => (
-              <Reveal key={c.t} delay={k * 100}>
+              <div key={c.t}>
                 <div className="ds-card" style={{ height: '100%' }}>
                   <div style={{ fontFamily: 'var(--ds-serif)', fontSize: 40, color: 'var(--ds-violet-l)', lineHeight: 1 }}>{c.n}</div>
                   <h3 className="ds-h3" style={{ marginTop: '0.4rem' }}>{c.t}</h3>
@@ -379,13 +365,13 @@ export default function LibriBrainPage() {
                     <tbody>{c.m.map(([a, b, d]) => <tr key={a}><td>{a}</td><td className="num" style={{ fontWeight: 650, color: 'var(--ds-ink)' }}>{b}</td><td className="num">{d}</td></tr>)}</tbody>
                   </table>
                 </div>
-              </Reveal>
+              </div>
             ))}
           </div>
           <p className="ds-note">Speech and phoneme: mean over 10 seeds with a SEANet-inspired CNN. Words: reproduced from Jayalath et al. (2025), where the top-250 vocabulary covers 67.9% of the text.</p>
 
           <div className="ds-cols-2" style={{ marginTop: 'clamp(3rem, 6vw, 4rem)' }}>
-            <Reveal>
+            <div>
               <h3 className="ds-h3">No plateau in sight</h3>
               <p className="ds-p-sm">
                 Train on random subsets of the training split and every task keeps improving roughly log-linearly with hours of data, the familiar scaling behaviour of other ML domains.
@@ -396,8 +382,8 @@ export default function LibriBrainPage() {
                 <LineChart key={task} series={sc.series} logX xLabel="Training hours" yLabel={sc.y} yMin={sc.yMin} yMax={sc.yMax} xTicks={[1, 2, 5, 10, 20, 50]} yTicks={sc.yTicks} chance={sc.chance} yFmt={v => (task === 'word' ? v.toFixed(1) : v.toFixed(2))} />
               </div>
               <p className="ds-note">Read off Fig. 3 of the paper, so values are approximate. Word results from Jayalath et al. (2025).</p>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <h3 className="ds-h3">Repetition as a BCI strategy</h3>
               <p className="ds-p-sm">
                 A user of a speech BCI could simply say things more than once. Averaging the MEG of several instances of the same phoneme before classifying them simulates exactly that,
@@ -422,7 +408,7 @@ export default function LibriBrainPage() {
                 </div>
                 <p className="ds-note">Each square is one in a hundred test phonemes, filled when correctly classified (micro-F1). Random baseline ≈ 4–9%. Read off Fig. 4 of the paper.</p>
               </div>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -430,17 +416,17 @@ export default function LibriBrainPage() {
       {/* ── 08 ECOSYSTEM ──────────────────────────────── */}
       <section id="ecosystem" className="ds-section ds-section-tint" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="08" kicker="Ecosystem" title={<>More than a dataset: <em>shared infrastructure</em></>}>
+          <SectionHead title="Competitions, papers and tools">
             <p className="ds-p">
               LibriBrain launched together with an open competition, a Python library and a public leaderboard. A year on, it underpins work on speech detection, phoneme and word decoding,
               keyword spotting and full brain-to-text, and has been downloaded more than fifty thousand times.
             </p>
           </SectionHead>
           <div className="ds-cols-2">
-            <Reveal>
+            <div>
               <div className="ds-panel" style={{ padding: '1.6rem' }}>
                 <div className="ds-glow" style={{ width: 260, height: 260, background: '#7c3aed', right: -80, top: -80, opacity: 0.35 }} />
-                <div className="ds-label" style={{ position: 'relative' }}>The 2025 PNPL Competition · NeurIPS 2025 Competition Track</div>
+                <h3 className="ds-h3" style={{ position: 'relative', color: '#fff' }}>The 2025 PNPL Competition <span style={{ color: '#8a85a0', fontWeight: 400 }}>· NeurIPS 2025 Competition Track</span></h3>
                 <div style={{ position: 'relative', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem', margin: '1.2rem 0' }}>
                   {[['155', 'registered teams'], ['6,041', 'submissions'], ['95.6%', 'top speech-detection F1-macro (baseline 68%)'], ['73.6%', 'top phoneme F1-macro (baseline 44%)']].map(([v, l]) => (
                     <div key={l}>
@@ -459,10 +445,10 @@ export default function LibriBrainPage() {
                 </div>
               </div>
               <Downloads />
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <EcosystemTimeline highlight="libribrain" />
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -470,14 +456,14 @@ export default function LibriBrainPage() {
       {/* ── 09 GET STARTED ────────────────────────────── */}
       <section id="start" className="ds-section" style={{ scrollMarginTop: 100 }}>
         <div className="ds-wrap">
-          <SectionHead num="09" kicker="Get started" title={<>Your first tensor <em>in two lines</em></>}>
+          <SectionHead title="Getting started">
             <p className="ds-p">
               The <code>pnpl</code> library downloads exactly the sessions you ask for from Hugging Face and hands you PyTorch datasets with the standard splits. You need no
               neuroimaging background. The raw FIF recordings in BIDS are there too, for those who want their own preprocessing.
             </p>
           </SectionHead>
           <div className="ds-cols-2">
-            <Reveal>
+            <div>
               <CodeBlock code={QUICKSTART} />
               <div className="ds-card" style={{ marginTop: '1.2rem' }}>
                 <div className="ds-label" style={{ marginBottom: 8 }}>Repository layout · huggingface.co/datasets/pnpl/LibriBrain</div>
@@ -490,20 +476,19 @@ metadata/
 ├── channels.tsv                  sensor names & types
 └── sensor_xyz.json               (306, 3) positions`}</pre>
               </div>
-            </Reveal>
-            <Reveal delay={100}>
+            </div>
+            <div>
               <h3 className="ds-h3">Cite LibriBrain</h3>
               <CodeBlock code={BIBTEX} lang="bibtex" />
               <div className="ds-card" style={{ marginTop: '1.2rem', borderColor: 'rgba(124,58,237,0.25)', background: 'linear-gradient(135deg, #faf8ff, #fff)' }}>
-                <div className="ds-label">What came next</div>
-                <h3 style={{ fontFamily: 'var(--ds-serif)', fontWeight: 400, fontSize: 30, color: 'var(--ds-ink)', margin: '0.3rem 0 0.5rem', lineHeight: 1.1 }}>LibriBrain<em style={{ color: 'var(--ds-violet)' }}>100</em></h3>
+                <h3 style={{ fontFamily: 'var(--ds-serif)', fontWeight: 400, fontSize: 30, color: 'var(--ds-ink)', margin: '0.3rem 0 0.5rem', lineHeight: 1.1 }}>LibriBrain100</h3>
                 <p className="ds-p-sm">
                   The paper listed LibriBrain&apos;s limits honestly: a single subject, a single genre, and passive listening. LibriBrain100 tackles the first two. It completes the canon,
                   adds TIMIT, MOCHA-TIMIT and podcasts, deepens subject 0 to ~80 h, and adds 32 new participants, for over 100 hours in total.
                 </p>
                 <Link href="/datasets/libribrain100/" className="ds-btn ds-btn-primary">Explore LibriBrain100 {Icon.arrow}</Link>
               </div>
-            </Reveal>
+            </div>
           </div>
         </div>
       </section>
