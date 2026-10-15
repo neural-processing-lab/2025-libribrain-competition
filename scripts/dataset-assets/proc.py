@@ -104,23 +104,10 @@ def process(h5_path, ev_path, wav_path, out_path):
         segz = (seg - seg.mean(1, keepdims=True)) / seg.std(1, keepdims=True)
         xc[:, j] = (segz * e[None]).mean(1)
 
-    # PSD speech vs silence (unfiltered-ish: use 50 Hz copy is band-limited; use x100 1-20)
-    def windows(intervals, L=100):
-        segs = []
-        for a, b in intervals:
-            s, t = int(a * 100), int(b * 100)
-            while s + L <= t and s + L <= x100.shape[1]:
-                segs.append(x100[:, s:s + L]); s += L
-        return segs
-    sp_int = []
-    for i in range(len(sil) - 1):
-        sp_int.append((sil[i]["t"] + sil[i]["dur"], sil[i + 1]["t"]))
-    si_int = [(s["t"], s["t"] + s["dur"]) for s in sil]
     np.savez_compressed(out_path, x50=x50.astype(np.float16), evoked=evk.astype(np.float32),
-                        evk_h1=h1.mean(0) if False else h1.astype(np.float32), evk_h2=h2.astype(np.float32),
+                        evk_h1=h1.astype(np.float32), evk_h2=h2.astype(np.float32),
                         n_epochs=len(ep), anc_t=at, anc_c=ac, xcorr=xc, lags=lags, offset=offset,
-                        types=np.array(types), names=np.array(names),
-                        sp_int=np.array(sp_int), si_int=np.array(si_int))
+                        types=np.array(types), names=np.array(names))
     print("done", out_path, "epochs", len(ep), "offset", offset, flush=True)
 
 
