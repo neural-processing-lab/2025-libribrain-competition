@@ -87,7 +87,6 @@ export default function Navigation() {
           {[
             { label: '2026', href: '/' },
             { label: '2025', href: '/editions/2025/' },
-            { label: 'Datasets', href: '/datasets/' },
             { label: 'Blog', href: '/blog/' },
             { label: 'Papers', href: '/editions/2025/workshop-papers/' },
           ].map(link => (
