@@ -190,6 +190,18 @@ export default function Edition2026Overview() {
               }}>
                 Task Details &rarr;
               </Link>
+              <Link href="/datasets/libribrain100/" style={{
+                fontSize: '14px',
+                color: '#7c3aed',
+                textDecoration: 'none',
+                background: 'transparent',
+                border: '1px solid rgba(124, 58, 237, 0.35)',
+                padding: '0.8rem 1.8rem',
+                borderRadius: '6px',
+                fontWeight: 600
+              }}>
+                Explore LibriBrain100
+              </Link>
               <Link href="/editions/2025/" style={{
                 fontSize: '14px',
                 color: '#555',
