@@ -9,20 +9,20 @@
   "teams": [
     {
       "rank": 1,
+      "teamId": 16593214,
+      "team": "MindLink",
+      "score": 0.73631,
+      "submissions": 34,
+      "lastSubmission": "2026-10-15T20:05:28.507Z",
+      "members": []
+    },
+    {
+      "rank": 2,
       "teamId": 16697275,
       "team": "Jordan Griffith",
       "score": 0.73543,
       "submissions": 41,
       "lastSubmission": "2026-10-14T23:46:48.160Z",
-      "members": []
-    },
-    {
-      "rank": 2,
-      "teamId": 16593214,
-      "team": "MindLink",
-      "score": 0.73445,
-      "submissions": 33,
-      "lastSubmission": "2026-10-15T16:58:20.790Z",
       "members": []
     },
     {
@@ -48,8 +48,8 @@
       "teamId": 17021305,
       "team": "dav0dea",
       "score": 0.72367,
-      "submissions": 67,
-      "lastSubmission": "2026-10-15T19:27:52.613Z",
+      "submissions": 73,
+      "lastSubmission": "2026-10-15T20:23:05.437Z",
       "members": []
     },
     {
@@ -108,20 +108,20 @@
     },
     {
       "rank": 12,
+      "teamId": 16885405,
+      "team": "InverseEncoder",
+      "score": 0.70079,
+      "submissions": 78,
+      "lastSubmission": "2026-10-15T21:34:21.420Z",
+      "members": []
+    },
+    {
+      "rank": 13,
       "teamId": 16781247,
       "team": "Connor Finnerty",
       "score": 0.7006,
       "submissions": 62,
       "lastSubmission": "2026-10-04T08:59:29.830Z",
-      "members": []
-    },
-    {
-      "rank": 13,
-      "teamId": 16885405,
-      "team": "InverseEncoder",
-      "score": 0.69957,
-      "submissions": 74,
-      "lastSubmission": "2026-10-15T16:20:26.800Z",
       "members": []
     },
     {
@@ -137,9 +137,9 @@
       "rank": 15,
       "teamId": 17027053,
       "team": "Hojun Yang",
-      "score": 0.68146,
-      "submissions": 85,
-      "lastSubmission": "2026-10-15T13:00:51.827Z",
+      "score": 0.68447,
+      "submissions": 92,
+      "lastSubmission": "2026-10-15T21:11:17.547Z",
       "members": []
     },
     {
@@ -478,11 +478,11 @@
   ],
   "totals": {
     "teams": 52,
-    "submissions": 1805,
-    "best": 0.73543,
+    "submissions": 1823,
+    "best": 0.73631,
     "median": 0.60512,
     "p25": 0.25868,
-    "p75": 0.6919
+    "p75": 0.69215
   },
-  "fetchedAt": "2026-10-15T19:30:07.130Z"
+  "fetchedAt": "2026-10-15T22:34:14.628Z"
 }
