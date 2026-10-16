@@ -12,8 +12,8 @@
       "teamId": 17021214,
       "team": "Brain & AI",
       "score": 0.81292,
-      "submissions": 125,
-      "lastSubmission": "2026-10-15T10:29:59.637Z",
+      "submissions": 135,
+      "lastSubmission": "2026-10-16T05:42:43.520Z",
       "members": []
     },
     {
@@ -21,8 +21,8 @@
       "teamId": 16781466,
       "team": "Munich Logic Lab",
       "score": 0.76507,
-      "submissions": 100,
-      "lastSubmission": "2026-10-15T01:54:06.747Z",
+      "submissions": 103,
+      "lastSubmission": "2026-10-16T08:12:49.667Z",
       "members": []
     },
     {
@@ -39,8 +39,8 @@
       "teamId": 17022110,
       "team": "linkP",
       "score": 0.75185,
-      "submissions": 99,
-      "lastSubmission": "2026-10-16T01:09:12.097Z",
+      "submissions": 103,
+      "lastSubmission": "2026-10-16T06:33:34.873Z",
       "members": []
     },
     {
@@ -63,6 +63,15 @@
     },
     {
       "rank": 7,
+      "teamId": 17075188,
+      "team": "Noah Ocepo",
+      "score": 0.73829,
+      "submissions": 43,
+      "lastSubmission": "2026-10-16T08:06:04.810Z",
+      "members": []
+    },
+    {
+      "rank": 8,
       "teamId": 17027046,
       "team": "Hojun Yang",
       "score": 0.73795,
@@ -71,7 +80,7 @@
       "members": []
     },
     {
-      "rank": 8,
+      "rank": 9,
       "teamId": 16739385,
       "team": "Varshith Madishetty",
       "score": 0.73717,
@@ -80,16 +89,16 @@
       "members": []
     },
     {
-      "rank": 9,
+      "rank": 10,
       "teamId": 16553979,
       "team": "MindLink",
       "score": 0.73631,
-      "submissions": 303,
-      "lastSubmission": "2026-10-16T04:39:07.600Z",
+      "submissions": 305,
+      "lastSubmission": "2026-10-16T09:23:56.753Z",
       "members": []
     },
     {
-      "rank": 10,
+      "rank": 11,
       "teamId": 17056936,
       "team": "orionleeke",
       "score": 0.73631,
@@ -98,7 +107,7 @@
       "members": []
     },
     {
-      "rank": 11,
+      "rank": 12,
       "teamId": 16697258,
       "team": "Jordan Griffith",
       "score": 0.73543,
@@ -107,7 +116,7 @@
       "members": []
     },
     {
-      "rank": 12,
+      "rank": 13,
       "teamId": 17035910,
       "team": "yu_kuo14",
       "score": 0.73301,
@@ -116,7 +125,7 @@
       "members": []
     },
     {
-      "rank": 13,
+      "rank": 14,
       "teamId": 17020928,
       "team": "Stéphane d'Ascoli",
       "score": 0.73092,
@@ -125,7 +134,7 @@
       "members": []
     },
     {
-      "rank": 14,
+      "rank": 15,
       "teamId": 16785989,
       "team": "Jatin Arutla",
       "score": 0.72982,
@@ -134,7 +143,7 @@
       "members": []
     },
     {
-      "rank": 15,
+      "rank": 16,
       "teamId": 16809002,
       "team": "noah",
       "score": 0.72728,
@@ -143,7 +152,7 @@
       "members": []
     },
     {
-      "rank": 16,
+      "rank": 17,
       "teamId": 17060836,
       "team": "Rohit Ravi",
       "score": 0.72429,
@@ -152,7 +161,7 @@
       "members": []
     },
     {
-      "rank": 17,
+      "rank": 18,
       "teamId": 16953455,
       "team": "NeuroMTEC",
       "score": 0.71815,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16779211,
       "team": "ottietjesesakfs",
       "score": 0.71799,
@@ -170,7 +179,7 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 17081782,
       "team": "francescoilsazio",
       "score": 0.71745,
@@ -179,7 +188,7 @@
       "members": []
     },
     {
-      "rank": 20,
+      "rank": 21,
       "teamId": 16685441,
       "team": "titus fisher",
       "score": 0.71732,
@@ -188,7 +197,7 @@
       "members": []
     },
     {
-      "rank": 21,
+      "rank": 22,
       "teamId": 17023298,
       "team": "snute220905",
       "score": 0.71711,
@@ -197,7 +206,16 @@
       "members": []
     },
     {
-      "rank": 22,
+      "rank": 23,
+      "teamId": 16885403,
+      "team": "InverseEncoder",
+      "score": 0.71679,
+      "submissions": 93,
+      "lastSubmission": "2026-10-16T08:13:39.270Z",
+      "members": []
+    },
+    {
+      "rank": 24,
       "teamId": 16667929,
       "team": "Umur Yıldız",
       "score": 0.7148,
@@ -206,25 +224,16 @@
       "members": []
     },
     {
-      "rank": 23,
-      "teamId": 16885403,
-      "team": "InverseEncoder",
-      "score": 0.70909,
-      "submissions": 83,
-      "lastSubmission": "2026-10-15T20:52:23.480Z",
-      "members": []
-    },
-    {
-      "rank": 24,
+      "rank": 25,
       "teamId": 16685400,
       "team": "saharacamel",
-      "score": 0.70849,
-      "submissions": 141,
-      "lastSubmission": "2026-10-15T19:53:24.690Z",
+      "score": 0.71432,
+      "submissions": 151,
+      "lastSubmission": "2026-10-16T09:20:17.810Z",
       "members": []
     },
     {
-      "rank": 25,
+      "rank": 26,
       "teamId": 16781245,
       "team": "Connor Finnerty",
       "score": 0.70621,
@@ -233,21 +242,12 @@
       "members": []
     },
     {
-      "rank": 26,
+      "rank": 27,
       "teamId": 16983055,
       "team": "BNEL",
       "score": 0.70278,
       "submissions": 57,
       "lastSubmission": "2026-10-11T21:51:13.530Z",
-      "members": []
-    },
-    {
-      "rank": 27,
-      "teamId": 17075188,
-      "team": "Noah Ocepo",
-      "score": 0.70099,
-      "submissions": 41,
-      "lastSubmission": "2026-10-15T23:30:14.843Z",
       "members": []
     },
     {
@@ -282,8 +282,8 @@
       "teamId": 17012370,
       "team": "Dimitar Terziev",
       "score": 0.69483,
-      "submissions": 137,
-      "lastSubmission": "2026-10-15T14:31:05.790Z",
+      "submissions": 139,
+      "lastSubmission": "2026-10-16T09:06:53.377Z",
       "members": []
     },
     {
@@ -300,8 +300,8 @@
       "teamId": 17035541,
       "team": "Picu",
       "score": 0.68772,
-      "submissions": 28,
-      "lastSubmission": "2026-10-15T11:20:57.857Z",
+      "submissions": 29,
+      "lastSubmission": "2026-10-16T08:41:26.393Z",
       "members": []
     },
     {
@@ -327,8 +327,8 @@
       "teamId": 16510893,
       "team": "MindReaders2.0",
       "score": 0.6821,
-      "submissions": 242,
-      "lastSubmission": "2026-10-15T19:01:20.547Z",
+      "submissions": 246,
+      "lastSubmission": "2026-10-16T08:27:23.797Z",
       "members": []
     },
     {
@@ -342,6 +342,15 @@
     },
     {
       "rank": 38,
+      "teamId": 17067118,
+      "team": "Nobel Suhendra",
+      "score": 0.67653,
+      "submissions": 18,
+      "lastSubmission": "2026-10-16T09:14:52.813Z",
+      "members": []
+    },
+    {
+      "rank": 39,
       "teamId": 16969296,
       "team": "Viacheslav Fokin",
       "score": 0.67506,
@@ -350,7 +359,7 @@
       "members": []
     },
     {
-      "rank": 39,
+      "rank": 40,
       "teamId": 16803215,
       "team": "peperonata",
       "score": 0.66486,
@@ -359,7 +368,7 @@
       "members": []
     },
     {
-      "rank": 40,
+      "rank": 41,
       "teamId": 17064535,
       "team": "KLab",
       "score": 0.66376,
@@ -368,21 +377,12 @@
       "members": []
     },
     {
-      "rank": 41,
+      "rank": 42,
       "teamId": 16499485,
       "team": "Michael Ibrahim",
       "score": 0.66246,
       "submissions": 38,
       "lastSubmission": "2026-10-15T12:03:41.760Z",
-      "members": []
-    },
-    {
-      "rank": 42,
-      "teamId": 17067118,
-      "team": "Nobel Suhendra",
-      "score": 0.662,
-      "submissions": 8,
-      "lastSubmission": "2026-10-15T23:27:15.833Z",
       "members": []
     },
     {
@@ -579,8 +579,8 @@
       "teamId": 16700843,
       "team": "kongxuan47",
       "score": 0.48382,
-      "submissions": 5,
-      "lastSubmission": "2026-10-15T16:34:00.797Z",
+      "submissions": 6,
+      "lastSubmission": "2026-10-16T07:13:27.027Z",
       "members": []
     },
     {
@@ -847,11 +847,11 @@
   ],
   "totals": {
     "teams": 93,
-    "submissions": 4708,
+    "submissions": 4767,
     "best": 0.81292,
     "median": 0.65278,
     "p25": 0.33427,
-    "p75": 0.70849
+    "p75": 0.7148
   },
-  "fetchedAt": "2026-10-16T04:59:56.268Z"
+  "fetchedAt": "2026-10-16T09:30:39.552Z"
 }
