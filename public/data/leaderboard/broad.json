@@ -54,20 +54,20 @@
     },
     {
       "rank": 6,
+      "teamId": 17022301,
+      "team": "linkP",
+      "score": 0.72301,
+      "submissions": 89,
+      "lastSubmission": "2026-10-16T01:07:53.397Z",
+      "members": []
+    },
+    {
+      "rank": 7,
       "teamId": 17075191,
       "team": "Noah Ocepo",
       "score": 0.71852,
       "submissions": 43,
       "lastSubmission": "2026-10-15T23:31:23.173Z",
-      "members": []
-    },
-    {
-      "rank": 7,
-      "teamId": 17022301,
-      "team": "linkP",
-      "score": 0.71831,
-      "submissions": 86,
-      "lastSubmission": "2026-10-16T00:29:04.563Z",
       "members": []
     },
     {
@@ -92,9 +92,9 @@
       "rank": 10,
       "teamId": 17060835,
       "team": "Rohit Ravi",
-      "score": 0.70958,
-      "submissions": 25,
-      "lastSubmission": "2026-10-14T16:33:15.343Z",
+      "score": 0.71093,
+      "submissions": 26,
+      "lastSubmission": "2026-10-16T03:21:51.707Z",
       "members": []
     },
     {
@@ -144,15 +144,24 @@
     },
     {
       "rank": 16,
-      "teamId": 16866088,
-      "team": "NeuroMTEC",
-      "score": 0.67328,
-      "submissions": 5,
-      "lastSubmission": "2026-10-15T23:45:38.073Z",
+      "teamId": 17123219,
+      "team": "Valmik Nahata",
+      "score": 0.67787,
+      "submissions": 19,
+      "lastSubmission": "2026-10-16T04:01:23.957Z",
       "members": []
     },
     {
       "rank": 17,
+      "teamId": 16866088,
+      "team": "NeuroMTEC",
+      "score": 0.67483,
+      "submissions": 6,
+      "lastSubmission": "2026-10-16T01:35:01.737Z",
+      "members": []
+    },
+    {
+      "rank": 18,
       "teamId": 16927415,
       "team": "cfw21w2",
       "score": 0.67261,
@@ -161,7 +170,7 @@
       "members": []
     },
     {
-      "rank": 18,
+      "rank": 19,
       "teamId": 16981137,
       "team": "Karahan Yılmazer",
       "score": 0.67128,
@@ -170,21 +179,12 @@
       "members": []
     },
     {
-      "rank": 19,
+      "rank": 20,
       "teamId": 16661195,
       "team": "JovanaLab",
       "score": 0.6673,
       "submissions": 48,
       "lastSubmission": "2026-08-19T04:51:40.873Z",
-      "members": []
-    },
-    {
-      "rank": 20,
-      "teamId": 17123219,
-      "team": "Valmik Nahata",
-      "score": 0.66363,
-      "submissions": 17,
-      "lastSubmission": "2026-10-16T00:29:16.777Z",
       "members": []
     },
     {
@@ -478,11 +478,11 @@
   ],
   "totals": {
     "teams": 52,
-    "submissions": 1847,
+    "submissions": 1854,
     "best": 0.73631,
     "median": 0.60512,
     "p25": 0.25868,
     "p75": 0.69215
   },
-  "fetchedAt": "2026-10-16T00:43:35.668Z"
+  "fetchedAt": "2026-10-16T04:59:56.268Z"
 }
