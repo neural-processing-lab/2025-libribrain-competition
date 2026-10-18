@@ -1,6 +1,6 @@
 {
   "competition": "pnpl-competition-2026-deep",
-  "updatedAt": "2026-10-16T14:12:49.562Z",
+  "updatedAt": "2026-10-18T13:33:38.578Z",
   "metrics": [
     "balacc@10",
     "balacc@1",
@@ -1782,6 +1782,26 @@
       "rank": 89
     },
     {
+      "teamId": 17087690,
+      "team": "Danka Khasanova",
+      "submissions": 1,
+      "scoredSubmissions": 1,
+      "kagglePublicBest": 0.2,
+      "best": {
+        "balacc@10": {
+          "value": 0.2
+        },
+        "balacc@1": {
+          "value": 0.02
+        },
+        "ovmi": {
+          "value": 0
+        }
+      },
+      "lastSubmission": "2026-10-18T10:29:03.387Z",
+      "rank": 90
+    },
+    {
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "submissions": 1,
@@ -1799,7 +1819,7 @@
         }
       },
       "lastSubmission": "2026-09-08T04:17:51.547Z",
-      "rank": 90
+      "rank": 91
     },
     {
       "teamId": 16605715,
@@ -1819,7 +1839,7 @@
         }
       },
       "lastSubmission": "2026-07-28T13:51:08.617Z",
-      "rank": 91
+      "rank": 92
     },
     {
       "teamId": 16726510,
@@ -1839,7 +1859,7 @@
         }
       },
       "lastSubmission": "2026-08-16T19:31:00.720Z",
-      "rank": 92
+      "rank": 93
     },
     {
       "teamId": 16678093,
@@ -1859,7 +1879,7 @@
         }
       },
       "lastSubmission": "2026-08-07T19:34:18.233Z",
-      "rank": 93
+      "rank": 94
     },
     {
       "teamId": 17075059,
@@ -1876,7 +1896,7 @@
         }
       },
       "lastSubmission": "2026-10-10T06:47:19.277Z",
-      "rank": 94
+      "rank": 95
     }
   ]
 }

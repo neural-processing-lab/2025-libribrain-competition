@@ -810,6 +810,15 @@
     },
     {
       "rank": 90,
+      "teamId": 17087690,
+      "team": "Danka Khasanova",
+      "score": 0.2,
+      "submissions": 1,
+      "lastSubmission": "2026-10-18T10:29:03.387Z",
+      "members": []
+    },
+    {
+      "rank": 91,
       "teamId": 16672981,
       "team": "Shriya Patkar",
       "score": 0.195,
@@ -818,7 +827,7 @@
       "members": []
     },
     {
-      "rank": 91,
+      "rank": 92,
       "teamId": 16605715,
       "team": "lavender_lover",
       "score": 0.19058,
@@ -827,7 +836,7 @@
       "members": []
     },
     {
-      "rank": 92,
+      "rank": 93,
       "teamId": 16726510,
       "team": "LizaSheina",
       "score": 0.18799,
@@ -836,7 +845,7 @@
       "members": []
     },
     {
-      "rank": 93,
+      "rank": 94,
       "teamId": 16678093,
       "team": "Viknesh .V",
       "score": 0.16,
@@ -846,12 +855,12 @@
     }
   ],
   "totals": {
-    "teams": 93,
-    "submissions": 4853,
+    "teams": 94,
+    "submissions": 4854,
     "best": 0.81292,
-    "median": 0.65278,
-    "p25": 0.33427,
-    "p75": 0.7148
+    "median": 0.64953,
+    "p25": 0.32181,
+    "p75": 0.71468
   },
-  "fetchedAt": "2026-10-16T14:12:55.875Z"
+  "fetchedAt": "2026-10-18T13:34:26.133Z"
 }
