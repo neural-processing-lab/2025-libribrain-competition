@@ -107,7 +107,6 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
   const [track, setTrack] = useState<EvalTrack>('deep');
   const [file, setFile] = useState<File | null>(null);
   const [dragging, setDragging] = useState(false);
-  const [team, setTeam] = useState('');
   const [email, setEmail] = useState('');
 
   const [phase, setPhase] = useState<Phase>('idle');
@@ -121,7 +120,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
     // per-browser conveniences; the page works without either.
     try {
       const saved = JSON.parse(localStorage.getItem(REMEMBER_KEY) || 'null');
-      if (saved) { setTeam(saved.team || ''); setEmail(saved.email || ''); }
+      if (saved?.email) setEmail(saved.email);
     } catch { /* storage unavailable */ }
     const id = new URLSearchParams(window.location.search).get('id');
     if (id) {
@@ -140,7 +139,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
     setError(null);
     setResult(null);
     try {
-      localStorage.setItem(REMEMBER_KEY, JSON.stringify({ team, email }));
+      localStorage.setItem(REMEMBER_KEY, JSON.stringify({ email }));
     } catch { /* storage unavailable */ }
     try {
       setPhase('compressing');
@@ -152,7 +151,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
       setProgress(0);
       const r = await submitForEvaluation(
         body,
-        { track, team, email },
+        { track, email },
         (f) => { setProgress(f); if (f >= 1) setPhase('scoring'); },
       );
       setResult(r);
@@ -257,17 +256,10 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
               />
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0 1rem' }}>
-              <div style={{ marginBottom: '1.2rem' }}>
-                <label htmlFor="eval-team" style={labelStyle}>Team or display name</label>
-                <input id="eval-team" type="text" required maxLength={60} value={team}
-                  onChange={(e) => setTeam(e.target.value)} placeholder="As on Kaggle, or any name" style={inputStyle} />
-              </div>
-              <div style={{ marginBottom: '1.2rem' }}>
-                <label htmlFor="eval-email" style={labelStyle}>Email</label>
-                <input id="eval-email" type="email" required autoComplete="email" value={email}
-                  onChange={(e) => setEmail(e.target.value)} placeholder="you@example.org" style={inputStyle} />
-              </div>
+            <div style={{ marginBottom: '1.2rem' }}>
+              <label htmlFor="eval-email" style={labelStyle}>Email</label>
+              <input id="eval-email" type="email" required autoComplete="email" value={email}
+                onChange={(e) => setEmail(e.target.value)} placeholder="you@example.org" style={inputStyle} />
             </div>
 
             <button
@@ -313,7 +305,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
             <span style={{ fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', color: TRACK_COLOR[result.track], fontWeight: 700, background: '#fff', border: `1px solid ${BORDER}`, padding: '0.2rem 0.6rem', borderRadius: '999px' }}>
               {TRACK_LABEL[result.track]} Track · {result.split} split
             </span>
-            <h3 style={{ fontSize: '20px', fontWeight: 600, color: INK.primary, margin: '0.8rem 0 0.2rem' }}>{result.team}</h3>
+            <h3 style={{ fontSize: '20px', fontWeight: 600, color: INK.primary, margin: '0.8rem 0 0.2rem' }}>Your scores</h3>
             <p style={{ fontSize: '13px', color: INK.muted, margin: '0 0 1.2rem' }}>
               {fmtDate(result.createdAt)} · {result.scoredRows.toLocaleString('en-GB')} rows scored
               {result.duplicate && ' · identical to an earlier upload'}
@@ -374,7 +366,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
         <pre style={{ fontSize: '12.5px', lineHeight: 1.6, background: '#fff', border: `1px solid ${BORDER}`, borderRadius: '8px', padding: '12px 14px', overflowX: 'auto', margin: 0, color: INK.primary }}>
 {`gzip -k submission.csv
 curl --data-binary @submission.csv.gz \\
-  "${EVAL_API}/api/submissions?track=deep&team=My%20Team&email=me%40example.org"`}
+  "${EVAL_API}/api/submissions?track=deep&email=me%40example.org"`}
         </pre>
       </Card>
     </div>

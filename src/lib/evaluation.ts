@@ -20,7 +20,6 @@ export interface EvalInfo {
 export interface EvalResult {
   id: string;
   track: EvalTrack;
-  team: string;
   createdAt: string;
   split: string;
   scoredRows: number;
@@ -31,7 +30,6 @@ export interface EvalResult {
 
 export interface SubmitFields {
   track: EvalTrack;
-  team: string;
   email: string;
 }
 
@@ -70,7 +68,6 @@ export function submitForEvaluation(
 ): Promise<EvalResult> {
   const params = new URLSearchParams({
     track: fields.track,
-    team: fields.team,
     email: fields.email,
   });
 
