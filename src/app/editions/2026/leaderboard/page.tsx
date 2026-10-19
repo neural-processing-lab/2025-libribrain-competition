@@ -65,6 +65,10 @@ export default function LeaderboardPage2026() {
               Read the full announcement &rarr;
             </Link>
           </div>
+          <p style={{ fontSize: '15px', lineHeight: 1.6, color: '#555', margin: '0 0 2rem' }}>
+            The competition has closed. To score a new model on the public test split, use the{' '}
+            <Link href="/editions/2026/submit/" style={{ color: '#7c3aed', fontWeight: 600 }}>submission page</Link>.
+          </p>
           <LeaderboardView data={data} />
         </EditionLayout>
         <Footer />

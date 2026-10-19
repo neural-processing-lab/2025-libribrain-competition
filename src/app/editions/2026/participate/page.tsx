@@ -38,7 +38,8 @@ export default function ParticipatePage2026() {
                 flexShrink: 0
               }}>Closed</span>
               <span>Submissions closed on <strong>15 October 2026 (AoE)</strong>. We are now verifying top-performing teams &mdash; see the{' '}
-                <Link href="/blog/competition-closed-verification-and-write-ups/">announcement</Link> for how to submit your model for verification. Tutorials and data remain available.</span>
+                <Link href="/blog/competition-closed-verification-and-write-ups/">announcement</Link> for how to submit your model for verification. Tutorials and data remain available, and you can still{' '}
+                <Link href="/editions/2026/submit/">evaluate new submissions</Link> on the public test split.</span>
             </div>
 
             <p>Thank you for taking part! Here&apos;s what the path through the 2026 competition looked like, and what happens next:</p>
@@ -77,10 +78,16 @@ export default function ParticipatePage2026() {
 
             <hr />
 
-            <h3>3. Submit on Kaggle</h3>
+            <h3>3. Submit Your Predictions</h3>
             <p>
               Each track had its own Kaggle competition, open from <strong>15 July</strong> to{' '}
-              <strong>15 October 2026</strong>. Submissions are now closed:
+              <strong>15 October 2026</strong>. Submissions there are now closed, but you can score new
+              predictions on our <Link href="/editions/2026/submit/">submission page</Link>: files in the
+              Kaggle format are scored against the public split of the held-out test set, so you can see how
+              they would have scored.
+            </p>
+            <p>
+              The Kaggle competitions:
             </p>
             <ul>
               <li>

@@ -26,6 +26,7 @@ const navItems2026 = [
   { label: 'Rules', href: '/editions/2026/rules/' },
   { label: 'Participate', href: '/editions/2026/participate/' },
   { label: 'Leaderboard', href: '/editions/2026/leaderboard/' },
+  { label: 'Submit', href: '/editions/2026/submit/' },
   { label: 'Papers', href: '/editions/2026/workshop-papers/' },
   { label: 'Publications', href: '/editions/2026/publications/' },
   { label: 'Organisers', href: '/editions/2026/organisers/' },
