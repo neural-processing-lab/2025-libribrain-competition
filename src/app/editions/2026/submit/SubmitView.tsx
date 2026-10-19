@@ -181,8 +181,8 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
         </p>
         <p style={{ fontSize: '15px', color: INK.secondary, marginBottom: 0 }}>
           Only the <strong>public split</strong> of the test set is scored, the same rows behind the
-          competition&apos;s public leaderboard, so the private split stays untouched. Final competition rankings are
-          not affected by anything submitted here.
+          competition&apos;s public leaderboard. Final competition rankings are not affected by anything submitted
+          here.
         </p>
       </div>
 
@@ -351,8 +351,6 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
               The file is the one you would have uploaded to Kaggle: an <code>index</code> column and one score column
               per vocabulary word, with a row for every test index of the track
               {info ? ` (${info.tracks.deep.rows?.toLocaleString('en-GB')} for Deep, ${info.tracks.broad.rows?.toLocaleString('en-GB')} for Broad)` : ''}.
-              Any <code>moses_*</code> columns are ignored. Plain CSV files are compressed in your browser before
-              upload.
             </p>
           </Card>
         )}
