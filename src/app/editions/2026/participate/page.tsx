@@ -70,10 +70,9 @@ export default function ParticipatePage2026() {
               </li>
             </ul>
             <p style={{ fontSize: '15px', color: '#777' }}>
-              Additional tutorials &mdash; including deeper Track 1/Track 2 walkthroughs and a submission
-              guide &mdash; will be released over the coming weeks. Follow along on{' '}
-              <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer">Discord</a>{' '}
-              for announcements.
+              More notebooks &mdash; including deeper Deep and Broad Track walkthroughs and a submission
+              guide &mdash; are in the{' '}
+              <a href="https://github.com/neural-processing-lab/2025-libribrain-competition/tree/main/static/colabs/2026" target="_blank" rel="noopener noreferrer">competition repository</a>.
             </p>
 
             <hr />
