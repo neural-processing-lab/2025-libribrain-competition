@@ -1,7 +1,7 @@
 // Client for the post-competition evaluation service (libribrain-eval in the
 // competition workspace). The Kaggle tracks have closed; the service scores
 // uploaded submission files against the held-out labels, on the public split
-// only, and keeps an opt-in post-competition leaderboard. Labels never leave it.
+// only, so teams can see how they would have scored. Labels never leave it.
 
 export const EVAL_API = (process.env.NEXT_PUBLIC_EVAL_API ?? 'https://eval.libribrain.com').replace(/\/$/, '');
 
@@ -21,9 +21,6 @@ export interface EvalResult {
   id: string;
   track: EvalTrack;
   team: string;
-  description: string | null;
-  url: string | null;
-  listed: boolean;
   createdAt: string;
   split: string;
   scoredRows: number;
@@ -32,24 +29,10 @@ export interface EvalResult {
   remainingToday?: number;
 }
 
-export interface EvalLeaderboardTeam {
-  rank: number;
-  team: string;
-  metrics: Metrics;
-  description: string | null;
-  url: string | null;
-  submittedAt: string;
-  lastSubmission: string;
-  submissions: number;
-}
-
 export interface SubmitFields {
   track: EvalTrack;
   team: string;
   email: string;
-  listed: boolean;
-  description: string;
-  url: string;
 }
 
 export class EvalApiError extends Error {
@@ -67,8 +50,6 @@ async function getJson<T>(path: string): Promise<T> {
 
 export const fetchEvalInfo = () => getJson<EvalInfo>('/api/info');
 export const fetchEvalResult = (id: string) => getJson<EvalResult>(`/api/submissions/${encodeURIComponent(id)}`);
-export const fetchEvalLeaderboard = (track: EvalTrack) =>
-  getJson<{ teams: EvalLeaderboardTeam[]; split: string }>(`/api/leaderboard/${track}`);
 
 /**
  * Gzips a plain CSV in the browser before upload (submission files compress
@@ -91,10 +72,7 @@ export function submitForEvaluation(
     track: fields.track,
     team: fields.team,
     email: fields.email,
-    listed: fields.listed ? '1' : '0',
   });
-  if (fields.description) params.set('description', fields.description);
-  if (fields.url) params.set('url', fields.url);
 
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();

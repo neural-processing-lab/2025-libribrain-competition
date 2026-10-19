@@ -1,17 +1,15 @@
 'use client';
 
-import { CSSProperties, useCallback, useEffect, useMemo, useState } from 'react';
+import { CSSProperties, useEffect, useState } from 'react';
 import Link from 'next/link';
 import {
   EVAL_API,
   EvalApiError,
   EvalInfo,
-  EvalLeaderboardTeam,
   EvalResult,
   EvalTrack,
   compressForUpload,
   fetchEvalInfo,
-  fetchEvalLeaderboard,
   fetchEvalResult,
   submitForEvaluation,
 } from '../../../../lib/evaluation';
@@ -111,28 +109,14 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
   const [dragging, setDragging] = useState(false);
   const [team, setTeam] = useState('');
   const [email, setEmail] = useState('');
-  const [listed, setListed] = useState(true);
-  const [description, setDescription] = useState('');
-  const [url, setUrl] = useState('');
 
   const [phase, setPhase] = useState<Phase>('idle');
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState<EvalApiError | null>(null);
   const [result, setResult] = useState<EvalResult | null>(null);
 
-  const [boardTrack, setBoardTrack] = useState<EvalTrack>('deep');
-  const [board, setBoard] = useState<Record<EvalTrack, EvalLeaderboardTeam[] | null>>({ deep: null, broad: null });
-
-  const loadBoard = useCallback((t: EvalTrack) => {
-    fetchEvalLeaderboard(t)
-      .then((b) => setBoard((prev) => ({ ...prev, [t]: b.teams })))
-      .catch(() => setBoard((prev) => ({ ...prev, [t]: [] })));
-  }, []);
-
   useEffect(() => {
     fetchEvalInfo().then(setInfo).catch(() => setServiceDown(true));
-    loadBoard('deep');
-    loadBoard('broad');
     // Remembered submitter details and a shared result link (?id=…) are
     // per-browser conveniences; the page works without either.
     try {
@@ -143,7 +127,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
     if (id) {
       fetchEvalResult(id).then((r) => { setResult(r); setTrack(r.track); }).catch(() => {});
     }
-  }, [loadBoard]);
+  }, []);
 
   const busy = phase !== 'idle';
   const accent = TRACK_COLOR[track];
@@ -168,11 +152,10 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
       setProgress(0);
       const r = await submitForEvaluation(
         body,
-        { track, team, email, listed, description, url },
+        { track, team, email },
         (f) => { setProgress(f); if (f >= 1) setPhase('scoring'); },
       );
       setResult(r);
-      if (r.listed) { loadBoard(r.track); setBoardTrack(r.track); }
       // Shareable link to this result.
       window.history.replaceState(null, '', `?id=${r.id}`);
     } catch (err) {
@@ -188,14 +171,6 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
     uploading: `Uploading… ${Math.round(progress * 100)}%`,
     scoring: 'Scoring…',
   };
-
-  const boardRows = board[boardTrack];
-  const boardAccent = TRACK_COLOR[boardTrack];
-  const competitionBest = useMemo(() => {
-    const ref = reference[boardTrack];
-    if (!ref.length) return null;
-    return ref.reduce((a, b) => ((b.best['balacc@10'] ?? -1) > (a.best['balacc@10'] ?? -1) ? b : a));
-  }, [reference, boardTrack]);
 
   return (
     <div style={{ fontSize: '17px', lineHeight: 1.8, color: '#444' }}>
@@ -286,34 +261,14 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
               <div style={{ marginBottom: '1.2rem' }}>
                 <label htmlFor="eval-team" style={labelStyle}>Team or display name</label>
                 <input id="eval-team" type="text" required maxLength={60} value={team}
-                  onChange={(e) => setTeam(e.target.value)} placeholder="Shown if listed" style={inputStyle} />
+                  onChange={(e) => setTeam(e.target.value)} placeholder="As on Kaggle, or any name" style={inputStyle} />
               </div>
               <div style={{ marginBottom: '1.2rem' }}>
                 <label htmlFor="eval-email" style={labelStyle}>Email</label>
                 <input id="eval-email" type="email" required autoComplete="email" value={email}
-                  onChange={(e) => setEmail(e.target.value)} placeholder="Never shown" style={inputStyle} />
+                  onChange={(e) => setEmail(e.target.value)} placeholder="you@example.org" style={inputStyle} />
               </div>
             </div>
-
-            <label style={{ display: 'flex', gap: '0.6rem', alignItems: 'flex-start', fontSize: '14px', lineHeight: 1.5, color: INK.secondary, marginBottom: listed ? '0.9rem' : '1.4rem', cursor: 'pointer' }}>
-              <input type="checkbox" checked={listed} onChange={(e) => setListed(e.target.checked)} style={{ marginTop: '0.25rem', accentColor: accent }} />
-              <span>List this result on the <strong>post-competition leaderboard</strong> below. Your team&apos;s best score is shown.</span>
-            </label>
-
-            {listed && (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0 1rem' }}>
-                <div style={{ marginBottom: '1.2rem' }}>
-                  <label htmlFor="eval-desc" style={labelStyle}>Method <span style={{ fontWeight: 400, color: INK.muted }}>(optional)</span></label>
-                  <input id="eval-desc" type="text" maxLength={200} value={description}
-                    onChange={(e) => setDescription(e.target.value)} placeholder="e.g. Conformer + LM rescoring" style={inputStyle} />
-                </div>
-                <div style={{ marginBottom: '1.2rem' }}>
-                  <label htmlFor="eval-url" style={labelStyle}>Paper or code link <span style={{ fontWeight: 400, color: INK.muted }}>(optional)</span></label>
-                  <input id="eval-url" type="url" maxLength={300} value={url}
-                    onChange={(e) => setUrl(e.target.value)} placeholder="https://…" style={inputStyle} />
-                </div>
-              </div>
-            )}
 
             <button
               type="submit"
@@ -387,8 +342,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
               because Kaggle breaks such ties arbitrarily.
             </p>
             <p style={{ fontSize: '13px', color: INK.muted, margin: 0, lineHeight: 1.6 }}>
-              {result.listed ? 'Listed on the post-competition leaderboard.' : 'Not listed publicly.'}
-              {result.remainingToday != null && ` ${result.remainingToday} submission${result.remainingToday === 1 ? '' : 's'} left on this track today.`}
+              {result.remainingToday != null && `${result.remainingToday} submission${result.remainingToday === 1 ? '' : 's'} left on this track today.`}
               {' '}Result ID <code>{result.id}</code>
             </p>
           </Card>
@@ -414,76 +368,13 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
         )}
       </div>
 
-      {/* ------------------------------------------------- post-competition board */}
-      <Card style={{ marginBottom: '1.5rem' }}>
-        <CardTitle
-          title="Post-competition leaderboard"
-          note="Best opted-in result per team since the competition closed, public split. Separate from the official competition results."
-        />
-        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '14px' }}>
-          {(['deep', 'broad'] as EvalTrack[]).map((t) => (
-            <Pill key={t} active={boardTrack === t} color={TRACK_COLOR[t]} onClick={() => setBoardTrack(t)}>
-              {TRACK_LABEL[t]} Track
-              {board[t] && board[t]!.length > 0 && <span style={{ opacity: 0.75, fontWeight: 400 }}> · {board[t]!.length}</span>}
-            </Pill>
-          ))}
-        </div>
-        {boardRows == null ? (
-          <p style={{ fontSize: '14px', color: INK.muted, margin: 0 }}>Loading…</p>
-        ) : boardRows.length === 0 ? (
-          <p style={{ fontSize: '14px', color: INK.muted, margin: 0 }}>
-            No listed results for the {TRACK_LABEL[boardTrack]} Track yet. Be the first.
-          </p>
-        ) : (
-          <div style={{ overflowX: 'auto' }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px', minWidth: '600px' }}>
-              <thead>
-                <tr style={{ borderBottom: `1px solid ${BORDER}`, background: SURFACE }}>
-                  {['#', 'Team', ...METRICS.map(metricLabel), 'Subs', 'Date'].map((h, i) => (
-                    <th key={h} style={{ padding: '10px 12px', textAlign: i < 2 ? 'left' : 'right', fontSize: '12px', color: h === 'BalAcc@10' ? boardAccent : INK.secondary, fontWeight: 600, whiteSpace: 'nowrap' }}>
-                      {h}{h === 'BalAcc@10' ? ' ↓' : ''}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {boardRows.map((t) => (
-                  <tr key={t.team} style={{ borderBottom: '1px solid #f2f2f5' }}>
-                    <td style={{ padding: '10px 12px', color: t.rank <= 3 ? boardAccent : INK.muted, fontWeight: t.rank <= 3 ? 700 : 400, fontVariantNumeric: 'tabular-nums' }}>{t.rank}</td>
-                    <td style={{ padding: '10px 12px', lineHeight: 1.4 }}>
-                      <div style={{ color: INK.primary, fontWeight: 500 }}>
-                        {t.url ? <a href={t.url} target="_blank" rel="noopener noreferrer nofollow" style={{ color: INK.primary }}>{t.team} ↗</a> : t.team}
-                      </div>
-                      {t.description && <div style={{ fontSize: '12px', color: INK.muted }}>{t.description}</div>}
-                    </td>
-                    {METRICS.map((m) => (
-                      <td key={m} style={{ padding: '10px 12px', textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: m === 'balacc@10' ? 700 : 400, color: INK.primary }}>
-                        {fmt(t.metrics[m])}
-                      </td>
-                    ))}
-                    <td style={{ padding: '10px 12px', textAlign: 'right', color: INK.muted, fontVariantNumeric: 'tabular-nums' }}>{t.submissions}</td>
-                    <td style={{ padding: '10px 12px', textAlign: 'right', color: INK.muted, whiteSpace: 'nowrap' }}>{fmtDate(t.submittedAt)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
-        {competitionBest && (
-          <p style={{ fontSize: '13px', color: INK.muted, margin: '12px 0 0' }}>
-            For reference: the best public BalAcc@10 during the competition was{' '}
-            <strong style={{ color: INK.secondary }}>{fmt(competitionBest.best['balacc@10'])}</strong> ({competitionBest.team}).
-          </p>
-        )}
-      </Card>
-
       {/* ----------------------------------------------------- command line */}
       <Card style={{ background: SURFACE }}>
         <CardTitle title="Submitting from the command line" note="Handy for large Broad files or scripted evaluation. The response is JSON with the scores." />
         <pre style={{ fontSize: '12.5px', lineHeight: 1.6, background: '#fff', border: `1px solid ${BORDER}`, borderRadius: '8px', padding: '12px 14px', overflowX: 'auto', margin: 0, color: INK.primary }}>
 {`gzip -k submission.csv
 curl --data-binary @submission.csv.gz \\
-  "${EVAL_API}/api/submissions?track=deep&team=My%20Team&email=me%40example.org&listed=0"`}
+  "${EVAL_API}/api/submissions?track=deep&team=My%20Team&email=me%40example.org"`}
         </pre>
       </Card>
     </div>
