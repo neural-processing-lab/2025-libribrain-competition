@@ -1,14 +1,17 @@
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 import EditionLayout from '../../../components/EditionLayout';
+import Link from 'next/link';
 
 const timeline = [
   { phase: 'Soft Launch – Resources & Tutorials Open', dates: 'July 2026', status: 'complete' },
-  { phase: 'Submissions Open', dates: '15 Jul 2026', status: 'upcoming' },
-  { phase: 'Competition Phase – Word Classification', dates: '15 Jul – 15 Oct 2026 (AoE)', status: 'upcoming' },
-  { phase: 'Submission Deadline', dates: '15 Oct 2026 (AoE)', status: 'upcoming' },
-  { phase: 'Verification & Winners Announced', dates: 'After the deadline (TBA)', status: 'upcoming' },
-  { phase: 'Workshop & Final Awards', dates: 'TBA', status: 'upcoming' },
+  { phase: 'Submissions Open', dates: '15 Jul 2026', status: 'complete' },
+  { phase: 'Competition Phase – Word Classification', dates: '15 Jul – 15 Oct 2026 (AoE)', status: 'complete' },
+  { phase: 'Submission Deadline', dates: '15 Oct 2026 (AoE)', status: 'complete' },
+  { phase: 'Tell Us You Plan to Submit for Verification', dates: 'By 23 Oct 2026', status: 'upcoming' },
+  { phase: 'Checkpoints & Code Due for Verification', dates: 'By 30 Oct 2026', status: 'upcoming' },
+  { phase: 'Final Standings, Winners & Prizes Announced', dates: 'By 1 Dec 2026', status: 'upcoming' },
+  { phase: 'Workshop Write-ups Due', dates: '1 Dec 2026', status: 'upcoming' },
 ];
 
 export default function TimelinePage2026() {
@@ -19,9 +22,10 @@ export default function TimelinePage2026() {
         <EditionLayout year="2026" title="Timeline" subtitle="Key dates for the 2026 PNPL Competition">
           <div style={{ fontSize: '17px', lineHeight: 1.8, color: '#444' }}>
             <p style={{ marginBottom: '2rem' }}>
-              Resources and tutorials are <strong>available now</strong> so you can start experimenting.{' '}
-              <strong>Submissions open on 15 July 2026</strong> and the competition runs for three months,
-              closing on <strong>15 October 2026 (Anywhere on Earth)</strong>.
+              The competition ran for three months, from <strong>15 July</strong> to{' '}
+              <strong>15 October 2026 (Anywhere on Earth)</strong>. Submissions are now closed and we are
+              verifying top-performing teams before confirming the final standings.{' '}
+              <Link href="/blog/competition-closed-verification-and-write-ups/" style={{ color: '#7c3aed', textDecoration: 'none', fontWeight: 600 }}>Read the announcement &rarr;</Link>
             </p>
 
             <div style={{ margin: '0 0 2rem 0' }}>
@@ -67,8 +71,9 @@ export default function TimelinePage2026() {
               fontSize: '15px',
               color: '#555'
             }}>
-              Post-deadline verification and workshop dates will be confirmed as they are finalised. Deadline
-              reminders and any changes are announced on our{' '}
+              If you need more time for verification materials or your write-up, email{' '}
+              <a href="mailto:libribrain@robots.ox.ac.uk" style={{ color: '#7c3aed', textDecoration: 'none', fontWeight: 600 }}>libribrain@robots.ox.ac.uk</a>.
+              Reminders and any changes are announced on our{' '}
               <a href="https://libribrain.com/links/discord" target="_blank" rel="noopener noreferrer" style={{ color: '#7c3aed', textDecoration: 'none', fontWeight: 600 }}>Discord</a>.
             </div>
           </div>

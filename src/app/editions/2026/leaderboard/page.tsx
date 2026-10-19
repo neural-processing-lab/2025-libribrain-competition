@@ -18,8 +18,30 @@ export default function LeaderboardPage2026() {
         <EditionLayout
           year="2026"
           title="Leaderboard"
-          subtitle="Live standings from the Kaggle public leaderboards"
+          subtitle="Final public standings from the Kaggle leaderboards"
         >
+          <div style={{
+            background: '#faf8ff',
+            border: '1px solid rgba(124,58,237,0.15)',
+            borderRadius: '8px',
+            padding: '0.75rem 1rem',
+            marginBottom: '2rem',
+            fontSize: '14px',
+            lineHeight: 1.55,
+            color: '#4c1d95'
+          }}>
+            <strong>Submissions have closed.</strong> These are the public leaderboard standings. Final rankings use a
+            separate holdout set and are subject to verification, and Kaggle&apos;s private leaderboard is not the final
+            outcome. We aim to announce the winners by 1 December 2026.{' '}
+            <Link href="/blog/competition-closed-verification-and-write-ups/" style={{
+              color: '#7c3aed',
+              fontWeight: 600,
+              textDecoration: 'none',
+              whiteSpace: 'nowrap'
+            }}>
+              Verification details &rarr;
+            </Link>
+          </div>
           <div style={{
             background: '#fffbeb',
             border: '1px solid #fde68a',

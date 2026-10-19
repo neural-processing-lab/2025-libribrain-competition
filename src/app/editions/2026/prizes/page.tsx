@@ -47,8 +47,9 @@ export default function PrizesPage2026() {
             <hr />
 
             <p>
-              Full prize amounts will be published before submissions open. For reference, see the{' '}
-              <Link href="/editions/2025/prizes/">2025 winners</Link>.
+              We aim to announce the final standings, winners and prizes by <strong>1 December 2026</strong>{' '}
+              (see the <Link href="/blog/competition-closed-verification-and-write-ups/">announcement</Link>).
+              For reference, see the <Link href="/editions/2025/prizes/">2025 winners</Link>.
             </p>
           </div>
         </EditionLayout>

@@ -10,7 +10,7 @@ export default function ParticipatePage2026() {
     <>
       <Navigation />
       <main style={{ color: '#0a0a0a', background: '#fff' }}>
-        <EditionLayout year="2026" title="Participate" subtitle="Get started with the 2026 competition">
+        <EditionLayout year="2026" title="Participate" subtitle="How the 2026 competition works">
           <div className="prose-custom">
             <div style={{
               background: 'repeating-linear-gradient(45deg, #faf8ff, #faf8ff 10px, #f3eeff 10px, #f3eeff 20px)',
@@ -36,11 +36,12 @@ export default function ParticipatePage2026() {
                 letterSpacing: '0.08em',
                 textTransform: 'uppercase',
                 flexShrink: 0
-              }}>Now Open</span>
-              <span>Tutorials and data are live so you can start now. Submissions open <strong>15 July 2026</strong> and close <strong>15 October 2026 (AoE)</strong>. More tutorial material is on the way.</span>
+              }}>Closed</span>
+              <span>Submissions closed on <strong>15 October 2026 (AoE)</strong>. We are now verifying top-performing teams &mdash; see the{' '}
+                <Link href="/blog/competition-closed-verification-and-write-ups/">announcement</Link> for how to submit your model for verification. Tutorials and data remain available.</span>
             </div>
 
-            <p>We&apos;re excited for you to get started! Here&apos;s what your path through the 2026 competition looks like:</p>
+            <p>Thank you for taking part! Here&apos;s what the path through the 2026 competition looked like, and what happens next:</p>
 
             <hr />
 
@@ -79,8 +80,8 @@ export default function ParticipatePage2026() {
 
             <h3>3. Submit on Kaggle</h3>
             <p>
-              Each track has its own Kaggle competition. Submissions open on <strong>15 July 2026</strong>{' '}
-              &mdash; you may enter either or both:
+              Each track had its own Kaggle competition, open from <strong>15 July</strong> to{' '}
+              <strong>15 October 2026</strong>. Submissions are now closed:
             </p>
             <ul>
               <li>
@@ -90,19 +91,28 @@ export default function ParticipatePage2026() {
                 <a href="https://www.kaggle.com/competitions/pnpl-competition-2026-broad/" target="_blank" rel="noopener noreferrer"><strong>Track 2 &mdash; Broad</strong></a>
               </li>
             </ul>
-            <p>To submit:</p>
-            <ol>
-              <li>Create an account on <a href="https://www.kaggle.com/" target="_blank" rel="noopener noreferrer">Kaggle</a> if you don&apos;t already have one.</li>
-              <li>Open the track page(s) above and <strong>accept the competition rules</strong> &mdash; you won&apos;t be able to submit until you do.</li>
-              <li>Upload your submission file via the <em>Submit Predictions</em> button.</li>
-            </ol>
 
             <hr />
 
             <h3>4. Check Performance on the Leaderboard</h3>
             <p>
-              Track your standing and compare against other teams on the{' '}
-              <Link href="/editions/2026/leaderboard/">2026 leaderboard</Link>.
+              See the final public standings on the{' '}
+              <Link href="/editions/2026/leaderboard/">2026 leaderboard</Link>. Final rankings use a separate
+              holdout set and are subject to verification.
+            </p>
+
+            <hr />
+
+            <h3>5. Verification and Write-ups</h3>
+            <p>
+              To be considered for prizes, or to have your score verified, email{' '}
+              <a href="mailto:libribrain@robots.ox.ac.uk">libribrain@robots.ox.ac.uk</a> with your Kaggle team
+              name, username(s) and track(s) by <strong>23 October 2026</strong>, and send your checkpoints
+              (and, for the Broad Track, your training code) by <strong>30 October 2026</strong>. Invited teams
+              and teams in the public top 20 can also submit a{' '}
+              <Link href="/editions/2026/workshop-papers/">workshop write-up</Link> by{' '}
+              <strong>1 December 2026</strong>. Full details are in the{' '}
+              <Link href="/blog/competition-closed-verification-and-write-ups/">announcement</Link>.
             </p>
 
             <hr />

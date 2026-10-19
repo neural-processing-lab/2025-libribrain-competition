@@ -35,12 +35,12 @@ const faqSections = [
     title: 'Timeline & Deadlines',
     items: [
       {
-        q: 'When does the competition run?',
-        a: 'Resources and our first tutorial are available now (soft launch). Submissions open on 15 July 2026 and close on 15 October 2026, Anywhere on Earth (AoE) — a three-month window.',
+        q: 'When did the competition run?',
+        a: 'Submissions were open from 15 July 2026 to 15 October 2026, Anywhere on Earth (AoE) — a three-month window. Submissions are now closed.',
       },
       {
-        q: 'Can I start now, before submissions open?',
-        a: 'Yes. The data and the intro tutorial are already live, so you can explore the dataset and start building a model before submissions open on 15 July. More tutorial material will follow over the coming weeks.',
+        q: 'What happens now that submissions have closed?',
+        a: 'We are verifying top-performing teams before confirming the final standings. If you would like to be considered for prizes or have your score verified, email libribrain@robots.ox.ac.uk with your Kaggle team name, username(s) and track(s) by 23 October 2026, and send your checkpoints and code by 30 October 2026. We aim to announce the final standings, winners and prizes by 1 December 2026.',
       },
     ],
   },
@@ -86,24 +86,20 @@ const faqSections = [
     title: 'Submissions & Prizes',
     items: [
       {
-        q: 'Where do I submit?',
-        a: 'Each track has its own Kaggle competition — pnpl-competition-2026-deep and pnpl-competition-2026-broad. Create a Kaggle account, accept the competition rules on the relevant track page, and upload your submission via Submit Predictions. Submissions open 15 July 2026.',
+        q: 'Where were submissions made?',
+        a: 'Each track had its own Kaggle competition — pnpl-competition-2026-deep and pnpl-competition-2026-broad. Both closed on 15 October 2026.',
       },
       {
         q: 'How will final rankings be determined?',
-        a: 'All final rankings are determined on independent holdout data that participants cannot access, recorded with stimuli entirely different from anything released — ensuring fairness and preventing data leakage.',
+        a: 'All final rankings are determined on independent holdout data that participants cannot access, recorded with stimuli entirely different from anything released — ensuring fairness and preventing data leakage. The private leaderboard Kaggle displays is a useful indication, but it is separate from our verification and prize process and is not the final outcome.',
       },
       {
         q: 'What prizes are available?',
-        a: 'The top 3 confirmed teams per track win prizes, provided they beat the reference baselines. Each team may win prize money only once across the competition. Prize amounts and baseline values will be announced ahead of the submission window.',
+        a: 'The top 3 confirmed teams per track win prizes, provided they beat the reference baselines. Each team may win prize money only once across the competition. Final standings, winners and prizes will be announced by 1 December 2026.',
       },
       {
         q: 'How are winners verified?',
-        a: 'After the deadline, all top-ranking teams are asked to provide runnable model checkpoints, and we may ask specific teams for their training code, so we can verify no cheating took place. The top 3 confirmed teams per track are declared the winners.',
-      },
-      {
-        q: 'Are there submission limits?',
-        a: 'Submission limits (per day and in total) are shown on each Kaggle competition page.',
+        a: 'Deep Track teams provide the trained model checkpoint behind their submission (training code is highly encouraged, and we may ask for it). Broad Track teams must provide both the checkpoint and the training code. Send files to libribrain@robots.ox.ac.uk, share a download link, or invite the GitHub user gereonelvers to your repository. The top 3 confirmed teams per track are declared the winners.',
       },
     ],
   },

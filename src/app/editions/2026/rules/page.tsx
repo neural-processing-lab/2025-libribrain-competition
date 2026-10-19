@@ -103,7 +103,9 @@ export default function RulesPage2026() {
             </p>
             <p>
               The top 3 teams per track whose submissions are confirmed through this process will be
-              declared the winners.
+              declared the winners. See the{' '}
+              <Link href="/blog/competition-closed-verification-and-write-ups/">verification announcement</Link>{' '}
+              for what to send and by when.
             </p>
 
             <hr />

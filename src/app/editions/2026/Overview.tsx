@@ -25,7 +25,7 @@ export default function Edition2026Overview() {
       <main style={{ color: '#0a0a0a', background: '#fff' }}>
         <EditionLayout year="2026" title="PNPL Competition 2026" subtitle="Word Classification from MEG Brain Recordings">
 
-          {/* Coming soon banner */}
+          {/* Status banner */}
           <div style={{
             background: 'linear-gradient(135deg, #1e1b4b 0%, #4c1d95 100%)',
             borderRadius: '10px',
@@ -45,14 +45,14 @@ export default function Edition2026Overview() {
             <div style={{ position: 'relative', zIndex: 1 }}>
               <div style={{ marginBottom: '0.8rem' }}>
                 <span style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-                  Now open &middot; Submissions 15 Jul 2026
+                  Submissions closed &middot; Verification underway
                 </span>
               </div>
               <p style={{ margin: '0 0 1rem 0', fontSize: '16px', opacity: 0.85, lineHeight: 1.6 }}>
-                The PNPL Competition is back. Our resources and first tutorial are <strong>live now</strong> so you can start experimenting today &mdash; submissions open <strong>15 July</strong> and close <strong>15 October 2026 (AoE)</strong>.
+                Thank you to everyone who took part! Submissions closed on <strong>15 October 2026</strong>. We are now verifying top-performing teams and aim to announce the final standings, winners and prizes by <strong>1 December 2026</strong>. If you&apos;d like your team to be considered, email <a href="mailto:libribrain@robots.ox.ac.uk" style={{ color: '#fff' }}>libribrain@robots.ox.ac.uk</a> by <strong>23 October</strong>.
               </p>
               <div style={{ display: 'flex', gap: '0.7rem', flexWrap: 'wrap' }}>
-                <Link href="/editions/2026/participate/" style={{
+                <Link href="/blog/competition-closed-verification-and-write-ups/" style={{
                   fontSize: '13px',
                   color: '#1e1b4b',
                   textDecoration: 'none',
@@ -61,9 +61,9 @@ export default function Edition2026Overview() {
                   borderRadius: '6px',
                   fontWeight: 600
                 }}>
-                  Get Started &rarr;
+                  Read the Announcement &rarr;
                 </Link>
-                <Link href="/editions/2026/tracks/" style={{
+                <Link href="/editions/2026/leaderboard/" style={{
                   fontSize: '13px',
                   color: '#fff',
                   textDecoration: 'none',
@@ -73,7 +73,7 @@ export default function Edition2026Overview() {
                   borderRadius: '6px',
                   fontWeight: 500
                 }}>
-                  View Task
+                  Leaderboard
                 </Link>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function Edition2026Overview() {
 
           <div style={{ fontSize: '17px', lineHeight: 1.8, color: '#444' }}>
             <p>
-              The <strong>2026 PNPL Competition</strong> builds on the success of our inaugural year with a more ambitious task and a significantly expanded dataset. This year, participants will tackle <strong>Word Classification</strong> &mdash; predicting which word a subject is hearing from MEG brain recordings.
+              The <strong>2026 PNPL Competition</strong> builds on the success of our inaugural year with a more ambitious task and a significantly expanded dataset. This year, participants tackled <strong>Word Classification</strong> &mdash; predicting which word a subject is hearing from MEG brain recordings.
             </p>
 
             <h2 style={{ fontSize: '24px', fontWeight: 700, margin: '2.5rem 0 1rem', color: '#0a0a0a' }}>
@@ -98,7 +98,7 @@ export default function Edition2026Overview() {
                 { title: 'New Task', desc: 'Word Classification — decode which of 50 words a subject is hearing from MEG data' },
                 { title: 'New Dataset', desc: 'Introducing the new LibriBrain100 dataset, now with over 100 hours of MEG data' },
                 { title: 'Two Tracks', desc: 'Go Deep on a single subject or Broad across 32 — enter either or both' },
-                { title: 'Three Months', desc: 'Submissions run 15 July – 15 October 2026 (Anywhere on Earth).' },
+                { title: 'Three Months', desc: 'Submissions ran 15 July – 15 October 2026 (Anywhere on Earth).' },
               ].map(item => (
                 <div key={item.title} style={{
                   padding: '1.5rem',

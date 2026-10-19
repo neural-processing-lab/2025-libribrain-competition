@@ -103,7 +103,7 @@ export default function Navigation() {
             </Link>
           ))}
           <Link
-            href="/editions/2026/participate/"
+            href="/editions/2026/leaderboard/"
             className="nav-button"
             style={{
               fontSize: 'clamp(10px, 1.8vw, 12px)',
@@ -120,7 +120,7 @@ export default function Navigation() {
               transition: 'all 0.3s ease'
             }}
           >
-            Participate
+            Leaderboard
           </Link>
         </div>
       </div>

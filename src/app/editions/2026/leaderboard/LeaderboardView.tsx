@@ -83,6 +83,7 @@ export default function LeaderboardView({ data }: { data: LeaderboardData }) {
   const hasTeams = (m: MetricsLeaderboard | null) => !!m && m.teams.length > 0;
   const anyData = hasTeams(data.metrics.deep) || hasTeams(data.metrics.broad);
 
+  const closed = mounted && Date.now() >= Date.parse(DEADLINE);
   const daysLeft = mounted ? Math.max(0, Math.ceil((Date.parse(DEADLINE) - Date.now()) / 86_400_000)) : null;
 
   // Which metrics actually have scores (drives the selector).
@@ -172,7 +173,9 @@ export default function LeaderboardView({ data }: { data: LeaderboardData }) {
             <Stat value={stats?.best != null ? stats.best.toFixed(3) : '—'} label={`Best ${metricLabel(activeMetric)}`} color={accent} />
             <Stat value={fmtInt(stats?.teams ?? 0)} label="Teams" />
             <Stat value={fmtInt(stats?.submissions ?? 0)} label="Submissions" />
-            <Stat value={daysLeft != null ? String(daysLeft) : '—'} label="Days remaining" />
+            {closed
+              ? <Stat value="Closed" label="Submissions" />
+              : <Stat value={daysLeft != null ? String(daysLeft) : '—'} label="Days remaining" />}
           </div>
 
           {/* Metric selector */}
@@ -212,7 +215,7 @@ export default function LeaderboardView({ data }: { data: LeaderboardData }) {
                 <strong>BalAcc@10</strong> is Kaggle&apos;s official public score, shown here exactly as Kaggle
                 reports it. <strong>BalAcc@1</strong> (strict top-1) and <strong>OVMI</strong> (the information a
                 decoder recovers over the vocabulary) are computed by us from the submitted files, on the same{' '}
-                <strong>public split</strong> — final placements use the private split, revealed after the deadline.
+                <strong>public split</strong> — final placements use a separate holdout set and are confirmed through verification.
               </p>
               <p style={{ margin: 0, color: INK.muted, fontSize: '13px' }}>
                 Updated {mounted && metrics ? new Date(metrics.updatedAt).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' }) : '…'} ·{' '}
