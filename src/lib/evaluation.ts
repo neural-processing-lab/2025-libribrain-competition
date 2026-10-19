@@ -3,7 +3,7 @@
 // uploaded submission files against the held-out labels, on the public split
 // only, so teams can see how they would have scored. Labels never leave it.
 
-export const EVAL_API = (process.env.NEXT_PUBLIC_EVAL_API ?? 'https://eval.libribrain.com').replace(/\/$/, '');
+export const EVAL_API = (process.env.NEXT_PUBLIC_EVAL_API ?? 'https://libribrain-eval-production.up.railway.app').replace(/\/$/, '');
 
 export type EvalTrack = 'deep' | 'broad';
 export type Metrics = Record<string, number | null>;
