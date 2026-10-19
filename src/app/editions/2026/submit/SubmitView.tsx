@@ -329,9 +329,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
               })}
             </div>
             <p style={{ fontSize: '13px', color: INK.secondary, lineHeight: 1.6, margin: '0 0 0.6rem' }}>
-              Ranks compare against each competition team&apos;s best public-split score. BalAcc@10 can differ from
-              Kaggle&apos;s by a few thousandths when several words share a probability at the top-10 boundary,
-              because Kaggle breaks such ties arbitrarily.
+              Ranks compare against each competition team&apos;s best public-split score.
             </p>
             <p style={{ fontSize: '13px', color: INK.muted, margin: 0, lineHeight: 1.6 }}>
               {result.remainingToday != null && `${result.remainingToday} submission${result.remainingToday === 1 ? '' : 's'} left on this track today.`}
