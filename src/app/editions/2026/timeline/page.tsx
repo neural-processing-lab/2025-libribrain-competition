@@ -8,8 +8,7 @@ const timeline = [
   { phase: 'Submissions Open', dates: '15 Jul 2026', status: 'complete' },
   { phase: 'Competition Phase – Word Classification', dates: '15 Jul – 15 Oct 2026 (AoE)', status: 'complete' },
   { phase: 'Submission Deadline', dates: '15 Oct 2026 (AoE)', status: 'complete' },
-  { phase: 'Tell Us You Plan to Submit for Verification', dates: 'By 23 Oct 2026', status: 'upcoming' },
-  { phase: 'Checkpoints & Code Due for Verification', dates: 'By 30 Oct 2026', status: 'upcoming' },
+  { phase: 'Verification – Contact Us and Send Checkpoints & Code', dates: 'By 30 Oct 2026', status: 'upcoming' },
   { phase: 'Final Standings, Winners & Prizes Announced', dates: 'By 1 Dec 2026', status: 'upcoming' },
   { phase: 'Workshop Write-ups Due', dates: '1 Dec 2026', status: 'upcoming' },
 ];

@@ -106,8 +106,8 @@ export default function ParticipatePage2026() {
             <p>
               To be considered for prizes, or to have your score verified, email{' '}
               <a href="mailto:libribrain@robots.ox.ac.uk">libribrain@robots.ox.ac.uk</a> with your Kaggle team
-              name, username(s) and track(s) by <strong>23 October 2026</strong>, and send your checkpoints
-              (and, for the Broad Track, your training code) by <strong>30 October 2026</strong>. Invited teams
+              name, username(s) and track(s), and send your checkpoints (and, for the Broad Track, your
+              training code) by <strong>30 October 2026</strong>. Invited teams
               and teams in the public top 20 can also submit a{' '}
               <Link href="/editions/2026/workshop-papers/">workshop write-up</Link> by{' '}
               <strong>1 December 2026</strong>. Full details are in the{' '}

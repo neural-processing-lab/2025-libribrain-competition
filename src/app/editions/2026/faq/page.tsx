@@ -40,7 +40,7 @@ const faqSections = [
       },
       {
         q: 'What happens now that submissions have closed?',
-        a: 'We are verifying top-performing teams before confirming the final standings. If you would like to be considered for prizes or have your score verified, email libribrain@robots.ox.ac.uk with your Kaggle team name, username(s) and track(s) by 23 October 2026, and send your checkpoints and code by 30 October 2026. We aim to announce the final standings, winners and prizes by 1 December 2026.',
+        a: 'We are verifying top-performing teams before confirming the final standings. If you would like to be considered for prizes or have your score verified, email libribrain@robots.ox.ac.uk with your Kaggle team name, username(s) and track(s), and send your checkpoints and code by 30 October 2026. We aim to announce the final standings, winners and prizes by 1 December 2026.',
       },
     ],
   },
