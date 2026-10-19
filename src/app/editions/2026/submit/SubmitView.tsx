@@ -257,8 +257,8 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
             </div>
 
             <div style={{ marginBottom: '1.2rem' }}>
-              <label htmlFor="eval-email" style={labelStyle}>Email</label>
-              <input id="eval-email" type="email" required autoComplete="email" value={email}
+              <label htmlFor="eval-email" style={labelStyle}>Email <span style={{ fontWeight: 400, color: INK.muted }}>(optional)</span></label>
+              <input id="eval-email" type="email" autoComplete="email" value={email}
                 onChange={(e) => setEmail(e.target.value)} placeholder="you@example.org" style={inputStyle} />
             </div>
 
@@ -279,12 +279,10 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
             >
               {phaseLabel[phase]}
             </button>
-            {info && (
-              <p style={{ fontSize: '13px', color: INK.muted, margin: '0.8rem 0 0', lineHeight: 1.5 }}>
-                Up to {info.dailyLimit} submissions per track per 24 hours. Re-uploading an identical file returns
-                the earlier result and does not count.
-              </p>
-            )}
+            <p style={{ fontSize: '13px', color: INK.muted, margin: '0.8rem 0 0', lineHeight: 1.5 }}>
+              Submissions are limited per day and track. Re-uploading an identical file returns the earlier
+              result and does not count.
+            </p>
 
             {error && (
               <div role="alert" style={{ marginTop: '1.2rem', fontSize: '14px', lineHeight: 1.6, color: '#8a2d2d', background: '#fdf3f3', border: '1px solid #f3c9c9', borderRadius: '6px', padding: '0.8rem 1rem' }}>
@@ -362,7 +360,7 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
         <pre style={{ fontSize: '12.5px', lineHeight: 1.6, background: '#fff', border: `1px solid ${BORDER}`, borderRadius: '8px', padding: '12px 14px', overflowX: 'auto', margin: 0, color: INK.primary }}>
 {`gzip -k submission.csv
 curl --data-binary @submission.csv.gz \\
-  "${EVAL_API}/api/submissions?track=deep&email=me%40example.org"`}
+  "${EVAL_API}/api/submissions?track=deep"`}
         </pre>
       </Card>
     </div>

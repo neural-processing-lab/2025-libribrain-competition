@@ -68,8 +68,8 @@ export function submitForEvaluation(
 ): Promise<EvalResult> {
   const params = new URLSearchParams({
     track: fields.track,
-    email: fields.email,
   });
+  if (fields.email) params.set('email', fields.email);
 
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
