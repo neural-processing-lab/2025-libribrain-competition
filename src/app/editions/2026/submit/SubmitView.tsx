@@ -173,18 +173,10 @@ export default function SubmitView({ reference }: { reference: Record<EvalTrack,
 
   return (
     <div style={{ fontSize: '17px', lineHeight: 1.8, color: '#444' }}>
-      <div style={{ marginBottom: '2rem' }}>
-        <p style={{ marginTop: 0 }}>
-          The 2026 Kaggle competitions have closed, but the benchmark stays open. Upload predictions for either
-          track and they are scored against the held-out labels straight away, with the same metrics as the{' '}
-          <Link href="/editions/2026/leaderboard/">competition leaderboard</Link>.
-        </p>
-        <p style={{ fontSize: '15px', color: INK.secondary, marginBottom: 0 }}>
-          Only the <strong>public split</strong> of the test set is scored, the same rows behind the
-          competition&apos;s public leaderboard. Final competition rankings are not affected by anything submitted
-          here.
-        </p>
-      </div>
+      <p style={{ margin: '0 0 2rem' }}>
+        The Kaggle competitions have closed, but you can still see how a submission would have scored on the{' '}
+        <Link href="/editions/2026/leaderboard/">public leaderboard</Link>.
+      </p>
 
       {serviceDown && (
         <Card style={{ background: '#fdf3f3', border: '1px solid #f3c9c9', color: '#8a2d2d', fontSize: '15px', marginBottom: '1.5rem' }}>
