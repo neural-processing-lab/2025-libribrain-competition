@@ -49,7 +49,7 @@ export default function Edition2026Overview() {
                 </span>
               </div>
               <p style={{ margin: '0 0 1rem 0', fontSize: '16px', opacity: 0.85, lineHeight: 1.6 }}>
-                Thank you to everyone who took part! Submissions closed on <strong>15 October 2026</strong>. We are now verifying top-performing teams and aim to announce the final standings, winners and prizes by <strong>1 December 2026</strong>. If you&apos;d like your team to be considered, email <a href="mailto:libribrain@robots.ox.ac.uk" style={{ color: '#fff' }}>libribrain@robots.ox.ac.uk</a> by <strong>23 October</strong>.
+                Thank you to everyone who took part! Submissions closed on <strong>15 October 2026</strong>. We are now verifying top-performing teams and aim to announce the final standings, winners and prizes by <strong>1 December 2026</strong>. If you&apos;d like your team to be considered, email <a href="mailto:libribrain@robots.ox.ac.uk" style={{ color: '#fff' }}>libribrain@robots.ox.ac.uk</a> by <strong>30 October</strong>.
               </p>
               <div style={{ display: 'flex', gap: '0.7rem', flexWrap: 'wrap' }}>
                 <Link href="/blog/competition-closed-verification-and-write-ups/" style={{
