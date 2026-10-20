@@ -1,7 +1,7 @@
 ---
-title: "Competition Closed: Verification and Workshop Write-ups"
+title: "Competition Closed: Verification and Write-ups"
 date: 2026-10-19T00:00:00Z
-description: "Submissions to the 2026 PNPL Competition have closed. We are now verifying top-performing teams before confirming the final standings, and inviting workshop write-ups."
+description: "Submissions to the 2026 PNPL Competition have closed. We are now verifying top-performing teams before confirming the final standings, and inviting write-ups that we plan to host on the competition website."
 authors: ["PNPL Organising Team"]
 tags: ["competition", "announcement", "2026", "deep-track", "broad-track"]
 ---
@@ -26,8 +26,10 @@ Kaggle will display the private leaderboard within the next week. It will give a
 - **By 23 October 2026:** please let us know whether you plan to submit for verification. If we have not heard from you by then, we will start proactively contacting teams further down the leaderboard.
 - **By 30 October 2026:** please send your checkpoints and code as outlined above. Let us know if you need more time.
 - **By 1 December 2026:** we aim to announce the final standings, winners and prizes.
-- **By 1 December 2026:** please submit your workshop write-up if you would like to contribute one. Let us know if you need more time.
+- **By 1 December 2026:** please submit your write-up if you would like to contribute one. Let us know if you need more time.
 
 ### Showcase your work
 
-Invited teams and any team in the public leaderboard's top 20 are welcome to submit a workshop write-up to showcase their work. Write-ups can be up to six pages, excluding references and appendices, and must use the 2026 PNPL Competition LaTeX template. The [workshop papers page](/editions/2026/workshop-papers/) has the template and links to last year's examples. We will read every submission and include write-ups on the competition website, but there is no formal peer-review process. These are non-archival write-ups, not formal publications, so you remain free to post your work on arXiv or submit it to other workshops or conferences.
+Invited teams and any team in the public leaderboard's top 20 are welcome to submit a write-up to showcase their work. Write-ups can be up to six pages, excluding references and appendices, and must use the 2026 PNPL Competition LaTeX template. The [papers page](/editions/2026/workshop-papers/) has the template and links to last year's examples.
+
+We plan to host submitted write-ups on the competition website, as a way for teams to receive credit for their work and as a useful resource for the community going forward. We will read every submission and apply light quality control: if we spot any issues, we will get back to the authors and give them the chance to address them. There is no formal peer review, and these are not formal publications, so you are free to submit the same work to arXiv, workshops, conferences or other competitions without restriction.

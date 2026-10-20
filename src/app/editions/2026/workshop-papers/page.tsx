@@ -11,8 +11,8 @@ export default function WorkshopPapersPage2026() {
       <main style={{ color: '#0a0a0a', background: '#fff' }}>
         <EditionLayout year="2026" title="Papers" subtitle="Paper template and submitted write-ups">
           <div className="prose-custom">
-            <p>Teams we invite based on their competition results, as well as any team placing in the top 20 on the public leaderboard, can submit a paper describing their approach. Papers are up to six pages, excluding references and appendices, and must use the 2026 PNPL Competition LaTeX template below.</p>
-            <p>The write-ups are a chance to showcase your work. We will publish submitted papers on this website, but this does not count as a formal publication, so you remain free to submit the same work to arXiv or to other workshops and conferences. We will read through each submission, but there is no formal peer-review process.</p>
+            <p>Teams we invite based on their competition results, as well as any team placing in the top 20 on the public leaderboard, can submit a write-up describing their approach. Write-ups are up to six pages, excluding references and appendices, and must use the 2026 PNPL Competition LaTeX template below.</p>
+            <p>We plan to host submitted write-ups here on the competition website, as a way for teams to receive credit for their work and as a useful resource for the community going forward. We read every submission and apply light quality control: if we spot any issues, we will get back to the authors and give them the chance to address them. There is no formal peer review, and hosting a write-up here is not a formal publication, so you are free to submit the same work to arXiv, workshops, conferences or other competitions without restriction.</p>
             <p><strong>Deadline: 1 December 2026.</strong> If you need more time, let us know at <a href="mailto:libribrain@robots.ox.ac.uk">libribrain@robots.ox.ac.uk</a>.</p>
 
             <div style={{
@@ -30,7 +30,7 @@ export default function WorkshopPapersPage2026() {
               </p>
             </div>
 
-            <p>Submitted papers will be listed here. See the <Link href="/editions/2025/workshop-papers/">2025 workshop papers</Link> for examples of past submissions.</p>
+            <p>Submitted write-ups will be listed here. See the <Link href="/editions/2025/workshop-papers/">2025 workshop papers</Link> for examples of past submissions.</p>
           </div>
         </EditionLayout>
         <Footer />

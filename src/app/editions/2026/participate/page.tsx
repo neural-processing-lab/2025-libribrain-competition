@@ -116,7 +116,8 @@ export default function ParticipatePage2026() {
               name, username(s) and track(s), and send your checkpoints (and, for the Broad Track, your
               training code) by <strong>30 October 2026</strong>. Invited teams
               and teams in the public top 20 can also submit a{' '}
-              <Link href="/editions/2026/workshop-papers/">workshop write-up</Link> by{' '}
+              <Link href="/editions/2026/workshop-papers/">write-up</Link> of their approach, which we plan to host on
+              this website, by{' '}
               <strong>1 December 2026</strong>. Full details are in the{' '}
               <Link href="/blog/competition-closed-verification-and-write-ups/">announcement</Link>.
             </p>

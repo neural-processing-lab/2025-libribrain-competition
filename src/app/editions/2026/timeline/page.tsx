@@ -10,7 +10,7 @@ const timeline = [
   { phase: 'Submission Deadline', dates: '15 Oct 2026 (AoE)', status: 'complete' },
   { phase: 'Verification – Contact Us and Send Checkpoints & Code', dates: 'By 30 Oct 2026', status: 'upcoming' },
   { phase: 'Final Standings, Winners & Prizes Announced', dates: 'By 1 Dec 2026', status: 'upcoming' },
-  { phase: 'Workshop Write-ups Due', dates: '1 Dec 2026', status: 'upcoming' },
+  { phase: 'Write-ups Due', dates: '1 Dec 2026', status: 'upcoming' },
 ];
 
 export default function TimelinePage2026() {
