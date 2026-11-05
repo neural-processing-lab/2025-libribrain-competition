@@ -45,14 +45,14 @@ export default function Edition2026Overview() {
             <div style={{ position: 'relative', zIndex: 1 }}>
               <div style={{ marginBottom: '0.8rem' }}>
                 <span style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-                  Submissions closed &middot; Verification underway
+                  Timing shortcut review &middot; Verification re-opened
                 </span>
               </div>
               <p style={{ margin: '0 0 1rem 0', fontSize: '16px', opacity: 0.85, lineHeight: 1.6 }}>
-                Thank you to everyone who took part! Submissions closed on <strong>15 October 2026</strong>. We are now verifying top-performing teams and aim to announce the final standings, winners and prizes by <strong>1 December 2026</strong>. If you&apos;d like your team to be considered, email <a href="mailto:libribrain@robots.ox.ac.uk" style={{ color: '#fff' }}>libribrain@robots.ox.ac.uk</a> by <strong>30 October</strong>.
+                A <strong>timing shortcut</strong> may have contributed to many high-scoring submissions. Teams who want a second, brain-decoding model assessed, or who haven&apos;t yet submitted for verification, can email <a href="mailto:libribrain@robots.ox.ac.uk" style={{ color: '#fff' }}>libribrain@robots.ox.ac.uk</a> by <strong>15 November 2026 (AoE)</strong>. We still aim to announce winners by <strong>1 December 2026</strong>.
               </p>
               <div style={{ display: 'flex', gap: '0.7rem', flexWrap: 'wrap' }}>
-                <Link href="/blog/competition-closed-verification-and-write-ups/" style={{
+                <Link href="/blog/timing-shortcut-review-and-reopened-verification/" style={{
                   fontSize: '13px',
                   color: '#1e1b4b',
                   textDecoration: 'none',
